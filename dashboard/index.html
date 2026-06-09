@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive assessment of ASCO 2026 cancer-care advances, evidence, cost, safety and India access.">
+  <title>ASCO 2026 | Cancer Care Impact Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">A26</div>
+        <div>
+          <p class="eyebrow">Evidence intelligence</p>
+          <h1>ASCO Impact</h1>
+        </div>
+      </div>
+
+      <nav aria-label="Dashboard sections">
+        <button class="nav-item active" data-view="overview">
+          <span class="nav-icon">01</span><span>Portfolio overview</span>
+        </button>
+        <button class="nav-item" data-view="treatments">
+          <span class="nav-icon">02</span><span>Treatment explorer</span>
+        </button>
+        <button class="nav-item" data-view="india">
+          <span class="nav-icon">03</span><span>India access & cost</span>
+        </button>
+        <button class="nav-item" data-view="systems">
+          <span class="nav-icon">04</span><span>Technology & equity</span>
+        </button>
+        <button class="nav-item" data-view="followup">
+          <span class="nav-icon">05</span><span>ASCO 2025 follow-up</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-note">
+        <span class="status-dot"></span>
+        <div>
+          <strong>Research snapshot</strong>
+          <p>Prepared 9 June 2026</p>
+        </div>
+      </div>
+      <a class="report-link" href="../ASCO_2026_Advances_Impact_Assessment.docx">Open detailed report</a>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Advancements, growth, technology and impact</p>
+          <h2 id="view-title">Portfolio overview</h2>
+        </div>
+        <div class="topbar-actions">
+          <label class="search-box">
+            <span class="sr-only">Search treatments</span>
+            <input id="global-search" type="search" placeholder="Search therapy, company, cancer...">
+            <kbd>⌘ K</kbd>
+          </label>
+          <button id="methodology-button" class="button secondary">Rating guide</button>
+        </div>
+      </header>
+
+      <section id="overview" class="view active" aria-labelledby="view-title">
+        <div class="hero">
+          <div>
+            <p class="eyebrow light">Executive signal</p>
+            <h3>Cancer care is advancing through better selection, selective intensification and lower treatment burden.</h3>
+            <p>Phase III efficacy signals are emerging alongside de-escalation, personalized manufacturing and AI-enabled care delivery. The adoption test remains benefit versus toxicity, cost, complexity and unequal access.</p>
+          </div>
+          <div class="hero-orbit" aria-hidden="true">
+            <div class="orbit-ring ring-one"></div>
+            <div class="orbit-ring ring-two"></div>
+            <div class="orbit-core">9<br><span>signals</span></div>
+          </div>
+        </div>
+
+        <div id="metric-grid" class="metric-grid"></div>
+
+        <div class="dashboard-grid">
+          <article class="panel span-7">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Evidence-to-impact map</p>
+                <h3>Portfolio maturity</h3>
+              </div>
+              <span class="microcopy">Bubble size reflects indicative impact</span>
+            </div>
+            <div id="evidence-map" class="evidence-map"></div>
+          </article>
+
+          <article class="panel span-5">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Decision lens</p>
+                <h3>What changes first?</h3>
+              </div>
+            </div>
+            <div id="priority-list" class="priority-list"></div>
+          </article>
+
+          <article class="panel span-12">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Cross-portfolio comparison</p>
+                <h3>Measured value and constraints</h3>
+              </div>
+              <button class="text-button" data-go-view="treatments">Explore all treatments →</button>
+            </div>
+            <div id="signal-table" class="table-wrap"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="treatments" class="view" aria-labelledby="view-title">
+        <div class="filter-bar">
+          <label>Cancer type
+            <select id="cancer-filter"><option value="all">All cancer types</option></select>
+          </label>
+          <label>Evidence
+            <select id="phase-filter"><option value="all">All phases</option></select>
+          </label>
+          <label>Impact
+            <select id="impact-filter"><option value="all">All impact levels</option></select>
+          </label>
+          <label>India status
+            <select id="india-filter">
+              <option value="all">All access states</option>
+              <option value="available">Available / marketed</option>
+              <option value="limited">Import / trial access</option>
+              <option value="not-launched">Not launched</option>
+            </select>
+          </label>
+          <button id="clear-filters" class="button secondary">Reset</button>
+        </div>
+        <div class="results-line"><strong id="result-count">0</strong> advances shown <span>Select up to three for direct comparison.</span></div>
+        <div id="treatment-grid" class="treatment-grid"></div>
+      </section>
+
+      <section id="india" class="view" aria-labelledby="view-title">
+        <div class="india-intro">
+          <div>
+            <p class="eyebrow">Commercialization lens</p>
+            <h3>India availability is indication-specific.</h3>
+            <p>A product may be marketed in India while the ASCO study regimen remains off-label or investigational. Converted US prices are shown only as context and are not Indian market prices.</p>
+          </div>
+          <div class="exchange-card">
+            <span>Illustrative conversion used</span>
+            <strong>₹95.4 / US$</strong>
+            <small>June 2026 reference</small>
+          </div>
+        </div>
+        <div id="india-metrics" class="metric-grid compact"></div>
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Access, price and launch</p>
+              <h3>India commercialization tracker</h3>
+            </div>
+            <span class="microcopy">Prices are gross references, not patient out-of-pocket costs</span>
+          </div>
+          <div id="india-table" class="table-wrap india-table"></div>
+        </article>
+      </section>
+
+      <section id="systems" class="view" aria-labelledby="view-title">
+        <div id="technology-grid" class="technology-grid"></div>
+        <div class="dashboard-grid">
+          <article class="panel span-7">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Implementation gap</p>
+                <h3>Operational performance vs clinical proof</h3>
+              </div>
+            </div>
+            <div id="technology-bars" class="technology-bars"></div>
+          </article>
+          <article class="panel span-5">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Global oncology</p>
+                <h3>Equity and system capacity</h3>
+              </div>
+            </div>
+            <div class="equity-stack">
+              <div class="equity-card brazil">
+                <span>Brazil · prostate cancer</span>
+                <strong>670,205</strong>
+                <p>men treated in the public system; racial differences persisted in stage, local treatment and recorded expenditure.</p>
+              </div>
+              <div class="equity-card kyrgyzstan">
+                <span>Kyrgyzstan · cancer burden</span>
+                <strong>+21.6%</strong>
+                <p>increase in reported new cases from 2020 to 2024, increasing pressure on diagnostics and treatment capacity.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="followup" class="view" aria-labelledby="view-title">
+        <div class="followup-hero">
+          <div>
+            <p class="eyebrow light">One year later · status at 9 June 2026</p>
+            <h3>Which ASCO 2025 signals actually moved forward?</h3>
+            <p>This selected tracker follows major practice-shaping molecules and regimens from ASCO 2025 through publication, guidelines, regulatory review and approval. A positive conference result is not counted as adoption until a later milestone is verified.</p>
+          </div>
+          <div class="followup-stamp">
+            <strong id="followup-program-count">0</strong><span>programs tracked</span>
+            <small>Selected, not exhaustive</small>
+          </div>
+        </div>
+
+        <div id="followup-metrics" class="metric-grid"></div>
+
+        <div class="filter-bar followup-filters">
+          <label>Current pathway
+            <select id="followup-status-filter">
+              <option value="all">All pathways</option>
+              <option value="approved">Regulatory approval</option>
+              <option value="review">Under regulatory review</option>
+              <option value="guideline">Guideline / practice signal</option>
+              <option value="development">Ongoing development</option>
+            </select>
+          </label>
+          <label>Disease area
+            <select id="followup-cancer-filter"><option value="all">All disease areas</option></select>
+          </label>
+          <button id="reset-followup" class="button secondary">Reset</button>
+          <div class="followup-legend">
+            <span><i class="legend-dot approved"></i>Approved</span>
+            <span><i class="legend-dot review"></i>Review</span>
+            <span><i class="legend-dot guideline"></i>Guideline</span>
+            <span><i class="legend-dot development"></i>Development</span>
+          </div>
+        </div>
+
+        <div class="dashboard-grid">
+          <article class="panel span-12">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Program register</p>
+                <h3>Evidence, regulation and next catalyst</h3>
+              </div>
+              <span class="microcopy">Open any dossier for trial design, safety and regional status</span>
+            </div>
+            <div id="followup-register" class="table-wrap"></div>
+          </article>
+
+          <article class="panel span-12">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Conference-to-care narratives</p>
+                <h3>What happened after the presentation?</h3>
+              </div>
+              <span class="microcopy">Dates are verified public milestones</span>
+            </div>
+            <div id="followup-grid" class="followup-grid"></div>
+          </article>
+
+          <article class="panel span-7">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">What the year changed</p>
+                <h3>Follow-through assessment</h3>
+              </div>
+            </div>
+            <div id="followup-lessons" class="followup-lessons"></div>
+          </article>
+
+          <article class="panel span-5">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Method</p>
+                <h3>How status was assigned</h3>
+              </div>
+            </div>
+            <div class="method-list">
+              <p><strong>Approved</strong> means a regulator has authorized the ASCO regimen and population.</p>
+              <p><strong>Under review</strong> means a formal application or positive committee opinion is verified, but final authorization may still be pending.</p>
+              <p><strong>Guideline signal</strong> means clinical use may advance before a new label, but regulatory and reimbursement status can differ.</p>
+              <p><strong>Ongoing development</strong> includes publication, follow-up or further trials without verified approval for the studied use.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="compare-tray" class="compare-tray" aria-live="polite">
+    <div><strong>Compare</strong><span id="compare-names">Select treatments</span></div>
+    <div>
+      <button id="clear-compare" class="button ghost">Clear</button>
+      <button id="open-compare" class="button primary" disabled>Compare selected</button>
+    </div>
+  </div>
+
+  <dialog id="detail-dialog" class="modal">
+    <button class="modal-close" data-close-dialog aria-label="Close">×</button>
+    <div id="detail-content"></div>
+  </dialog>
+
+  <dialog id="compare-dialog" class="modal wide">
+    <button class="modal-close" data-close-dialog aria-label="Close">×</button>
+    <div id="compare-content"></div>
+  </dialog>
+
+  <dialog id="methodology-dialog" class="modal">
+    <button class="modal-close" data-close-dialog aria-label="Close">×</button>
+    <div class="modal-header">
+      <p class="eyebrow">Interpretation framework</p>
+      <h2>What the impact categories mean</h2>
+      <p>Ratings summarize evidence strength and practical meaning. They do not replace regulatory approval, guidelines or clinical judgment.</p>
+    </div>
+    <div id="rating-guide" class="rating-guide"></div>
+  </dialog>
+
+  <dialog id="followup-dialog" class="modal wide">
+    <button class="modal-close" data-close-dialog aria-label="Close">×</button>
+    <div id="followup-detail-content"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
