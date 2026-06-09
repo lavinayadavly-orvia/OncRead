@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">OncTree icon</title>
+  <desc id="desc">Connected decision-tree nodes for oncology evidence navigation.</desc>
+  <rect width="512" height="512" rx="112" fill="#F5FAFC"/>
+  <circle cx="256" cy="252" r="182" fill="none" stroke="#DCEEF1" stroke-width="14"/>
+  <path d="M256 360V250" fill="none" stroke="#071A4A" stroke-width="32" stroke-linecap="round"/>
+  <path d="M256 250L166 168" fill="none" stroke="#071A4A" stroke-width="27" stroke-linecap="round"/>
+  <path d="M256 250V136" fill="none" stroke="#0896A6" stroke-width="27" stroke-linecap="round"/>
+  <path d="M256 250L346 168" fill="none" stroke="#0896A6" stroke-width="27" stroke-linecap="round"/>
+  <path d="M256 302H178" fill="none" stroke="#071A4A" stroke-width="22" stroke-linecap="round"/>
+  <path d="M256 302H334" fill="none" stroke="#0896A6" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="256" cy="360" r="31" fill="#071A4A"/>
+  <circle cx="166" cy="168" r="29" fill="#FFFFFF" stroke="#071A4A" stroke-width="15"/>
+  <circle cx="256" cy="136" r="29" fill="#FFFFFF" stroke="#0896A6" stroke-width="15"/>
+  <circle cx="346" cy="168" r="29" fill="#FFFFFF" stroke="#0896A6" stroke-width="15"/>
+  <circle cx="178" cy="302" r="25" fill="#FFFFFF" stroke="#071A4A" stroke-width="14"/>
+  <circle cx="334" cy="302" r="25" fill="#FFFFFF" stroke="#0896A6" stroke-width="14"/>
+  <path d="M182 400C216 420 296 420 330 400" fill="none" stroke="#36B37E" stroke-width="17" stroke-linecap="round"/>
+</svg>
