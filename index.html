@@ -36,13 +36,16 @@
         <button class="nav-item" data-view="followup">
           <span class="nav-icon">05</span><span>ASCO 2025 follow-up</span>
         </button>
+        <button class="nav-item" data-view="watchlist">
+          <span class="nav-icon">06</span><span>Watchlist & systems</span>
+        </button>
       </nav>
 
       <div class="sidebar-note">
         <span class="status-dot"></span>
         <div>
           <strong>Research snapshot</strong>
-          <p>Prepared 9 June 2026</p>
+          <p>Prepared 15 June 2026</p>
         </div>
       </div>
       <a class="report-link" href="ASCO_2026_Advances_Impact_Assessment.docx">Open detailed report</a>
@@ -282,6 +285,68 @@
           </article>
         </div>
       </section>
+
+      <section id="watchlist" class="view" aria-labelledby="view-title">
+        <div class="followup-hero watchlist-hero">
+          <div>
+            <p class="eyebrow light">Open-ended weekly review · updated 15 June 2026</p>
+            <h3>Material developments that do not fit the treatment cards need their own lane.</h3>
+            <p>This watchlist tracks important conference-only signals, negative screening evidence, surgery-sparing strategies and system-capacity findings that could change oncology decisions but should not be overstated as routine-care adoption.</p>
+          </div>
+          <div class="followup-stamp">
+            <strong id="watchlist-count">0</strong><span>signals tracked</span>
+            <small>Conference-only and system-level items clearly labeled</small>
+          </div>
+        </div>
+
+        <div id="watchlist-metrics" class="metric-grid"></div>
+
+        <div class="filter-bar followup-filters">
+          <label>Signal type
+            <select id="watchlist-type-filter">
+              <option value="all">All signal types</option>
+            </select>
+          </label>
+          <label>Evidence state
+            <select id="watchlist-status-filter">
+              <option value="all">All evidence states</option>
+              <option value="conference">Conference-only</option>
+              <option value="negative">Negative or cautionary</option>
+              <option value="systems">System-level report</option>
+            </select>
+          </label>
+          <button id="reset-watchlist" class="button secondary">Reset</button>
+          <div class="followup-legend">
+            <span><i class="legend-dot review"></i>Conference-only</span>
+            <span><i class="legend-dot development"></i>Negative or cautionary</span>
+            <span><i class="legend-dot approved"></i>System-level report</span>
+          </div>
+        </div>
+
+        <div class="dashboard-grid">
+          <article class="panel span-12">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Decision register</p>
+                <h3>Why these signals matter even without a full product launch or new label</h3>
+              </div>
+              <span class="microcopy">Each entry states what could change, who is affected and what is still missing</span>
+            </div>
+            <div id="watchlist-register" class="table-wrap"></div>
+          </article>
+
+          <article class="panel span-12">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Dossiers</p>
+                <h3>Conference-only and system-level evidence with explicit caution</h3>
+              </div>
+              <span class="microcopy">Use these cards when taxonomy would otherwise force a misleading fit</span>
+            </div>
+            <div id="watchlist-grid" class="followup-grid"></div>
+          </article>
+        </div>
+      </section>
     </main>
   </div>
 
@@ -316,6 +381,11 @@
   <dialog id="followup-dialog" class="modal wide">
     <button class="modal-close" data-close-dialog aria-label="Close">×</button>
     <div id="followup-detail-content"></div>
+  </dialog>
+
+  <dialog id="watchlist-dialog" class="modal wide">
+    <button class="modal-close" data-close-dialog aria-label="Close">×</button>
+    <div id="watchlist-detail-content"></div>
   </dialog>
 
   <script src="app.js"></script>

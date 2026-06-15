@@ -312,12 +312,128 @@ const followupDetails = {
 
 asco2025Followup.forEach(item => Object.assign(item, followupDetails[item.id]));
 
+const watchlistSignals = [
+  {
+    id: "optima",
+    title: "OPTIMA genomic de-escalation",
+    short: "OPTIMA",
+    category: "De-escalation",
+    status: "conference",
+    statusLabel: "Conference-only",
+    geography: "UK-led international",
+    date: "29 May 2026",
+    cancer: "Breast cancer",
+    issue: "Prosigna 50-gene assay to omit adjuvant chemotherapy",
+    organization: "UCL + University of Glasgow + Veracyte",
+    population: "4,429 adults aged 40+ with hormone-sensitive early breast cancer after surgery",
+    comparator: "Usual chemotherapy plus endocrine therapy vs assay-guided chemotherapy omission in low-score patients",
+    endpoint: "Five-year cancer-free survival / noninferiority",
+    effect: "Conference coverage reported 94.9% vs 93.7% five-year cancer-free survival in the low-score comparison, supporting noninferiority of omitting chemotherapy.",
+    whyMatters: "This is a high-volume overtreatment question. If the signal holds in the abstract and later publication, many patients could avoid chemotherapy toxicity without materially worsening recurrence outcomes.",
+    whoAffected: "Patients with hormone-positive early breast cancer, clinicians deciding adjuvant therapy intensity, and payers deciding genomic-test coverage.",
+    decisionImpact: "Whether multigene testing should be used more broadly to justify skipping chemotherapy in lower-risk disease.",
+    evidenceStrength: "Randomized international study with thousands of participants and direct patient-level treatment de-escalation relevance.",
+    limitations: "The direct ASCO abstract or peer-reviewed paper was not retrieved in this pass. Current representation relies on conference coverage and investigator statements, so exact subgroup definitions and statistical reporting still need primary-source capture.",
+    indiaImpact: "Potentially important where chemotherapy burden, fertility concerns and capacity constraints are high, but assay access and reimbursement in India were not verified.",
+    cost: "No official India reimbursement or pricing was verified.",
+    nextMilestone: "Capture the ASCO/JCO abstract or publication and watch for guideline uptake.",
+    verification: "Cross-checked across multiple conference-coverage reports. Primary abstract capture remains pending.",
+    source: "https://www.theguardian.com/society/2026/may/29/groundbreaking-genomic-test-spare-breast-cancer-patients-chemotherapy-hormone-therapy",
+    secondarySource: "https://www.theguardian.com/society/2026/may/29/breast-cancer-chemotherapy-genomic-test-case-study"
+  },
+  {
+    id: "galleri",
+    title: "Galleri-NHS negative screening signal",
+    short: "Galleri-NHS",
+    category: "Screening",
+    status: "negative",
+    statusLabel: "Negative trial",
+    geography: "United Kingdom",
+    date: "30 May 2026",
+    cancer: "Multiple cancers",
+    issue: "Galleri MCED blood test added to routine screening",
+    organization: "NHS England + GRAIL",
+    population: "142,942 asymptomatic adults aged 50-77 in a randomized NHS study",
+    comparator: "Standard screening alone vs standard screening plus annual MCED testing",
+    endpoint: "Reduction in late-stage cancer diagnoses",
+    effect: "Conference coverage reported no statistically significant reduction in the combined stage III-IV primary endpoint, although stage IV diagnoses alone reportedly fell by 14%.",
+    whyMatters: "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public.",
+    whoAffected: "Asymptomatic adults considering direct-pay testing, screening policymakers, and systems evaluating MCED procurement.",
+    decisionImpact: "Whether MCED testing has enough evidence for population-scale implementation before mortality data mature.",
+    evidenceStrength: "Very large randomized implementation study with direct policy relevance.",
+    limitations: "The direct abstract or full paper was not retrieved in this pass. Mortality outcomes remain pending, and the stage-shift secondary findings need full primary-source review before broader conclusions are drawn.",
+    indiaImpact: "Strong argument against routine rollout or aggressive marketing of MCED testing without proven patient-outcome benefit in local policy contexts.",
+    cost: "No official India pricing or government procurement pathway was verified.",
+    nextMilestone: "Capture the full abstract/publication and eventual mortality results.",
+    verification: "Negative primary-endpoint framing was cross-checked across conference coverage and stakeholder statements. Primary abstract capture remains pending.",
+    source: "https://www.theguardian.com/science/2026/may/30/trial-of-multi-cancer-blood-test-among-142000-nhs-patients-fails-to-meet-main-aim",
+    secondarySource: "https://www.businessinsider.com/multi-cancer-blood-test-does-grail-galleri-work-to-spot-cancer-early-2026-5"
+  },
+  {
+    id: "bladder-preservation",
+    title: "Durvalumab bladder-preservation signal",
+    short: "Durvalumab CRT",
+    category: "Surgery / RT",
+    status: "conference",
+    statusLabel: "Conference-only",
+    geography: "United Kingdom",
+    date: "2 June 2026",
+    cancer: "Bladder cancer",
+    issue: "Durvalumab added to chemoradiotherapy to avoid cystectomy",
+    organization: "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
+    population: "54 patients with aggressive or muscle-invasive bladder cancer in a phase II study",
+    comparator: "Single-arm study against historical chemoradiotherapy experience",
+    endpoint: "One-year recurrence-free outcome with bladder preservation",
+    effect: "Conference coverage reported 46 of 54 patients (85%) without recurrence at one year, versus about 60% in prior chemoradiotherapy studies without immunotherapy.",
+    whyMatters: "For some patients, avoiding radical cystectomy changes daily function and quality of life as much as it changes tumor control. This is a distinctly patient-centered oncology development, not just another drug signal.",
+    whoAffected: "Patients eligible for bladder-preserving treatment, multidisciplinary uro-oncology teams, and radiotherapy programs.",
+    decisionImpact: "Whether this approach should stay investigational, expand in trial networks, or influence future bladder-preservation standards.",
+    evidenceStrength: "Meaningful early efficacy in a high-burden setting with direct quality-of-life implications.",
+    limitations: "Conference-only phase II data with no randomized control captured in this pass. The result is hypothesis-strengthening, not yet label- or guideline-defining.",
+    indiaImpact: "Conceptually important where radical surgery has major quality-of-life consequences, but durvalumab cost and exact study-use access remain major barriers.",
+    cost: "Durvalumab is marketed in India, but no official price update or bladder-preservation indication was verified in this pass.",
+    nextMilestone: "Retrieve the direct abstract and monitor for comparative confirmation or guideline discussion.",
+    verification: "Cross-checked across conference coverage and investigator statements. Direct abstract capture remains pending.",
+    source: "https://www.theguardian.com/science/2026/jun/02/drug-bladder-cancer-life-changing-surgery-durvalumab",
+    secondarySource: "https://www.thetimes.com/uk/healthcare/article/treatment-bladder-cancer-tracey-emin-52ttgmzr5"
+  },
+  {
+    id: "workforce",
+    title: "Global oncology workforce warning",
+    short: "Workforce 2050",
+    category: "Workforce",
+    status: "systems",
+    statusLabel: "Systems report",
+    geography: "Global",
+    date: "31 May 2026",
+    cancer: "All cancers",
+    issue: "Projected cancer-care workforce shortfall",
+    organization: "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
+    population: "Global oncology systems, especially countries with diagnostic and nursing shortages",
+    comparator: "2025 baseline capacity vs 2050 projected incidence and staffing needs",
+    endpoint: "Projected staffing gap, incidence and avoidable-death scenarios",
+    effect: "Conference coverage reported a 21% rise in cancer incidence by 2050, more than 35 million annual cases, and a projected 100 million cancer-care worker shortfall, including about 65 million nurses and 16 million diagnostic staff.",
+    whyMatters: "Therapeutic progress is not enough if systems cannot diagnose, staff infusion units, read scans, deliver radiotherapy or provide palliative care. This directly affects real-world access and survival.",
+    whoAffected: "Health ministries, hospital networks, pathology/radiology training pipelines, and patients in both LMIC and high-income settings.",
+    decisionImpact: "Whether countries invest earlier in workforce planning, task-shifting, digital tools and diagnostic capacity instead of treating access failures as downstream surprises.",
+    evidenceStrength: "Large-scale system modeling and commission-style analysis with direct care-delivery relevance.",
+    limitations: "This is a projection, not an intervention trial. The full Lancet text was not retrieved in this pass, so country-level assumptions and model sensitivity need direct review before more granular claims are made.",
+    indiaImpact: "Highly relevant for oncology manpower, pathology, radiology and geographic access planning.",
+    cost: "Not applicable.",
+    nextMilestone: "Retrieve the full report and map implications to India-specific workforce and infrastructure gaps.",
+    verification: "Conference coverage linked the finding to a Lancet report, but full primary-text capture remains pending.",
+    source: "https://www.theguardian.com/society/2026/may/31/world-cancer-workforce-crisis-100m-staff-shortfall-report",
+    secondarySource: "https://www.theguardian.com/science/2026/jun/06/new-weapons-war-on-cancer-asco-conference-takeaways"
+  }
+];
+
 const viewTitles = {
   overview: "Portfolio overview",
   treatments: "Treatment explorer",
   india: "India access & cost",
   systems: "Technology & equity",
-  followup: "ASCO 2025 follow-up"
+  followup: "ASCO 2025 follow-up",
+  watchlist: "Watchlist & systems"
 };
 
 const state = { view: "overview", selected: [], search: "" };
@@ -603,6 +719,114 @@ function renderFollowupLessons() {
   ).join("");
 }
 
+function renderWatchlistMetrics() {
+  const primaryPending = watchlistSignals.filter(item => item.verification.includes("pending")).length;
+  const conference = watchlistSignals.filter(item => item.status === "conference").length;
+  const cautionary = watchlistSignals.filter(item => item.status === "negative").length;
+  $("#watchlist-metrics").innerHTML = [
+    [watchlistSignals.length, "Material signals added", "Explicitly outside the routine treatment cards", "", "WL"],
+    [conference, "Conference-only", "Important but not yet fully matured", "blue", "C"],
+    [cautionary, "Negative or cautionary", "Non-adoption is also a decision", "coral", "!"],
+    [primaryPending, "Primary capture pending", "Direct abstract or full report still needed", "gold", "P"]
+  ].map(([value, label, note, tone, icon]) => metricCard(value, label, note, tone, icon)).join("");
+  $("#watchlist-count").textContent = watchlistSignals.length;
+}
+
+function populateWatchlistFilters() {
+  const categories = [...new Set(watchlistSignals.map(item => item.category))].sort();
+  $("#watchlist-type-filter").insertAdjacentHTML("beforeend", categories.map(category => `<option value="${category}">${category}</option>`).join(""));
+}
+
+function filteredWatchlist() {
+  const type = $("#watchlist-type-filter").value;
+  const status = $("#watchlist-status-filter").value;
+  return watchlistSignals.filter(item =>
+    (type === "all" || item.category === type) &&
+    (status === "all" || item.status === status)
+  );
+}
+
+function renderWatchlist() {
+  const statusColors = {
+    conference: ["#3f70d8", "#eaf0ff"],
+    negative: ["#d15f49", "#fff0eb"],
+    systems: ["#007f7b", "#dff3ef"]
+  };
+  const data = filteredWatchlist();
+  $("#watchlist-grid").innerHTML = data.length ? data.map(item => {
+    const [color, background] = statusColors[item.status];
+    return `<article class="followup-card" style="--status-color:${color};--status-bg:${background}">
+      <div class="followup-card-top">
+        <div><span class="cancer-tag">${item.category} · ${item.date}</span><h4>${item.title}</h4><p class="company">${item.organization}</p></div>
+        <span class="status-chip">${item.statusLabel}</span>
+      </div>
+      <div class="milestone-path">
+        <div class="milestone"><span>What happened</span><strong>${item.issue}</strong></div>
+        <div class="path-arrow">→</div>
+        <div class="milestone"><span>Why it matters</span><strong>${item.decisionImpact}</strong></div>
+      </div>
+      <p class="followup-assessment">${item.whyMatters}</p>
+      <div class="followup-links">
+        <button class="dossier-button" data-watchlist-detail="${item.id}">Open full note</button>
+        <a href="${item.source}" target="_blank" rel="noreferrer">Source ↗</a>
+        ${item.secondarySource ? `<a href="${item.secondarySource}" target="_blank" rel="noreferrer">Secondary check ↗</a>` : ""}
+      </div>
+    </article>`;
+  }).join("") : `<div class="empty-state">No watchlist signals match these filters.</div>`;
+  renderWatchlistRegister(data);
+}
+
+function renderWatchlistRegister(data = filteredWatchlist()) {
+  $("#watchlist-register").innerHTML = `<table>
+    <thead><tr><th>Signal</th><th>Population / geography</th><th>Observed effect</th><th>Decision change</th><th>India relevance</th><th></th></tr></thead>
+    <tbody>${data.map(item => `<tr>
+      <td class="register-program"><strong>${item.title}</strong><span>${item.category} · ${item.statusLabel}</span></td>
+      <td>${item.population}<br><span class="price-note">${item.geography}</span></td>
+      <td class="register-effect"><strong>${item.endpoint}</strong><span>${item.effect}</span></td>
+      <td>${item.decisionImpact}</td>
+      <td>${item.indiaImpact}</td>
+      <td><button class="dossier-button" data-watchlist-detail="${item.id}">Detail</button></td>
+    </tr>`).join("")}</tbody>
+  </table>`;
+}
+
+function openWatchlistDetail(id) {
+  const item = watchlistSignals.find(entry => entry.id === id);
+  const sourceLinks = [
+    ["Source", item.source],
+    item.secondarySource ? ["Secondary check", item.secondarySource] : null
+  ].filter(Boolean);
+  $("#watchlist-detail-content").innerHTML = `
+    <div class="dossier-summary">
+      <p class="eyebrow">${item.category} · ${item.date}</p>
+      <h2>${item.title}</h2>
+      <p>${item.organization}</p>
+      <div class="dossier-status-row"><span>${item.statusLabel}</span><span>${item.cancer}</span><span>${item.geography}</span></div>
+    </div>
+    <div class="modal-body">
+      <div class="dossier-grid">
+        ${dossierField("Issue", item.issue)}
+        ${dossierField("Population / sample", item.population)}
+        ${dossierField("Comparator", item.comparator)}
+        ${dossierField("Endpoint or decision test", item.endpoint)}
+        ${dossierField("Observed effect", item.effect, "wide")}
+        ${dossierField("Why it matters to care", item.whyMatters, "wide")}
+        ${dossierField("Who and where it affects", item.whoAffected, "wide")}
+        ${dossierField("What decision could change", item.decisionImpact, "wide")}
+        ${dossierField("Evidence strength", item.evidenceStrength)}
+        ${dossierField("Current limitation", item.limitations, "wide")}
+        ${dossierField("India relevance", item.indiaImpact, "wide")}
+        ${dossierField("Cost / procurement", item.cost)}
+        ${dossierField("Next verification milestone", item.nextMilestone)}
+        ${dossierField("Verification note", item.verification, "full")}
+      </div>
+      <div class="evidence-ledger"><h3>Source ledger</h3>
+        ${sourceLinks.map(([label, url]) => `<a href="${url}" target="_blank" rel="noreferrer">${label}: ${url} ↗</a>`).join("")}
+      </div>
+    </div>`;
+  $("#watchlist-dialog").showModal();
+}
+
 function showView(view) {
   state.view = view;
   $$(".view").forEach(el => el.classList.toggle("active", el.id === view));
@@ -682,12 +906,14 @@ function bindEvents() {
     const compareButton = event.target.closest("[data-compare]");
     const closeButton = event.target.closest("[data-close-dialog]");
     const followupDetail = event.target.closest("[data-followup-detail]");
+    const watchlistDetail = event.target.closest("[data-watchlist-detail]");
     if (viewButton) showView(viewButton.dataset.view);
     if (goButton) showView(goButton.dataset.goView);
     if (detailButton) openDetail(detailButton.dataset.detail);
     if (compareButton) toggleCompare(compareButton.dataset.compare);
     if (closeButton) closeButton.closest("dialog").close();
     if (followupDetail) openFollowupDetail(followupDetail.dataset.followupDetail);
+    if (watchlistDetail) openWatchlistDetail(watchlistDetail.dataset.watchlistDetail);
   });
 
   ["#cancer-filter", "#phase-filter", "#impact-filter", "#india-filter"].forEach(selector => {
@@ -719,6 +945,14 @@ function bindEvents() {
     $("#followup-cancer-filter").value = "all";
     renderFollowup();
   });
+  ["#watchlist-type-filter", "#watchlist-status-filter"].forEach(selector => {
+    $(selector).addEventListener("change", renderWatchlist);
+  });
+  $("#reset-watchlist").addEventListener("click", () => {
+    $("#watchlist-type-filter").value = "all";
+    $("#watchlist-status-filter").value = "all";
+    renderWatchlist();
+  });
 }
 
 function init() {
@@ -734,6 +968,9 @@ function init() {
   populateFollowupFilters();
   renderFollowup();
   renderFollowupLessons();
+  renderWatchlistMetrics();
+  populateWatchlistFilters();
+  renderWatchlist();
   $("#rating-guide").innerHTML = ratings.map(([title, text]) => `<div class="rating-item"><h3>${title}</h3><p>${text}</p></div>`).join("");
   bindEvents();
 }
