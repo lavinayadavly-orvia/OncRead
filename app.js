@@ -497,6 +497,10 @@ function renderInsights() {
       title: treatmentLead.name,
       summary: "First-line HER2 maintenance intensification remains the clearest efficacy-driven candidate in the treatment set.",
       signal: `${treatmentLead.headline} · ${treatmentLead.headlineNote}`,
+      why: treatmentLead.benefit,
+      decision: "Whether clinicians should view this as a likely near-term practice-change candidate rather than a marginal intensification.",
+      constraint: treatmentLead.limitations,
+      confidence: treatmentLead.impact,
       route: "Treatment explorer",
       view: "treatments",
       kind: "detail",
@@ -508,6 +512,10 @@ function renderInsights() {
       title: regulatoryLead.program,
       summary: "One of the most decision-sensitive items is not benefit magnitude alone, but whether regulators agree on when the treatment switch matters.",
       signal: regulatoryLead.currentMilestone,
+      why: regulatoryLead.assessment,
+      decision: regulatoryLead.nextDecision,
+      constraint: regulatoryLead.adoption,
+      confidence: regulatoryLead.confidence,
       route: "ASCO 2025 follow-up",
       view: "followup",
       kind: "followup",
@@ -519,6 +527,10 @@ function renderInsights() {
       title: accessLead.name,
       summary: "Genomics-led first-line precision advances can be clinically relevant yet commercially unreachable without domestic launch and testing capacity.",
       signal: accessLead.indiaPrice,
+      why: accessLead.benefit,
+      decision: "Whether the signal is actionable locally or remains an access-constrained imported precision option.",
+      constraint: accessLead.indiaCaveat,
+      confidence: accessLead.indiaLabel,
       route: "India access & cost",
       view: "india",
       kind: "detail",
@@ -530,6 +542,10 @@ function renderInsights() {
       title: cautionLead.title,
       summary: "Negative or mixed screening evidence matters because non-adoption is also a global oncology decision.",
       signal: cautionLead.effect,
+      why: cautionLead.whyMatters,
+      decision: cautionLead.decisionImpact,
+      constraint: cautionLead.limitations,
+      confidence: cautionLead.statusLabel,
       route: "Watchlist & systems",
       view: "watchlist",
       kind: "watchlist",
@@ -582,8 +598,23 @@ function renderInsights() {
       <span class="insight-eyebrow">${card.eyebrow}</span>
       <h3>${card.title}</h3>
       <p>${card.summary}</p>
+      <div class="insight-body">
+        <div class="insight-field">
+          <span>Why it matters</span>
+          <p>${card.why}</p>
+        </div>
+        <div class="insight-field">
+          <span>Decision pressure</span>
+          <p>${card.decision}</p>
+        </div>
+        <div class="insight-field">
+          <span>Constraint</span>
+          <p>${card.constraint}</p>
+        </div>
+      </div>
       <div class="insight-foot">
         <strong>${card.signal}</strong>
+        <em>${card.confidence}</em>
         <span>Double-click → ${card.route}</span>
       </div>
     </button>

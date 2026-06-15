@@ -145,8 +145,13 @@ main { min-width: 0; padding: 0 34px 70px; }
 .insight-eyebrow { display: block; color: var(--muted); font-size: 9px; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
 .insight-card h3 { margin: 10px 0 8px; font-size: 19px; line-height: 1.18; letter-spacing: -.03em; }
 .insight-card p { margin: 0; color: #526577; font-size: 11px; line-height: 1.6; }
+.insight-body { display: grid; gap: 10px; margin-top: 16px; }
+.insight-field { padding: 11px 12px; border: 1px solid #e7edf1; border-radius: 12px; background: rgba(255,255,255,.75); }
+.insight-field span { display: block; margin-bottom: 5px; color: var(--muted); font-size: 8px; font-weight: 850; letter-spacing: .07em; text-transform: uppercase; }
+.insight-field p { margin: 0; color: #42556a; font-size: 10px; line-height: 1.55; }
 .insight-foot { display: grid; gap: 7px; margin-top: 18px; padding-top: 16px; border-top: 1px solid #e7edf1; }
 .insight-foot strong { font-size: 11px; line-height: 1.45; }
+.insight-foot em { color: var(--muted); font-size: 9px; font-style: normal; }
 .insight-foot span { color: var(--teal); font-size: 10px; font-weight: 850; }
 .insight-rail { display: grid; gap: 12px; }
 .insight-rail-item { padding: 16px; border-radius: 14px; }
