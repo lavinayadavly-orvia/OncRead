@@ -434,7 +434,7 @@ tbody tr:hover { background: #f8fafb; }
   .topbar { min-height: 92px; }
   .topbar .eyebrow, .topbar-actions .secondary, .search-box kbd { display: none; }
   .search-box input { width: 36vw; padding-right: 10px; }
-  .span-5, .span-7 { grid-column: span 12; }
+  .span-4, .span-5, .span-7, .span-8 { grid-column: span 12; }
   .compare-tray { left: 50%; width: calc(100vw - 34px); }
 }
 @media (max-width: 600px) {
