@@ -21,23 +21,26 @@
       </div>
 
       <nav aria-label="Dashboard sections">
-        <button class="nav-item active" data-view="overview">
-          <span class="nav-icon">01</span><span>Portfolio overview</span>
+        <button class="nav-item active" data-view="insights">
+          <span class="nav-icon">01</span><span>Morning briefing</span>
+        </button>
+        <button class="nav-item" data-view="overview">
+          <span class="nav-icon">02</span><span>Portfolio overview</span>
         </button>
         <button class="nav-item" data-view="treatments">
-          <span class="nav-icon">02</span><span>Treatment explorer</span>
+          <span class="nav-icon">03</span><span>Treatment explorer</span>
         </button>
         <button class="nav-item" data-view="india">
-          <span class="nav-icon">03</span><span>India access & cost</span>
+          <span class="nav-icon">04</span><span>India access & cost</span>
         </button>
         <button class="nav-item" data-view="systems">
-          <span class="nav-icon">04</span><span>Technology & equity</span>
+          <span class="nav-icon">05</span><span>Technology & equity</span>
         </button>
         <button class="nav-item" data-view="followup">
-          <span class="nav-icon">05</span><span>ASCO 2025 follow-up</span>
+          <span class="nav-icon">06</span><span>ASCO 2025 follow-up</span>
         </button>
         <button class="nav-item" data-view="watchlist">
-          <span class="nav-icon">06</span><span>Watchlist & systems</span>
+          <span class="nav-icon">07</span><span>Watchlist & systems</span>
         </button>
       </nav>
 
@@ -55,7 +58,7 @@
       <header class="topbar">
         <div>
           <p class="eyebrow">Advancements, growth, technology and impact</p>
-          <h2 id="view-title">Portfolio overview</h2>
+          <h2 id="view-title">Morning briefing insights</h2>
         </div>
         <div class="topbar-actions">
           <label class="search-box">
@@ -67,7 +70,60 @@
         </div>
       </header>
 
-      <section id="overview" class="view active" aria-labelledby="view-title">
+      <section id="insights" class="view active" aria-labelledby="view-title">
+        <div class="insights-hero">
+          <div>
+            <p class="eyebrow light">Morning briefing</p>
+            <h3>Start with the decisions that moved, the frictions that matter, and the signals that still need caution.</h3>
+            <p>This page is the fast read across worldwide oncology updates already represented in OncTree. Double-click any card to jump directly to the detailed dossier on the relevant page.</p>
+          </div>
+          <div class="followup-stamp">
+            <strong id="insight-card-count">0</strong><span>briefing cards</span>
+            <small>Double-click to open the underlying detail</small>
+          </div>
+        </div>
+
+        <div id="insight-metrics" class="metric-grid"></div>
+
+        <div class="dashboard-grid">
+          <article class="panel span-8">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Cross-page insight map</p>
+                <h3>What deserves attention first this morning?</h3>
+              </div>
+              <span class="microcopy">Double-click a card to open its target dossier or page</span>
+            </div>
+            <div id="insight-grid" class="insight-grid"></div>
+          </article>
+
+          <article class="panel span-4">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Shortcut rail</p>
+                <h3>Fast routes into detail</h3>
+              </div>
+            </div>
+            <div id="insight-rail" class="insight-rail"></div>
+          </article>
+
+          <article class="panel span-12">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">How to use it</p>
+                <h3>Brief first, deep dive second</h3>
+              </div>
+            </div>
+            <div class="method-list">
+              <p><strong>Single view.</strong> The insights page surfaces regulatory movement, practice-change candidates, affordability pressure, cautionary evidence, and systems constraints in one place.</p>
+              <p><strong>Double-click navigation.</strong> Each card routes you to the matching page and opens the relevant treatment, follow-up, or watchlist detail panel when one exists.</p>
+              <p><strong>Comparable framing.</strong> The source sections stay intact; this page only summarizes and routes, so the detailed evidence remains on the specialist pages.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="overview" class="view" aria-labelledby="view-title">
         <div class="hero">
           <div>
             <p class="eyebrow light">Executive signal</p>

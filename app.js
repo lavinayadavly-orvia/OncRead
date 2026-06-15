@@ -428,6 +428,7 @@ const watchlistSignals = [
 ];
 
 const viewTitles = {
+  insights: "Morning briefing insights",
   overview: "Portfolio overview",
   treatments: "Treatment explorer",
   india: "India access & cost",
@@ -436,7 +437,7 @@ const viewTitles = {
   watchlist: "Watchlist & systems"
 };
 
-const state = { view: "overview", selected: [], search: "" };
+const state = { view: "insights", selected: [], search: "" };
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
@@ -474,6 +475,129 @@ function metricCard(value, label, note, tone, icon) {
     <div class="metric-top"><span class="metric-label">${label}</span><span class="metric-icon">${icon}</span></div>
     <strong>${value}</strong><small>${note}</small>
   </div>`;
+}
+
+function renderInsights() {
+  const approvedCount = asco2025Followup.filter(item => item.status === "approved").length;
+  const pendingPrimaryCount = watchlistSignals.filter(item => item.verification.includes("pending")).length;
+  const availableCount = treatments.filter(item => item.indiaStatus === "available").length;
+  const highImpactCount = treatments.filter(item => item.impactGroup === "high").length;
+
+  const treatmentLead = treatments.find(item => item.id === "tucatinib");
+  const accessLead = treatments.find(item => item.id === "pemigatinib");
+  const regulatoryLead = asco2025Followup.find(item => item.id === "camizestrant");
+  const approvalLead = asco2025Followup.find(item => item.id === "keynote689");
+  const cautionLead = watchlistSignals.find(item => item.id === "galleri");
+  const systemsLead = watchlistSignals.find(item => item.id === "workforce");
+
+  const cards = [
+    {
+      tone: "teal",
+      eyebrow: "Treatment shift",
+      title: treatmentLead.name,
+      summary: "First-line HER2 maintenance intensification remains the clearest efficacy-driven candidate in the treatment set.",
+      signal: `${treatmentLead.headline} · ${treatmentLead.headlineNote}`,
+      route: "Treatment explorer",
+      view: "treatments",
+      kind: "detail",
+      targetId: treatmentLead.id
+    },
+    {
+      tone: "blue",
+      eyebrow: "Regulatory divergence",
+      title: regulatoryLead.program,
+      summary: "One of the most decision-sensitive items is not benefit magnitude alone, but whether regulators agree on when the treatment switch matters.",
+      signal: regulatoryLead.currentMilestone,
+      route: "ASCO 2025 follow-up",
+      view: "followup",
+      kind: "followup",
+      targetId: regulatoryLead.id
+    },
+    {
+      tone: "gold",
+      eyebrow: "India access pressure",
+      title: accessLead.name,
+      summary: "Genomics-led first-line precision advances can be clinically relevant yet commercially unreachable without domestic launch and testing capacity.",
+      signal: accessLead.indiaPrice,
+      route: "India access & cost",
+      view: "india",
+      kind: "detail",
+      targetId: accessLead.id
+    },
+    {
+      tone: "coral",
+      eyebrow: "Cautionary evidence",
+      title: cautionLead.title,
+      summary: "Negative or mixed screening evidence matters because non-adoption is also a global oncology decision.",
+      signal: cautionLead.effect,
+      route: "Watchlist & systems",
+      view: "watchlist",
+      kind: "watchlist",
+      targetId: cautionLead.id
+    }
+  ];
+
+  const rail = [
+    {
+      label: "Fastest verified approval path",
+      value: approvalLead.program,
+      note: approvalLead.currentMilestone,
+      view: "followup",
+      kind: "followup",
+      targetId: approvalLead.id
+    },
+    {
+      label: "System strain that changes access",
+      value: systemsLead.title,
+      note: systemsLead.effect,
+      view: "watchlist",
+      kind: "watchlist",
+      targetId: systemsLead.id
+    },
+    {
+      label: "High-impact treatment pool",
+      value: `${highImpactCount} treatment candidates`,
+      note: `${availableCount} already marketed in India`,
+      view: "treatments",
+      kind: "view"
+    },
+    {
+      label: "Signals still needing primary capture",
+      value: `${pendingPrimaryCount} watchlist items`,
+      note: "Conference-only or report-level verification still incomplete",
+      view: "watchlist",
+      kind: "view"
+    }
+  ];
+
+  $("#insight-metrics").innerHTML = [
+    [cards.length, "Insights surfaced", "Curated for the morning brief", "", "BR"],
+    [approvedCount, "Follow-up approvals", "Verified regimen-specific authorization", "blue", "✓"],
+    [availableCount, "India-marketed assets", "Study use may still differ from label", "gold", "IN"],
+    [pendingPrimaryCount, "Watchlist caveats", "Direct primary capture still pending", "coral", "!"]
+  ].map(([value, label, note, tone, icon]) => metricCard(value, label, note, tone, icon)).join("");
+
+  $("#insight-grid").innerHTML = cards.map(card => `
+    <button class="insight-card ${card.tone}" data-insight-view="${card.view}" data-insight-kind="${card.kind}" ${card.targetId ? `data-insight-id="${card.targetId}"` : ""} title="Double-click to open the linked detail">
+      <span class="insight-eyebrow">${card.eyebrow}</span>
+      <h3>${card.title}</h3>
+      <p>${card.summary}</p>
+      <div class="insight-foot">
+        <strong>${card.signal}</strong>
+        <span>Double-click → ${card.route}</span>
+      </div>
+    </button>
+  `).join("");
+
+  $("#insight-rail").innerHTML = rail.map(item => `
+    <button class="insight-rail-item" data-insight-view="${item.view}" data-insight-kind="${item.kind}" ${item.targetId ? `data-insight-id="${item.targetId}"` : ""} title="Double-click to navigate">
+      <span>${item.label}</span>
+      <strong>${item.value}</strong>
+      <p>${item.note}</p>
+    </button>
+  `).join("");
+
+  $("#insight-card-count").textContent = cards.length;
 }
 
 function renderEvidenceMap() {
@@ -827,6 +951,19 @@ function openWatchlistDetail(id) {
   $("#watchlist-dialog").showModal();
 }
 
+function openInsightTarget(view, kind, id) {
+  showView(view);
+  if (kind === "detail" && id) {
+    window.setTimeout(() => openDetail(id), 120);
+  }
+  if (kind === "followup" && id) {
+    window.setTimeout(() => openFollowupDetail(id), 120);
+  }
+  if (kind === "watchlist" && id) {
+    window.setTimeout(() => openWatchlistDetail(id), 120);
+  }
+}
+
 function showView(view) {
   state.view = view;
   $$(".view").forEach(el => el.classList.toggle("active", el.id === view));
@@ -916,6 +1053,16 @@ function bindEvents() {
     if (watchlistDetail) openWatchlistDetail(watchlistDetail.dataset.watchlistDetail);
   });
 
+  document.addEventListener("dblclick", event => {
+    const insightTarget = event.target.closest("[data-insight-view]");
+    if (!insightTarget) return;
+    openInsightTarget(
+      insightTarget.dataset.insightView,
+      insightTarget.dataset.insightKind || "view",
+      insightTarget.dataset.insightId || ""
+    );
+  });
+
   ["#cancer-filter", "#phase-filter", "#impact-filter", "#india-filter"].forEach(selector => {
     $(selector).addEventListener("change", renderTreatments);
   });
@@ -956,6 +1103,7 @@ function bindEvents() {
 }
 
 function init() {
+  renderInsights();
   renderMetrics();
   renderEvidenceMap();
   renderPriorities();
