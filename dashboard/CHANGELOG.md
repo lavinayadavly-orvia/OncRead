@@ -4,6 +4,7 @@
 
 - Added a new `Morning briefing` landing page that summarizes high-signal insights across treatments, follow-up, India access, and watchlist/system updates.
 - Added double-click routing from briefing cards into the relevant detailed pages and dossier modals, so the landing page stays concise while preserving the existing evidence surfaces.
+- Fixed the morning briefing grid layout by restoring the intended `span-8` and `span-4` dashboard column classes.
 - Added a new `Watchlist & systems` view for material oncology developments that do not fit the treatment explorer or ASCO 2025 follow-up register without distortion.
 - Added four new dossiers: OPTIMA genomic chemotherapy de-escalation, Galleri-NHS negative MCED screening result, durvalumab-enabled bladder-preservation signal, and the global oncology workforce warning.
 - Added explicit evidence-state labels for conference-only, negative/cautionary, and system-level items instead of forcing them into treatment-style impact categories.
