@@ -429,7 +429,7 @@ const watchlistSignals = [
 
 const viewTitles = {
   insights: "Morning briefing insights",
-  overview: "Portfolio overview",
+  overview: "Global oncology portfolio",
   treatments: "Treatment explorer",
   india: "India access & cost",
   systems: "Technology & equity",
@@ -437,7 +437,16 @@ const viewTitles = {
   watchlist: "Watchlist & systems"
 };
 
-const state = { view: "insights", selected: [], search: "" };
+const state = {
+  view: "insights",
+  selected: [],
+  portfolioSearch: "",
+  portfolioFilter: "all",
+  portfolioActiveId: "",
+  backendPortfolioEntries: null,
+  backendStatus: "loading",
+  backendSourceSummary: null
+};
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
@@ -446,17 +455,315 @@ function formatImpactClass(group) {
   return group === "high" ? "high" : group === "moderate" ? "moderate" : "early";
 }
 
-function renderMetrics() {
-  const phase3 = treatments.filter(t => t.phase === "Phase III").length;
-  const available = treatments.filter(t => t.indiaStatus === "available").length;
-  const high = treatments.filter(t => t.impactGroup === "high").length;
-  $("#metric-grid").innerHTML = [
-    ["09", "Advances assessed", "8 treatments + 1 AI workflow", "", "TX"],
-    [phase3, "Phase III signals", "Strongest adoption evidence", "blue", "P3"],
-    [high, "High-impact candidates", "Including one platform therapy", "gold", "HI"],
-    [available, "Products available in India", "Study indication may still differ", "coral", "IN"]
-  ].map(([value, label, note, tone, icon]) => metricCard(value, label, note, tone, icon)).join("");
+const portfolioAliasRules = [
+  { match: /nivolumab/i, aliases: ["Opdivo"] },
+  { match: /pembrolizumab/i, aliases: ["Keytruda"] },
+  { match: /durvalumab/i, aliases: ["Imfinzi"] },
+  { match: /atezolizumab/i, aliases: ["Tecentriq"] },
+  { match: /cemiplimab/i, aliases: ["Libtayo"] },
+  { match: /tucatinib/i, aliases: ["Tukysa"] },
+  { match: /trastuzumab deruxtecan|t-dxd/i, aliases: ["Enhertu"] },
+  { match: /pertuzumab/i, aliases: ["Perjeta"] },
+  { match: /pemigatinib/i, aliases: ["Pemazyre"] },
+  { match: /amivantamab/i, aliases: ["Rybrevant"] },
+  { match: /niraparib/i, aliases: ["Zejula", "Akeega"] },
+  { match: /abiraterone/i, aliases: ["Zytiga", "Akeega"] },
+  { match: /sacituzumab govitecan|trodelvy/i, aliases: ["Trodelvy"] },
+  { match: /rusfertide/i, aliases: ["PTG-300"] },
+  { match: /camizestrant/i, aliases: ["AZD9833"] },
+  { match: /can-2409/i, aliases: ["aglatimagene besadenovec"] },
+  { match: /intismeran autogene cevumeran|personalized mrna neoantigen therapy/i, aliases: ["mRNA-4157", "V940"] }
+];
 
+function buildSearchText(...parts) {
+  const text = parts.filter(Boolean).join(" ");
+  const aliases = portfolioAliasRules
+    .filter(rule => rule.match.test(text))
+    .flatMap(rule => rule.aliases);
+  return `${text} ${aliases.join(" ")}`.trim().toLowerCase();
+}
+
+const fallbackPortfolioEntries = buildPortfolioEntries();
+
+function buildPortfolioEntries() {
+  let order = 0;
+  const entries = [];
+
+  treatments.forEach(item => {
+    entries.push({
+      id: `treatment:${item.id}`,
+      baseId: item.id,
+      lane: "treatment",
+      laneLabel: "Treatment explorer",
+      order: order++,
+      title: item.name,
+      subtitle: `${item.short} · ${item.cancer} · ${item.setting}`,
+      organization: item.company,
+      snapshot: `${item.phase} · ${item.impact}`,
+      summary: item.benefit,
+      headline: `${item.headline} · ${item.headlineNote}`,
+      statusLabel: item.indiaLabel,
+      badges: [item.phase, item.impact, item.indiaLabel],
+      searchText: buildSearchText(item.name, item.short, item.cancer, item.setting, item.company, item.phase, item.impact, item.headline, item.headlineNote, item.benefit, item.safety),
+      route: { view: "treatments", kind: "detail", id: item.id, label: "Open treatment dossier" },
+      sourceLinks: [{ label: "Primary study", url: item.source }],
+      sections: [
+        ["Cancer and setting", `${item.cancer} · ${item.setting}`],
+        ["Manufacturer / organization", item.company],
+        ["Measured effect", `${item.headline}. ${item.headlineNote}`, "wide"],
+        ["Clinical meaning", item.benefit, "wide"],
+        ["Safety and burden", item.safety, "wide"],
+        ["Cost and India access", `${item.cost}. ${item.indiaPrice} ${item.indiaCaveat}`, "wide"],
+        ["Launch / market status", `${item.launch}. ${item.indiaLabel}`],
+        ["Current limitation", item.limitations, "wide"]
+      ]
+    });
+  });
+
+  asco2025Followup.forEach(item => {
+    entries.push({
+      id: `followup:${item.id}`,
+      baseId: item.id,
+      lane: "followup",
+      laneLabel: "ASCO 2025 follow-up",
+      order: order++,
+      title: item.program,
+      subtitle: `${item.trial} · ${item.cancer}`,
+      organization: item.company,
+      snapshot: item.currentMilestone,
+      summary: item.assessment,
+      headline: item.effect,
+      statusLabel: item.statusLabel,
+      badges: [item.statusLabel, item.cancer],
+      searchText: buildSearchText(item.program, item.trial, item.cancer, item.company, item.statusLabel, item.ascoSignal, item.currentMilestone, item.effect, item.assessment, item.safety),
+      route: { view: "followup", kind: "followup", id: item.id, label: "Open follow-up dossier" },
+      sourceLinks: [
+        { label: "ASCO-era evidence", url: item.conferenceSource },
+        { label: "Current-status source", url: item.currentSource },
+        item.secondarySource ? { label: "Additional verification", url: item.secondarySource } : null
+      ].filter(Boolean),
+      sections: [
+        ["Trial design", item.design],
+        ["Population / sample", item.population],
+        ["Comparator", item.comparator],
+        ["Measured effect", item.effect, "wide"],
+        ["Current milestone", item.currentMilestone],
+        ["What changed after ASCO", item.evidenceDelta, "wide"],
+        ["Regional status", `US: ${item.us} Europe: ${item.eu} India: ${item.india}`, "full"],
+        ["Safety and burden", item.safety, "wide"],
+        ["Next verifiable decision point", item.nextDecision],
+        ["Evidence confidence", item.confidence]
+      ]
+    });
+  });
+
+  watchlistSignals.forEach(item => {
+    entries.push({
+      id: `watchlist:${item.id}`,
+      baseId: item.id,
+      lane: "watchlist",
+      laneLabel: "Watchlist & systems",
+      order: order++,
+      title: item.title,
+      subtitle: `${item.category} · ${item.cancer} · ${item.geography}`,
+      organization: item.organization,
+      snapshot: `${item.statusLabel} · ${item.date}`,
+      summary: item.whyMatters,
+      headline: item.effect,
+      statusLabel: item.statusLabel,
+      badges: [item.statusLabel, item.category, item.geography],
+      searchText: buildSearchText(item.title, item.short, item.category, item.cancer, item.geography, item.organization, item.issue, item.effect, item.decisionImpact, item.whyMatters),
+      route: { view: "watchlist", kind: "watchlist", id: item.id, label: "Open watchlist dossier" },
+      sourceLinks: [
+        { label: "Source", url: item.source },
+        item.secondarySource ? { label: "Secondary check", url: item.secondarySource } : null
+      ].filter(Boolean),
+      sections: [
+        ["Issue", item.issue],
+        ["Population / sample", item.population],
+        ["Comparator", item.comparator],
+        ["Observed effect", item.effect, "wide"],
+        ["Why it matters to care", item.whyMatters, "wide"],
+        ["Who and where it affects", item.whoAffected, "wide"],
+        ["What decision could change", item.decisionImpact, "wide"],
+        ["Evidence strength", item.evidenceStrength],
+        ["India relevance", item.indiaImpact, "wide"],
+        ["Cost / procurement", item.cost],
+        ["Current limitation", item.limitations, "wide"],
+        ["Next verification milestone", item.nextMilestone],
+        ["Verification note", item.verification, "full"]
+      ]
+    });
+  });
+
+  return entries;
+}
+
+function portfolioDataset() {
+  return state.backendPortfolioEntries || fallbackPortfolioEntries;
+}
+
+function syncPortfolioSearchInputs() {
+  const globalSearch = $("#global-search");
+  if (globalSearch && globalSearch.value !== state.portfolioSearch) globalSearch.value = state.portfolioSearch;
+  const localSearch = $("#portfolio-search");
+  if (localSearch && localSearch.value !== state.portfolioSearch) localSearch.value = state.portfolioSearch;
+}
+
+function portfolioSearchScore(entry, query) {
+  if (!query) return 0;
+  let score = 0;
+  const title = entry.title.toLowerCase();
+  const subtitle = entry.subtitle.toLowerCase();
+  const organization = entry.organization.toLowerCase();
+  if (title === query) score += 140;
+  if (title.startsWith(query)) score += 90;
+  if (title.includes(query)) score += 70;
+  if (subtitle.includes(query)) score += 40;
+  if (organization.includes(query)) score += 35;
+  query.split(/\s+/).filter(Boolean).forEach(term => {
+    if (title.includes(term)) score += 18;
+    if (subtitle.includes(term)) score += 12;
+    if (organization.includes(term)) score += 10;
+    if (entry.searchText.includes(term)) score += 4;
+  });
+  if (entry.searchText.includes(query)) score += 14;
+  return score;
+}
+
+function filteredPortfolioEntries() {
+  const entries = portfolioDataset();
+  const query = state.portfolioSearch.toLowerCase().trim();
+  const data = entries.filter(entry =>
+    (state.portfolioFilter === "all" || entry.lane === state.portfolioFilter) &&
+    (!query || entry.searchText.includes(query))
+  );
+  return data.sort((a, b) => {
+    const scoreDiff = portfolioSearchScore(b, query) - portfolioSearchScore(a, query);
+    return scoreDiff || a.order - b.order;
+  });
+}
+
+function renderPortfolioResult(entry, active) {
+  return `<button class="portfolio-result ${active ? "active" : ""}" data-portfolio-select="${entry.id}">
+    <div class="portfolio-result-top">
+      <span class="portfolio-lane ${entry.lane}">${entry.laneLabel}</span>
+      <span class="portfolio-result-status">${entry.statusLabel}</span>
+    </div>
+    <h4>${entry.title}</h4>
+    <p class="company">${entry.organization}</p>
+    <p class="portfolio-result-copy">${entry.summary}</p>
+    <div class="portfolio-chip-row">${entry.badges.map(badge => `<span class="portfolio-chip">${badge}</span>`).join("")}</div>
+    <strong>${entry.snapshot}</strong>
+  </button>`;
+}
+
+function renderPortfolioDetail(entry) {
+  return `
+    <div class="portfolio-detail-hero">
+      <div>
+        <p class="eyebrow">${entry.laneLabel}</p>
+        <h3>${entry.title}</h3>
+        <p>${entry.subtitle}</p>
+      </div>
+      <div class="portfolio-detail-actions">
+        <button class="button primary" data-portfolio-open="${entry.id}">${entry.route.label}</button>
+      </div>
+    </div>
+    <div class="portfolio-detail-body">
+      <div class="detail-kpis">
+        <div class="detail-kpi"><span>Verified signal</span><strong>${entry.headline}</strong></div>
+        <div class="detail-kpi"><span>Organization</span><strong>${entry.organization}</strong></div>
+        <div class="detail-kpi"><span>Current status</span><strong>${entry.statusLabel}</strong></div>
+      </div>
+      <p class="portfolio-lead">${entry.summary}</p>
+      <div class="dossier-grid">
+        ${entry.sections.map(([label, value, extra = ""]) => dossierField(label, value, extra)).join("")}
+      </div>
+      <div class="evidence-ledger">
+        <h3>Source ledger</h3>
+        ${entry.sourceLinks.map(link => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.label}: ${link.url} ↗</a>`).join("")}
+      </div>
+    </div>`;
+}
+
+function renderPortfolio() {
+  syncPortfolioSearchInputs();
+  $("#portfolio-type-filter").value = state.portfolioFilter;
+  const entries = portfolioDataset();
+  const data = filteredPortfolioEntries();
+  const counts = entries.reduce((acc, entry) => {
+    acc[entry.lane] = (acc[entry.lane] || 0) + 1;
+    return acc;
+  }, {});
+  $("#portfolio-metrics").innerHTML = [
+    [entries.length, "Verified records", "Searchable across the existing dashboard evidence base", "", "PT"],
+    [counts.treatment || 0, "Treatment dossiers", "Direct therapeutic evidence cards", "blue", "TX"],
+    [counts.followup || 0, "Follow-up programs", "Conference-to-regulatory tracking", "gold", "FU"],
+    [
+      state.backendStatus === "ready" ? (state.backendSourceSummary?.healthySources ?? (counts.watchlist || 0)) : (counts.watchlist || 0),
+      state.backendStatus === "ready" ? "Backend source checks" : "Watchlist signals",
+      state.backendStatus === "ready" ? "Authoritative source metadata available from the backend" : "Nonconforming or system-level records",
+      "coral",
+      state.backendStatus === "ready" ? "API" : "WL"
+    ]
+  ].map(([value, label, note, tone, icon]) => metricCard(value, label, note, tone, icon)).join("");
+  $("#portfolio-count").textContent = entries.length;
+  $("#portfolio-result-count").textContent = data.length;
+  const backendState = $("#portfolio-backend-state");
+  if (backendState) {
+    backendState.textContent = state.backendStatus === "ready"
+      ? `Backend live · ${state.backendSourceSummary?.sourcesChecked || 0} sources indexed`
+      : state.backendStatus === "error"
+        ? "Backend unavailable · using local verified fallback"
+        : "Backend loading · preparing source index";
+  }
+
+  if (!data.length) {
+    state.portfolioActiveId = "";
+    $("#portfolio-results").innerHTML = `<div class="empty-state"><strong>No portfolio records match that search.</strong><br>Try a company, molecule, cancer type, or reset the lane filter.</div>`;
+    $("#portfolio-detail").innerHTML = `<div class="empty-state"><strong>No detail to show.</strong><br>Clear the search or broaden the portfolio lane to restore a verified record.</div>`;
+    return;
+  }
+
+  if (!data.find(entry => entry.id === state.portfolioActiveId)) state.portfolioActiveId = data[0].id;
+  const activeEntry = data.find(entry => entry.id === state.portfolioActiveId) || data[0];
+  $("#portfolio-results").innerHTML = data.map(entry => renderPortfolioResult(entry, entry.id === activeEntry.id)).join("");
+  $("#portfolio-detail").innerHTML = renderPortfolioDetail(activeEntry);
+}
+
+function openPortfolioRoute(id) {
+  const entry = portfolioDataset().find(item => item.id === id);
+  if (!entry) return;
+  showView(entry.route.view);
+  window.setTimeout(() => {
+    if (entry.route.kind === "detail") openDetail(entry.route.id);
+    if (entry.route.kind === "followup") openFollowupDetail(entry.route.id);
+    if (entry.route.kind === "watchlist") openWatchlistDetail(entry.route.id);
+  }, 120);
+}
+
+async function hydratePortfolioBackend() {
+  try {
+    const response = await fetch("/api/portfolio");
+    if (!response.ok) throw new Error(`Portfolio API ${response.status}`);
+    const payload = await response.json();
+    if (Array.isArray(payload.entries) && payload.entries.length) {
+      state.backendPortfolioEntries = payload.entries;
+      state.backendSourceSummary = payload.sourceSummary || null;
+      state.backendStatus = "ready";
+      renderPortfolio();
+      return;
+    }
+    throw new Error("Portfolio API returned no entries");
+  } catch (error) {
+    console.warn("Portfolio backend unavailable, using local fallback.", error);
+    state.backendStatus = "error";
+    renderPortfolio();
+  }
+}
+
+function renderMetrics() {
   const statuses = {
     available: treatments.filter(t => t.indiaStatus === "available").length,
     limited: treatments.filter(t => t.indiaStatus === "limited").length,
@@ -680,13 +987,11 @@ function filteredTreatments() {
   const phase = $("#phase-filter").value;
   const impact = $("#impact-filter").value;
   const india = $("#india-filter").value;
-  const query = state.search.toLowerCase().trim();
   return treatments.filter(t =>
     (cancer === "all" || t.cancer === cancer) &&
     (phase === "all" || t.phase === phase) &&
     (impact === "all" || t.impact === impact) &&
-    (india === "all" || t.indiaStatus === india) &&
-    (!query || [t.name, t.short, t.cancer, t.setting, t.company, t.phase, t.impact].join(" ").toLowerCase().includes(query))
+    (india === "all" || t.indiaStatus === india)
   );
 }
 
@@ -1000,6 +1305,8 @@ function showView(view) {
   $$(".view").forEach(el => el.classList.toggle("active", el.id === view));
   $$(".nav-item").forEach(el => el.classList.toggle("active", el.dataset.view === view));
   $("#view-title").textContent = viewTitles[view];
+  syncPortfolioSearchInputs();
+  if (view === "overview") renderPortfolio();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -1066,6 +1373,15 @@ function openComparison() {
   $("#compare-dialog").showModal();
 }
 
+function handlePortfolioSearchChange(value) {
+  state.portfolioSearch = value;
+  if (state.portfolioSearch && state.view !== "overview") {
+    showView("overview");
+  } else {
+    renderPortfolio();
+  }
+}
+
 function bindEvents() {
   document.addEventListener("click", event => {
     const viewButton = event.target.closest("[data-view]");
@@ -1075,6 +1391,17 @@ function bindEvents() {
     const closeButton = event.target.closest("[data-close-dialog]");
     const followupDetail = event.target.closest("[data-followup-detail]");
     const watchlistDetail = event.target.closest("[data-watchlist-detail]");
+    const portfolioSelect = event.target.closest("[data-portfolio-select]");
+    const portfolioOpen = event.target.closest("[data-portfolio-open]");
+    if (portfolioSelect) {
+      state.portfolioActiveId = portfolioSelect.dataset.portfolioSelect;
+      renderPortfolio();
+      return;
+    }
+    if (portfolioOpen) {
+      openPortfolioRoute(portfolioOpen.dataset.portfolioOpen);
+      return;
+    }
     if (viewButton) showView(viewButton.dataset.view);
     if (goButton) showView(goButton.dataset.goView);
     if (detailButton) openDetail(detailButton.dataset.detail);
@@ -1099,12 +1426,23 @@ function bindEvents() {
   });
   $("#clear-filters").addEventListener("click", () => {
     ["#cancer-filter", "#phase-filter", "#impact-filter", "#india-filter"].forEach(selector => $(selector).value = "all");
-    state.search = ""; $("#global-search").value = ""; renderTreatments();
-  });
-  $("#global-search").addEventListener("input", event => {
-    state.search = event.target.value;
-    if (state.search && state.view !== "treatments") showView("treatments");
     renderTreatments();
+  });
+  ["#portfolio-search", "#global-search"].forEach(selector => {
+    ["input", "change", "search"].forEach(eventName => {
+      $(selector).addEventListener(eventName, event => {
+        handlePortfolioSearchChange(event.target.value);
+      });
+    });
+  });
+  $("#portfolio-type-filter").addEventListener("change", event => {
+    state.portfolioFilter = event.target.value;
+    renderPortfolio();
+  });
+  $("#clear-portfolio-search").addEventListener("click", () => {
+    state.portfolioSearch = "";
+    state.portfolioFilter = "all";
+    renderPortfolio();
   });
   document.addEventListener("keydown", event => {
     if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
@@ -1136,9 +1474,8 @@ function bindEvents() {
 function init() {
   renderInsights();
   renderMetrics();
-  renderEvidenceMap();
-  renderPriorities();
-  renderSignalTable();
+  renderPortfolio();
+  hydratePortfolioBackend();
   populateFilters();
   renderTreatments();
   renderIndiaTable();

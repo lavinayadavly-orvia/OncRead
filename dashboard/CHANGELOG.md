@@ -1,5 +1,24 @@
 # Dashboard Changelog
 
+## 2026-06-16 - Global Portfolio Search Page
+
+- Replaced the former overview screen with a dedicated `Global portfolio` page that unifies the dashboard's verified treatment dossiers, ASCO 2025 follow-up programs, and watchlist/system signals into one searchable master-detail workspace.
+- Wired the topbar search and a page-local search box into the portfolio page so users can search a drug, company, program, or cancer type and immediately read the corresponding verified record without hunting across sections.
+- Expanded the portfolio search index to include common brand-name and development-code aliases such as `Opdivo`, `Keytruda`, `Imfinzi`, `Enhertu`, `Trodelvy`, and `AZD9833`, so branded queries resolve to the verified generic/program records.
+- Kept the new page grounded in the existing evidence base only: no new oncology claims, source URLs, prices, approvals, or inferred launch dates were introduced for this feature.
+- Added lane filtering, result counts, inline source ledgers, and one-click routing back to the original treatment, follow-up, or watchlist dossier for deeper context.
+- Added a new Node backend under `server/` that serves the app, exposes `/api/portfolio`, `/api/source-health`, and `/api/health`, and scrapes authoritative source metadata from the curated record source URLs.
+- Wired the portfolio page to hydrate from `/api/portfolio` when the backend is available and fall back to the local verified registry when it is not.
+
+## 2026-06-16 - Verified Review With No Material Dashboard Change
+
+- Reviewed post-2026-06-15 oncology developments with priority on official and primary-source pathways, including FDA oncology approval notifications, EMA medicine-status pages, and targeted checks for ASCO-era signals that were already on the dashboard watchlist.
+- Made no dashboard content, taxonomy, scoring, filter, layout, or dossier changes because no newly published item in the review window cleared the bar for being both material and responsibly verifiable.
+- Confirmed that the FDA oncology approval notification page showed no oncology approval newer than 12 June 2026 during this pass, so there was no new FDA action to add after the previous run.
+- Confirmed that the EMA Etcamah page still reflected the 21 May 2026 CHMP positive opinion without a newer European Commission decision during this pass.
+- Updated `dashboard/SOURCES.md` with the 16 June 2026 review outcome and the authoritative pages checked.
+- Omissions considered: promotion of already-tracked watchlist items such as Galleri-NHS and the global oncology workforce warning from secondary coverage into stronger primary-source dossiers, and addition of further ASCO 2026 conference signals such as daraxonrasib and ivonescimab. These were not added because no post-2026-06-15 primary publication, regulator action, or comparably authoritative milestone was retrieved strongly enough for responsible promotion in this run.
+
 ## 2026-06-15 - Watchlist And Systems Expansion
 
 - Added a new `Morning briefing` landing page that summarizes high-signal insights across treatments, follow-up, India access, and watchlist/system updates.

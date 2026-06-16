@@ -7,7 +7,7 @@
   <link rel="icon" href="onctree_icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="onctree_icon.svg">
   <title>OncTree - Onco updates made easy</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260616-portfolio">
 </head>
 <body>
   <div class="app-shell">
@@ -25,7 +25,7 @@
           <span class="nav-icon">01</span><span>Morning briefing</span>
         </button>
         <button class="nav-item" data-view="overview">
-          <span class="nav-icon">02</span><span>Portfolio overview</span>
+          <span class="nav-icon">02</span><span>Global portfolio</span>
         </button>
         <button class="nav-item" data-view="treatments">
           <span class="nav-icon">03</span><span>Treatment explorer</span>
@@ -62,8 +62,8 @@
         </div>
         <div class="topbar-actions">
           <label class="search-box">
-            <span class="sr-only">Search treatments</span>
-            <input id="global-search" type="search" placeholder="Search therapy, company, cancer...">
+            <span class="sr-only">Search global portfolio</span>
+            <input id="global-search" type="search" placeholder="Search drug, program, company, cancer...">
             <kbd>⌘ K</kbd>
           </label>
           <button id="methodology-button" class="button secondary">Rating guide</button>
@@ -125,47 +125,76 @@
       </section>
 
       <section id="overview" class="view" aria-labelledby="view-title">
-        <div class="hero">
+        <div class="portfolio-hero">
           <div>
-            <p class="eyebrow light">Executive signal</p>
-            <h3>Cancer care is advancing through better selection, selective intensification and lower treatment burden.</h3>
-            <p>Phase III efficacy signals are emerging alongside de-escalation, personalized manufacturing and AI-enabled care delivery. The adoption test remains benefit versus toxicity, cost, complexity and unequal access.</p>
+            <p class="eyebrow light">Curated global portfolio</p>
+            <h3>Search once, then read the verified oncology record without bouncing across the dashboard.</h3>
+            <p>This page unifies the dashboard's treatment dossiers, ASCO follow-up programs, and watchlist/system signals into one searchable portfolio. It reuses only the verified fields already captured elsewhere in the product, so missing values remain explicitly labeled instead of inferred.</p>
+          </div>
+          <div class="followup-stamp portfolio-stamp">
+            <strong id="portfolio-count">0</strong><span>verified records</span>
+            <small>Drug, company, program, or cancer type</small>
           </div>
         </div>
 
-        <div id="metric-grid" class="metric-grid"></div>
+        <div class="portfolio-backend-banner">
+          <span class="status-dot"></span>
+          <p id="portfolio-backend-state">Backend loading · preparing source index</p>
+        </div>
+
+        <div id="portfolio-metrics" class="metric-grid"></div>
+
+        <div class="portfolio-toolbar">
+          <label class="portfolio-search-box">Search the portfolio
+            <input id="portfolio-search" type="search" placeholder="Try tucatinib, pembrolizumab, AstraZeneca, bladder cancer">
+          </label>
+          <label>Portfolio lane
+            <select id="portfolio-type-filter">
+              <option value="all">All verified records</option>
+              <option value="treatment">Treatment explorer</option>
+              <option value="followup">ASCO 2025 follow-up</option>
+              <option value="watchlist">Watchlist & systems</option>
+            </select>
+          </label>
+          <button id="clear-portfolio-search" class="button secondary">Reset portfolio</button>
+        </div>
 
         <div class="dashboard-grid">
-          <article class="panel span-7">
-            <div class="panel-heading">
-              <div>
-                <p class="eyebrow">Evidence-to-impact map</p>
-                <h3>Portfolio maturity</h3>
-              </div>
-              <span class="microcopy">Bubble size reflects indicative impact</span>
-            </div>
-            <div id="evidence-map" class="evidence-map"></div>
-          </article>
-
           <article class="panel span-5">
             <div class="panel-heading">
               <div>
-                <p class="eyebrow">Decision lens</p>
-                <h3>What changes first?</h3>
+                <p class="eyebrow">Search results</p>
+                <h3>Curated oncology records</h3>
               </div>
+              <span class="microcopy"><strong id="portfolio-result-count">0</strong> matches</span>
             </div>
-            <div id="priority-list" class="priority-list"></div>
+            <div id="portfolio-results" class="portfolio-results"></div>
+          </article>
+
+          <article class="panel span-7">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Selected record</p>
+                <h3>Verified detail</h3>
+              </div>
+              <span class="microcopy">Use the original dossier button when you want the specialist surface</span>
+            </div>
+            <div id="portfolio-detail" class="portfolio-detail"></div>
           </article>
 
           <article class="panel span-12">
             <div class="panel-heading">
               <div>
-                <p class="eyebrow">Cross-portfolio comparison</p>
-                <h3>Measured value and constraints</h3>
+                <p class="eyebrow">Curation method</p>
+                <h3>Designed to stay rigorous</h3>
               </div>
-              <button class="text-button" data-go-view="treatments">Explore all treatments →</button>
             </div>
-            <div id="signal-table" class="table-wrap"></div>
+            <div class="method-list">
+              <p><strong>No new inference layer.</strong> The portfolio page does not invent labels, outcomes, prices, approvals, or launch dates; it only reorganizes already-verified dashboard records.</p>
+              <p><strong>Cross-lane search.</strong> Treatments, regulatory follow-up programs, and system/watchlist signals are searchable from one place so users can find a molecule or issue without knowing the source section first.</p>
+              <p><strong>Explicit uncertainty.</strong> Conference-only, investigational, negative, and region-divergent records keep their original caution labels rather than being flattened into a generic product card.</p>
+              <p><strong>Route back to depth.</strong> Every result keeps a link back to its original treatment, follow-up, or watchlist dossier so the portfolio stays curated instead of bloated.</p>
+            </div>
           </article>
         </div>
       </section>
@@ -445,6 +474,6 @@
     <div id="watchlist-detail-content"></div>
   </dialog>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=20260616-portfolio-3"></script>
 </body>
 </html>

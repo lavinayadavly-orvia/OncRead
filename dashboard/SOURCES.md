@@ -1,12 +1,24 @@
 # Dashboard Source Ledger
 
-Updated: 2026-06-15
+Updated: 2026-06-16
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
 - The `Watchlist & systems` section was added specifically for material items that should not be forced into the standard treatment cards.
 - Watchlist entries added on 2026-06-15 are clearly labeled when they remain conference-only or when direct primary abstract/report capture was still pending in this pass.
+- The 2026-06-16 review was a no-content-change pass. Official-source checks did not surface a new post-2026-06-15 development that was both material and verifiable enough to promote into the dashboard.
+- The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
+- The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-06-16 Review-Only Checks
+
+- FDA oncology approval notifications: https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- EMA Etcamah (camizestrant) opinion status page: https://www.ema.europa.eu/en/medicines/human/EPAR/etcamah
+- Galleri-NHS negative screening signal already represented on the watchlist; no stronger post-2026-06-15 primary publication was retrieved in this pass:
+  https://www.theguardian.com/science/2026/may/30/trial-of-multi-cancer-blood-test-among-142000-nhs-patients-fails-to-meet-main-aim
+- Global oncology workforce warning already represented on the watchlist; no newer post-2026-06-15 primary publication or implementation milestone was retrieved in this pass:
+  https://www.theguardian.com/society/2026/may/31/world-cancer-workforce-crisis-100m-staff-shortfall-report
 
 ## Treatment Explorer
 

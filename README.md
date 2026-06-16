@@ -4,11 +4,29 @@ Interactive oncology evidence dashboard tracking ASCO 2026 advances and the subs
 
 ## Run locally
 
+### Backend + frontend together
+
+```bash
+node server/index.mjs
+```
+
+Open `http://127.0.0.1:8766/`.
+
+The backend serves the static app and exposes:
+
+- `/api/portfolio`: normalized portfolio records for the global search page
+- `/api/source-health`: scraped authoritative-source metadata for the curated source ledger
+- `/api/health`: backend health summary
+
+### Static fallback only
+
 ```bash
 python3 -m http.server 8765
 ```
 
 Open `http://localhost:8765/`.
+
+In static-only mode the portfolio page falls back to the local verified registry in `app.js` because the API endpoints are unavailable.
 
 ## Cloudflare Pages
 
