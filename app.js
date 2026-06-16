@@ -765,6 +765,8 @@ async function hydratePortfolioBackend() {
       try {
         const response = await fetch(source.url);
         if (!response.ok) continue;
+        const contentType = response.headers.get("content-type") || "";
+        if (!contentType.includes("json")) continue;
         const payload = await response.json();
         if (Array.isArray(payload.entries) && payload.entries.length) {
           state.backendPortfolioEntries = payload.entries;
