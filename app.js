@@ -696,17 +696,27 @@ function renderPortfolio() {
     acc[entry.lane] = (acc[entry.lane] || 0) + 1;
     return acc;
   }, {});
+  const sourceCount = state.backendSourceSummary?.sourcesChecked ?? (counts.watchlist || 0);
+  const sourceCardLabel = state.backendStatus === "ready"
+    ? "Backend source checks"
+    : state.backendStatus === "snapshot"
+      ? "Hosted source records"
+      : "Watchlist signals";
+  const sourceCardNote = state.backendStatus === "ready"
+    ? "Authoritative source metadata available from the backend"
+    : state.backendStatus === "snapshot"
+      ? "Same-origin hosted portfolio snapshot for static deployments"
+      : "Nonconforming or system-level records";
+  const sourceCardIcon = state.backendStatus === "ready"
+    ? "API"
+    : state.backendStatus === "snapshot"
+      ? "WEB"
+      : "WL";
   $("#portfolio-metrics").innerHTML = [
     [entries.length, "Verified records", "Searchable across the existing dashboard evidence base", "", "PT"],
     [counts.treatment || 0, "Treatment dossiers", "Direct therapeutic evidence cards", "blue", "TX"],
     [counts.followup || 0, "Follow-up programs", "Conference-to-regulatory tracking", "gold", "FU"],
-    [
-      state.backendStatus === "ready" ? (state.backendSourceSummary?.healthySources ?? (counts.watchlist || 0)) : (counts.watchlist || 0),
-      state.backendStatus === "ready" ? "Backend source checks" : "Watchlist signals",
-      state.backendStatus === "ready" ? "Authoritative source metadata available from the backend" : "Nonconforming or system-level records",
-      "coral",
-      state.backendStatus === "ready" ? "API" : "WL"
-    ]
+    [sourceCount, sourceCardLabel, sourceCardNote, "coral", sourceCardIcon]
   ].map(([value, label, note, tone, icon]) => metricCard(value, label, note, tone, icon)).join("");
   $("#portfolio-count").textContent = entries.length;
   $("#portfolio-result-count").textContent = data.length;
@@ -714,6 +724,8 @@ function renderPortfolio() {
   if (backendState) {
     backendState.textContent = state.backendStatus === "ready"
       ? `Backend live · ${state.backendSourceSummary?.sourcesChecked || 0} sources indexed`
+      : state.backendStatus === "snapshot"
+        ? `Hosted snapshot · ${state.backendSourceSummary?.sourcesChecked || 0} source records attached`
       : state.backendStatus === "error"
         ? "Backend unavailable · using local verified fallback"
         : "Backend loading · preparing source index";
@@ -744,18 +756,24 @@ function openPortfolioRoute(id) {
 }
 
 async function hydratePortfolioBackend() {
+  const sources = [
+    { url: "/api/portfolio", status: "ready" },
+    { url: "/data/portfolio.json", status: "snapshot" }
+  ];
   try {
-    const response = await fetch("/api/portfolio");
-    if (!response.ok) throw new Error(`Portfolio API ${response.status}`);
-    const payload = await response.json();
-    if (Array.isArray(payload.entries) && payload.entries.length) {
-      state.backendPortfolioEntries = payload.entries;
-      state.backendSourceSummary = payload.sourceSummary || null;
-      state.backendStatus = "ready";
-      renderPortfolio();
-      return;
+    for (const source of sources) {
+      const response = await fetch(source.url);
+      if (!response.ok) continue;
+      const payload = await response.json();
+      if (Array.isArray(payload.entries) && payload.entries.length) {
+        state.backendPortfolioEntries = payload.entries;
+        state.backendSourceSummary = payload.sourceSummary || null;
+        state.backendStatus = source.status;
+        renderPortfolio();
+        return;
+      }
     }
-    throw new Error("Portfolio API returned no entries");
+    throw new Error("Portfolio sources returned no entries");
   } catch (error) {
     console.warn("Portfolio backend unavailable, using local fallback.", error);
     state.backendStatus = "error";

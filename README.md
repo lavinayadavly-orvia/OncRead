@@ -18,7 +18,7 @@ The backend serves the static app and exposes:
 - `/api/source-health`: scraped authoritative-source metadata for the curated source ledger
 - `/api/health`: backend health summary
 
-### Static fallback only
+### Static site / Pages mode
 
 ```bash
 python3 -m http.server 8765
@@ -26,7 +26,7 @@ python3 -m http.server 8765
 
 Open `http://localhost:8765/`.
 
-In static-only mode the portfolio page falls back to the local verified registry in `app.js` because the API endpoints are unavailable.
+In static-only mode the portfolio page loads the generated hosted snapshot at `/data/portfolio.json`. Live source-health checks still require the local backend.
 
 ## Cloudflare Pages
 
@@ -34,3 +34,4 @@ This is a static site served directly from the repository root.
 
 - Build command: leave empty
 - Build output directory: `.`
+- Regenerate the hosted portfolio snapshot before deploy with `node scripts/build-static-portfolio.mjs`
