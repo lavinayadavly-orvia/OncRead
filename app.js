@@ -762,15 +762,19 @@ async function hydratePortfolioBackend() {
   ];
   try {
     for (const source of sources) {
-      const response = await fetch(source.url);
-      if (!response.ok) continue;
-      const payload = await response.json();
-      if (Array.isArray(payload.entries) && payload.entries.length) {
-        state.backendPortfolioEntries = payload.entries;
-        state.backendSourceSummary = payload.sourceSummary || null;
-        state.backendStatus = source.status;
-        renderPortfolio();
-        return;
+      try {
+        const response = await fetch(source.url);
+        if (!response.ok) continue;
+        const payload = await response.json();
+        if (Array.isArray(payload.entries) && payload.entries.length) {
+          state.backendPortfolioEntries = payload.entries;
+          state.backendSourceSummary = payload.sourceSummary || null;
+          state.backendStatus = source.status;
+          renderPortfolio();
+          return;
+        }
+      } catch (sourceError) {
+        console.warn(`Portfolio source failed: ${source.url}`, sourceError);
       }
     }
     throw new Error("Portfolio sources returned no entries");
