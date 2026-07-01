@@ -751,14 +751,14 @@ function renderPortfolio() {
   }, {});
   const sourceCount = state.backendSourceSummary?.sourcesChecked ?? (counts.watchlist || 0);
   const sourceCardLabel = state.backendStatus === "ready"
-    ? "Backend source checks"
+    ? "Live source checks"
     : state.backendStatus === "snapshot"
       ? "Hosted source records"
       : "Watchlist signals";
   const sourceCardNote = state.backendStatus === "ready"
-    ? "Authoritative source metadata available from the backend"
+    ? "Authoritative source coverage available in this session"
     : state.backendStatus === "snapshot"
-      ? "Same-origin hosted portfolio snapshot for static deployments"
+      ? "Hosted source snapshot for the static briefing"
       : "Nonconforming or system-level records";
   const sourceCardIcon = state.backendStatus === "ready"
     ? "API"
@@ -776,12 +776,12 @@ function renderPortfolio() {
   const backendState = $("#portfolio-backend-state");
   if (backendState) {
     backendState.textContent = state.backendStatus === "ready"
-      ? `Backend live · ${state.backendSourceSummary?.sourcesChecked || 0} sources indexed`
+      ? `Live source index · ${state.backendSourceSummary?.sourcesChecked || 0} sources checked`
       : state.backendStatus === "snapshot"
-        ? `Hosted snapshot · ${state.backendSourceSummary?.sourcesChecked || 0} source records attached`
+        ? `Hosted source snapshot · ${state.backendSourceSummary?.sourcesChecked || 0} source records attached`
       : state.backendStatus === "error"
-        ? "Backend unavailable · using local verified fallback"
-        : "Backend loading · preparing source index";
+        ? "Live source index unavailable · using local verified records"
+        : "Refreshing verified source index";
   }
 
   if (!data.length) {
@@ -1058,7 +1058,7 @@ function renderArchive() {
         <div class="panel-heading">
           <div>
             <p class="eyebrow">Spotlight items</p>
-            <h3>What a user could drill into that week</h3>
+            <h3>What stood out that week</h3>
           </div>
         </div>
         <div class="archive-spotlight-list">
@@ -1331,7 +1331,7 @@ function renderInsights() {
   $("#briefing-headline").textContent = featuredHeadline?.title
     || `${featuredLabel} is the newest verified move in the briefing`;
   $("#briefing-summary").textContent = currentEdition?.summary
-    || "The morning briefing is organized around what changed, what action it could change, and what still blocks confident adoption.";
+    || "Start with the clearest verified move, the decision it could change, and the friction that could still slow real-world use.";
   $("#briefing-date-label").textContent = currentEdition?.preparedLabel || "Current briefing";
   $("#briefing-pulse-summary").textContent = currentMonth
     ? `${currentMonth.monthLabel} is the active monthly headline bucket, and ${currentEdition?.editionLabel || "the live edition"} stays archived as a dated weekly newsletter.`
@@ -1427,7 +1427,7 @@ function renderInsights() {
   ].map(([value, label, note, tone, icon]) => metricCard(value, label, note, tone, icon)).join("");
 
   $("#insight-grid").innerHTML = cards.map(card => `
-    <button class="insight-card ${card.tone}" data-insight-view="${card.view}" data-insight-kind="${card.kind}" ${card.targetId ? `data-insight-id="${card.targetId}"` : ""} title="Double-click to open the linked detail">
+    <button class="insight-card ${card.tone}" data-insight-view="${card.view}" data-insight-kind="${card.kind}" ${card.targetId ? `data-insight-id="${card.targetId}"` : ""} title="Open the linked detail">
       <span class="insight-eyebrow">${card.eyebrow}</span>
       <h3>${card.title}</h3>
       <p>${card.summary}</p>
@@ -1437,7 +1437,7 @@ function renderInsights() {
           <p>${card.why}</p>
         </div>
         <div class="insight-field">
-          <span>Decision pressure</span>
+          <span>Decision this could change</span>
           <p>${card.decision}</p>
         </div>
         <div class="insight-field">
