@@ -41,16 +41,15 @@ a { color: inherit; }
   color: white;
   z-index: 5;
 }
-.brand { display: flex; align-items: center; gap: 13px; padding: 0 8px 34px; }
+.brand { padding: 0 8px 30px; }
 .brand-mark {
-  width: 48px; height: 48px; border-radius: 16px;
+  width: min(100%, 172px);
+  height: auto;
   display: block;
-  object-fit: cover;
-  box-shadow: 0 8px 24px rgba(16, 190, 170, .2);
+  object-fit: contain;
+  filter: drop-shadow(0 10px 20px rgba(10, 42, 82, .2));
 }
-.brand h1 { margin: 2px 0 0; font-size: 20px; letter-spacing: -.03em; }
 .eyebrow { margin: 0 0 6px; color: var(--teal); font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
-.brand .eyebrow { color: #7bbcb8; font-size: 9px; }
 nav { display: grid; gap: 7px; }
 .nav-item {
   width: 100%;

@@ -11,6 +11,7 @@ import { refreshSourceHealth } from "./lib/source-health.mjs";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
 const port = Number(process.env.PORT || 8766);
+const host = process.env.HOST || "127.0.0.1";
 
 const mimeTypes = {
   ".css": "text/css; charset=utf-8",
@@ -107,7 +108,7 @@ const server = http.createServer(async (req, res) => {
     const health = await ensureSourceHealth();
     sendJson(res, {
       ok: true,
-      app: "OncTree backend",
+      app: "OncRead backend",
       portfolioRecords: (await getPortfolioPayload()).entries.length,
       sourceSummary: health.summary,
       endpoints: ["/api/health", "/api/portfolio", "/api/source-health"]
@@ -136,6 +137,6 @@ const server = http.createServer(async (req, res) => {
   await serveFile(res, requestUrl.pathname);
 });
 
-server.listen(port, () => {
-  console.log(`OncTree backend listening on http://127.0.0.1:${port}`);
+server.listen(port, host, () => {
+  console.log(`OncRead backend listening on http://${host}:${port}`);
 });

@@ -48,7 +48,7 @@ async function fetchWithTimeout(url, timeoutMs = 9000) {
     return await fetch(url, {
       signal: controller.signal,
       headers: {
-        "user-agent": "OncTreeSourceMonitor/1.0 (+http://127.0.0.1 local review backend)"
+        "user-agent": "OncReadSourceMonitor/1.0 (+http://127.0.0.1 local review backend)"
       }
     });
   } finally {
