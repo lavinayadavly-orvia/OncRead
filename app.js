@@ -26,6 +26,49 @@ const treatments = [
     source: "https://ascopubs.org/doi/10.1200/JCO-25-02600"
   },
   {
+    id: "palbociclib", short: "Palbociclib", name: "Palbociclib HER2 Maintenance", cancer: "Breast cancer",
+    setting: "Metastatic HR-positive / HER2-positive", company: "Pfizer; trastuzumab/pertuzumab manufacturers", phase: "Phase III",
+    impact: "High", impactGroup: "high", maturity: 98, impactScore: 83,
+    headline: "PFS HR 0.76", headlineNote: "PATINA maintenance approval after induction therapy",
+    benefit: "Adds CDK4/6 inhibition to trastuzumab-based endocrine maintenance after induction therapy, delaying progression versus maintenance without palbociclib in HR-positive, HER2-positive advanced disease.",
+    safety: "FDA highlights neutropenia and interstitial lung disease/pneumonitis warnings for palbociclib. Overall survival was not mature at the approval analysis, and median PFS could not be adequately described because of censoring.",
+    cost: "High ongoing oral targeted-therapy cost", indiaPrice: "No verified official India MRP update was captured in this pass.",
+    indiaStatus: "available", indiaLabel: "Product marketed", launch: "US HR-positive/HER2-positive maintenance indication added 24 June 2026",
+    indiaCaveat: "Palbociclib is already marketed in India, but CDSCO approval for this HER2-positive maintenance regimen was not verified.",
+    limitations: "Investigator-assessed PFS improved, but OS is immature and the FDA review notes censoring limits simple median-PFS interpretation.",
+    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-palbociclib-trastuzumab-or-without-pertuzumab-and-endocrine-therapy-maintenance",
+    sourceLabel: "FDA approval notice"
+  },
+  {
+    id: "tregzi", short: "Tregzi", name: "Tregzi Transplant Cell Therapy", cancer: "Hematologic malignancies",
+    setting: "Matched-donor myeloablative HSCT", company: "Orca Bio", phase: "Phase III",
+    impact: "High", impactGroup: "high", maturity: 99, impactScore: 90,
+    eventDate: "2026-06-30",
+    headline: "cGVHD-free survival HR 0.26", headlineNote: "12-month cGFS 78% vs 38% in Precision-T",
+    benefit: "FDA approved a personalized allogeneic Treg/HSPC/T-cell graft platform that reduced chronic GVHD or death after matched-donor transplant in adults with acute leukemias or MDS, addressing a major toxicity bottleneck in curative-intent blood-cancer care.",
+    safety: "Common adverse reactions included mucositis, diarrhea, rash and infections. The label warns of graft failure, acute and chronic GVHD, infusion reactions, secondary malignancies, donor-origin malignancies and infectious-agent transmission.",
+    cost: "Personalized transplant cell therapy; official price not verified", indiaPrice: "No official US list price, India price, or public procurement figure was verified in this pass.",
+    indiaStatus: "not-launched", indiaLabel: "US approved; India unverified", launch: "FDA approval 30 June 2026",
+    indiaCaveat: "No verified CDSCO filing, India launch date, or transplant-center availability announcement was identified.",
+    limitations: "Open-label transplant evidence in matched-donor myeloablative HSCT needs longer follow-up for relapse, late survival, generalizability beyond trial centers and eventual affordability/access assessment.",
+    detailSections: [
+      ["Event date / geography", "30 June 2026 FDA approval · United States; multicenter US trial", "wide"],
+      ["Population / sample", "187 adults aged 19-65 years with AML, ALL, MDS or MPAL undergoing matched-donor allogeneic HSCT after myeloablative conditioning", "wide"],
+      ["Comparator", "Unmanipulated allograft with tacrolimus plus methotrexate GVHD prophylaxis versus Tregzi followed by tacrolimus alone", "wide"],
+      ["Primary endpoint", "Chronic GVHD-free survival, defined as death or moderate-to-severe chronic GVHD after transplant", "wide"],
+      ["Effect size detail", "Median cGFS was not estimable versus 7.3 months; HR 0.26 (95% CI 0.14-0.47). Moderate-to-severe chronic GVHD at 12 months was 12.6% versus 44.0%; HR 0.19 (95% CI 0.08-0.43).", "wide"],
+      ["Regulatory status", "FDA approved with priority review, orphan drug designation and RMAT designation. No verified EMA, CDSCO or other national approval was captured in this pass.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-allogeneic-regulatory-t-cell-based-immunotherapy-hspc-and-t-cells-vldq-use-matched",
+    sourceLabel: "FDA approval notice",
+    supportingSources: [
+      {
+        label: "Official company release",
+        url: "https://orcabio.com/orca-bios-tregzi-receives-u-s-fda-approval-as-first-and-only-precision-engineered-cell-therapy-for-allogeneic-transplant-in-adults-with-hematological-malignanciesorca-bio-adds-east/"
+      }
+    ]
+  },
+  {
     id: "durvalumab", short: "Durvalumab", name: "Neoadjuvant Durvalumab", cancer: "Breast cancer",
     setting: "Early triple-negative", company: "AstraZeneca", phase: "Phase II",
     impact: "Moderate-high", impactGroup: "moderate", maturity: 67, impactScore: 73,
@@ -189,13 +232,13 @@ const asco2025Followup = [
   },
   {
     id: "ascent04", program: "Sacituzumab govitecan + pembrolizumab", trial: "ASCENT-04 / KEYNOTE-D19", cancer: "Breast cancer",
-    company: "Gilead + Merck / MSD", status: "development", statusLabel: "Published; filing expected",
+    company: "Gilead + Merck / MSD", status: "approved", statusLabel: "FDA approved",
     ascoSignal: "First-line PFS benefit versus chemotherapy + pembrolizumab in PD-L1-positive metastatic TNBC.",
-    currentMilestone: "NEJM publication · Jan 2026; ASCO 2026 PFS2 update",
-    assessment: "The evidence matured through peer-reviewed publication and a favorable PFS2 follow-up. No FDA approval for this first-line combination was verified by 9 June 2026; Gilead has publicly targeted a second-half 2026 launch, which remains forward-looking.",
+    currentMilestone: "FDA approval · 24 Jun 2026",
+    assessment: "The ASCO 2025 signal completed the conference-to-label path in just over a year. FDA approved the PD-L1 CPS ≥10 first-line combination on 24 June 2026 and, in the same action, added a separate Trodelvy monotherapy pathway for PD-1/PD-L1-ineligible disease based on ASCENT-03.",
     conferenceSource: "https://www.askgileadmedical.com/docs/conference/2025_ASCO_BC_Trodelvy_Tolaney_ASCENT-04%20Oral_30May2025_Final_Unbranded%40pdf",
-    currentSource: "https://www.nejm.org/doi/full/10.1056/NEJMoa2508959",
-    secondarySource: "https://www.asco.org/about-asco/press-center/sacituzumab-govitecan-pembrolizumab-extends-PFS2-metastatic-triple-negative"
+    currentSource: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line",
+    secondarySource: "https://www.nejm.org/doi/full/10.1056/NEJMoa2508959"
   }
 ];
 
@@ -281,10 +324,10 @@ const followupDetails = {
   },
   ascent04: {
     presentation: "30 May 2025 · oral phase III", design: "Global randomized open-label phase III", population: "443; untreated PD-L1 CPS ≥10 locally advanced/metastatic TNBC", comparator: "Physician's-choice chemotherapy + pembrolizumab",
-    endpoint: "Progression-free survival", effect: "ORR 60% vs 53%; response duration 16.5 vs 9.2 months in NEJM. ASCO 2026 reported PFS2 HR 0.67 (95% CI 0.48–0.95).",
-    safety: "ADC-related neutropenia and diarrhea plus immune-mediated pembrolizumab toxicity; detailed comparative grade ≥3 rates require the publication.",
-    us: "No FDA approval for this first-line combination verified by 9 June 2026.", eu: "No verified authorization.", india: "Trodelvy may be accessed through import channels; no verified domestic approval for this regimen.",
-    evidenceDelta: "Conference PFS signal matured to peer-reviewed publication and favorable post-progression analysis.", adoption: "Potentially replaces chemotherapy backbone, but toxicity, infusion burden, cost and approval remain decisive.", nextDecision: "Regulatory submission/decision; company launch targets remain forward-looking.", confidence: "High for phase III evidence; commercial timing uncertain."
+    endpoint: "Progression-free survival", effect: "FDA review: median PFS 11.2 vs 7.8 months; HR 0.65 (95% CI 0.51–0.84). ORR 61% vs 55%. ASCO 2026 reported PFS2 HR 0.67 (95% CI 0.48–0.95).",
+    safety: "Sacituzumab carries boxed warnings for diarrhea and neutropenia; pembrolizumab adds immune-mediated toxicity. Overall survival remained immature in the FDA approval notice.",
+    us: "Approved 24 June 2026 for PD-L1 CPS ≥10 unresectable locally advanced or metastatic TNBC in combination with pembrolizumab.", eu: "No verified EMA authorization in this pass.", india: "Trodelvy may be accessed through import channels, but no verified CDSCO approval for this PD-L1-positive first-line regimen was identified.",
+    evidenceDelta: "Conference and NEJM evidence progressed to FDA approval; the same FDA action also created a separate first-line monotherapy pathway for PD-1/PD-L1-ineligible disease based on ASCENT-03.", adoption: "Requires PD-L1 testing, infusion capacity, neutropenia and diarrhea management, and affordability alongside pembrolizumab.", nextDecision: "Regional approvals, reimbursement decisions and any official India filing or launch announcement.", confidence: "High: phase III evidence, peer-reviewed publication and FDA action.", verifiedThrough: "25 June 2026"
   },
   cpost: {
     presentation: "ASCO 2025 · Abstract 6001", design: "Randomized double-blind placebo-controlled phase III", population: "415; high-risk CSCC after surgery and radiation", comparator: "Placebo",
@@ -434,7 +477,8 @@ const viewTitles = {
   india: "India access & cost",
   systems: "Technology & equity",
   followup: "ASCO 2025 follow-up",
-  watchlist: "Watchlist & systems"
+  watchlist: "Watchlist & systems",
+  archive: "Newsletters & headlines"
 };
 
 const state = {
@@ -445,7 +489,10 @@ const state = {
   portfolioActiveId: "",
   backendPortfolioEntries: null,
   backendStatus: "loading",
-  backendSourceSummary: null
+  backendSourceSummary: null,
+  editionArchive: null,
+  editionDetails: {},
+  activeEditionId: ""
 };
 
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -461,6 +508,8 @@ const portfolioAliasRules = [
   { match: /durvalumab/i, aliases: ["Imfinzi"] },
   { match: /atezolizumab/i, aliases: ["Tecentriq"] },
   { match: /cemiplimab/i, aliases: ["Libtayo"] },
+  { match: /tregzi|orca-t/i, aliases: ["Tregzi", "Orca-T"] },
+  { match: /palbociclib/i, aliases: ["Ibrance"] },
   { match: /tucatinib/i, aliases: ["Tukysa"] },
   { match: /trastuzumab deruxtecan|t-dxd/i, aliases: ["Enhertu"] },
   { match: /pertuzumab/i, aliases: ["Perjeta"] },
@@ -506,10 +555,14 @@ function buildPortfolioEntries() {
       badges: [item.phase, item.impact, item.indiaLabel],
       searchText: buildSearchText(item.name, item.short, item.cancer, item.setting, item.company, item.phase, item.impact, item.headline, item.headlineNote, item.benefit, item.safety),
       route: { view: "treatments", kind: "detail", id: item.id, label: "Open treatment dossier" },
-      sourceLinks: [{ label: "Primary study", url: item.source }],
+      sourceLinks: [
+        { label: item.sourceLabel || "Primary study", url: item.source },
+        ...(item.supportingSources || [])
+      ],
       sections: [
         ["Cancer and setting", `${item.cancer} · ${item.setting}`],
         ["Manufacturer / organization", item.company],
+        ...(item.detailSections || []),
         ["Measured effect", `${item.headline}. ${item.headlineNote}`, "wide"],
         ["Clinical meaning", item.benefit, "wide"],
         ["Safety and burden", item.safety, "wide"],
@@ -787,6 +840,205 @@ async function hydratePortfolioBackend() {
   }
 }
 
+function archiveIndex() {
+  return state.editionArchive || { currentEditionId: "", currentEditionLabel: "", editions: [], monthlyHeadlines: [] };
+}
+
+function currentMonthBucket() {
+  return archiveIndex().monthlyHeadlines[0] || null;
+}
+
+function archiveDetail() {
+  return state.editionDetails[state.activeEditionId] || null;
+}
+
+function metricLine(label, value) {
+  return `<div class="archive-metric"><span>${label}</span><strong>${value}</strong></div>`;
+}
+
+function renderMonthlyHeadlinesPreview() {
+  const container = $("#monthly-headlines-preview");
+  if (!container) return;
+  const month = currentMonthBucket();
+  if (!month) {
+    container.innerHTML = `<div class="empty-state"><strong>No monthly headline archive yet.</strong><br>Build the newsletter editions to surface the monthly rollup.</div>`;
+    return;
+  }
+  container.innerHTML = `
+    <div class="headline-preview-header">
+      <strong>${month.monthLabel}</strong>
+      <span>${month.highlights.length} retained headlines</span>
+    </div>
+    ${month.highlights.slice(0, 4).map(item => `
+      <button class="headline-preview-item" data-edition-select="${item.editionId}" data-view="archive">
+        <span>${item.tag}</span>
+        <strong>${item.title}</strong>
+        <p>${item.summary}</p>
+        <em>${item.editionLabel}</em>
+      </button>
+    `).join("")}
+  `;
+}
+
+function renderArchive() {
+  const archive = archiveIndex();
+  $("#archive-edition-count").textContent = archive.editions.length;
+  $("#archive-current-edition-label").textContent = archive.currentEditionLabel
+    ? `Current edition · ${archive.currentEditionLabel}`
+    : "Current edition";
+
+  const monthContainer = $("#archive-months");
+  const editionList = $("#archive-edition-list");
+  const detail = $("#archive-detail");
+  const selectedLabel = $("#archive-selected-label");
+
+  if (!archive.editions.length) {
+    monthContainer.innerHTML = `<div class="empty-state"><strong>No newsletter archive available.</strong><br>Run the edition build to generate monthly headlines and weekly snapshots.</div>`;
+    editionList.innerHTML = "";
+    detail.innerHTML = `<div class="empty-state"><strong>No edition selected.</strong><br>Archive details will appear here once editions are available.</div>`;
+    selectedLabel.textContent = "Choose an edition to open its archived summary";
+    return;
+  }
+
+  if (!state.activeEditionId || !archive.editions.find(item => item.id === state.activeEditionId)) {
+    state.activeEditionId = archive.currentEditionId || archive.editions[0].id;
+  }
+
+  monthContainer.innerHTML = archive.monthlyHeadlines.map(month => `
+    <div class="archive-month-card">
+      <div class="archive-month-header">
+        <strong>${month.monthLabel}</strong>
+        <span>${month.highlights.length} headlines</span>
+      </div>
+      <div class="archive-month-list">
+        ${month.highlights.slice(0, 4).map(item => `
+          <button class="archive-month-item" data-edition-select="${item.editionId}">
+            <span>${item.tag}</span>
+            <strong>${item.title}</strong>
+            <p>${item.editionLabel}</p>
+          </button>
+        `).join("")}
+      </div>
+    </div>
+  `).join("");
+
+  editionList.innerHTML = archive.editions.map(item => `
+    <button class="archive-edition-card ${item.id === state.activeEditionId ? "active" : ""}" data-edition-select="${item.id}">
+      <div class="archive-edition-top">
+        <span>${item.editionLabel}</span>
+        <em>${item.id === archive.currentEditionId ? "Current" : "Archived"}</em>
+      </div>
+      <strong>${item.summary}</strong>
+      <div class="archive-edition-meta">
+        ${metricLine("Treatments", item.metrics.treatments)}
+        ${metricLine("Approvals", item.metrics.followupApprovals)}
+        ${metricLine("Watchlist", item.metrics.watchlistSignals)}
+      </div>
+    </button>
+  `).join("");
+
+  const selected = archiveDetail();
+  if (!selected) {
+    detail.innerHTML = `<div class="empty-state"><strong>Edition detail is loading.</strong><br>The archived newsletter view will appear here once the edition file is available.</div>`;
+    selectedLabel.textContent = "Loading edition";
+    return;
+  }
+
+  selectedLabel.textContent = `${selected.editionLabel} · archived weekly newsletter`;
+  detail.innerHTML = `
+    <div class="archive-detail-hero">
+      <div>
+        <p class="eyebrow">${selected.monthLabel}</p>
+        <h3>${selected.editionLabel}</h3>
+        <p>${selected.summary}</p>
+      </div>
+      <div class="archive-detail-stamp">
+        <strong>${selected.preparedLabel}</strong>
+        <small>${selected.provenance}</small>
+      </div>
+    </div>
+    <div class="archive-metric-grid">
+      ${metricLine("Verified records", selected.metrics.verifiedRecords)}
+      ${metricLine("Treatment dossiers", selected.metrics.treatments)}
+      ${metricLine("FDA-approved follow-up programs", selected.metrics.followupApprovals)}
+      ${metricLine("Watchlist signals", selected.metrics.watchlistSignals)}
+    </div>
+    <div class="dashboard-grid archive-detail-grid">
+      <article class="panel span-6 archive-inner-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Edition headlines</p>
+            <h3>What defined this weekly state?</h3>
+          </div>
+        </div>
+        <div class="archive-headline-list">
+          ${selected.headlines.map(item => `
+            <div class="archive-headline-item">
+              <span>${item.tag}</span>
+              <strong>${item.title}</strong>
+              <p>${item.summary}</p>
+            </div>
+          `).join("")}
+        </div>
+      </article>
+      <article class="panel span-6 archive-inner-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Spotlight items</p>
+            <h3>What a user could drill into that week</h3>
+          </div>
+        </div>
+        <div class="archive-spotlight-list">
+          ${selected.spotlight.map(item => `
+            <button class="archive-spotlight-item" data-edition-route-view="${item.route.view}" data-edition-route-kind="${item.route.kind}" data-edition-route-id="${item.route.targetId}">
+              <strong>${item.title}</strong>
+              <p>${item.subtitle}</p>
+            </button>
+          `).join("")}
+        </div>
+      </article>
+    </div>
+  `;
+}
+
+async function openEdition(id) {
+  if (!id) return;
+  state.activeEditionId = id;
+  renderArchive();
+  if (state.editionDetails[id]) return;
+  try {
+    const response = await fetch(`/data/editions/${id}.json`);
+    if (!response.ok) throw new Error(`Edition ${id} not found`);
+    state.editionDetails[id] = await response.json();
+  } catch (error) {
+    state.editionDetails[id] = {
+      id,
+      editionLabel: id,
+      monthLabel: id.slice(0, 7),
+      preparedLabel: `Prepared ${id}`,
+      summary: "This edition could not be loaded from the static archive.",
+      provenance: "Archive fetch failed.",
+      metrics: { verifiedRecords: 0, treatments: 0, followupApprovals: 0, watchlistSignals: 0 },
+      headlines: [],
+      spotlight: []
+    };
+  }
+  renderArchive();
+}
+
+async function hydrateEditionArchive() {
+  try {
+    const response = await fetch("/data/editions/index.json");
+    if (!response.ok) throw new Error("Edition archive unavailable");
+    state.editionArchive = await response.json();
+    renderMonthlyHeadlinesPreview();
+    await openEdition(state.editionArchive.currentEditionId || state.editionArchive.editions[0]?.id || "");
+  } catch (error) {
+    renderMonthlyHeadlinesPreview();
+    renderArchive();
+  }
+}
+
 function renderMetrics() {
   const statuses = {
     available: treatments.filter(t => t.indiaStatus === "available").length,
@@ -813,11 +1065,45 @@ function renderInsights() {
   const pendingPrimaryCount = watchlistSignals.filter(item => item.verification.includes("pending")).length;
   const availableCount = treatments.filter(item => item.indiaStatus === "available").length;
   const highImpactCount = treatments.filter(item => item.impactGroup === "high").length;
+  const followupApprovalLead = asco2025Followup
+    .filter(item => item.status === "approved")
+    .map(item => {
+      const milestone = item.currentMilestone.split("·").pop()?.trim() || "";
+      return {
+        title: item.program,
+        note: item.currentMilestone,
+        view: "followup",
+        kind: "followup",
+        targetId: item.id,
+        date: Date.parse(milestone) || 0
+      };
+    })
+    .sort((a, b) => b.date - a.date)[0];
+  const treatmentApprovalLead = treatments
+    .filter(item => item.eventDate)
+    .map(item => ({
+      title: item.name,
+      note: item.launch,
+      view: "treatments",
+      kind: "detail",
+      targetId: item.id,
+      date: Date.parse(item.eventDate) || 0
+    }))
+    .sort((a, b) => b.date - a.date)[0];
+  const approvalLead = [followupApprovalLead, treatmentApprovalLead]
+    .filter(Boolean)
+    .sort((a, b) => b.date - a.date)[0] || {
+      title: "Perioperative pembrolizumab",
+      note: "FDA approval · 12 Jun 2025",
+      view: "followup",
+      kind: "followup",
+      targetId: "keynote689",
+      date: Date.parse("2025-06-12") || 0
+    };
 
   const treatmentLead = treatments.find(item => item.id === "tucatinib");
   const accessLead = treatments.find(item => item.id === "pemigatinib");
   const regulatoryLead = asco2025Followup.find(item => item.id === "camizestrant");
-  const approvalLead = asco2025Followup.find(item => item.id === "keynote689");
   const cautionLead = watchlistSignals.find(item => item.id === "galleri");
   const systemsLead = watchlistSignals.find(item => item.id === "workforce");
 
@@ -886,12 +1172,12 @@ function renderInsights() {
 
   const rail = [
     {
-      label: "Fastest verified approval path",
-      value: approvalLead.program,
-      note: approvalLead.currentMilestone,
-      view: "followup",
-      kind: "followup",
-      targetId: approvalLead.id
+      label: "Latest verified approval",
+      value: approvalLead.title,
+      note: approvalLead.note,
+      view: approvalLead.view,
+      kind: approvalLead.kind,
+      targetId: approvalLead.targetId
     },
     {
       label: "System strain that changes access",
@@ -1159,7 +1445,7 @@ function openFollowupDetail(id) {
       <p class="eyebrow">${item.cancer} · ${item.trial}</p>
       <h2>${item.program}</h2>
       <p>${item.company}</p>
-      <div class="dossier-status-row"><span>${item.statusLabel}</span><span>${item.presentation}</span><span>Verified to 9 June 2026</span></div>
+      <div class="dossier-status-row"><span>${item.statusLabel}</span><span>${item.presentation}</span><span>Verified to ${item.verifiedThrough || "9 June 2026"}</span></div>
     </div>
     <div class="modal-body">
       <div class="dossier-grid">
@@ -1192,10 +1478,10 @@ function dossierField(label, value, extra = "") {
 
 function renderFollowupLessons() {
   const lessons = [
-    ["01", "Five programs reached FDA approval", "KEYNOTE-689, MATTERHORN, DESTINY-Breast09, C-POST and AMPLITUDE moved from ASCO evidence to regimen-specific US authorization in 2025."],
+    ["01", "Six programs reached FDA approval", "KEYNOTE-689, MATTERHORN, DESTINY-Breast09, ASCENT-04, C-POST and AMPLITUDE moved from ASCO evidence to regimen-specific US authorization."],
     ["02", "Regulators can diverge", "Camizestrant received a positive EU committee opinion while the US review questioned the clinical meaning of switching before imaging progression."],
     ["03", "Guidelines may precede labels", "ATOMIC influenced NCCN guidance, but a guideline recommendation does not itself create an FDA-approved indication."],
-    ["04", "Maturation is still valuable", "ASCENT-04 gained peer-reviewed and PFS2 follow-up support; NIVOPOSTOP produced additional analyses without a verified new label."],
+    ["04", "Maturation can become approval", "ASCENT-04 advanced from conference signal to NEJM publication and then FDA approval; NIVOPOSTOP produced additional analyses without a verified new label."],
     ["05", "Submission is not approval", "Rusfertide reached priority review, but remains investigational until the regulator issues a decision."]
   ];
   $("#followup-lessons").innerHTML = lessons.map(([number, title, text]) =>
@@ -1331,6 +1617,7 @@ function showView(view) {
   $("#view-title").textContent = viewTitles[view];
   syncPortfolioSearchInputs();
   if (view === "overview") renderPortfolio();
+  if (view === "archive") renderArchive();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -1348,7 +1635,7 @@ function openDetail(id) {
       ${detailSection("Safety and treatment burden", t.safety)}
       ${detailSection("Cost and India access", `${t.indiaPrice} ${t.indiaCaveat}`)}
       ${detailSection("Why caution remains", t.limitations)}
-      <a class="source-link" href="${t.source}" target="_blank" rel="noreferrer">Open primary study ↗</a>
+      <a class="source-link" href="${t.source}" target="_blank" rel="noreferrer">Open ${t.sourceLabel || "primary study"} ↗</a>
     </div>`;
   $("#detail-dialog").showModal();
 }
@@ -1417,6 +1704,21 @@ function bindEvents() {
     const watchlistDetail = event.target.closest("[data-watchlist-detail]");
     const portfolioSelect = event.target.closest("[data-portfolio-select]");
     const portfolioOpen = event.target.closest("[data-portfolio-open]");
+    const editionSelect = event.target.closest("[data-edition-select]");
+    const editionRoute = event.target.closest("[data-edition-route-view]");
+    if (editionSelect) {
+      showView(editionSelect.dataset.view || "archive");
+      openEdition(editionSelect.dataset.editionSelect);
+      return;
+    }
+    if (editionRoute) {
+      openInsightTarget(
+        editionRoute.dataset.editionRouteView,
+        editionRoute.dataset.editionRouteKind || "view",
+        editionRoute.dataset.editionRouteId || ""
+      );
+      return;
+    }
     if (portfolioSelect) {
       state.portfolioActiveId = portfolioSelect.dataset.portfolioSelect;
       renderPortfolio();
@@ -1499,7 +1801,9 @@ function init() {
   renderInsights();
   renderMetrics();
   renderPortfolio();
+  renderArchive();
   hydratePortfolioBackend();
+  hydrateEditionArchive();
   populateFilters();
   renderTreatments();
   renderIndiaTable();

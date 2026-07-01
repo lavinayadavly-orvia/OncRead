@@ -4,6 +4,8 @@ const portfolioAliasRules = [
   { match: /durvalumab/i, aliases: ["Imfinzi"] },
   { match: /atezolizumab/i, aliases: ["Tecentriq"] },
   { match: /cemiplimab/i, aliases: ["Libtayo"] },
+  { match: /tregzi|orca-t/i, aliases: ["Tregzi", "Orca-T"] },
+  { match: /palbociclib/i, aliases: ["Ibrance"] },
   { match: /tucatinib/i, aliases: ["Tukysa"] },
   { match: /trastuzumab deruxtecan|t-dxd/i, aliases: ["Enhertu"] },
   { match: /pertuzumab/i, aliases: ["Perjeta"] },
@@ -46,10 +48,14 @@ export function normalizePortfolio({ treatments, asco2025Followup, watchlistSign
       badges: [item.phase, item.impact, item.indiaLabel],
       searchText: buildSearchText(item.name, item.short, item.cancer, item.setting, item.company, item.phase, item.impact, item.headline, item.headlineNote, item.benefit, item.safety),
       route: { view: "treatments", kind: "detail", id: item.id, label: "Open treatment dossier" },
-      sourceLinks: [{ label: "Primary study", url: item.source }],
+      sourceLinks: [
+        { label: item.sourceLabel || "Primary study", url: item.source },
+        ...(item.supportingSources || [])
+      ],
       sections: [
         ["Cancer and setting", `${item.cancer} · ${item.setting}`],
         ["Manufacturer / organization", item.company],
+        ...(item.detailSections || []),
         ["Measured effect", `${item.headline}. ${item.headlineNote}`, "wide"],
         ["Clinical meaning", item.benefit, "wide"],
         ["Safety and burden", item.safety, "wide"],

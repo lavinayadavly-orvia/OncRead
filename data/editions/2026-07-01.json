@@ -1,0 +1,79 @@
+{
+  "id": "2026-07-01",
+  "editionLabel": "1 July 2026",
+  "preparedLabel": "Prepared 1 July 2026",
+  "monthKey": "2026-07",
+  "monthLabel": "July 2026",
+  "summary": "The 1 July 2026 weekly edition added FDA-approved Tregzi as a new hematologic-malignancy transplant dossier and refreshed the latest-approval logic around that regulator action.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 10,
+    "followupApprovals": 6,
+    "indiaMarketed": 4,
+    "watchlistSignals": 4,
+    "verifiedRecords": 25
+  },
+  "headlines": [
+    {
+      "tag": "New FDA dossier",
+      "title": "Tregzi becomes the newest verified approval in the dashboard",
+      "summary": "The dashboard added a transplant-cell-therapy dossier for the 30 June 2026 FDA approval in matched-donor myeloablative HSCT."
+    },
+    {
+      "tag": "Archive-ready state",
+      "title": "Current edition now carries enough structure to be archived weekly",
+      "summary": "The same weekly pass can now be retained as a dated newsletter edition instead of being overwritten in place."
+    },
+    {
+      "tag": "Systems context",
+      "title": "Regulatory change is still framed alongside access and caution signals",
+      "summary": "The live edition keeps Tregzi beside affordability, workforce, and screening constraints rather than treating approvals as the whole story."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "tregzi"
+      },
+      "title": "Tregzi Transplant Cell Therapy",
+      "subtitle": "FDA approval 30 June 2026",
+      "date": 1782777600000
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "workforce"
+      },
+      "title": "Global oncology workforce warning",
+      "subtitle": "Systems report",
+      "date": 0
+    }
+  ],
+  "sourceCount": 25,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "tregzi"
+      },
+      "title": "Tregzi Transplant Cell Therapy",
+      "subtitle": "FDA approval 30 June 2026",
+      "date": 1782777600000
+    }
+  }
+}

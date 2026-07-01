@@ -2,6 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { buildDashboardEditions } from "./build-dashboard-editions.mjs";
 import { loadDashboardSeeds } from "../server/lib/dashboard-data.mjs";
 import { normalizePortfolio } from "../server/lib/portfolio-normalize.mjs";
 import { buildSourceCatalog } from "../server/lib/source-health.mjs";
@@ -31,4 +32,7 @@ const payload = {
 await mkdir(outputDir, { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
 
+const archiveResult = await buildDashboardEditions(rootDir);
+
 console.log(`Wrote ${outputPath}`);
+console.log(`Built ${archiveResult.editionCount} newsletter editions; current edition ${archiveResult.currentEditionId}`);

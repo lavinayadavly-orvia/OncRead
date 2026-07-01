@@ -7,7 +7,7 @@
   <link rel="icon" href="onctree_icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="onctree_icon.svg">
   <title>OncTree - Onco updates made easy</title>
-  <link rel="stylesheet" href="styles.css?v=20260616-portfolio">
+  <link rel="stylesheet" href="styles.css?v=20260701-oncology-archive">
 </head>
 <body>
   <div class="app-shell">
@@ -42,13 +42,16 @@
         <button class="nav-item" data-view="watchlist">
           <span class="nav-icon">07</span><span>Watchlist & systems</span>
         </button>
+        <button class="nav-item" data-view="archive">
+          <span class="nav-icon">08</span><span>Newsletters & headlines</span>
+        </button>
       </nav>
 
       <div class="sidebar-note">
         <span class="status-dot"></span>
         <div>
           <strong>Research snapshot</strong>
-          <p>Prepared 15 June 2026</p>
+          <p>Prepared 1 July 2026</p>
         </div>
       </div>
       <a class="report-link" href="ASCO_2026_Advances_Impact_Assessment.docx">Open detailed report</a>
@@ -107,7 +110,17 @@
             <div id="insight-rail" class="insight-rail"></div>
           </article>
 
-          <article class="panel span-12">
+          <article class="panel span-4">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Headlines of the month</p>
+                <h3>What kept accumulating this month?</h3>
+              </div>
+            </div>
+            <div id="monthly-headlines-preview" class="headline-preview-list"></div>
+          </article>
+
+          <article class="panel span-8">
             <div class="panel-heading">
               <div>
                 <p class="eyebrow">How to use it</p>
@@ -120,6 +133,55 @@
               <p><strong>Double-click navigation.</strong> Each card routes you to the matching page and opens the relevant treatment, follow-up, or watchlist detail panel when one exists.</p>
               <p><strong>Comparable framing.</strong> The source sections stay intact; this page only summarizes and routes, so the detailed evidence remains on the specialist pages.</p>
             </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="archive" class="view" aria-labelledby="view-title">
+        <div class="archive-hero">
+          <div>
+            <p class="eyebrow light">Edition archive</p>
+            <h3>Retain every verified weekly state as a dated newsletter, not a disappearing overwrite.</h3>
+            <p>The archive keeps point-in-time weekly editions so a user can reopen the June 15, June 25, June 30, or July 1 view and read the summary, headlines, and spotlight items exactly as that edition was packaged.</p>
+          </div>
+          <div class="followup-stamp archive-stamp">
+            <strong id="archive-edition-count">0</strong><span>newsletter editions</span>
+            <small>Monthly headlines plus dated weekly states</small>
+          </div>
+        </div>
+
+        <div class="dashboard-grid">
+          <article class="panel span-4">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Monthly rollup</p>
+                <h3>Headlines of the month</h3>
+              </div>
+              <span class="microcopy">Aggregated from dated editions</span>
+            </div>
+            <div id="archive-months" class="archive-months"></div>
+          </article>
+
+          <article class="panel span-8">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Weekly archive</p>
+                <h3>Open a past newsletter edition</h3>
+              </div>
+              <span class="microcopy"><strong id="archive-current-edition-label">Current edition</strong></span>
+            </div>
+            <div id="archive-edition-list" class="archive-edition-list"></div>
+          </article>
+
+          <article class="panel span-12">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Selected edition</p>
+                <h3>Weekly newsletter detail</h3>
+              </div>
+              <span id="archive-selected-label" class="microcopy">Choose an edition to open its archived summary</span>
+            </div>
+            <div id="archive-detail" class="archive-detail"></div>
           </article>
         </div>
       </section>
@@ -288,7 +350,7 @@
       <section id="followup" class="view" aria-labelledby="view-title">
         <div class="followup-hero">
           <div>
-            <p class="eyebrow light">One year later · status at 9 June 2026</p>
+            <p class="eyebrow light">One year later · baseline 9 June 2026, refreshed for later milestones</p>
             <h3>Which ASCO 2025 signals actually moved forward?</h3>
             <p>This selected tracker follows major practice-shaping molecules and regimens from ASCO 2025 through publication, guidelines, regulatory review and approval. A positive conference result is not counted as adoption until a later milestone is verified.</p>
           </div>
@@ -375,7 +437,7 @@
       <section id="watchlist" class="view" aria-labelledby="view-title">
         <div class="followup-hero watchlist-hero">
           <div>
-            <p class="eyebrow light">Open-ended weekly review · updated 15 June 2026</p>
+            <p class="eyebrow light">Open-ended weekly review · updated 25 June 2026</p>
             <h3>Material developments that do not fit the treatment cards need their own lane.</h3>
             <p>This watchlist tracks important conference-only signals, negative screening evidence, surgery-sparing strategies and system-capacity findings that could change oncology decisions but should not be overstated as routine-care adoption.</p>
           </div>
@@ -474,6 +536,6 @@
     <div id="watchlist-detail-content"></div>
   </dialog>
 
-  <script src="app.js?v=20260616-portfolio-6"></script>
+  <script src="app.js?v=20260701-oncology-archive-1"></script>
 </body>
 </html>
