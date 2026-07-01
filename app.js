@@ -852,6 +852,25 @@ function archiveDetail() {
   return state.editionDetails[state.activeEditionId] || null;
 }
 
+function currentEditionSummary() {
+  const archive = archiveIndex();
+  return archive.editions.find(item => item.id === archive.currentEditionId) || archive.editions[0] || null;
+}
+
+function formatDisplayDate(dateValue) {
+  if (!dateValue) return "Not dated";
+  const parsed = new Date(dateValue);
+  if (Number.isNaN(parsed.valueOf())) return dateValue;
+  return parsed.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+}
+
+function formatCompactDate(dateValue) {
+  if (!dateValue) return "Live";
+  const parsed = new Date(dateValue);
+  if (Number.isNaN(parsed.valueOf())) return dateValue;
+  return parsed.toLocaleDateString("en-GB", { day: "numeric", month: "short", timeZone: "UTC" });
+}
+
 function metricLine(label, value) {
   return `<div class="archive-metric"><span>${label}</span><strong>${value}</strong></div>`;
 }
@@ -868,6 +887,7 @@ function renderMonthlyHeadlinesPreview() {
     <div class="headline-preview-header">
       <strong>${month.monthLabel}</strong>
       <span>${month.highlights.length} retained headlines</span>
+      <button class="text-button" type="button" data-view="archive">Open archive</button>
     </div>
     ${month.highlights.slice(0, 4).map(item => `
       <button class="headline-preview-item" data-edition-select="${item.editionId}" data-view="archive">
@@ -877,6 +897,59 @@ function renderMonthlyHeadlinesPreview() {
         <em>${item.editionLabel}</em>
       </button>
     `).join("")}
+  `;
+}
+
+function renderCurrentEditionPreview() {
+  const container = $("#current-edition-preview");
+  if (!container) return;
+  const edition = currentEditionSummary();
+  const detail = edition ? state.editionDetails[edition.id] || null : null;
+  if (!edition) {
+    container.innerHTML = `<div class="empty-state"><strong>No current archived edition yet.</strong><br>Build the weekly newsletter snapshot to make today’s state persistent.</div>`;
+    return;
+  }
+
+  const spotlightLead = detail?.spotlight?.[0] || null;
+  container.innerHTML = `
+    <div class="current-edition-card">
+      <span class="current-edition-label">${edition.preparedLabel}</span>
+      <strong>${edition.editionLabel}</strong>
+      <p>${edition.summary}</p>
+      <div class="current-edition-mini-grid">
+        <div>
+          <span>Verified records</span>
+          <strong>${edition.metrics.verifiedRecords}</strong>
+        </div>
+        <div>
+          <span>Treatments</span>
+          <strong>${edition.metrics.treatments}</strong>
+        </div>
+        <div>
+          <span>Approvals</span>
+          <strong>${edition.metrics.followupApprovals}</strong>
+        </div>
+      </div>
+      <div class="current-edition-headlines">
+        ${(detail?.headlines || []).slice(0, 3).map(item => `
+          <div class="current-edition-headline">
+            <span>${item.tag}</span>
+            <strong>${item.title}</strong>
+          </div>
+        `).join("") || `<div class="current-edition-headline"><span>Archive</span><strong>Edition detail is still loading.</strong></div>`}
+      </div>
+      <div class="current-edition-actions">
+        <button class="button secondary" type="button" data-edition-select="${edition.id}" data-view="archive">Open newsletter</button>
+        ${spotlightLead ? `
+          <button class="button ghost current-edition-jump" type="button"
+            data-edition-route-view="${spotlightLead.route.view}"
+            data-edition-route-kind="${spotlightLead.route.kind}"
+            data-edition-route-id="${spotlightLead.route.targetId}">
+            Open lead item
+          </button>
+        ` : ""}
+      </div>
+    </div>
   `;
 }
 
@@ -1033,9 +1106,11 @@ async function hydrateEditionArchive() {
     state.editionArchive = await response.json();
     renderMonthlyHeadlinesPreview();
     await openEdition(state.editionArchive.currentEditionId || state.editionArchive.editions[0]?.id || "");
+    renderInsights();
   } catch (error) {
     renderMonthlyHeadlinesPreview();
     renderArchive();
+    renderInsights();
   }
 }
 
@@ -1061,10 +1136,26 @@ function metricCard(value, label, note, tone, icon) {
 }
 
 function renderInsights() {
+  const currentEdition = currentEditionSummary();
+  const currentDetail = currentEdition ? state.editionDetails[currentEdition.id] || null : null;
+  const newestTreatmentApproval = treatments
+    .filter(item => item.eventDate)
+    .sort((a, b) => (Date.parse(b.eventDate) || 0) - (Date.parse(a.eventDate) || 0))[0];
+  const routeApproval = currentDetail?.routeSummary?.approval || null;
+  const featuredRoute = routeApproval?.route || {
+    view: "treatments",
+    kind: "detail",
+    targetId: newestTreatmentApproval?.id || "tucatinib"
+  };
+  const featuredTreatment = treatments.find(item => item.id === featuredRoute.targetId) || newestTreatmentApproval || treatments[0];
+  const featuredHeadline = currentDetail?.headlines?.[0] || null;
+  const featuredLabel = routeApproval?.title || featuredTreatment.name;
+  const featuredNote = routeApproval?.subtitle || featuredTreatment.launch;
   const approvedCount = asco2025Followup.filter(item => item.status === "approved").length;
   const pendingPrimaryCount = watchlistSignals.filter(item => item.verification.includes("pending")).length;
   const availableCount = treatments.filter(item => item.indiaStatus === "available").length;
   const highImpactCount = treatments.filter(item => item.impactGroup === "high").length;
+  const currentMonth = currentMonthBucket();
   const followupApprovalLead = asco2025Followup
     .filter(item => item.status === "approved")
     .map(item => {
@@ -1106,22 +1197,26 @@ function renderInsights() {
   const regulatoryLead = asco2025Followup.find(item => item.id === "camizestrant");
   const cautionLead = watchlistSignals.find(item => item.id === "galleri");
   const systemsLead = watchlistSignals.find(item => item.id === "workforce");
+  const featuredDecision = featuredTreatment.id === "tregzi"
+    ? "Whether transplant programs should treat this GVHD-reducing graft platform as a real referral, procurement, and center-readiness decision in matched-donor myeloablative HSCT."
+    : "Whether the newest verified change is strong enough to alter treatment planning rather than remain a tracked signal.";
+  const featuredConstraint = featuredTreatment.indiaCaveat || featuredTreatment.limitations;
 
   const cards = [
     {
       tone: "teal",
-      eyebrow: "Treatment shift",
-      title: treatmentLead.name,
-      summary: "First-line HER2 maintenance intensification remains the clearest efficacy-driven candidate in the treatment set.",
-      signal: `${treatmentLead.headline} · ${treatmentLead.headlineNote}`,
-      why: treatmentLead.benefit,
-      decision: "Whether clinicians should view this as a likely near-term practice-change candidate rather than a marginal intensification.",
-      constraint: treatmentLead.limitations,
-      confidence: treatmentLead.impact,
-      route: "Treatment explorer",
-      view: "treatments",
-      kind: "detail",
-      targetId: treatmentLead.id
+      eyebrow: "Newest verified move",
+      title: featuredTreatment.name,
+      summary: featuredHeadline?.summary || featuredTreatment.benefit,
+      signal: `${featuredTreatment.headline} · ${featuredTreatment.headlineNote}`,
+      why: featuredTreatment.benefit,
+      decision: featuredDecision,
+      constraint: featuredConstraint,
+      confidence: featuredTreatment.impact,
+      route: "Open dossier",
+      view: featuredRoute.view,
+      kind: featuredRoute.kind,
+      targetId: featuredRoute.targetId
     },
     {
       tone: "blue",
@@ -1195,19 +1290,140 @@ function renderInsights() {
       kind: "view"
     },
     {
-      label: "Signals still needing primary capture",
-      value: `${pendingPrimaryCount} watchlist items`,
-      note: "Conference-only or report-level verification still incomplete",
-      view: "watchlist",
+      label: "Archive continuity",
+      value: currentEdition?.editionLabel || "Current edition",
+      note: currentMonth ? `${currentMonth.monthLabel} monthly rollup is retained` : "Archive bucket loads when edition data is available",
+      view: "archive",
       kind: "view"
     }
   ];
 
+  const actionBoard = [
+    {
+      label: "Open now",
+      title: featuredLabel,
+      note: featuredNote,
+      summary: featuredHeadline?.title || "Newest verified movement in the briefing",
+      view: featuredRoute.view,
+      kind: featuredRoute.kind,
+      targetId: featuredRoute.targetId
+    },
+    {
+      label: "Decide carefully",
+      title: regulatoryLead.program,
+      note: regulatoryLead.currentMilestone,
+      summary: regulatoryLead.nextDecision,
+      view: "followup",
+      kind: "followup",
+      targetId: regulatoryLead.id
+    },
+    {
+      label: "Do not over-adopt",
+      title: cautionLead.title,
+      note: cautionLead.statusLabel,
+      summary: cautionLead.decisionImpact,
+      view: "watchlist",
+      kind: "watchlist",
+      targetId: cautionLead.id
+    }
+  ];
+
+  $("#briefing-headline").textContent = featuredHeadline?.title
+    || `${featuredLabel} is the newest verified move in the briefing`;
+  $("#briefing-summary").textContent = currentEdition?.summary
+    || "The morning briefing is organized around what changed, what action it could change, and what still blocks confident adoption.";
+  $("#briefing-date-label").textContent = currentEdition?.preparedLabel || "Current briefing";
+  $("#briefing-pulse-summary").textContent = currentMonth
+    ? `${currentMonth.monthLabel} is the active monthly headline bucket, and ${currentEdition?.editionLabel || "the live edition"} stays archived as a dated weekly newsletter.`
+    : "Current edition continuity and monthly headline retention will appear here once the archive is loaded.";
+  $("#briefing-tag-row").innerHTML = [
+    ["Live edition", currentEdition?.editionLabel || "Current state"],
+    ["Newest move", featuredLabel],
+    ["Needs decision", regulatoryLead.program],
+    ["Hold with caution", cautionLead.title]
+  ].map(([label, value]) => `<span class="briefing-tag"><strong>${label}</strong>${value}</span>`).join("");
+
+  const primaryAction = $("#briefing-primary-action");
+  if (primaryAction) {
+    primaryAction.dataset.insightView = featuredRoute.view;
+    primaryAction.dataset.insightKind = featuredRoute.kind;
+    primaryAction.dataset.insightId = featuredRoute.targetId || "";
+    primaryAction.textContent = `Open ${featuredTreatment.short || featuredLabel || "lead dossier"}`;
+  }
+
+  $("#briefing-pulse-list").innerHTML = [
+    {
+      label: "Newest verified move",
+      value: featuredLabel,
+      note: featuredNote,
+      view: featuredRoute.view,
+      kind: featuredRoute.kind,
+      targetId: featuredRoute.targetId
+    },
+    {
+      label: "Decision under dispute",
+      value: regulatoryLead.program,
+      note: regulatoryLead.currentMilestone,
+      view: "followup",
+      kind: "followup",
+      targetId: regulatoryLead.id
+    },
+    {
+      label: "System blocker",
+      value: systemsLead.title,
+      note: systemsLead.statusLabel,
+      view: "watchlist",
+      kind: "watchlist",
+      targetId: systemsLead.id
+    }
+  ].map(item => `
+    <button class="briefing-pulse-item" type="button" data-insight-view="${item.view}" data-insight-kind="${item.kind}" ${item.targetId ? `data-insight-id="${item.targetId}"` : ""}>
+      <span>${item.label}</span>
+      <strong>${item.value}</strong>
+      <p>${item.note}</p>
+    </button>
+  `).join("");
+
+  $("#briefing-feature-card").innerHTML = `
+    <button class="briefing-feature-button" type="button" data-insight-view="${featuredRoute.view}" data-insight-kind="${featuredRoute.kind}" ${featuredRoute.targetId ? `data-insight-id="${featuredRoute.targetId}"` : ""}>
+      <span class="briefing-feature-eyebrow">${featuredHeadline?.tag || "Newest verified move"}</span>
+      <h3>${featuredLabel}</h3>
+      <p>${featuredHeadline?.summary || featuredTreatment.benefit}</p>
+      <div class="briefing-feature-grid">
+        <div>
+          <span>Why it matters now</span>
+          <strong>${featuredTreatment.benefit}</strong>
+        </div>
+        <div>
+          <span>Decision it can change</span>
+          <strong>${featuredDecision}</strong>
+        </div>
+        <div>
+          <span>What still blocks confidence</span>
+          <strong>${featuredConstraint}</strong>
+        </div>
+      </div>
+      <div class="briefing-feature-foot">
+        <em>${featuredTreatment.headline} · ${featuredTreatment.headlineNote}</em>
+        <span>Open dossier</span>
+      </div>
+    </button>
+  `;
+
+  $("#briefing-action-board").innerHTML = actionBoard.map(item => `
+    <button class="briefing-action-card" type="button" data-insight-view="${item.view}" data-insight-kind="${item.kind}" ${item.targetId ? `data-insight-id="${item.targetId}"` : ""}>
+      <span>${item.label}</span>
+      <strong>${item.title}</strong>
+      <p>${item.summary}</p>
+      <em>${item.note}</em>
+    </button>
+  `).join("");
+
   $("#insight-metrics").innerHTML = [
-    [cards.length, "Insights surfaced", "Curated for the morning brief", "", "BR"],
-    [approvedCount, "Follow-up approvals", "Verified regimen-specific authorization", "blue", "✓"],
+    [formatCompactDate(featuredTreatment.eventDate), "Newest dated move", featuredLabel, "", "NEW"],
+    [currentEdition?.metrics?.verifiedRecords || cards.length, "Verified records live", currentEdition ? `Archived as ${currentEdition.editionLabel}` : "Current edition", "blue", "VR"],
     [availableCount, "India-marketed assets", "Study use may still differ from label", "gold", "IN"],
-    [pendingPrimaryCount, "Watchlist caveats", "Direct primary capture still pending", "coral", "!"]
+    [pendingPrimaryCount, "Signals still cautionary", "Direct primary capture still pending", "coral", "!"]
   ].map(([value, label, note, tone, icon]) => metricCard(value, label, note, tone, icon)).join("");
 
   $("#insight-grid").innerHTML = cards.map(card => `
@@ -1232,20 +1448,20 @@ function renderInsights() {
       <div class="insight-foot">
         <strong>${card.signal}</strong>
         <em>${card.confidence}</em>
-        <span>Double-click → ${card.route}</span>
+        <span>Open → ${card.route}</span>
       </div>
     </button>
   `).join("");
 
   $("#insight-rail").innerHTML = rail.map(item => `
-    <button class="insight-rail-item" data-insight-view="${item.view}" data-insight-kind="${item.kind}" ${item.targetId ? `data-insight-id="${item.targetId}"` : ""} title="Double-click to navigate">
+    <button class="insight-rail-item" data-insight-view="${item.view}" data-insight-kind="${item.kind}" ${item.targetId ? `data-insight-id="${item.targetId}"` : ""} title="Open linked detail">
       <span>${item.label}</span>
       <strong>${item.value}</strong>
       <p>${item.note}</p>
     </button>
   `).join("");
-
-  $("#insight-card-count").textContent = cards.length;
+  renderCurrentEditionPreview();
+  renderMonthlyHeadlinesPreview();
 }
 
 function renderEvidenceMap() {
@@ -1697,6 +1913,7 @@ function bindEvents() {
   document.addEventListener("click", event => {
     const viewButton = event.target.closest("[data-view]");
     const goButton = event.target.closest("[data-go-view]");
+    const insightTarget = event.target.closest("[data-insight-view]");
     const detailButton = event.target.closest("[data-detail]");
     const compareButton = event.target.closest("[data-compare]");
     const closeButton = event.target.closest("[data-close-dialog]");
@@ -1716,6 +1933,14 @@ function bindEvents() {
         editionRoute.dataset.editionRouteView,
         editionRoute.dataset.editionRouteKind || "view",
         editionRoute.dataset.editionRouteId || ""
+      );
+      return;
+    }
+    if (insightTarget) {
+      openInsightTarget(
+        insightTarget.dataset.insightView,
+        insightTarget.dataset.insightKind || "view",
+        insightTarget.dataset.insightId || ""
       );
       return;
     }

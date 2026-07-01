@@ -70,16 +70,28 @@
       </header>
 
       <section id="insights" class="view active" aria-labelledby="view-title">
-        <div class="insights-hero">
-          <div>
+        <div class="briefing-hero">
+          <div class="briefing-hero-copy">
             <p class="eyebrow light">Morning briefing</p>
-            <h3>Start with the decisions that moved, the frictions that matter, and the signals that still need caution.</h3>
-            <p>This page now follows a stricter briefing pattern: plain-language interpretation first, visible decision pressure and constraints second, and deep evidence only when you choose to drill in. Double-click any card to jump directly to the detailed dossier on the relevant page.</p>
+            <h3 id="briefing-headline">See the verified move that matters, the decision still in dispute, and the constraint that can still block adoption.</h3>
+            <p id="briefing-summary">This view is being reshaped around recency, actionability, and trust. The latest verified change should be unmistakable, the blocker should be named, and the archived weekly state should stay one click away.</p>
+            <div id="briefing-tag-row" class="briefing-tag-row"></div>
+            <div class="briefing-cta-row">
+              <button id="briefing-primary-action" class="button primary" type="button">Open newest dossier</button>
+              <button class="button secondary" type="button" data-view="archive">Open latest newsletter</button>
+            </div>
           </div>
-          <div class="followup-stamp">
-            <strong id="insight-card-count">0</strong><span>briefing cards</span>
-            <small>Double-click to open the underlying detail</small>
+          <div class="briefing-pulse">
+            <span class="briefing-pulse-label">Live briefing pulse</span>
+            <strong id="briefing-date-label">Prepared 1 July 2026</strong>
+            <p id="briefing-pulse-summary">Current edition continuity and decision pressure load here.</p>
+            <div id="briefing-pulse-list" class="briefing-pulse-list"></div>
           </div>
+        </div>
+
+        <div class="briefing-ribbon">
+          <article id="briefing-feature-card" class="briefing-feature-card"></article>
+          <div id="briefing-action-board" class="briefing-action-board"></div>
         </div>
 
         <div id="insight-metrics" class="metric-grid"></div>
@@ -88,10 +100,10 @@
           <article class="panel span-8">
             <div class="panel-heading">
               <div>
-                <p class="eyebrow">Cross-page insight map</p>
-                <h3>What deserves attention first this morning?</h3>
+                <p class="eyebrow">Decision board</p>
+                <h3>What should move attention first today?</h3>
               </div>
-              <span class="microcopy">Double-click a card to open its target dossier or page</span>
+              <span class="microcopy">Single click opens the linked dossier or page</span>
             </div>
             <div id="insight-grid" class="insight-grid"></div>
           </article>
@@ -109,6 +121,16 @@
           <article class="panel span-4">
             <div class="panel-heading">
               <div>
+                <p class="eyebrow">Current edition</p>
+                <h3>What does today’s archived state say?</h3>
+              </div>
+            </div>
+            <div id="current-edition-preview" class="current-edition-preview"></div>
+          </article>
+
+          <article class="panel span-4">
+            <div class="panel-heading">
+              <div>
                 <p class="eyebrow">Headlines of the month</p>
                 <h3>What kept accumulating this month?</h3>
               </div>
@@ -116,18 +138,26 @@
             <div id="monthly-headlines-preview" class="headline-preview-list"></div>
           </article>
 
-          <article class="panel span-8">
+          <article class="panel span-4">
             <div class="panel-heading">
               <div>
-                <p class="eyebrow">How to use it</p>
-                <h3>Brief first, deep dive second</h3>
+                <p class="eyebrow">Trust logic</p>
+                <h3>Why this briefing can be trusted fast</h3>
               </div>
             </div>
-            <div class="method-list">
-              <p><strong>Single view.</strong> The insights page surfaces regulatory movement, practice-change candidates, affordability pressure, cautionary evidence, and systems constraints in one place.</p>
-              <p><strong>Constraint-first framing.</strong> Each briefing card now shows why the item matters, what decision it could change, and what limitation or access constraint still holds it back.</p>
-              <p><strong>Double-click navigation.</strong> Each card routes you to the matching page and opens the relevant treatment, follow-up, or watchlist detail panel when one exists.</p>
-              <p><strong>Comparable framing.</strong> The source sections stay intact; this page only summarizes and routes, so the detailed evidence remains on the specialist pages.</p>
+            <div class="trust-list">
+              <div class="trust-item">
+                <strong>Primary-source first</strong>
+                <p>Approvals, study results, and commercial facts stay anchored to official or peer-reviewed sources where verified.</p>
+              </div>
+              <div class="trust-item">
+                <strong>Unknowns stay visible</strong>
+                <p>Launch dates, India access, and pricing remain explicitly unverified when the evidence does not support a stronger claim.</p>
+              </div>
+              <div class="trust-item">
+                <strong>Every week is retained</strong>
+                <p>The current state is not disposable. Archived editions and monthly headlines preserve what was true on each dated pass.</p>
+              </div>
             </div>
           </article>
         </div>

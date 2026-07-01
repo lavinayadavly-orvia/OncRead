@@ -4,7 +4,7 @@
   "preparedLabel": "Prepared 30 June 2026",
   "monthKey": "2026-06",
   "monthLabel": "June 2026",
-  "summary": "The 30 June 2026 review published as a no-material-change edition: the dashboard held its late-June breast-cancer approvals while official-source checks did not justify a new promotion.",
+  "summary": "No verified oncology development cleared the bar on 30 June 2026, leaving the late-June breast-cancer approvals as the newest material moves.",
   "provenance": "Derived from the current working tree with the July 2026 Tregzi addition removed to recreate the 30 June 2026 no-change review edition.",
   "metrics": {
     "insights": 4,
@@ -17,18 +17,18 @@
   "headlines": [
     {
       "tag": "Verified hold",
-      "title": "No new material dashboard item cleared the bar",
+      "title": "No new oncology development cleared the bar",
       "summary": "Official-source checks did not surface a post-28 June development strong enough for responsible inclusion."
     },
     {
       "tag": "Newest approval then",
       "title": "ASCENT-04 remained the most recent verified approval",
-      "summary": "The shortcut rail still pointed to the 24 June 2026 TNBC approval as the latest regulator-confirmed milestone in the dashboard."
+      "summary": "The 24 June 2026 TNBC approval remained the latest regulator-confirmed milestone in the briefing."
     },
     {
       "tag": "What stayed important",
       "title": "Workforce and screening caution signals remained active",
-      "summary": "The dashboard preserved system-level warnings and negative screening evidence rather than dropping them on quiet regulatory days."
+      "summary": "System-level warnings and negative screening evidence stayed visible despite the lack of a fresh regulatory move."
     }
   ],
   "spotlight": [

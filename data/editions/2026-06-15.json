@@ -4,7 +4,7 @@
   "preparedLabel": "Prepared 15 June 2026",
   "monthKey": "2026-06",
   "monthLabel": "June 2026",
-  "summary": "Morning briefing mode launched with the first watchlist-and-systems expansion, giving the dashboard a plain-language front page and explicit room for nonconforming oncology signals.",
+  "summary": "Watchlist, screening, and workforce signals moved onto the 15 June 2026 front page instead of sitting behind treatment-only views.",
   "provenance": "Seeded from the 15 June 2026 briefing-era git commit.",
   "metrics": {
     "insights": 4,
@@ -17,8 +17,8 @@
   "headlines": [
     {
       "tag": "New briefing surface",
-      "title": "Morning briefing becomes the front door",
-      "summary": "The dashboard shifted from a static review page to a decision-first morning briefing that routes users into the underlying dossiers."
+      "title": "Morning briefing becomes the new front door",
+      "summary": "The landing view turns into a decision-first briefing that pushes readers straight into the underlying dossiers."
     },
     {
       "tag": "Watchlist expansion",

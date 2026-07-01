@@ -9,7 +9,7 @@
       "preparedLabel": "Prepared 1 July 2026",
       "monthKey": "2026-07",
       "monthLabel": "July 2026",
-      "summary": "The 1 July 2026 weekly edition added FDA-approved Tregzi as a new hematologic-malignancy transplant dossier and refreshed the latest-approval logic around that regulator action.",
+      "summary": "FDA approval of Tregzi pushed a new blood-cancer transplant-cell-therapy dossier to the top of the 1 July 2026 briefing.",
       "file": "/data/editions/2026-07-01.json",
       "metrics": {
         "insights": 4,
@@ -26,7 +26,7 @@
       "preparedLabel": "Prepared 30 June 2026",
       "monthKey": "2026-06",
       "monthLabel": "June 2026",
-      "summary": "The 30 June 2026 review published as a no-material-change edition: the dashboard held its late-June breast-cancer approvals while official-source checks did not justify a new promotion.",
+      "summary": "No verified oncology development cleared the bar on 30 June 2026, leaving the late-June breast-cancer approvals as the newest material moves.",
       "file": "/data/editions/2026-06-30.json",
       "metrics": {
         "insights": 4,
@@ -43,7 +43,7 @@
       "preparedLabel": "Prepared 25 June 2026",
       "monthKey": "2026-06",
       "monthLabel": "June 2026",
-      "summary": "The late-June edition captured two breast-cancer regulatory upgrades: a new palbociclib maintenance dossier and the FDA approval of ASCENT-04 / KEYNOTE-D19.",
+      "summary": "Two breast-cancer regulatory moves drove the 25 June 2026 briefing: palbociclib maintenance and the FDA approval of ASCENT-04 / KEYNOTE-D19.",
       "file": "/data/editions/2026-06-25.json",
       "metrics": {
         "insights": 4,
@@ -60,7 +60,7 @@
       "preparedLabel": "Prepared 15 June 2026",
       "monthKey": "2026-06",
       "monthLabel": "June 2026",
-      "summary": "Morning briefing mode launched with the first watchlist-and-systems expansion, giving the dashboard a plain-language front page and explicit room for nonconforming oncology signals.",
+      "summary": "Watchlist, screening, and workforce signals moved onto the 15 June 2026 front page instead of sitting behind treatment-only views.",
       "file": "/data/editions/2026-06-15.json",
       "metrics": {
         "insights": 4,
@@ -82,22 +82,22 @@
           "editionId": "2026-07-01",
           "editionLabel": "1 July 2026",
           "tag": "New FDA dossier",
-          "title": "Tregzi becomes the newest verified approval in the dashboard",
-          "summary": "The dashboard added a transplant-cell-therapy dossier for the 30 June 2026 FDA approval in matched-donor myeloablative HSCT."
+          "title": "FDA clears Tregzi for matched-donor myeloablative HSCT",
+          "summary": "The 30 June 2026 decision put a new transplant-cell-therapy dossier into the hematologic-malignancy briefing."
         },
         {
           "editionId": "2026-07-01",
           "editionLabel": "1 July 2026",
           "tag": "Archive-ready state",
-          "title": "Current edition now carries enough structure to be archived weekly",
-          "summary": "The same weekly pass can now be retained as a dated newsletter edition instead of being overwritten in place."
+          "title": "Each morning brief can now stand as its own dated weekly edition",
+          "summary": "This snapshot remains reopenable as a point-in-time newsletter instead of disappearing into the next refresh."
         },
         {
           "editionId": "2026-07-01",
           "editionLabel": "1 July 2026",
           "tag": "Systems context",
           "title": "Regulatory change is still framed alongside access and caution signals",
-          "summary": "The live edition keeps Tregzi beside affordability, workforce, and screening constraints rather than treating approvals as the whole story."
+          "summary": "Tregzi appears alongside affordability, workforce, and screening constraints rather than crowding them off the front page."
         }
       ]
     },
@@ -110,7 +110,7 @@
           "editionId": "2026-06-30",
           "editionLabel": "30 June 2026",
           "tag": "Verified hold",
-          "title": "No new material dashboard item cleared the bar",
+          "title": "No new oncology development cleared the bar",
           "summary": "Official-source checks did not surface a post-28 June development strong enough for responsible inclusion."
         },
         {
@@ -118,21 +118,21 @@
           "editionLabel": "30 June 2026",
           "tag": "Newest approval then",
           "title": "ASCENT-04 remained the most recent verified approval",
-          "summary": "The shortcut rail still pointed to the 24 June 2026 TNBC approval as the latest regulator-confirmed milestone in the dashboard."
+          "summary": "The 24 June 2026 TNBC approval remained the latest regulator-confirmed milestone in the briefing."
         },
         {
           "editionId": "2026-06-30",
           "editionLabel": "30 June 2026",
           "tag": "What stayed important",
           "title": "Workforce and screening caution signals remained active",
-          "summary": "The dashboard preserved system-level warnings and negative screening evidence rather than dropping them on quiet regulatory days."
+          "summary": "System-level warnings and negative screening evidence stayed visible despite the lack of a fresh regulatory move."
         },
         {
           "editionId": "2026-06-25",
           "editionLabel": "25 June 2026",
           "tag": "New FDA dossier",
-          "title": "Palbociclib HER2 maintenance enters the tracker",
-          "summary": "The dashboard added a dedicated PATINA-driven treatment record for the 24 June 2026 FDA maintenance approval in HR-positive, HER2-positive advanced breast cancer."
+          "title": "FDA opens a new palbociclib maintenance option in HER2-positive disease",
+          "summary": "The 24 June 2026 decision created a PATINA-driven treatment record for HR-positive, HER2-positive advanced breast cancer."
         },
         {
           "editionId": "2026-06-25",
@@ -145,8 +145,8 @@
           "editionId": "2026-06-25",
           "editionLabel": "25 June 2026",
           "tag": "Search upgrade",
-          "title": "Brand-name search now resolves newer dossiers",
-          "summary": "Portfolio aliasing was expanded so users could find the new palbociclib entry through the `Ibrance` brand name."
+          "title": "Ibrance now points straight to the new palbociclib dossier",
+          "summary": "Brand-name search resolves the newer record without making users know the generic first."
         }
       ]
     }

@@ -4,7 +4,7 @@
   "preparedLabel": "Prepared 1 July 2026",
   "monthKey": "2026-07",
   "monthLabel": "July 2026",
-  "summary": "The 1 July 2026 weekly edition added FDA-approved Tregzi as a new hematologic-malignancy transplant dossier and refreshed the latest-approval logic around that regulator action.",
+  "summary": "FDA approval of Tregzi pushed a new blood-cancer transplant-cell-therapy dossier to the top of the 1 July 2026 briefing.",
   "provenance": "Generated from the current working tree.",
   "metrics": {
     "insights": 4,
@@ -17,18 +17,18 @@
   "headlines": [
     {
       "tag": "New FDA dossier",
-      "title": "Tregzi becomes the newest verified approval in the dashboard",
-      "summary": "The dashboard added a transplant-cell-therapy dossier for the 30 June 2026 FDA approval in matched-donor myeloablative HSCT."
+      "title": "FDA clears Tregzi for matched-donor myeloablative HSCT",
+      "summary": "The 30 June 2026 decision put a new transplant-cell-therapy dossier into the hematologic-malignancy briefing."
     },
     {
       "tag": "Archive-ready state",
-      "title": "Current edition now carries enough structure to be archived weekly",
-      "summary": "The same weekly pass can now be retained as a dated newsletter edition instead of being overwritten in place."
+      "title": "Each morning brief can now stand as its own dated weekly edition",
+      "summary": "This snapshot remains reopenable as a point-in-time newsletter instead of disappearing into the next refresh."
     },
     {
       "tag": "Systems context",
       "title": "Regulatory change is still framed alongside access and caution signals",
-      "summary": "The live edition keeps Tregzi beside affordability, workforce, and screening constraints rather than treating approvals as the whole story."
+      "summary": "Tregzi appears alongside affordability, workforce, and screening constraints rather than crowding them off the front page."
     }
   ],
   "spotlight": [
