@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-07-01
+Updated: 2026-07-02
 
 ## Method
 
@@ -15,8 +15,20 @@ Updated: 2026-07-01
 - The 2026-06-30 review was another no-content-change pass. Official-source checks again did not surface a post-2026-06-28 development that was both material and verifiable enough to promote into the dashboard.
 - The 2026-07-01 review added one new treatment dossier after the FDA posted a 30 June 2026 hematologic-malignancy approval that materially affects transplant decision-making.
 - The 2026-07-01 review also extended treatment dossiers to support optional structured regulator-context fields and supporting source links when a material oncology item cannot be represented responsibly with the standard efficacy-card layout alone.
+- The 2026-07-02 review was a no-content-change pass. Open-ended significance checks across regulator, diagnostics, access, systems, and other nonconforming pathways did not surface a post-2026-07-01 development that was both material and verifiable enough to promote into the dashboard.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-07-02 Review-Only Checks
+
+- FDA oncology approval notifications index: https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- EMA Etcamah status page: https://www.ema.europa.eu/en/medicines/human/EPAR/etcamah
+
+## 2026-07-02 Checked But Not Promoted
+
+- As of 2 July 2026, the FDA oncology approval notifications page still listed the 30 June 2026 Tregzi transplant approval as its newest oncology action; no newer 1-2 July 2026 oncology approval posting was available there in this pass.
+- The EMA Etcamah page still displayed `Positive` opinion status adopted on 21 May 2026, with the page still last updated on 22 May 2026; no European Commission decision was posted in this pass.
+- Additional post-2026-07-01 treatment, diagnostics/screening, India-access/pricing, systems/public-health, and corporate-transaction signals were screened but not promoted because no primary publication, regulator action, government procurement update, or comparably authoritative milestone was retrieved strongly enough for responsible inclusion.
 
 ## 2026-07-01 Verified Update
 

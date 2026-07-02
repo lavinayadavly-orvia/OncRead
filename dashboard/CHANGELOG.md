@@ -1,5 +1,14 @@
 # Dashboard Changelog
 
+## 2026-07-02 - Verified Review With No Material Dashboard Change
+
+- Reviewed oncology developments published after the 2026-07-01 pass with an open-ended significance scan across regulator, treatment, diagnostics, India-access, pricing/procurement, public-health, and other nonconforming categories, prioritizing directly verifiable official and primary-source pathways.
+- Made no dashboard content, taxonomy, scoring, filter, layout, dossier, or source-link changes because no newly published item in the review window cleared the bar for being both materially decision-relevant and responsibly verifiable from primary or otherwise authoritative sources.
+- Confirmed that the FDA oncology approval notifications page still listed the 30 June 2026 Tregzi transplant-cell-therapy action as its newest oncology posting in this pass, with no newer 1-2 July 2026 oncology approval posted there.
+- Rechecked the EMA Etcamah page and confirmed it still displayed `Positive` CHMP opinion status adopted on 21 May 2026, with the page still last updated on 22 May 2026 and no European Commission decision posted in this pass.
+- Updated `dashboard/SOURCES.md` to record the 2 July 2026 review outcome and the authoritative pages checked.
+- Omissions considered: additional post-2026-07-01 treatment, diagnostics/screening, India-access/pricing, systems/public-health, and corporate-transaction signals. None were added because no primary publication, regulator action, government procurement update, or comparably authoritative milestone was retrieved strongly enough for responsible promotion in this run.
+
 ## 2026-07-01 - Newsletter Archive And Monthly Headlines
 
 - Added a new `Newsletters & headlines` view that preserves weekly dashboard states as dated newsletter editions instead of letting each refresh overwrite the prior storytelling layer.
