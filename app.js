@@ -486,6 +486,7 @@ const state = {
   selected: [],
   portfolioSearch: "",
   portfolioFilter: "all",
+  watchlistPendingOnly: false,
   portfolioActiveId: "",
   backendPortfolioEntries: null,
   backendStatus: "loading",
@@ -766,11 +767,11 @@ function renderPortfolio() {
       ? "WEB"
       : "WL";
   $("#portfolio-metrics").innerHTML = [
-    [entries.length, "Verified records", "Searchable across the existing dashboard evidence base", "", "PT"],
-    [counts.treatment || 0, "Treatment dossiers", "Direct therapeutic evidence cards", "blue", "TX"],
-    [counts.followup || 0, "Follow-up programs", "Conference-to-regulatory tracking", "gold", "FU"],
-    [sourceCount, sourceCardLabel, sourceCardNote, "coral", sourceCardIcon]
-  ].map(([value, label, note, tone, icon]) => metricCard(value, label, note, tone, icon)).join("");
+    [entries.length, "Verified records", "Searchable across the existing dashboard evidence base", "", "PT", { action: "portfolio-filter", lane: "all", title: "Open all verified portfolio records" }],
+    [counts.treatment || 0, "Treatment dossiers", "Direct therapeutic evidence cards", "blue", "TX", { action: "portfolio-filter", lane: "treatment", title: "Open the treatment portfolio records" }],
+    [counts.followup || 0, "Follow-up programs", "Conference-to-regulatory tracking", "gold", "FU", { action: "portfolio-filter", lane: "followup", title: "Open the follow-up portfolio records" }],
+    [sourceCount, sourceCardLabel, sourceCardNote, "coral", sourceCardIcon, { action: state.backendStatus === "ready" || state.backendStatus === "snapshot" ? "view-anchor" : "portfolio-filter", view: "overview", lane: "watchlist", scroll: state.backendStatus === "ready" || state.backendStatus === "snapshot" ? "#portfolio-backend-state" : "#portfolio-results", title: "Open the source-coverage context for the portfolio" }]
+  ].map(([value, label, note, tone, icon, options]) => metricCard(value, label, note, tone, icon, options)).join("");
   $("#portfolio-count").textContent = entries.length;
   $("#portfolio-result-count").textContent = data.length;
   const backendState = $("#portfolio-backend-state");
@@ -1121,18 +1122,40 @@ function renderMetrics() {
     "not-launched": treatments.filter(t => t.indiaStatus === "not-launched").length
   };
   $("#india-metrics").innerHTML = [
-    [statuses.available, "Available / marketed", "Indication caveat still applies", "", "✓"],
-    [statuses.limited, "Import or trial context", "No verified routine domestic launch", "gold", "↗"],
-    [statuses["not-launched"], "Not launched", "No confirmed India date", "coral", "—"],
-    ["₹95.4", "USD conversion rate", "Context only, not market price", "blue", "$"]
-  ].map(([value, label, note, tone, icon]) => metricCard(value, label, note, tone, icon)).join("");
+    [statuses.available, "Available / marketed", "Indication caveat still applies", "", "✓", { action: "treatments-india", indiaStatus: "available", title: "Open the marketed India-access assets" }],
+    [statuses.limited, "Import or trial context", "No verified routine domestic launch", "gold", "↗", { action: "treatments-india", indiaStatus: "limited", title: "Open the import or trial-context India-access assets" }],
+    [statuses["not-launched"], "Not launched", "No confirmed India date", "coral", "—", { action: "treatments-india", indiaStatus: "not-launched", title: "Open the not-yet-launched India-access assets" }],
+    ["₹95.4", "USD conversion rate", "Context only, not market price", "blue", "$", { action: "view-anchor", view: "india", scroll: "#india-table", title: "Open the India access table and pricing context" }]
+  ].map(([value, label, note, tone, icon, options]) => metricCard(value, label, note, tone, icon, options)).join("");
 }
 
-function metricCard(value, label, note, tone, icon) {
-  return `<div class="metric ${tone}">
+function metricCard(value, label, note, tone, icon, options = null) {
+  const isInteractive = Boolean(options);
+  const tag = isInteractive ? "button" : "div";
+  const attrs = [];
+  if (isInteractive) {
+    attrs.push('type="button"');
+    attrs.push('class="metric metric-button' + (tone ? ` ${tone}` : "") + '"');
+    if (options.action) attrs.push(`data-metric-action="${options.action}"`);
+    if (options.view) attrs.push(`data-metric-view="${options.view}"`);
+    if (options.kind) attrs.push(`data-metric-kind="${options.kind}"`);
+    if (options.id) attrs.push(`data-metric-id="${options.id}"`);
+    if (options.lane) attrs.push(`data-metric-lane="${options.lane}"`);
+    if (options.indiaStatus) attrs.push(`data-metric-india-status="${options.indiaStatus}"`);
+    if (options.followupStatus) attrs.push(`data-metric-followup-status="${options.followupStatus}"`);
+    if (options.followupCancer) attrs.push(`data-metric-followup-cancer="${options.followupCancer}"`);
+    if (options.watchlistStatus) attrs.push(`data-metric-watchlist-status="${options.watchlistStatus}"`);
+    if (options.watchlistCategory) attrs.push(`data-metric-watchlist-category="${options.watchlistCategory}"`);
+    if (options.pendingOnly) attrs.push(`data-metric-pending-only="${options.pendingOnly}"`);
+    if (options.scroll) attrs.push(`data-metric-scroll="${options.scroll}"`);
+    attrs.push(`title="${options.title || `Open the records behind ${label.toLowerCase()}`}"`);
+  } else {
+    attrs.push(`class="metric ${tone}"`);
+  }
+  return `<${tag} ${attrs.join(" ")}>
     <div class="metric-top"><span class="metric-label">${label}</span><span class="metric-icon">${icon}</span></div>
     <strong>${value}</strong><small>${note}</small>
-  </div>`;
+  </${tag}>`;
 }
 
 function renderInsights() {
@@ -1420,11 +1443,11 @@ function renderInsights() {
   `).join("");
 
   $("#insight-metrics").innerHTML = [
-    [formatCompactDate(featuredTreatment.eventDate), "Newest dated move", featuredLabel, "", "NEW"],
-    [currentEdition?.metrics?.verifiedRecords || cards.length, "Verified records live", currentEdition ? `Archived as ${currentEdition.editionLabel}` : "Current edition", "blue", "VR"],
-    [availableCount, "India-marketed assets", "Study use may still differ from label", "gold", "IN"],
-    [pendingPrimaryCount, "Signals still cautionary", "Direct primary capture still pending", "coral", "!"]
-  ].map(([value, label, note, tone, icon]) => metricCard(value, label, note, tone, icon)).join("");
+    [formatCompactDate(featuredTreatment.eventDate), "Newest dated move", featuredLabel, "", "NEW", { action: "insight-target", view: featuredRoute.view, kind: featuredRoute.kind, id: featuredRoute.targetId, title: `Open the latest move: ${featuredLabel}` }],
+    [currentEdition?.metrics?.verifiedRecords || cards.length, "Verified records live", currentEdition ? `Archived as ${currentEdition.editionLabel}` : "Current edition", "blue", "VR", { action: "portfolio-filter", lane: "all", title: "Open all verified portfolio records" }],
+    [availableCount, "India-marketed assets", "Study use may still differ from label", "gold", "IN", { action: "treatments-india", indiaStatus: "available", title: "Open the India-marketed treatment assets" }],
+    [pendingPrimaryCount, "Signals still cautionary", "Direct primary capture still pending", "coral", "!", { action: "watchlist-filter", pendingOnly: true, title: "Open the watchlist signals with primary capture still pending" }]
+  ].map(([value, label, note, tone, icon, options]) => metricCard(value, label, note, tone, icon, options)).join("");
 
   $("#insight-grid").innerHTML = cards.map(card => `
     <button class="insight-card ${card.tone}" data-insight-view="${card.view}" data-insight-kind="${card.kind}" ${card.targetId ? `data-insight-id="${card.targetId}"` : ""} title="Open the linked detail">
@@ -1580,11 +1603,11 @@ function renderFollowupMetrics() {
     return acc;
   }, {});
   $("#followup-metrics").innerHTML = [
-    [counts.approved || 0, "Reached FDA approval", "Verified regimen-specific authorization", "", "✓"],
-    [counts.review || 0, "Under regulatory review", "Outcome remains jurisdiction-dependent", "blue", "R"],
-    [counts.guideline || 0, "Guideline-led pathway", "Label status may differ", "gold", "G"],
-    [counts.development || 0, "Still developing", "Publication or follow-up without approval", "coral", "↗"]
-  ].map(([value, label, note, tone, icon]) => metricCard(value, label, note, tone, icon)).join("");
+    [counts.approved || 0, "Reached FDA approval", "Verified regimen-specific authorization", "", "✓", { action: "followup-filter", followupStatus: "approved", view: "followup", title: "Open the FDA-approved ASCO 2025 follow-up dossiers" }],
+    [counts.review || 0, "Under regulatory review", "Outcome remains jurisdiction-dependent", "blue", "R", { action: "followup-filter", followupStatus: "review", view: "followup", title: "Open the under-review ASCO 2025 follow-up dossiers" }],
+    [counts.guideline || 0, "Guideline-led pathway", "Label status may differ", "gold", "G", { action: "followup-filter", followupStatus: "guideline", view: "followup", title: "Open the guideline-led ASCO 2025 follow-up dossiers" }],
+    [counts.development || 0, "Still developing", "Publication or follow-up without approval", "coral", "↗", { action: "followup-filter", followupStatus: "development", view: "followup", title: "Open the developing ASCO 2025 follow-up dossiers" }]
+  ].map(([value, label, note, tone, icon, options]) => metricCard(value, label, note, tone, icon, options)).join("");
   $("#followup-program-count").textContent = asco2025Followup.length;
 }
 
@@ -1632,6 +1655,37 @@ function renderFollowup() {
     </article>`;
   }).join("") : `<div class="empty-state">No programs match these filters.</div>`;
   renderFollowupRegister(data);
+}
+
+function openFollowupMetric(status = "all", cancer = "all") {
+  showView("followup");
+  $("#followup-status-filter").value = status;
+  $("#followup-cancer-filter").value = cancer;
+  renderFollowup();
+  window.setTimeout(() => {
+    $("#followup-grid").scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 140);
+}
+
+function openTreatmentMetric(indiaStatus = "all") {
+  showView("treatments");
+  ["#cancer-filter", "#phase-filter", "#impact-filter", "#india-filter"].forEach(selector => $(selector).value = "all");
+  $("#india-filter").value = indiaStatus;
+  renderTreatments();
+  window.setTimeout(() => {
+    $("#treatment-grid").scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 140);
+}
+
+function openPortfolioMetric(lane = "all", scrollSelector = "#portfolio-results") {
+  state.portfolioSearch = "";
+  state.portfolioFilter = lane;
+  showView("overview");
+  renderPortfolio();
+  window.setTimeout(() => {
+    const target = $(scrollSelector);
+    if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 140);
 }
 
 function renderFollowupRegister(data = filteredFollowup()) {
@@ -1710,11 +1764,11 @@ function renderWatchlistMetrics() {
   const conference = watchlistSignals.filter(item => item.status === "conference").length;
   const cautionary = watchlistSignals.filter(item => item.status === "negative").length;
   $("#watchlist-metrics").innerHTML = [
-    [watchlistSignals.length, "Material signals added", "Explicitly outside the routine treatment cards", "", "WL"],
-    [conference, "Conference-only", "Important but not yet fully matured", "blue", "C"],
-    [cautionary, "Negative or cautionary", "Non-adoption is also a decision", "coral", "!"],
-    [primaryPending, "Primary capture pending", "Direct abstract or full report still needed", "gold", "P"]
-  ].map(([value, label, note, tone, icon]) => metricCard(value, label, note, tone, icon)).join("");
+    [watchlistSignals.length, "Material signals added", "Explicitly outside the routine treatment cards", "", "WL", { action: "watchlist-filter", title: "Open all watchlist signals" }],
+    [conference, "Conference-only", "Important but not yet fully matured", "blue", "C", { action: "watchlist-filter", watchlistStatus: "conference", title: "Open the conference-only watchlist signals" }],
+    [cautionary, "Negative or cautionary", "Non-adoption is also a decision", "coral", "!", { action: "watchlist-filter", watchlistStatus: "negative", title: "Open the negative or cautionary watchlist signals" }],
+    [primaryPending, "Primary capture pending", "Direct abstract or full report still needed", "gold", "P", { action: "watchlist-filter", pendingOnly: true, title: "Open watchlist signals with primary capture still pending" }]
+  ].map(([value, label, note, tone, icon, options]) => metricCard(value, label, note, tone, icon, options)).join("");
   $("#watchlist-count").textContent = watchlistSignals.length;
 }
 
@@ -1728,7 +1782,8 @@ function filteredWatchlist() {
   const status = $("#watchlist-status-filter").value;
   return watchlistSignals.filter(item =>
     (type === "all" || item.category === type) &&
-    (status === "all" || item.status === status)
+    (status === "all" || item.status === status) &&
+    (!state.watchlistPendingOnly || item.verification.includes("pending"))
   );
 }
 
@@ -1811,6 +1866,61 @@ function openWatchlistDetail(id) {
       </div>
     </div>`;
   $("#watchlist-dialog").showModal();
+}
+
+function openWatchlistMetric({ status = "all", category = "all", pendingOnly = false } = {}) {
+  state.watchlistPendingOnly = pendingOnly;
+  showView("watchlist");
+  $("#watchlist-type-filter").value = category;
+  $("#watchlist-status-filter").value = status;
+  renderWatchlist();
+  window.setTimeout(() => {
+    $("#watchlist-grid").scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 140);
+}
+
+function openMetricAction(button) {
+  const action = button.dataset.metricAction;
+  if (action === "followup-filter") {
+    openFollowupMetric(
+      button.dataset.metricFollowupStatus || "all",
+      button.dataset.metricFollowupCancer || "all"
+    );
+    return;
+  }
+  if (action === "treatments-india") {
+    openTreatmentMetric(button.dataset.metricIndiaStatus || "all");
+    return;
+  }
+  if (action === "portfolio-filter") {
+    openPortfolioMetric(button.dataset.metricLane || "all", button.dataset.metricScroll || "#portfolio-results");
+    return;
+  }
+  if (action === "watchlist-filter") {
+    openWatchlistMetric({
+      status: button.dataset.metricWatchlistStatus || "all",
+      category: button.dataset.metricWatchlistCategory || "all",
+      pendingOnly: button.dataset.metricPendingOnly === "true"
+    });
+    return;
+  }
+  if (action === "insight-target") {
+    openInsightTarget(
+      button.dataset.metricView,
+      button.dataset.metricKind || "view",
+      button.dataset.metricId || ""
+    );
+    return;
+  }
+  if (action === "view-anchor") {
+    if (button.dataset.metricLane) state.portfolioFilter = button.dataset.metricLane;
+    showView(button.dataset.metricView || "insights");
+    if (state.view === "overview") renderPortfolio();
+    window.setTimeout(() => {
+      const target = $(button.dataset.metricScroll || "main");
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 140);
+  }
 }
 
 function openInsightTarget(view, kind, id) {
@@ -1911,6 +2021,7 @@ function handlePortfolioSearchChange(value) {
 
 function bindEvents() {
   document.addEventListener("click", event => {
+    const metricButton = event.target.closest("[data-metric-action]");
     const viewButton = event.target.closest("[data-view]");
     const goButton = event.target.closest("[data-go-view]");
     const insightTarget = event.target.closest("[data-insight-view]");
@@ -1923,6 +2034,10 @@ function bindEvents() {
     const portfolioOpen = event.target.closest("[data-portfolio-open]");
     const editionSelect = event.target.closest("[data-edition-select]");
     const editionRoute = event.target.closest("[data-edition-route-view]");
+    if (metricButton) {
+      openMetricAction(metricButton);
+      return;
+    }
     if (editionSelect) {
       showView(editionSelect.dataset.view || "archive");
       openEdition(editionSelect.dataset.editionSelect);
@@ -2013,9 +2128,13 @@ function bindEvents() {
     renderFollowup();
   });
   ["#watchlist-type-filter", "#watchlist-status-filter"].forEach(selector => {
-    $(selector).addEventListener("change", renderWatchlist);
+    $(selector).addEventListener("change", () => {
+      state.watchlistPendingOnly = false;
+      renderWatchlist();
+    });
   });
   $("#reset-watchlist").addEventListener("click", () => {
+    state.watchlistPendingOnly = false;
     $("#watchlist-type-filter").value = "all";
     $("#watchlist-status-filter").value = "all";
     renderWatchlist();

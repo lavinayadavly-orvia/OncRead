@@ -358,6 +358,24 @@ main { min-width: 0; padding: 0 34px 70px; }
   padding: 20px; border: 1px solid var(--line); border-radius: 17px; background: white;
   box-shadow: 0 7px 25px rgba(28, 56, 79, .045);
 }
+.metric-button {
+  width: 100%;
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background .18s ease;
+}
+.metric-button:hover {
+  transform: translateY(-2px);
+  border-color: #c3d7dc;
+  box-shadow: 0 14px 30px rgba(28, 56, 79, .08);
+}
+.metric-button:focus-visible {
+  outline: 0;
+  border-color: #7da8a3;
+  box-shadow: 0 0 0 3px rgba(14,104,97,.12), 0 14px 30px rgba(28, 56, 79, .08);
+}
 .metric-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
 .metric-label { color: var(--muted); font-size: 11px; font-weight: 750; }
 .metric-icon { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 9px; background: var(--teal-soft); color: var(--teal); font-size: 11px; font-weight: 900; }
