@@ -1,0 +1,89 @@
+{
+  "id": "2026-06-26",
+  "editionLabel": "26 June 2026",
+  "preparedLabel": "Prepared 26 June 2026",
+  "monthKey": "2026-06",
+  "monthLabel": "June 2026",
+  "summary": "No new verified oncology development cleared the bar on 26 June 2026, leaving Sacituzumab govitecan + pembrolizumab and the existing caution signals at the top of the briefing.",
+  "provenance": "Backfilled from the previous dated briefing snapshot for the Verified Review With No Material Dashboard Change changelog state.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 9,
+    "followupApprovals": 6,
+    "indiaMarketed": 4,
+    "watchlistSignals": 4,
+    "verifiedRecords": 24
+  },
+  "headlines": [
+    {
+      "tag": "Verified hold",
+      "title": "No new oncology development cleared the bar",
+      "summary": "Official-source checks did not justify promoting a newer oncology item into the briefing."
+    },
+    {
+      "tag": "Newest verified move",
+      "title": "Sacituzumab govitecan + pembrolizumab remained the lead verified approval",
+      "summary": "FDA approval · 24 Jun 2026"
+    },
+    {
+      "tag": "What stayed in view",
+      "title": "Brand-name search now resolves newer dossiers",
+      "summary": "Portfolio aliasing was expanded so users could find the new palbociclib entry through the `Ibrance` brand name."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "ascent04"
+      },
+      "title": "Sacituzumab govitecan + pembrolizumab",
+      "subtitle": "FDA approval · 24 Jun 2026",
+      "date": 1782239400000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "tucatinib"
+      },
+      "title": "Tucatinib + HER2 Maintenance",
+      "subtitle": "Phase III · Approved and marketed",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "workforce"
+      },
+      "title": "Global oncology workforce warning",
+      "subtitle": "Systems report",
+      "date": 0
+    }
+  ],
+  "sourceCount": 24,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "ascent04"
+      },
+      "title": "Sacituzumab govitecan + pembrolizumab",
+      "subtitle": "FDA approval · 24 Jun 2026",
+      "date": 1782239400000
+    }
+  }
+}
