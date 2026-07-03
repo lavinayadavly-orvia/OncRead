@@ -4,6 +4,95 @@
   "preparedLabel": "Prepared 30 June 2026",
   "monthKey": "2026-06",
   "monthLabel": "June 2026",
+  "summary": "The 30 June 2026 review published as a no-material-change edition: the dashboard held its late-June breast-cancer approvals while official-source checks did not justify a new promotion.",
+  "provenance": "Derived from the current working tree with the July 2026 Tregzi addition removed to recreate the 30 June 2026 no-change review edition.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 9,
+    "followupApprovals": 6,
+    "indiaMarketed": 4,
+    "watchlistSignals": 4,
+    "verifiedRecords": 24
+  },
+  "headlines": [
+    {
+      "tag": "Verified hold",
+      "title": "No new material dashboard item cleared the bar",
+      "summary": "Official-source checks did not surface a post-28 June development strong enough for responsible inclusion."
+    },
+    {
+      "tag": "Newest approval then",
+      "title": "ASCENT-04 remained the most recent verified approval",
+      "summary": "The shortcut rail still pointed to the 24 June 2026 TNBC approval as the latest regulator-confirmed milestone in the dashboard."
+    },
+    {
+      "tag": "What stayed important",
+      "title": "Workforce and screening caution signals remained active",
+      "summary": "The dashboard preserved system-level warnings and negative screening evidence rather than dropping them on quiet regulatory days."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "ascent04"
+      },
+      "title": "Sacituzumab govitecan + pembrolizumab",
+      "subtitle": "FDA approval · 24 Jun 2026",
+      "date": 1782239400000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "tucatinib"
+      },
+      "title": "Tucatinib + HER2 Maintenance",
+      "subtitle": "Phase III · Approved and marketed",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "workforce"
+      },
+      "title": "Global oncology workforce warning",
+      "subtitle": "Systems report",
+      "date": 0
+    }
+  ],
+  "sourceCount": 24,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "ascent04"
+      },
+      "title": "Sacituzumab govitecan + pembrolizumab",
+      "subtitle": "FDA approval · 24 Jun 2026",
+      "date": 1782239400000
+    }
+  }
+}
+{
+  "id": "2026-06-30",
+  "editionLabel": "30 June 2026",
+  "preparedLabel": "Prepared 30 June 2026",
+  "monthKey": "2026-06",
+  "monthLabel": "June 2026",
   "summary": "No verified oncology development cleared the bar on 30 June 2026, leaving the late-June breast-cancer approvals as the newest material moves.",
   "provenance": "Derived from the current working tree with the July 2026 Tregzi addition removed to recreate the 30 June 2026 no-change review edition.",
   "metrics": {
