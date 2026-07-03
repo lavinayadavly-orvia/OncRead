@@ -4,6 +4,95 @@
   "preparedLabel": "Prepared 25 June 2026",
   "monthKey": "2026-06",
   "monthLabel": "June 2026",
+  "summary": "The late-June edition captured two breast-cancer regulatory upgrades: a new palbociclib maintenance dossier and the FDA approval of ASCENT-04 / KEYNOTE-D19.",
+  "provenance": "Derived from the current working tree with the July 2026 Tregzi addition removed to recreate the 25 June 2026 dashboard state.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 9,
+    "followupApprovals": 6,
+    "indiaMarketed": 4,
+    "watchlistSignals": 4,
+    "verifiedRecords": 24
+  },
+  "headlines": [
+    {
+      "tag": "New FDA dossier",
+      "title": "Palbociclib HER2 maintenance enters the tracker",
+      "summary": "The dashboard added a dedicated PATINA-driven treatment record for the 24 June 2026 FDA maintenance approval in HR-positive, HER2-positive advanced breast cancer."
+    },
+    {
+      "tag": "Follow-up becomes approval",
+      "title": "ASCENT-04 completes the conference-to-label path",
+      "summary": "Sacituzumab govitecan plus pembrolizumab moved from ASCO evidence to FDA-approved first-line TNBC therapy."
+    },
+    {
+      "tag": "Search upgrade",
+      "title": "Brand-name search now resolves newer dossiers",
+      "summary": "Portfolio aliasing was expanded so users could find the new palbociclib entry through the `Ibrance` brand name."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "ascent04"
+      },
+      "title": "Sacituzumab govitecan + pembrolizumab",
+      "subtitle": "FDA approval · 24 Jun 2026",
+      "date": 1782239400000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "tucatinib"
+      },
+      "title": "Tucatinib + HER2 Maintenance",
+      "subtitle": "Phase III · Approved and marketed",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "workforce"
+      },
+      "title": "Global oncology workforce warning",
+      "subtitle": "Systems report",
+      "date": 0
+    }
+  ],
+  "sourceCount": 24,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "ascent04"
+      },
+      "title": "Sacituzumab govitecan + pembrolizumab",
+      "subtitle": "FDA approval · 24 Jun 2026",
+      "date": 1782239400000
+    }
+  }
+}
+{
+  "id": "2026-06-25",
+  "editionLabel": "25 June 2026",
+  "preparedLabel": "Prepared 25 June 2026",
+  "monthKey": "2026-06",
+  "monthLabel": "June 2026",
   "summary": "Two breast-cancer regulatory moves drove the 25 June 2026 briefing: palbociclib maintenance and the FDA approval of ASCENT-04 / KEYNOTE-D19.",
   "provenance": "Derived from the current working tree with the July 2026 Tregzi addition removed to recreate the 25 June 2026 dashboard state.",
   "metrics": {
