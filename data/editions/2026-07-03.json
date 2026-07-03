@@ -1,0 +1,79 @@
+{
+  "id": "2026-07-03",
+  "editionLabel": "3 July 2026",
+  "preparedLabel": "Prepared 3 July 2026",
+  "monthKey": "2026-07",
+  "monthLabel": "July 2026",
+  "summary": "No new verified oncology development cleared the bar on 3 July 2026, leaving Tregzi Transplant Cell Therapy and the existing caution signals at the top of the briefing.",
+  "provenance": "Generated from the current working tree using the Verified Review With No Material Dashboard Change changelog state.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 10,
+    "followupApprovals": 6,
+    "indiaMarketed": 4,
+    "watchlistSignals": 4,
+    "verifiedRecords": 25
+  },
+  "headlines": [
+    {
+      "tag": "Verified hold",
+      "title": "No new oncology development cleared the bar",
+      "summary": "Official-source checks did not justify promoting a newer oncology item into the briefing."
+    },
+    {
+      "tag": "Newest verified move",
+      "title": "Tregzi Transplant Cell Therapy remained the lead verified approval",
+      "summary": "FDA approval 30 June 2026"
+    },
+    {
+      "tag": "What stayed in view",
+      "title": "Galleri-NHS negative screening signal remained an active caution signal",
+      "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "tregzi"
+      },
+      "title": "Tregzi Transplant Cell Therapy",
+      "subtitle": "FDA approval 30 June 2026",
+      "date": 1782777600000
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "workforce"
+      },
+      "title": "Global oncology workforce warning",
+      "subtitle": "Systems report",
+      "date": 0
+    }
+  ],
+  "sourceCount": 25,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "tregzi"
+      },
+      "title": "Tregzi Transplant Cell Therapy",
+      "subtitle": "FDA approval 30 June 2026",
+      "date": 1782777600000
+    }
+  }
+}
