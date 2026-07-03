@@ -1,0 +1,89 @@
+{
+  "id": "2026-06-16",
+  "editionLabel": "16 June 2026",
+  "preparedLabel": "Prepared 16 June 2026",
+  "monthKey": "2026-06",
+  "monthLabel": "June 2026",
+  "summary": "The 16 June 2026 morning edition captured the current verified oncology state and archived it as a dated briefing.",
+  "provenance": "Backfilled from the previous dated briefing snapshot for the Global Portfolio Search Page changelog state.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 8,
+    "followupApprovals": 5,
+    "indiaMarketed": 3,
+    "watchlistSignals": 4,
+    "verifiedRecords": 23
+  },
+  "headlines": [
+    {
+      "tag": "New briefing surface",
+      "title": "Morning briefing becomes the front door",
+      "summary": "The dashboard shifted from a static review page to a decision-first morning briefing that routes users into the underlying dossiers."
+    },
+    {
+      "tag": "Watchlist expansion",
+      "title": "Screening, de-escalation and workforce signals gain a home",
+      "summary": "OPTIMA, Galleri, bladder-preservation, and oncology workforce warnings were retained as explicit system-level records rather than being forced into treatment cards."
+    },
+    {
+      "tag": "Why it matters",
+      "title": "Non-drug developments now stay visible",
+      "summary": "The dashboard began preserving cautionary and operational oncology developments that shape care even when they are not treatment approvals."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "db09"
+      },
+      "title": "Trastuzumab deruxtecan + pertuzumab",
+      "subtitle": "FDA approval · 15 Dec 2025",
+      "date": 1765737000000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "tucatinib"
+      },
+      "title": "Tucatinib + HER2 Maintenance",
+      "subtitle": "Phase III · Approved and marketed",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "workforce"
+      },
+      "title": "Global oncology workforce warning",
+      "subtitle": "Systems report",
+      "date": 0
+    }
+  ],
+  "sourceCount": 23,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "db09"
+      },
+      "title": "Trastuzumab deruxtecan + pertuzumab",
+      "subtitle": "FDA approval · 15 Dec 2025",
+      "date": 1765737000000
+    }
+  }
+}
