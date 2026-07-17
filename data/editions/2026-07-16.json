@@ -1,11 +1,11 @@
 {
-  "id": "2026-07-01",
-  "editionLabel": "1 July 2026",
-  "preparedLabel": "Prepared 1 July 2026",
+  "id": "2026-07-16",
+  "editionLabel": "16 July 2026",
+  "preparedLabel": "Prepared 16 July 2026",
   "monthKey": "2026-07",
   "monthLabel": "July 2026",
-  "summary": "The 1 July 2026 weekly edition added FDA-approved Tregzi as a new hematologic-malignancy transplant dossier and refreshed the latest-approval logic around that regulator action.",
-  "provenance": "Generated from the 1 July 2026 live working-tree state after the Tregzi addition.",
+  "summary": "No new verified oncology development cleared the bar on 16 July 2026, leaving Gedatolisib + Fulvestrant and the existing caution signals at the top of the briefing.",
+  "provenance": "Generated from the current working tree using the Verified Review With No Material Dashboard Change changelog state.",
   "metrics": {
     "insights": 4,
     "treatments": 14,
@@ -16,19 +16,19 @@
   },
   "headlines": [
     {
-      "tag": "New FDA dossier",
-      "title": "Tregzi becomes the newest verified approval in the dashboard",
-      "summary": "The dashboard added a transplant-cell-therapy dossier for the 30 June 2026 FDA approval in matched-donor myeloablative HSCT."
+      "tag": "Verified hold",
+      "title": "No new oncology development cleared the bar",
+      "summary": "Official-source checks did not justify promoting a newer oncology item into the briefing."
     },
     {
-      "tag": "Archive-ready state",
-      "title": "Current edition now carries enough structure to be archived weekly",
-      "summary": "The same weekly pass can now be retained as a dated newsletter edition instead of being overwritten in place."
+      "tag": "Newest verified move",
+      "title": "Gedatolisib + Fulvestrant remained the lead verified approval",
+      "summary": "FDA approval 14 July 2026"
     },
     {
-      "tag": "Systems context",
-      "title": "Regulatory change is still framed alongside access and caution signals",
-      "summary": "The live edition keeps Tregzi beside affordability, workforce, and screening constraints rather than treating approvals as the whole story."
+      "tag": "What stayed in view",
+      "title": "Galleri-NHS negative screening signal remained an active caution signal",
+      "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
     }
   ],
   "spotlight": [

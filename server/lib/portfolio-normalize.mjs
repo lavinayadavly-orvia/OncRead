@@ -1,10 +1,12 @@
 const portfolioAliasRules = [
   { match: /nivolumab/i, aliases: ["Opdivo"] },
   { match: /pembrolizumab/i, aliases: ["Keytruda"] },
+  { match: /gedatolisib|revtorpyk/i, aliases: ["Revtorpyk"] },
   { match: /durvalumab/i, aliases: ["Imfinzi"] },
   { match: /atezolizumab/i, aliases: ["Tecentriq"] },
   { match: /cemiplimab/i, aliases: ["Libtayo"] },
   { match: /tregzi|orca-t/i, aliases: ["Tregzi", "Orca-T"] },
+  { match: /selpercatinib|retevmo|retsevmo/i, aliases: ["Retevmo", "Retsevmo"] },
   { match: /palbociclib/i, aliases: ["Ibrance"] },
   { match: /tucatinib/i, aliases: ["Tukysa"] },
   { match: /trastuzumab deruxtecan|t-dxd/i, aliases: ["Enhertu"] },

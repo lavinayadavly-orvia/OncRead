@@ -7,13 +7,16 @@
   <link rel="icon" href="oncread_favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="oncread_favicon.svg">
   <title>OncRead - Onco updates made easy</title>
-  <link rel="stylesheet" href="styles.css?v=20260702-logo-visibility">
+  <link rel="stylesheet" href="styles.css?v=20260703-editorial-ui-pass">
 </head>
 <body>
   <div class="app-shell">
     <aside class="sidebar">
       <div class="brand">
-        <img class="brand-mark" src="oncread_logo.svg" alt="OncRead">
+        <div class="brand-lockup">
+          <img class="brand-mark" src="oncread_logo.svg" alt="OncRead">
+          <p class="brand-note">Verified global oncology briefing</p>
+        </div>
       </div>
 
       <nav aria-label="Dashboard sections">
@@ -47,7 +50,7 @@
         <span class="status-dot"></span>
         <div>
           <strong>Research snapshot</strong>
-          <p>Prepared 1 July 2026</p>
+          <p id="sidebar-prepared-date">Prepared 16 July 2026</p>
         </div>
       </div>
       <a class="report-link" href="ASCO_2026_Advances_Impact_Assessment.docx">Open detailed report</a>
@@ -57,7 +60,7 @@
       <header class="topbar">
         <div>
           <p class="eyebrow">Advancements, growth, technology and impact</p>
-          <h2 id="view-title">Morning briefing insights</h2>
+          <h1 id="view-title">Morning briefing insights</h1>
         </div>
         <div class="topbar-actions">
           <label class="search-box">
@@ -83,7 +86,7 @@
           </div>
           <div class="briefing-pulse">
             <span class="briefing-pulse-label">Live briefing pulse</span>
-            <strong id="briefing-date-label">Prepared 1 July 2026</strong>
+            <strong id="briefing-date-label">Prepared 16 July 2026</strong>
             <p id="briefing-pulse-summary">The latest edition and monthly headline context load here.</p>
             <div id="briefing-pulse-list" class="briefing-pulse-list"></div>
           </div>
@@ -168,7 +171,7 @@
           <div>
             <p class="eyebrow light">Edition archive</p>
             <h3>Retain every verified weekly state as a dated newsletter, not a disappearing overwrite.</h3>
-            <p>Reopen any dated edition, from June 15 through July 1, and see the summary, headlines, and spotlight items exactly as they appeared that week.</p>
+            <p>Reopen any dated edition from 15 June 2026 onward and see the summary, headlines, and spotlight items exactly as they appeared that week.</p>
           </div>
           <div class="followup-stamp archive-stamp">
             <strong id="archive-edition-count">0</strong><span>newsletter editions</span>
@@ -227,7 +230,7 @@
 
         <div class="portfolio-backend-banner">
           <span class="status-dot"></span>
-          <p id="portfolio-backend-state">Refreshing verified source index</p>
+          <p id="portfolio-backend-state">Refreshing verified source coverage</p>
         </div>
 
         <div id="portfolio-metrics" class="metric-grid"></div>
@@ -562,6 +565,6 @@
     <div id="watchlist-detail-content"></div>
   </dialog>
 
-  <script src="app.js?v=20260702-metric-drilldown-all"></script>
+  <script src="app.js?v=20260703-morning-autoupdate"></script>
 </body>
 </html>

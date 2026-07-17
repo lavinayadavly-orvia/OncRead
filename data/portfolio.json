@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T04:00:02.030Z",
+  "generatedAt": "2026-07-17T04:36:34.861Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -213,10 +213,410 @@
       ]
     },
     {
-      "id": "treatment:tregzi",
+      "id": "treatment:gedatolisib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
       "order": 3,
+      "title": "Gedatolisib + Fulvestrant",
+      "subtitle": "Revtorpyk · Breast cancer · HR-positive / HER2-negative after endocrine progression",
+      "organization": "Celcuity",
+      "snapshot": "Phase III · High",
+      "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options.",
+      "headline": "PFS HR 0.24-0.33 · 9.3 vs 2.0 months or 7.4 vs 2.0 in VIKTORIA-1",
+      "statusLabel": "US approved; India launch unverified",
+      "badges": [
+        "Phase III",
+        "High",
+        "US approved; India launch unverified"
+      ],
+      "searchText": "gedatolisib + fulvestrant revtorpyk breast cancer hr-positive / her2-negative after endocrine progression celcuity phase iii high pfs hr 0.24-0.33 9.3 vs 2.0 months or 7.4 vs 2.0 in viktoria-1 fda approved gedatolisib with fulvestrant, with or without palbociclib, for pik3ca-wild-type hr-positive/her2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options. the label carries warnings for stomatitis, dermatologic adverse reactions, hyperglycemia, and embryo-fetal toxicity. overall survival data were immature at the approval analysis. revtorpyk ibrance",
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "id": "gedatolisib",
+        "label": "Open treatment dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "FDA approval notice",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-gedatolisib-fulvestrant-or-without-palbociclib-hr-positive-her2-negative-locally"
+        }
+      ],
+      "sections": [
+        [
+          "Cancer and setting",
+          "Breast cancer · HR-positive / HER2-negative after endocrine progression"
+        ],
+        [
+          "Manufacturer / organization",
+          "Celcuity"
+        ],
+        [
+          "Event date / geography",
+          "14 July 2026 FDA approval · United States",
+          "wide"
+        ],
+        [
+          "Population / sample",
+          "392 adults with locally advanced inoperable or metastatic HR-positive, HER2-negative breast cancer without a detected PIK3CA mutation following progression on or after at least one line of endocrine therapy in the metastatic setting",
+          "wide"
+        ],
+        [
+          "Comparator",
+          "Gedatolisib plus fulvestrant plus palbociclib, or gedatolisib plus fulvestrant, versus fulvestrant alone in the open-label randomized VIKTORIA-1 trial",
+          "wide"
+        ],
+        [
+          "Primary endpoint",
+          "Blinded independent central review progression-free survival for each gedatolisib arm versus fulvestrant alone; OS, ORR, and duration of response were additional endpoints",
+          "wide"
+        ],
+        [
+          "Effect size detail",
+          "Median PFS was 9.3 versus 2.0 months for the triplet arm (HR 0.24; 95% CI 0.17-0.35) and 7.4 versus 2.0 months for the doublet arm (HR 0.33; 95% CI 0.24-0.48). ORR was 32%, 28%, and 1%, respectively; median duration of response was 17.5 months and 12.0 months in the gedatolisib arms.",
+          "wide"
+        ],
+        [
+          "Regulatory status",
+          "FDA approved on 14 July 2026. No verified EMA, CDSCO, or other national authorization for gedatolisib was captured in this pass.",
+          "wide"
+        ],
+        [
+          "Measured effect",
+          "PFS HR 0.24-0.33. 9.3 vs 2.0 months or 7.4 vs 2.0 in VIKTORIA-1",
+          "wide"
+        ],
+        [
+          "Clinical meaning",
+          "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options.",
+          "wide"
+        ],
+        [
+          "Safety and burden",
+          "The label carries warnings for stomatitis, dermatologic adverse reactions, hyperglycemia, and embryo-fetal toxicity. Overall survival data were immature at the approval analysis.",
+          "wide"
+        ],
+        [
+          "Cost and India access",
+          "New intravenous targeted-therapy cost not yet officially posted. No official US list price, India price, or government procurement figure for Revtorpyk was verified in this pass. No verified CDSCO approval, India launch date, or official reimbursement/procurement announcement for gedatolisib was identified.",
+          "wide"
+        ],
+        [
+          "Launch / market status",
+          "FDA approval 14 July 2026. US approved; India launch unverified"
+        ],
+        [
+          "Current limitation",
+          "The pivotal trial was open-label, overall survival was immature with 25% deaths at the PFS analysis, and the approved label applies only to tumors without a detected PIK3CA mutation after prior metastatic endocrine therapy.",
+          "wide"
+        ]
+      ]
+    },
+    {
+      "id": "treatment:selpercatinib",
+      "lane": "treatment",
+      "laneLabel": "Treatment explorer",
+      "order": 4,
+      "title": "Tumor-Agnostic Selpercatinib",
+      "subtitle": "Retevmo · RET fusion solid tumors · Locally advanced or metastatic, post-systemic therapy",
+      "organization": "Eli Lilly and Company",
+      "snapshot": "Basket trial / registrational · High in biomarker-defined rare cancers",
+      "summary": "FDA converted selpercatinib's tumor-agnostic RET fusion indication to traditional approval, preserving a genomics-first option across multiple rare solid tumors where matched targeted therapies are uncommon and biopsy-quality molecular testing directly changes treatment choice.",
+      "headline": "ORR 47% · Median DoR 24.5 months in LIBRETTO-001",
+      "statusLabel": "US approved; India solid-tumor label unverified",
+      "badges": [
+        "Basket trial / registrational",
+        "High in biomarker-defined rare cancers",
+        "US approved; India solid-tumor label unverified"
+      ],
+      "searchText": "tumor-agnostic selpercatinib retevmo ret fusion solid tumors locally advanced or metastatic, post-systemic therapy eli lilly and company basket trial / registrational high in biomarker-defined rare cancers orr 47% median dor 24.5 months in libretto-001 fda converted selpercatinib's tumor-agnostic ret fusion indication to traditional approval, preserving a genomics-first option across multiple rare solid tumors where matched targeted therapies are uncommon and biopsy-quality molecular testing directly changes treatment choice. the label warns of hepatotoxicity, interstitial lung disease or pneumonitis, hypertension, qt prolongation, hemorrhagic events, hypersensitivity, tumor lysis syndrome, impaired wound healing, hypothyroidism, embryo-fetal toxicity, and pediatric slipped capital femoral epiphysis. retevmo retsevmo",
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "id": "selpercatinib",
+        "label": "Open treatment dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "FDA approval notice",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-selpercatinib-locally-advanced-or-metastatic-ret-fusion-positive"
+        }
+      ],
+      "sections": [
+        [
+          "Cancer and setting",
+          "RET fusion solid tumors · Locally advanced or metastatic, post-systemic therapy"
+        ],
+        [
+          "Manufacturer / organization",
+          "Eli Lilly and Company"
+        ],
+        [
+          "Event date / geography",
+          "14 July 2026 traditional FDA approval · United States",
+          "wide"
+        ],
+        [
+          "Population / sample",
+          "75 adults with RET fusion-positive solid tumors other than NSCLC and thyroid cancer in LIBRETTO-001, with pediatric and young-adult support from LIBRETTO-121 in refractory RET fusion-positive solid tumors",
+          "wide"
+        ],
+        [
+          "Comparator",
+          "Single-arm basket-trial evidence with no randomized control arm; activity was judged by response rate and response durability with additional support from prior RET-driven lung and thyroid cohorts",
+          "wide"
+        ],
+        [
+          "Primary endpoint",
+          "Overall response rate and duration of response",
+          "wide"
+        ],
+        [
+          "Effect size detail",
+          "ORR was 47% (95% CI 35-59) with a median duration of response of 24.5 months (95% CI 11.2-49.1). Adult responses were seen across colorectal, pancreatic, salivary, soft tissue sarcoma, cholangiocarcinoma, skin, unknown-primary, breast, bronchial carcinoid, ovarian, small-intestine, and neuroendocrine tumors.",
+          "wide"
+        ],
+        [
+          "Regulatory status",
+          "FDA granted traditional approval on 14 July 2026 after earlier accelerated approvals in adults and pediatric patients. No verified EMA or CDSCO tumor-agnostic RET-fusion authorization beyond this FDA action was captured in this pass.",
+          "wide"
+        ],
+        [
+          "Measured effect",
+          "ORR 47%. Median DoR 24.5 months in LIBRETTO-001",
+          "wide"
+        ],
+        [
+          "Clinical meaning",
+          "FDA converted selpercatinib's tumor-agnostic RET fusion indication to traditional approval, preserving a genomics-first option across multiple rare solid tumors where matched targeted therapies are uncommon and biopsy-quality molecular testing directly changes treatment choice.",
+          "wide"
+        ],
+        [
+          "Safety and burden",
+          "The label warns of hepatotoxicity, interstitial lung disease or pneumonitis, hypertension, QT prolongation, hemorrhagic events, hypersensitivity, tumor lysis syndrome, impaired wound healing, hypothyroidism, embryo-fetal toxicity, and pediatric slipped capital femoral epiphysis.",
+          "wide"
+        ],
+        [
+          "Cost and India access",
+          "Precision targeted-therapy cost remains high. No official India price, procurement figure, or tumor-agnostic RET-fusion label update for selpercatinib was verified in this pass. No verified CDSCO authorization, India launch update, or reimbursement/procurement announcement for this tumor-agnostic RET-fusion use was identified.",
+          "wide"
+        ],
+        [
+          "Launch / market status",
+          "Traditional FDA approval 14 July 2026. US approved; India solid-tumor label unverified"
+        ],
+        [
+          "Current limitation",
+          "The registrational evidence was single-arm and tumor-agnostic rather than randomized, with heterogeneous histologies and relatively sparse pediatric non-thyroid data, so effect size by tumor type and sequencing versus local standards still need case-by-case judgment.",
+          "wide"
+        ]
+      ]
+    },
+    {
+      "id": "treatment:pembro-enfortumab-mibc",
+      "lane": "treatment",
+      "laneLabel": "Treatment explorer",
+      "order": 5,
+      "title": "Perioperative Pembrolizumab + Enfortumab",
+      "subtitle": "Padcev + Keytruda · Bladder cancer · Muscle-invasive, cystectomy-eligible",
+      "organization": "Merck + Astellas Pharma",
+      "snapshot": "Phase III · High",
+      "summary": "FDA expanded perioperative pembrolizumab plus enfortumab vedotin to all cystectomy-eligible muscle-invasive bladder cancer patients, not just the cisplatin-ineligible subset, after a direct randomized improvement over gemcitabine/cisplatin in a curative-intent setting.",
+      "headline": "EFS HR 0.53 · OS HR 0.65 in KEYNOTE-B15 / EV-304",
+      "statusLabel": "US approved; India perioperative label unverified",
+      "badges": [
+        "Phase III",
+        "High",
+        "US approved; India perioperative label unverified"
+      ],
+      "searchText": "perioperative pembrolizumab + enfortumab padcev + keytruda bladder cancer muscle-invasive, cystectomy-eligible merck + astellas pharma phase iii high efs hr 0.53 os hr 0.65 in keynote-b15 / ev-304 fda expanded perioperative pembrolizumab plus enfortumab vedotin to all cystectomy-eligible muscle-invasive bladder cancer patients, not just the cisplatin-ineligible subset, after a direct randomized improvement over gemcitabine/cisplatin in a curative-intent setting. pembrolizumab retains immune-mediated and infusion-related toxicity risks. enfortumab vedotin carries warnings for skin reactions, hyperglycemia, pneumonitis/interstitial lung disease, peripheral neuropathy, ocular disorders and infusion site extravasation. keytruda",
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "id": "pembro-enfortumab-mibc",
+        "label": "Open treatment dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "FDA approval notice",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-enfortumab-vedotin"
+        }
+      ],
+      "sections": [
+        [
+          "Cancer and setting",
+          "Bladder cancer · Muscle-invasive, cystectomy-eligible"
+        ],
+        [
+          "Manufacturer / organization",
+          "Merck + Astellas Pharma"
+        ],
+        [
+          "Event date / geography",
+          "10 July 2026 FDA approval · United States; global Project Orbis review with other agencies still ongoing",
+          "wide"
+        ],
+        [
+          "Population / sample",
+          "808 previously untreated adults with muscle-invasive bladder cancer who were candidates for radical cystectomy with pelvic lymph node dissection and were eligible for cisplatin-based chemotherapy",
+          "wide"
+        ],
+        [
+          "Comparator",
+          "Neoadjuvant pembrolizumab plus enfortumab vedotin followed by surgery and adjuvant pembrolizumab plus enfortumab vedotin versus neoadjuvant gemcitabine and cisplatin followed by surgery",
+          "wide"
+        ],
+        [
+          "Primary endpoint",
+          "Event-free survival by blinded independent central review; overall survival was an additional efficacy endpoint",
+          "wide"
+        ],
+        [
+          "Effect size detail",
+          "Median EFS was not reached versus 48.5 months; HR 0.53 (95% CI 0.41-0.70). Median OS was not reached in either arm; HR 0.65 (95% CI 0.48-0.89).",
+          "wide"
+        ],
+        [
+          "Regulatory status",
+          "FDA approved on priority review and five weeks ahead of the goal date. The FDA page states collaborating Project Orbis agency reviews remain ongoing; no verified CDSCO, EMA or other national authorization for this perioperative use was captured in this pass.",
+          "wide"
+        ],
+        [
+          "Measured effect",
+          "EFS HR 0.53. OS HR 0.65 in KEYNOTE-B15 / EV-304",
+          "wide"
+        ],
+        [
+          "Clinical meaning",
+          "FDA expanded perioperative pembrolizumab plus enfortumab vedotin to all cystectomy-eligible muscle-invasive bladder cancer patients, not just the cisplatin-ineligible subset, after a direct randomized improvement over gemcitabine/cisplatin in a curative-intent setting.",
+          "wide"
+        ],
+        [
+          "Safety and burden",
+          "Pembrolizumab retains immune-mediated and infusion-related toxicity risks. Enfortumab vedotin carries warnings for skin reactions, hyperglycemia, pneumonitis/interstitial lung disease, peripheral neuropathy, ocular disorders and infusion site extravasation.",
+          "wide"
+        ],
+        [
+          "Cost and India access",
+          "High dual-agent perioperative immunotherapy plus ADC cost. No official US list-price update, India price, or government procurement figure for this perioperative regimen was verified in this pass. No verified CDSCO approval, India launch date, or official reimbursement/procurement announcement for this muscle-invasive bladder cancer use was identified.",
+          "wide"
+        ],
+        [
+          "Launch / market status",
+          "FDA approval 10 July 2026. US approved; India perioperative label unverified"
+        ],
+        [
+          "Current limitation",
+          "The pivotal trial was open-label and enrolled cisplatin-eligible surgical candidates. Longer follow-up is still needed for cure durability, perioperative tolerability in routine practice, and regional reimbursement/adoption outside the FDA setting.",
+          "wide"
+        ]
+      ]
+    },
+    {
+      "id": "treatment:isatuximab-sc",
+      "lane": "treatment",
+      "laneLabel": "Treatment explorer",
+      "order": 6,
+      "title": "Subcutaneous Isatuximab",
+      "subtitle": "Sarclisa Escena · Multiple myeloma · Newly diagnosed + relapsed / refractory",
+      "organization": "Sanofi",
+      "snapshot": "Noninferiority / phase II · Operationally high, clinical impact unproven",
+      "summary": "FDA approved subcutaneous isatuximab across three multiple myeloma regimens, a material care-delivery shift that could reduce chair-time burden and make anti-CD38 treatment logistics easier without losing short-term activity versus IV delivery in the pivotal noninferiority trial.",
+      "headline": "ORR 71.1% vs 70.5% · Subcutaneous route matched IV activity in IRAKLIA",
+      "statusLabel": "US approved; India route unverified",
+      "badges": [
+        "Noninferiority / phase II",
+        "Operationally high, clinical impact unproven",
+        "US approved; India route unverified"
+      ],
+      "searchText": "subcutaneous isatuximab sarclisa escena multiple myeloma newly diagnosed + relapsed / refractory sanofi noninferiority / phase ii operationally high, clinical impact unproven orr 71.1% vs 70.5% subcutaneous route matched iv activity in iraklia fda approved subcutaneous isatuximab across three multiple myeloma regimens, a material care-delivery shift that could reduce chair-time burden and make anti-cd38 treatment logistics easier without losing short-term activity versus iv delivery in the pivotal noninferiority trial. label warnings include hypersensitivity and other administration reactions, neutropenia, infections, secondary primary malignancies, laboratory test interference and embryo-fetal toxicity.",
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "id": "isatuximab-sc",
+        "label": "Open treatment dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "FDA approval notice",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-isatuximab-irfc-subcutaneous-injection-multiple-myeloma-indications"
+        }
+      ],
+      "sections": [
+        [
+          "Cancer and setting",
+          "Multiple myeloma · Newly diagnosed + relapsed / refractory"
+        ],
+        [
+          "Manufacturer / organization",
+          "Sanofi"
+        ],
+        [
+          "Event date / geography",
+          "9 July 2026 FDA approval · United States",
+          "wide"
+        ],
+        [
+          "Population / sample",
+          "IRAKLIA randomized 531 previously treated patients; supporting single-arm phase II datasets enrolled 74 relapsed/refractory patients in IZALCO and 74 transplant-ineligible newly diagnosed patients in IsaSocut",
+          "wide"
+        ],
+        [
+          "Comparator",
+          "Subcutaneous isatuximab with pomalidomide/dexamethasone versus intravenous isatuximab with pomalidomide/dexamethasone in IRAKLIA; single-arm support for the carfilzomib/dexamethasone and VRd regimens",
+          "wide"
+        ],
+        [
+          "Primary endpoint",
+          "Overall response rate and steady-state trough concentration in IRAKLIA",
+          "wide"
+        ],
+        [
+          "Effect size detail",
+          "IRAKLIA ORR was 71.1% (95% CI 65.2-76.5) with subcutaneous dosing versus 70.5% (95% CI 64.7-75.9) with IV dosing; steady-state trough geometric mean ratio was 1.53 (90% CI 1.32-1.78). Supporting ORR was 79.7% (95% CI 68.8-88.2) in IZALCO and 97.3% (95% CI 90.6-99.7) in IsaSocut.",
+          "wide"
+        ],
+        [
+          "Regulatory status",
+          "FDA approved subcutaneous isatuximab-irfc across three multiple myeloma indications. No verified EMA, CDSCO or other national approval for the subcutaneous product was captured in this pass.",
+          "wide"
+        ],
+        [
+          "Measured effect",
+          "ORR 71.1% vs 70.5%. Subcutaneous route matched IV activity in IRAKLIA",
+          "wide"
+        ],
+        [
+          "Clinical meaning",
+          "FDA approved subcutaneous isatuximab across three multiple myeloma regimens, a material care-delivery shift that could reduce chair-time burden and make anti-CD38 treatment logistics easier without losing short-term activity versus IV delivery in the pivotal noninferiority trial.",
+          "wide"
+        ],
+        [
+          "Safety and burden",
+          "Label warnings include hypersensitivity and other administration reactions, neutropenia, infections, secondary primary malignancies, laboratory test interference and embryo-fetal toxicity.",
+          "wide"
+        ],
+        [
+          "Cost and India access",
+          "Route-convenience value, but official pricing not verified. No official US list-price update, India price, or procurement figure for Sarclisa Escena was verified in this pass. No verified CDSCO approval, India launch announcement, or local delivery-system availability was identified for the subcutaneous product.",
+          "wide"
+        ],
+        [
+          "Launch / market status",
+          "FDA approval 9 July 2026. US approved; India route unverified"
+        ],
+        [
+          "Current limitation",
+          "The pivotal evidence established noninferior response and higher trough concentrations versus IV delivery, not superior survival or quality-of-life outcomes. Two of the three approved regimens relied on 74-patient phase II datasets rather than randomized route-comparison trials.",
+          "wide"
+        ]
+      ]
+    },
+    {
+      "id": "treatment:tregzi",
+      "lane": "treatment",
+      "laneLabel": "Treatment explorer",
+      "order": 7,
       "title": "Tregzi Transplant Cell Therapy",
       "subtitle": "Tregzi · Hematologic malignancies · Matched-donor myeloablative HSCT",
       "organization": "Orca Bio",
@@ -320,7 +720,7 @@
       "id": "treatment:durvalumab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 4,
+      "order": 8,
       "title": "Neoadjuvant Durvalumab",
       "subtitle": "Durvalumab · Breast cancer · Early triple-negative",
       "organization": "AstraZeneca",
@@ -390,7 +790,7 @@
       "id": "treatment:intismeran",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 5,
+      "order": 9,
       "title": "Personalized mRNA Neoantigen Therapy",
       "subtitle": "Intismeran · Melanoma · Resected high-risk",
       "organization": "Moderna + Merck / MSD",
@@ -460,7 +860,7 @@
       "id": "treatment:pemigatinib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 6,
+      "order": 10,
       "title": "First-line Pemigatinib",
       "subtitle": "Pemigatinib · Cholangiocarcinoma · FGFR2-rearranged",
       "organization": "Incyte",
@@ -530,7 +930,7 @@
       "id": "treatment:amivantamab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 7,
+      "order": 11,
       "title": "Amivantamab in Refractory CRC",
       "subtitle": "Amivantamab · Colorectal cancer · RAS/BRAF wild-type",
       "organization": "Johnson & Johnson / Janssen",
@@ -600,7 +1000,7 @@
       "id": "treatment:sigvotatug",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 8,
+      "order": 12,
       "title": "Integrin Beta-6 ADC",
       "subtitle": "Sigvotatug · Lung cancer · Advanced NSCLC",
       "organization": "Pfizer / Seagen",
@@ -670,7 +1070,7 @@
       "id": "treatment:sacituzumab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 9,
+      "order": 13,
       "title": "Neoadjuvant Sacituzumab Govitecan",
       "subtitle": "Sacituzumab · Bladder cancer · Cisplatin-ineligible MIBC",
       "organization": "Gilead Sciences",
@@ -740,7 +1140,7 @@
       "id": "followup:matterhorn",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 10,
+      "order": 14,
       "title": "Durvalumab + FLOT",
       "subtitle": "MATTERHORN · Gastric / GEJ cancer",
       "organization": "AstraZeneca",
@@ -820,7 +1220,7 @@
       "id": "followup:db09",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 11,
+      "order": 15,
       "title": "Trastuzumab deruxtecan + pertuzumab",
       "subtitle": "DESTINY-Breast09 · Breast cancer",
       "organization": "Daiichi Sankyo + AstraZeneca",
@@ -900,7 +1300,7 @@
       "id": "followup:keynote689",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 12,
+      "order": 16,
       "title": "Perioperative pembrolizumab",
       "subtitle": "KEYNOTE-689 · Head and neck cancer",
       "organization": "Merck / MSD",
@@ -980,7 +1380,7 @@
       "id": "followup:rusfertide",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 13,
+      "order": 17,
       "title": "Rusfertide",
       "subtitle": "VERIFY · Polycythemia vera",
       "organization": "Takeda + Protagonist Therapeutics",
@@ -1060,7 +1460,7 @@
       "id": "followup:camizestrant",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 14,
+      "order": 18,
       "title": "Camizestrant + CDK4/6 inhibitor",
       "subtitle": "SERENA-6 · Breast cancer",
       "organization": "AstraZeneca",
@@ -1144,7 +1544,7 @@
       "id": "followup:atomic",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 15,
+      "order": 19,
       "title": "Atezolizumab + mFOLFOX6",
       "subtitle": "ATOMIC · Colon cancer",
       "organization": "Genentech / Roche + NCI Alliance",
@@ -1224,7 +1624,7 @@
       "id": "followup:nivopostop",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 16,
+      "order": 20,
       "title": "Postoperative nivolumab + chemoradiotherapy",
       "subtitle": "NIVOPOSTOP · Head and neck cancer",
       "organization": "Bristol Myers Squibb + GORTEC",
@@ -1304,7 +1704,7 @@
       "id": "followup:ascent04",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 17,
+      "order": 21,
       "title": "Sacituzumab govitecan + pembrolizumab",
       "subtitle": "ASCENT-04 / KEYNOTE-D19 · Breast cancer",
       "organization": "Gilead + Merck / MSD",
@@ -1388,7 +1788,7 @@
       "id": "followup:cpost",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 18,
+      "order": 22,
       "title": "Adjuvant cemiplimab",
       "subtitle": "C-POST · Cutaneous squamous cell carcinoma",
       "organization": "Regeneron",
@@ -1468,7 +1868,7 @@
       "id": "followup:amplitude",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 19,
+      "order": 23,
       "title": "Niraparib + abiraterone + prednisone",
       "subtitle": "AMPLITUDE · Prostate cancer",
       "organization": "Johnson & Johnson / Janssen",
@@ -1548,7 +1948,7 @@
       "id": "followup:can2409",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 20,
+      "order": 24,
       "title": "CAN-2409 + valacyclovir + radiotherapy",
       "subtitle": "PrTK03 · Prostate cancer",
       "organization": "Candel Therapeutics",
@@ -1628,7 +2028,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 21,
+      "order": 25,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -1724,7 +2124,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 22,
+      "order": 26,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -1820,7 +2220,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 23,
+      "order": 27,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -1913,10 +2313,106 @@
       ]
     },
     {
+      "id": "watchlist:who-cancer-report",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 28,
+      "title": "WHO/IARC cancer inequity report",
+      "subtitle": "Public health / equity · All cancers · Global",
+      "organization": "World Health Organization + International Agency for Research on Cancer",
+      "snapshot": "Systems report · 8 July 2026",
+      "summary": "This is a direct cancer-care delivery and equity signal rather than a drug-development headline. It quantifies how much avoidable cancer harm now depends on diagnosis pathways, UHC design, workforce, medicine access and social protection rather than on scientific novelty alone.",
+      "headline": "WHO reported 20.6 million new cases and close to 10 million deaths annually, with annual cases projected to rise to nearly 35 million by 2050. Fewer than one in three countries currently include cancer care in universal health coverage packages, availability of the top 20 priority cancer medicines ranges from 9%-54% in low- and lower-middle-income countries versus 68%-94% in high-income countries, and at least 45% of affected people report financial hardship. WHO's linked breast-cancer survival study estimated median 5-year survival at 41.9% in low-income countries versus 87.3% in high-income countries.",
+      "statusLabel": "Systems report",
+      "badges": [
+        "Systems report",
+        "Public health / equity",
+        "Global"
+      ],
+      "searchText": "who/iarc cancer inequity report who 2026 report public health / equity all cancers global world health organization + international agency for research on cancer who and iarc quantify widening cancer-control, survival and access gaps who reported 20.6 million new cases and close to 10 million deaths annually, with annual cases projected to rise to nearly 35 million by 2050. fewer than one in three countries currently include cancer care in universal health coverage packages, availability of the top 20 priority cancer medicines ranges from 9%-54% in low- and lower-middle-income countries versus 68%-94% in high-income countries, and at least 45% of affected people report financial hardship. who's linked breast-cancer survival study estimated median 5-year survival at 41.9% in low-income countries versus 87.3% in high-income countries. whether countries accelerate cancer inclusion in uhc packages, strengthen prevention and early diagnosis, expand essential-medicine access, and incorporate patient and caregiver burden into cancer policy. this is a direct cancer-care delivery and equity signal rather than a drug-development headline. it quantifies how much avoidable cancer harm now depends on diagnosis pathways, uhc design, workforce, medicine access and social protection rather than on scientific novelty alone.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "who-cancer-report",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.who.int/news/item/08-07-2026-who-calls-for-urgent-action-as-new-cancer-cases-are-projected-to-nearly-double-by-2050"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://www.nature.com/articles/s41591-026-04531-2"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "WHO and IARC quantify widening cancer-control, survival and access gaps"
+        ],
+        [
+          "Population / sample",
+          "People affected by cancer, caregivers, and national cancer systems across 194 WHO Member States"
+        ],
+        [
+          "Comparator",
+          "Current 2024-2026 global burden and access baseline vs 2050 projections; low-income vs high-income survival and medicine-access gaps"
+        ],
+        [
+          "Observed effect",
+          "WHO reported 20.6 million new cases and close to 10 million deaths annually, with annual cases projected to rise to nearly 35 million by 2050. Fewer than one in three countries currently include cancer care in universal health coverage packages, availability of the top 20 priority cancer medicines ranges from 9%-54% in low- and lower-middle-income countries versus 68%-94% in high-income countries, and at least 45% of affected people report financial hardship. WHO's linked breast-cancer survival study estimated median 5-year survival at 41.9% in low-income countries versus 87.3% in high-income countries.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "This is a direct cancer-care delivery and equity signal rather than a drug-development headline. It quantifies how much avoidable cancer harm now depends on diagnosis pathways, UHC design, workforce, medicine access and social protection rather than on scientific novelty alone.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Health ministries, UHC planners, hospital networks, prevention programs, civil-society advocates, and patients and families facing access or affordability barriers.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Whether countries accelerate cancer inclusion in UHC packages, strengthen prevention and early diagnosis, expand essential-medicine access, and incorporate patient and caregiver burden into cancer policy.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "High for a systems signal: the trigger is an official WHO/IARC global report, supported by a same-day peer-reviewed Nature Medicine analysis of breast-cancer survival estimates."
+        ],
+        [
+          "India relevance",
+          "Highly relevant for India because the report centers UHC inclusion, prevention, diagnostics, medicine availability and patient financial strain, but this pass did not verify a new India-specific national survival estimate, reimbursement action, or procurement announcement.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not applicable. The signal is about affordability and system access rather than a single therapy price."
+        ],
+        [
+          "Current limitation",
+          "This is a systems report built from modeled global estimates and uneven underlying data, not an intervention trial. The linked breast-cancer survival paper had observed registry survival data for 67 of 194 WHO Member States, with especially sparse coverage in low-income and fragile settings.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Track country-level policy responses, any WHO implementation follow-up, and newly released country-specific survival or access updates that can sharpen India-relevant comparisons."
+        ],
+        [
+          "Verification note",
+          "Cross-checked across the 8 July 2026 WHO news release, the WHO Global Status Report on Cancer 2026, and the same-day Nature Medicine paper on global breast-cancer survival.",
+          "full"
+        ]
+      ]
+    },
+    {
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 24,
+      "order": 29,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -2010,7 +2506,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 37,
+    "sourcesChecked": 43,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,
