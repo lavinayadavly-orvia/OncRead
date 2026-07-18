@@ -1,0 +1,84 @@
+import { execFileSync } from "node:child_process";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+import {
+  readLatestChangelogDate,
+  releaseAllowlist,
+  syncPreparedDateLabels
+} from "./lib/morning-briefing-release.mjs";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const rootDir = path.resolve(__dirname, "..");
+const args = new Set(process.argv.slice(2));
+
+if (args.has("--help")) {
+  console.log("Usage: node scripts/publish-morning-briefing.mjs [--dry-run] [--no-push]");
+  process.exit(0);
+}
+
+const dryRun = args.has("--dry-run");
+const noPush = args.has("--no-push");
+
+function run(cmd, cmdArgs, options = {}) {
+  return execFileSync(cmd, cmdArgs, {
+    cwd: rootDir,
+    encoding: "utf8",
+    stdio: options.stdio || "pipe"
+  });
+}
+
+function hasStagedChanges() {
+  try {
+    execFileSync("git", ["diff", "--cached", "--quiet", "--exit-code"], { cwd: rootDir, stdio: "ignore" });
+    return false;
+  } catch {
+    return true;
+  }
+}
+
+const editionId = await readLatestChangelogDate(rootDir);
+const branch = run("git", ["rev-parse", "--abbrev-ref", "HEAD"]).trim();
+const preparedLabel = await syncPreparedDateLabels(rootDir, editionId);
+
+console.log(`Synced current edition label to ${preparedLabel}`);
+
+if (dryRun) {
+  console.log("Dry run: skipping rebuild, git add, commit, and push.");
+  console.log(`Would rebuild assets and publish briefing-owned paths on branch ${branch}.`);
+  console.log(`Allowlisted paths: ${releaseAllowlist.join(", ")}`);
+  process.exit(0);
+}
+
+execFileSync("node", ["scripts/build-static-portfolio.mjs"], {
+  cwd: rootDir,
+  stdio: "inherit"
+});
+
+execFileSync("git", ["add", "--", ...releaseAllowlist], {
+  cwd: rootDir,
+  stdio: "inherit"
+});
+
+if (!hasStagedChanges()) {
+  console.log("No staged briefing-owned changes to publish.");
+  process.exit(0);
+}
+
+const commitMessage = `Morning briefing refresh ${editionId}`;
+execFileSync("git", ["commit", "-m", commitMessage], {
+  cwd: rootDir,
+  stdio: "inherit"
+});
+
+if (noPush) {
+  console.log(`Created local release commit on ${branch}; push skipped by --no-push.`);
+  process.exit(0);
+}
+
+execFileSync("git", ["push", "origin", branch], {
+  cwd: rootDir,
+  stdio: "inherit"
+});
+
+console.log(`Published ${commitMessage} to origin/${branch}`);

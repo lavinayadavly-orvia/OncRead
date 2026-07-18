@@ -4,21 +4,7 @@ import path from "node:path";
 
 import { loadDashboardSeeds, loadDashboardSeedsFromSource } from "../server/lib/dashboard-data.mjs";
 import { normalizePortfolio } from "../server/lib/portfolio-normalize.mjs";
-
-const MONTH_NAMES = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December"
-];
+import { formatEditionLabel, MONTH_NAMES, readLatestChangelogDate } from "./lib/morning-briefing-release.mjs";
 
 const editionBlueprints = [
   {
@@ -99,11 +85,6 @@ function clone(value) {
   return JSON.parse(JSON.stringify(value));
 }
 
-function formatEditionLabel(editionId) {
-  const [year, month, day] = editionId.split("-").map(Number);
-  return `${day} ${MONTH_NAMES[month - 1]} ${year}`;
-}
-
 function monthKeyFromEditionId(editionId) {
   return editionId.slice(0, 7);
 }
@@ -111,28 +92,6 @@ function monthKeyFromEditionId(editionId) {
 function monthLabel(monthKey) {
   const [year, month] = monthKey.split("-").map(Number);
   return `${MONTH_NAMES[month - 1]} ${year}`;
-}
-
-function titleCaseMonthDateFromPrepared(preparedText) {
-  const match = preparedText.match(/Prepared\s+(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})/);
-  if (!match) return null;
-  const [, day, monthName, year] = match;
-  const month = MONTH_NAMES.findIndex(name => name.toLowerCase() === monthName.toLowerCase()) + 1;
-  return `${year}-${String(month).padStart(2, "0")}-${String(Number(day)).padStart(2, "0")}`;
-}
-
-async function readPreparedEditionId(rootDir) {
-  const indexPath = path.join(rootDir, "index.html");
-  const html = await readFile(indexPath, "utf8");
-  const match = html.match(/Prepared\s+\d{1,2}\s+[A-Za-z]+\s+\d{4}/);
-  if (!match) {
-    throw new Error("Could not determine prepared edition date from index.html");
-  }
-  const editionId = titleCaseMonthDateFromPrepared(match[0]);
-  if (!editionId) {
-    throw new Error("Could not parse prepared edition date");
-  }
-  return editionId;
 }
 
 function loadSeedsFromGitRef(rootDir, ref) {
@@ -290,7 +249,7 @@ function editionCard(snapshot) {
 }
 
 export async function buildDashboardEditions(rootDir) {
-  const currentEditionId = await readPreparedEditionId(rootDir);
+  const currentEditionId = await readLatestChangelogDate(rootDir);
   const currentSeeds = await loadDashboardSeeds(rootDir);
   const currentBlueprint = currentEditionId === "2026-07-01"
     ? {

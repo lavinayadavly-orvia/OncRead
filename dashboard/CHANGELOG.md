@@ -1,5 +1,17 @@
 # Dashboard Changelog
 
+## 2026-07-18 - Verified Review With No Material Dashboard Change
+
+- Reviewed oncology developments published after the previous 2026-07-16 automation window with another open-ended significance scan across regulator, treatment, diagnostics/screening, India-access, pricing/procurement, systems/public-health, guideline/policy, and other nonconforming categories, again prioritizing directly verifiable official and primary-source pathways.
+- Made no dashboard content, taxonomy, scoring, filter, layout, dossier, source-link, or information-architecture changes because no newly published item in the review window cleared the bar for being both materially decision-relevant and responsibly verifiable from primary or otherwise authoritative sources.
+- Confirmed that the FDA oncology approval notifications page still listed the 14 July 2026 gedatolisib and selpercatinib actions as its newest oncology postings in this pass, with the page itself marked current as of 14 July 2026 and no newer 17-18 July 2026 oncology approval, withdrawal, or comparably material official oncology posting visible there.
+- Rechecked the FDA withdrawn cancer accelerated approvals page and confirmed it still showed the 22 June 2026 Tazverik indication withdrawals as its latest oncology change, with the page still marked current as of 22 June 2026 and no newer withdrawn oncology accelerated approval posted in this pass.
+- Rechecked the EMA Etcamah page and confirmed it still displayed `Positive` CHMP opinion status adopted on 21 May 2026, with the page still last updated on 22 May 2026 and no European Commission decision posted in this pass.
+- Checked WHO's cancer topic page as part of the systems/public-health sweep; the newest visible cancer-specific items remained the 8 July 2026 global cancer report package and 9 July 2026 people-centred feature story, so no new WHO-led oncology systems or public-health development was added in this narrow window.
+- Restored `scripts/publish-morning-briefing.mjs` and aligned the dated-edition pipeline with the latest dashboard changelog date so review-only mornings can still publish a fresh visible edition and archive state.
+- Updated `dashboard/SOURCES.md` to record the 18 July 2026 review outcome and rebuilt the dated edition/archive so the visible current newsletter advances to 18 July 2026 without overstating the recency of unchanged dossiers.
+- Omissions considered: additional post-2026-07-16 diagnostics/screening, India-access/pricing, guideline/policy, and company or regulator signals. None were added because no primary publication, regulator action, government procurement update, or comparably authoritative milestone was retrieved strongly enough for responsible promotion in this run.
+
 ## 2026-07-16 - Verified Review With No Material Dashboard Change
 
 - Reviewed oncology developments published after the previous 2026-07-15 automation window with another open-ended significance scan across regulator, treatment, diagnostics/screening, India-access, pricing/procurement, systems/public-health, guideline/policy, and other nonconforming categories, again prioritizing directly verifiable official and primary-source pathways.
