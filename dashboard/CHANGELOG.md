@@ -10,6 +10,7 @@
 - Checked WHO's cancer topic page as part of the systems/public-health sweep; the newest visible cancer-specific items remained the 8 July 2026 global cancer report package and the 9 July 2026 feature story, so no new WHO-led oncology systems or public-health development was added in this narrow window.
 - Updated `dashboard/SOURCES.md`, the visible edition labeling, and the dated edition/archive so the UI advances to `July 20 Morning Edition` while clearly stating that there were no new material verified updates versus the 18 July 2026 edition.
 - Updated `scripts/publish-morning-briefing.mjs` so the automation publishes the briefing commit to the live remote default branch instead of whichever local branch happens to be checked out.
+- Updated the morning-edition shell and publish helper so the primary CTA defaults to `Read Dossier` and each morning publish bumps the static `app.js` and `styles.css` cache key, preventing browsers from keeping stale briefing buttons after a fresh edition is pushed.
 - Omissions considered: additional post-2026-07-18 diagnostics/screening, India-access/pricing, guideline/policy, and company or regulator signals. None were added because no primary publication, regulator action, government procurement update, or comparably authoritative milestone was retrieved strongly enough for responsible promotion in this run.
 
 ## 2026-07-18 - Verified Review With No Material Dashboard Change

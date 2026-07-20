@@ -50,6 +50,10 @@ export function preparedLabelForEdition(editionId) {
   return morningEditionLabelForEdition(editionId);
 }
 
+function assetVersionForEdition(editionId) {
+  return `${editionId.replace(/-/g, "")}-morning-edition`;
+}
+
 export async function readLatestChangelogEntry(rootDir) {
   const changelogPath = path.join(rootDir, "dashboard", "CHANGELOG.md");
   const changelog = await readFile(changelogPath, "utf8");
@@ -75,10 +79,18 @@ export async function syncPreparedDateLabels(rootDir, editionId) {
   const indexPath = path.join(rootDir, "index.html");
   const source = await readFile(indexPath, "utf8");
   const preparedLabel = preparedLabelForEdition(editionId);
-  const next = source.replace(
-    /(Prepared\s+\d{1,2}\s+[A-Za-z]+\s+\d{4}|[A-Za-z]+\s+\d{1,2}\s+Morning Edition)/g,
-    preparedLabel
-  );
+  const assetVersion = assetVersionForEdition(editionId);
+  const next = source
+    .replace(
+      /(Prepared\s+\d{1,2}\s+[A-Za-z]+\s+\d{4}|[A-Za-z]+\s+\d{1,2}\s+Morning Edition)/g,
+      preparedLabel
+    )
+    .replace(
+      /(<button id="briefing-primary-action"[^>]*>)([^<]*)(<\/button>)/,
+      `$1Read Dossier$3`
+    )
+    .replace(/styles\.css\?v=[^"]+/g, `styles.css?v=${assetVersion}`)
+    .replace(/app\.js\?v=[^"]+/g, `app.js?v=${assetVersion}`);
 
   if (next === source) {
     if (source.includes(preparedLabel)) {
