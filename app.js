@@ -1520,7 +1520,7 @@ function renderInsights() {
     primaryAction.dataset.insightView = featuredRoute.view;
     primaryAction.dataset.insightKind = featuredRoute.kind;
     primaryAction.dataset.insightId = featuredRoute.targetId || "";
-    primaryAction.textContent = `Open ${featuredTreatment?.name || featuredHeadline?.title || featuredLabel || "lead dossier"}`;
+    primaryAction.textContent = "Read Dossier";
   }
 
   $("#briefing-pulse-list").innerHTML = [
