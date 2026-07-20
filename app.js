@@ -1322,6 +1322,7 @@ function metricCard(value, label, note, tone, icon, options = null) {
 function renderInsights() {
   const currentEdition = currentEditionSummary();
   const currentDetail = currentEdition ? state.editionDetails[currentEdition.id] || null : null;
+  const hasCurrentBriefing = Boolean(currentEdition && currentDetail);
   const newestTreatmentApproval = treatments
     .filter(item => item.eventDate)
     .sort((a, b) => (Date.parse(b.eventDate) || 0) - (Date.parse(a.eventDate) || 0))[0];
@@ -1512,7 +1513,7 @@ function renderInsights() {
     }
   ];
 
-  if (currentEdition) {
+  if (hasCurrentBriefing) {
     $("#briefing-headline").textContent = featuredHeadline?.title
       || `${featuredLabel} leads this morning's oncology briefing`;
     $("#briefing-summary").textContent = currentEdition.summary
@@ -1520,10 +1521,10 @@ function renderInsights() {
     $("#briefing-date-label").textContent = currentEdition.preparedLabel || "Current briefing";
   }
   const sidebarPreparedDate = $("#sidebar-prepared-date");
-  if (sidebarPreparedDate && currentEdition) {
+  if (sidebarPreparedDate && hasCurrentBriefing) {
     sidebarPreparedDate.textContent = currentEdition.preparedLabel || "Prepared date loading";
   }
-  if (currentEdition) {
+  if (hasCurrentBriefing) {
     $("#briefing-pulse-summary").textContent = currentMonth
       ? `${currentMonth.monthLabel} stays visible as the monthly headline view, and ${currentEdition.editionLabel || "today's edition"} remains available as the dated weekly briefing.`
       : "Current edition continuity and monthly headline retention will appear here once the archive is loaded.";
@@ -1541,6 +1542,10 @@ function renderInsights() {
     primaryAction.dataset.insightKind = featuredRoute.kind;
     primaryAction.dataset.insightId = featuredRoute.targetId || "";
     primaryAction.textContent = "Read Dossier";
+  }
+
+  if (!hasCurrentBriefing) {
+    return;
   }
 
   $("#briefing-pulse-list").innerHTML = [
