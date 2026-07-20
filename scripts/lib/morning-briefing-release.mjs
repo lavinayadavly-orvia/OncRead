@@ -67,6 +67,17 @@ function replaceElementText(source, id, value) {
   return source.replace(pattern, `$1${escapeHtml(value)}$3`);
 }
 
+function escapeScriptJson(value) {
+  return JSON.stringify(value, null, 2)
+    .replaceAll("<", "\\u003c")
+    .replaceAll("</script", "<\\/script");
+}
+
+function replaceScriptJson(source, id, value) {
+  const pattern = new RegExp(`(<script id="${id}" type="application/json">)([\\s\\S]*?)(</script>)`);
+  return source.replace(pattern, `$1\n${escapeScriptJson(value)}\n$3`);
+}
+
 export async function readLatestChangelogEntry(rootDir) {
   const changelogPath = path.join(rootDir, "dashboard", "CHANGELOG.md");
   const changelog = await readFile(changelogPath, "utf8");
@@ -142,6 +153,29 @@ export async function syncMorningBriefingShell(rootDir, editionId) {
     ),
     "briefing-pulse-summary",
     pulseSummary
+  );
+
+  if (next !== indexSource) {
+    await writeFile(indexPath, next, "utf8");
+  }
+}
+
+export async function syncEmbeddedEditionData(rootDir, editionId) {
+  const editionsIndexPath = path.join(rootDir, "data", "editions", "index.json");
+  const editionPath = path.join(rootDir, "data", "editions", `${editionId}.json`);
+  const indexPath = path.join(rootDir, "index.html");
+  const [archiveSource, editionSource, indexSource] = await Promise.all([
+    readFile(editionsIndexPath, "utf8"),
+    readFile(editionPath, "utf8"),
+    readFile(indexPath, "utf8")
+  ]);
+
+  const archive = JSON.parse(archiveSource);
+  const edition = JSON.parse(editionSource);
+  const next = replaceScriptJson(
+    replaceScriptJson(indexSource, "initial-edition-archive", archive),
+    "initial-current-edition",
+    edition
   );
 
   if (next !== indexSource) {

@@ -6,6 +6,7 @@ import {
   preparedLabelForEdition,
   readLatestChangelogDate,
   releaseAllowlist,
+  syncEmbeddedEditionData,
   syncMorningBriefingShell,
   syncPreparedDateLabels
 } from "./lib/morning-briefing-release.mjs";
@@ -81,6 +82,7 @@ execFileSync("node", ["scripts/build-static-portfolio.mjs"], {
 
 await syncPreparedDateLabels(rootDir, editionId);
 await syncMorningBriefingShell(rootDir, editionId);
+await syncEmbeddedEditionData(rootDir, editionId);
 
 console.log(`Synced current edition shell to ${preparedLabel}`);
 

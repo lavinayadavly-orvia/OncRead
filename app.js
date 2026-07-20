@@ -601,6 +601,22 @@ const viewTitles = {
   archive: "Newsletters & headlines"
 };
 
+function readEmbeddedJson(id, fallback = null) {
+  const element = document.getElementById(id);
+  if (!element) return fallback;
+  const source = element.textContent?.trim();
+  if (!source) return fallback;
+  try {
+    return JSON.parse(source);
+  } catch (error) {
+    console.warn(`Embedded JSON parse failed for ${id}`, error);
+    return fallback;
+  }
+}
+
+const initialEditionArchive = readEmbeddedJson("initial-edition-archive");
+const initialCurrentEdition = readEmbeddedJson("initial-current-edition");
+
 const state = {
   view: "insights",
   selected: [],
@@ -611,9 +627,9 @@ const state = {
   backendPortfolioEntries: null,
   backendStatus: "loading",
   backendSourceSummary: null,
-  editionArchive: null,
-  editionDetails: {},
-  activeEditionId: ""
+  editionArchive: initialEditionArchive,
+  editionDetails: initialCurrentEdition?.id ? { [initialCurrentEdition.id]: initialCurrentEdition } : {},
+  activeEditionId: initialEditionArchive?.currentEditionId || initialCurrentEdition?.id || ""
 };
 
 const MONTH_NAMES = [
