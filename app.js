@@ -1496,24 +1496,28 @@ function renderInsights() {
     }
   ];
 
-  $("#briefing-headline").textContent = featuredHeadline?.title
-    || `${featuredLabel} leads this morning's oncology briefing`;
-  $("#briefing-summary").textContent = currentEdition?.summary
-    || "Start with the move most likely to change care today, the decision still under review, and the signal that still needs restraint.";
-  $("#briefing-date-label").textContent = currentEdition?.preparedLabel || "Current briefing";
-  const sidebarPreparedDate = $("#sidebar-prepared-date");
-  if (sidebarPreparedDate) {
-    sidebarPreparedDate.textContent = currentEdition?.preparedLabel || "Prepared date loading";
+  if (currentEdition) {
+    $("#briefing-headline").textContent = featuredHeadline?.title
+      || `${featuredLabel} leads this morning's oncology briefing`;
+    $("#briefing-summary").textContent = currentEdition.summary
+      || "Start with the move most likely to change care today, the decision still under review, and the signal that still needs restraint.";
+    $("#briefing-date-label").textContent = currentEdition.preparedLabel || "Current briefing";
   }
-  $("#briefing-pulse-summary").textContent = currentMonth
-    ? `${currentMonth.monthLabel} stays visible as the monthly headline view, and ${currentEdition?.editionLabel || "today's edition"} remains available as the dated weekly briefing.`
-    : "Current edition continuity and monthly headline retention will appear here once the archive is loaded.";
-  $("#briefing-tag-row").innerHTML = [
-    ["Live edition", currentEdition?.editionLabel || "Current state"],
-    ["Lead headline", featuredLabel],
-    ["Decision line", regulatoryLead.program],
-    ["Caution line", cautionLead.title]
-  ].map(([label, value]) => `<span class="briefing-tag"><strong>${label}</strong>${value}</span>`).join("");
+  const sidebarPreparedDate = $("#sidebar-prepared-date");
+  if (sidebarPreparedDate && currentEdition) {
+    sidebarPreparedDate.textContent = currentEdition.preparedLabel || "Prepared date loading";
+  }
+  if (currentEdition) {
+    $("#briefing-pulse-summary").textContent = currentMonth
+      ? `${currentMonth.monthLabel} stays visible as the monthly headline view, and ${currentEdition.editionLabel || "today's edition"} remains available as the dated weekly briefing.`
+      : "Current edition continuity and monthly headline retention will appear here once the archive is loaded.";
+    $("#briefing-tag-row").innerHTML = [
+      ["Live edition", currentEdition.editionLabel || "Current state"],
+      ["Lead headline", featuredLabel],
+      ["Decision line", regulatoryLead.program],
+      ["Caution line", cautionLead.title]
+    ].map(([label, value]) => `<span class="briefing-tag"><strong>${label}</strong>${value}</span>`).join("");
+  }
 
   const primaryAction = $("#briefing-primary-action");
   if (primaryAction) {

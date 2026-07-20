@@ -54,6 +54,19 @@ function assetVersionForEdition(editionId) {
   return `${editionId.replace(/-/g, "")}-morning-edition`;
 }
 
+function escapeHtml(text) {
+  return String(text)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function replaceElementText(source, id, value) {
+  const pattern = new RegExp(`(<[^>]+id="${id}"[^>]*>)([\\s\\S]*?)(</[^>]+>)`);
+  return source.replace(pattern, `$1${escapeHtml(value)}$3`);
+}
+
 export async function readLatestChangelogEntry(rootDir) {
   const changelogPath = path.join(rootDir, "dashboard", "CHANGELOG.md");
   const changelog = await readFile(changelogPath, "utf8");
@@ -101,4 +114,37 @@ export async function syncPreparedDateLabels(rootDir, editionId) {
 
   await writeFile(indexPath, next, "utf8");
   return preparedLabel;
+}
+
+export async function syncMorningBriefingShell(rootDir, editionId) {
+  const editionPath = path.join(rootDir, "data", "editions", `${editionId}.json`);
+  const indexPath = path.join(rootDir, "index.html");
+  const [editionSource, indexSource] = await Promise.all([
+    readFile(editionPath, "utf8"),
+    readFile(indexPath, "utf8")
+  ]);
+
+  const edition = JSON.parse(editionSource);
+  const headline = edition.headlines?.[0]?.title || "Morning briefing";
+  const summary = edition.summary || "Current morning edition";
+  const preparedLabel = edition.preparedLabel || preparedLabelForEdition(editionId);
+  const pulseSummary = `${edition.monthLabel || "Current month"} stays visible as the monthly headline view, and ${edition.editionLabel || "today's edition"} remains available as the dated weekly briefing.`;
+
+  const next = replaceElementText(
+    replaceElementText(
+      replaceElementText(
+        replaceElementText(indexSource, "briefing-headline", headline),
+        "briefing-summary",
+        summary
+      ),
+      "briefing-date-label",
+      preparedLabel
+    ),
+    "briefing-pulse-summary",
+    pulseSummary
+  );
+
+  if (next !== indexSource) {
+    await writeFile(indexPath, next, "utf8");
+  }
 }

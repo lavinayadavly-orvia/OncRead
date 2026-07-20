@@ -3,8 +3,10 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import {
+  preparedLabelForEdition,
   readLatestChangelogDate,
   releaseAllowlist,
+  syncMorningBriefingShell,
   syncPreparedDateLabels
 } from "./lib/morning-briefing-release.mjs";
 
@@ -62,11 +64,10 @@ function readPublishTargetBranch() {
 const editionId = await readLatestChangelogDate(rootDir);
 const branch = run("git", ["rev-parse", "--abbrev-ref", "HEAD"]).trim();
 const publishBranch = readPublishTargetBranch();
-const preparedLabel = await syncPreparedDateLabels(rootDir, editionId);
-
-console.log(`Synced current edition label to ${preparedLabel}`);
+const preparedLabel = preparedLabelForEdition(editionId);
 
 if (dryRun) {
+  console.log(`Would sync current edition label to ${preparedLabel}.`);
   console.log("Dry run: skipping rebuild, git add, commit, and push.");
   console.log(`Would rebuild assets from ${branch} and publish briefing-owned paths to origin/${publishBranch}.`);
   console.log(`Allowlisted paths: ${releaseAllowlist.join(", ")}`);
@@ -77,6 +78,11 @@ execFileSync("node", ["scripts/build-static-portfolio.mjs"], {
   cwd: rootDir,
   stdio: "inherit"
 });
+
+await syncPreparedDateLabels(rootDir, editionId);
+await syncMorningBriefingShell(rootDir, editionId);
+
+console.log(`Synced current edition shell to ${preparedLabel}`);
 
 execFileSync("git", ["add", "--", ...releaseAllowlist], {
   cwd: rootDir,
