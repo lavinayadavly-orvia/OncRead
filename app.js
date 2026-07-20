@@ -616,6 +616,21 @@ const state = {
   activeEditionId: ""
 };
 
+const MONTH_NAMES = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December"
+];
+
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 
@@ -982,6 +997,12 @@ function currentEditionSummary() {
   return archive.editions.find(item => item.id === archive.currentEditionId) || archive.editions[0] || null;
 }
 
+function morningEditionLabel(editionId) {
+  const [year, month, day] = editionId.split("-").map(Number);
+  if (!year || !month || !day) return "Current morning edition";
+  return `${MONTH_NAMES[month - 1]} ${day} Morning Edition`;
+}
+
 function formatDisplayDate(dateValue) {
   if (!dateValue) return "Not dated";
   const parsed = new Date(dateValue);
@@ -1213,7 +1234,7 @@ async function openEdition(id) {
       id,
       editionLabel: id,
       monthLabel: id.slice(0, 7),
-      preparedLabel: `Prepared ${id}`,
+      preparedLabel: morningEditionLabel(id),
       summary: "This edition could not be loaded from the static archive.",
       provenance: "Archive fetch failed.",
       metrics: { verifiedRecords: 0, treatments: 0, followupApprovals: 0, watchlistSignals: 0 },
@@ -1499,7 +1520,7 @@ function renderInsights() {
     primaryAction.dataset.insightView = featuredRoute.view;
     primaryAction.dataset.insightKind = featuredRoute.kind;
     primaryAction.dataset.insightId = featuredRoute.targetId || "";
-    primaryAction.textContent = `Read ${featuredTreatment.short || featuredLabel || "lead dossier"}`;
+    primaryAction.textContent = `Open ${featuredLabel || "lead dossier"}`;
   }
 
   $("#briefing-pulse-list").innerHTML = [

@@ -41,27 +41,49 @@ export function formatEditionLabel(editionId) {
   return `${day} ${MONTH_NAMES[month - 1]} ${year}`;
 }
 
+export function morningEditionLabelForEdition(editionId) {
+  const [, month, day] = editionId.split("-").map(Number);
+  return `${MONTH_NAMES[month - 1]} ${day} Morning Edition`;
+}
+
 export function preparedLabelForEdition(editionId) {
-  return `Prepared ${formatEditionLabel(editionId)}`;
+  return morningEditionLabelForEdition(editionId);
+}
+
+export async function readLatestChangelogEntry(rootDir) {
+  const changelogPath = path.join(rootDir, "dashboard", "CHANGELOG.md");
+  const changelog = await readFile(changelogPath, "utf8");
+  const matches = [...changelog.matchAll(/^## (\d{4}-\d{2}-\d{2}) - (.+)$/gm)];
+  if (!matches.length) {
+    throw new Error("Could not determine latest dated dashboard changelog entry");
+  }
+  const [current, previous] = matches;
+  return {
+    date: current[1],
+    title: current[2],
+    previousDate: previous?.[1] || null,
+    previousTitle: previous?.[2] || null
+  };
 }
 
 export async function readLatestChangelogDate(rootDir) {
-  const changelogPath = path.join(rootDir, "dashboard", "CHANGELOG.md");
-  const changelog = await readFile(changelogPath, "utf8");
-  const match = changelog.match(/^## (\d{4}-\d{2}-\d{2}) - /m);
-  if (!match) {
-    throw new Error("Could not determine latest dated dashboard changelog entry");
-  }
-  return match[1];
+  const entry = await readLatestChangelogEntry(rootDir);
+  return entry.date;
 }
 
 export async function syncPreparedDateLabels(rootDir, editionId) {
   const indexPath = path.join(rootDir, "index.html");
   const source = await readFile(indexPath, "utf8");
   const preparedLabel = preparedLabelForEdition(editionId);
-  const next = source.replace(/Prepared\s+\d{1,2}\s+[A-Za-z]+\s+\d{4}/g, preparedLabel);
+  const next = source.replace(
+    /(Prepared\s+\d{1,2}\s+[A-Za-z]+\s+\d{4}|[A-Za-z]+\s+\d{1,2}\s+Morning Edition)/g,
+    preparedLabel
+  );
 
   if (next === source) {
+    if (source.includes(preparedLabel)) {
+      return preparedLabel;
+    }
     throw new Error("Could not locate prepared date labels in index.html");
   }
 

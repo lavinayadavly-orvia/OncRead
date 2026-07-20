@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-07-18
+Updated: 2026-07-20
 
 ## Method
 
@@ -29,8 +29,28 @@ Updated: 2026-07-18
 - The 2026-07-15 review added two new FDA-backed treatment dossiers after 14 July 2026 regulator actions: a PIK3CA-wild-type metastatic breast-cancer approval for gedatolisib and a traditional-approval conversion for tumor-agnostic selpercatinib in RET fusion-positive solid tumors.
 - The 2026-07-16 review was another no-content-change pass. Open-ended official-source checks again did not surface a post-2026-07-15 development that was both material and verifiable enough to promote into the dashboard.
 - The 2026-07-18 review was another no-content-change pass. Open-ended official-source checks again did not surface a post-2026-07-16 development that was both material and verifiable enough to promote into the dashboard.
+- The 2026-07-20 review was another no-content-change pass. Open-ended official-source checks again did not surface a post-2026-07-18 development that was both material and verifiable enough to promote into the dashboard.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-07-20 Review-Only Checks
+
+- FDA oncology approval notifications index
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA withdrawn cancer accelerated approvals index
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA Etcamah status page
+  https://www.ema.europa.eu/en/medicines/human/EPAR/etcamah
+- WHO cancer topic page for systems/public-health scan
+  https://www.who.int/health-topics/cancer
+
+## 2026-07-20 Checked But Not Promoted
+
+- As of 20 July 2026, the FDA oncology approval notifications page still listed the 14 July 2026 gedatolisib and selpercatinib actions as its newest oncology postings; no newer 19-20 July 2026 oncology approval, withdrawal, or comparably material official oncology posting was visible there in this pass.
+- The FDA withdrawn accelerated approvals page still showed the 22 June 2026 Tazverik indication withdrawals as its latest oncology change and remained current with no newer withdrawn oncology accelerated approval surfaced in this pass.
+- The EMA Etcamah page still displayed `Opinion` / `Positive` status adopted on 21 May 2026, with the page still last updated on 22 May 2026; no European Commission decision was posted in this pass.
+- WHO's cancer topic page still listed the 8 July 2026 global cancer report package, the 8 July 2026 breast-cancer survival update, and the 9 July 2026 feature story as its newest visible cancer-specific items; no newer post-2026-07-18 WHO-led oncology systems or public-health development stronger than the already tracked July package was surfaced in this pass.
+- Additional post-2026-07-18 diagnostics/screening, India-access/pricing, guideline/policy, and company or regulator signals were screened but not promoted because no primary publication, regulator action, government procurement update, or comparably authoritative milestone was retrieved strongly enough for responsible inclusion.
 
 ## 2026-07-18 Review-Only Checks
 

@@ -1,16 +1,118 @@
 {
-  "generatedAt": "2026-07-18T03:48:11.692Z",
-  "currentEditionId": "2026-07-18",
-  "currentEditionLabel": "18 July 2026",
+  "generatedAt": "2026-07-20T08:52:01.692Z",
+  "currentEditionId": "2026-07-20",
+  "currentEditionLabel": "20 July 2026",
   "editions": [
+    {
+      "id": "2026-07-20",
+      "editionLabel": "20 July 2026",
+      "preparedLabel": "July 20 Morning Edition",
+      "monthKey": "2026-07",
+      "monthLabel": "July 2026",
+      "summary": "No new material verified oncology updates were added from the 18 July 2026 edition. The July 20 Morning Edition keeps the prior verified dashboard state visible after today's review.",
+      "file": "/data/editions/2026-07-20.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 14,
+        "followupApprovals": 6,
+        "indiaMarketed": 4,
+        "watchlistSignals": 5,
+        "verifiedRecords": 30
+      }
+    },
     {
       "id": "2026-07-18",
       "editionLabel": "18 July 2026",
-      "preparedLabel": "Prepared 18 July 2026",
+      "preparedLabel": "July 18 Morning Edition",
       "monthKey": "2026-07",
       "monthLabel": "July 2026",
-      "summary": "Weekly newsletter edition captured for 18 July 2026.",
+      "summary": "No new material verified oncology updates were added from the 16 July 2026 edition. The July 18 Morning Edition keeps the prior verified dashboard state visible after today's review.",
       "file": "/data/editions/2026-07-18.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 14,
+        "followupApprovals": 6,
+        "indiaMarketed": 4,
+        "watchlistSignals": 5,
+        "verifiedRecords": 30
+      }
+    },
+    {
+      "id": "2026-07-16",
+      "editionLabel": "16 July 2026",
+      "preparedLabel": "July 16 Morning Edition",
+      "monthKey": "2026-07",
+      "monthLabel": "July 2026",
+      "summary": "No new verified oncology development cleared the bar on 16 July 2026, leaving Gedatolisib + Fulvestrant and the existing caution signals at the top of the briefing.",
+      "file": "/data/editions/2026-07-16.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 14,
+        "followupApprovals": 6,
+        "indiaMarketed": 4,
+        "watchlistSignals": 5,
+        "verifiedRecords": 30
+      }
+    },
+    {
+      "id": "2026-07-15",
+      "editionLabel": "15 July 2026",
+      "preparedLabel": "July 15 Morning Edition",
+      "monthKey": "2026-07",
+      "monthLabel": "July 2026",
+      "summary": "The 15 July 2026 morning edition captured the current verified oncology state and archived it as a dated briefing.",
+      "file": "/data/editions/2026-07-15.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 14,
+        "followupApprovals": 6,
+        "indiaMarketed": 4,
+        "watchlistSignals": 5,
+        "verifiedRecords": 30
+      }
+    },
+    {
+      "id": "2026-07-03",
+      "editionLabel": "3 July 2026",
+      "preparedLabel": "July 3 Morning Edition",
+      "monthKey": "2026-07",
+      "monthLabel": "July 2026",
+      "summary": "No new verified oncology development cleared the bar on 3 July 2026, leaving Tregzi Transplant Cell Therapy and the existing caution signals at the top of the briefing.",
+      "file": "/data/editions/2026-07-03.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 10,
+        "followupApprovals": 6,
+        "indiaMarketed": 4,
+        "watchlistSignals": 4,
+        "verifiedRecords": 25
+      }
+    },
+    {
+      "id": "2026-07-02",
+      "editionLabel": "2 July 2026",
+      "preparedLabel": "July 2 Morning Edition",
+      "monthKey": "2026-07",
+      "monthLabel": "July 2026",
+      "summary": "No new verified oncology development cleared the bar on 2 July 2026, leaving Tregzi Transplant Cell Therapy and the existing caution signals at the top of the briefing.",
+      "file": "/data/editions/2026-07-02.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 10,
+        "followupApprovals": 6,
+        "indiaMarketed": 4,
+        "watchlistSignals": 4,
+        "verifiedRecords": 25
+      }
+    },
+    {
+      "id": "2026-07-01",
+      "editionLabel": "1 July 2026",
+      "preparedLabel": "July 1 Morning Edition",
+      "monthKey": "2026-07",
+      "monthLabel": "July 2026",
+      "summary": "The 1 July 2026 weekly edition added FDA-approved Tregzi as a new hematologic-malignancy transplant dossier and refreshed the latest-approval logic around that regulator action.",
+      "file": "/data/editions/2026-07-01.json",
       "metrics": {
         "insights": 4,
         "treatments": 14,
@@ -23,7 +125,7 @@
     {
       "id": "2026-06-30",
       "editionLabel": "30 June 2026",
-      "preparedLabel": "Prepared 30 June 2026",
+      "preparedLabel": "June 30 Morning Edition",
       "monthKey": "2026-06",
       "monthLabel": "June 2026",
       "summary": "The 30 June 2026 review published as a no-material-change edition: the dashboard held its late-June breast-cancer approvals while official-source checks did not justify a new promotion.",
@@ -38,9 +140,60 @@
       }
     },
     {
+      "id": "2026-06-28",
+      "editionLabel": "28 June 2026",
+      "preparedLabel": "June 28 Morning Edition",
+      "monthKey": "2026-06",
+      "monthLabel": "June 2026",
+      "summary": "No new verified oncology development cleared the bar on 28 June 2026, leaving Sacituzumab govitecan + pembrolizumab and the existing caution signals at the top of the briefing.",
+      "file": "/data/editions/2026-06-28.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 9,
+        "followupApprovals": 6,
+        "indiaMarketed": 4,
+        "watchlistSignals": 4,
+        "verifiedRecords": 24
+      }
+    },
+    {
+      "id": "2026-06-27",
+      "editionLabel": "27 June 2026",
+      "preparedLabel": "June 27 Morning Edition",
+      "monthKey": "2026-06",
+      "monthLabel": "June 2026",
+      "summary": "No new verified oncology development cleared the bar on 27 June 2026, leaving Sacituzumab govitecan + pembrolizumab and the existing caution signals at the top of the briefing.",
+      "file": "/data/editions/2026-06-27.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 9,
+        "followupApprovals": 6,
+        "indiaMarketed": 4,
+        "watchlistSignals": 4,
+        "verifiedRecords": 24
+      }
+    },
+    {
+      "id": "2026-06-26",
+      "editionLabel": "26 June 2026",
+      "preparedLabel": "June 26 Morning Edition",
+      "monthKey": "2026-06",
+      "monthLabel": "June 2026",
+      "summary": "No new verified oncology development cleared the bar on 26 June 2026, leaving Sacituzumab govitecan + pembrolizumab and the existing caution signals at the top of the briefing.",
+      "file": "/data/editions/2026-06-26.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 9,
+        "followupApprovals": 6,
+        "indiaMarketed": 4,
+        "watchlistSignals": 4,
+        "verifiedRecords": 24
+      }
+    },
+    {
       "id": "2026-06-25",
       "editionLabel": "25 June 2026",
-      "preparedLabel": "Prepared 25 June 2026",
+      "preparedLabel": "June 25 Morning Edition",
       "monthKey": "2026-06",
       "monthLabel": "June 2026",
       "summary": "The late-June edition captured two breast-cancer regulatory upgrades: a new palbociclib maintenance dossier and the FDA approval of ASCENT-04 / KEYNOTE-D19.",
@@ -55,9 +208,26 @@
       }
     },
     {
+      "id": "2026-06-16",
+      "editionLabel": "16 June 2026",
+      "preparedLabel": "June 16 Morning Edition",
+      "monthKey": "2026-06",
+      "monthLabel": "June 2026",
+      "summary": "The 16 June 2026 morning edition captured the current verified oncology state and archived it as a dated briefing.",
+      "file": "/data/editions/2026-06-16.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 8,
+        "followupApprovals": 5,
+        "indiaMarketed": 3,
+        "watchlistSignals": 4,
+        "verifiedRecords": 23
+      }
+    },
+    {
       "id": "2026-06-15",
       "editionLabel": "15 June 2026",
-      "preparedLabel": "Prepared 15 June 2026",
+      "preparedLabel": "June 15 Morning Edition",
       "monthKey": "2026-06",
       "monthLabel": "June 2026",
       "summary": "Morning briefing mode launched with the first watchlist-and-systems expansion, giving the dashboard a plain-language front page and explicit room for nonconforming oncology signals.",
@@ -76,8 +246,36 @@
     {
       "monthKey": "2026-07",
       "monthLabel": "July 2026",
-      "leadEditionId": "2026-07-18",
+      "leadEditionId": "2026-07-20",
       "highlights": [
+        {
+          "editionId": "2026-07-20",
+          "editionLabel": "20 July 2026",
+          "tag": "No new material update",
+          "title": "No new material verified updates",
+          "summary": "The July 20 Morning Edition retains the prior verified dashboard state after no new material change was confirmed versus the 18 July 2026 edition."
+        },
+        {
+          "editionId": "2026-07-20",
+          "editionLabel": "20 July 2026",
+          "tag": "Latest verified approval",
+          "title": "Gedatolisib + Fulvestrant",
+          "summary": "FDA approval 14 July 2026"
+        },
+        {
+          "editionId": "2026-07-20",
+          "editionLabel": "20 July 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Gedatolisib + Fulvestrant",
+          "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
+        },
+        {
+          "editionId": "2026-07-18",
+          "editionLabel": "18 July 2026",
+          "tag": "No new material update",
+          "title": "No new material verified updates",
+          "summary": "The July 18 Morning Edition retains the prior verified dashboard state after no new material change was confirmed versus the 16 July 2026 edition."
+        },
         {
           "editionId": "2026-07-18",
           "editionLabel": "18 July 2026",
@@ -91,13 +289,6 @@
           "tag": "Highest-impact treatment pool",
           "title": "Gedatolisib + Fulvestrant",
           "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
-        },
-        {
-          "editionId": "2026-07-18",
-          "editionLabel": "18 July 2026",
-          "tag": "Negative trial",
-          "title": "Galleri-NHS negative screening signal",
-          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
         }
       ]
     },
@@ -128,23 +319,23 @@
           "summary": "The dashboard preserved system-level warnings and negative screening evidence rather than dropping them on quiet regulatory days."
         },
         {
-          "editionId": "2026-06-25",
-          "editionLabel": "25 June 2026",
-          "tag": "New FDA dossier",
-          "title": "Palbociclib HER2 maintenance enters the tracker",
-          "summary": "The dashboard added a dedicated PATINA-driven treatment record for the 24 June 2026 FDA maintenance approval in HR-positive, HER2-positive advanced breast cancer."
+          "editionId": "2026-06-28",
+          "editionLabel": "28 June 2026",
+          "tag": "Verified hold",
+          "title": "No new oncology development cleared the bar",
+          "summary": "Official-source checks did not justify promoting a newer oncology item into the briefing."
         },
         {
-          "editionId": "2026-06-25",
-          "editionLabel": "25 June 2026",
-          "tag": "Follow-up becomes approval",
-          "title": "ASCENT-04 completes the conference-to-label path",
-          "summary": "Sacituzumab govitecan plus pembrolizumab moved from ASCO evidence to FDA-approved first-line TNBC therapy."
+          "editionId": "2026-06-28",
+          "editionLabel": "28 June 2026",
+          "tag": "Newest verified move",
+          "title": "Sacituzumab govitecan + pembrolizumab remained the lead verified approval",
+          "summary": "FDA approval · 24 Jun 2026"
         },
         {
-          "editionId": "2026-06-25",
-          "editionLabel": "25 June 2026",
-          "tag": "Search upgrade",
+          "editionId": "2026-06-28",
+          "editionLabel": "28 June 2026",
+          "tag": "What stayed in view",
           "title": "Brand-name search now resolves newer dossiers",
           "summary": "Portfolio aliasing was expanded so users could find the new palbociclib entry through the `Ibrance` brand name."
         }

@@ -1,10 +1,15 @@
 import { execFileSync } from "node:child_process";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import { loadDashboardSeeds, loadDashboardSeedsFromSource } from "../server/lib/dashboard-data.mjs";
 import { normalizePortfolio } from "../server/lib/portfolio-normalize.mjs";
-import { formatEditionLabel, MONTH_NAMES, readLatestChangelogDate } from "./lib/morning-briefing-release.mjs";
+import {
+  formatEditionLabel,
+  MONTH_NAMES,
+  preparedLabelForEdition,
+  readLatestChangelogEntry
+} from "./lib/morning-briefing-release.mjs";
 
 const editionBlueprints = [
   {
@@ -213,7 +218,7 @@ function buildEditionSnapshot({ id, seeds, summary, provenance, headlines }) {
   return {
     id,
     editionLabel: formatEditionLabel(id),
-    preparedLabel: `Prepared ${formatEditionLabel(id)}`,
+    preparedLabel: preparedLabelForEdition(id),
     monthKey: monthKeyFromEditionId(id),
     monthLabel: monthLabel(monthKeyFromEditionId(id)),
     summary,
@@ -235,6 +240,40 @@ function buildEditionSnapshot({ id, seeds, summary, provenance, headlines }) {
   };
 }
 
+async function loadExistingEditionSnapshots(rootDir) {
+  const editionsDir = path.join(rootDir, "data", "editions");
+  let files = [];
+  try {
+    files = await readdir(editionsDir);
+  } catch {
+    return [];
+  }
+
+  const snapshots = [];
+  for (const file of files) {
+    if (!file.endsWith(".json") || file === "index.json") continue;
+    const filePath = path.join(editionsDir, file);
+    try {
+      const snapshot = JSON.parse(await readFile(filePath, "utf8"));
+      if (snapshot?.id) {
+        snapshots.push({
+          ...snapshot,
+          preparedLabel: preparedLabelForEdition(snapshot.id)
+        });
+      }
+    } catch {
+      // Ignore malformed historical snapshots and rebuild what this run owns.
+    }
+  }
+
+  return snapshots;
+}
+
+function noChangeEditionSummary(currentEditionId, previousEditionId) {
+  const prior = previousEditionId ? ` from the ${formatEditionLabel(previousEditionId)} edition` : "";
+  return `No new material verified oncology updates were added${prior}. The ${preparedLabelForEdition(currentEditionId)} keeps the prior verified dashboard state visible after today's review.`;
+}
+
 function editionCard(snapshot) {
   return {
     id: snapshot.id,
@@ -249,8 +288,12 @@ function editionCard(snapshot) {
 }
 
 export async function buildDashboardEditions(rootDir) {
-  const currentEditionId = await readLatestChangelogDate(rootDir);
+  const changelogEntry = await readLatestChangelogEntry(rootDir);
+  const currentEditionId = changelogEntry.date;
   const currentSeeds = await loadDashboardSeeds(rootDir);
+  const existingSnapshots = await loadExistingEditionSnapshots(rootDir);
+  const carryForwardHeadlines = defaultHeadlinesForEdition(currentSeeds);
+  const noMaterialChange = /No Material Dashboard Change/i.test(changelogEntry.title);
   const currentBlueprint = currentEditionId === "2026-07-01"
     ? {
         id: currentEditionId,
@@ -278,8 +321,22 @@ export async function buildDashboardEditions(rootDir) {
     : {
         id: currentEditionId,
         mode: "current",
-        summary: `Weekly newsletter edition captured for ${formatEditionLabel(currentEditionId)}.`,
-        provenance: "Generated from the current working tree."
+        summary: noMaterialChange
+          ? noChangeEditionSummary(currentEditionId, changelogEntry.previousDate)
+          : `Weekly newsletter edition captured for ${formatEditionLabel(currentEditionId)}.`,
+        provenance: "Generated from the current working tree.",
+        headlines: noMaterialChange
+          ? [
+              {
+                tag: "No new material update",
+                title: "No new material verified updates",
+                summary: changelogEntry.previousDate
+                  ? `The ${preparedLabelForEdition(currentEditionId)} retains the prior verified dashboard state after no new material change was confirmed versus the ${formatEditionLabel(changelogEntry.previousDate)} edition.`
+                  : `The ${preparedLabelForEdition(currentEditionId)} retains the prior verified dashboard state after today's review found no new material change.`
+              },
+              ...carryForwardHeadlines.slice(0, 2)
+            ]
+          : undefined
       };
 
   const blueprints = [...editionBlueprints];
@@ -290,7 +347,7 @@ export async function buildDashboardEditions(rootDir) {
     blueprints[idx] = { ...blueprints[idx], ...currentBlueprint };
   }
 
-  const editions = [];
+  const editionsById = new Map(existingSnapshots.map(snapshot => [snapshot.id, snapshot]));
   for (const blueprint of blueprints.sort((a, b) => a.id.localeCompare(b.id))) {
     let seeds;
     if (blueprint.mode === "git") {
@@ -308,8 +365,10 @@ export async function buildDashboardEditions(rootDir) {
       provenance: blueprint.provenance,
       headlines: blueprint.headlines
     });
-    editions.push(snapshot);
+    editionsById.set(snapshot.id, snapshot);
   }
+
+  const editions = [...editionsById.values()].sort((a, b) => a.id.localeCompare(b.id));
 
   const currentSnapshot = editions.find(item => item.id === currentEditionId) || buildEditionSnapshot({
     id: currentEditionId,

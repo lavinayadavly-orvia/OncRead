@@ -37,15 +37,38 @@ function hasStagedChanges() {
   }
 }
 
+function readPublishTargetBranch() {
+  const override = process.env.ONCREAD_PUBLISH_BRANCH?.trim();
+  if (override) return override;
+
+  for (const args of [
+    ["symbolic-ref", "--short", "refs/remotes/origin/HEAD"],
+    ["rev-parse", "--abbrev-ref", "origin/HEAD"]
+  ]) {
+    try {
+      const ref = run("git", args).trim();
+      const branch = ref.replace(/^origin\//, "");
+      if (branch && branch !== "HEAD") {
+        return branch;
+      }
+    } catch {
+      // Fall through to the next resolver.
+    }
+  }
+
+  return "main";
+}
+
 const editionId = await readLatestChangelogDate(rootDir);
 const branch = run("git", ["rev-parse", "--abbrev-ref", "HEAD"]).trim();
+const publishBranch = readPublishTargetBranch();
 const preparedLabel = await syncPreparedDateLabels(rootDir, editionId);
 
 console.log(`Synced current edition label to ${preparedLabel}`);
 
 if (dryRun) {
   console.log("Dry run: skipping rebuild, git add, commit, and push.");
-  console.log(`Would rebuild assets and publish briefing-owned paths on branch ${branch}.`);
+  console.log(`Would rebuild assets from ${branch} and publish briefing-owned paths to origin/${publishBranch}.`);
   console.log(`Allowlisted paths: ${releaseAllowlist.join(", ")}`);
   process.exit(0);
 }
@@ -72,13 +95,13 @@ execFileSync("git", ["commit", "-m", commitMessage], {
 });
 
 if (noPush) {
-  console.log(`Created local release commit on ${branch}; push skipped by --no-push.`);
+  console.log(`Created local release commit on ${branch}; push to origin/${publishBranch} skipped by --no-push.`);
   process.exit(0);
 }
 
-execFileSync("git", ["push", "origin", branch], {
+execFileSync("git", ["push", "origin", `HEAD:refs/heads/${publishBranch}`], {
   cwd: rootDir,
   stdio: "inherit"
 });
 
-console.log(`Published ${commitMessage} to origin/${branch}`);
+console.log(`Published ${commitMessage} from ${branch} to origin/${publishBranch}`);
