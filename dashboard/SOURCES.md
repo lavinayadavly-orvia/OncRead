@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-07-20
+Updated: 2026-07-22
 
 ## Method
 
@@ -30,8 +30,36 @@ Updated: 2026-07-20
 - The 2026-07-16 review was another no-content-change pass. Open-ended official-source checks again did not surface a post-2026-07-15 development that was both material and verifiable enough to promote into the dashboard.
 - The 2026-07-18 review was another no-content-change pass. Open-ended official-source checks again did not surface a post-2026-07-16 development that was both material and verifiable enough to promote into the dashboard.
 - The 2026-07-20 review was another no-content-change pass. Open-ended official-source checks again did not surface a post-2026-07-18 development that was both material and verifiable enough to promote into the dashboard.
+- The 2026-07-22 review was another no-content-change pass. Open-ended official-source checks again did not surface a post-2026-07-20 development that was both material and verifiable enough to promote into the dashboard.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-07-22 Review-Only Checks
+
+- FDA oncology approval notifications index
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA withdrawn cancer accelerated approvals index
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA Etcamah status page
+  https://www.ema.europa.eu/hr/medicines/human/EPAR/etcamah
+- EMA cancer latest-updates page
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+- WHO headlines page
+  https://www.who.int/news-room/headlines
+- WHO newsroom page
+  https://www.who.int/news-room
+- CDSCO SEC index
+  https://www.cdsco.gov.in/opencms/opencms//en/Committees/SEC/
+
+## 2026-07-22 Checked But Not Promoted
+
+- As of 22 July 2026, the FDA oncology approval notifications page still listed the 14 July 2026 gedatolisib and selpercatinib actions as its newest oncology postings; no newer 21-22 July 2026 oncology approval, withdrawal, or comparably material official oncology posting was visible there in this pass.
+- The FDA withdrawn accelerated approvals page still showed the 22 June 2026 Tazverik indication withdrawals as its latest oncology change and remained current with no newer withdrawn oncology accelerated approval surfaced in this pass.
+- The EMA Etcamah page still displayed `Opinion` / `Positive` status adopted on 21 May 2026, with the page still last updated on 22 May 2026; no European Commission decision was posted in this pass.
+- EMA's cancer latest-updates page still pointed to the 26 June 2026 CHMP meeting-highlights cycle and reported a technical error in its newer-authorisations listing, so no newer directly attributable EMA oncology authorisation change was verified there in this pass.
+- WHO's visible 20-21 July 2026 headlines and newsroom entries were unrelated to cancer, and no newer post-2026-07-20 WHO-led oncology systems or public-health development stronger than the already tracked July package was surfaced in this pass.
+- CDSCO's SEC index showed a newly posted oncology meeting recommendation file dated 17 July 2026, but the underlying recommendation text was not directly retrieved in this pass; no specific India oncology approval, access, safety, or procurement change was therefore promoted without deeper primary verification.
+- Additional post-2026-07-20 diagnostics/screening, India-access/pricing, guideline/policy, ClinicalTrials.gov, and company or regulator signals were screened but not promoted because no primary publication, regulator action, government procurement update, or comparably authoritative milestone was retrieved strongly enough for responsible inclusion.
 
 ## 2026-07-20 Review-Only Checks
 
