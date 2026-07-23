@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-07-22T03:43:20.183Z",
-  "currentEditionId": "2026-07-22",
-  "currentEditionLabel": "22 July 2026",
+  "generatedAt": "2026-07-23T03:28:50.485Z",
+  "currentEditionId": "2026-07-23",
+  "currentEditionLabel": "23 July 2026",
   "editions": [
+    {
+      "id": "2026-07-23",
+      "editionLabel": "23 July 2026",
+      "preparedLabel": "July 23 Morning Edition",
+      "monthKey": "2026-07",
+      "monthLabel": "July 2026",
+      "summary": "Weekly newsletter edition captured for 23 July 2026.",
+      "file": "/data/editions/2026-07-23.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 15,
+        "followupApprovals": 6,
+        "indiaMarketed": 4,
+        "watchlistSignals": 5,
+        "verifiedRecords": 31
+      }
+    },
     {
       "id": "2026-07-22",
       "editionLabel": "22 July 2026",
@@ -149,11 +166,11 @@
       "file": "/data/editions/2026-06-30.json",
       "metrics": {
         "insights": 4,
-        "treatments": 13,
+        "treatments": 14,
         "followupApprovals": 6,
         "indiaMarketed": 4,
         "watchlistSignals": 5,
-        "verifiedRecords": 29
+        "verifiedRecords": 30
       }
     },
     {
@@ -217,11 +234,11 @@
       "file": "/data/editions/2026-06-25.json",
       "metrics": {
         "insights": 4,
-        "treatments": 13,
+        "treatments": 14,
         "followupApprovals": 6,
         "indiaMarketed": 4,
         "watchlistSignals": 5,
-        "verifiedRecords": 29
+        "verifiedRecords": 30
       }
     },
     {
@@ -263,8 +280,29 @@
     {
       "monthKey": "2026-07",
       "monthLabel": "July 2026",
-      "leadEditionId": "2026-07-22",
+      "leadEditionId": "2026-07-23",
       "highlights": [
+        {
+          "editionId": "2026-07-23",
+          "editionLabel": "23 July 2026",
+          "tag": "Latest verified approval",
+          "title": "Zidesamtinib After ROS1 TKI",
+          "summary": "US approval announced 22 July 2026"
+        },
+        {
+          "editionId": "2026-07-23",
+          "editionLabel": "23 July 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Gedatolisib + Fulvestrant",
+          "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
+        },
+        {
+          "editionId": "2026-07-23",
+          "editionLabel": "23 July 2026",
+          "tag": "Negative trial",
+          "title": "Galleri-NHS negative screening signal",
+          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
+        },
         {
           "editionId": "2026-07-22",
           "editionLabel": "22 July 2026",
@@ -282,27 +320,6 @@
         {
           "editionId": "2026-07-22",
           "editionLabel": "22 July 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Gedatolisib + Fulvestrant",
-          "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
-        },
-        {
-          "editionId": "2026-07-20",
-          "editionLabel": "20 July 2026",
-          "tag": "No new material update",
-          "title": "No new material verified updates",
-          "summary": "The July 20 Morning Edition retains the prior verified dashboard state after no new material change was confirmed versus the 18 July 2026 edition."
-        },
-        {
-          "editionId": "2026-07-20",
-          "editionLabel": "20 July 2026",
-          "tag": "Latest verified approval",
-          "title": "Gedatolisib + Fulvestrant",
-          "summary": "FDA approval 14 July 2026"
-        },
-        {
-          "editionId": "2026-07-20",
-          "editionLabel": "20 July 2026",
           "tag": "Highest-impact treatment pool",
           "title": "Gedatolisib + Fulvestrant",
           "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."

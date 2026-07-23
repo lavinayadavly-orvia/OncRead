@@ -8,11 +8,11 @@
   "provenance": "Derived from the current working tree with the July 2026 Tregzi addition removed to recreate the 30 June 2026 no-change review edition.",
   "metrics": {
     "insights": 4,
-    "treatments": 13,
+    "treatments": 14,
     "followupApprovals": 6,
     "indiaMarketed": 4,
     "watchlistSignals": 5,
-    "verifiedRecords": 29
+    "verifiedRecords": 30
   },
   "headlines": [
     {
@@ -36,11 +36,21 @@
       "route": {
         "view": "treatments",
         "kind": "detail",
+        "targetId": "zidesamtinib"
+      },
+      "title": "Zidesamtinib After ROS1 TKI",
+      "subtitle": "US approval announced 22 July 2026",
+      "date": 1784678400000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
         "targetId": "gedatolisib"
       },
       "title": "Gedatolisib + Fulvestrant",
-      "subtitle": "FDA approval 14 July 2026",
-      "date": 1783987200000
+      "subtitle": "Phase III · US approved; India launch unverified",
+      "date": 0
     },
     {
       "route": {
@@ -63,17 +73,17 @@
       "date": 0
     }
   ],
-  "sourceCount": 29,
+  "sourceCount": 30,
   "routeSummary": {
     "approval": {
       "route": {
         "view": "treatments",
         "kind": "detail",
-        "targetId": "gedatolisib"
+        "targetId": "zidesamtinib"
       },
-      "title": "Gedatolisib + Fulvestrant",
-      "subtitle": "FDA approval 14 July 2026",
-      "date": 1783987200000
+      "title": "Zidesamtinib After ROS1 TKI",
+      "subtitle": "US approval announced 22 July 2026",
+      "date": 1784678400000
     }
   }
 }

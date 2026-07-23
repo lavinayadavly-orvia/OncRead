@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T03:43:20.125Z",
+  "generatedAt": "2026-07-23T03:28:50.435Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -413,10 +413,118 @@
       ]
     },
     {
-      "id": "treatment:pembro-enfortumab-mibc",
+      "id": "treatment:zidesamtinib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
       "order": 5,
+      "title": "Zidesamtinib After ROS1 TKI",
+      "subtitle": "Jideytro · Lung cancer · ROS1-positive metastatic after prior ROS1 inhibitor",
+      "organization": "GSK / Nuvalent",
+      "snapshot": "Phase I/II registrational · High in resistant molecular subset",
+      "summary": "GSK announced FDA approval of zidesamtinib for previously treated ROS1-positive non-small cell lung cancer, adding a new ROS1-selective option in a niche where resistance mutations and brain progression complicate sequencing after earlier ROS1 kinase inhibitors.",
+      "headline": "ORR 44% · 12-month DoR rate 69% in ARROS-1",
+      "statusLabel": "US approved; India launch unverified",
+      "badges": [
+        "Phase I/II registrational",
+        "High in resistant molecular subset",
+        "US approved; India launch unverified"
+      ],
+      "searchText": "zidesamtinib after ros1 tki jideytro lung cancer ros1-positive metastatic after prior ros1 inhibitor gsk / nuvalent phase i/ii registrational high in resistant molecular subset orr 44% 12-month dor rate 69% in arros-1 gsk announced fda approval of zidesamtinib for previously treated ros1-positive non-small cell lung cancer, adding a new ros1-selective option in a niche where resistance mutations and brain progression complicate sequencing after earlier ros1 kinase inhibitors. the released prescribing information lists oedema, peripheral neuropathy, constipation, fatigue and dyspnoea as the most common adverse reactions. comparative tolerability versus other ros1 inhibitors remains uncertain because the registrational evidence was single-arm. jideytro",
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "id": "zidesamtinib",
+        "label": "Open treatment dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Official company release",
+          "url": "https://www.gsk.com/en-gb/media/press-releases/jideytro-zidesamtinib-approved-in-the-us-for-previously-treated-ros1-positive-non-small-cell-lung-cancer/"
+        },
+        {
+          "label": "US prescribing information",
+          "url": "https://nuvalent.com/pdfs/jideytro-full-prescribing-information.pdf"
+        },
+        {
+          "label": "ClinicalTrials.gov registry",
+          "url": "https://clinicaltrials.gov/study/NCT05118789"
+        }
+      ],
+      "sections": [
+        [
+          "Cancer and setting",
+          "Lung cancer · ROS1-positive metastatic after prior ROS1 inhibitor"
+        ],
+        [
+          "Manufacturer / organization",
+          "GSK / Nuvalent"
+        ],
+        [
+          "Event date / geography",
+          "22 July 2026 approval announcement · United States",
+          "wide"
+        ],
+        [
+          "Population / sample",
+          "117 adults with locally advanced or metastatic ROS1-positive non-small cell lung cancer previously treated with a ROS1 kinase inhibitor in the ARROS-1 registrational cohort",
+          "wide"
+        ],
+        [
+          "Comparator",
+          "Single-arm phase I/II evidence with no randomized control arm; activity was judged against response durability and unmet need after prior ROS1 TKI exposure",
+          "wide"
+        ],
+        [
+          "Primary endpoint",
+          "Confirmed objective response rate by blinded independent central review; duration of response was a key additional outcome",
+          "wide"
+        ],
+        [
+          "Effect size detail",
+          "Confirmed ORR was 44% (95% CI 34-53). Duration-of-response rates were 82% at 6 months and 69% at 12 months, with responses reported in patients with brain metastases and ROS1 resistance mutations.",
+          "wide"
+        ],
+        [
+          "Regulatory status",
+          "GSK announced FDA approval on 22 July 2026, ahead of the original 18 September 2026 target action date, and released US prescribing information. No verified EMA, CDSCO, or other national authorization for zidesamtinib was captured in this pass.",
+          "wide"
+        ],
+        [
+          "Measured effect",
+          "ORR 44%. 12-month DoR rate 69% in ARROS-1",
+          "wide"
+        ],
+        [
+          "Clinical meaning",
+          "GSK announced FDA approval of zidesamtinib for previously treated ROS1-positive non-small cell lung cancer, adding a new ROS1-selective option in a niche where resistance mutations and brain progression complicate sequencing after earlier ROS1 kinase inhibitors.",
+          "wide"
+        ],
+        [
+          "Safety and burden",
+          "The released prescribing information lists oedema, peripheral neuropathy, constipation, fatigue and dyspnoea as the most common adverse reactions. Comparative tolerability versus other ROS1 inhibitors remains uncertain because the registrational evidence was single-arm.",
+          "wide"
+        ],
+        [
+          "Cost and India access",
+          "Official launch pricing not yet verified. No official US list price, India price, or government procurement figure for Jideytro was verified in this pass. No verified CDSCO approval, India launch date, or reimbursement/procurement announcement for zidesamtinib was identified.",
+          "wide"
+        ],
+        [
+          "Launch / market status",
+          "US approval announced 22 July 2026. US approved; India launch unverified"
+        ],
+        [
+          "Current limitation",
+          "The approval was supported by a single-arm phase I/II cohort rather than a randomized comparator, and the labeled population is limited to adults previously treated with a ROS1 kinase inhibitor. The FDA oncology approvals index had not yet visibly incorporated this action in this pass, so the regulatory fact was captured from GSK's official release and the released US prescribing information.",
+          "wide"
+        ]
+      ]
+    },
+    {
+      "id": "treatment:pembro-enfortumab-mibc",
+      "lane": "treatment",
+      "laneLabel": "Treatment explorer",
+      "order": 6,
       "title": "Perioperative Pembrolizumab + Enfortumab",
       "subtitle": "Padcev + Keytruda · Bladder cancer · Muscle-invasive, cystectomy-eligible",
       "organization": "Merck + Astellas Pharma",
@@ -516,7 +624,7 @@
       "id": "treatment:isatuximab-sc",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 6,
+      "order": 7,
       "title": "Subcutaneous Isatuximab",
       "subtitle": "Sarclisa Escena · Multiple myeloma · Newly diagnosed + relapsed / refractory",
       "organization": "Sanofi",
@@ -616,7 +724,7 @@
       "id": "treatment:tregzi",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 7,
+      "order": 8,
       "title": "Tregzi Transplant Cell Therapy",
       "subtitle": "Tregzi · Hematologic malignancies · Matched-donor myeloablative HSCT",
       "organization": "Orca Bio",
@@ -720,7 +828,7 @@
       "id": "treatment:durvalumab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 8,
+      "order": 9,
       "title": "Neoadjuvant Durvalumab",
       "subtitle": "Durvalumab · Breast cancer · Early triple-negative",
       "organization": "AstraZeneca",
@@ -790,7 +898,7 @@
       "id": "treatment:intismeran",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 9,
+      "order": 10,
       "title": "Personalized mRNA Neoantigen Therapy",
       "subtitle": "Intismeran · Melanoma · Resected high-risk",
       "organization": "Moderna + Merck / MSD",
@@ -860,7 +968,7 @@
       "id": "treatment:pemigatinib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 10,
+      "order": 11,
       "title": "First-line Pemigatinib",
       "subtitle": "Pemigatinib · Cholangiocarcinoma · FGFR2-rearranged",
       "organization": "Incyte",
@@ -930,7 +1038,7 @@
       "id": "treatment:amivantamab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 11,
+      "order": 12,
       "title": "Amivantamab in Refractory CRC",
       "subtitle": "Amivantamab · Colorectal cancer · RAS/BRAF wild-type",
       "organization": "Johnson & Johnson / Janssen",
@@ -1000,7 +1108,7 @@
       "id": "treatment:sigvotatug",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 12,
+      "order": 13,
       "title": "Integrin Beta-6 ADC",
       "subtitle": "Sigvotatug · Lung cancer · Advanced NSCLC",
       "organization": "Pfizer / Seagen",
@@ -1070,7 +1178,7 @@
       "id": "treatment:sacituzumab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 13,
+      "order": 14,
       "title": "Neoadjuvant Sacituzumab Govitecan",
       "subtitle": "Sacituzumab · Bladder cancer · Cisplatin-ineligible MIBC",
       "organization": "Gilead Sciences",
@@ -1140,7 +1248,7 @@
       "id": "followup:matterhorn",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 14,
+      "order": 15,
       "title": "Durvalumab + FLOT",
       "subtitle": "MATTERHORN · Gastric / GEJ cancer",
       "organization": "AstraZeneca",
@@ -1220,7 +1328,7 @@
       "id": "followup:db09",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 15,
+      "order": 16,
       "title": "Trastuzumab deruxtecan + pertuzumab",
       "subtitle": "DESTINY-Breast09 · Breast cancer",
       "organization": "Daiichi Sankyo + AstraZeneca",
@@ -1300,7 +1408,7 @@
       "id": "followup:keynote689",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 16,
+      "order": 17,
       "title": "Perioperative pembrolizumab",
       "subtitle": "KEYNOTE-689 · Head and neck cancer",
       "organization": "Merck / MSD",
@@ -1380,7 +1488,7 @@
       "id": "followup:rusfertide",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 17,
+      "order": 18,
       "title": "Rusfertide",
       "subtitle": "VERIFY · Polycythemia vera",
       "organization": "Takeda + Protagonist Therapeutics",
@@ -1460,7 +1568,7 @@
       "id": "followup:camizestrant",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 18,
+      "order": 19,
       "title": "Camizestrant + CDK4/6 inhibitor",
       "subtitle": "SERENA-6 · Breast cancer",
       "organization": "AstraZeneca",
@@ -1544,7 +1652,7 @@
       "id": "followup:atomic",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 19,
+      "order": 20,
       "title": "Atezolizumab + mFOLFOX6",
       "subtitle": "ATOMIC · Colon cancer",
       "organization": "Genentech / Roche + NCI Alliance",
@@ -1624,7 +1732,7 @@
       "id": "followup:nivopostop",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 20,
+      "order": 21,
       "title": "Postoperative nivolumab + chemoradiotherapy",
       "subtitle": "NIVOPOSTOP · Head and neck cancer",
       "organization": "Bristol Myers Squibb + GORTEC",
@@ -1704,7 +1812,7 @@
       "id": "followup:ascent04",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 21,
+      "order": 22,
       "title": "Sacituzumab govitecan + pembrolizumab",
       "subtitle": "ASCENT-04 / KEYNOTE-D19 · Breast cancer",
       "organization": "Gilead + Merck / MSD",
@@ -1788,7 +1896,7 @@
       "id": "followup:cpost",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 22,
+      "order": 23,
       "title": "Adjuvant cemiplimab",
       "subtitle": "C-POST · Cutaneous squamous cell carcinoma",
       "organization": "Regeneron",
@@ -1868,7 +1976,7 @@
       "id": "followup:amplitude",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 23,
+      "order": 24,
       "title": "Niraparib + abiraterone + prednisone",
       "subtitle": "AMPLITUDE · Prostate cancer",
       "organization": "Johnson & Johnson / Janssen",
@@ -1948,7 +2056,7 @@
       "id": "followup:can2409",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 24,
+      "order": 25,
       "title": "CAN-2409 + valacyclovir + radiotherapy",
       "subtitle": "PrTK03 · Prostate cancer",
       "organization": "Candel Therapeutics",
@@ -2028,7 +2136,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 25,
+      "order": 26,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -2124,7 +2232,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 26,
+      "order": 27,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -2220,7 +2328,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 27,
+      "order": 28,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -2316,7 +2424,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 28,
+      "order": 29,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -2412,7 +2520,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 29,
+      "order": 30,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -2506,7 +2614,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 43,
+    "sourcesChecked": 46,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,

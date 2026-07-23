@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-07-22
+Updated: 2026-07-23
 
 ## Method
 
@@ -31,8 +31,37 @@ Updated: 2026-07-22
 - The 2026-07-18 review was another no-content-change pass. Open-ended official-source checks again did not surface a post-2026-07-16 development that was both material and verifiable enough to promote into the dashboard.
 - The 2026-07-20 review was another no-content-change pass. Open-ended official-source checks again did not surface a post-2026-07-18 development that was both material and verifiable enough to promote into the dashboard.
 - The 2026-07-22 review was another no-content-change pass. Open-ended official-source checks again did not surface a post-2026-07-20 development that was both material and verifiable enough to promote into the dashboard.
+- The 2026-07-23 review added one new lung-cancer treatment dossier after GSK announced a same-day FDA approval for zidesamtinib and released US prescribing information, even though the FDA oncology approval notifications index had not yet visibly incorporated the action in this pass.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-07-23 Verified Update
+
+- GSK approval release: Jideytro (zidesamtinib) approved in the US for previously treated ROS1-positive non-small cell lung cancer
+  https://www.gsk.com/en-gb/media/press-releases/jideytro-zidesamtinib-approved-in-the-us-for-previously-treated-ros1-positive-non-small-cell-lung-cancer/
+- Jideytro (zidesamtinib) US prescribing information
+  https://nuvalent.com/pdfs/jideytro-full-prescribing-information.pdf
+- ARROS-1 ClinicalTrials.gov record
+  https://clinicaltrials.gov/study/NCT05118789
+- FDA oncology approval notifications index
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA withdrawn cancer accelerated approvals index
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA cancer latest-updates page
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+- WHO headlines page
+  https://www.who.int/news-room/headlines
+- CDSCO SEC index
+  https://www.cdsco.gov.in/opencms/opencms//en/Committees/SEC/
+
+## 2026-07-23 Checked But Not Promoted
+
+- GSK's 22 July 2026 release and the released prescribing information supported promotion of zidesamtinib into the dashboard, but the FDA oncology approval notifications index had not yet visibly incorporated the action in this pass, so the record is explicitly labeled as company-release-backed regulatory news rather than an FDA-page-captured approval notice.
+- The FDA withdrawn accelerated approvals page still showed the 22 June 2026 Tazverik indication withdrawals as its latest oncology change and surfaced no newer withdrawn oncology accelerated approval in this pass.
+- EMA's cancer latest-updates page still pointed to the 26 June 2026 CHMP meeting-highlights cycle and continued to report a technical error in the newer-authorisations listing, so no newer directly attributable EMA oncology authorization change was verified there in this pass.
+- WHO's visible 21 July 2026 headline and other current newsroom items were unrelated to cancer, so no newer WHO-led oncology systems or public-health development stronger than the already tracked July package was promoted in this pass.
+- CDSCO's SEC index still showed the latest visible oncology posting as the 17 July 2026 release of recommendations from the 8 July 2026 oncology meeting; no specific India oncology approval, access, safety, or procurement change within the 22-23 July 2026 window was directly retrieved strongly enough for promotion in this pass.
+- Additional same-window diagnostics/screening, India-access/pricing, guideline/policy, ClinicalTrials.gov, and company or regulator signals were screened but not promoted because no other primary publication, regulator action, government procurement update, or comparably authoritative milestone was retrieved strongly enough for responsible inclusion.
 
 ## 2026-07-22 Review-Only Checks
 

@@ -86,6 +86,39 @@ const treatments = [
     sourceLabel: "FDA approval notice"
   },
   {
+    id: "zidesamtinib", short: "Jideytro", name: "Zidesamtinib After ROS1 TKI", cancer: "Lung cancer",
+    setting: "ROS1-positive metastatic after prior ROS1 inhibitor", company: "GSK / Nuvalent", phase: "Phase I/II registrational",
+    impact: "High in resistant molecular subset", impactGroup: "high", maturity: 98, impactScore: 86,
+    eventDate: "2026-07-22",
+    headline: "ORR 44%", headlineNote: "12-month DoR rate 69% in ARROS-1",
+    benefit: "GSK announced FDA approval of zidesamtinib for previously treated ROS1-positive non-small cell lung cancer, adding a new ROS1-selective option in a niche where resistance mutations and brain progression complicate sequencing after earlier ROS1 kinase inhibitors.",
+    safety: "The released prescribing information lists oedema, peripheral neuropathy, constipation, fatigue and dyspnoea as the most common adverse reactions. Comparative tolerability versus other ROS1 inhibitors remains uncertain because the registrational evidence was single-arm.",
+    cost: "Official launch pricing not yet verified", indiaPrice: "No official US list price, India price, or government procurement figure for Jideytro was verified in this pass.",
+    indiaStatus: "not-launched", indiaLabel: "US approved; India launch unverified", launch: "US approval announced 22 July 2026",
+    indiaCaveat: "No verified CDSCO approval, India launch date, or reimbursement/procurement announcement for zidesamtinib was identified.",
+    limitations: "The approval was supported by a single-arm phase I/II cohort rather than a randomized comparator, and the labeled population is limited to adults previously treated with a ROS1 kinase inhibitor. The FDA oncology approvals index had not yet visibly incorporated this action in this pass, so the regulatory fact was captured from GSK's official release and the released US prescribing information.",
+    detailSections: [
+      ["Event date / geography", "22 July 2026 approval announcement · United States", "wide"],
+      ["Population / sample", "117 adults with locally advanced or metastatic ROS1-positive non-small cell lung cancer previously treated with a ROS1 kinase inhibitor in the ARROS-1 registrational cohort", "wide"],
+      ["Comparator", "Single-arm phase I/II evidence with no randomized control arm; activity was judged against response durability and unmet need after prior ROS1 TKI exposure", "wide"],
+      ["Primary endpoint", "Confirmed objective response rate by blinded independent central review; duration of response was a key additional outcome", "wide"],
+      ["Effect size detail", "Confirmed ORR was 44% (95% CI 34-53). Duration-of-response rates were 82% at 6 months and 69% at 12 months, with responses reported in patients with brain metastases and ROS1 resistance mutations.", "wide"],
+      ["Regulatory status", "GSK announced FDA approval on 22 July 2026, ahead of the original 18 September 2026 target action date, and released US prescribing information. No verified EMA, CDSCO, or other national authorization for zidesamtinib was captured in this pass.", "wide"]
+    ],
+    source: "https://www.gsk.com/en-gb/media/press-releases/jideytro-zidesamtinib-approved-in-the-us-for-previously-treated-ros1-positive-non-small-cell-lung-cancer/",
+    sourceLabel: "Official company release",
+    supportingSources: [
+      {
+        label: "US prescribing information",
+        url: "https://nuvalent.com/pdfs/jideytro-full-prescribing-information.pdf"
+      },
+      {
+        label: "ClinicalTrials.gov registry",
+        url: "https://clinicaltrials.gov/study/NCT05118789"
+      }
+    ]
+  },
+  {
     id: "pembro-enfortumab-mibc", short: "Padcev + Keytruda", name: "Perioperative Pembrolizumab + Enfortumab", cancer: "Bladder cancer",
     setting: "Muscle-invasive, cystectomy-eligible", company: "Merck + Astellas Pharma", phase: "Phase III",
     impact: "High", impactGroup: "high", maturity: 99, impactScore: 92,
@@ -658,6 +691,7 @@ const portfolioAliasRules = [
   { match: /nivolumab/i, aliases: ["Opdivo"] },
   { match: /pembrolizumab/i, aliases: ["Keytruda"] },
   { match: /gedatolisib|revtorpyk/i, aliases: ["Revtorpyk"] },
+  { match: /zidesamtinib|jideytro/i, aliases: ["Jideytro"] },
   { match: /enfortumab vedotin|padcev/i, aliases: ["Padcev"] },
   { match: /durvalumab/i, aliases: ["Imfinzi"] },
   { match: /atezolizumab/i, aliases: ["Tecentriq"] },
