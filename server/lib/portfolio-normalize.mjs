@@ -18,7 +18,7 @@ const portfolioAliasRules = [
   { match: /abiraterone/i, aliases: ["Zytiga", "Akeega"] },
   { match: /sacituzumab govitecan|trodelvy/i, aliases: ["Trodelvy"] },
   { match: /rusfertide/i, aliases: ["PTG-300"] },
-  { match: /camizestrant/i, aliases: ["AZD9833"] },
+  { match: /camizestrant|etcamah/i, aliases: ["AZD9833", "Etcamah"] },
   { match: /can-2409/i, aliases: ["aglatimagene besadenovec"] },
   { match: /intismeran autogene cevumeran|personalized mrna neoantigen therapy/i, aliases: ["mRNA-4157", "V940"] }
 ];

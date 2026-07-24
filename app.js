@@ -329,13 +329,13 @@ const asco2025Followup = [
   },
   {
     id: "camizestrant", program: "Camizestrant + CDK4/6 inhibitor", trial: "SERENA-6", cancer: "Breast cancer",
-    company: "AstraZeneca", status: "review", statusLabel: "Regulatory divergence",
+    company: "AstraZeneca", status: "approved", statusLabel: "EU approved; US pending",
     ascoSignal: "ctDNA-guided switch at emergent ESR1 mutation improved median PFS from 9.2 to 16.0 months.",
-    currentMilestone: "EU CHMP positive · 21 May 2026; US review unresolved",
-    assessment: "Europe's CHMP recommended approval, while FDA convened ODAC over uncertainty about whether switching before radiographic progression provides clinically meaningful benefit. No final US approval was verified by 9 June 2026.",
+    currentMilestone: "EU approval · 23 Jul 2026; US review unresolved",
+    assessment: "The SERENA-6 signal has now translated into a European Commission approval for Etcamah, but the US review remains unresolved after FDA's April 2026 ODAC discussion about whether switching before radiographic progression provides clinically meaningful benefit.",
     conferenceSource: "https://ascopost.com/issues/july-25-2025/plenary-highlights-across-tumor-types-reflect-advances-in-research-improvements-in-care-and-changes-in-practice/",
-    currentSource: "https://www.ema.europa.eu/en/medicines/human/EPAR/etcamah",
-    secondarySource: "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-30-2026-meeting-oncologic-drugs-advisory-committee-meeting-announcement-04302026"
+    currentSource: "https://ebs.publicnow.com/view/994FCDEE2DA854AD78FB88E77DCF6BCCF09162FB",
+    secondarySource: "https://www.ema.europa.eu/en/medicines/human/EPAR/etcamah"
   },
   {
     id: "atomic", program: "Atezolizumab + mFOLFOX6", trial: "ATOMIC", cancer: "Colon cancer",
@@ -429,9 +429,9 @@ const followupDetails = {
   camizestrant: {
     presentation: "1 June 2025 · Plenary LBA4", design: "Global randomized double-blind phase III; ctDNA-triggered switch", population: "HR+/HER2− advanced breast cancer with emergent ESR1 mutation before radiographic progression", comparator: "Continue aromatase inhibitor + same CDK4/6 inhibitor",
     endpoint: "Progression-free survival", effect: "Median PFS 16.0 vs 9.2 months; HR 0.44. The unresolved question is whether earlier switching improves outcomes compared with switching at clinical progression.",
-    safety: "Oral SERD safety must be considered alongside long-term CDK4/6 inhibition; final label-specific safety is pending.",
-    us: "NDA under review; FDA ODAC discussed uncertainty on 30 April 2026. No final approval verified by 9 June 2026.", eu: "CHMP positive opinion on 21 May 2026; European Commission decision pending at review date.", india: "No verified approval or launch.",
-    evidenceDelta: "Strong PFS signal produced regulatory divergence rather than a uniform global conclusion.", adoption: "Requires serial ctDNA testing, validated ESR1 assay access and proof that pre-progression switching adds patient-relevant value.", nextDecision: "US FDA decision and European Commission authorization.", confidence: "High for trial and committee status; final decisions pending."
+    safety: "EMA's Etcamah page lists neutropenia, visual effects, infections, anaemia, diarrhoea, nausea, fatigue, bradycardia and leukopenia among the common adverse effects; the practical burden still includes serial ctDNA testing alongside continued CDK4/6 exposure.",
+    us: "NDA remains under review; FDA ODAC discussed uncertainty on 30 April 2026 and no final US approval was verified in this pass.", eu: "European Commission approved Etcamah on 23 July 2026 for ER-positive, HER2-negative locally advanced or metastatic breast cancer with detected ESR1 mutation and no disease progression during first-line endocrine therapy plus a CDK4/6 inhibitor.", india: "No verified approval, launch, price, or CDSCO filing was identified in this pass.",
+    evidenceDelta: "The ASCO/NEJM efficacy signal has now crossed into an EU label, while the US review remains unresolved because regulators have weighed the pre-progression switching question differently.", adoption: "Requires serial ctDNA testing, validated ESR1 assay access, coordinated switching before radiographic progression, and payer comfort with an earlier branded oral SERD step.", nextDecision: "US FDA decision, European reimbursement uptake, and any official India filing or launch announcement.", confidence: "High for the trial result and EU approval; survival maturation and global adoption remain unsettled."
   },
   atomic: {
     presentation: "1 June 2025 · Plenary LBA1", design: "Randomized phase III", population: "Stage III dMMR colon cancer", comparator: "mFOLFOX6 alone",
@@ -709,7 +709,7 @@ const portfolioAliasRules = [
   { match: /abiraterone/i, aliases: ["Zytiga", "Akeega"] },
   { match: /sacituzumab govitecan|trodelvy/i, aliases: ["Trodelvy"] },
   { match: /rusfertide/i, aliases: ["PTG-300"] },
-  { match: /camizestrant/i, aliases: ["AZD9833"] },
+  { match: /camizestrant|etcamah/i, aliases: ["AZD9833", "Etcamah"] },
   { match: /can-2409/i, aliases: ["aglatimagene besadenovec"] },
   { match: /intismeran autogene cevumeran|personalized mrna neoantigen therapy/i, aliases: ["mRNA-4157", "V940"] }
 ];
@@ -1229,7 +1229,7 @@ function renderArchive() {
     <div class="archive-metric-grid">
       ${metricLine("Verified records", selected.metrics.verifiedRecords)}
       ${metricLine("Treatment dossiers", selected.metrics.treatments)}
-      ${metricLine("FDA-approved follow-up programs", selected.metrics.followupApprovals)}
+      ${metricLine("Approved follow-up programs", selected.metrics.followupApprovals)}
       ${metricLine("Watchlist signals", selected.metrics.watchlistSignals)}
     </div>
     <div class="dashboard-grid archive-detail-grid">
@@ -1811,7 +1811,7 @@ function renderFollowupMetrics() {
     return acc;
   }, {});
   $("#followup-metrics").innerHTML = [
-    [counts.approved || 0, "Reached FDA approval", "Verified regimen-specific authorization", "", "✓", { action: "followup-filter", followupStatus: "approved", view: "followup", title: "Open the FDA-approved ASCO 2025 follow-up dossiers" }],
+    [counts.approved || 0, "Reached verified approval", "Verified regimen-specific authorization", "", "✓", { action: "followup-filter", followupStatus: "approved", view: "followup", title: "Open the approved ASCO 2025 follow-up dossiers" }],
     [counts.review || 0, "Under regulatory review", "Outcome remains jurisdiction-dependent", "blue", "R", { action: "followup-filter", followupStatus: "review", view: "followup", title: "Open the under-review ASCO 2025 follow-up dossiers" }],
     [counts.guideline || 0, "Guideline-led pathway", "Label status may differ", "gold", "G", { action: "followup-filter", followupStatus: "guideline", view: "followup", title: "Open the guideline-led ASCO 2025 follow-up dossiers" }],
     [counts.development || 0, "Still developing", "Publication or follow-up without approval", "coral", "↗", { action: "followup-filter", followupStatus: "development", view: "followup", title: "Open the developing ASCO 2025 follow-up dossiers" }]
@@ -1956,7 +1956,7 @@ function dossierField(label, value, extra = "") {
 
 function renderFollowupLessons() {
   const lessons = [
-    ["01", "Six programs reached FDA approval", "KEYNOTE-689, MATTERHORN, DESTINY-Breast09, ASCENT-04, C-POST and AMPLITUDE moved from ASCO evidence to regimen-specific US authorization."],
+    ["01", "Six programs reached FDA approval; one reached EU approval", "KEYNOTE-689, MATTERHORN, DESTINY-Breast09, ASCENT-04, C-POST and AMPLITUDE moved from ASCO evidence to regimen-specific US authorization, while camizestrant reached a verified EU label."],
     ["02", "Regulators can diverge", "Camizestrant received a positive EU committee opinion while the US review questioned the clinical meaning of switching before imaging progression."],
     ["03", "Guidelines may precede labels", "ATOMIC influenced NCCN guidance, but a guideline recommendation does not itself create an FDA-approved indication."],
     ["04", "Maturation can become approval", "ASCENT-04 advanced from conference signal to NEJM publication and then FDA approval; NIVOPOSTOP produced additional analyses without a verified new label."],

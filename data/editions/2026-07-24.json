@@ -1,34 +1,34 @@
 {
-  "id": "2026-06-25",
-  "editionLabel": "25 June 2026",
-  "preparedLabel": "June 25 Morning Edition",
-  "monthKey": "2026-06",
-  "monthLabel": "June 2026",
-  "summary": "The late-June edition captured two breast-cancer regulatory upgrades: a new palbociclib maintenance dossier and the FDA approval of ASCENT-04 / KEYNOTE-D19.",
-  "provenance": "Derived from the current working tree with the July 2026 Tregzi addition removed to recreate the 25 June 2026 dashboard state.",
+  "id": "2026-07-24",
+  "editionLabel": "24 July 2026",
+  "preparedLabel": "July 24 Morning Edition",
+  "monthKey": "2026-07",
+  "monthLabel": "July 2026",
+  "summary": "Weekly newsletter edition captured for 24 July 2026.",
+  "provenance": "Generated from the current working tree.",
   "metrics": {
     "insights": 4,
-    "treatments": 14,
+    "treatments": 15,
     "followupApprovals": 7,
     "indiaMarketed": 4,
     "watchlistSignals": 5,
-    "verifiedRecords": 30
+    "verifiedRecords": 31
   },
   "headlines": [
     {
-      "tag": "New FDA dossier",
-      "title": "Palbociclib HER2 maintenance enters the tracker",
-      "summary": "The dashboard added a dedicated PATINA-driven treatment record for the 24 June 2026 FDA maintenance approval in HR-positive, HER2-positive advanced breast cancer."
+      "tag": "Latest verified approval",
+      "title": "Zidesamtinib After ROS1 TKI",
+      "summary": "US approval announced 22 July 2026"
     },
     {
-      "tag": "Follow-up becomes approval",
-      "title": "ASCENT-04 completes the conference-to-label path",
-      "summary": "Sacituzumab govitecan plus pembrolizumab moved from ASCO evidence to FDA-approved first-line TNBC therapy."
+      "tag": "Highest-impact treatment pool",
+      "title": "Gedatolisib + Fulvestrant",
+      "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
     },
     {
-      "tag": "Search upgrade",
-      "title": "Brand-name search now resolves newer dossiers",
-      "summary": "Portfolio aliasing was expanded so users could find the new palbociclib entry through the `Ibrance` brand name."
+      "tag": "Negative trial",
+      "title": "Galleri-NHS negative screening signal",
+      "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
     }
   ],
   "spotlight": [
@@ -73,7 +73,7 @@
       "date": 0
     }
   ],
-  "sourceCount": 30,
+  "sourceCount": 31,
   "routeSummary": {
     "approval": {
       "route": {

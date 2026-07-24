@@ -1,5 +1,19 @@
 # Dashboard Changelog
 
+## 2026-07-24 - Etcamah EU Approval Reflected
+
+- Reviewed worldwide oncology developments published or visibly updated since the previous 23 July 2026 morning edition, with specific attention to the 23-24 July 2026 window and another open-ended significance scan across regulator, treatment, diagnostics/screening, India-access, pricing/procurement, systems/public-health, guideline/policy, and other nonconforming categories, again prioritizing directly verifiable official and primary-source pathways.
+- Upgraded the existing `Camizestrant + CDK4/6 inhibitor` ASCO follow-up dossier after AstraZeneca announced on 23 July 2026 that the European Commission approved Etcamah (camizestrant) in combination with a CDK4/6 inhibitor for ESR1-mutant ER-positive, HER2-negative locally advanced or metastatic breast cancer without disease progression during first-line endocrine therapy.
+- Kept this as a follow-up status upgrade rather than promoting it into a separate new treatment dossier because the dashboard already carried the SERENA-6 evidence model; the material change in this window was the regulatory milestone, not a new comparator, endpoint framework, or information-architecture need.
+- Updated the dossier text to reflect that the EU label has now arrived while the US review remains unresolved, and refreshed the safety/adoption framing to make the need for serial ctDNA testing and pre-progression switching explicit.
+- Expanded portfolio alias coverage so users can retrieve the same dossier through `Etcamah` searches in addition to `camizestrant` and `AZD9833`.
+- Rechecked the FDA oncology approval notifications page and found that it still visibly topped out at the 14 July 2026 gedatolisib and selpercatinib actions in this pass, so no same-window FDA-posted oncology approval was added.
+- Rechecked the FDA withdrawn cancer accelerated approvals page and confirmed it still showed the 22 June 2026 Tazverik indication withdrawals as its latest oncology change, with no newer withdrawn oncology accelerated approval posted in this pass.
+- Rechecked WHO's current headlines as part of the systems/public-health sweep; the visible 23 July 2026 item and other current entries were unrelated to cancer, so no newer WHO-led oncology systems or public-health development was added in this pass.
+- Checked CDSCO's SEC page as part of the India-access scan and confirmed that the latest visible oncology posting remained the 2 July 2026 release of 24 June 2026 oncology meeting recommendations; no specific India oncology approval, access, safety, or procurement change within the 23-24 July 2026 window was directly retrieved strongly enough for promotion in this pass.
+- Updated `dashboard/SOURCES.md` with the Etcamah approval source set and rebuilt the dated morning edition/archive so the visible current briefing advances to `July 24 Morning Edition`.
+- Omissions considered: Johnson & Johnson's MonumenTAL-6 multiple-myeloma topline release, Genmab/AbbVie's EPCORE DLBCL-1 clarification, and additional same-window diagnostics/screening, India-access/pricing, guideline/policy, ClinicalTrials.gov, and company or regulator signals. None were added because no other primary publication, regulator action, government procurement update, or comparably authoritative milestone was retrieved strongly enough for responsible promotion in this run.
+
 ## 2026-07-23 - Zidesamtinib Approval Added
 
 - Reviewed worldwide oncology developments published or visibly updated since the previous 22 July 2026 morning edition, with specific attention to the 22-23 July 2026 window and another open-ended significance scan across regulator, treatment, diagnostics/screening, India-access, pricing/procurement, systems/public-health, guideline/policy, and other nonconforming categories, again prioritizing directly verifiable official and primary-source pathways.

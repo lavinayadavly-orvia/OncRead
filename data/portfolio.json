@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T03:28:50.435Z",
+  "generatedAt": "2026-07-24T03:19:43.518Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -1572,15 +1572,15 @@
       "title": "Camizestrant + CDK4/6 inhibitor",
       "subtitle": "SERENA-6 · Breast cancer",
       "organization": "AstraZeneca",
-      "snapshot": "EU CHMP positive · 21 May 2026; US review unresolved",
-      "summary": "Europe's CHMP recommended approval, while FDA convened ODAC over uncertainty about whether switching before radiographic progression provides clinically meaningful benefit. No final US approval was verified by 9 June 2026.",
+      "snapshot": "EU approval · 23 Jul 2026; US review unresolved",
+      "summary": "The SERENA-6 signal has now translated into a European Commission approval for Etcamah, but the US review remains unresolved after FDA's April 2026 ODAC discussion about whether switching before radiographic progression provides clinically meaningful benefit.",
       "headline": "Median PFS 16.0 vs 9.2 months; HR 0.44. The unresolved question is whether earlier switching improves outcomes compared with switching at clinical progression.",
-      "statusLabel": "Regulatory divergence",
+      "statusLabel": "EU approved; US pending",
       "badges": [
-        "Regulatory divergence",
+        "EU approved; US pending",
         "Breast cancer"
       ],
-      "searchText": "camizestrant + cdk4/6 inhibitor serena-6 breast cancer astrazeneca regulatory divergence ctdna-guided switch at emergent esr1 mutation improved median pfs from 9.2 to 16.0 months. eu chmp positive · 21 may 2026; us review unresolved median pfs 16.0 vs 9.2 months; hr 0.44. the unresolved question is whether earlier switching improves outcomes compared with switching at clinical progression. europe's chmp recommended approval, while fda convened odac over uncertainty about whether switching before radiographic progression provides clinically meaningful benefit. no final us approval was verified by 9 june 2026. oral serd safety must be considered alongside long-term cdk4/6 inhibition; final label-specific safety is pending. azd9833",
+      "searchText": "camizestrant + cdk4/6 inhibitor serena-6 breast cancer astrazeneca eu approved; us pending ctdna-guided switch at emergent esr1 mutation improved median pfs from 9.2 to 16.0 months. eu approval · 23 jul 2026; us review unresolved median pfs 16.0 vs 9.2 months; hr 0.44. the unresolved question is whether earlier switching improves outcomes compared with switching at clinical progression. the serena-6 signal has now translated into a european commission approval for etcamah, but the us review remains unresolved after fda's april 2026 odac discussion about whether switching before radiographic progression provides clinically meaningful benefit. ema's etcamah page lists neutropenia, visual effects, infections, anaemia, diarrhoea, nausea, fatigue, bradycardia and leukopenia among the common adverse effects; the practical burden still includes serial ctdna testing alongside continued cdk4/6 exposure. azd9833 etcamah",
       "route": {
         "view": "followup",
         "kind": "followup",
@@ -1594,11 +1594,11 @@
         },
         {
           "label": "Current-status source",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/etcamah"
+          "url": "https://ebs.publicnow.com/view/994FCDEE2DA854AD78FB88E77DCF6BCCF09162FB"
         },
         {
           "label": "Additional verification",
-          "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-30-2026-meeting-oncologic-drugs-advisory-committee-meeting-announcement-04302026"
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/etcamah"
         }
       ],
       "sections": [
@@ -1621,30 +1621,30 @@
         ],
         [
           "Current milestone",
-          "EU CHMP positive · 21 May 2026; US review unresolved"
+          "EU approval · 23 Jul 2026; US review unresolved"
         ],
         [
           "What changed after ASCO",
-          "Strong PFS signal produced regulatory divergence rather than a uniform global conclusion.",
+          "The ASCO/NEJM efficacy signal has now crossed into an EU label, while the US review remains unresolved because regulators have weighed the pre-progression switching question differently.",
           "wide"
         ],
         [
           "Regional status",
-          "US: NDA under review; FDA ODAC discussed uncertainty on 30 April 2026. No final approval verified by 9 June 2026. Europe: CHMP positive opinion on 21 May 2026; European Commission decision pending at review date. India: No verified approval or launch.",
+          "US: NDA remains under review; FDA ODAC discussed uncertainty on 30 April 2026 and no final US approval was verified in this pass. Europe: European Commission approved Etcamah on 23 July 2026 for ER-positive, HER2-negative locally advanced or metastatic breast cancer with detected ESR1 mutation and no disease progression during first-line endocrine therapy plus a CDK4/6 inhibitor. India: No verified approval, launch, price, or CDSCO filing was identified in this pass.",
           "full"
         ],
         [
           "Safety and burden",
-          "Oral SERD safety must be considered alongside long-term CDK4/6 inhibition; final label-specific safety is pending.",
+          "EMA's Etcamah page lists neutropenia, visual effects, infections, anaemia, diarrhoea, nausea, fatigue, bradycardia and leukopenia among the common adverse effects; the practical burden still includes serial ctDNA testing alongside continued CDK4/6 exposure.",
           "wide"
         ],
         [
           "Next verifiable decision point",
-          "US FDA decision and European Commission authorization."
+          "US FDA decision, European reimbursement uptake, and any official India filing or launch announcement."
         ],
         [
           "Evidence confidence",
-          "High for trial and committee status; final decisions pending."
+          "High for the trial result and EU approval; survival maturation and global adoption remain unsettled."
         ]
       ]
     },
