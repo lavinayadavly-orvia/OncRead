@@ -1694,7 +1694,11 @@ function renderSignalTable() {
   $("#signal-table").innerHTML = `<table>
     <thead><tr><th>Advance</th><th>Evidence</th><th>Measured value</th><th>Cost</th><th>Impact</th></tr></thead>
     <tbody>${treatments.map(t => `<tr>
-      <td class="therapy-cell"><strong>${t.short}</strong><span>${t.company}</span></td>
+      <td class="therapy-cell">
+        <button class="therapy-link" type="button" data-detail="${t.id}" aria-label="Open detailed read for ${t.name}">
+          <strong>${t.short}</strong><span>${t.company}</span>
+        </button>
+      </td>
       <td>${t.phase}</td><td><strong>${t.headline}</strong><br><span class="price-note">${t.headlineNote}</span></td>
       <td>${t.cost}</td><td><span class="pill ${formatImpactClass(t.impactGroup)}">${t.impact}</span></td>
     </tr>`).join("")}</tbody>
@@ -1756,7 +1760,11 @@ function renderIndiaTable() {
   $("#india-table").innerHTML = `<table>
     <thead><tr><th>Advance & company</th><th>India status</th><th>India price reference</th><th>Anticipated launch</th><th>Qualification</th></tr></thead>
     <tbody>${treatments.map(t => `<tr>
-      <td class="therapy-cell"><strong>${t.short}</strong><span>${t.company}</span></td>
+      <td class="therapy-cell">
+        <button class="therapy-link" type="button" data-detail="${t.id}" aria-label="Open detailed read for ${t.name}">
+          <strong>${t.short}</strong><span>${t.company}</span>
+        </button>
+      </td>
       <td><span class="pill ${t.indiaStatus}">${t.indiaLabel}</span></td>
       <td><span class="price-main">${t.indiaPrice}</span></td>
       <td>${t.launch}</td><td class="launch-note">${t.indiaCaveat}</td>
