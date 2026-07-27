@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-07-24
+Updated: 2026-07-27
 
 ## Method
 
@@ -33,8 +33,37 @@ Updated: 2026-07-24
 - The 2026-07-22 review was another no-content-change pass. Open-ended official-source checks again did not surface a post-2026-07-20 development that was both material and verifiable enough to promote into the dashboard.
 - The 2026-07-23 review added one new lung-cancer treatment dossier after GSK announced a same-day FDA approval for zidesamtinib and released US prescribing information, even though the FDA oncology approval notifications index had not yet visibly incorporated the action in this pass.
 - The 2026-07-24 review upgraded one existing ASCO follow-up dossier after AstraZeneca announced a 23 July 2026 European Commission approval for Etcamah (camizestrant), while keeping the US review unresolved and explicitly documenting that the EMA status page had not yet visibly rolled forward to the Commission decision in this pass.
+- The 2026-07-27 review was another no-content-change pass. Open-ended official-source checks did not surface a new 26-27 July 2026 development that was both materially decision-relevant and verifiable enough for responsible promotion into the dashboard.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-07-27 Review-Only Checks
+
+- FDA oncology approval notifications index
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA withdrawn cancer accelerated approvals index
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA cancer latest-updates page
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+- EMA CHMP meeting highlights for 20-23 July 2026
+  https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-20-23-july-2026
+- EMA Qezzaqar refusal page
+  https://www.ema.europa.eu/en/medicines/human/EPAR/qezzaqar
+- WHO headlines page
+  https://www.who.int/news-room/headlines
+- WHO newsroom page
+  https://www.who.int/news-room
+- CDSCO SEC index
+  https://www.cdsco.gov.in/opencms/opencms//en/Committees/SEC/
+
+## 2026-07-27 Checked But Not Promoted
+
+- As of 27 July 2026, the FDA oncology approval notifications page visibly listed the 22 July 2026 zidesamtinib approval as its newest oncology posting; no newer 26-27 July 2026 oncology approval, withdrawal, or comparably material official oncology posting was visible there in this pass.
+- The FDA withdrawn accelerated approvals page still showed the 22 June 2026 Tazverik indication withdrawals as its latest oncology change and surfaced no newer withdrawn oncology accelerated approval in this pass.
+- EMA's cancer latest-updates page still did not expose a newer directly attributable cancer authorization feed beyond the CHMP-news pathway, and the 24 July 2026 CHMP meeting-highlights posting plus the linked Qezzaqar page surfaced no new 26-27 July 2026 European oncology authorization, refusal, or withdrawal milestone strong enough for same-day promotion in this pass.
+- WHO's visible 23 July 2026 headline, 24 July 2026 commentary entry, and other current newsroom items were unrelated to cancer, so no newer WHO-led oncology systems or public-health development stronger than the already tracked July package was promoted in this pass.
+- CDSCO's SEC index still showed the latest visible oncology and hematology postings as the 20 July 2026 and 17 July 2026 recommendation releases; no specific India oncology approval, access, safety, or procurement change within the 26-27 July 2026 window was directly retrieved strongly enough for promotion in this pass.
+- EMA's 24 July 2026 Qezzaqar refusal, additional regulator or sponsor communications, and other screened diagnostics/screening, India-access/pricing, guideline/policy, and ClinicalTrials.gov signals were not added in this Monday pass because they either fell outside the 26-27 July 2026 review window or did not provide a stronger primary-source care-changing milestone than the records already represented in the dashboard.
 
 ## 2026-07-24 Verified Update
 
