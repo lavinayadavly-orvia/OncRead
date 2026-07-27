@@ -959,21 +959,10 @@ function renderPortfolio() {
     [entries.length, "Verified records", "Searchable across the existing dashboard evidence base", "", "PT", { action: "portfolio-filter", lane: "all", title: "Open all verified portfolio records" }],
     [counts.treatment || 0, "Treatment dossiers", "Direct therapeutic evidence cards", "blue", "TX", { action: "portfolio-filter", lane: "treatment", title: "Open the treatment portfolio records" }],
     [counts.followup || 0, "Follow-up programs", "Conference-to-regulatory tracking", "gold", "FU", { action: "portfolio-filter", lane: "followup", title: "Open the follow-up portfolio records" }],
-    [sourceCount, sourceCardLabel, sourceCardNote, "coral", sourceCardIcon, { action: state.backendStatus === "ready" || state.backendStatus === "snapshot" ? "view-anchor" : "portfolio-filter", view: "overview", lane: "watchlist", scroll: state.backendStatus === "ready" || state.backendStatus === "snapshot" ? "#portfolio-backend-state" : "#portfolio-results", title: "Open the source-coverage context for the portfolio" }]
+    [sourceCount, sourceCardLabel, sourceCardNote, "coral", sourceCardIcon, { action: state.backendStatus === "ready" || state.backendStatus === "snapshot" ? "view-anchor" : "portfolio-filter", view: "overview", lane: "watchlist", scroll: "#portfolio-results", title: "Open the source-coverage records for the portfolio" }]
   ].map(([value, label, note, tone, icon, options]) => metricCard(value, label, note, tone, icon, options)).join("");
   $("#portfolio-count").textContent = entries.length;
   $("#portfolio-result-count").textContent = data.length;
-  const backendState = $("#portfolio-backend-state");
-  if (backendState) {
-    backendState.textContent = state.backendStatus === "ready"
-      ? `Verified source coverage · ${state.backendSourceSummary?.sourcesChecked || 0} sources checked`
-      : state.backendStatus === "snapshot"
-        ? `Verified source record set · ${state.backendSourceSummary?.sourcesChecked || 0} source records attached`
-      : state.backendStatus === "error"
-        ? "Verified source feed unavailable · using local records"
-        : "Refreshing verified source coverage";
-  }
-
   if (!data.length) {
     state.portfolioActiveId = "";
     $("#portfolio-results").innerHTML = `<div class="empty-state"><strong>No portfolio records match that search.</strong><br>Try a company, molecule, cancer type, or reset the lane filter.</div>`;
@@ -1416,9 +1405,6 @@ function renderInsights() {
   const regulatoryLead = asco2025Followup.find(item => item.id === "camizestrant");
   const cautionLead = watchlistSignals.find(item => item.id === "galleri");
   const systemsLead = watchlistSignals.find(item => item.id === "workforce");
-  const featuredDecision = featuredTreatment.id === "tregzi"
-    ? "Whether transplant programs should treat this GVHD-reducing graft platform as a real referral, procurement, and center-readiness decision in matched-donor myeloablative HSCT."
-    : "Whether the newest verified change is strong enough to alter treatment planning rather than remain a tracked signal.";
   const featuredConstraint = featuredTreatment.indiaCaveat || featuredTreatment.limitations;
 
   const cards = [
@@ -1429,7 +1415,6 @@ function renderInsights() {
       summary: featuredHeadline?.summary || featuredTreatment.benefit,
       signal: `${featuredTreatment.headline} · ${featuredTreatment.headlineNote}`,
       why: featuredTreatment.benefit,
-      decision: featuredDecision,
       constraint: featuredConstraint,
       confidence: featuredTreatment.impact,
       route: "Open dossier",
@@ -1444,7 +1429,6 @@ function renderInsights() {
       summary: "One of the most decision-sensitive items is not benefit magnitude alone, but whether regulators agree on when the treatment switch matters.",
       signal: regulatoryLead.currentMilestone,
       why: regulatoryLead.assessment,
-      decision: regulatoryLead.nextDecision,
       constraint: regulatoryLead.adoption,
       confidence: regulatoryLead.confidence,
       route: "ASCO 2025 follow-up",
@@ -1459,7 +1443,6 @@ function renderInsights() {
       summary: "Genomics-led first-line precision advances can be clinically relevant yet commercially unreachable without domestic launch and testing capacity.",
       signal: accessLead.indiaPrice,
       why: accessLead.benefit,
-      decision: "Whether the signal is actionable locally or remains an access-constrained imported precision option.",
       constraint: accessLead.indiaCaveat,
       confidence: accessLead.indiaLabel,
       route: "India access & cost",
@@ -1474,7 +1457,6 @@ function renderInsights() {
       summary: "Negative or mixed screening evidence matters because non-adoption is also a global oncology decision.",
       signal: cautionLead.effect,
       why: cautionLead.whyMatters,
-      decision: cautionLead.decisionImpact,
       constraint: cautionLead.limitations,
       confidence: cautionLead.statusLabel,
       route: "Watchlist & systems",
@@ -1626,10 +1608,6 @@ function renderInsights() {
           <strong>${featuredTreatment.benefit}</strong>
         </div>
         <div>
-          <span>Decision it can change</span>
-          <strong>${featuredDecision}</strong>
-        </div>
-        <div>
           <span>What still blocks confidence</span>
           <strong>${featuredConstraint}</strong>
         </div>
@@ -1666,10 +1644,6 @@ function renderInsights() {
         <div class="insight-field">
           <span>Why it matters</span>
           <p>${card.why}</p>
-        </div>
-        <div class="insight-field">
-          <span>Decision this could change</span>
-          <p>${card.decision}</p>
         </div>
         <div class="insight-field">
           <span>Constraint</span>

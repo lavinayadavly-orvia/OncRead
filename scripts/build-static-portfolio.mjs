@@ -25,7 +25,7 @@ const payload = {
     healthySources: null,
     failedSources: null,
     checkedAt: null,
-    note: "Static hosted snapshot: source links are attached, but live source-health checks require the local backend."
+    note: "Static hosted snapshot with attached source links."
   }
 };
 

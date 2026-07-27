@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T03:14:41.595Z",
+  "generatedAt": "2026-07-27T09:41:47.446Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -2618,6 +2618,6 @@
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,
-    "note": "Static hosted snapshot: source links are attached, but live source-health checks require the local backend."
+    "note": "Static hosted snapshot with attached source links."
   }
 }
