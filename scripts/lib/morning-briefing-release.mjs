@@ -1,4 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { execFileSync } from "node:child_process";
 import path from "node:path";
 
 export const MONTH_NAMES = [
@@ -50,7 +51,16 @@ export function preparedLabelForEdition(editionId) {
   return morningEditionLabelForEdition(editionId);
 }
 
-function assetVersionForEdition(editionId) {
+function assetVersionForEdition(rootDir, editionId) {
+  try {
+    const commit = execFileSync("git", ["rev-parse", "--short", "HEAD"], {
+      cwd: rootDir,
+      encoding: "utf8"
+    }).trim();
+    if (commit) return `${editionId.replace(/-/g, "")}-${commit}`;
+  } catch {
+    // Fall back to the dated edition key when git metadata is unavailable.
+  }
   return `${editionId.replace(/-/g, "")}-morning-edition`;
 }
 
@@ -103,7 +113,7 @@ export async function syncPreparedDateLabels(rootDir, editionId) {
   const indexPath = path.join(rootDir, "index.html");
   const source = await readFile(indexPath, "utf8");
   const preparedLabel = preparedLabelForEdition(editionId);
-  const assetVersion = assetVersionForEdition(editionId);
+  const assetVersion = assetVersionForEdition(rootDir, editionId);
   const next = source
     .replace(
       /(Prepared\s+\d{1,2}\s+[A-Za-z]+\s+\d{4}|[A-Za-z]+\s+\d{1,2}\s+Morning Edition)/g,
