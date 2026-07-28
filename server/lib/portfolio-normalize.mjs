@@ -6,6 +6,7 @@ const portfolioAliasRules = [
   { match: /durvalumab/i, aliases: ["Imfinzi"] },
   { match: /atezolizumab/i, aliases: ["Tecentriq"] },
   { match: /cemiplimab/i, aliases: ["Libtayo"] },
+  { match: /cretostimogene|cg0070/i, aliases: ["CG0070"] },
   { match: /tregzi|orca-t/i, aliases: ["Tregzi", "Orca-T"] },
   { match: /selpercatinib|retevmo|retsevmo/i, aliases: ["Retevmo", "Retsevmo"] },
   { match: /palbociclib/i, aliases: ["Ibrance"] },

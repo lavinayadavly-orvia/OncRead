@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-07-27
+Updated: 2026-07-28
 
 ## Method
 
@@ -34,8 +34,44 @@ Updated: 2026-07-27
 - The 2026-07-23 review added one new lung-cancer treatment dossier after GSK announced a same-day FDA approval for zidesamtinib and released US prescribing information, even though the FDA oncology approval notifications index had not yet visibly incorporated the action in this pass.
 - The 2026-07-24 review upgraded one existing ASCO follow-up dossier after AstraZeneca announced a 23 July 2026 European Commission approval for Etcamah (camizestrant), while keeping the US review unresolved and explicitly documenting that the EMA status page had not yet visibly rolled forward to the Commission decision in this pass.
 - The 2026-07-27 review was another no-content-change pass. Open-ended official-source checks did not surface a new 26-27 July 2026 development that was both materially decision-relevant and verifiable enough for responsible promotion into the dashboard.
+- The 2026-07-28 review added one new bladder-cancer treatment dossier after CG Oncology announced same-day peer-reviewed Lancet Oncology publication of the phase III BOND-003 Cohort C results in BCG-unresponsive high-risk NMIBC.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-07-28 Verified Update
+
+- CG Oncology release: Lancet Oncology publication of phase III BOND-003 Cohort C results for cretostimogene in high-risk BCG-unresponsive NMIBC
+  https://ir.cgoncology.com/news-releases/news-release-details/cg-oncology-announces-publication-pivotal-phase-3-bond-003
+- Lancet Oncology abstract: Intravesical cretostimogene grenadenorepvec oncolytic immunotherapy in high-risk, BCG-unresponsive, non-muscle invasive bladder cancer with carcinoma in situ (BOND-003 Cohort C): a single-arm, phase 3 trial
+  https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(26)00194-4/abstract
+- ClinicalTrials.gov: BOND-003 / NCT04452591
+  https://clinicaltrials.gov/study/NCT04452591
+- Earlier JCO abstract with matching BOND-003 Cohort C efficacy figures used as a cross-check
+  https://ascopubs.org/doi/10.1200/JCO.2026.44.7_suppl.741
+- FDA oncology approval notifications index
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA withdrawn cancer accelerated approvals index
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA CHMP meeting highlights for 20-23 July 2026
+  https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-20-23-july-2026
+- EMA Qezzaqar refusal page
+  https://www.ema.europa.eu/en/medicines/human/EPAR/qezzaqar
+- WHO headlines page
+  https://www.who.int/news-room/headlines
+- WHO newsroom page
+  https://www.who.int/news-room
+- CDSCO SEC index
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+
+## 2026-07-28 Checked But Not Promoted
+
+- The CG Oncology release announced same-day peer-reviewed Lancet Oncology publication of BOND-003 Cohort C, and the reported efficacy figures matched an earlier JCO abstract plus the active ClinicalTrials.gov registry. That combination cleared the bar for adding a new investigational bladder-cancer dossier rather than leaving the signal in an unstructured watchlist state.
+- As of 28 July 2026, the FDA oncology approval notifications page visibly listed the 22 July 2026 zidesamtinib approval as its newest oncology posting; no newer 27-28 July 2026 oncology approval, withdrawal, or comparably material official oncology posting was visible there in this pass.
+- The FDA withdrawn accelerated approvals page still showed the 22 June 2026 Tazverik indication withdrawals as its latest oncology change and surfaced no newer withdrawn oncology accelerated approval in this pass.
+- EMA's 24 July 2026 CHMP and Qezzaqar pages remained the latest clearly attributable current cancer authorization/refusal surfaces retrieved in this pass, with no newer 27-28 July 2026 European oncology authorization, refusal, or withdrawal milestone strong enough for promotion.
+- WHO's visible 27 July 2026 headline and current newsroom items were unrelated to cancer, so no newer WHO-led oncology systems or public-health development stronger than the already tracked 8 July 2026 package was promoted in this pass.
+- CDSCO's SEC index still showed the latest visible oncology and hematology postings as the 20 July 2026 and 17 July 2026 recommendation releases; no specific India oncology approval, access, safety, or procurement change within the 27-28 July 2026 window was directly retrieved strongly enough for promotion in this pass.
+- Additional same-window diagnostics/screening, surgery/radiotherapy, India-access/pricing, guideline/policy, and other company or regulator signals were screened but not promoted because no other primary publication, regulator action, government procurement update, or comparably authoritative milestone was retrieved strongly enough for responsible inclusion.
 
 ## 2026-07-27 Review-Only Checks
 

@@ -8,11 +8,11 @@
   "provenance": "Derived from the current working tree with the July 2026 Tregzi addition removed to recreate the 25 June 2026 dashboard state.",
   "metrics": {
     "insights": 4,
-    "treatments": 14,
+    "treatments": 15,
     "followupApprovals": 7,
     "indiaMarketed": 4,
     "watchlistSignals": 5,
-    "verifiedRecords": 30
+    "verifiedRecords": 31
   },
   "headlines": [
     {
@@ -36,11 +36,11 @@
       "route": {
         "view": "treatments",
         "kind": "detail",
-        "targetId": "zidesamtinib"
+        "targetId": "cretostimogene"
       },
-      "title": "Zidesamtinib After ROS1 TKI",
-      "subtitle": "US approval announced 22 July 2026",
-      "date": 1784678400000
+      "title": "Cretostimogene in BCG-Unresponsive NMIBC",
+      "subtitle": "Peer-reviewed publication 27 July 2026",
+      "date": 1785110400000
     },
     {
       "route": {
@@ -73,17 +73,17 @@
       "date": 0
     }
   ],
-  "sourceCount": 30,
+  "sourceCount": 31,
   "routeSummary": {
     "approval": {
       "route": {
         "view": "treatments",
         "kind": "detail",
-        "targetId": "zidesamtinib"
+        "targetId": "cretostimogene"
       },
-      "title": "Zidesamtinib After ROS1 TKI",
-      "subtitle": "US approval announced 22 July 2026",
-      "date": 1784678400000
+      "title": "Cretostimogene in BCG-Unresponsive NMIBC",
+      "subtitle": "Peer-reviewed publication 27 July 2026",
+      "date": 1785110400000
     }
   }
 }

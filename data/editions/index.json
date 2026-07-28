@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-07-27T09:47:17.154Z",
-  "currentEditionId": "2026-07-27",
-  "currentEditionLabel": "27 July 2026",
+  "generatedAt": "2026-07-28T03:31:49.818Z",
+  "currentEditionId": "2026-07-28",
+  "currentEditionLabel": "28 July 2026",
   "editions": [
+    {
+      "id": "2026-07-28",
+      "editionLabel": "28 July 2026",
+      "preparedLabel": "July 28 Morning Edition",
+      "monthKey": "2026-07",
+      "monthLabel": "July 2026",
+      "summary": "Weekly newsletter edition captured for 28 July 2026.",
+      "file": "/data/editions/2026-07-28.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 16,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 5,
+        "verifiedRecords": 32
+      }
+    },
     {
       "id": "2026-07-27",
       "editionLabel": "27 July 2026",
@@ -200,11 +217,11 @@
       "file": "/data/editions/2026-06-30.json",
       "metrics": {
         "insights": 4,
-        "treatments": 14,
+        "treatments": 15,
         "followupApprovals": 7,
         "indiaMarketed": 4,
         "watchlistSignals": 5,
-        "verifiedRecords": 30
+        "verifiedRecords": 31
       }
     },
     {
@@ -268,11 +285,11 @@
       "file": "/data/editions/2026-06-25.json",
       "metrics": {
         "insights": 4,
-        "treatments": 14,
+        "treatments": 15,
         "followupApprovals": 7,
         "indiaMarketed": 4,
         "watchlistSignals": 5,
-        "verifiedRecords": 30
+        "verifiedRecords": 31
       }
     },
     {
@@ -314,8 +331,29 @@
     {
       "monthKey": "2026-07",
       "monthLabel": "July 2026",
-      "leadEditionId": "2026-07-27",
+      "leadEditionId": "2026-07-28",
       "highlights": [
+        {
+          "editionId": "2026-07-28",
+          "editionLabel": "28 July 2026",
+          "tag": "Latest verified approval",
+          "title": "Cretostimogene in BCG-Unresponsive NMIBC",
+          "summary": "Peer-reviewed publication 27 July 2026"
+        },
+        {
+          "editionId": "2026-07-28",
+          "editionLabel": "28 July 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Gedatolisib + Fulvestrant",
+          "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
+        },
+        {
+          "editionId": "2026-07-28",
+          "editionLabel": "28 July 2026",
+          "tag": "Negative trial",
+          "title": "Galleri-NHS negative screening signal",
+          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
+        },
         {
           "editionId": "2026-07-27",
           "editionLabel": "27 July 2026",
@@ -336,27 +374,6 @@
           "tag": "Highest-impact treatment pool",
           "title": "Gedatolisib + Fulvestrant",
           "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
-        },
-        {
-          "editionId": "2026-07-24",
-          "editionLabel": "24 July 2026",
-          "tag": "Latest verified approval",
-          "title": "Zidesamtinib After ROS1 TKI",
-          "summary": "US approval announced 22 July 2026"
-        },
-        {
-          "editionId": "2026-07-24",
-          "editionLabel": "24 July 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Gedatolisib + Fulvestrant",
-          "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
-        },
-        {
-          "editionId": "2026-07-24",
-          "editionLabel": "24 July 2026",
-          "tag": "Negative trial",
-          "title": "Galleri-NHS negative screening signal",
-          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
         }
       ]
     },

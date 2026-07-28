@@ -1,34 +1,34 @@
 {
-  "id": "2026-06-30",
-  "editionLabel": "30 June 2026",
-  "preparedLabel": "June 30 Morning Edition",
-  "monthKey": "2026-06",
-  "monthLabel": "June 2026",
-  "summary": "The 30 June 2026 review published as a no-material-change edition: the dashboard held its late-June breast-cancer approvals while official-source checks did not justify a new promotion.",
-  "provenance": "Derived from the current working tree with the July 2026 Tregzi addition removed to recreate the 30 June 2026 no-change review edition.",
+  "id": "2026-07-28",
+  "editionLabel": "28 July 2026",
+  "preparedLabel": "July 28 Morning Edition",
+  "monthKey": "2026-07",
+  "monthLabel": "July 2026",
+  "summary": "Weekly newsletter edition captured for 28 July 2026.",
+  "provenance": "Generated from the current working tree.",
   "metrics": {
     "insights": 4,
-    "treatments": 15,
+    "treatments": 16,
     "followupApprovals": 7,
     "indiaMarketed": 4,
     "watchlistSignals": 5,
-    "verifiedRecords": 31
+    "verifiedRecords": 32
   },
   "headlines": [
     {
-      "tag": "Verified hold",
-      "title": "No new material dashboard item cleared the bar",
-      "summary": "Official-source checks did not surface a post-28 June development strong enough for responsible inclusion."
+      "tag": "Latest verified approval",
+      "title": "Cretostimogene in BCG-Unresponsive NMIBC",
+      "summary": "Peer-reviewed publication 27 July 2026"
     },
     {
-      "tag": "Newest approval then",
-      "title": "ASCENT-04 remained the most recent verified approval",
-      "summary": "The shortcut rail still pointed to the 24 June 2026 TNBC approval as the latest regulator-confirmed milestone in the dashboard."
+      "tag": "Highest-impact treatment pool",
+      "title": "Gedatolisib + Fulvestrant",
+      "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
     },
     {
-      "tag": "What stayed important",
-      "title": "Workforce and screening caution signals remained active",
-      "summary": "The dashboard preserved system-level warnings and negative screening evidence rather than dropping them on quiet regulatory days."
+      "tag": "Negative trial",
+      "title": "Galleri-NHS negative screening signal",
+      "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
     }
   ],
   "spotlight": [
@@ -73,7 +73,7 @@
       "date": 0
     }
   ],
-  "sourceCount": 31,
+  "sourceCount": 32,
   "routeSummary": {
     "approval": {
       "route": {

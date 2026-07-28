@@ -119,6 +119,43 @@ const treatments = [
     ]
   },
   {
+    id: "cretostimogene", short: "Cretostimogene", name: "Cretostimogene in BCG-Unresponsive NMIBC", cancer: "Bladder cancer",
+    setting: "High-risk non-muscle invasive with CIS, with or without Ta/T1", company: "CG Oncology", phase: "Phase III",
+    impact: "High in bladder-sparing gap", impactGroup: "high", maturity: 88, impactScore: 82,
+    eventDate: "2026-07-27",
+    headline: "CR 75.5%", headlineNote: "Median DoR 27.9 months in BOND-003 Cohort C",
+    benefit: "Peer-reviewed phase III evidence suggests a durable bladder-sparing option for high-risk BCG-unresponsive NMIBC with carcinoma in situ, a setting where radical cystectomy is often the default next step after failed intravesical therapy.",
+    safety: "CG Oncology reported no grade 3 or higher treatment-related adverse events, no treatment-related discontinuations or deaths, and mainly short-lived lower-urinary-tract symptoms such as bladder spasm, urgency, dysuria and hematuria.",
+    cost: "Investigational bladder-sparing therapy; no official commercial pricing", indiaPrice: "No official India price, procurement figure, or named-patient commercial access pathway was verified in this pass.",
+    indiaStatus: "not-launched", indiaLabel: "Investigational; India launch unverified", launch: "Peer-reviewed publication 27 July 2026",
+    indiaCaveat: "No verified CDSCO approval, India launch date, or public reimbursement/procurement announcement for cretostimogene was identified.",
+    limitations: "The evidence remains single-arm rather than randomized, the pivotal cohort was relatively small, and the product is still investigational. The care-changing signal is stronger after peer-reviewed publication, but cross-trial comparisons against existing BCG-unresponsive options remain inappropriate.",
+    detailSections: [
+      ["Event date / geography", "27 July 2026 Lancet Oncology publication of the global BOND-003 Cohort C phase III trial; no FDA approval or CDSCO authorization was verified in this pass.", "wide"],
+      ["Population / sample", "112 enrolled patients with high-risk BCG-unresponsive NMIBC with CIS with or without concomitant high-grade Ta/T1 disease; 110 were efficacy-evaluable in the published dataset.", "wide"],
+      ["Comparator", "Single-arm phase III study benchmarked against historical and contemporary BCG-unresponsive NMIBC outcomes rather than a randomized control arm.", "wide"],
+      ["Primary endpoint", "Complete response at any time; duration of response, cystectomy-free survival, progression-free survival and safety were key secondary outcomes.", "wide"],
+      ["Effect size detail", "CR at any time was 75.5% (95% CI 66.3-83.2). Estimated 12- and 24-month duration of response was 64.2% and 60.1%, with median duration of response 27.9 months. About 89% and 81% of patients remained cystectomy-free at 12 and 24 months, and 96.6% remained free from progression to muscle-invasive disease at 48 and 96 weeks.", "wide"],
+      ["Regulatory status", "Investigational therapy. CG Oncology's release states the program has FDA Fast Track and Breakthrough Therapy designations for BCG-unresponsive high-risk NMIBC with CIS, but no new approval decision was visible in this 27-28 July 2026 pass.", "wide"]
+    ],
+    source: "https://ir.cgoncology.com/news-releases/news-release-details/cg-oncology-announces-publication-pivotal-phase-3-bond-003",
+    sourceLabel: "Official company release",
+    supportingSources: [
+      {
+        label: "Lancet Oncology abstract",
+        url: "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(26)00194-4/abstract"
+      },
+      {
+        label: "ClinicalTrials.gov registry",
+        url: "https://clinicaltrials.gov/study/NCT04452591"
+      },
+      {
+        label: "Earlier JCO abstract with matching BOND-003 Cohort C efficacy figures",
+        url: "https://ascopubs.org/doi/10.1200/JCO.2026.44.7_suppl.741"
+      }
+    ]
+  },
+  {
     id: "pembro-enfortumab-mibc", short: "Padcev + Keytruda", name: "Perioperative Pembrolizumab + Enfortumab", cancer: "Bladder cancer",
     setting: "Muscle-invasive, cystectomy-eligible", company: "Merck + Astellas Pharma", phase: "Phase III",
     impact: "High", impactGroup: "high", maturity: 99, impactScore: 92,
@@ -697,6 +734,7 @@ const portfolioAliasRules = [
   { match: /atezolizumab/i, aliases: ["Tecentriq"] },
   { match: /cemiplimab/i, aliases: ["Libtayo"] },
   { match: /isatuximab|sarclisa/i, aliases: ["Sarclisa", "Sarclisa Escena"] },
+  { match: /cretostimogene|cg0070/i, aliases: ["CG0070"] },
   { match: /selpercatinib|retevmo|retsevmo/i, aliases: ["Retevmo", "Retsevmo"] },
   { match: /tregzi|orca-t/i, aliases: ["Tregzi", "Orca-T"] },
   { match: /palbociclib/i, aliases: ["Ibrance"] },
