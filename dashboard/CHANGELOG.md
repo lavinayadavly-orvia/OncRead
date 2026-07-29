@@ -1,5 +1,17 @@
 # Dashboard Changelog
 
+## 2026-07-29 - Verified Review With No Material Dashboard Change
+
+- Reviewed worldwide oncology developments published or made officially visible in the 24 hours before the Wednesday, July 29, 2026 8:00 AM run, with another open-ended significance scan across regulator, treatment, diagnostics/screening, surgery/radiotherapy, India-access, pricing/procurement, systems/public-health, guideline/policy, and other nonconforming categories, again prioritizing directly verifiable official and primary-source pathways.
+- Made no dashboard content, taxonomy, scoring, filter, layout, dossier, source-link, or information-architecture changes because no newly surfaced item in the July 28-29, 2026 review window cleared the bar for being both materially decision-relevant and responsibly verifiable from primary or otherwise authoritative sources.
+- Confirmed that the FDA oncology approval notifications page still visibly listed the July 22, 2026 zidesamtinib approval as its newest oncology posting, with no newer July 28-29, 2026 oncology approval, withdrawal, or comparably material official oncology posting visible there in this pass.
+- Rechecked the FDA withdrawn cancer accelerated approvals page and confirmed it still showed the June 22, 2026 Tazverik indication withdrawals as its latest oncology change, with no newer withdrawn oncology accelerated approval posted in this pass.
+- Checked EMA's current cancer-update surfaces, including the July 24, 2026 CHMP meeting-highlights posting and the Qezzaqar refusal page, and found no newer July 28-29, 2026 European oncology authorization, refusal, withdrawal, or safety-policy milestone strong enough for same-day dashboard promotion.
+- Rechecked WHO's current headlines and newsroom surfaces as part of the systems/public-health sweep; the visible July 27, 2026 and other current entries were unrelated to cancer, so no newer WHO-led oncology systems or public-health development was added in this pass.
+- Checked CDSCO's SEC page as part of the India-access scan and confirmed that the latest visible oncology and hematology postings remained the July 20, 2026 and July 17, 2026 recommendation releases, so no new India oncology approval, access, safety, or procurement change within the July 28-29, 2026 window was directly retrieved strongly enough for promotion in this pass.
+- Updated `dashboard/SOURCES.md` and rebuilt the dated morning edition/archive so the visible current briefing advances to `July 29 Morning Edition` while clearly stating that there were no new material verified updates versus the 28 July 2026 edition.
+- Omissions considered: additional same-window sponsor communications, preclinical signals, and financing/licensing announcements. None were added because no primary publication, regulator action, government procurement update, or comparably authoritative milestone was retrieved strongly enough for responsible promotion in this run.
+
 ## 2026-07-28 - Cretostimogene Phase III Publication Added
 
 - Reviewed worldwide oncology developments published or made officially visible in the 24 hours before the Tuesday, July 28, 2026 8:00 AM run, with another open-ended significance scan across regulator, treatment, diagnostics/screening, surgery/radiotherapy, India-access, pricing/procurement, systems/public-health, guideline/policy, and other nonconforming categories, again prioritizing directly verifiable official and primary-source pathways.

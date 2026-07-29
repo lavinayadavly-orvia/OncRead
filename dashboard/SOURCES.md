@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-07-28
+Updated: 2026-07-29
 
 ## Method
 
@@ -35,8 +35,37 @@ Updated: 2026-07-28
 - The 2026-07-24 review upgraded one existing ASCO follow-up dossier after AstraZeneca announced a 23 July 2026 European Commission approval for Etcamah (camizestrant), while keeping the US review unresolved and explicitly documenting that the EMA status page had not yet visibly rolled forward to the Commission decision in this pass.
 - The 2026-07-27 review was another no-content-change pass. Open-ended official-source checks did not surface a new 26-27 July 2026 development that was both materially decision-relevant and verifiable enough for responsible promotion into the dashboard.
 - The 2026-07-28 review added one new bladder-cancer treatment dossier after CG Oncology announced same-day peer-reviewed Lancet Oncology publication of the phase III BOND-003 Cohort C results in BCG-unresponsive high-risk NMIBC.
+- The 2026-07-29 review was another no-content-change pass. Open-ended official-source checks did not surface a new 28-29 July 2026 development that was both materially decision-relevant and verifiable enough for responsible promotion into the dashboard.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-07-29 Review-Only Checks
+
+- FDA oncology approval notifications index
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA withdrawn cancer accelerated approvals index
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA news index for current oncology/regulatory surface checks
+  https://www.ema.europa.eu/en/news
+- EMA CHMP meeting highlights for 20-23 July 2026
+  https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-20-23-july-2026
+- EMA Qezzaqar refusal page
+  https://www.ema.europa.eu/en/medicines/human/EPAR/qezzaqar
+- WHO headlines page
+  https://www.who.int/news-room/headlines
+- WHO cancer fact sheet
+  https://www.who.int/en/news-room/fact-sheets/detail/cancer
+- CDSCO SEC index
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+
+## 2026-07-29 Checked But Not Promoted
+
+- As of Wednesday, July 29, 2026, the FDA oncology approval notifications page still visibly listed the July 22, 2026 zidesamtinib approval as its newest oncology posting; no newer July 28-29, 2026 oncology approval, withdrawal, or comparably material official oncology posting was visible there in this pass.
+- The FDA withdrawn cancer accelerated approvals page still showed the June 22, 2026 Tazverik indication withdrawals as its latest oncology change and surfaced no newer withdrawn oncology accelerated approval in this pass.
+- EMA's current visible oncology/regulatory surfaces still did not expose a newer clearly attributable July 28-29, 2026 cancer authorization, refusal, withdrawal, or safety-policy milestone stronger than the already checked July 24, 2026 CHMP and Qezzaqar items.
+- WHO's visible July 27, 2026 headline and other current newsroom items remained unrelated to cancer, and the July 3, 2026 cancer fact sheet plus the July 8, 2026 WHO/IARC package remained the newest directly relevant cancer-system materials retrieved in this pass.
+- CDSCO's SEC index still showed the latest visible oncology and hematology postings as the July 20, 2026 hematology recommendations and the July 17, 2026 oncology recommendations; no specific India oncology approval, access, safety, or procurement change within the July 28-29, 2026 window was directly retrieved strongly enough for promotion in this pass.
+- Additional same-window sponsor communications and published/preclinical oncology signals, including early breast-cancer chemistry and financing/licensing announcements, were screened but not promoted because they did not represent a primary-source care-changing milestone, regulator action, or implementation-relevant systems development strong enough for responsible inclusion.
 
 ## 2026-07-28 Verified Update
 
