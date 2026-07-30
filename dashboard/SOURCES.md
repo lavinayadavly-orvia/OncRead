@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-07-29
+Updated: 2026-07-30
 
 ## Method
 
@@ -36,8 +36,40 @@ Updated: 2026-07-29
 - The 2026-07-27 review was another no-content-change pass. Open-ended official-source checks did not surface a new 26-27 July 2026 development that was both materially decision-relevant and verifiable enough for responsible promotion into the dashboard.
 - The 2026-07-28 review added one new bladder-cancer treatment dossier after CG Oncology announced same-day peer-reviewed Lancet Oncology publication of the phase III BOND-003 Cohort C results in BCG-unresponsive high-risk NMIBC.
 - The 2026-07-29 review was another no-content-change pass. Open-ended official-source checks did not surface a new 28-29 July 2026 development that was both materially decision-relevant and verifiable enough for responsible promotion into the dashboard.
+- The 2026-07-30 review was another no-content-change pass. Open-ended official-source checks did not surface a new 29-30 July 2026 development that was both materially decision-relevant and verifiable enough for responsible promotion into the dashboard.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-07-30 Review-Only Checks
+
+- FDA oncology approval notifications index
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA withdrawn cancer accelerated approvals index
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- FDA final guidance on cancer clinical-trial eligibility criteria and performance status
+  https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cancer-clinical-trial-eligibility-criteria-performance-status
+- EMA news index for current oncology/regulatory surface checks
+  https://www.ema.europa.eu/en/news
+- EMA cancer latest-updates page
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+- WHO headlines and cancer fact-sheet surfaces
+  https://www.who.int/news-room/headlines
+  https://www.who.int/en/news-room/fact-sheets/detail/cancer
+- CDSCO SEC index
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+- PubMed oncology publication-date checks
+  https://pubmed.ncbi.nlm.nih.gov/
+- ClinicalTrials.gov current oncology study/result checks
+  https://clinicaltrials.gov/
+
+## 2026-07-30 Checked But Not Promoted
+
+- As of Thursday, July 30, 2026, the FDA oncology approval notifications page still visibly listed the July 22, 2026 zidesamtinib approval as its newest oncology posting; no newer July 29-30 oncology approval, withdrawal, safety action, or comparably material official posting was visible in this pass.
+- The FDA final guidance on expanding cancer-trial performance-status eligibility was issued on July 27, 2026 and therefore fell outside this run's preceding-24-hour window; it was screened as a potentially important trial-methodology development but not presented as new on July 30.
+- EMA, WHO, and CDSCO current surfaces did not expose a newly attributable July 29-30 cancer authorization, refusal, safety-policy, access, procurement, or public-health milestone strong enough for promotion.
+- PubMed results carrying `2026 Jul;29(...)` in their journal citation were checked against their electronic-publication dates. The retrieved gastric-cancer, supportive-care, screening-biomarker, and ctDNA papers were first published between April and May 2026, so issue pagination did not qualify them as newly published developments in this review window.
+- Targeted ClinicalTrials.gov and official sponsor searches did not surface a same-window result posting or company milestone with sufficient primary evidence and decision relevance for responsible dashboard inclusion.
+- No substantive dashboard record, taxonomy, scoring rule, filter, or information-architecture change was made. The prior verified oncology state is carried forward into the July 30 edition.
 
 ## 2026-07-29 Review-Only Checks
 

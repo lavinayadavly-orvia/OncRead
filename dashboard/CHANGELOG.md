@@ -1,5 +1,15 @@
 # Dashboard Changelog
 
+## 2026-07-30 - Verified Review With No Material Dashboard Change
+
+- Reviewed worldwide oncology developments published or made officially visible in the 24 hours before the Thursday, July 30, 2026 6:15 AM IST run, with an open-ended significance scan across regulator, treatment, diagnostics/screening, surgery/radiotherapy, supportive care, trial methodology, India access, pricing/procurement, systems/public health, guideline/policy, safety, and other nonconforming categories.
+- Made no dashboard content, taxonomy, scoring, filter, layout, dossier, source-link, or information-architecture changes because no newly surfaced item in the July 29-30 review window cleared the bar for being both materially decision-relevant and responsibly verifiable from primary or authoritative sources.
+- Confirmed that the FDA oncology approval notifications page still visibly listed the July 22, 2026 zidesamtinib approval as its newest oncology posting, with no newer July 29-30 oncology approval, withdrawal, safety action, or comparably material posting visible in this pass.
+- Screened the FDA's July 2026 final guidance on cancer-trial performance-status eligibility as a potentially important methodology item, but did not promote it as new because its July 27 issue date falls outside this run's preceding-24-hour window.
+- Rechecked EMA, WHO, CDSCO, ClinicalTrials.gov, PubMed, and targeted official sponsor surfaces. No same-window European or Indian regulator milestone, global cancer-system update, trial-result posting, or peer-reviewed publication cleared the inclusion threshold.
+- Excluded PubMed results whose journal citation contained July 29 but whose electronic-publication dates were in April or May 2026; journal issue pagination alone was not treated as a newly published development.
+- Rolled the visible briefing forward to the July 30 Morning Edition, carrying forward the prior verified portfolio state and preserving the July 29 edition in the archive.
+
 ## 2026-07-29 - Verified Review With No Material Dashboard Change
 
 - Reviewed worldwide oncology developments published or made officially visible in the 24 hours before the Wednesday, July 29, 2026 8:00 AM run, with another open-ended significance scan across regulator, treatment, diagnostics/screening, surgery/radiotherapy, India-access, pricing/procurement, systems/public-health, guideline/policy, and other nonconforming categories, again prioritizing directly verifiable official and primary-source pathways.

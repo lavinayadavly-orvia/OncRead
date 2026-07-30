@@ -1,0 +1,89 @@
+{
+  "id": "2026-07-30",
+  "editionLabel": "30 July 2026",
+  "preparedLabel": "July 30 Morning Edition",
+  "monthKey": "2026-07",
+  "monthLabel": "July 2026",
+  "summary": "No new material verified oncology updates were added from the 29 July 2026 edition. The July 30 Morning Edition keeps the prior verified dashboard state visible after today's review.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 16,
+    "followupApprovals": 7,
+    "indiaMarketed": 4,
+    "watchlistSignals": 5,
+    "verifiedRecords": 32
+  },
+  "headlines": [
+    {
+      "tag": "No new material update",
+      "title": "No new material verified updates",
+      "summary": "The July 30 Morning Edition retains the prior verified dashboard state after no new material change was confirmed versus the 29 July 2026 edition."
+    },
+    {
+      "tag": "Latest verified approval",
+      "title": "Cretostimogene in BCG-Unresponsive NMIBC",
+      "summary": "Peer-reviewed publication 27 July 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Gedatolisib + Fulvestrant",
+      "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "cretostimogene"
+      },
+      "title": "Cretostimogene in BCG-Unresponsive NMIBC",
+      "subtitle": "Peer-reviewed publication 27 July 2026",
+      "date": 1785110400000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "gedatolisib"
+      },
+      "title": "Gedatolisib + Fulvestrant",
+      "subtitle": "Phase III · US approved; India launch unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "who-cancer-report"
+      },
+      "title": "WHO/IARC cancer inequity report",
+      "subtitle": "Systems report",
+      "date": 0
+    }
+  ],
+  "sourceCount": 32,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "cretostimogene"
+      },
+      "title": "Cretostimogene in BCG-Unresponsive NMIBC",
+      "subtitle": "Peer-reviewed publication 27 July 2026",
+      "date": 1785110400000
+    }
+  }
+}

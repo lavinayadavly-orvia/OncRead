@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-07-29T13:27:06.420Z",
-  "currentEditionId": "2026-07-29",
-  "currentEditionLabel": "29 July 2026",
+  "generatedAt": "2026-07-30T01:32:10.159Z",
+  "currentEditionId": "2026-07-30",
+  "currentEditionLabel": "30 July 2026",
   "editions": [
+    {
+      "id": "2026-07-30",
+      "editionLabel": "30 July 2026",
+      "preparedLabel": "July 30 Morning Edition",
+      "monthKey": "2026-07",
+      "monthLabel": "July 2026",
+      "summary": "No new material verified oncology updates were added from the 29 July 2026 edition. The July 30 Morning Edition keeps the prior verified dashboard state visible after today's review.",
+      "file": "/data/editions/2026-07-30.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 16,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 5,
+        "verifiedRecords": 32
+      }
+    },
     {
       "id": "2026-07-29",
       "editionLabel": "29 July 2026",
@@ -348,8 +365,29 @@
     {
       "monthKey": "2026-07",
       "monthLabel": "July 2026",
-      "leadEditionId": "2026-07-29",
+      "leadEditionId": "2026-07-30",
       "highlights": [
+        {
+          "editionId": "2026-07-30",
+          "editionLabel": "30 July 2026",
+          "tag": "No new material update",
+          "title": "No new material verified updates",
+          "summary": "The July 30 Morning Edition retains the prior verified dashboard state after no new material change was confirmed versus the 29 July 2026 edition."
+        },
+        {
+          "editionId": "2026-07-30",
+          "editionLabel": "30 July 2026",
+          "tag": "Latest verified approval",
+          "title": "Cretostimogene in BCG-Unresponsive NMIBC",
+          "summary": "Peer-reviewed publication 27 July 2026"
+        },
+        {
+          "editionId": "2026-07-30",
+          "editionLabel": "30 July 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Gedatolisib + Fulvestrant",
+          "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
+        },
         {
           "editionId": "2026-07-29",
           "editionLabel": "29 July 2026",
@@ -370,27 +408,6 @@
           "tag": "Highest-impact treatment pool",
           "title": "Gedatolisib + Fulvestrant",
           "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
-        },
-        {
-          "editionId": "2026-07-28",
-          "editionLabel": "28 July 2026",
-          "tag": "Latest verified approval",
-          "title": "Cretostimogene in BCG-Unresponsive NMIBC",
-          "summary": "Peer-reviewed publication 27 July 2026"
-        },
-        {
-          "editionId": "2026-07-28",
-          "editionLabel": "28 July 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Gedatolisib + Fulvestrant",
-          "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
-        },
-        {
-          "editionId": "2026-07-28",
-          "editionLabel": "28 July 2026",
-          "tag": "Negative trial",
-          "title": "Galleri-NHS negative screening signal",
-          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
         }
       ]
     },
