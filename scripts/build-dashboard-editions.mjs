@@ -64,23 +64,18 @@ const editionBlueprints = [
     id: "2026-06-30",
     mode: "derived-current",
     transform: "removeTregzi",
-    summary: "The 30 June 2026 review published as a no-material-change edition: the dashboard held its late-June breast-cancer approvals while official-source checks did not justify a new promotion.",
+    summary: "The edition highlights the FDA-approved first-line ASCENT-04 / KEYNOTE-D19 regimen alongside oncology workforce and screening caution signals.",
     provenance: "Derived from the current working tree with the July 2026 Tregzi addition removed to recreate the 30 June 2026 no-change review edition.",
     headlines: [
       {
-        tag: "Verified hold",
-        title: "No new material dashboard item cleared the bar",
-        summary: "Official-source checks did not surface a post-28 June development strong enough for responsible inclusion."
+        tag: "FDA-approved first-line TNBC regimen",
+        title: "ASCENT-04 / KEYNOTE-D19",
+        summary: "Sacituzumab govitecan plus pembrolizumab established an FDA-approved first-line option for PD-L1-positive advanced triple-negative breast cancer."
       },
       {
-        tag: "Newest approval then",
-        title: "ASCENT-04 remained the most recent verified approval",
-        summary: "The shortcut rail still pointed to the 24 June 2026 TNBC approval as the latest regulator-confirmed milestone in the dashboard."
-      },
-      {
-        tag: "What stayed important",
-        title: "Workforce and screening caution signals remained active",
-        summary: "The dashboard preserved system-level warnings and negative screening evidence rather than dropping them on quiet regulatory days."
+        tag: "Systems and screening context",
+        title: "Workforce capacity and screening evidence",
+        summary: "Global workforce constraints and negative multi-cancer screening evidence frame how quickly new oncology interventions can be adopted responsibly."
       }
     ]
   }
@@ -165,6 +160,38 @@ function defaultHeadlinesForEdition(seeds) {
       summary: caution.whyMatters
     } : null
   ].filter(Boolean);
+}
+
+function isOperationalHeadline(headline) {
+  const copy = [headline?.tag, headline?.title, headline?.summary].filter(Boolean).join(" ");
+  return /no new material|no new oncology development|verified hold|retains the prior verified|keeps the prior verified|cleared the bar/i.test(copy);
+}
+
+function readerFacingSummary(seeds, headlines = defaultHeadlinesForEdition(seeds)) {
+  const approval = newestApproval(seeds);
+  if (approval?.route?.kind === "detail") {
+    const treatment = seeds.treatments.find(item => item.id === approval.route.targetId);
+    if (treatment?.benefit) return treatment.benefit;
+  }
+
+  return headlines[0]?.summary
+    || "The current briefing prioritizes the latest verified oncology evidence, access implications, and decision-relevant caution signals.";
+}
+
+function sanitizeSnapshotForReaders(snapshot) {
+  const readerHeadlines = (snapshot.headlines || []).filter(headline => !isOperationalHeadline(headline));
+  const summaryIsOperational = isOperationalHeadline({ summary: snapshot.summary });
+  const readerSummary = summaryIsOperational
+    ? readerHeadlines[0]?.summary
+      || snapshot.spotlight?.[0]?.subtitle
+      || "Explore this edition's verified oncology portfolio, evidence context, access implications, and caution signals."
+    : snapshot.summary;
+
+  return {
+    ...snapshot,
+    summary: readerSummary,
+    headlines: readerHeadlines
+  };
 }
 
 function spotlightCards(seeds) {
@@ -256,10 +283,10 @@ async function loadExistingEditionSnapshots(rootDir) {
     try {
       const snapshot = JSON.parse(await readFile(filePath, "utf8"));
       if (snapshot?.id) {
-        snapshots.push({
+        snapshots.push(sanitizeSnapshotForReaders({
           ...snapshot,
           preparedLabel: preparedLabelForEdition(snapshot.id)
-        });
+        }));
       }
     } catch {
       // Ignore malformed historical snapshots and rebuild what this run owns.
@@ -267,11 +294,6 @@ async function loadExistingEditionSnapshots(rootDir) {
   }
 
   return snapshots;
-}
-
-function noChangeEditionSummary(currentEditionId, previousEditionId) {
-  const prior = previousEditionId ? ` from the ${formatEditionLabel(previousEditionId)} edition` : "";
-  return `No new material verified oncology updates were added${prior}. The ${preparedLabelForEdition(currentEditionId)} keeps the prior verified dashboard state visible after today's review.`;
 }
 
 function editionCard(snapshot) {
@@ -293,7 +315,6 @@ export async function buildDashboardEditions(rootDir) {
   const currentSeeds = await loadDashboardSeeds(rootDir);
   const existingSnapshots = await loadExistingEditionSnapshots(rootDir);
   const carryForwardHeadlines = defaultHeadlinesForEdition(currentSeeds);
-  const noMaterialChange = /No Material Dashboard Change/i.test(changelogEntry.title);
   const currentBlueprint = currentEditionId === "2026-07-01"
     ? {
         id: currentEditionId,
@@ -321,22 +342,9 @@ export async function buildDashboardEditions(rootDir) {
     : {
         id: currentEditionId,
         mode: "current",
-        summary: noMaterialChange
-          ? noChangeEditionSummary(currentEditionId, changelogEntry.previousDate)
-          : `Weekly newsletter edition captured for ${formatEditionLabel(currentEditionId)}.`,
+        summary: readerFacingSummary(currentSeeds, carryForwardHeadlines),
         provenance: "Generated from the current working tree.",
-        headlines: noMaterialChange
-          ? [
-              {
-                tag: "No new material update",
-                title: "No new material verified updates",
-                summary: changelogEntry.previousDate
-                  ? `The ${preparedLabelForEdition(currentEditionId)} retains the prior verified dashboard state after no new material change was confirmed versus the ${formatEditionLabel(changelogEntry.previousDate)} edition.`
-                  : `The ${preparedLabelForEdition(currentEditionId)} retains the prior verified dashboard state after today's review found no new material change.`
-              },
-              ...carryForwardHeadlines.slice(0, 2)
-            ]
-          : undefined
+        headlines: carryForwardHeadlines
       };
 
   const blueprints = [...editionBlueprints];

@@ -9,6 +9,7 @@
 - Rechecked EMA, WHO, CDSCO, ClinicalTrials.gov, PubMed, and targeted official sponsor surfaces. No same-window European or Indian regulator milestone, global cancer-system update, trial-result posting, or peer-reviewed publication cleared the inclusion threshold.
 - Excluded PubMed results whose journal citation contained July 29 but whose electronic-publication dates were in April or May 2026; journal issue pagination alone was not treated as a newly published development.
 - Rolled the visible briefing forward to the July 30 Morning Edition, carrying forward the prior verified portfolio state and preserving the July 29 edition in the archive.
+- Moved quiet-run operational language out of reader-facing edition summaries and headlines. Audit outcomes remain in `dashboard/SOURCES.md` and this changelog, while the dashboard and archive continue to lead with substantive oncology evidence, access implications, and caution signals.
 
 ## 2026-07-29 - Verified Review With No Material Dashboard Change
 

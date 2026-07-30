@@ -4,7 +4,7 @@
   "preparedLabel": "June 27 Morning Edition",
   "monthKey": "2026-06",
   "monthLabel": "June 2026",
-  "summary": "No new verified oncology development cleared the bar on 27 June 2026, leaving Sacituzumab govitecan + pembrolizumab and the existing caution signals at the top of the briefing.",
+  "summary": "FDA approval · 24 Jun 2026",
   "provenance": "Backfilled from the previous dated briefing snapshot for the Verified Review With No Material Dashboard Change changelog state.",
   "metrics": {
     "insights": 4,
@@ -15,11 +15,6 @@
     "verifiedRecords": 24
   },
   "headlines": [
-    {
-      "tag": "Verified hold",
-      "title": "No new oncology development cleared the bar",
-      "summary": "Official-source checks did not justify promoting a newer oncology item into the briefing."
-    },
     {
       "tag": "Newest verified move",
       "title": "Sacituzumab govitecan + pembrolizumab remained the lead verified approval",

@@ -4,7 +4,7 @@
   "preparedLabel": "June 30 Morning Edition",
   "monthKey": "2026-06",
   "monthLabel": "June 2026",
-  "summary": "The 30 June 2026 review published as a no-material-change edition: the dashboard held its late-June breast-cancer approvals while official-source checks did not justify a new promotion.",
+  "summary": "The edition highlights the FDA-approved first-line ASCENT-04 / KEYNOTE-D19 regimen alongside oncology workforce and screening caution signals.",
   "provenance": "Derived from the current working tree with the July 2026 Tregzi addition removed to recreate the 30 June 2026 no-change review edition.",
   "metrics": {
     "insights": 4,
@@ -16,19 +16,14 @@
   },
   "headlines": [
     {
-      "tag": "Verified hold",
-      "title": "No new material dashboard item cleared the bar",
-      "summary": "Official-source checks did not surface a post-28 June development strong enough for responsible inclusion."
+      "tag": "FDA-approved first-line TNBC regimen",
+      "title": "ASCENT-04 / KEYNOTE-D19",
+      "summary": "Sacituzumab govitecan plus pembrolizumab established an FDA-approved first-line option for PD-L1-positive advanced triple-negative breast cancer."
     },
     {
-      "tag": "Newest approval then",
-      "title": "ASCENT-04 remained the most recent verified approval",
-      "summary": "The shortcut rail still pointed to the 24 June 2026 TNBC approval as the latest regulator-confirmed milestone in the dashboard."
-    },
-    {
-      "tag": "What stayed important",
-      "title": "Workforce and screening caution signals remained active",
-      "summary": "The dashboard preserved system-level warnings and negative screening evidence rather than dropping them on quiet regulatory days."
+      "tag": "Systems and screening context",
+      "title": "Workforce capacity and screening evidence",
+      "summary": "Global workforce constraints and negative multi-cancer screening evidence frame how quickly new oncology interventions can be adopted responsibly."
     }
   ],
   "spotlight": [

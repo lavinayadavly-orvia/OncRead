@@ -4,7 +4,7 @@
   "preparedLabel": "July 30 Morning Edition",
   "monthKey": "2026-07",
   "monthLabel": "July 2026",
-  "summary": "No new material verified oncology updates were added from the 29 July 2026 edition. The July 30 Morning Edition keeps the prior verified dashboard state visible after today's review.",
+  "summary": "Peer-reviewed phase III evidence suggests a durable bladder-sparing option for high-risk BCG-unresponsive NMIBC with carcinoma in situ, a setting where radical cystectomy is often the default next step after failed intravesical therapy.",
   "provenance": "Generated from the current working tree.",
   "metrics": {
     "insights": 4,
@@ -16,11 +16,6 @@
   },
   "headlines": [
     {
-      "tag": "No new material update",
-      "title": "No new material verified updates",
-      "summary": "The July 30 Morning Edition retains the prior verified dashboard state after no new material change was confirmed versus the 29 July 2026 edition."
-    },
-    {
       "tag": "Latest verified approval",
       "title": "Cretostimogene in BCG-Unresponsive NMIBC",
       "summary": "Peer-reviewed publication 27 July 2026"
@@ -29,6 +24,11 @@
       "tag": "Highest-impact treatment pool",
       "title": "Gedatolisib + Fulvestrant",
       "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
+    },
+    {
+      "tag": "Negative trial",
+      "title": "Galleri-NHS negative screening signal",
+      "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
     }
   ],
   "spotlight": [
