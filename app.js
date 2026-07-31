@@ -519,6 +519,34 @@ asco2025Followup.forEach(item => Object.assign(item, followupDetails[item.id]));
 
 const watchlistSignals = [
   {
+    id: "rp1-adcom",
+    title: "RP1 + nivolumab FDA advisory-committee split",
+    short: "RP1 / Tudriqev",
+    category: "Regulatory evidence",
+    status: "regulatory",
+    statusLabel: "Favorable panel vote; FDA decision pending",
+    geography: "United States",
+    date: "30 July 2026",
+    cancer: "Advanced cutaneous melanoma",
+    issue: "Vusolimogene oderparepvec (RP1) plus nivolumab after progression on anti-PD-1 therapy",
+    organization: "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
+    population: "140 adults in the single-arm phase I/II IGNYTE anti-PD-1-refractory cutaneous-melanoma cohort",
+    comparator: "No concurrent control. The application relies on historical comparisons for nivolumab rechallenge, and FDA states that RP1's contribution cannot be isolated reliably.",
+    endpoint: "Accelerated-approval benefit-risk recommendation based primarily on objective response rate and duration of response",
+    effect: "The applicant reported ORR 33.6% (95% CI 25.8%-42.0%) and median DoR 24.8 months (95% CI 14.1-not reached). FDA's primary reanalysis, excluding responses without evaluable noninjected target lesions, estimated ORR 15.7% (95% CI 10.1%-22.8%) and median DoR 14.1 months (95% CI 10.7-not reached). A contemporaneous Dow Jones report said the advisory committee voted 10-3 in favor of the benefit-risk profile; official FDA minutes were not yet posted in this pass.",
+    whyMatters: "The panel recommendation moves an oncolytic immunotherapy with a contested evidence package closer to a near-term FDA decision in a difficult post-PD-1 melanoma setting. The disagreement between the favorable vote and FDA's efficacy analysis is itself decision-relevant and should not be collapsed into either an approval headline or a simple positive trial result.",
+    whoAffected: "Adults with unresectable advanced cutaneous melanoma after anti-PD-1 therapy, melanoma specialists, trial investigators, regulators, and payers evaluating accelerated-approval evidence.",
+    decisionImpact: "Whether RP1 plus nivolumab receives accelerated approval and, if it does, how clinicians and payers interpret a favorable advisory vote when FDA says the single-arm data do not reliably establish RP1's contribution.",
+    evidenceStrength: "High for the existence, scope, underlying FDA review concerns, and scheduled regulatory decision because these are documented by FDA. The 10-3 vote count is contemporaneously reported but awaits official FDA minutes or a posted sponsor confirmation.",
+    limitations: "This is not an FDA approval. The pivotal evidence is a single-arm, amended phase I/II cohort without a concurrent control; FDA found response assessment confounded by injected lesions and procedures, could not interpret overall survival, and concluded the observed effect did not reliably isolate RP1 from nivolumab. Advisory recommendations are non-binding.",
+    indiaImpact: "No CDSCO authorization, India launch date, price, reimbursement decision, or procurement pathway for RP1 was verified. Any relevance to Indian practice remains investigational and dependent on a US regulatory decision plus later local access steps.",
+    cost: "No official US commercial price or India price was verified because RP1 remains investigational.",
+    nextMilestone: "FDA action date on 2 August 2026; then official committee minutes/transcript, final labeling if approved, confirmatory-trial requirements, and any India filing or access announcement.",
+    verification: "Cross-checked against the FDA meeting page, FDA briefing document, voting question, prior FDA complete-response letter, and Replimune's official BLA-resubmission release. The reported 10-3 tally remains explicitly secondary until FDA or the sponsor posts an official result.",
+    source: "https://www.fda.gov/advisory-committees/advisory-committee-calendar/cellular-tissue-and-gene-therapies-advisory-committee-july-30-2026-meeting-announcement-updated",
+    secondarySource: "https://www.fda.gov/media/193878/download"
+  },
+  {
     id: "optima",
     title: "OPTIMA genomic de-escalation",
     short: "OPTIMA",
@@ -1388,15 +1416,20 @@ function renderInsights() {
     .filter(item => item.eventDate)
     .sort((a, b) => (Date.parse(b.eventDate) || 0) - (Date.parse(a.eventDate) || 0))[0];
   const routeApproval = currentDetail?.routeSummary?.approval || null;
-  const featuredRoute = routeApproval?.route || {
+  const featuredHeadline = currentDetail?.headlines?.[0] || null;
+  const featuredWatchlist = watchlistSignals.find(item => item.title === featuredHeadline?.title) || null;
+  const featuredRoute = featuredWatchlist ? {
+    view: "watchlist",
+    kind: "watchlist",
+    targetId: featuredWatchlist.id
+  } : routeApproval?.route || {
     view: "treatments",
     kind: "detail",
     targetId: newestTreatmentApproval?.id || "tucatinib"
   };
   const featuredTreatment = treatments.find(item => item.id === featuredRoute.targetId) || newestTreatmentApproval || treatments[0];
-  const featuredHeadline = currentDetail?.headlines?.[0] || null;
-  const featuredLabel = routeApproval?.title || featuredTreatment.name;
-  const featuredNote = routeApproval?.subtitle || featuredTreatment.launch;
+  const featuredLabel = featuredWatchlist?.title || routeApproval?.title || featuredTreatment.name;
+  const featuredNote = featuredWatchlist?.statusLabel || routeApproval?.subtitle || featuredTreatment.launch;
   const approvedCount = asco2025Followup.filter(item => item.status === "approved").length;
   const pendingPrimaryCount = watchlistSignals.filter(item => item.verification.includes("pending")).length;
   const availableCount = treatments.filter(item => item.indiaStatus === "available").length;
@@ -1443,16 +1476,19 @@ function renderInsights() {
   const regulatoryLead = asco2025Followup.find(item => item.id === "camizestrant");
   const cautionLead = watchlistSignals.find(item => item.id === "galleri");
   const systemsLead = watchlistSignals.find(item => item.id === "workforce");
-  const featuredConstraint = featuredTreatment.indiaCaveat || featuredTreatment.limitations;
+  const featuredWhy = featuredWatchlist?.whyMatters || featuredTreatment.benefit;
+  const featuredConstraint = featuredWatchlist?.limitations || featuredTreatment.indiaCaveat || featuredTreatment.limitations;
+  const featuredSignal = featuredWatchlist?.effect || `${featuredTreatment.headline} · ${featuredTreatment.headlineNote}`;
+  const featuredDate = featuredWatchlist?.date || featuredTreatment.eventDate;
 
   const cards = [
     {
       tone: "teal",
       eyebrow: "Newest verified move",
-      title: featuredTreatment.name,
-      summary: featuredHeadline?.summary || featuredTreatment.benefit,
-      signal: `${featuredTreatment.headline} · ${featuredTreatment.headlineNote}`,
-      why: featuredTreatment.benefit,
+      title: featuredLabel,
+      summary: featuredHeadline?.summary || featuredWhy,
+      signal: featuredSignal,
+      why: featuredWhy,
       constraint: featuredConstraint,
       confidence: featuredTreatment.impact,
       route: "Open dossier",
@@ -1643,7 +1679,7 @@ function renderInsights() {
       <div class="briefing-feature-grid">
         <div>
           <span>Why it matters now</span>
-          <strong>${featuredTreatment.benefit}</strong>
+          <strong>${featuredWhy}</strong>
         </div>
         <div>
           <span>What still blocks confidence</span>
@@ -1651,7 +1687,7 @@ function renderInsights() {
         </div>
       </div>
       <div class="briefing-feature-foot">
-        <em>${featuredTreatment.headline} · ${featuredTreatment.headlineNote}</em>
+        <em>${featuredSignal}</em>
         <span>Read full dossier</span>
       </div>
     </button>
@@ -1667,7 +1703,7 @@ function renderInsights() {
   `).join("");
 
   $("#insight-metrics").innerHTML = [
-    [formatCompactDate(featuredTreatment.eventDate), "Newest dated move", featuredLabel, "", "NEW", { action: "insight-target", view: featuredRoute.view, kind: featuredRoute.kind, id: featuredRoute.targetId, title: `Open the latest move: ${featuredLabel}` }],
+    [formatCompactDate(featuredDate), "Newest dated move", featuredLabel, "", "NEW", { action: "insight-target", view: featuredRoute.view, kind: featuredRoute.kind, id: featuredRoute.targetId, title: `Open the latest move: ${featuredLabel}` }],
     [currentEdition?.metrics?.verifiedRecords || cards.length, "Verified records live", currentEdition ? `Archived as ${currentEdition.editionLabel}` : "Current edition", "blue", "VR", { action: "portfolio-filter", lane: "all", title: "Open all verified portfolio records" }],
     [availableCount, "India-marketed assets", "Study use may still differ from label", "gold", "IN", { action: "treatments-india", indiaStatus: "available", title: "Open the India-marketed treatment assets" }],
     [pendingPrimaryCount, "Signals still cautionary", "Direct primary capture still pending", "coral", "!", { action: "watchlist-filter", pendingOnly: true, title: "Open the watchlist signals with primary capture still pending" }]
@@ -2017,6 +2053,7 @@ function filteredWatchlist() {
 
 function renderWatchlist() {
   const statusColors = {
+    regulatory: ["#6b4fc7", "#f0ebff"],
     conference: ["#3f70d8", "#eaf0ff"],
     negative: ["#d15f49", "#fff0eb"],
     systems: ["#007f7b", "#dff3ef"]

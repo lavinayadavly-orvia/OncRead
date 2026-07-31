@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T01:41:15.234Z",
+  "generatedAt": "2026-07-31T04:03:42.282Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -2245,10 +2245,106 @@
       ]
     },
     {
-      "id": "watchlist:optima",
+      "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
       "order": 27,
+      "title": "RP1 + nivolumab FDA advisory-committee split",
+      "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
+      "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
+      "snapshot": "Favorable panel vote; FDA decision pending · 30 July 2026",
+      "summary": "The panel recommendation moves an oncolytic immunotherapy with a contested evidence package closer to a near-term FDA decision in a difficult post-PD-1 melanoma setting. The disagreement between the favorable vote and FDA's efficacy analysis is itself decision-relevant and should not be collapsed into either an approval headline or a simple positive trial result.",
+      "headline": "The applicant reported ORR 33.6% (95% CI 25.8%-42.0%) and median DoR 24.8 months (95% CI 14.1-not reached). FDA's primary reanalysis, excluding responses without evaluable noninjected target lesions, estimated ORR 15.7% (95% CI 10.1%-22.8%) and median DoR 14.1 months (95% CI 10.7-not reached). A contemporaneous Dow Jones report said the advisory committee voted 10-3 in favor of the benefit-risk profile; official FDA minutes were not yet posted in this pass.",
+      "statusLabel": "Favorable panel vote; FDA decision pending",
+      "badges": [
+        "Favorable panel vote; FDA decision pending",
+        "Regulatory evidence",
+        "United States"
+      ],
+      "searchText": "rp1 + nivolumab fda advisory-committee split rp1 / tudriqev regulatory evidence advanced cutaneous melanoma united states replimune + bristol myers squibb; fda cellular, tissue, and gene therapies advisory committee vusolimogene oderparepvec (rp1) plus nivolumab after progression on anti-pd-1 therapy the applicant reported orr 33.6% (95% ci 25.8%-42.0%) and median dor 24.8 months (95% ci 14.1-not reached). fda's primary reanalysis, excluding responses without evaluable noninjected target lesions, estimated orr 15.7% (95% ci 10.1%-22.8%) and median dor 14.1 months (95% ci 10.7-not reached). a contemporaneous dow jones report said the advisory committee voted 10-3 in favor of the benefit-risk profile; official fda minutes were not yet posted in this pass. whether rp1 plus nivolumab receives accelerated approval and, if it does, how clinicians and payers interpret a favorable advisory vote when fda says the single-arm data do not reliably establish rp1's contribution. the panel recommendation moves an oncolytic immunotherapy with a contested evidence package closer to a near-term fda decision in a difficult post-pd-1 melanoma setting. the disagreement between the favorable vote and fda's efficacy analysis is itself decision-relevant and should not be collapsed into either an approval headline or a simple positive trial result. opdivo",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "rp1-adcom",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/cellular-tissue-and-gene-therapies-advisory-committee-july-30-2026-meeting-announcement-updated"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://www.fda.gov/media/193878/download"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "Vusolimogene oderparepvec (RP1) plus nivolumab after progression on anti-PD-1 therapy"
+        ],
+        [
+          "Population / sample",
+          "140 adults in the single-arm phase I/II IGNYTE anti-PD-1-refractory cutaneous-melanoma cohort"
+        ],
+        [
+          "Comparator",
+          "No concurrent control. The application relies on historical comparisons for nivolumab rechallenge, and FDA states that RP1's contribution cannot be isolated reliably."
+        ],
+        [
+          "Observed effect",
+          "The applicant reported ORR 33.6% (95% CI 25.8%-42.0%) and median DoR 24.8 months (95% CI 14.1-not reached). FDA's primary reanalysis, excluding responses without evaluable noninjected target lesions, estimated ORR 15.7% (95% CI 10.1%-22.8%) and median DoR 14.1 months (95% CI 10.7-not reached). A contemporaneous Dow Jones report said the advisory committee voted 10-3 in favor of the benefit-risk profile; official FDA minutes were not yet posted in this pass.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "The panel recommendation moves an oncolytic immunotherapy with a contested evidence package closer to a near-term FDA decision in a difficult post-PD-1 melanoma setting. The disagreement between the favorable vote and FDA's efficacy analysis is itself decision-relevant and should not be collapsed into either an approval headline or a simple positive trial result.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Adults with unresectable advanced cutaneous melanoma after anti-PD-1 therapy, melanoma specialists, trial investigators, regulators, and payers evaluating accelerated-approval evidence.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Whether RP1 plus nivolumab receives accelerated approval and, if it does, how clinicians and payers interpret a favorable advisory vote when FDA says the single-arm data do not reliably establish RP1's contribution.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "High for the existence, scope, underlying FDA review concerns, and scheduled regulatory decision because these are documented by FDA. The 10-3 vote count is contemporaneously reported but awaits official FDA minutes or a posted sponsor confirmation."
+        ],
+        [
+          "India relevance",
+          "No CDSCO authorization, India launch date, price, reimbursement decision, or procurement pathway for RP1 was verified. Any relevance to Indian practice remains investigational and dependent on a US regulatory decision plus later local access steps.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "No official US commercial price or India price was verified because RP1 remains investigational."
+        ],
+        [
+          "Current limitation",
+          "This is not an FDA approval. The pivotal evidence is a single-arm, amended phase I/II cohort without a concurrent control; FDA found response assessment confounded by injected lesions and procedures, could not interpret overall survival, and concluded the observed effect did not reliably isolate RP1 from nivolumab. Advisory recommendations are non-binding.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "FDA action date on 2 August 2026; then official committee minutes/transcript, final labeling if approved, confirmatory-trial requirements, and any India filing or access announcement."
+        ],
+        [
+          "Verification note",
+          "Cross-checked against the FDA meeting page, FDA briefing document, voting question, prior FDA complete-response letter, and Replimune's official BLA-resubmission release. The reported 10-3 tally remains explicitly secondary until FDA or the sponsor posts an official result.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:optima",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 28,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -2344,7 +2440,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 28,
+      "order": 29,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -2440,7 +2536,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 29,
+      "order": 30,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -2536,7 +2632,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 30,
+      "order": 31,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -2632,7 +2728,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 31,
+      "order": 32,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -2726,7 +2822,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 50,
+    "sourcesChecked": 52,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,

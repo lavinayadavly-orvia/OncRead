@@ -1,5 +1,15 @@
 # Dashboard Changelog
 
+## 2026-07-31 - RP1 Melanoma Advisory-Committee Signal Added
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours, including regulator actions and advisory materials, treatment and trial readouts, diagnostics, surgery/radiotherapy, supportive care, trial methodology, India access, pricing/procurement, systems/public health, safety, and other nonconforming categories.
+- Added `RP1 + nivolumab FDA advisory-committee split` to `Watchlist & systems` after FDA convened its July 30 meeting on Replimune's vusolimogene oderparepvec BLA for advanced cutaneous melanoma after anti-PD-1 therapy.
+- Presented the event as contested regulatory evidence, not as an approval or straightforward positive trial: contemporaneous reporting put the favorable panel vote at 10-3, while FDA's briefing document questioned response assessment, contribution of effect, historical-control reliability, and overall-survival interpretability.
+- Captured both efficacy views: applicant-reported ORR 33.6% (95% CI 25.8%-42.0%) with median DoR 24.8 months, versus FDA's primary reanalysis ORR 15.7% (95% CI 10.1%-22.8%) with median DoR 14.1 months.
+- Labeled the vote tally as secondary pending official FDA minutes or sponsor confirmation, retained the committee's non-binding status, and set the August 2, 2026 FDA action date as the next verification milestone.
+- Recorded that RP1 remains investigational and that no CDSCO authorization, India launch date, price, reimbursement decision, or procurement pathway was verified.
+- Updated the edition builder so a genuinely newer watchlist or regulatory signal can lead the reader-facing briefing instead of being displaced by an older treatment approval. Audit-process language remains confined to the source ledger and changelog.
+
 ## 2026-07-30 - Verified Review With No Material Dashboard Change
 
 - Reviewed worldwide oncology developments published or made officially visible in the 24 hours before the Thursday, July 30, 2026 6:15 AM IST run, with an open-ended significance scan across regulator, treatment, diagnostics/screening, surgery/radiotherapy, supportive care, trial methodology, India access, pricing/procurement, systems/public health, guideline/policy, safety, and other nonconforming categories.

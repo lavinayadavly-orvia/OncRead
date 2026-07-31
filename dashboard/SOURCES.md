@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-07-30
+Updated: 2026-07-31
 
 ## Method
 
@@ -37,8 +37,32 @@ Updated: 2026-07-30
 - The 2026-07-28 review added one new bladder-cancer treatment dossier after CG Oncology announced same-day peer-reviewed Lancet Oncology publication of the phase III BOND-003 Cohort C results in BCG-unresponsive high-risk NMIBC.
 - The 2026-07-29 review was another no-content-change pass. Open-ended official-source checks did not surface a new 28-29 July 2026 development that was both materially decision-relevant and verifiable enough for responsible promotion into the dashboard.
 - The 2026-07-30 review was another no-content-change pass. Open-ended official-source checks did not surface a new 29-30 July 2026 development that was both materially decision-relevant and verifiable enough for responsible promotion into the dashboard.
+- The 2026-07-31 review added a contested regulatory-evidence watchlist record after FDA convened its July 30 advisory committee on RP1 plus nivolumab for advanced melanoma. The record keeps the favorable reported 10-3 recommendation separate from FDA's substantial efficacy and contribution-of-effect concerns and does not present the event as an approval.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-07-31 Verified Update
+
+- FDA July 30, 2026 advisory-committee meeting page for BLA 125827, vusolimogene oderparepvec plus nivolumab
+  https://www.fda.gov/advisory-committees/advisory-committee-calendar/cellular-tissue-and-gene-therapies-advisory-committee-july-30-2026-meeting-announcement-updated
+- FDA briefing document for BLA 125827
+  https://www.fda.gov/media/193878/download
+- FDA voting question
+  https://www.fda.gov/media/193882/download
+- FDA April 10, 2026 complete-response letter for BLA 125827
+  https://download.open.fda.gov/crl/CRL_BLA125827_20260410.pdf
+- Replimune official June 26, 2026 BLA-resubmission release and August 2 action-date confirmation
+  https://ir.replimune.com/static-files/5107e083-d0c4-414b-a8db-c438c321e046
+- Contemporaneous Dow Jones reporting of the 10-3 favorable advisory-committee vote, retrieved through a syndication summary; official FDA minutes were not posted at review time
+  https://www.reddit.com/r/Wiseek/comments/1vb7e4z/repl_fda_panel_backs_replimunes_melanoma_drug_103/
+
+## 2026-07-31 Evidence Interpretation
+
+- The applicant reported ORR 33.6% (95% CI 25.8%-42.0%) and median DoR 24.8 months (95% CI 14.1-not reached) in 140 patients. FDA's primary reanalysis estimated ORR 15.7% (95% CI 10.1%-22.8%) and median DoR 14.1 months (95% CI 10.7-not reached) after excluding responses without evaluable noninjected target lesions.
+- FDA stated that IGNYTE's response-assessment methods confounded interpretation, the single-arm result could not reliably isolate RP1's contribution from nivolumab, and overall survival was not interpretable. These limitations are displayed with the favorable reported panel vote rather than subordinated to it.
+- The panel recommendation is non-binding and is not an approval. FDA's action date is August 2, 2026. Official committee minutes or transcript, final FDA action, labeling, and confirmatory-trial obligations remain the next verification milestones.
+- No CDSCO authorization, India launch date, official price, reimbursement action, or procurement pathway was verified.
+- Broader FDA oncology approvals, EMA, WHO, CDSCO, ClinicalTrials.gov, PubMed, and official sponsor surfaces were also screened. No second same-window item cleared the materiality and primary-verification threshold; an apparent Karyopharm endometrial-cancer phase III failure found only in social/market discussion was not promoted because no official company release, registry result, or peer-reviewed primary source was retrieved.
 
 ## 2026-07-30 Review-Only Checks
 

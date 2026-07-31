@@ -106,6 +106,7 @@ function applyTransform(seeds, transform) {
   const next = clone(seeds);
   if (transform === "removeTregzi") {
     next.treatments = next.treatments.filter(item => item.id !== "tregzi");
+    next.watchlistSignals = next.watchlistSignals.filter(item => item.id !== "rp1-adcom");
   }
   return next;
 }
@@ -139,11 +140,21 @@ function newestApproval(seeds) {
 
 function defaultHeadlinesForEdition(seeds) {
   const approval = newestApproval(seeds);
+  const latestWatchlist = [...seeds.watchlistSignals]
+    .filter(item => item.date)
+    .sort((a, b) => (Date.parse(b.date) || 0) - (Date.parse(a.date) || 0))[0];
+  const watchlistIsNewest = latestWatchlist
+    && (Date.parse(latestWatchlist.date) || 0) > (approval?.date || 0);
   const topTreatment = [...seeds.treatments]
     .sort((a, b) => (b.impactScore + b.maturity) - (a.impactScore + a.maturity))[0];
   const caution = seeds.watchlistSignals.find(item => item.status === "negative") || seeds.watchlistSignals[0];
 
   return [
+    watchlistIsNewest ? {
+      tag: latestWatchlist.statusLabel,
+      title: latestWatchlist.title,
+      summary: latestWatchlist.whyMatters
+    } : null,
     approval ? {
       tag: "Latest verified approval",
       title: approval.title,
@@ -168,6 +179,9 @@ function isOperationalHeadline(headline) {
 }
 
 function readerFacingSummary(seeds, headlines = defaultHeadlinesForEdition(seeds)) {
+  const watchlistLead = seeds.watchlistSignals.find(item => item.title === headlines[0]?.title);
+  if (watchlistLead?.whyMatters) return watchlistLead.whyMatters;
+
   const approval = newestApproval(seeds);
   if (approval?.route?.kind === "detail") {
     const treatment = seeds.treatments.find(item => item.id === approval.route.targetId);

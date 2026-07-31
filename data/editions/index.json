@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-07-30T01:41:15.315Z",
-  "currentEditionId": "2026-07-30",
-  "currentEditionLabel": "30 July 2026",
+  "generatedAt": "2026-07-31T04:03:42.467Z",
+  "currentEditionId": "2026-07-31",
+  "currentEditionLabel": "31 July 2026",
   "editions": [
+    {
+      "id": "2026-07-31",
+      "editionLabel": "31 July 2026",
+      "preparedLabel": "July 31 Morning Edition",
+      "monthKey": "2026-07",
+      "monthLabel": "July 2026",
+      "summary": "The panel recommendation moves an oncolytic immunotherapy with a contested evidence package closer to a near-term FDA decision in a difficult post-PD-1 melanoma setting. The disagreement between the favorable vote and FDA's efficacy analysis is itself decision-relevant and should not be collapsed into either an approval headline or a simple positive trial result.",
+      "file": "/data/editions/2026-07-31.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 16,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 6,
+        "verifiedRecords": 33
+      }
+    },
     {
       "id": "2026-07-30",
       "editionLabel": "30 July 2026",
@@ -365,49 +382,49 @@
     {
       "monthKey": "2026-07",
       "monthLabel": "July 2026",
-      "leadEditionId": "2026-07-30",
+      "leadEditionId": "2026-07-31",
       "highlights": [
         {
-          "editionId": "2026-07-30",
-          "editionLabel": "30 July 2026",
+          "editionId": "2026-07-31",
+          "editionLabel": "31 July 2026",
+          "tag": "Favorable panel vote; FDA decision pending",
+          "title": "RP1 + nivolumab FDA advisory-committee split",
+          "summary": "The panel recommendation moves an oncolytic immunotherapy with a contested evidence package closer to a near-term FDA decision in a difficult post-PD-1 melanoma setting. The disagreement between the favorable vote and FDA's efficacy analysis is itself decision-relevant and should not be collapsed into either an approval headline or a simple positive trial result."
+        },
+        {
+          "editionId": "2026-07-31",
+          "editionLabel": "31 July 2026",
           "tag": "Latest verified approval",
           "title": "Cretostimogene in BCG-Unresponsive NMIBC",
           "summary": "Peer-reviewed publication 27 July 2026"
         },
         {
-          "editionId": "2026-07-30",
-          "editionLabel": "30 July 2026",
+          "editionId": "2026-07-31",
+          "editionLabel": "31 July 2026",
           "tag": "Highest-impact treatment pool",
           "title": "Gedatolisib + Fulvestrant",
           "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
         },
         {
-          "editionId": "2026-07-30",
-          "editionLabel": "30 July 2026",
+          "editionId": "2026-07-31",
+          "editionLabel": "31 July 2026",
           "tag": "Negative trial",
           "title": "Galleri-NHS negative screening signal",
           "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
         },
         {
-          "editionId": "2026-07-29",
-          "editionLabel": "29 July 2026",
+          "editionId": "2026-07-30",
+          "editionLabel": "30 July 2026",
           "tag": "Latest verified approval",
           "title": "Cretostimogene in BCG-Unresponsive NMIBC",
           "summary": "Peer-reviewed publication 27 July 2026"
         },
         {
-          "editionId": "2026-07-29",
-          "editionLabel": "29 July 2026",
+          "editionId": "2026-07-30",
+          "editionLabel": "30 July 2026",
           "tag": "Highest-impact treatment pool",
           "title": "Gedatolisib + Fulvestrant",
           "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
-        },
-        {
-          "editionId": "2026-07-28",
-          "editionLabel": "28 July 2026",
-          "tag": "Latest verified approval",
-          "title": "Cretostimogene in BCG-Unresponsive NMIBC",
-          "summary": "Peer-reviewed publication 27 July 2026"
         }
       ]
     },
