@@ -3,3 +3,9 @@
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: SAMEORIGIN
 
+/index.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/data/editions/index.json
+  Cache-Control: no-store, max-age=0
+

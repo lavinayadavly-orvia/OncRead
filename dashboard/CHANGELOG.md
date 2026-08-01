@@ -8,6 +8,7 @@
 - Assessed the JAMA research letter on 20-year trends in US cancer-medicine approvals but did not promote it because its July 30 online-publication date fell outside this run's preceding-24-hour window.
 - Kept the August 2 FDA action date for RP1 as a future verification milestone rather than inferring an outcome before an official decision.
 - Rolled the visible briefing and archive forward to the August 1 Morning Edition while keeping operational no-change language confined to this changelog and `dashboard/SOURCES.md`.
+- Added automatic release detection for already-open dashboards: the client checks the edition manifest every 60 seconds and whenever the tab regains focus, then reloads through a cache-busting URL when the deployed edition or build fingerprint changes. Added explicit revalidation headers for the HTML shell and edition manifest.
 
 ## 2026-07-31 - RP1 Melanoma Advisory-Committee Signal Added
 

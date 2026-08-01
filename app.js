@@ -714,6 +714,11 @@ function readEmbeddedJson(id, fallback = null) {
 
 const initialEditionArchive = readEmbeddedJson("initial-edition-archive");
 const initialCurrentEdition = readEmbeddedJson("initial-current-edition");
+const embeddedReleaseFingerprint = [
+  initialEditionArchive?.currentEditionId || initialCurrentEdition?.id || "",
+  initialEditionArchive?.generatedAt || ""
+].join("|");
+const RELEASE_CHECK_INTERVAL_MS = 60_000;
 
 const state = {
   view: "insights",
@@ -1363,6 +1368,36 @@ async function hydrateEditionArchive() {
     renderArchive();
     renderInsights();
   }
+}
+
+function releaseFingerprint(archive) {
+  return [archive?.currentEditionId || "", archive?.generatedAt || ""].join("|");
+}
+
+async function checkForDashboardRelease() {
+  try {
+    const response = await fetch(`/data/editions/index.json?release-check=${Date.now()}`, {
+      cache: "no-store",
+      headers: { "cache-control": "no-cache" }
+    });
+    if (!response.ok) return;
+    const latestArchive = await response.json();
+    if (releaseFingerprint(latestArchive) === embeddedReleaseFingerprint) return;
+
+    const refreshUrl = new URL(window.location.href);
+    refreshUrl.searchParams.set("dashboard-release", latestArchive.generatedAt || latestArchive.currentEditionId || Date.now());
+    window.location.replace(refreshUrl.toString());
+  } catch (error) {
+    // A transient offline or CDN error should not interrupt the current dashboard session.
+  }
+}
+
+function enableAutomaticReleaseRefresh() {
+  window.setInterval(checkForDashboardRelease, RELEASE_CHECK_INTERVAL_MS);
+  window.addEventListener("focus", checkForDashboardRelease);
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") checkForDashboardRelease();
+  });
 }
 
 function renderMetrics() {
@@ -2426,6 +2461,7 @@ function init() {
   renderWatchlist();
   $("#rating-guide").innerHTML = ratings.map(([title, text]) => `<div class="rating-item"><h3>${title}</h3><p>${text}</p></div>`).join("");
   bindEvents();
+  enableAutomaticReleaseRefresh();
 }
 
 init();
