@@ -1,5 +1,14 @@
 # Dashboard Changelog
 
+## 2026-08-01 - Verified Review With No Material Dashboard Change
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, peer-reviewed journals, official sponsor disclosures, diagnostics, surgery/radiotherapy, supportive care, safety, India access, pricing/procurement, systems/public health, and other nonconforming categories.
+- Made no substantive dashboard-record, taxonomy, scoring, filter, layout, dossier, or source-link changes because no July 31-August 1 item was both materially decision-relevant and sufficiently verified from primary or authoritative sources.
+- Confirmed that FDA's oncology approval index still listed the July 22 zidesamtinib action as its newest visible posting and found no same-window EMA, CDSCO, WHO, trial-result, safety/withdrawal, access, or procurement milestone that cleared the inclusion threshold.
+- Assessed the JAMA research letter on 20-year trends in US cancer-medicine approvals but did not promote it because its July 30 online-publication date fell outside this run's preceding-24-hour window.
+- Kept the August 2 FDA action date for RP1 as a future verification milestone rather than inferring an outcome before an official decision.
+- Rolled the visible briefing and archive forward to the August 1 Morning Edition while keeping operational no-change language confined to this changelog and `dashboard/SOURCES.md`.
+
 ## 2026-07-31 - RP1 Melanoma Advisory-Committee Signal Added
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours, including regulator actions and advisory materials, treatment and trial readouts, diagnostics, surgery/radiotherapy, supportive care, trial methodology, India access, pricing/procurement, systems/public health, safety, and other nonconforming categories.
