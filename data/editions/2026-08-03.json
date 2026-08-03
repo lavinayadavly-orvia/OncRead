@@ -1,0 +1,94 @@
+{
+  "id": "2026-08-03",
+  "editionLabel": "3 August 2026",
+  "preparedLabel": "August 3 Morning Edition",
+  "monthKey": "2026-08",
+  "monthLabel": "August 2026",
+  "summary": "The panel recommendation moves an oncolytic immunotherapy with a contested evidence package closer to a near-term FDA decision in a difficult post-PD-1 melanoma setting. The disagreement between the favorable vote and FDA's efficacy analysis is itself decision-relevant and should not be collapsed into either an approval headline or a simple positive trial result.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 16,
+    "followupApprovals": 7,
+    "indiaMarketed": 4,
+    "watchlistSignals": 6,
+    "verifiedRecords": 33
+  },
+  "headlines": [
+    {
+      "tag": "Favorable panel vote; FDA decision pending",
+      "title": "RP1 + nivolumab FDA advisory-committee split",
+      "summary": "The panel recommendation moves an oncolytic immunotherapy with a contested evidence package closer to a near-term FDA decision in a difficult post-PD-1 melanoma setting. The disagreement between the favorable vote and FDA's efficacy analysis is itself decision-relevant and should not be collapsed into either an approval headline or a simple positive trial result."
+    },
+    {
+      "tag": "Latest verified approval",
+      "title": "Cretostimogene in BCG-Unresponsive NMIBC",
+      "summary": "Peer-reviewed publication 27 July 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Gedatolisib + Fulvestrant",
+      "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
+    },
+    {
+      "tag": "Negative trial",
+      "title": "Galleri-NHS negative screening signal",
+      "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "cretostimogene"
+      },
+      "title": "Cretostimogene in BCG-Unresponsive NMIBC",
+      "subtitle": "Peer-reviewed publication 27 July 2026",
+      "date": 1785110400000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "gedatolisib"
+      },
+      "title": "Gedatolisib + Fulvestrant",
+      "subtitle": "Phase III · US approved; India launch unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "who-cancer-report"
+      },
+      "title": "WHO/IARC cancer inequity report",
+      "subtitle": "Systems report",
+      "date": 0
+    }
+  ],
+  "sourceCount": 33,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "cretostimogene"
+      },
+      "title": "Cretostimogene in BCG-Unresponsive NMIBC",
+      "subtitle": "Peer-reviewed publication 27 July 2026",
+      "date": 1785110400000
+    }
+  }
+}

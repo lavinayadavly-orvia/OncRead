@@ -541,8 +541,8 @@ const watchlistSignals = [
     limitations: "This is not an FDA approval. The pivotal evidence is a single-arm, amended phase I/II cohort without a concurrent control; FDA found response assessment confounded by injected lesions and procedures, could not interpret overall survival, and concluded the observed effect did not reliably isolate RP1 from nivolumab. Advisory recommendations are non-binding.",
     indiaImpact: "No CDSCO authorization, India launch date, price, reimbursement decision, or procurement pathway for RP1 was verified. Any relevance to Indian practice remains investigational and dependent on a US regulatory decision plus later local access steps.",
     cost: "No official US commercial price or India price was verified because RP1 remains investigational.",
-    nextMilestone: "FDA action date on 2 August 2026; then official committee minutes/transcript, final labeling if approved, confirmatory-trial requirements, and any India filing or access announcement.",
-    verification: "Cross-checked against the FDA meeting page, FDA briefing document, voting question, prior FDA complete-response letter, and Replimune's official BLA-resubmission release. The reported 10-3 tally remains explicitly secondary until FDA or the sponsor posts an official result.",
+    nextMilestone: "Official FDA action after the 2 August 2026 goal date; then committee minutes/transcript, final labeling if approved, confirmatory-trial requirements, and any India filing or access announcement.",
+    verification: "Cross-checked against the FDA meeting page, FDA briefing document, voting question, prior FDA complete-response letter, and Replimune's official BLA-resubmission release. The reported 10-3 tally remains explicitly secondary, and no official FDA or sponsor outcome after the August 2 goal date was visible in the 3 August review.",
     source: "https://www.fda.gov/advisory-committees/advisory-committee-calendar/cellular-tissue-and-gene-therapies-advisory-committee-july-30-2026-meeting-announcement-updated",
     secondarySource: "https://www.fda.gov/media/193878/download"
   },

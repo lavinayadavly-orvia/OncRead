@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-08-01
+Updated: 2026-08-03
 
 ## Method
 
@@ -39,8 +39,27 @@ Updated: 2026-08-01
 - The 2026-07-30 review was another no-content-change pass. Open-ended official-source checks did not surface a new 29-30 July 2026 development that was both materially decision-relevant and verifiable enough for responsible promotion into the dashboard.
 - The 2026-07-31 review added a contested regulatory-evidence watchlist record after FDA convened its July 30 advisory committee on RP1 plus nivolumab for advanced melanoma. The record keeps the favorable reported 10-3 recommendation separate from FDA's substantial efficacy and contribution-of-effect concerns and does not present the event as an approval.
 - The 2026-08-01 review was a no-content-change pass. Open-ended primary-source checks did not surface a new July 31-August 1 development that was both materially decision-relevant and verifiable enough for responsible promotion into the dashboard.
+- The 2026-08-03 review added no new substantive record. Open-ended primary-source checks did not surface a new August 2-3 development that was both materially decision-relevant and verifiable enough for responsible promotion; the existing RP1 record's next-milestone wording was updated to show that its August 2 goal date had passed without an official FDA or sponsor outcome visible in this pass.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-08-03 Review-Only Checks
+
+- FDA oncology approval notifications index; the July 22 zidesamtinib action remained the newest visible oncology approval posting
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA and Replimune RP1 surfaces were rechecked after the August 2 goal date; no official approval, complete-response letter, revised action date, or other final outcome was visible in this pass
+  https://www.fda.gov/advisory-committees/advisory-committee-calendar/cellular-tissue-and-gene-therapies-advisory-committee-july-30-2026-meeting-announcement-updated
+  https://ir.replimune.com/news-releases/news-release-details/replimune-announces-fda-acceptance-rp1-biologics-license
+- EMA cancer latest-updates and news surfaces
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+  https://www.ema.europa.eu/en/news
+- CDSCO clinical-trial approvals and Subject Expert Committee surfaces
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+- PubMed, ClinicalTrials.gov, WHO/IARC, and targeted official sponsor checks did not retrieve a same-window phase III result, regulator action, safety/withdrawal event, pricing/procurement change, India-access milestone, or global cancer-system update that cleared the inclusion threshold
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
+  https://www.who.int/news-room
 
 ## 2026-08-01 Review-Only Checks
 
