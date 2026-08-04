@@ -1,5 +1,17 @@
 # Dashboard Changelog
 
+## 2026-08-04 - Pluvicto Earlier-Line Prostate Cancer Approval Added
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, surgery/radiotherapy, supportive care, safety, India access, pricing/procurement, systems/public health, and other nonconforming categories.
+- Added `Pluvicto + ARPI in mAPMN/S Prostate Cancer` after FDA posted the 31 July 2026 approval of lutetium Lu 177 vipivotide tetraxetan with androgen receptor pathway inhibitor therapy for adults with PSMA-positive metastatic androgen pathway modulation-naive or -sensitive prostate cancer.
+- Captured PSMAddition as an open-label randomized phase III study of Pluvicto plus ARPI versus ARPI alone, with radiographic progression-free survival HR 0.72 (95% CI 0.58-0.90; p=0.002), median rPFS not reached in either arm, and immature overall survival.
+- Labeled the PSMA PET selection requirement, FDA safety warnings, Project Orbis/MHRA context, radioligand logistics, and the lack of verified India price, CDSCO label update, reimbursement, procurement, or official launch date for this exact earlier-line combination indication.
+- Kept the update in the existing treatment-dossier model because it fits the regulator-backed randomized-evidence pattern; no taxonomy, filter, navigation, scoring, or layout change was needed.
+- Rechecked RP1 plus nivolumab after its August 2 FDA goal date and found no official FDA or Replimune final outcome, so the dashboard continues to keep it in `Watchlist & systems` rather than inferring approval or rejection.
+- Rechecked FDA approval/withdrawal pages, EMA, WHO/IARC, CDSCO, PubMed, ClinicalTrials.gov, and targeted sponsor surfaces; no other verified same-window oncology development cleared the materiality and verification threshold.
+- Hardened the edition builder so existing dated archive snapshots are reused rather than regenerated from the current working tree, preventing newly added records from leaking backward into older archive files.
+- Updated `dashboard/SOURCES.md` with the Pluvicto source set and rebuilt the dated morning edition/archive so the visible current briefing advances to `August 4 Morning Edition`.
+
 ## 2026-08-03 - Verified Review With No Material Dashboard Change
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, surgery/radiotherapy, supportive care, safety, India access, pricing/procurement, systems/public health, and other nonconforming categories.

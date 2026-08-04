@@ -371,6 +371,10 @@ export async function buildDashboardEditions(rootDir) {
 
   const editionsById = new Map(existingSnapshots.map(snapshot => [snapshot.id, snapshot]));
   for (const blueprint of blueprints.sort((a, b) => a.id.localeCompare(b.id))) {
+    if (blueprint.id !== currentEditionId && editionsById.has(blueprint.id)) {
+      continue;
+    }
+
     let seeds;
     if (blueprint.mode === "git") {
       seeds = loadSeedsFromGitRef(rootDir, blueprint.ref);

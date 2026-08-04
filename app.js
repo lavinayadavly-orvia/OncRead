@@ -63,6 +63,44 @@ const treatments = [
     sourceLabel: "FDA approval notice"
   },
   {
+    id: "pluvicto-mapmns", short: "Pluvicto + ARPI", name: "Pluvicto + ARPI in mAPMN/S Prostate Cancer", cancer: "Prostate cancer",
+    setting: "PSMA-positive metastatic androgen pathway modulation-naive / sensitive", company: "Novartis", phase: "Phase III",
+    impact: "High, OS immature", impactGroup: "high", maturity: 99, impactScore: 89,
+    eventDate: "2026-07-31",
+    headline: "rPFS HR 0.72", headlineNote: "PSMAddition; median rPFS not reached in either arm",
+    benefit: "FDA approved lutetium Lu 177 vipivotide tetraxetan with an androgen receptor pathway inhibitor for PSMA-positive metastatic androgen pathway modulation-naive or -sensitive prostate cancer, moving radioligand therapy into an earlier metastatic setting when PSMA PET selection is positive.",
+    safety: "Warnings include radiation exposure, myelosuppression, renal toxicity, embryo-fetal toxicity, and infertility; adverse reactions were consistent with prior Pluvicto experience.",
+    cost: "High radioligand-therapy cost and nuclear-medicine delivery burden; official new-indication price not verified", indiaPrice: "No official India price, procurement figure, or CDSCO label update for this exact mAPMN/S combination indication was verified in this pass.",
+    indiaStatus: "limited", indiaLabel: "US approved; India label unverified", launch: "FDA approval 31 July 2026",
+    indiaCaveat: "Pluvicto access in India for prostate cancer could not be confirmed from an official current source for this exact newly approved US indication; no official India launch date, price, reimbursement, or procurement pathway for mAPMN/S use was verified.",
+    limitations: "The open-label randomized trial improved radiographic progression-free survival, but median rPFS was not reached in either arm and overall survival was immature. Adoption depends on PSMA PET availability, radioligand manufacturing/logistics, radiation-safety infrastructure, renal and marrow monitoring, and payer access.",
+    detailSections: [
+      ["Event date / geography", "31 July 2026 FDA approval - United States; FDA collaborated with the UK MHRA through Project Orbis and other agency reviews were ongoing.", "wide"],
+      ["Population / sample", "Adults with PSMA-positive metastatic androgen pathway modulation-naive or -sensitive prostate cancer; FDA notes this was previously referred to as metastatic hormone-sensitive prostate cancer. PSMAddition randomized 572 patients to Pluvicto plus ARPI and 572 to ARPI alone.", "wide"],
+      ["Comparator", "Lutetium Lu 177 vipivotide tetraxetan every 6 weeks for six doses in combination with investigator-choice ARPI versus ARPI alone, with concurrent ADT or prior bilateral orchiectomy as applicable.", "wide"],
+      ["Primary endpoint", "Radiographic progression-free survival by blinded independent central review; overall survival was an additional efficacy endpoint.", "wide"],
+      ["Effect size detail", "Median rPFS was not reached in either arm; HR 0.72 (95% CI 0.58-0.90; p=0.002). FDA stated OS data were immature at the current analysis. Novartis earlier reported PSA-progression risk reduction of 58% (HR 0.42; 95% CI 0.30-0.59) as supportive PSMAddition biomarker evidence.", "wide"],
+      ["Selection requirement", "Patients should be selected using Locametz or another approved PSMA PET product based on PSMA expression in tumors.", "wide"],
+      ["Regulatory status", "FDA approved on 31 July 2026 one month ahead of the goal date. UK MHRA review was part of Project Orbis and was still ongoing in FDA's notice; no verified CDSCO or EMA authorization for this exact earlier-line indication was captured.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-lutetium-lu-177-vipivotide-tetraxetan-androgen-receptor-pathway-inhibitor-therapy",
+    sourceLabel: "FDA approval notice",
+    supportingSources: [
+      {
+        label: "FDA oncology approval notifications index",
+        url: "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications"
+      },
+      {
+        label: "Novartis PSMAddition PSA response update",
+        url: "https://www.novartis.com/news/media-releases/new-psmaddition-data-show-58-lower-risk-psa-progression-pluvicto-metastatic-hormone-sensitive-prostate-cancer"
+      },
+      {
+        label: "ClinicalTrials.gov PSMAddition registry",
+        url: "https://clinicaltrials.gov/study/NCT04720157"
+      }
+    ]
+  },
+  {
     id: "selpercatinib", short: "Retevmo", name: "Tumor-Agnostic Selpercatinib", cancer: "RET fusion solid tumors",
     setting: "Locally advanced or metastatic, post-systemic therapy", company: "Eli Lilly and Company", phase: "Basket trial / registrational",
     impact: "High in biomarker-defined rare cancers", impactGroup: "high", maturity: 99, impactScore: 88,
@@ -761,6 +799,7 @@ const portfolioAliasRules = [
   { match: /nivolumab/i, aliases: ["Opdivo"] },
   { match: /pembrolizumab/i, aliases: ["Keytruda"] },
   { match: /gedatolisib|revtorpyk/i, aliases: ["Revtorpyk"] },
+  { match: /pluvicto|lutetium|vipivotide|psma/i, aliases: ["Pluvicto", "Lu-PSMA-617", "Locametz"] },
   { match: /zidesamtinib|jideytro/i, aliases: ["Jideytro"] },
   { match: /enfortumab vedotin|padcev/i, aliases: ["Padcev"] },
   { match: /durvalumab/i, aliases: ["Imfinzi"] },
