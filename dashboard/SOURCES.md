@@ -43,31 +43,41 @@ Updated: 2026-08-07
 - The 2026-08-04 review added one FDA-backed prostate-cancer treatment dossier after the FDA oncology approval notifications index showed the 31 July 2026 approval of Pluvicto with androgen receptor pathway inhibitor therapy for PSMA-positive metastatic androgen pathway modulation-naive or -sensitive prostate cancer. The dossier captures PSMAddition randomized evidence, immature overall survival, PSMA PET selection, radioligand safety/logistics, Project Orbis context, and unverified India price/label status.
 - The 2026-08-05 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 4-5 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-06 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 5-6 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
-- The 2026-08-07 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 6-7 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
+- The 2026-08-07 review added one FDA regulatory-policy and trial-methodology watchlist record after FDA posted its 6 August 2026 Operation TrialBlazer clinical-development modernization package. The record is not represented as a treatment approval; it captures the oncology relevance, draft/proposed nature, evidence limits, India indirectness, and next verification milestones.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
 
-## 2026-08-07 Review-Only Checks
+## 2026-08-07 Verified Update
 
-- FDA oncology approval notifications index; the 31 July 2026 Pluvicto combination approval remained the newest visible oncology posting in this pass
-  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
-- FDA withdrawn cancer accelerated approvals page; no new same-window oncology withdrawal was visible
-  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
-- FDA's August 6 clinical-development modernization page and Expedited IND pilot webinar were assessed as cross-therapeutic development-policy activity rather than a new oncology-specific care, evidence, or access milestone
+- FDA Actions to Accelerate and Modernize Early and Late-Stage Clinical Development; FDA posted the Operation TrialBlazer package on 6 August 2026, covering expedited IND concepts, phase-specific CMC expectations, QSP/MABEL dose-selection draft guidance, substantial-evidence guidance, and master-protocol guidance
   https://www.fda.gov/industry/fda-actions-accelerate-and-modernize-early-and-late-stage-clinical-development
+- FDA Expedited IND Pilot Program educational webinar page; same-day webinar/RFI support for the proposed pilot and August 24, 2026 comment deadline
   https://www.fda.gov/news-events/fda-meetings-conferences-and-workshops/expedited-ind-pilot-program-educational-webinar-stakeholders-08062026
+- HHS Operation TrialBlazer release; background check on the department-wide clinical-trials reform initiative
+  https://www.hhs.gov/press-room/hhs-launches-clinical-trials-reform-initiative.html
+- FDA oncology approval notifications index; no newer oncology drug approval posting displaced the 31 July 2026 Pluvicto combination approval
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA withdrawn cancer accelerated approvals page; no new same-window oncology withdrawal was visible beyond the 22 June 2026 Tazverik withdrawals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
 - FDA and Replimune RP1 surfaces were rechecked after the August 2 goal date; no official approval, complete-response letter, revised action date, or other final outcome was visible in this pass
   https://www.fda.gov/advisory-committees/advisory-committee-calendar/cellular-tissue-and-gene-therapies-advisory-committee-july-30-2026-meeting-announcement-updated
   https://ir.replimune.com/news-releases/news-release-details/replimune-announces-fda-acceptance-rp1-biologics-license
-- EMA cancer update/news, CDSCO, WHO/IARC, PubMed, ClinicalTrials.gov, major journal, and targeted official sponsor checks did not retrieve an August 6-7 phase III result, regulator action, safety or withdrawal event, pricing or procurement change, India-access milestone, or global cancer-system update that cleared the inclusion threshold
-  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+- EMA, CDSCO, WHO/IARC, PubMed, ClinicalTrials.gov, major journal, and targeted official sponsor checks did not retrieve another August 6-7 phase III result, cancer-specific regulator action, safety or withdrawal event, pricing or procurement change, India-access milestone, or global cancer-system update that cleared the inclusion threshold
   https://www.ema.europa.eu/en/news
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
   https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
   https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
   https://www.who.int/news-room
   https://www.iarc.who.int/news-events/
   https://pubmed.ncbi.nlm.nih.gov/
   https://clinicaltrials.gov/
+
+## 2026-08-07 Checked But Not Promoted
+
+- The FDA TrialBlazer package was promoted only as a watchlist and systems signal because it is a regulator-level trial-methodology policy package, not a cancer-specific treatment approval, guideline, reimbursement decision, or completed clinical result.
+- No information-architecture change was needed. The existing `Watchlist & systems` model can represent regulator/trial-methodology signals with explicit implementation gaps, India indirectness, and next verification milestones.
+- RP1 plus nivolumab remains in `Watchlist & systems`; no official FDA or Replimune final action after the August 2 goal date was verified.
+- Searches of FDA oncology approvals/withdrawals, EMA, CDSCO, WHO/IARC, major journals, PubMed, ClinicalTrials.gov, and targeted sponsor surfaces did not retrieve another same-window oncology development that was material and verified enough for dashboard promotion.
 
 ## 2026-08-06 Review-Only Checks
 

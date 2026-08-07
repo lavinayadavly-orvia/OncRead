@@ -4,17 +4,22 @@
   "preparedLabel": "August 7 Morning Edition",
   "monthKey": "2026-08",
   "monthLabel": "August 2026",
-  "summary": "FDA approved lutetium Lu 177 vipivotide tetraxetan with an androgen receptor pathway inhibitor for PSMA-positive metastatic androgen pathway modulation-naive or -sensitive prostate cancer, moving radioligand therapy into an earlier metastatic setting when PSMA PET selection is positive.",
+  "summary": "Oncology development relies heavily on first-in-human dose selection, complex biologics, targeted therapies, rare molecular subsets, basket/platform trials, and single pivotal datasets with confirmatory evidence. A regulator-level change to these evidence pathways can alter trial startup, study design, investment decisions, and how quickly investigational cancer therapies reach patients.",
   "provenance": "Generated from the current working tree.",
   "metrics": {
     "insights": 4,
     "treatments": 17,
     "followupApprovals": 7,
     "indiaMarketed": 4,
-    "watchlistSignals": 6,
-    "verifiedRecords": 34
+    "watchlistSignals": 7,
+    "verifiedRecords": 35
   },
   "headlines": [
+    {
+      "tag": "FDA policy package",
+      "title": "FDA Operation TrialBlazer trial-policy package",
+      "summary": "Oncology development relies heavily on first-in-human dose selection, complex biologics, targeted therapies, rare molecular subsets, basket/platform trials, and single pivotal datasets with confirmatory evidence. A regulator-level change to these evidence pathways can alter trial startup, study design, investment decisions, and how quickly investigational cancer therapies reach patients."
+    },
     {
       "tag": "Latest verified approval",
       "title": "Pluvicto + ARPI in mAPMN/S Prostate Cancer",
@@ -73,7 +78,7 @@
       "date": 0
     }
   ],
-  "sourceCount": 34,
+  "sourceCount": 35,
   "routeSummary": {
     "approval": {
       "route": {

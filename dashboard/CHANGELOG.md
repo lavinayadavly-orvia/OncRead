@@ -1,13 +1,14 @@
 # Dashboard Changelog
 
-## 2026-08-07 - Verified Review With No Material Dashboard Change
+## 2026-08-07 - FDA TrialBlazer Policy Watchlist Added
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
-- Added no new substantive dashboard record and made no taxonomy, scoring, filter, layout, dossier, or source-link changes because no August 6-7 item was both materially decision-relevant and sufficiently verified from primary or authoritative sources.
-- Confirmed that FDA's oncology approval index still showed the 31 July 2026 Pluvicto combination approval as its newest visible oncology posting and found no same-window FDA withdrawal, EMA, CDSCO, WHO/IARC, trial-result, safety, access, or procurement milestone that cleared the inclusion threshold.
-- Assessed FDA's August 6 clinical-development modernization page and Expedited IND pilot webinar. These are broad cross-therapeutic development-policy activities, not a new oncology-specific treatment, evidence, safety, or access milestone, so they were recorded in the source ledger without adding a frontend record.
-- Rechecked FDA and Replimune after the August 2 RP1 goal date. No official approval, rejection, complete-response letter, revised action date, or other final outcome was visible, so the dashboard continues to show the outcome as pending.
-- Rolled the visible briefing and archive forward to the August 7 Morning Edition while keeping operational no-change language confined to this changelog and `dashboard/SOURCES.md`; the frontend continues to lead with the latest verified oncology evidence.
+- Added `FDA Operation TrialBlazer trial-policy package` to `Watchlist & systems` after FDA posted its 6 August 2026 clinical-development modernization package spanning expedited IND concepts, phase-specific CMC expectations, model-informed first-in-human dose selection, one-trial-plus-confirmatory-evidence guidance, and master protocol guidance.
+- Treated the item as a regulatory policy and trial-methodology signal, not as an oncology treatment approval, because the trigger is a broad FDA policy package with oncology-relevant implications for early-phase cancer trials, basket/platform designs, rare molecular subsets, and evidence-package planning.
+- Captured who and where it affects, the decisions it may change for oncology sponsors and trial networks, the draft/proposed nature of several components, the absence of direct CDSCO or India access action, and the next milestones including the 24 August 2026 Expedited IND pilot comment deadline.
+- Made no new taxonomy, filter, scoring, layout, or navigation change because the existing watchlist dossier model already supports regulator, systems, and trial-methodology signals that should not be forced into treatment cards.
+- Rechecked FDA oncology approvals and withdrawals, RP1 FDA/Replimune surfaces, EMA, WHO/IARC, CDSCO, PubMed, ClinicalTrials.gov, major journals, and targeted sponsor surfaces; no other August 6-7 item cleared the materiality and verification threshold.
+- Updated `dashboard/SOURCES.md` and rebuilt the dated morning edition/archive so the visible current briefing advances to `August 7 Morning Edition`.
 - No detailed Word report was modified.
 
 ## 2026-08-06 - Verified Review With No Material Dashboard Change

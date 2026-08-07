@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T04:05:18.095Z",
+  "generatedAt": "2026-08-07T04:10:54.645Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -2362,10 +2362,106 @@
       ]
     },
     {
-      "id": "watchlist:rp1-adcom",
+      "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
       "order": 28,
+      "title": "FDA Operation TrialBlazer trial-policy package",
+      "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
+      "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
+      "snapshot": "FDA policy package · 6 August 2026",
+      "summary": "Oncology development relies heavily on first-in-human dose selection, complex biologics, targeted therapies, rare molecular subsets, basket/platform trials, and single pivotal datasets with confirmatory evidence. A regulator-level change to these evidence pathways can alter trial startup, study design, investment decisions, and how quickly investigational cancer therapies reach patients.",
+      "headline": "FDA stated that phase-appropriate early-development expectations could save 6 to 12 months of development time, announced an Expedited IND pilot concept with rolling IND submission and qualified research-institution partners, and revised late-stage guidance on substantial evidence and master protocols, including basket, umbrella, and platform trials.",
+      "statusLabel": "FDA policy package",
+      "badges": [
+        "FDA policy package",
+        "Trial methodology / regulatory policy",
+        "United States; global sponsor relevance"
+      ],
+      "searchText": "fda operation trialblazer trial-policy package trialblazer trial methodology / regulatory policy all cancers united states; global sponsor relevance u.s. food and drug administration; u.s. department of health and human services operation trialblazer fda announced a clinical-development modernization package spanning expedited first-in-human ind preparation, phase-specific cmc expectations, dose-selection guidance, one-trial-plus-confirmatory-evidence approaches, and master protocol guidance. fda stated that phase-appropriate early-development expectations could save 6 to 12 months of development time, announced an expedited ind pilot concept with rolling ind submission and qualified research-institution partners, and revised late-stage guidance on substantial evidence and master protocols, including basket, umbrella, and platform trials. whether oncology sponsors redesign early ind packages, use quantitative systems pharmacology or other model-informed starting-dose methods, pursue master-protocol structures, or plan evidence packages around one rigorous trial plus confirmatory evidence rather than defaulting to duplicate pivotal trials. oncology development relies heavily on first-in-human dose selection, complex biologics, targeted therapies, rare molecular subsets, basket/platform trials, and single pivotal datasets with confirmatory evidence. a regulator-level change to these evidence pathways can alter trial startup, study design, investment decisions, and how quickly investigational cancer therapies reach patients.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "fda-trialblazer",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.fda.gov/industry/fda-actions-accelerate-and-modernize-early-and-late-stage-clinical-development"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://www.fda.gov/news-events/fda-meetings-conferences-and-workshops/expedited-ind-pilot-program-educational-webinar-stakeholders-08062026"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "FDA announced a clinical-development modernization package spanning expedited first-in-human IND preparation, phase-specific CMC expectations, dose-selection guidance, one-trial-plus-confirmatory-evidence approaches, and master protocol guidance."
+        ],
+        [
+          "Population / sample",
+          "Drug and biologic sponsors, academic medical centers, contract research organizations, oncology trial networks, regulators, and patients affected by trial-startup and pivotal-evidence timelines."
+        ],
+        [
+          "Comparator",
+          "Current sequential IND and pivotal-trial development practices versus proposed or updated FDA processes intended to reduce avoidable delay while retaining safety and effectiveness standards."
+        ],
+        [
+          "Observed effect",
+          "FDA stated that phase-appropriate early-development expectations could save 6 to 12 months of development time, announced an Expedited IND pilot concept with rolling IND submission and qualified research-institution partners, and revised late-stage guidance on substantial evidence and master protocols, including basket, umbrella, and platform trials.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "Oncology development relies heavily on first-in-human dose selection, complex biologics, targeted therapies, rare molecular subsets, basket/platform trials, and single pivotal datasets with confirmatory evidence. A regulator-level change to these evidence pathways can alter trial startup, study design, investment decisions, and how quickly investigational cancer therapies reach patients.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "US oncology sponsors and trial sites are most directly affected; global oncology developers, academic cancer centers, patients seeking early-phase trials, and regulators or payers interpreting FDA precedent may also be affected.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Whether oncology sponsors redesign early IND packages, use quantitative systems pharmacology or other model-informed starting-dose methods, pursue master-protocol structures, or plan evidence packages around one rigorous trial plus confirmatory evidence rather than defaulting to duplicate pivotal trials.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "High for the existence and scope of the FDA policy package because the trigger is an FDA page and linked FDA webinar/RFI materials. Evidence is policy-level, not clinical-outcome evidence, and several components remain draft guidance, proposed pilots, or requests for public feedback."
+        ],
+        [
+          "India relevance",
+          "No direct CDSCO policy change was verified. India relevance is indirect: global oncology programs may adapt study design or evidence generation around FDA expectations, while Indian trial sites and regulators may later face protocol designs influenced by these US policy shifts.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not applicable for therapy pricing. Potential development-cost and time savings are policy claims; no official product price, procurement figure, or India reimbursement effect applies."
+        ],
+        [
+          "Current limitation",
+          "This is not an oncology approval, guideline, reimbursement decision, or completed trial. It does not establish that any specific cancer drug can use a shortened path, and implementation details, eligibility, review consistency, and international uptake remain uncertain.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "FDA comment deadline for the Expedited IND pilot RFI on 24 August 2026, final or revised guidance adoption, pilot launch criteria, and oncology-specific examples showing how sponsors use the new pathways."
+        ],
+        [
+          "Verification note",
+          "Captured from FDA's 6 August 2026 clinical-development modernization page and cross-checked against FDA's same-day Expedited IND webinar page and the earlier HHS Operation TrialBlazer release. Treated as a watchlist signal because implementation is pending and cancer-specific effects are inferential.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:rp1-adcom",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 29,
       "title": "RP1 + nivolumab FDA advisory-committee split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -2461,7 +2557,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 29,
+      "order": 30,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -2557,7 +2653,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 30,
+      "order": 31,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -2653,7 +2749,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 31,
+      "order": 32,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -2749,7 +2845,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 32,
+      "order": 33,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -2845,7 +2941,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 33,
+      "order": 34,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -2939,7 +3035,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 56,
+    "sourcesChecked": 58,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,
