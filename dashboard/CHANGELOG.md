@@ -1,5 +1,15 @@
 # Dashboard Changelog
 
+## 2026-08-07 - Verified Review With No Material Dashboard Change
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Added no new substantive dashboard record and made no taxonomy, scoring, filter, layout, dossier, or source-link changes because no August 6-7 item was both materially decision-relevant and sufficiently verified from primary or authoritative sources.
+- Confirmed that FDA's oncology approval index still showed the 31 July 2026 Pluvicto combination approval as its newest visible oncology posting and found no same-window FDA withdrawal, EMA, CDSCO, WHO/IARC, trial-result, safety, access, or procurement milestone that cleared the inclusion threshold.
+- Assessed FDA's August 6 clinical-development modernization page and Expedited IND pilot webinar. These are broad cross-therapeutic development-policy activities, not a new oncology-specific treatment, evidence, safety, or access milestone, so they were recorded in the source ledger without adding a frontend record.
+- Rechecked FDA and Replimune after the August 2 RP1 goal date. No official approval, rejection, complete-response letter, revised action date, or other final outcome was visible, so the dashboard continues to show the outcome as pending.
+- Rolled the visible briefing and archive forward to the August 7 Morning Edition while keeping operational no-change language confined to this changelog and `dashboard/SOURCES.md`; the frontend continues to lead with the latest verified oncology evidence.
+- No detailed Word report was modified.
+
 ## 2026-08-06 - Verified Review With No Material Dashboard Change
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
