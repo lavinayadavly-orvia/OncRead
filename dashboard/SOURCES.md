@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-08-07
+Updated: 2026-08-09
 
 ## Method
 
@@ -44,8 +44,28 @@ Updated: 2026-08-07
 - The 2026-08-05 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 4-5 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-06 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 5-6 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-07 review added one FDA regulatory-policy and trial-methodology watchlist record after FDA posted its 6 August 2026 Operation TrialBlazer clinical-development modernization package. The record is not represented as a treatment approval; it captures the oncology relevance, draft/proposed nature, evidence limits, India indirectness, and next verification milestones.
+- The 2026-08-09 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 8-9 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-08-09 Review-Only Checks
+
+- FDA oncology approval notifications index; the 31 July 2026 Pluvicto combination approval remained the newest visible oncology posting in this pass
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA withdrawn cancer accelerated approvals page; no new same-window oncology withdrawal was visible
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- FDA and Replimune RP1 surfaces were rechecked after the August 2 goal date; no official approval, complete-response letter, revised action date, or other final outcome was visible in this pass
+  https://www.fda.gov/advisory-committees/advisory-committee-calendar/cellular-tissue-and-gene-therapies-advisory-committee-july-30-2026-meeting-announcement-updated
+  https://ir.replimune.com/news-releases/news-release-details/replimune-announces-fda-acceptance-rp1-biologics-license
+- EMA cancer update/news, CDSCO, WHO/IARC, PubMed, ClinicalTrials.gov, major journal, and targeted official sponsor checks did not retrieve an August 8-9 phase III result, regulator action, safety or withdrawal event, pricing or procurement change, India-access milestone, or global cancer-system update that cleared the inclusion threshold
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+  https://www.ema.europa.eu/en/news
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-08-07 Verified Update
 

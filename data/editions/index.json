@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-08-07T04:10:54.673Z",
-  "currentEditionId": "2026-08-07",
-  "currentEditionLabel": "7 August 2026",
+  "generatedAt": "2026-08-09T04:22:22.165Z",
+  "currentEditionId": "2026-08-09",
+  "currentEditionLabel": "9 August 2026",
   "editions": [
+    {
+      "id": "2026-08-09",
+      "editionLabel": "9 August 2026",
+      "preparedLabel": "August 9 Morning Edition",
+      "monthKey": "2026-08",
+      "monthLabel": "August 2026",
+      "summary": "Oncology development relies heavily on first-in-human dose selection, complex biologics, targeted therapies, rare molecular subsets, basket/platform trials, and single pivotal datasets with confirmatory evidence. A regulator-level change to these evidence pathways can alter trial startup, study design, investment decisions, and how quickly investigational cancer therapies reach patients.",
+      "file": "/data/editions/2026-08-09.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 17,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 7,
+        "verifiedRecords": 35
+      }
+    },
     {
       "id": "2026-08-07",
       "editionLabel": "7 August 2026",
@@ -484,8 +501,36 @@
     {
       "monthKey": "2026-08",
       "monthLabel": "August 2026",
-      "leadEditionId": "2026-08-07",
+      "leadEditionId": "2026-08-09",
       "highlights": [
+        {
+          "editionId": "2026-08-09",
+          "editionLabel": "9 August 2026",
+          "tag": "FDA policy package",
+          "title": "FDA Operation TrialBlazer trial-policy package",
+          "summary": "Oncology development relies heavily on first-in-human dose selection, complex biologics, targeted therapies, rare molecular subsets, basket/platform trials, and single pivotal datasets with confirmatory evidence. A regulator-level change to these evidence pathways can alter trial startup, study design, investment decisions, and how quickly investigational cancer therapies reach patients."
+        },
+        {
+          "editionId": "2026-08-09",
+          "editionLabel": "9 August 2026",
+          "tag": "Latest verified approval",
+          "title": "Pluvicto + ARPI in mAPMN/S Prostate Cancer",
+          "summary": "FDA approval 31 July 2026"
+        },
+        {
+          "editionId": "2026-08-09",
+          "editionLabel": "9 August 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Gedatolisib + Fulvestrant",
+          "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
+        },
+        {
+          "editionId": "2026-08-09",
+          "editionLabel": "9 August 2026",
+          "tag": "Negative trial",
+          "title": "Galleri-NHS negative screening signal",
+          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
+        },
         {
           "editionId": "2026-08-07",
           "editionLabel": "7 August 2026",
@@ -499,34 +544,6 @@
           "tag": "Latest verified approval",
           "title": "Pluvicto + ARPI in mAPMN/S Prostate Cancer",
           "summary": "FDA approval 31 July 2026"
-        },
-        {
-          "editionId": "2026-08-07",
-          "editionLabel": "7 August 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Gedatolisib + Fulvestrant",
-          "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
-        },
-        {
-          "editionId": "2026-08-07",
-          "editionLabel": "7 August 2026",
-          "tag": "Negative trial",
-          "title": "Galleri-NHS negative screening signal",
-          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
-        },
-        {
-          "editionId": "2026-08-06",
-          "editionLabel": "6 August 2026",
-          "tag": "Latest verified approval",
-          "title": "Pluvicto + ARPI in mAPMN/S Prostate Cancer",
-          "summary": "FDA approval 31 July 2026"
-        },
-        {
-          "editionId": "2026-08-06",
-          "editionLabel": "6 August 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Gedatolisib + Fulvestrant",
-          "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
         }
       ]
     },
