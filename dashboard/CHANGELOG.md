@@ -2,6 +2,7 @@
 
 ## 2026-08-09 - Verified Review With No Material Dashboard Change
 
+- Replaced the visible archive-continuity sentence in the live briefing pulse with reader-facing oncology guidance, and updated the release helper so future publishes retain the cleaner wording.
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
 - Added no new substantive dashboard record and made no taxonomy, scoring, filter, layout, dossier, or source-link changes because no August 8-9 item was both materially decision-relevant and sufficiently verified from primary or authoritative sources.
 - Confirmed that FDA's oncology approval index still showed the 31 July 2026 Pluvicto combination approval as its newest visible oncology posting and found no same-window FDA withdrawal, EMA, CDSCO, WHO/IARC, trial-result, safety, access, or procurement milestone that cleared the inclusion threshold.

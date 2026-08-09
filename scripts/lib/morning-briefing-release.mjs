@@ -149,7 +149,7 @@ export async function syncMorningBriefingShell(rootDir, editionId) {
   const headline = edition.headlines?.[0]?.title || "Morning briefing";
   const summary = edition.summary || "Current morning edition";
   const preparedLabel = edition.preparedLabel || preparedLabelForEdition(editionId);
-  const pulseSummary = `${edition.monthLabel || "Current month"} stays visible as the monthly headline view, and ${edition.editionLabel || "today's edition"} remains available as the dated weekly briefing.`;
+  const pulseSummary = "Review the lead development, regulatory decision points, and evidence limitations shaping oncology care.";
 
   const next = replaceElementText(
     replaceElementText(

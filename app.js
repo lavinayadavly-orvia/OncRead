@@ -1717,9 +1717,7 @@ function renderInsights() {
     sidebarPreparedDate.textContent = currentEdition.preparedLabel || "Prepared date loading";
   }
   if (hasCurrentBriefing) {
-    $("#briefing-pulse-summary").textContent = currentMonth
-      ? `${currentMonth.monthLabel} stays visible as the monthly headline view, and ${currentEdition.editionLabel || "today's edition"} remains available as the dated weekly briefing.`
-      : "Current edition continuity and monthly headline retention will appear here once the archive is loaded.";
+    $("#briefing-pulse-summary").textContent = "Review the lead development, regulatory decision points, and evidence limitations shaping oncology care.";
     $("#briefing-tag-row").innerHTML = [
       ["Live edition", currentEdition.editionLabel || "Current state"],
       ["Lead headline", featuredLabel],
