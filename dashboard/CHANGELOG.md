@@ -1,5 +1,16 @@
 # Dashboard Changelog
 
+## 2026-08-10 - Bemotrizinol Sunscreen Prevention Milestone Added
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across treatment, prevention, regulators, trials, journals, safety, screening, diagnostics, India access, pricing, procurement, systems, and public health.
+- Added `Bemotrizinol sunscreen order takes effect` to `Watchlist & systems` after FDA Final Administrative Order OTC000039 became effective on 9 August 2026, permitting bemotrizinol at concentrations up to 6% in compliant US OTC sunscreen products under specified monograph conditions.
+- Represented the event as a skin-cancer prevention and regulatory-policy milestone rather than a therapy approval or comparative clinical claim. The dossier explicitly separates FDA's GRASE finding and UVA/UVB protection from unproven ingredient-level superiority for cancer prevention.
+- Captured the affected population, manufacturer pathway, 18-month statutory exclusivity context, manufacturer-determined retail timing, absence of an announced product price, and lack of verified CDSCO or India-market action.
+- Made no taxonomy, filter, scoring, layout, or navigation change because the existing watchlist model already supports prevention and regulatory milestones.
+- Rechecked other FDA oncology approval and withdrawal surfaces, EMA, CDSCO, WHO/IARC, PubMed, ClinicalTrials.gov, major journals, and targeted official sponsor sources; no other August 9-10 development cleared the inclusion threshold.
+- Updated the source ledger and rolled the visible briefing/archive forward to the August 10 Morning Edition without exposing operational review language on the frontend.
+- No detailed Word report was modified.
+
 ## 2026-08-09 - Verified Review With No Material Dashboard Change
 
 - Replaced the visible archive-continuity sentence in the live briefing pulse with reader-facing oncology guidance, and updated the release helper so future publishes retain the cleaner wording.

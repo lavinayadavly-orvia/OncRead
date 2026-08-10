@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-08-09
+Updated: 2026-08-10
 
 ## Method
 
@@ -45,8 +45,35 @@ Updated: 2026-08-09
 - The 2026-08-06 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 5-6 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-07 review added one FDA regulatory-policy and trial-methodology watchlist record after FDA posted its 6 August 2026 Operation TrialBlazer clinical-development modernization package. The record is not represented as a treatment approval; it captures the oncology relevance, draft/proposed nature, evidence limits, India indirectness, and next verification milestones.
 - The 2026-08-09 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 8-9 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
+- The 2026-08-10 review added a prevention and regulatory-policy watchlist record when FDA Final Administrative Order OTC000039 took effect on 9 August 2026, permitting bemotrizinol in compliant US OTC sunscreen products under specified conditions.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-08-10 Verified Update
+
+- FDA Final Administrative Order OTC000039; effective 9 August 2026, adding bemotrizinol at up to 6% to OTC Monograph M020 under specified conditions
+  https://www.accessdata.fda.gov/drugsatfda_docs/omuf/order/supportDoc/OTC000039/Final_Administrative_Order.pdf
+- FDA scientific review supporting the final order
+  https://www.accessdata.fda.gov/drugsatfda_docs/omuf/order/supportDoc/OTC000039/Scientific_Review.pdf
+- FDA announcement describing UVA/UVB protection, low systemic absorption, GRASE status for adults and children 6 months and older, and the ingredient's first-in-decades US monograph milestone
+  https://www.fda.gov/news-events/press-announcements/fda-expands-sunscreen-options-first-time-20-years
+- FDA sunscreen consumer guidance; retail timing remains manufacturer-determined and sunscreen should be combined with other sun-protection measures
+  https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun
+- FDA oncology approval/withdrawal, EMA, CDSCO, WHO/IARC, PubMed, ClinicalTrials.gov, major journal, and targeted sponsor checks did not retrieve another August 9-10 oncology development that cleared the inclusion threshold
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
+
+## 2026-08-10 Checked But Not Promoted
+
+- The order was represented as a prevention and regulatory-policy watchlist signal, not as a treatment approval or proof that bemotrizinol is superior to other sunscreen ingredients for preventing cancer.
+- Product-specific US availability, price, comparative clinical outcomes, adherence benefits, and India regulatory or market status remain unverified.
+- RP1 plus nivolumab remains pending because no official FDA or Replimune final action after its August 2 goal date was verified.
 
 ## 2026-08-09 Review-Only Checks
 

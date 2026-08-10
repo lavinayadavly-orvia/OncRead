@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T04:29:26.314Z",
+  "generatedAt": "2026-08-10T04:03:26.411Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -2362,10 +2362,106 @@
       ]
     },
     {
-      "id": "watchlist:fda-trialblazer",
+      "id": "watchlist:bemotrizinol-sunscreen",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
       "order": 28,
+      "title": "Bemotrizinol sunscreen order takes effect",
+      "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
+      "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
+      "snapshot": "FDA order effective · 9 August 2026",
+      "summary": "Sunscreen is a cancer-prevention intervention. The effective order expands the ingredients manufacturers may use in US products and may improve formulation choice, but it does not by itself prove superior skin-cancer prevention or mean products are immediately available on shelves.",
+      "headline": "FDA concluded bemotrizinol is generally recognized as safe and effective at concentrations up to 6% under the order's conditions. It provides UVA and UVB protection and is the first new active ingredient added to the US OTC sunscreen monograph since the late 1990s.",
+      "statusLabel": "FDA order effective",
+      "badges": [
+        "FDA order effective",
+        "Prevention / regulatory policy",
+        "United States; ingredient already used in multiple other markets"
+      ],
+      "searchText": "bemotrizinol sunscreen order takes effect bemotrizinol prevention / regulatory policy skin cancer prevention united states; ingredient already used in multiple other markets u.s. food and drug administration; dsm nutritional products llc fda's final administrative order permitting bemotrizinol as an active ingredient in nonprescription sunscreen products took effect under otc monograph m020. fda concluded bemotrizinol is generally recognized as safe and effective at concentrations up to 6% under the order's conditions. it provides uva and uvb protection and is the first new active ingredient added to the us otc sunscreen monograph since the late 1990s. manufacturers may now formulate compliant us otc sunscreens with bemotrizinol, while clinicians and consumers should continue to judge products by broad-spectrum protection, spf, correct use, and combined sun-protection measures rather than assuming ingredient-level superiority. sunscreen is a cancer-prevention intervention. the effective order expands the ingredients manufacturers may use in us products and may improve formulation choice, but it does not by itself prove superior skin-cancer prevention or mean products are immediately available on shelves.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "bemotrizinol-sunscreen",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/omuf/order/supportDoc/OTC000039/Final_Administrative_Order.pdf"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-expands-sunscreen-options-first-time-20-years"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "FDA's final administrative order permitting bemotrizinol as an active ingredient in nonprescription sunscreen products took effect under OTC Monograph M020."
+        ],
+        [
+          "Population / sample",
+          "Adults and children 6 months and older using sunscreen in the United States; manufacturers formulating compliant OTC sunscreen products."
+        ],
+        [
+          "Comparator",
+          "Existing permitted US sunscreen active ingredients and formulations; this is a monograph authorization, not a comparative cancer-prevention trial."
+        ],
+        [
+          "Observed effect",
+          "FDA concluded bemotrizinol is generally recognized as safe and effective at concentrations up to 6% under the order's conditions. It provides UVA and UVB protection and is the first new active ingredient added to the US OTC sunscreen monograph since the late 1990s.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "Sunscreen is a cancer-prevention intervention. The effective order expands the ingredients manufacturers may use in US products and may improve formulation choice, but it does not by itself prove superior skin-cancer prevention or mean products are immediately available on shelves.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "US consumers, dermatology and prevention clinicians, sunscreen manufacturers, retailers, and public-health programs promoting sun protection are directly affected. Other countries are not covered by this FDA order.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Manufacturers may now formulate compliant US OTC sunscreens with bemotrizinol, while clinicians and consumers should continue to judge products by broad-spectrum protection, SPF, correct use, and combined sun-protection measures rather than assuming ingredient-level superiority.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "High for the regulatory status and permitted conditions because the source is FDA's final administrative order and supporting scientific review. Evidence here is regulatory and prevention-policy evidence, not randomized evidence comparing skin-cancer incidence between sunscreen ingredients."
+        ],
+        [
+          "India relevance",
+          "No CDSCO rule change, India launch, product price, procurement decision, or new Indian sunscreen standard was verified. Bemotrizinol-containing products may already exist under other jurisdictions, but this FDA action applies only to the United States.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "No official product price was announced. The order grants DSM or its licensees, assignees, or successors 18 months of statutory exclusivity for drugs incorporating the described change, beginning when lawful marketing under the order is possible."
+        ],
+        [
+          "Current limitation",
+          "The final order was posted in June 2026 and became effective on 9 August 2026. FDA states that manufacturers determine retail timing. No product-specific launch, price, comparative efficacy advantage, adherence gain, or reduction in melanoma or keratinocyte-cancer incidence was established by this action.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "First compliant US product launches, labeling and formulation details, real-world availability and price, and any later evidence on adherence, tolerability, or population-level prevention outcomes."
+        ],
+        [
+          "Verification note",
+          "Verified against FDA Final Administrative Order OTC000039, the supporting FDA scientific review, FDA's June 2026 announcement, and FDA's sunscreen consumer guidance. Promoted on the 9 August 2026 effective date as a prevention and regulatory milestone, not as a cancer treatment or comparative efficacy claim.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:fda-trialblazer",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 29,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -2461,7 +2557,7 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 29,
+      "order": 30,
       "title": "RP1 + nivolumab FDA advisory-committee split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -2557,7 +2653,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 30,
+      "order": 31,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -2653,7 +2749,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 31,
+      "order": 32,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -2749,7 +2845,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 32,
+      "order": 33,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -2845,7 +2941,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 33,
+      "order": 34,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -2941,7 +3037,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 34,
+      "order": 35,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -3035,7 +3131,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 58,
+    "sourcesChecked": 60,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,
