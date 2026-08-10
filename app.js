@@ -101,6 +101,44 @@ const treatments = [
     ]
   },
   {
+    id: "tudriqev-rp1", short: "Tudriqev + nivolumab", name: "Tudriqev + Nivolumab", cancer: "Melanoma",
+    setting: "Unresectable advanced cutaneous melanoma after anti-PD-1 progression", company: "Replimune + Bristol Myers Squibb", phase: "Single-arm IGNYTE; accelerated approval",
+    impact: "High unmet-need approval, confirmatory trial required", impactGroup: "high", maturity: 99, impactScore: 86,
+    eventDate: "2026-08-06",
+    headline: "ORR 24.2%", headlineNote: "Median DoR 14.1 months; accelerated approval",
+    benefit: "FDA granted accelerated approval to vusolimogene oderparepvec-wtpg, a genetically modified oncolytic viral therapy marketed as Tudriqev, with nivolumab for adults with unresectable advanced cutaneous melanoma whose disease progressed on a PD-1-blocking antibody-based regimen.",
+    safety: "Warnings and precautions include accidental exposure, herpetic infection or reactivation, injection-procedure complications, and immune-mediated events. Common adverse reactions included fatigue, pyrexia, infections, chills, musculoskeletal pain, gastrointestinal symptoms, injection-site reaction, rash, dyspnea, hemorrhage, edema, and abdominal pain.",
+    cost: "New intratumoral oncolytic viral therapy plus nivolumab cost; official commercial price not verified", indiaPrice: "No official US price, India price, CDSCO approval, reimbursement, procurement figure, or India launch date for Tudriqev was verified in this pass.",
+    indiaStatus: "not-launched", indiaLabel: "US accelerated approval; India unverified", launch: "FDA accelerated approval 6 August 2026",
+    indiaCaveat: "No verified CDSCO authorization, India availability, official launch date, price, reimbursement decision, or procurement pathway was identified. India relevance is currently indirect and depends on future local filing, import access, clinical capacity for intratumoral administration, and nivolumab combination affordability.",
+    limitations: "Accelerated approval is based on objective response rate and duration of response from an open-label, multiregional, single-arm trial. Continued approval may depend on confirmatory trial verification of clinical benefit; the FDA advisory review previously highlighted interpretability concerns around single-arm evidence, injected-lesion response assessment, and isolating RP1's contribution from nivolumab.",
+    detailSections: [
+      ["Event date / geography", "6 August 2026 FDA accelerated approval - United States", "wide"],
+      ["Population / sample", "IGNYTE enrolled 140 adults with Stage IIIB, IIIC, or IV unresectable advanced melanoma after disease progression on at least eight consecutive weeks of prior anti-PD-1-based therapy; FDA reported 91 patients with at least one noninjected lesion in the efficacy-evaluable population.", "wide"],
+      ["Comparator", "No concurrent randomized comparator. The approval relies on single-arm response durability evidence, with confirmatory post-approval trial requirements.", "wide"],
+      ["Primary endpoint", "Objective response rate and duration of response for accelerated approval.", "wide"],
+      ["Effect size detail", "ORR was 24.2% with 95% CI 15.8%-34.3%; median duration of response was 14.1 months with 95% CI 10.7 months-not reached.", "wide"],
+      ["Regulatory status", "FDA accelerated approval for Tudriqev with nivolumab in adult unresectable advanced cutaneous melanoma after PD-1-blocking antibody-based progression. FDA states Replimune must conduct post-approval trial(s) to verify and describe clinical benefit, and continued approval may be contingent on those results.", "wide"],
+      ["Administration", "Intratumoral vusolimogene oderparepvec-wtpg every two weeks for eight consecutive doses, with nivolumab started intravenously at Week 3 according to nivolumab prescribing information.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-vusolimogene-oderparepvec-wtpg-combination-nivolumab-melanoma",
+    sourceLabel: "FDA accelerated approval notice",
+    supportingSources: [
+      {
+        label: "FDA oncology approval notifications index",
+        url: "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications"
+      },
+      {
+        label: "FDA advisory committee materials",
+        url: "https://www.fda.gov/advisory-committees/cellular-tissue-and-gene-therapies-advisory-committee/2026-meeting-materials-cellular-tissue-and-gene-therapies-advisory-committee"
+      },
+      {
+        label: "ClinicalTrials.gov IGNYTE registry",
+        url: "https://clinicaltrials.gov/study/NCT03767348"
+      }
+    ]
+  },
+  {
     id: "selpercatinib", short: "Retevmo", name: "Tumor-Agnostic Selpercatinib", cancer: "RET fusion solid tumors",
     setting: "Locally advanced or metastatic, post-systemic therapy", company: "Eli Lilly and Company", phase: "Basket trial / registrational",
     impact: "High in biomarker-defined rare cancers", impactGroup: "high", maturity: 99, impactScore: 88,
@@ -614,31 +652,31 @@ const watchlistSignals = [
   },
   {
     id: "rp1-adcom",
-    title: "RP1 + nivolumab FDA advisory-committee split",
+    title: "RP1 + nivolumab accelerated approval after advisory split",
     short: "RP1 / Tudriqev",
     category: "Regulatory evidence",
     status: "regulatory",
-    statusLabel: "Favorable panel vote; FDA decision pending",
+    statusLabel: "FDA accelerated approval",
     geography: "United States",
-    date: "30 July 2026",
+    date: "6 August 2026",
     cancer: "Advanced cutaneous melanoma",
-    issue: "Vusolimogene oderparepvec (RP1) plus nivolumab after progression on anti-PD-1 therapy",
+    issue: "Vusolimogene oderparepvec-wtpg (Tudriqev/RP1) plus nivolumab after progression on anti-PD-1 therapy",
     organization: "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
-    population: "140 adults in the single-arm phase I/II IGNYTE anti-PD-1-refractory cutaneous-melanoma cohort",
-    comparator: "No concurrent control. The application relies on historical comparisons for nivolumab rechallenge, and FDA states that RP1's contribution cannot be isolated reliably.",
-    endpoint: "Accelerated-approval benefit-risk recommendation based primarily on objective response rate and duration of response",
-    effect: "The applicant reported ORR 33.6% (95% CI 25.8%-42.0%) and median DoR 24.8 months (95% CI 14.1-not reached). FDA's primary reanalysis, excluding responses without evaluable noninjected target lesions, estimated ORR 15.7% (95% CI 10.1%-22.8%) and median DoR 14.1 months (95% CI 10.7-not reached). A contemporaneous Dow Jones report said the advisory committee voted 10-3 in favor of the benefit-risk profile; official FDA minutes were not yet posted in this pass.",
-    whyMatters: "The panel recommendation moves an oncolytic immunotherapy with a contested evidence package closer to a near-term FDA decision in a difficult post-PD-1 melanoma setting. The disagreement between the favorable vote and FDA's efficacy analysis is itself decision-relevant and should not be collapsed into either an approval headline or a simple positive trial result.",
+    population: "140 adults in the open-label, multiregional, single-arm IGNYTE study after anti-PD-1 progression; FDA's efficacy-evaluable population included 91 patients with at least one noninjected lesion.",
+    comparator: "No concurrent randomized control. The approval relies on single-arm response and durability evidence, with post-approval trial requirements to verify clinical benefit.",
+    endpoint: "Accelerated approval based on objective response rate and duration of response",
+    effect: "FDA reported ORR 24.2% (95% CI 15.8%-34.3%) and median DoR 14.1 months (95% CI 10.7-not reached). The July advisory review remains important context because FDA and external reviewers had previously debated how to interpret the single-arm evidence package.",
+    whyMatters: "A previously pending and contested oncolytic-immunotherapy application is now an FDA accelerated approval in a difficult post-PD-1 melanoma setting. The update changes the dashboard decision state from watchful regulatory uncertainty to approved-but-conditional use with confirmatory-trial obligations.",
     whoAffected: "Adults with unresectable advanced cutaneous melanoma after anti-PD-1 therapy, melanoma specialists, trial investigators, regulators, and payers evaluating accelerated-approval evidence.",
-    decisionImpact: "Whether RP1 plus nivolumab receives accelerated approval and, if it does, how clinicians and payers interpret a favorable advisory vote when FDA says the single-arm data do not reliably establish RP1's contribution.",
-    evidenceStrength: "High for the existence, scope, underlying FDA review concerns, and scheduled regulatory decision because these are documented by FDA. The 10-3 vote count is contemporaneously reported but awaits official FDA minutes or a posted sponsor confirmation.",
-    limitations: "This is not an FDA approval. The pivotal evidence is a single-arm, amended phase I/II cohort without a concurrent control; FDA found response assessment confounded by injected lesions and procedures, could not interpret overall survival, and concluded the observed effect did not reliably isolate RP1 from nivolumab. Advisory recommendations are non-binding.",
-    indiaImpact: "No CDSCO authorization, India launch date, price, reimbursement decision, or procurement pathway for RP1 was verified. Any relevance to Indian practice remains investigational and dependent on a US regulatory decision plus later local access steps.",
-    cost: "No official US commercial price or India price was verified because RP1 remains investigational.",
-    nextMilestone: "Official FDA action after the 2 August 2026 goal date; then committee minutes/transcript, final labeling if approved, confirmatory-trial requirements, and any India filing or access announcement.",
-    verification: "Cross-checked against the FDA meeting page, FDA briefing document, voting question, prior FDA complete-response letter, and Replimune's official BLA-resubmission release. The reported 10-3 tally remains explicitly secondary, and no official FDA or sponsor outcome after the August 2 goal date was visible in the 3 August review.",
-    source: "https://www.fda.gov/advisory-committees/advisory-committee-calendar/cellular-tissue-and-gene-therapies-advisory-committee-july-30-2026-meeting-announcement-updated",
-    secondarySource: "https://www.fda.gov/media/193878/download"
+    decisionImpact: "Whether clinicians and payers adopt Tudriqev plus nivolumab now that it is available under accelerated approval, while tracking confirmatory-trial requirements and the unresolved clinical-benefit verification question.",
+    evidenceStrength: "High for the regulatory outcome, indication, efficacy population, ORR, DOR, safety warnings, and confirmatory-trial condition because these are documented in FDA's approval notice and oncology approval index.",
+    limitations: "The evidence remains single-arm and accelerated-approval based. Continued approval may be contingent on confirmatory trial verification of clinical benefit, and prior FDA advisory materials raised interpretability concerns around injected-lesion assessment and isolating RP1's contribution from nivolumab.",
+    indiaImpact: "No CDSCO authorization, India launch date, price, reimbursement decision, or procurement pathway for Tudriqev/RP1 was verified. Any relevance to Indian practice remains dependent on later local filing or access mechanisms.",
+    cost: "No official US commercial price or India price was verified in this pass.",
+    nextMilestone: "Full prescribing information posting on Drugs@FDA, confirmatory-trial details and progress, committee minutes/transcript, launch/pricing disclosures, and any India filing or access announcement.",
+    verification: "Updated from FDA's accelerated approval notice and FDA oncology approval notifications index, with the earlier FDA advisory committee page retained as regulatory-history context. The treatment dossier now carries the approved-use fields; this watchlist record preserves the evidence controversy and conditional-approval follow-up needs.",
+    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-vusolimogene-oderparepvec-wtpg-combination-nivolumab-melanoma",
+    secondarySource: "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications"
   },
   {
     id: "optima",

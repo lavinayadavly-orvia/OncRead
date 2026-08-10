@@ -45,12 +45,23 @@ Updated: 2026-08-10
 - The 2026-08-06 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 5-6 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-07 review added one FDA regulatory-policy and trial-methodology watchlist record after FDA posted its 6 August 2026 Operation TrialBlazer clinical-development modernization package. The record is not represented as a treatment approval; it captures the oncology relevance, draft/proposed nature, evidence limits, India indirectness, and next verification milestones.
 - The 2026-08-09 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 8-9 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
-- The 2026-08-10 review added a prevention and regulatory-policy watchlist record when FDA Final Administrative Order OTC000039 took effect on 9 August 2026, permitting bemotrizinol in compliant US OTC sunscreen products under specified conditions.
+- The 2026-08-10 review added one FDA-backed treatment dossier and updated the corresponding watchlist history record after the FDA oncology approval index and FDA approval notice made the 6 August 2026 Tudriqev/RP1 accelerated approval visible in this pass. The dossier captures the single-arm IGNYTE evidence, accelerated-approval condition, safety warnings, confirmatory-trial requirement, and unverified India access and pricing.
+- The 2026-08-10 review also added a prevention and regulatory-policy watchlist record when FDA Final Administrative Order OTC000039 took effect on 9 August 2026, permitting bemotrizinol in compliant US OTC sunscreen products under specified conditions.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
 
 ## 2026-08-10 Verified Update
 
+- FDA accelerated approval notice: vusolimogene oderparepvec-wtpg (Tudriqev/RP1) with nivolumab for adult patients with unresectable advanced cutaneous melanoma after progression on a PD-1-blocking antibody-based regimen; FDA reported ORR 24.2% (95% CI 15.8%-34.3%) and median DoR 14.1 months (95% CI 10.7 months-not reached) in the efficacy-evaluable IGNYTE population
+  https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-vusolimogene-oderparepvec-wtpg-combination-nivolumab-melanoma
+- FDA oncology approval notifications index; the Tudriqev/RP1 melanoma entry, dated 6 August 2026, was the newest visible oncology approval posting in this pass
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA Cellular, Tissue, and Gene Therapies Advisory Committee materials for the July 30, 2026 RP1 BLA discussion; retained as regulatory-history context because the earlier watchlist signal was built around this contested evidence package
+  https://www.fda.gov/advisory-committees/cellular-tissue-and-gene-therapies-advisory-committee/2026-meeting-materials-cellular-tissue-and-gene-therapies-advisory-committee
+- ClinicalTrials.gov IGNYTE registry, NCT03767348; used as trial-registry context for the study named in FDA's approval notice
+  https://clinicaltrials.gov/study/NCT03767348
+- Replimune official BLA resubmission release; retained as sponsor context for the prior August 2 goal date and accelerated-approval request
+  https://ir.replimune.com/news-releases/news-release-details/replimune-announces-fda-acceptance-rp1-biologics-license
 - FDA Final Administrative Order OTC000039; effective 9 August 2026, adding bemotrizinol at up to 6% to OTC Monograph M020 under specified conditions
   https://www.accessdata.fda.gov/drugsatfda_docs/omuf/order/supportDoc/OTC000039/Final_Administrative_Order.pdf
 - FDA scientific review supporting the final order
@@ -59,10 +70,12 @@ Updated: 2026-08-10
   https://www.fda.gov/news-events/press-announcements/fda-expands-sunscreen-options-first-time-20-years
 - FDA sunscreen consumer guidance; retail timing remains manufacturer-determined and sunscreen should be combined with other sun-protection measures
   https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun
-- FDA oncology approval/withdrawal, EMA, CDSCO, WHO/IARC, PubMed, ClinicalTrials.gov, major journal, and targeted sponsor checks did not retrieve another August 9-10 oncology development that cleared the inclusion threshold
-  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA withdrawn cancer accelerated approvals page; no new same-window oncology withdrawal was visible
   https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA, CDSCO, WHO/IARC, PubMed, major journal, and targeted official sponsor checks did not retrieve another August 9-10 phase III result, regulator action, safety or withdrawal event, pricing or procurement change, India-access milestone, or global cancer-system update that cleared the inclusion threshold
   https://www.ema.europa.eu/en/news
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
   https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
   https://www.who.int/news-room
   https://www.iarc.who.int/news-events/
@@ -73,7 +86,10 @@ Updated: 2026-08-10
 
 - The order was represented as a prevention and regulatory-policy watchlist signal, not as a treatment approval or proof that bemotrizinol is superior to other sunscreen ingredients for preventing cancer.
 - Product-specific US availability, price, comparative clinical outcomes, adherence benefits, and India regulatory or market status remain unverified.
-- RP1 plus nivolumab remains pending because no official FDA or Replimune final action after its August 2 goal date was verified.
+- The prior RP1 advisory-committee watchlist record was not deleted because it documents a material evidence-quality controversy and a conditional accelerated-approval follow-up obligation. It was relabeled as resolved and linked to the FDA approval notice instead of remaining a pending decision signal.
+- No direct CDSCO authorization, India launch date, commercial price, government procurement pathway, or reimbursement decision for Tudriqev/RP1 was verified, so India access remains explicitly unverified.
+- Full prescribing information was not yet captured from Drugs@FDA in this pass; FDA stated it would be posted there, so the next verification milestone is label capture plus confirmatory-trial tracking.
+- Searches of FDA withdrawals, EMA, CDSCO, WHO/IARC, major journals, PubMed, ClinicalTrials.gov, and targeted sponsor surfaces did not retrieve another same-window oncology development that was material and verified enough for dashboard promotion.
 
 ## 2026-08-09 Review-Only Checks
 

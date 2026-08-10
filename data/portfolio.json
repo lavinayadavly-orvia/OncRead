@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T04:03:26.411Z",
+  "generatedAt": "2026-08-10T04:11:34.650Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -430,10 +430,127 @@
       ]
     },
     {
-      "id": "treatment:selpercatinib",
+      "id": "treatment:tudriqev-rp1",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
       "order": 5,
+      "title": "Tudriqev + Nivolumab",
+      "subtitle": "Tudriqev + nivolumab · Melanoma · Unresectable advanced cutaneous melanoma after anti-PD-1 progression",
+      "organization": "Replimune + Bristol Myers Squibb",
+      "snapshot": "Single-arm IGNYTE; accelerated approval · High unmet-need approval, confirmatory trial required",
+      "summary": "FDA granted accelerated approval to vusolimogene oderparepvec-wtpg, a genetically modified oncolytic viral therapy marketed as Tudriqev, with nivolumab for adults with unresectable advanced cutaneous melanoma whose disease progressed on a PD-1-blocking antibody-based regimen.",
+      "headline": "ORR 24.2% · Median DoR 14.1 months; accelerated approval",
+      "statusLabel": "US accelerated approval; India unverified",
+      "badges": [
+        "Single-arm IGNYTE; accelerated approval",
+        "High unmet-need approval, confirmatory trial required",
+        "US accelerated approval; India unverified"
+      ],
+      "searchText": "tudriqev + nivolumab tudriqev + nivolumab melanoma unresectable advanced cutaneous melanoma after anti-pd-1 progression replimune + bristol myers squibb single-arm ignyte; accelerated approval high unmet-need approval, confirmatory trial required orr 24.2% median dor 14.1 months; accelerated approval fda granted accelerated approval to vusolimogene oderparepvec-wtpg, a genetically modified oncolytic viral therapy marketed as tudriqev, with nivolumab for adults with unresectable advanced cutaneous melanoma whose disease progressed on a pd-1-blocking antibody-based regimen. warnings and precautions include accidental exposure, herpetic infection or reactivation, injection-procedure complications, and immune-mediated events. common adverse reactions included fatigue, pyrexia, infections, chills, musculoskeletal pain, gastrointestinal symptoms, injection-site reaction, rash, dyspnea, hemorrhage, edema, and abdominal pain. opdivo",
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "id": "tudriqev-rp1",
+        "label": "Open treatment dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "FDA accelerated approval notice",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-vusolimogene-oderparepvec-wtpg-combination-nivolumab-melanoma"
+        },
+        {
+          "label": "FDA oncology approval notifications index",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications"
+        },
+        {
+          "label": "FDA advisory committee materials",
+          "url": "https://www.fda.gov/advisory-committees/cellular-tissue-and-gene-therapies-advisory-committee/2026-meeting-materials-cellular-tissue-and-gene-therapies-advisory-committee"
+        },
+        {
+          "label": "ClinicalTrials.gov IGNYTE registry",
+          "url": "https://clinicaltrials.gov/study/NCT03767348"
+        }
+      ],
+      "sections": [
+        [
+          "Cancer and setting",
+          "Melanoma · Unresectable advanced cutaneous melanoma after anti-PD-1 progression"
+        ],
+        [
+          "Manufacturer / organization",
+          "Replimune + Bristol Myers Squibb"
+        ],
+        [
+          "Event date / geography",
+          "6 August 2026 FDA accelerated approval - United States",
+          "wide"
+        ],
+        [
+          "Population / sample",
+          "IGNYTE enrolled 140 adults with Stage IIIB, IIIC, or IV unresectable advanced melanoma after disease progression on at least eight consecutive weeks of prior anti-PD-1-based therapy; FDA reported 91 patients with at least one noninjected lesion in the efficacy-evaluable population.",
+          "wide"
+        ],
+        [
+          "Comparator",
+          "No concurrent randomized comparator. The approval relies on single-arm response durability evidence, with confirmatory post-approval trial requirements.",
+          "wide"
+        ],
+        [
+          "Primary endpoint",
+          "Objective response rate and duration of response for accelerated approval.",
+          "wide"
+        ],
+        [
+          "Effect size detail",
+          "ORR was 24.2% with 95% CI 15.8%-34.3%; median duration of response was 14.1 months with 95% CI 10.7 months-not reached.",
+          "wide"
+        ],
+        [
+          "Regulatory status",
+          "FDA accelerated approval for Tudriqev with nivolumab in adult unresectable advanced cutaneous melanoma after PD-1-blocking antibody-based progression. FDA states Replimune must conduct post-approval trial(s) to verify and describe clinical benefit, and continued approval may be contingent on those results.",
+          "wide"
+        ],
+        [
+          "Administration",
+          "Intratumoral vusolimogene oderparepvec-wtpg every two weeks for eight consecutive doses, with nivolumab started intravenously at Week 3 according to nivolumab prescribing information.",
+          "wide"
+        ],
+        [
+          "Measured effect",
+          "ORR 24.2%. Median DoR 14.1 months; accelerated approval",
+          "wide"
+        ],
+        [
+          "Clinical meaning",
+          "FDA granted accelerated approval to vusolimogene oderparepvec-wtpg, a genetically modified oncolytic viral therapy marketed as Tudriqev, with nivolumab for adults with unresectable advanced cutaneous melanoma whose disease progressed on a PD-1-blocking antibody-based regimen.",
+          "wide"
+        ],
+        [
+          "Safety and burden",
+          "Warnings and precautions include accidental exposure, herpetic infection or reactivation, injection-procedure complications, and immune-mediated events. Common adverse reactions included fatigue, pyrexia, infections, chills, musculoskeletal pain, gastrointestinal symptoms, injection-site reaction, rash, dyspnea, hemorrhage, edema, and abdominal pain.",
+          "wide"
+        ],
+        [
+          "Cost and India access",
+          "New intratumoral oncolytic viral therapy plus nivolumab cost; official commercial price not verified. No official US price, India price, CDSCO approval, reimbursement, procurement figure, or India launch date for Tudriqev was verified in this pass. No verified CDSCO authorization, India availability, official launch date, price, reimbursement decision, or procurement pathway was identified. India relevance is currently indirect and depends on future local filing, import access, clinical capacity for intratumoral administration, and nivolumab combination affordability.",
+          "wide"
+        ],
+        [
+          "Launch / market status",
+          "FDA accelerated approval 6 August 2026. US accelerated approval; India unverified"
+        ],
+        [
+          "Current limitation",
+          "Accelerated approval is based on objective response rate and duration of response from an open-label, multiregional, single-arm trial. Continued approval may depend on confirmatory trial verification of clinical benefit; the FDA advisory review previously highlighted interpretability concerns around single-arm evidence, injected-lesion response assessment, and isolating RP1's contribution from nivolumab.",
+          "wide"
+        ]
+      ]
+    },
+    {
+      "id": "treatment:selpercatinib",
+      "lane": "treatment",
+      "laneLabel": "Treatment explorer",
+      "order": 6,
       "title": "Tumor-Agnostic Selpercatinib",
       "subtitle": "Retevmo · RET fusion solid tumors · Locally advanced or metastatic, post-systemic therapy",
       "organization": "Eli Lilly and Company",
@@ -533,7 +650,7 @@
       "id": "treatment:zidesamtinib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 6,
+      "order": 7,
       "title": "Zidesamtinib After ROS1 TKI",
       "subtitle": "Jideytro · Lung cancer · ROS1-positive metastatic after prior ROS1 inhibitor",
       "organization": "GSK / Nuvalent",
@@ -641,7 +758,7 @@
       "id": "treatment:cretostimogene",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 7,
+      "order": 8,
       "title": "Cretostimogene in BCG-Unresponsive NMIBC",
       "subtitle": "Cretostimogene · Bladder cancer · High-risk non-muscle invasive with CIS, with or without Ta/T1",
       "organization": "CG Oncology",
@@ -753,7 +870,7 @@
       "id": "treatment:pembro-enfortumab-mibc",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 8,
+      "order": 9,
       "title": "Perioperative Pembrolizumab + Enfortumab",
       "subtitle": "Padcev + Keytruda · Bladder cancer · Muscle-invasive, cystectomy-eligible",
       "organization": "Merck + Astellas Pharma",
@@ -853,7 +970,7 @@
       "id": "treatment:isatuximab-sc",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 9,
+      "order": 10,
       "title": "Subcutaneous Isatuximab",
       "subtitle": "Sarclisa Escena · Multiple myeloma · Newly diagnosed + relapsed / refractory",
       "organization": "Sanofi",
@@ -953,7 +1070,7 @@
       "id": "treatment:tregzi",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 10,
+      "order": 11,
       "title": "Tregzi Transplant Cell Therapy",
       "subtitle": "Tregzi · Hematologic malignancies · Matched-donor myeloablative HSCT",
       "organization": "Orca Bio",
@@ -1057,7 +1174,7 @@
       "id": "treatment:durvalumab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 11,
+      "order": 12,
       "title": "Neoadjuvant Durvalumab",
       "subtitle": "Durvalumab · Breast cancer · Early triple-negative",
       "organization": "AstraZeneca",
@@ -1127,7 +1244,7 @@
       "id": "treatment:intismeran",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 12,
+      "order": 13,
       "title": "Personalized mRNA Neoantigen Therapy",
       "subtitle": "Intismeran · Melanoma · Resected high-risk",
       "organization": "Moderna + Merck / MSD",
@@ -1197,7 +1314,7 @@
       "id": "treatment:pemigatinib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 13,
+      "order": 14,
       "title": "First-line Pemigatinib",
       "subtitle": "Pemigatinib · Cholangiocarcinoma · FGFR2-rearranged",
       "organization": "Incyte",
@@ -1267,7 +1384,7 @@
       "id": "treatment:amivantamab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 14,
+      "order": 15,
       "title": "Amivantamab in Refractory CRC",
       "subtitle": "Amivantamab · Colorectal cancer · RAS/BRAF wild-type",
       "organization": "Johnson & Johnson / Janssen",
@@ -1337,7 +1454,7 @@
       "id": "treatment:sigvotatug",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 15,
+      "order": 16,
       "title": "Integrin Beta-6 ADC",
       "subtitle": "Sigvotatug · Lung cancer · Advanced NSCLC",
       "organization": "Pfizer / Seagen",
@@ -1407,7 +1524,7 @@
       "id": "treatment:sacituzumab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 16,
+      "order": 17,
       "title": "Neoadjuvant Sacituzumab Govitecan",
       "subtitle": "Sacituzumab · Bladder cancer · Cisplatin-ineligible MIBC",
       "organization": "Gilead Sciences",
@@ -1477,7 +1594,7 @@
       "id": "followup:matterhorn",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 17,
+      "order": 18,
       "title": "Durvalumab + FLOT",
       "subtitle": "MATTERHORN · Gastric / GEJ cancer",
       "organization": "AstraZeneca",
@@ -1557,7 +1674,7 @@
       "id": "followup:db09",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 18,
+      "order": 19,
       "title": "Trastuzumab deruxtecan + pertuzumab",
       "subtitle": "DESTINY-Breast09 · Breast cancer",
       "organization": "Daiichi Sankyo + AstraZeneca",
@@ -1637,7 +1754,7 @@
       "id": "followup:keynote689",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 19,
+      "order": 20,
       "title": "Perioperative pembrolizumab",
       "subtitle": "KEYNOTE-689 · Head and neck cancer",
       "organization": "Merck / MSD",
@@ -1717,7 +1834,7 @@
       "id": "followup:rusfertide",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 20,
+      "order": 21,
       "title": "Rusfertide",
       "subtitle": "VERIFY · Polycythemia vera",
       "organization": "Takeda + Protagonist Therapeutics",
@@ -1797,7 +1914,7 @@
       "id": "followup:camizestrant",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 21,
+      "order": 22,
       "title": "Camizestrant + CDK4/6 inhibitor",
       "subtitle": "SERENA-6 · Breast cancer",
       "organization": "AstraZeneca",
@@ -1881,7 +1998,7 @@
       "id": "followup:atomic",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 22,
+      "order": 23,
       "title": "Atezolizumab + mFOLFOX6",
       "subtitle": "ATOMIC · Colon cancer",
       "organization": "Genentech / Roche + NCI Alliance",
@@ -1961,7 +2078,7 @@
       "id": "followup:nivopostop",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 23,
+      "order": 24,
       "title": "Postoperative nivolumab + chemoradiotherapy",
       "subtitle": "NIVOPOSTOP · Head and neck cancer",
       "organization": "Bristol Myers Squibb + GORTEC",
@@ -2041,7 +2158,7 @@
       "id": "followup:ascent04",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 24,
+      "order": 25,
       "title": "Sacituzumab govitecan + pembrolizumab",
       "subtitle": "ASCENT-04 / KEYNOTE-D19 · Breast cancer",
       "organization": "Gilead + Merck / MSD",
@@ -2125,7 +2242,7 @@
       "id": "followup:cpost",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 25,
+      "order": 26,
       "title": "Adjuvant cemiplimab",
       "subtitle": "C-POST · Cutaneous squamous cell carcinoma",
       "organization": "Regeneron",
@@ -2205,7 +2322,7 @@
       "id": "followup:amplitude",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 26,
+      "order": 27,
       "title": "Niraparib + abiraterone + prednisone",
       "subtitle": "AMPLITUDE · Prostate cancer",
       "organization": "Johnson & Johnson / Janssen",
@@ -2285,7 +2402,7 @@
       "id": "followup:can2409",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 27,
+      "order": 28,
       "title": "CAN-2409 + valacyclovir + radiotherapy",
       "subtitle": "PrTK03 · Prostate cancer",
       "organization": "Candel Therapeutics",
@@ -2365,7 +2482,7 @@
       "id": "watchlist:bemotrizinol-sunscreen",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 28,
+      "order": 29,
       "title": "Bemotrizinol sunscreen order takes effect",
       "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
       "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
@@ -2461,7 +2578,7 @@
       "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 29,
+      "order": 30,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -2557,20 +2674,20 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 30,
-      "title": "RP1 + nivolumab FDA advisory-committee split",
+      "order": 31,
+      "title": "RP1 + nivolumab accelerated approval after advisory split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
-      "snapshot": "Favorable panel vote; FDA decision pending · 30 July 2026",
-      "summary": "The panel recommendation moves an oncolytic immunotherapy with a contested evidence package closer to a near-term FDA decision in a difficult post-PD-1 melanoma setting. The disagreement between the favorable vote and FDA's efficacy analysis is itself decision-relevant and should not be collapsed into either an approval headline or a simple positive trial result.",
-      "headline": "The applicant reported ORR 33.6% (95% CI 25.8%-42.0%) and median DoR 24.8 months (95% CI 14.1-not reached). FDA's primary reanalysis, excluding responses without evaluable noninjected target lesions, estimated ORR 15.7% (95% CI 10.1%-22.8%) and median DoR 14.1 months (95% CI 10.7-not reached). A contemporaneous Dow Jones report said the advisory committee voted 10-3 in favor of the benefit-risk profile; official FDA minutes were not yet posted in this pass.",
-      "statusLabel": "Favorable panel vote; FDA decision pending",
+      "snapshot": "FDA accelerated approval · 6 August 2026",
+      "summary": "A previously pending and contested oncolytic-immunotherapy application is now an FDA accelerated approval in a difficult post-PD-1 melanoma setting. The update changes the dashboard decision state from watchful regulatory uncertainty to approved-but-conditional use with confirmatory-trial obligations.",
+      "headline": "FDA reported ORR 24.2% (95% CI 15.8%-34.3%) and median DoR 14.1 months (95% CI 10.7-not reached). The July advisory review remains important context because FDA and external reviewers had previously debated how to interpret the single-arm evidence package.",
+      "statusLabel": "FDA accelerated approval",
       "badges": [
-        "Favorable panel vote; FDA decision pending",
+        "FDA accelerated approval",
         "Regulatory evidence",
         "United States"
       ],
-      "searchText": "rp1 + nivolumab fda advisory-committee split rp1 / tudriqev regulatory evidence advanced cutaneous melanoma united states replimune + bristol myers squibb; fda cellular, tissue, and gene therapies advisory committee vusolimogene oderparepvec (rp1) plus nivolumab after progression on anti-pd-1 therapy the applicant reported orr 33.6% (95% ci 25.8%-42.0%) and median dor 24.8 months (95% ci 14.1-not reached). fda's primary reanalysis, excluding responses without evaluable noninjected target lesions, estimated orr 15.7% (95% ci 10.1%-22.8%) and median dor 14.1 months (95% ci 10.7-not reached). a contemporaneous dow jones report said the advisory committee voted 10-3 in favor of the benefit-risk profile; official fda minutes were not yet posted in this pass. whether rp1 plus nivolumab receives accelerated approval and, if it does, how clinicians and payers interpret a favorable advisory vote when fda says the single-arm data do not reliably establish rp1's contribution. the panel recommendation moves an oncolytic immunotherapy with a contested evidence package closer to a near-term fda decision in a difficult post-pd-1 melanoma setting. the disagreement between the favorable vote and fda's efficacy analysis is itself decision-relevant and should not be collapsed into either an approval headline or a simple positive trial result. opdivo",
+      "searchText": "rp1 + nivolumab accelerated approval after advisory split rp1 / tudriqev regulatory evidence advanced cutaneous melanoma united states replimune + bristol myers squibb; fda cellular, tissue, and gene therapies advisory committee vusolimogene oderparepvec-wtpg (tudriqev/rp1) plus nivolumab after progression on anti-pd-1 therapy fda reported orr 24.2% (95% ci 15.8%-34.3%) and median dor 14.1 months (95% ci 10.7-not reached). the july advisory review remains important context because fda and external reviewers had previously debated how to interpret the single-arm evidence package. whether clinicians and payers adopt tudriqev plus nivolumab now that it is available under accelerated approval, while tracking confirmatory-trial requirements and the unresolved clinical-benefit verification question. a previously pending and contested oncolytic-immunotherapy application is now an fda accelerated approval in a difficult post-pd-1 melanoma setting. the update changes the dashboard decision state from watchful regulatory uncertainty to approved-but-conditional use with confirmatory-trial obligations. opdivo",
       "route": {
         "view": "watchlist",
         "kind": "watchlist",
@@ -2580,34 +2697,34 @@
       "sourceLinks": [
         {
           "label": "Source",
-          "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/cellular-tissue-and-gene-therapies-advisory-committee-july-30-2026-meeting-announcement-updated"
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-vusolimogene-oderparepvec-wtpg-combination-nivolumab-melanoma"
         },
         {
           "label": "Secondary check",
-          "url": "https://www.fda.gov/media/193878/download"
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications"
         }
       ],
       "sections": [
         [
           "Issue",
-          "Vusolimogene oderparepvec (RP1) plus nivolumab after progression on anti-PD-1 therapy"
+          "Vusolimogene oderparepvec-wtpg (Tudriqev/RP1) plus nivolumab after progression on anti-PD-1 therapy"
         ],
         [
           "Population / sample",
-          "140 adults in the single-arm phase I/II IGNYTE anti-PD-1-refractory cutaneous-melanoma cohort"
+          "140 adults in the open-label, multiregional, single-arm IGNYTE study after anti-PD-1 progression; FDA's efficacy-evaluable population included 91 patients with at least one noninjected lesion."
         ],
         [
           "Comparator",
-          "No concurrent control. The application relies on historical comparisons for nivolumab rechallenge, and FDA states that RP1's contribution cannot be isolated reliably."
+          "No concurrent randomized control. The approval relies on single-arm response and durability evidence, with post-approval trial requirements to verify clinical benefit."
         ],
         [
           "Observed effect",
-          "The applicant reported ORR 33.6% (95% CI 25.8%-42.0%) and median DoR 24.8 months (95% CI 14.1-not reached). FDA's primary reanalysis, excluding responses without evaluable noninjected target lesions, estimated ORR 15.7% (95% CI 10.1%-22.8%) and median DoR 14.1 months (95% CI 10.7-not reached). A contemporaneous Dow Jones report said the advisory committee voted 10-3 in favor of the benefit-risk profile; official FDA minutes were not yet posted in this pass.",
+          "FDA reported ORR 24.2% (95% CI 15.8%-34.3%) and median DoR 14.1 months (95% CI 10.7-not reached). The July advisory review remains important context because FDA and external reviewers had previously debated how to interpret the single-arm evidence package.",
           "wide"
         ],
         [
           "Why it matters to care",
-          "The panel recommendation moves an oncolytic immunotherapy with a contested evidence package closer to a near-term FDA decision in a difficult post-PD-1 melanoma setting. The disagreement between the favorable vote and FDA's efficacy analysis is itself decision-relevant and should not be collapsed into either an approval headline or a simple positive trial result.",
+          "A previously pending and contested oncolytic-immunotherapy application is now an FDA accelerated approval in a difficult post-PD-1 melanoma setting. The update changes the dashboard decision state from watchful regulatory uncertainty to approved-but-conditional use with confirmatory-trial obligations.",
           "wide"
         ],
         [
@@ -2617,34 +2734,34 @@
         ],
         [
           "What decision could change",
-          "Whether RP1 plus nivolumab receives accelerated approval and, if it does, how clinicians and payers interpret a favorable advisory vote when FDA says the single-arm data do not reliably establish RP1's contribution.",
+          "Whether clinicians and payers adopt Tudriqev plus nivolumab now that it is available under accelerated approval, while tracking confirmatory-trial requirements and the unresolved clinical-benefit verification question.",
           "wide"
         ],
         [
           "Evidence strength",
-          "High for the existence, scope, underlying FDA review concerns, and scheduled regulatory decision because these are documented by FDA. The 10-3 vote count is contemporaneously reported but awaits official FDA minutes or a posted sponsor confirmation."
+          "High for the regulatory outcome, indication, efficacy population, ORR, DOR, safety warnings, and confirmatory-trial condition because these are documented in FDA's approval notice and oncology approval index."
         ],
         [
           "India relevance",
-          "No CDSCO authorization, India launch date, price, reimbursement decision, or procurement pathway for RP1 was verified. Any relevance to Indian practice remains investigational and dependent on a US regulatory decision plus later local access steps.",
+          "No CDSCO authorization, India launch date, price, reimbursement decision, or procurement pathway for Tudriqev/RP1 was verified. Any relevance to Indian practice remains dependent on later local filing or access mechanisms.",
           "wide"
         ],
         [
           "Cost / procurement",
-          "No official US commercial price or India price was verified because RP1 remains investigational."
+          "No official US commercial price or India price was verified in this pass."
         ],
         [
           "Current limitation",
-          "This is not an FDA approval. The pivotal evidence is a single-arm, amended phase I/II cohort without a concurrent control; FDA found response assessment confounded by injected lesions and procedures, could not interpret overall survival, and concluded the observed effect did not reliably isolate RP1 from nivolumab. Advisory recommendations are non-binding.",
+          "The evidence remains single-arm and accelerated-approval based. Continued approval may be contingent on confirmatory trial verification of clinical benefit, and prior FDA advisory materials raised interpretability concerns around injected-lesion assessment and isolating RP1's contribution from nivolumab.",
           "wide"
         ],
         [
           "Next verification milestone",
-          "Official FDA action after the 2 August 2026 goal date; then committee minutes/transcript, final labeling if approved, confirmatory-trial requirements, and any India filing or access announcement."
+          "Full prescribing information posting on Drugs@FDA, confirmatory-trial details and progress, committee minutes/transcript, launch/pricing disclosures, and any India filing or access announcement."
         ],
         [
           "Verification note",
-          "Cross-checked against the FDA meeting page, FDA briefing document, voting question, prior FDA complete-response letter, and Replimune's official BLA-resubmission release. The reported 10-3 tally remains explicitly secondary, and no official FDA or sponsor outcome after the August 2 goal date was visible in the 3 August review.",
+          "Updated from FDA's accelerated approval notice and FDA oncology approval notifications index, with the earlier FDA advisory committee page retained as regulatory-history context. The treatment dossier now carries the approved-use fields; this watchlist record preserves the evidence controversy and conditional-approval follow-up needs.",
           "full"
         ]
       ]
@@ -2653,7 +2770,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 31,
+      "order": 32,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -2749,7 +2866,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 32,
+      "order": 33,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -2845,7 +2962,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 33,
+      "order": 34,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -2941,7 +3058,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 34,
+      "order": 35,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -3037,7 +3154,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 35,
+      "order": 36,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -3131,7 +3248,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 60,
+    "sourcesChecked": 61,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,

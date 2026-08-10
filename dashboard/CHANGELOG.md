@@ -1,13 +1,16 @@
 # Dashboard Changelog
 
-## 2026-08-10 - Bemotrizinol Sunscreen Prevention Milestone Added
+## 2026-08-10 - Tudriqev Approval and Bemotrizinol Prevention Milestone Added
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across treatment, prevention, regulators, trials, journals, safety, screening, diagnostics, India access, pricing, procurement, systems, and public health.
+- Added `Tudriqev + Nivolumab` as a treatment dossier after the FDA oncology approval index and FDA approval notice showed the 6 August 2026 accelerated approval of vusolimogene oderparepvec-wtpg with nivolumab for adults with unresectable advanced cutaneous melanoma after progression on a PD-1-blocking antibody-based regimen.
+- Captured IGNYTE as an open-label, multiregional, single-arm study with 140 enrolled adults and a 91-patient efficacy-evaluable population with at least one noninjected lesion; FDA reported ORR 24.2% (95% CI 15.8%-34.3%) and median duration of response 14.1 months (95% CI 10.7 months-not reached).
+- Labeled the accelerated-approval basis, confirmatory post-approval trial requirement, intratumoral administration with nivolumab, safety warnings for accidental exposure, herpetic infection/reactivation, injection-procedure complications and immune-mediated events, and the absence of verified US price, CDSCO authorization, India launch date, reimbursement, procurement, or official India access pathway.
+- Updated the existing RP1 watchlist record from a pending advisory-committee signal to a resolved FDA accelerated-approval signal while preserving the prior evidence controversy and conditional-approval follow-up obligations.
 - Added `Bemotrizinol sunscreen order takes effect` to `Watchlist & systems` after FDA Final Administrative Order OTC000039 became effective on 9 August 2026, permitting bemotrizinol at concentrations up to 6% in compliant US OTC sunscreen products under specified monograph conditions.
-- Represented the event as a skin-cancer prevention and regulatory-policy milestone rather than a therapy approval or comparative clinical claim. The dossier explicitly separates FDA's GRASE finding and UVA/UVB protection from unproven ingredient-level superiority for cancer prevention.
-- Captured the affected population, manufacturer pathway, 18-month statutory exclusivity context, manufacturer-determined retail timing, absence of an announced product price, and lack of verified CDSCO or India-market action.
-- Made no taxonomy, filter, scoring, layout, or navigation change because the existing watchlist model already supports prevention and regulatory milestones.
-- Rechecked other FDA oncology approval and withdrawal surfaces, EMA, CDSCO, WHO/IARC, PubMed, ClinicalTrials.gov, major journals, and targeted official sponsor sources; no other August 9-10 development cleared the inclusion threshold.
+- Represented the sunscreen event as a skin-cancer prevention and regulatory-policy milestone rather than a therapy approval or comparative clinical claim. The dossier explicitly separates FDA's GRASE finding and UVA/UVB protection from unproven ingredient-level superiority for cancer prevention.
+- Made no taxonomy, scoring, filter, layout, or navigation change because the existing treatment dossier and watchlist models can represent both the conditional melanoma approval and the prevention-policy milestone without a structural change.
+- Rechecked other FDA oncology approval and withdrawal surfaces, FDA advisory materials, ClinicalTrials.gov, EMA, CDSCO, WHO/IARC, PubMed, major journals, and targeted sponsor sources; no other August 9-10 item cleared the materiality and verification threshold.
 - Updated the source ledger and rolled the visible briefing/archive forward to the August 10 Morning Edition without exposing operational review language on the frontend.
 - No detailed Word report was modified.
 
