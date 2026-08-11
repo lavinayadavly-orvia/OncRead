@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-08-10
+Updated: 2026-08-11
 
 ## Method
 
@@ -47,8 +47,28 @@ Updated: 2026-08-10
 - The 2026-08-09 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 8-9 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-10 review added one FDA-backed treatment dossier and updated the corresponding watchlist history record after the FDA oncology approval index and FDA approval notice made the 6 August 2026 Tudriqev/RP1 accelerated approval visible in this pass. The dossier captures the single-arm IGNYTE evidence, accelerated-approval condition, safety warnings, confirmatory-trial requirement, and unverified India access and pricing.
 - The 2026-08-10 review also added a prevention and regulatory-policy watchlist record when FDA Final Administrative Order OTC000039 took effect on 9 August 2026, permitting bemotrizinol in compliant US OTC sunscreen products under specified conditions.
+- The 2026-08-11 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 10-11 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-08-11 Review-Only Checks
+
+- FDA oncology approval notifications index; the 6 August 2026 Tudriqev/RP1 accelerated approval remained the newest visible oncology approval posting in this pass
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA withdrawn cancer accelerated approvals page; no new same-window oncology withdrawal was visible beyond the 22 June 2026 Tazverik withdrawals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA what's-new page and July 2026 CHMP PRIME eligibility recommendations were checked; same-window postings did not produce a promoted oncology medicine, authorization, refusal, safety action, or current-care milestone
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/documents/other/prime-recommendations-eligibility-prime-scheme-chmp-meeting-21-24-july-2026_en.pdf
+- CDSCO clinical-trial approvals and Subject Expert Committee surfaces did not show a new same-window oncology approval, access, safety, pricing, procurement, or SEC recommendation strong enough for promotion
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+- WHO newsroom and IARC news checks did not retrieve a new same-window oncology systems, prevention, epidemiology, or public-health milestone that cleared the threshold
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+- PubMed, ClinicalTrials.gov, major journal, and targeted official sponsor searches did not retrieve an August 10-11 phase III result, peer-reviewed oncology publication, trial-result posting, regulator action, safety or withdrawal event, pricing or procurement change, India-access milestone, or global cancer-system update that cleared the inclusion threshold
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-08-10 Verified Update
 
