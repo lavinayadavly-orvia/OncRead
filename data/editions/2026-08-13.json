@@ -1,0 +1,94 @@
+{
+  "id": "2026-08-13",
+  "editionLabel": "13 August 2026",
+  "preparedLabel": "August 13 Morning Edition",
+  "monthKey": "2026-08",
+  "monthLabel": "August 2026",
+  "summary": "Sunscreen is a cancer-prevention intervention. The effective order expands the ingredients manufacturers may use in US products and may improve formulation choice, but it does not by itself prove superior skin-cancer prevention or mean products are immediately available on shelves.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 18,
+    "followupApprovals": 7,
+    "indiaMarketed": 4,
+    "watchlistSignals": 8,
+    "verifiedRecords": 37
+  },
+  "headlines": [
+    {
+      "tag": "FDA order effective",
+      "title": "Bemotrizinol sunscreen order takes effect",
+      "summary": "Sunscreen is a cancer-prevention intervention. The effective order expands the ingredients manufacturers may use in US products and may improve formulation choice, but it does not by itself prove superior skin-cancer prevention or mean products are immediately available on shelves."
+    },
+    {
+      "tag": "Latest verified approval",
+      "title": "Tudriqev + Nivolumab",
+      "summary": "FDA accelerated approval 6 August 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Gedatolisib + Fulvestrant",
+      "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
+    },
+    {
+      "tag": "Negative trial",
+      "title": "Galleri-NHS negative screening signal",
+      "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "tudriqev-rp1"
+      },
+      "title": "Tudriqev + Nivolumab",
+      "subtitle": "FDA accelerated approval 6 August 2026",
+      "date": 1785974400000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "gedatolisib"
+      },
+      "title": "Gedatolisib + Fulvestrant",
+      "subtitle": "Phase III · US approved; India launch unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "who-cancer-report"
+      },
+      "title": "WHO/IARC cancer inequity report",
+      "subtitle": "Systems report",
+      "date": 0
+    }
+  ],
+  "sourceCount": 37,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "tudriqev-rp1"
+      },
+      "title": "Tudriqev + Nivolumab",
+      "subtitle": "FDA accelerated approval 6 August 2026",
+      "date": 1785974400000
+    }
+  }
+}

@@ -1,5 +1,15 @@
 # Dashboard Changelog
 
+## 2026-08-13 - Verified Review With No Material Dashboard Change
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Added no new substantive dashboard record and made no taxonomy, scoring, filter, layout, dossier, or source-link changes because no August 12-13 item was both materially decision-relevant and sufficiently verified from primary or authoritative sources.
+- Confirmed that FDA's oncology approval index still showed the 6 August 2026 Tudriqev/RP1 accelerated approval as the newest visible oncology approval posting and that the FDA withdrawn accelerated-approval table showed no newer oncology withdrawal beyond the 22 June 2026 Tazverik withdrawals.
+- Reviewed EMA's 12 August 2026 what's-new postings, including a Lynparza/olaparib risk-management-plan posting. The update did not identify a new indication, authorization, refusal, safety restriction, shortage, or current-care oncology milestone, so it was recorded as checked but not promoted.
+- Checked CDSCO clinical-trial approval and SEC surfaces, WHO newsroom, IARC news, PubMed, ClinicalTrials.gov, major journals, and targeted sponsor disclosures; no official same-window approval, withdrawal, safety signal, phase III result, pricing/procurement change, India-access milestone, or global cancer-system update was verified.
+- Rolled the visible briefing and archive forward to the August 13 Morning Edition while keeping operational no-change language confined to this changelog and `dashboard/SOURCES.md`; the frontend continues to lead with the latest verified oncology evidence and prevention signals.
+- No detailed Word report was modified.
+
 ## 2026-08-12 - Verified Review With No Material Dashboard Change
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
