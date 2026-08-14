@@ -1,5 +1,15 @@
 # Dashboard Changelog
 
+## 2026-08-14 - Verified Review With No Material Dashboard Change
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Added no new substantive dashboard record and made no taxonomy, scoring, filter, layout, dossier, or source-link changes because no August 13-14 item was both materially decision-relevant and sufficiently verified from primary or authoritative sources.
+- Confirmed that FDA's oncology approval index still showed the 6 August 2026 Tudriqev/RP1 accelerated approval as the newest visible oncology approval posting and that the FDA withdrawn accelerated-approval table showed no newer oncology withdrawal beyond the 22 June 2026 Tazverik withdrawals.
+- Checked the iberdomide plus daratumumab/dexamethasone multiple-myeloma PDUFA watch because external calendars list an August 17, 2026 target date; no official FDA approval notice, complete-response letter, label, or sponsor decision announcement was verified in this August 14 pass, so no Zenbexus/iberdomide record was promoted.
+- Checked EMA, CDSCO clinical-trial approval and SEC surfaces, WHO newsroom, IARC news, PubMed, ClinicalTrials.gov, major journals, and targeted sponsor disclosures; no official same-window approval, withdrawal, safety signal, phase III result, pricing/procurement change, India-access milestone, or global cancer-system update was verified.
+- Rolled the visible briefing and archive forward to the August 14 Morning Edition while keeping operational no-change language confined to this changelog and `dashboard/SOURCES.md`; the frontend continues to lead with the latest verified oncology evidence and prevention signals.
+- No detailed Word report was modified.
+
 ## 2026-08-13 - Verified Review With No Material Dashboard Change
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.

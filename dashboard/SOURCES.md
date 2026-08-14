@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-08-13
+Updated: 2026-08-14
 
 ## Method
 
@@ -50,8 +50,32 @@ Updated: 2026-08-13
 - The 2026-08-11 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 10-11 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-12 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 11-12 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-13 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 12-13 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
+- The 2026-08-14 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 13-14 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-08-14 Review-Only Checks
+
+- FDA oncology approval notifications index; the 6 August 2026 Tudriqev/RP1 accelerated approval remained the newest visible oncology approval posting in this pass
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA withdrawn cancer accelerated approvals page; no new same-window oncology withdrawal was visible beyond the 22 June 2026 Tazverik withdrawals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- Iberdomide plus daratumumab/dexamethasone multiple-myeloma PDUFA watch was checked because external calendars list an August 17, 2026 target date; no official FDA approval notice, complete-response letter, label, or sponsor decision announcement was verified in this pass, so no Zenbexus/iberdomide record was promoted
+  https://www.assyro.com/tools/pdufa-calendar/2026/august
+  https://clinicaltrials.gov/study/NCT04975997
+  https://news.bms.com/news/details/2026/U.S.-Food-and-Drug-Administration-Accepts-Application-for-Bristol-Myers-Squibbs-Iberdomide-in-Combination-with-Daratumumab-and-Dexamethasone-for-Patients-with-Relapsed-or-Refractory-Multiple-Myeloma/default.aspx
+- EMA what's-new and cancer-therapeutic-area surfaces did not show a same-window promoted oncology medicine, authorization, refusal, safety restriction, shortage, or current-care milestone
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+- CDSCO clinical-trial approvals and Subject Expert Committee surfaces did not show a new same-window oncology approval, access, safety, pricing, procurement, or SEC recommendation strong enough for promotion
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+- WHO newsroom and IARC news checks did not retrieve a new same-window oncology systems, prevention, epidemiology, or public-health milestone that cleared the threshold
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+- PubMed, ClinicalTrials.gov, major journal, and targeted official sponsor searches did not retrieve an August 13-14 phase III result, peer-reviewed oncology publication, trial-result posting, regulator action, safety or withdrawal event, pricing or procurement change, India-access milestone, or global cancer-system update that cleared the inclusion threshold
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-08-13 Review-Only Checks
 
