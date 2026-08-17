@@ -1,5 +1,14 @@
 # Dashboard Changelog
 
+## 2026-08-17 - Verified Review With No Material Dashboard Change
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Added no new substantive dashboard record and made no taxonomy, scoring, filter, layout, dossier, or source-link changes because no August 16-17 item was both materially decision-relevant and sufficiently verified from primary or authoritative sources.
+- Rechecked FDA oncology approval and withdrawal surfaces and the iberdomide plus daratumumab/dexamethasone multiple-myeloma decision watch. No official FDA or Bristol Myers Squibb approval, rejection, complete-response letter, label, or other outcome was visible by the review cutoff, so no Zenbexus/iberdomide record was promoted.
+- Checked EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major journals, and targeted official sponsor sources; no same-window oncology approval, withdrawal, safety signal, phase III result, material publication, pricing/procurement change, India-access milestone, or global cancer-system update cleared promotion.
+- Rolled the visible briefing and archive forward to the August 17 Morning Edition while keeping operational no-change language confined to this changelog and `dashboard/SOURCES.md`; the frontend continues to lead with the latest verified oncology evidence and prevention signals.
+- No detailed Word report was modified.
+
 ## 2026-08-14 - Verified Review With No Material Dashboard Change
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
