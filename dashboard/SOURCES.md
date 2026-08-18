@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-08-17
+Updated: 2026-08-18
 
 ## Method
 
@@ -52,8 +52,38 @@ Updated: 2026-08-17
 - The 2026-08-13 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 12-13 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-14 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 13-14 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-17 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 16-17 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
+- The 2026-08-18 review added one FDA-backed multiple-myeloma treatment dossier after the FDA oncology approval index and FDA approval notice made the 13 August 2026 Zenbexus/iberdomide accelerated approval visible in this pass. The dossier captures the randomized EXCALIBER-RRMM MRD-negative complete-response evidence, accelerated-approval status, REMS and boxed-warning risks, and unverified India access and pricing.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-08-18 Verified Update
+
+- FDA accelerated approval notice: iberdomide (Zenbexus) with daratumumab and hyaluronidase-fihj plus dexamethasone for adults with multiple myeloma after at least one prior line including a proteasome inhibitor and an immunomodulatory agent; FDA reported EXCALIBER-RRMM MRD-negative CR at any time of 41% (95% CI 34-48) with IberDd versus 21% (95% CI 15-27) with DVd
+  https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-iberdomide-daratumumab-and-hyaluronidase-fihj-and-dexamethasone
+- FDA oncology approval notifications index; the Zenbexus/iberdomide multiple-myeloma entry, dated 13 August 2026, was the newest visible oncology approval posting in this pass
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- ClinicalTrials.gov EXCALIBER-RRMM registry, NCT04975997; used as trial-registry context for the randomized, multicenter, open-label phase III study named in FDA's approval notice, including enrollment, comparator, multinational sites, and endpoint structure
+  https://clinicaltrials.gov/study/NCT04975997
+- Bristol Myers Squibb NDA acceptance release; used only as sponsor context for the earlier PDUFA decision watch and expedited-designation background, not as the approval source
+  https://news.bms.com/news/details/2026/U-S--Food-and-Drug-Administration-Accepts-Bristol-Myers-Squibbs-New-Drug-Application-for-Iberdomide-in-Patients-with-Relapsed-or-Refractory-Multiple-Myeloma/default.aspx
+- Keytruda/Keytruda QLEX plus Padcev August 17 PDUFA watch was rechecked; FDA, Merck, Pfizer, and Astellas surfaces showed the relevant perioperative MIBC expansion had already been approved and represented from the 10 July 2026 FDA action, so no new bladder-cancer label record was promoted
+  https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-enfortumab-vedotin
+  https://www.merck.com/news/fda-grants-priority-review-for-keytruda-pembrolizumab-and-keytruda-qlex-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-with-padcev-enfortumab-vedotin-ejfv-for-cisplati/
+  https://www.pfizer.com/newsroom/press-releases
+- FDA withdrawn cancer accelerated approvals page; no new same-window oncology withdrawal was visible beyond the already recorded 2026 withdrawals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA what's-new and cancer-therapeutic-area surfaces did not show a same-window promoted oncology medicine, authorization, refusal, safety restriction, shortage, or current-care milestone
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+- CDSCO clinical-trial approvals and Subject Expert Committee surfaces did not show a new same-window oncology approval, access, safety, pricing, procurement, or SEC recommendation strong enough for promotion
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+- WHO newsroom and IARC news checks did not retrieve a new same-window oncology systems, prevention, epidemiology, or public-health milestone that cleared the threshold
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+- PubMed, ClinicalTrials.gov, major-journal, and targeted official sponsor checks did not retrieve any other August 17-18 phase III result, material peer-reviewed oncology publication, trial-result posting, safety event, pricing or procurement change, India-access milestone, or global cancer-system update that cleared the inclusion threshold
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-08-17 Review-Only Checks
 

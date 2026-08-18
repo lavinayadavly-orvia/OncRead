@@ -1,5 +1,18 @@
 # Dashboard Changelog
 
+## 2026-08-18 - Iberdomide Accelerated Approval Added
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Added `Iberdomide + Daratumumab/Dexamethasone` after FDA's oncology approval notifications index and approval notice verified the 13 August 2026 accelerated approval of Zenbexus (iberdomide) with daratumumab and hyaluronidase-fihj plus dexamethasone for adults with relapsed or refractory multiple myeloma after at least one prior line including a proteasome inhibitor and an immunomodulatory agent.
+- Captured EXCALIBER-RRMM as a randomized, multicenter, open-label phase III study, with the accelerated-approval efficacy population defined as the first 420 patients randomized to iberdomide 1 mg plus Dd (n=207) or DVd (n=213); FDA reported MRD-negative complete response at any time of 41% (95% CI 34-48) versus 21% (95% CI 15-27; p<0.0001).
+- Labeled the accelerated-approval basis, boxed warnings for embryo-fetal toxicity and serious venous and arterial thromboembolism, REMS restriction, neutropenia, infection, secondary-primary-malignancy warnings, and the absence of verified US price, CDSCO authorization, India launch date, reimbursement, procurement, or official India access pathway.
+- Treated the prior iberdomide PDUFA watch as resolved by an official FDA approval posting and expanded portfolio alias coverage so users can retrieve the dossier through `Zenbexus` and `IberDd`.
+- Rechecked the Keytruda/Keytruda QLEX plus Padcev August 17 PDUFA watch and found that the relevant FDA/Merck/Pfizer/Astellas perioperative MIBC approval had already been represented from the 10 July 2026 FDA action; no new same-window label expansion was promoted.
+- Checked EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major journals, and targeted sponsor disclosures; no other August 17-18 oncology approval, withdrawal, safety signal, phase III result, pricing/procurement change, India-access milestone, or global cancer-system update cleared the materiality and verification threshold.
+- Made no taxonomy, scoring, filter, layout, or navigation change because the existing treatment-dossier model can represent the randomized accelerated-approval myeloma record without a structural change.
+- Updated the source ledger and rolled the visible briefing/archive forward to the August 18 Morning Edition without exposing operational review language on the frontend.
+- No detailed Word report was modified.
+
 ## 2026-08-17 - Verified Review With No Material Dashboard Change
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.

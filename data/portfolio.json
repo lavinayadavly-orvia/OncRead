@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T03:28:54.790Z",
+  "generatedAt": "2026-08-18T05:41:28.327Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -430,10 +430,127 @@
       ]
     },
     {
-      "id": "treatment:tudriqev-rp1",
+      "id": "treatment:iberdomide-iberd",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
       "order": 5,
+      "title": "Iberdomide + Daratumumab/Dexamethasone",
+      "subtitle": "Zenbexus + IberDd · Multiple myeloma · Relapsed or refractory after 1+ prior line including PI and IMiD",
+      "organization": "Bristol Myers Squibb",
+      "snapshot": "Phase III; accelerated approval · High in early-relapse myeloma, confirmatory benefit required",
+      "summary": "FDA granted accelerated approval to iberdomide, marketed as Zenbexus, with daratumumab and hyaluronidase-fihj plus dexamethasone for adults with multiple myeloma after at least one prior line including a proteasome inhibitor and an immunomodulatory agent.",
+      "headline": "MRD-negative CR 41% vs 21% · EXCALIBER-RRMM; accelerated approval",
+      "statusLabel": "US accelerated approval; India unverified",
+      "badges": [
+        "Phase III; accelerated approval",
+        "High in early-relapse myeloma, confirmatory benefit required",
+        "US accelerated approval; India unverified"
+      ],
+      "searchText": "iberdomide + daratumumab/dexamethasone zenbexus + iberdd multiple myeloma relapsed or refractory after 1+ prior line including pi and imid bristol myers squibb phase iii; accelerated approval high in early-relapse myeloma, confirmatory benefit required mrd-negative cr 41% vs 21% excaliber-rrmm; accelerated approval fda granted accelerated approval to iberdomide, marketed as zenbexus, with daratumumab and hyaluronidase-fihj plus dexamethasone for adults with multiple myeloma after at least one prior line including a proteasome inhibitor and an immunomodulatory agent. the prescribing information includes boxed warnings for embryo-fetal toxicity and serious venous and arterial thromboembolism, plus warnings for neutropenia, infections, and secondary primary malignancies. iberdomide is available only through the zenbexus rems because of embryo-fetal toxicity risk.",
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "id": "iberdomide-iberd",
+        "label": "Open treatment dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "FDA accelerated approval notice",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-iberdomide-daratumumab-and-hyaluronidase-fihj-and-dexamethasone"
+        },
+        {
+          "label": "FDA oncology approval notifications index",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications"
+        },
+        {
+          "label": "ClinicalTrials.gov EXCALIBER-RRMM registry",
+          "url": "https://clinicaltrials.gov/study/NCT04975997"
+        },
+        {
+          "label": "Bristol Myers Squibb NDA acceptance release",
+          "url": "https://news.bms.com/news/details/2026/U-S--Food-and-Drug-Administration-Accepts-Bristol-Myers-Squibbs-New-Drug-Application-for-Iberdomide-in-Patients-with-Relapsed-or-Refractory-Multiple-Myeloma/default.aspx"
+        }
+      ],
+      "sections": [
+        [
+          "Cancer and setting",
+          "Multiple myeloma · Relapsed or refractory after 1+ prior line including PI and IMiD"
+        ],
+        [
+          "Manufacturer / organization",
+          "Bristol Myers Squibb"
+        ],
+        [
+          "Event date / geography",
+          "13 August 2026 FDA accelerated approval - United States; FDA says the review used Project Orbis, RTOR, Assessment Aid, priority review, breakthrough therapy designation, and orphan drug designation.",
+          "wide"
+        ],
+        [
+          "Population / sample",
+          "Adults with relapsed or refractory multiple myeloma after one or two prior lines of therapy; the approved indication requires at least one prior line including a proteasome inhibitor and an immunomodulatory agent. Patients refractory to prior anti-CD38 monoclonal antibody therapy or prior bortezomib were excluded from EXCALIBER-RRMM.",
+          "wide"
+        ],
+        [
+          "Comparator",
+          "Iberdomide 1 mg with daratumumab and hyaluronidase-fihj plus dexamethasone versus daratumumab and hyaluronidase-fihj, bortezomib, and dexamethasone in the randomized, multicenter, open-label EXCALIBER-RRMM trial.",
+          "wide"
+        ],
+        [
+          "Primary endpoint",
+          "FDA identified MRD-negative complete response at any time as the major efficacy outcome measure for accelerated approval.",
+          "wide"
+        ],
+        [
+          "Effect size detail",
+          "In the first 420 patients randomized to iberdomide 1 mg plus Dd (n=207) or DVd (n=213) across stages 1 and 2, MRD-negative CR at any time was 41% (95% CI 34-48) versus 21% (95% CI 15-27), p<0.0001.",
+          "wide"
+        ],
+        [
+          "Regulatory status",
+          "FDA accelerated approval on 13 August 2026. No verified EMA, CDSCO, or other national authorization for Zenbexus was captured in this pass; anticipated India launch remains no official date announced.",
+          "wide"
+        ],
+        [
+          "Dose / administration",
+          "Iberdomide 1 mg orally once daily on Days 1-21 of each 28-day cycle, with subcutaneous daratumumab and hyaluronidase-fihj plus dexamethasone until disease progression or unacceptable toxicity.",
+          "wide"
+        ],
+        [
+          "Measured effect",
+          "MRD-negative CR 41% vs 21%. EXCALIBER-RRMM; accelerated approval",
+          "wide"
+        ],
+        [
+          "Clinical meaning",
+          "FDA granted accelerated approval to iberdomide, marketed as Zenbexus, with daratumumab and hyaluronidase-fihj plus dexamethasone for adults with multiple myeloma after at least one prior line including a proteasome inhibitor and an immunomodulatory agent.",
+          "wide"
+        ],
+        [
+          "Safety and burden",
+          "The prescribing information includes boxed warnings for embryo-fetal toxicity and serious venous and arterial thromboembolism, plus warnings for neutropenia, infections, and secondary primary malignancies. Iberdomide is available only through the ZENBEXUS REMS because of embryo-fetal toxicity risk.",
+          "wide"
+        ],
+        [
+          "Cost and India access",
+          "New oral CELMoD added to anti-CD38/dexamethasone regimen; official commercial price not verified. No official US list price, India price, CDSCO approval, reimbursement, procurement figure, or India launch date for Zenbexus was verified in this pass. EXCALIBER-RRMM included India sites, but no verified CDSCO authorization, India availability, official launch date, price, reimbursement decision, or procurement pathway for Zenbexus was identified. India relevance is currently indirect until a local regulatory or access action is official.",
+          "wide"
+        ],
+        [
+          "Launch / market status",
+          "FDA accelerated approval 13 August 2026. US accelerated approval; India unverified"
+        ],
+        [
+          "Current limitation",
+          "Accelerated approval is based on MRD-negative complete response rather than mature progression-free or overall-survival benefit. The pivotal study was open-label, excluded patients refractory to prior anti-CD38 monoclonal antibody therapy or prior bortezomib, and continued approval may depend on verification of clinical benefit.",
+          "wide"
+        ]
+      ]
+    },
+    {
+      "id": "treatment:tudriqev-rp1",
+      "lane": "treatment",
+      "laneLabel": "Treatment explorer",
+      "order": 6,
       "title": "Tudriqev + Nivolumab",
       "subtitle": "Tudriqev + nivolumab · Melanoma · Unresectable advanced cutaneous melanoma after anti-PD-1 progression",
       "organization": "Replimune + Bristol Myers Squibb",
@@ -550,7 +667,7 @@
       "id": "treatment:selpercatinib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 6,
+      "order": 7,
       "title": "Tumor-Agnostic Selpercatinib",
       "subtitle": "Retevmo · RET fusion solid tumors · Locally advanced or metastatic, post-systemic therapy",
       "organization": "Eli Lilly and Company",
@@ -650,7 +767,7 @@
       "id": "treatment:zidesamtinib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 7,
+      "order": 8,
       "title": "Zidesamtinib After ROS1 TKI",
       "subtitle": "Jideytro · Lung cancer · ROS1-positive metastatic after prior ROS1 inhibitor",
       "organization": "GSK / Nuvalent",
@@ -758,7 +875,7 @@
       "id": "treatment:cretostimogene",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 8,
+      "order": 9,
       "title": "Cretostimogene in BCG-Unresponsive NMIBC",
       "subtitle": "Cretostimogene · Bladder cancer · High-risk non-muscle invasive with CIS, with or without Ta/T1",
       "organization": "CG Oncology",
@@ -870,7 +987,7 @@
       "id": "treatment:pembro-enfortumab-mibc",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 9,
+      "order": 10,
       "title": "Perioperative Pembrolizumab + Enfortumab",
       "subtitle": "Padcev + Keytruda · Bladder cancer · Muscle-invasive, cystectomy-eligible",
       "organization": "Merck + Astellas Pharma",
@@ -970,7 +1087,7 @@
       "id": "treatment:isatuximab-sc",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 10,
+      "order": 11,
       "title": "Subcutaneous Isatuximab",
       "subtitle": "Sarclisa Escena · Multiple myeloma · Newly diagnosed + relapsed / refractory",
       "organization": "Sanofi",
@@ -1070,7 +1187,7 @@
       "id": "treatment:tregzi",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 11,
+      "order": 12,
       "title": "Tregzi Transplant Cell Therapy",
       "subtitle": "Tregzi · Hematologic malignancies · Matched-donor myeloablative HSCT",
       "organization": "Orca Bio",
@@ -1174,7 +1291,7 @@
       "id": "treatment:durvalumab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 12,
+      "order": 13,
       "title": "Neoadjuvant Durvalumab",
       "subtitle": "Durvalumab · Breast cancer · Early triple-negative",
       "organization": "AstraZeneca",
@@ -1244,7 +1361,7 @@
       "id": "treatment:intismeran",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 13,
+      "order": 14,
       "title": "Personalized mRNA Neoantigen Therapy",
       "subtitle": "Intismeran · Melanoma · Resected high-risk",
       "organization": "Moderna + Merck / MSD",
@@ -1314,7 +1431,7 @@
       "id": "treatment:pemigatinib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 14,
+      "order": 15,
       "title": "First-line Pemigatinib",
       "subtitle": "Pemigatinib · Cholangiocarcinoma · FGFR2-rearranged",
       "organization": "Incyte",
@@ -1384,7 +1501,7 @@
       "id": "treatment:amivantamab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 15,
+      "order": 16,
       "title": "Amivantamab in Refractory CRC",
       "subtitle": "Amivantamab · Colorectal cancer · RAS/BRAF wild-type",
       "organization": "Johnson & Johnson / Janssen",
@@ -1454,7 +1571,7 @@
       "id": "treatment:sigvotatug",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 16,
+      "order": 17,
       "title": "Integrin Beta-6 ADC",
       "subtitle": "Sigvotatug · Lung cancer · Advanced NSCLC",
       "organization": "Pfizer / Seagen",
@@ -1524,7 +1641,7 @@
       "id": "treatment:sacituzumab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 17,
+      "order": 18,
       "title": "Neoadjuvant Sacituzumab Govitecan",
       "subtitle": "Sacituzumab · Bladder cancer · Cisplatin-ineligible MIBC",
       "organization": "Gilead Sciences",
@@ -1594,7 +1711,7 @@
       "id": "followup:matterhorn",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 18,
+      "order": 19,
       "title": "Durvalumab + FLOT",
       "subtitle": "MATTERHORN · Gastric / GEJ cancer",
       "organization": "AstraZeneca",
@@ -1674,7 +1791,7 @@
       "id": "followup:db09",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 19,
+      "order": 20,
       "title": "Trastuzumab deruxtecan + pertuzumab",
       "subtitle": "DESTINY-Breast09 · Breast cancer",
       "organization": "Daiichi Sankyo + AstraZeneca",
@@ -1754,7 +1871,7 @@
       "id": "followup:keynote689",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 20,
+      "order": 21,
       "title": "Perioperative pembrolizumab",
       "subtitle": "KEYNOTE-689 · Head and neck cancer",
       "organization": "Merck / MSD",
@@ -1834,7 +1951,7 @@
       "id": "followup:rusfertide",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 21,
+      "order": 22,
       "title": "Rusfertide",
       "subtitle": "VERIFY · Polycythemia vera",
       "organization": "Takeda + Protagonist Therapeutics",
@@ -1914,7 +2031,7 @@
       "id": "followup:camizestrant",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 22,
+      "order": 23,
       "title": "Camizestrant + CDK4/6 inhibitor",
       "subtitle": "SERENA-6 · Breast cancer",
       "organization": "AstraZeneca",
@@ -1998,7 +2115,7 @@
       "id": "followup:atomic",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 23,
+      "order": 24,
       "title": "Atezolizumab + mFOLFOX6",
       "subtitle": "ATOMIC · Colon cancer",
       "organization": "Genentech / Roche + NCI Alliance",
@@ -2078,7 +2195,7 @@
       "id": "followup:nivopostop",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 24,
+      "order": 25,
       "title": "Postoperative nivolumab + chemoradiotherapy",
       "subtitle": "NIVOPOSTOP · Head and neck cancer",
       "organization": "Bristol Myers Squibb + GORTEC",
@@ -2158,7 +2275,7 @@
       "id": "followup:ascent04",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 25,
+      "order": 26,
       "title": "Sacituzumab govitecan + pembrolizumab",
       "subtitle": "ASCENT-04 / KEYNOTE-D19 · Breast cancer",
       "organization": "Gilead + Merck / MSD",
@@ -2242,7 +2359,7 @@
       "id": "followup:cpost",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 26,
+      "order": 27,
       "title": "Adjuvant cemiplimab",
       "subtitle": "C-POST · Cutaneous squamous cell carcinoma",
       "organization": "Regeneron",
@@ -2322,7 +2439,7 @@
       "id": "followup:amplitude",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 27,
+      "order": 28,
       "title": "Niraparib + abiraterone + prednisone",
       "subtitle": "AMPLITUDE · Prostate cancer",
       "organization": "Johnson & Johnson / Janssen",
@@ -2402,7 +2519,7 @@
       "id": "followup:can2409",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 28,
+      "order": 29,
       "title": "CAN-2409 + valacyclovir + radiotherapy",
       "subtitle": "PrTK03 · Prostate cancer",
       "organization": "Candel Therapeutics",
@@ -2482,7 +2599,7 @@
       "id": "watchlist:bemotrizinol-sunscreen",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 29,
+      "order": 30,
       "title": "Bemotrizinol sunscreen order takes effect",
       "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
       "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
@@ -2578,7 +2695,7 @@
       "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 30,
+      "order": 31,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -2674,7 +2791,7 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 31,
+      "order": 32,
       "title": "RP1 + nivolumab accelerated approval after advisory split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -2770,7 +2887,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 32,
+      "order": 33,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -2866,7 +2983,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 33,
+      "order": 34,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -2962,7 +3079,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 34,
+      "order": 35,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -3058,7 +3175,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 35,
+      "order": 36,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -3154,7 +3271,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 36,
+      "order": 37,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -3248,7 +3365,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 61,
+    "sourcesChecked": 64,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,

@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-08-17T03:28:54.848Z",
-  "currentEditionId": "2026-08-17",
-  "currentEditionLabel": "17 August 2026",
+  "generatedAt": "2026-08-18T05:41:28.366Z",
+  "currentEditionId": "2026-08-18",
+  "currentEditionLabel": "18 August 2026",
   "editions": [
+    {
+      "id": "2026-08-18",
+      "editionLabel": "18 August 2026",
+      "preparedLabel": "August 18 Morning Edition",
+      "monthKey": "2026-08",
+      "monthLabel": "August 2026",
+      "summary": "FDA granted accelerated approval to iberdomide, marketed as Zenbexus, with daratumumab and hyaluronidase-fihj plus dexamethasone for adults with multiple myeloma after at least one prior line including a proteasome inhibitor and an immunomodulatory agent.",
+      "file": "/data/editions/2026-08-18.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 19,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 8,
+        "verifiedRecords": 38
+      }
+    },
     {
       "id": "2026-08-17",
       "editionLabel": "17 August 2026",
@@ -603,8 +620,29 @@
     {
       "monthKey": "2026-08",
       "monthLabel": "August 2026",
-      "leadEditionId": "2026-08-17",
+      "leadEditionId": "2026-08-18",
       "highlights": [
+        {
+          "editionId": "2026-08-18",
+          "editionLabel": "18 August 2026",
+          "tag": "Latest verified approval",
+          "title": "Iberdomide + Daratumumab/Dexamethasone",
+          "summary": "FDA accelerated approval 13 August 2026"
+        },
+        {
+          "editionId": "2026-08-18",
+          "editionLabel": "18 August 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Gedatolisib + Fulvestrant",
+          "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
+        },
+        {
+          "editionId": "2026-08-18",
+          "editionLabel": "18 August 2026",
+          "tag": "Negative trial",
+          "title": "Galleri-NHS negative screening signal",
+          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
+        },
         {
           "editionId": "2026-08-17",
           "editionLabel": "17 August 2026",
@@ -625,27 +663,6 @@
           "tag": "Highest-impact treatment pool",
           "title": "Gedatolisib + Fulvestrant",
           "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
-        },
-        {
-          "editionId": "2026-08-17",
-          "editionLabel": "17 August 2026",
-          "tag": "Negative trial",
-          "title": "Galleri-NHS negative screening signal",
-          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
-        },
-        {
-          "editionId": "2026-08-14",
-          "editionLabel": "14 August 2026",
-          "tag": "FDA order effective",
-          "title": "Bemotrizinol sunscreen order takes effect",
-          "summary": "Sunscreen is a cancer-prevention intervention. The effective order expands the ingredients manufacturers may use in US products and may improve formulation choice, but it does not by itself prove superior skin-cancer prevention or mean products are immediately available on shelves."
-        },
-        {
-          "editionId": "2026-08-14",
-          "editionLabel": "14 August 2026",
-          "tag": "Latest verified approval",
-          "title": "Tudriqev + Nivolumab",
-          "summary": "FDA accelerated approval 6 August 2026"
         }
       ]
     },

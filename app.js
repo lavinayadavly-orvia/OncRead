@@ -101,6 +101,44 @@ const treatments = [
     ]
   },
   {
+    id: "iberdomide-iberd", short: "Zenbexus + IberDd", name: "Iberdomide + Daratumumab/Dexamethasone", cancer: "Multiple myeloma",
+    setting: "Relapsed or refractory after 1+ prior line including PI and IMiD", company: "Bristol Myers Squibb", phase: "Phase III; accelerated approval",
+    impact: "High in early-relapse myeloma, confirmatory benefit required", impactGroup: "high", maturity: 99, impactScore: 85,
+    eventDate: "2026-08-13",
+    headline: "MRD-negative CR 41% vs 21%", headlineNote: "EXCALIBER-RRMM; accelerated approval",
+    benefit: "FDA granted accelerated approval to iberdomide, marketed as Zenbexus, with daratumumab and hyaluronidase-fihj plus dexamethasone for adults with multiple myeloma after at least one prior line including a proteasome inhibitor and an immunomodulatory agent.",
+    safety: "The prescribing information includes boxed warnings for embryo-fetal toxicity and serious venous and arterial thromboembolism, plus warnings for neutropenia, infections, and secondary primary malignancies. Iberdomide is available only through the ZENBEXUS REMS because of embryo-fetal toxicity risk.",
+    cost: "New oral CELMoD added to anti-CD38/dexamethasone regimen; official commercial price not verified", indiaPrice: "No official US list price, India price, CDSCO approval, reimbursement, procurement figure, or India launch date for Zenbexus was verified in this pass.",
+    indiaStatus: "not-launched", indiaLabel: "US accelerated approval; India unverified", launch: "FDA accelerated approval 13 August 2026",
+    indiaCaveat: "EXCALIBER-RRMM included India sites, but no verified CDSCO authorization, India availability, official launch date, price, reimbursement decision, or procurement pathway for Zenbexus was identified. India relevance is currently indirect until a local regulatory or access action is official.",
+    limitations: "Accelerated approval is based on MRD-negative complete response rather than mature progression-free or overall-survival benefit. The pivotal study was open-label, excluded patients refractory to prior anti-CD38 monoclonal antibody therapy or prior bortezomib, and continued approval may depend on verification of clinical benefit.",
+    detailSections: [
+      ["Event date / geography", "13 August 2026 FDA accelerated approval - United States; FDA says the review used Project Orbis, RTOR, Assessment Aid, priority review, breakthrough therapy designation, and orphan drug designation.", "wide"],
+      ["Population / sample", "Adults with relapsed or refractory multiple myeloma after one or two prior lines of therapy; the approved indication requires at least one prior line including a proteasome inhibitor and an immunomodulatory agent. Patients refractory to prior anti-CD38 monoclonal antibody therapy or prior bortezomib were excluded from EXCALIBER-RRMM.", "wide"],
+      ["Comparator", "Iberdomide 1 mg with daratumumab and hyaluronidase-fihj plus dexamethasone versus daratumumab and hyaluronidase-fihj, bortezomib, and dexamethasone in the randomized, multicenter, open-label EXCALIBER-RRMM trial.", "wide"],
+      ["Primary endpoint", "FDA identified MRD-negative complete response at any time as the major efficacy outcome measure for accelerated approval.", "wide"],
+      ["Effect size detail", "In the first 420 patients randomized to iberdomide 1 mg plus Dd (n=207) or DVd (n=213) across stages 1 and 2, MRD-negative CR at any time was 41% (95% CI 34-48) versus 21% (95% CI 15-27), p<0.0001.", "wide"],
+      ["Regulatory status", "FDA accelerated approval on 13 August 2026. No verified EMA, CDSCO, or other national authorization for Zenbexus was captured in this pass; anticipated India launch remains no official date announced.", "wide"],
+      ["Dose / administration", "Iberdomide 1 mg orally once daily on Days 1-21 of each 28-day cycle, with subcutaneous daratumumab and hyaluronidase-fihj plus dexamethasone until disease progression or unacceptable toxicity.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-iberdomide-daratumumab-and-hyaluronidase-fihj-and-dexamethasone",
+    sourceLabel: "FDA accelerated approval notice",
+    supportingSources: [
+      {
+        label: "FDA oncology approval notifications index",
+        url: "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications"
+      },
+      {
+        label: "ClinicalTrials.gov EXCALIBER-RRMM registry",
+        url: "https://clinicaltrials.gov/study/NCT04975997"
+      },
+      {
+        label: "Bristol Myers Squibb NDA acceptance release",
+        url: "https://news.bms.com/news/details/2026/U-S--Food-and-Drug-Administration-Accepts-Bristol-Myers-Squibbs-New-Drug-Application-for-Iberdomide-in-Patients-with-Relapsed-or-Refractory-Multiple-Myeloma/default.aspx"
+      }
+    ]
+  },
+  {
     id: "tudriqev-rp1", short: "Tudriqev + nivolumab", name: "Tudriqev + Nivolumab", cancer: "Melanoma",
     setting: "Unresectable advanced cutaneous melanoma after anti-PD-1 progression", company: "Replimune + Bristol Myers Squibb", phase: "Single-arm IGNYTE; accelerated approval",
     impact: "High unmet-need approval, confirmatory trial required", impactGroup: "high", maturity: 99, impactScore: 86,
@@ -893,6 +931,7 @@ const portfolioAliasRules = [
   { match: /nivolumab/i, aliases: ["Opdivo"] },
   { match: /pembrolizumab/i, aliases: ["Keytruda"] },
   { match: /gedatolisib|revtorpyk/i, aliases: ["Revtorpyk"] },
+  { match: /iberdomide|zenbexus/i, aliases: ["Zenbexus", "IberDd"] },
   { match: /pluvicto|lutetium|vipivotide|psma/i, aliases: ["Pluvicto", "Lu-PSMA-617", "Locametz"] },
   { match: /zidesamtinib|jideytro/i, aliases: ["Jideytro"] },
   { match: /enfortumab vedotin|padcev/i, aliases: ["Padcev"] },
