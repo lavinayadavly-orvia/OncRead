@@ -359,16 +359,41 @@ const treatments = [
   },
   {
     id: "intismeran", short: "Intismeran", name: "Personalized mRNA Neoantigen Therapy", cancer: "Melanoma",
-    setting: "Resected high-risk", company: "Moderna + Merck / MSD", phase: "Phase IIb",
-    impact: "Potentially transformative", impactGroup: "high", maturity: 73, impactScore: 96,
-    headline: "+19.7 points 5-year RFS", headlineNote: "68.8% vs 49.1%; RFS HR 0.51",
-    benefit: "A large and durable recurrence-free survival signal from patient-specific tumor neoantigens. Five-year distant metastasis-free survival also favored combination treatment.",
-    safety: "No new signal reported; injection-related symptoms and pembrolizumab immune toxicity remain relevant. Tissue adequacy and manufacturing delay add nonmedical burden.",
-    cost: "Unknown; likely very high initially", indiaPrice: "No commercial price.",
-    indiaStatus: "not-launched", indiaLabel: "Not launched", launch: "No announced date; late-2020s at earliest is an inference",
-    indiaCaveat: "Requires positive phase III results, global filing, individualized manufacturing validation and CDSCO review.",
-    limitations: "Phase IIb sample size, small control group and nondefinitive overall survival. Phase III confirmation is ongoing.",
-    source: "https://ascopubs.org/doi/10.1200/JCO-26-00835"
+    setting: "Completely resected high-risk stage IIB-IV cutaneous melanoma", company: "Moderna + Merck / MSD", phase: "Phase III topline",
+    impact: "Potentially transformative, data immature", impactGroup: "high", maturity: 86, impactScore: 97,
+    eventDate: "2026-08-19",
+    headline: "Phase III RFS + DMFS met", headlineNote: "INTerpath-001; HR/CI not yet reported",
+    benefit: "Merck and Moderna reported that adjuvant intismeran autogene plus Keytruda met the Phase III INTerpath-001 primary endpoint of recurrence-free survival and key secondary endpoint of distant metastasis-free survival versus Keytruda alone in completely resected stage IIB-IV cutaneous melanoma.",
+    safety: "The companies reported no new safety signals and said the safety profiles were consistent with previously reported combination studies. Injection-related symptoms, individualized-vaccine logistics, and pembrolizumab immune-mediated toxicity remain relevant.",
+    cost: "Investigational individualized mRNA neoantigen therapy; official commercial pricing not available", indiaPrice: "No official US price, India price, CDSCO approval, reimbursement, procurement figure, or India launch date for intismeran was verified in this pass.",
+    indiaStatus: "not-launched", indiaLabel: "Investigational; India unverified", launch: "Phase III topline result announced 19 August 2026; no regulatory approval or launch date announced",
+    indiaCaveat: "No verified CDSCO authorization, India availability, official launch date, price, reimbursement decision, or procurement pathway was identified. India relevance depends on regulatory filing, individualized manufacturing turnaround, tumor-sequencing access, and pembrolizumab affordability.",
+    limitations: "The August 2026 result is topline and company-reported. Hazard ratios, confidence intervals, absolute landmark rates, subgroup effects, treatment-manufacturing turnaround, quality-of-life data, and overall survival were not reported; OS remains a planned secondary endpoint and the trial will continue.",
+    detailSections: [
+      ["Event date / geography", "19 August 2026 official Merck/Moderna topline Phase III disclosure; global INTerpath-001 trial in completely resected stage IIB-IV cutaneous melanoma.", "wide"],
+      ["Population / sample", "1,137 patients with high-risk stage IIB, IIC, III, or IV resected cutaneous melanoma who had not received prior systemic therapy, randomized after complete surgical resection.", "wide"],
+      ["Comparator", "Intismeran 1 mg every three weeks for up to nine doses plus Keytruda 400 mg every six weeks for up to nine cycles versus Keytruda alone for approximately one year, or until disease recurrence, unacceptable toxicity, or about 56 weeks total treatment duration.", "wide"],
+      ["Primary endpoint", "Recurrence-free survival, defined as time from randomization to local, locoregional, regional or distant recurrence, or death from any cause, assessed by investigator.", "wide"],
+      ["Effect size detail", "The trial met RFS and the key secondary endpoint of distant metastasis-free survival with statistically significant and clinically meaningful improvements versus Keytruda alone. Hazard ratios, confidence intervals, p values, absolute recurrence-free survival rates, and distant-metastasis-free survival rates were not reported in the topline release.", "wide"],
+      ["Regulatory status", "Investigational. The companies said data will be presented at an upcoming international medical meeting and shared with regulatory authorities; no FDA, EMA, CDSCO, or other approval was verified in this pass.", "wide"],
+      ["Prior evidence context", "The earlier randomized Phase IIb KEYNOTE-942 study showed five-year RFS HR 0.51 (95% CI 0.294-0.887) and DMFS HR 0.411 (95% CI 0.200-0.843), but those effect sizes should not be substituted for the Phase III readout.", "wide"]
+    ],
+    source: "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/",
+    sourceLabel: "Official company release",
+    supportingSources: [
+      {
+        label: "ClinicalTrials.gov INTerpath-001 registry",
+        url: "https://clinicaltrials.gov/study/NCT05933577"
+      },
+      {
+        label: "JCO 2026 Phase IIb five-year update",
+        url: "https://ascopubs.org/doi/10.1200/JCO-26-00835"
+      },
+      {
+        label: "Merck/Moderna ASCO 2026 Phase IIb release",
+        url: "https://www.merck.com/news/moderna-and-merck-present-5-year-data-for-intismeran-autogene-in-combination-with-keytruda-pembrolizumab-in-patients-with-high-risk-stage-iii-iv-melanoma-following-complete-resection-at-the-20/"
+      }
+    ]
   },
   {
     id: "pemigatinib", short: "Pemigatinib", name: "First-line Pemigatinib", cancer: "Cholangiocarcinoma",

@@ -1,5 +1,17 @@
 # Dashboard Changelog
 
+## 2026-08-20 - Intismeran Phase III Topline Signal Added
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Updated the existing `Personalized mRNA Neoantigen Therapy` dossier after Merck and Moderna announced on 19 August 2026 that the Phase III INTerpath-001 trial of adjuvant intismeran autogene plus Keytruda met its primary endpoint of recurrence-free survival and key secondary endpoint of distant metastasis-free survival versus Keytruda alone in completely resected stage IIB-IV cutaneous melanoma.
+- Captured INTerpath-001 as a randomized, double-blind, placebo- and active-comparator-controlled global Phase III trial enrolling 1,137 patients, with intismeran 1 mg every three weeks for up to nine doses plus Keytruda 400 mg every six weeks for up to nine cycles versus Keytruda alone.
+- Clearly labeled the update as a company-reported topline investigational result because hazard ratios, confidence intervals, p values, absolute landmark rates, subgroup effects, manufacturing turnaround, quality-of-life data, and overall survival were not yet reported. The trial continues for other key secondary endpoints including overall survival.
+- Updated safety, regulatory, India-access, cost, and limitation fields to reflect no new safety signals reported, no regulatory approval, no official price, no CDSCO authorization, no India launch date, and no reimbursement or procurement pathway verified.
+- Retained the existing treatment-dossier model and made no taxonomy, scoring, filter, layout, or navigation change; the current model can represent an investigational Phase III readout while preserving evidence limitations and source links.
+- Rechecked FDA oncology approval and withdrawal surfaces, EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major journals, and targeted sponsor disclosures; no other August 19-20 oncology approval, withdrawal, safety signal, pricing/procurement change, India-access milestone, or global cancer-system update cleared the materiality and verification threshold.
+- Updated the source ledger and rolled the visible briefing/archive forward to the August 20 Morning Edition without exposing operational review language on the frontend.
+- No detailed Word report was modified.
+
 ## 2026-08-18 - Iberdomide Accelerated Approval Added
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.

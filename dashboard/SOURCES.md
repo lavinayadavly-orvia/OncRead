@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-08-18
+Updated: 2026-08-20
 
 ## Method
 
@@ -53,8 +53,36 @@ Updated: 2026-08-18
 - The 2026-08-14 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 13-14 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-17 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 16-17 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-18 review added one FDA-backed multiple-myeloma treatment dossier after the FDA oncology approval index and FDA approval notice made the 13 August 2026 Zenbexus/iberdomide accelerated approval visible in this pass. The dossier captures the randomized EXCALIBER-RRMM MRD-negative complete-response evidence, accelerated-approval status, REMS and boxed-warning risks, and unverified India access and pricing.
+- The 2026-08-20 review updated the existing intismeran melanoma dossier after Merck and Moderna announced positive topline Phase III INTerpath-001 results. The update is labeled as investigational and topline because effect sizes, confidence intervals, full safety tables, quality-of-life data, and overall survival were not yet reported.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-08-20 Verified Update
+
+- Merck and Moderna official release: Phase III INTerpath-001 met recurrence-free survival and distant-metastasis-free survival endpoints for adjuvant intismeran autogene plus Keytruda versus Keytruda alone in completely resected stage IIB-IV cutaneous melanoma; effect sizes, confidence intervals, p values, landmark rates, and overall survival were not reported in the topline release
+  https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/
+- ClinicalTrials.gov INTerpath-001 registry, NCT05933577; used for trial design, comparator, enrollment, endpoint, and population context
+  https://clinicaltrials.gov/study/NCT05933577
+- JCO 2026 Phase IIb five-year update for KEYNOTE-942/mRNA-4157-P201; retained as prior-evidence context only and not substituted for the Phase III effect size
+  https://ascopubs.org/doi/10.1200/JCO-26-00835
+- Merck/Moderna ASCO 2026 Phase IIb release; retained as prior-evidence and clinical-program context, including the earlier five-year RFS and DMFS hazard ratios
+  https://www.merck.com/news/moderna-and-merck-present-5-year-data-for-intismeran-autogene-in-combination-with-keytruda-pembrolizumab-in-patients-with-high-risk-stage-iii-iv-melanoma-following-complete-resection-at-the-20/
+- FDA oncology approval notifications index; no same-window newly verified oncology approval posting was identified beyond the already represented 13 August 2026 Zenbexus/iberdomide accelerated approval
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA withdrawn cancer accelerated approvals page; no new same-window oncology withdrawal was visible
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA what's-new and cancer-therapeutic-area surfaces did not show a same-window promoted oncology medicine, authorization, refusal, safety restriction, shortage, or current-care milestone
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+- CDSCO clinical-trial approvals and Subject Expert Committee surfaces did not show a new same-window oncology approval, access, safety, pricing, procurement, or SEC recommendation strong enough for promotion
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+- WHO newsroom and IARC news checks did not retrieve a new same-window oncology systems, prevention, epidemiology, or public-health milestone that cleared the threshold
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+- PubMed, ClinicalTrials.gov, major-journal, and targeted official sponsor checks did not retrieve any other August 19-20 phase III result, material peer-reviewed oncology publication, trial-result posting, safety event, pricing or procurement change, India-access milestone, or global cancer-system update that cleared the inclusion threshold
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-08-18 Verified Update
 
