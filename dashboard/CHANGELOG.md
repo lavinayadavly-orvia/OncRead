@@ -1,5 +1,15 @@
 # Dashboard Changelog
 
+## 2026-08-21 - Verified Review With No Material Dashboard Change
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Added no new substantive dashboard record and made no taxonomy, scoring, filter, layout, dossier, or source-link changes because no August 20-21 item was both materially decision-relevant and sufficiently verified from primary or authoritative sources beyond the August 19 intismeran Phase III topline signal already represented in the August 20 edition.
+- Rechecked FDA oncology approval, ongoing accelerated-approval, verified-benefit, other accelerated-approval, and withdrawal surfaces; no same-window oncology approval, withdrawal, safety restriction, verified-benefit conversion, or confirmatory-obligation update was promoted. FDA's oncology approval index still showed the 13 August 2026 Zenbexus/iberdomide accelerated approval as the newest visible oncology approval posting.
+- Rechecked Merck/Moderna intismeran surfaces after the August 19 INTerpath-001 topline release; no full hazard ratios, confidence intervals, absolute RFS/DMFS rates, quality-of-life data, overall-survival update, regulatory filing, approval, price, or India-access milestone was officially posted in this pass.
+- Checked EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major journals, and targeted official sponsor disclosures; no other August 20-21 oncology approval, withdrawal, safety signal, phase III result, material publication, pricing/procurement change, India-access milestone, or global cancer-system update cleared the materiality and verification threshold.
+- Rolled the visible briefing and archive forward to the August 21 Morning Edition while keeping operational no-change language confined to this changelog and `dashboard/SOURCES.md`; the frontend continues to lead with the latest verified oncology evidence and prevention signals.
+- No detailed Word report was modified.
+
 ## 2026-08-20 - Intismeran Phase III Topline Signal Added
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
