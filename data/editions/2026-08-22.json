@@ -1,0 +1,89 @@
+{
+  "id": "2026-08-22",
+  "editionLabel": "22 August 2026",
+  "preparedLabel": "August 22 Morning Edition",
+  "monthKey": "2026-08",
+  "monthLabel": "August 2026",
+  "summary": "Merck and Moderna reported that adjuvant intismeran autogene plus Keytruda met the Phase III INTerpath-001 primary endpoint of recurrence-free survival and key secondary endpoint of distant metastasis-free survival versus Keytruda alone in completely resected stage IIB-IV cutaneous melanoma.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 19,
+    "followupApprovals": 7,
+    "indiaMarketed": 4,
+    "watchlistSignals": 8,
+    "verifiedRecords": 38
+  },
+  "headlines": [
+    {
+      "tag": "Latest verified approval",
+      "title": "Personalized mRNA Neoantigen Therapy",
+      "summary": "Phase III topline result announced 19 August 2026; no regulatory approval or launch date announced"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Gedatolisib + Fulvestrant",
+      "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
+    },
+    {
+      "tag": "Negative trial",
+      "title": "Galleri-NHS negative screening signal",
+      "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "intismeran"
+      },
+      "title": "Personalized mRNA Neoantigen Therapy",
+      "subtitle": "Phase III topline result announced 19 August 2026; no regulatory approval or launch date announced",
+      "date": 1787097600000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "gedatolisib"
+      },
+      "title": "Gedatolisib + Fulvestrant",
+      "subtitle": "Phase III · US approved; India launch unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "who-cancer-report"
+      },
+      "title": "WHO/IARC cancer inequity report",
+      "subtitle": "Systems report",
+      "date": 0
+    }
+  ],
+  "sourceCount": 38,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "intismeran"
+      },
+      "title": "Personalized mRNA Neoantigen Therapy",
+      "subtitle": "Phase III topline result announced 19 August 2026; no regulatory approval or launch date announced",
+      "date": 1787097600000
+    }
+  }
+}
