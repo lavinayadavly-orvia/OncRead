@@ -54,7 +54,7 @@ Updated: 2026-08-23
 - The 2026-08-17 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 16-17 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-18 review added one FDA-backed multiple-myeloma treatment dossier after the FDA oncology approval index and FDA approval notice made the 13 August 2026 Zenbexus/iberdomide accelerated approval visible in this pass. The dossier captures the randomized EXCALIBER-RRMM MRD-negative complete-response evidence, accelerated-approval status, REMS and boxed-warning risks, and unverified India access and pricing.
 - The 2026-08-20 review updated the existing intismeran melanoma dossier after Merck and Moderna announced positive topline Phase III INTerpath-001 results. The update is labeled as investigational and topline because effect sizes, confidence intervals, full safety tables, quality-of-life data, and overall survival were not yet reported.
-- The 2026-08-21 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 20-21 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the intismeran Phase III topline signal already represented in the August 20 edition.
+- The 2026-08-21 review added the randomized Phase III TALENTOP treatment-strategy dossier after the Lancet paper became visible through PubMed on 20 August 2026. The record captures the time-to-treatment-failure benefit, added toxicity and treatment-related deaths, selected China-only population, absence of reported overall-survival benefit, and unverified India implementation pathway.
 - The 2026-08-22 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 21-22 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-23 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 22-23 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
@@ -116,7 +116,14 @@ Updated: 2026-08-23
   https://pubmed.ncbi.nlm.nih.gov/
   https://clinicaltrials.gov/
 
-## 2026-08-21 Review-Only Checks
+## 2026-08-21 Verified Update
+
+- Lancet TALENTOP randomized phase III publication: liver resection after response or stable disease on atezolizumab/bevacizumab induction versus continued maintenance therapy in locally advanced hepatocellular carcinoma with macrovascular invasion and no extrahepatic metastasis; median time to treatment failure 20.4 versus 11.8 months, HR 0.60 (95% CI 0.39-0.91), p=0.015
+  https://doi.org/10.1016/S0140-6736(26)01252-3
+- PubMed record and structured abstract, PMID 42624156; indexed 20 August 2026 and used to verify design, effect size, safety, two treatment-related deaths, funding, and limitations
+  https://pubmed.ncbi.nlm.nih.gov/42624156/
+- ClinicalTrials.gov TALENTOP registry, NCT04649489; used for registry and ongoing-study context
+  https://clinicaltrials.gov/study/NCT04649489
 
 - FDA oncology approval notifications index; no same-window newly verified oncology approval posting was identified, and the 13 August 2026 Zenbexus/iberdomide accelerated approval remained the newest visible oncology approval posting in this pass
   https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications

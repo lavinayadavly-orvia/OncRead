@@ -126,11 +126,14 @@ main { min-width: 0; padding: 0 34px 70px; }
   background: linear-gradient(135deg, #faf6ee 0%, #e8f0ea 56%, #ddd9cb 120%);
   color: var(--ink); box-shadow: var(--shadow);
 }
+.briefing-hero > *, .portfolio-detail-hero > * { min-width: 0; }
 .briefing-hero-copy h3 { max-width: 900px; margin: 0; font-size: clamp(30px, 3vw, 44px); line-height: 1.04; letter-spacing: -.05em; }
+.briefing-hero-copy h3, .briefing-hero-copy p, .briefing-tag, .briefing-pulse, .portfolio-result, .portfolio-detail-hero h3, .portfolio-detail-hero p { overflow-wrap: anywhere; }
 .briefing-hero-copy p:not(.eyebrow) { max-width: 840px; margin: 16px 0 0; color: #4d6072; font-size: 14px; line-height: 1.65; }
 .briefing-tag-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
 .briefing-tag {
   display: inline-flex; flex-direction: column; gap: 5px;
+  max-width: 100%;
   padding: 11px 13px; border: 1px solid #d6dfde; border-radius: 14px;
   background: rgba(255,255,255,.82); color: #566778; font-size: 11px;
 }

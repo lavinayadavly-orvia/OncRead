@@ -20,14 +20,16 @@
 - Rolled the visible briefing and archive forward to the August 22 Morning Edition while keeping operational no-change language confined to this changelog and `dashboard/SOURCES.md`; the frontend continues to lead with the latest verified oncology evidence and prevention signals.
 - No detailed Word report was modified.
 
-## 2026-08-21 - Verified Review With No Material Dashboard Change
+## 2026-08-21 - TALENTOP Randomized Liver-Resection Strategy Added
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
-- Added no new substantive dashboard record and made no taxonomy, scoring, filter, layout, dossier, or source-link changes because no August 20-21 item was both materially decision-relevant and sufficiently verified from primary or authoritative sources beyond the August 19 intismeran Phase III topline signal already represented in the August 20 edition.
-- Rechecked FDA oncology approval, ongoing accelerated-approval, verified-benefit, other accelerated-approval, and withdrawal surfaces; no same-window oncology approval, withdrawal, safety restriction, verified-benefit conversion, or confirmatory-obligation update was promoted. FDA's oncology approval index still showed the 13 August 2026 Zenbexus/iberdomide accelerated approval as the newest visible oncology approval posting.
-- Rechecked Merck/Moderna intismeran surfaces after the August 19 INTerpath-001 topline release; no full hazard ratios, confidence intervals, absolute RFS/DMFS rates, quality-of-life data, overall-survival update, regulatory filing, approval, price, or India-access milestone was officially posted in this pass.
+- Added `Liver Resection After Atezolizumab/Bevacizumab` after the randomized Phase III TALENTOP paper became visible through PubMed on 20 August 2026 and reported a treatment-strategy result for locally advanced hepatocellular carcinoma with macrovascular invasion and no extrahepatic metastasis.
+- Captured 489 patients entering induction and 201 selected after disease control and resectability assessment for randomization to resection plus 12 months of atezolizumab/bevacizumab or continued maintenance therapy. Median time to treatment failure was 20.4 versus 11.8 months; HR 0.60 (95% CI 0.39-0.91), p=0.015.
+- Explicitly recorded grade 3-4 treatment-related adverse events of 39% versus 21%, two treatment-related deaths in the surgery group, the China-only open-label design, selected post-induction population, 18.4-month follow-up, nonstandard time-to-treatment-failure primary endpoint, and absence of a reported overall-survival benefit.
+- Represented the finding as randomized evidence for a multimodality treatment strategy rather than a new medicine approval. No FDA, EMA, CDSCO, India guideline, access, reimbursement, procurement, or official India implementation milestone was inferred.
+- Retained the existing treatment-dossier model and added TALENTOP/NCT04649489/Tecentriq/Avastin search aliases; no taxonomy, scoring, filter, layout, or navigation redesign was required.
 - Checked EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major journals, and targeted official sponsor disclosures; no other August 20-21 oncology approval, withdrawal, safety signal, phase III result, material publication, pricing/procurement change, India-access milestone, or global cancer-system update cleared the materiality and verification threshold.
-- Rolled the visible briefing and archive forward to the August 21 Morning Edition while keeping operational no-change language confined to this changelog and `dashboard/SOURCES.md`; the frontend continues to lead with the latest verified oncology evidence and prevention signals.
+- Updated the source ledger and August 21 archive edition without exposing operational review language on the frontend.
 - No detailed Word report was modified.
 
 ## 2026-08-20 - Intismeran Phase III Topline Signal Added

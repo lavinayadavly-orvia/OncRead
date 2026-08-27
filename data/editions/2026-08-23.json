@@ -4,21 +4,21 @@
   "preparedLabel": "August 23 Morning Edition",
   "monthKey": "2026-08",
   "monthLabel": "August 2026",
-  "summary": "Merck and Moderna reported that adjuvant intismeran autogene plus Keytruda met the Phase III INTerpath-001 primary endpoint of recurrence-free survival and key secondary endpoint of distant metastasis-free survival versus Keytruda alone in completely resected stage IIB-IV cutaneous melanoma.",
+  "summary": "In the randomized TALENTOP trial, liver resection followed by atezolizumab plus bevacizumab prolonged time to treatment failure versus continued atezolizumab plus bevacizumab in carefully selected patients with locally advanced hepatocellular carcinoma that remained resectable after induction systemic therapy.",
   "provenance": "Generated from the current working tree.",
   "metrics": {
     "insights": 4,
-    "treatments": 19,
+    "treatments": 20,
     "followupApprovals": 7,
     "indiaMarketed": 4,
     "watchlistSignals": 8,
-    "verifiedRecords": 38
+    "verifiedRecords": 39
   },
   "headlines": [
     {
       "tag": "Latest verified approval",
-      "title": "Personalized mRNA Neoantigen Therapy",
-      "summary": "Phase III topline result announced 19 August 2026; no regulatory approval or launch date announced"
+      "title": "Liver Resection After Atezolizumab/Bevacizumab",
+      "summary": "Published online 20 August 2026; not a new product approval"
     },
     {
       "tag": "Highest-impact treatment pool",
@@ -36,11 +36,11 @@
       "route": {
         "view": "treatments",
         "kind": "detail",
-        "targetId": "intismeran"
+        "targetId": "talentop"
       },
-      "title": "Personalized mRNA Neoantigen Therapy",
-      "subtitle": "Phase III topline result announced 19 August 2026; no regulatory approval or launch date announced",
-      "date": 1787097600000
+      "title": "Liver Resection After Atezolizumab/Bevacizumab",
+      "subtitle": "Published online 20 August 2026; not a new product approval",
+      "date": 1787184000000
     },
     {
       "route": {
@@ -73,17 +73,17 @@
       "date": 0
     }
   ],
-  "sourceCount": 38,
+  "sourceCount": 39,
   "routeSummary": {
     "approval": {
       "route": {
         "view": "treatments",
         "kind": "detail",
-        "targetId": "intismeran"
+        "targetId": "talentop"
       },
-      "title": "Personalized mRNA Neoantigen Therapy",
-      "subtitle": "Phase III topline result announced 19 August 2026; no regulatory approval or launch date announced",
-      "date": 1787097600000
+      "title": "Liver Resection After Atezolizumab/Bevacizumab",
+      "subtitle": "Published online 20 August 2026; not a new product approval",
+      "date": 1787184000000
     }
   }
 }

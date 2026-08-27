@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T04:14:27.983Z",
+  "generatedAt": "2026-08-27T04:18:21.843Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -1358,10 +1358,123 @@
       ]
     },
     {
-      "id": "treatment:intismeran",
+      "id": "treatment:talentop",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
       "order": 14,
+      "title": "Liver Resection After Atezolizumab/Bevacizumab",
+      "subtitle": "TALENTOP · Hepatocellular carcinoma · Macrovascular invasion, no extrahepatic metastasis, disease controlled after induction",
+      "organization": "Investigator-led / Shanghai Roche-funded",
+      "snapshot": "Phase III · High in selected responders, OS pending",
+      "summary": "In the randomized TALENTOP trial, liver resection followed by atezolizumab plus bevacizumab prolonged time to treatment failure versus continued atezolizumab plus bevacizumab in carefully selected patients with locally advanced hepatocellular carcinoma that remained resectable after induction systemic therapy.",
+      "headline": "TTF HR 0.60 · Median 20.4 vs 11.8 months; p=0.015",
+      "statusLabel": "Evidence from China; India pathway unverified",
+      "badges": [
+        "Phase III",
+        "High in selected responders, OS pending",
+        "Evidence from China; India pathway unverified"
+      ],
+      "searchText": "liver resection after atezolizumab/bevacizumab talentop hepatocellular carcinoma macrovascular invasion, no extrahepatic metastasis, disease controlled after induction investigator-led / shanghai roche-funded phase iii high in selected responders, os pending ttf hr 0.60 median 20.4 vs 11.8 months; p=0.015 in the randomized talentop trial, liver resection followed by atezolizumab plus bevacizumab prolonged time to treatment failure versus continued atezolizumab plus bevacizumab in carefully selected patients with locally advanced hepatocellular carcinoma that remained resectable after induction systemic therapy. grade 3-4 treatment-related adverse events occurred in 39% of assessed surgical-group patients versus 21% with maintenance therapy. two treatment-related deaths occurred in the surgery group, from abnormal liver function and liver failure, underscoring the added perioperative and hepatic risk. tecentriq nct04649489 tecentriq avastin",
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "id": "talentop",
+        "label": "Open treatment dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Lancet phase III publication",
+          "url": "https://doi.org/10.1016/S0140-6736(26)01252-3"
+        },
+        {
+          "label": "PubMed abstract and indexing record",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42624156/"
+        },
+        {
+          "label": "ClinicalTrials.gov TALENTOP registry",
+          "url": "https://clinicaltrials.gov/study/NCT04649489"
+        }
+      ],
+      "sections": [
+        [
+          "Cancer and setting",
+          "Hepatocellular carcinoma · Macrovascular invasion, no extrahepatic metastasis, disease controlled after induction"
+        ],
+        [
+          "Manufacturer / organization",
+          "Investigator-led / Shanghai Roche-funded"
+        ],
+        [
+          "Event date / geography",
+          "20 August 2026 PubMed/Lancet online visibility; 24 hospitals in China.",
+          "wide"
+        ],
+        [
+          "Population / sample",
+          "489 treatment-naive patients with hepatocellular carcinoma, macrovascular invasion, and no extrahepatic metastasis entered induction. After disease control and resectability assessment, 201 were randomized: surgery n=101 and maintenance n=100.",
+          "wide"
+        ],
+        [
+          "Comparator",
+          "Three-cycle atezolizumab/bevacizumab induction plus one atezolizumab cycle, followed by liver resection and 12 months of atezolizumab/bevacizumab versus maintenance atezolizumab/bevacizumab without resection.",
+          "wide"
+        ],
+        [
+          "Primary endpoint",
+          "Independent-review time to treatment failure: local recurrence or RECIST 1.1 progression, new extrahepatic spread, or death.",
+          "wide"
+        ],
+        [
+          "Effect size detail",
+          "At median follow-up of 18.4 months, median time to treatment failure was 20.4 months with surgery versus 11.8 months with maintenance; HR 0.60 (95% CI 0.39-0.91), p=0.015.",
+          "wide"
+        ],
+        [
+          "Safety detail",
+          "Grade 3-4 treatment-related adverse events occurred in 32/83 assessed surgical-group patients (39%) and 21/100 maintenance patients (21%). Two treatment-related deaths occurred in the surgery group.",
+          "wide"
+        ],
+        [
+          "Regulatory status",
+          "Randomized clinical evidence for a treatment strategy, not a new FDA, EMA, CDSCO, or other product authorization. Trial registration NCT04649489 remains ongoing.",
+          "wide"
+        ],
+        [
+          "Measured effect",
+          "TTF HR 0.60. Median 20.4 vs 11.8 months; p=0.015",
+          "wide"
+        ],
+        [
+          "Clinical meaning",
+          "In the randomized TALENTOP trial, liver resection followed by atezolizumab plus bevacizumab prolonged time to treatment failure versus continued atezolizumab plus bevacizumab in carefully selected patients with locally advanced hepatocellular carcinoma that remained resectable after induction systemic therapy.",
+          "wide"
+        ],
+        [
+          "Safety and burden",
+          "Grade 3-4 treatment-related adverse events occurred in 39% of assessed surgical-group patients versus 21% with maintenance therapy. Two treatment-related deaths occurred in the surgery group, from abnormal liver function and liver failure, underscoring the added perioperative and hepatic risk.",
+          "wide"
+        ],
+        [
+          "Cost and India access",
+          "Adds major liver surgery and perioperative care to atezolizumab/bevacizumab; official comparative cost not reported. No official Indian regimen cost, surgery-package price, reimbursement decision, or procurement figure was verified in this pass. No India sites, CDSCO action, national guideline adoption, reimbursement decision, or implementation pathway was identified. Applicability depends on multidisciplinary selection, hepatobiliary surgical capacity, liver reserve, access to atezolizumab/bevacizumab, and local HCC epidemiology.",
+          "wide"
+        ],
+        [
+          "Launch / market status",
+          "Published online 20 August 2026; not a new product approval. Evidence from China; India pathway unverified"
+        ],
+        [
+          "Current limitation",
+          "China-only, open-label trial in a highly selected post-induction subgroup: 201 of 489 enrolled patients were randomized after disease control and resectability assessment. The primary endpoint was time to treatment failure rather than overall survival; follow-up was 18.4 months, overall-survival benefit was not reported, and surgical-group toxicity and two treatment-related deaths require careful interpretation.",
+          "wide"
+        ]
+      ]
+    },
+    {
+      "id": "treatment:intismeran",
+      "lane": "treatment",
+      "laneLabel": "Treatment explorer",
+      "order": 15,
       "title": "Personalized mRNA Neoantigen Therapy",
       "subtitle": "Intismeran · Melanoma · Completely resected high-risk stage IIB-IV cutaneous melanoma",
       "organization": "Moderna + Merck / MSD",
@@ -1478,7 +1591,7 @@
       "id": "treatment:pemigatinib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 15,
+      "order": 16,
       "title": "First-line Pemigatinib",
       "subtitle": "Pemigatinib · Cholangiocarcinoma · FGFR2-rearranged",
       "organization": "Incyte",
@@ -1548,7 +1661,7 @@
       "id": "treatment:amivantamab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 16,
+      "order": 17,
       "title": "Amivantamab in Refractory CRC",
       "subtitle": "Amivantamab · Colorectal cancer · RAS/BRAF wild-type",
       "organization": "Johnson & Johnson / Janssen",
@@ -1618,7 +1731,7 @@
       "id": "treatment:sigvotatug",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 17,
+      "order": 18,
       "title": "Integrin Beta-6 ADC",
       "subtitle": "Sigvotatug · Lung cancer · Advanced NSCLC",
       "organization": "Pfizer / Seagen",
@@ -1688,7 +1801,7 @@
       "id": "treatment:sacituzumab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 18,
+      "order": 19,
       "title": "Neoadjuvant Sacituzumab Govitecan",
       "subtitle": "Sacituzumab · Bladder cancer · Cisplatin-ineligible MIBC",
       "organization": "Gilead Sciences",
@@ -1758,7 +1871,7 @@
       "id": "followup:matterhorn",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 19,
+      "order": 20,
       "title": "Durvalumab + FLOT",
       "subtitle": "MATTERHORN · Gastric / GEJ cancer",
       "organization": "AstraZeneca",
@@ -1838,7 +1951,7 @@
       "id": "followup:db09",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 20,
+      "order": 21,
       "title": "Trastuzumab deruxtecan + pertuzumab",
       "subtitle": "DESTINY-Breast09 · Breast cancer",
       "organization": "Daiichi Sankyo + AstraZeneca",
@@ -1918,7 +2031,7 @@
       "id": "followup:keynote689",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 21,
+      "order": 22,
       "title": "Perioperative pembrolizumab",
       "subtitle": "KEYNOTE-689 · Head and neck cancer",
       "organization": "Merck / MSD",
@@ -1998,7 +2111,7 @@
       "id": "followup:rusfertide",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 22,
+      "order": 23,
       "title": "Rusfertide",
       "subtitle": "VERIFY · Polycythemia vera",
       "organization": "Takeda + Protagonist Therapeutics",
@@ -2078,7 +2191,7 @@
       "id": "followup:camizestrant",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 23,
+      "order": 24,
       "title": "Camizestrant + CDK4/6 inhibitor",
       "subtitle": "SERENA-6 · Breast cancer",
       "organization": "AstraZeneca",
@@ -2162,7 +2275,7 @@
       "id": "followup:atomic",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 24,
+      "order": 25,
       "title": "Atezolizumab + mFOLFOX6",
       "subtitle": "ATOMIC · Colon cancer",
       "organization": "Genentech / Roche + NCI Alliance",
@@ -2242,7 +2355,7 @@
       "id": "followup:nivopostop",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 25,
+      "order": 26,
       "title": "Postoperative nivolumab + chemoradiotherapy",
       "subtitle": "NIVOPOSTOP · Head and neck cancer",
       "organization": "Bristol Myers Squibb + GORTEC",
@@ -2322,7 +2435,7 @@
       "id": "followup:ascent04",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 26,
+      "order": 27,
       "title": "Sacituzumab govitecan + pembrolizumab",
       "subtitle": "ASCENT-04 / KEYNOTE-D19 · Breast cancer",
       "organization": "Gilead + Merck / MSD",
@@ -2406,7 +2519,7 @@
       "id": "followup:cpost",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 27,
+      "order": 28,
       "title": "Adjuvant cemiplimab",
       "subtitle": "C-POST · Cutaneous squamous cell carcinoma",
       "organization": "Regeneron",
@@ -2486,7 +2599,7 @@
       "id": "followup:amplitude",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 28,
+      "order": 29,
       "title": "Niraparib + abiraterone + prednisone",
       "subtitle": "AMPLITUDE · Prostate cancer",
       "organization": "Johnson & Johnson / Janssen",
@@ -2566,7 +2679,7 @@
       "id": "followup:can2409",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 29,
+      "order": 30,
       "title": "CAN-2409 + valacyclovir + radiotherapy",
       "subtitle": "PrTK03 · Prostate cancer",
       "organization": "Candel Therapeutics",
@@ -2646,7 +2759,7 @@
       "id": "watchlist:bemotrizinol-sunscreen",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 30,
+      "order": 31,
       "title": "Bemotrizinol sunscreen order takes effect",
       "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
       "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
@@ -2742,7 +2855,7 @@
       "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 31,
+      "order": 32,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -2838,7 +2951,7 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 32,
+      "order": 33,
       "title": "RP1 + nivolumab accelerated approval after advisory split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -2934,7 +3047,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 33,
+      "order": 34,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -3030,7 +3143,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 34,
+      "order": 35,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -3126,7 +3239,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 35,
+      "order": 36,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -3222,7 +3335,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 36,
+      "order": 37,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -3318,7 +3431,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 37,
+      "order": 38,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -3412,7 +3525,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 67,
+    "sourcesChecked": 70,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,

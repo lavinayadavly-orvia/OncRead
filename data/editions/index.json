@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T04:14:28.016Z",
+  "generatedAt": "2026-08-27T04:18:21.928Z",
   "currentEditionId": "2026-08-23",
   "currentEditionLabel": "23 August 2026",
   "editions": [
@@ -9,15 +9,15 @@
       "preparedLabel": "August 23 Morning Edition",
       "monthKey": "2026-08",
       "monthLabel": "August 2026",
-      "summary": "Merck and Moderna reported that adjuvant intismeran autogene plus Keytruda met the Phase III INTerpath-001 primary endpoint of recurrence-free survival and key secondary endpoint of distant metastasis-free survival versus Keytruda alone in completely resected stage IIB-IV cutaneous melanoma.",
+      "summary": "In the randomized TALENTOP trial, liver resection followed by atezolizumab plus bevacizumab prolonged time to treatment failure versus continued atezolizumab plus bevacizumab in carefully selected patients with locally advanced hepatocellular carcinoma that remained resectable after induction systemic therapy.",
       "file": "/data/editions/2026-08-23.json",
       "metrics": {
         "insights": 4,
-        "treatments": 19,
+        "treatments": 20,
         "followupApprovals": 7,
         "indiaMarketed": 4,
         "watchlistSignals": 8,
-        "verifiedRecords": 38
+        "verifiedRecords": 39
       }
     },
     {
@@ -694,8 +694,8 @@
           "editionId": "2026-08-23",
           "editionLabel": "23 August 2026",
           "tag": "Latest verified approval",
-          "title": "Personalized mRNA Neoantigen Therapy",
-          "summary": "Phase III topline result announced 19 August 2026; no regulatory approval or launch date announced"
+          "title": "Liver Resection After Atezolizumab/Bevacizumab",
+          "summary": "Published online 20 August 2026; not a new product approval"
         },
         {
           "editionId": "2026-08-23",

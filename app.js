@@ -358,6 +358,40 @@ const treatments = [
     source: "https://ascopubs.org/doi/10.1200/JCO-25-02311"
   },
   {
+    id: "talentop", short: "TALENTOP", name: "Liver Resection After Atezolizumab/Bevacizumab", cancer: "Hepatocellular carcinoma",
+    setting: "Macrovascular invasion, no extrahepatic metastasis, disease controlled after induction", company: "Investigator-led / Shanghai Roche-funded", phase: "Phase III",
+    impact: "High in selected responders, OS pending", impactGroup: "high", maturity: 90, impactScore: 86,
+    eventDate: "2026-08-20",
+    headline: "TTF HR 0.60", headlineNote: "Median 20.4 vs 11.8 months; p=0.015",
+    benefit: "In the randomized TALENTOP trial, liver resection followed by atezolizumab plus bevacizumab prolonged time to treatment failure versus continued atezolizumab plus bevacizumab in carefully selected patients with locally advanced hepatocellular carcinoma that remained resectable after induction systemic therapy.",
+    safety: "Grade 3-4 treatment-related adverse events occurred in 39% of assessed surgical-group patients versus 21% with maintenance therapy. Two treatment-related deaths occurred in the surgery group, from abnormal liver function and liver failure, underscoring the added perioperative and hepatic risk.",
+    cost: "Adds major liver surgery and perioperative care to atezolizumab/bevacizumab; official comparative cost not reported", indiaPrice: "No official Indian regimen cost, surgery-package price, reimbursement decision, or procurement figure was verified in this pass.",
+    indiaStatus: "limited", indiaLabel: "Evidence from China; India pathway unverified", launch: "Published online 20 August 2026; not a new product approval",
+    indiaCaveat: "No India sites, CDSCO action, national guideline adoption, reimbursement decision, or implementation pathway was identified. Applicability depends on multidisciplinary selection, hepatobiliary surgical capacity, liver reserve, access to atezolizumab/bevacizumab, and local HCC epidemiology.",
+    limitations: "China-only, open-label trial in a highly selected post-induction subgroup: 201 of 489 enrolled patients were randomized after disease control and resectability assessment. The primary endpoint was time to treatment failure rather than overall survival; follow-up was 18.4 months, overall-survival benefit was not reported, and surgical-group toxicity and two treatment-related deaths require careful interpretation.",
+    detailSections: [
+      ["Event date / geography", "20 August 2026 PubMed/Lancet online visibility; 24 hospitals in China.", "wide"],
+      ["Population / sample", "489 treatment-naive patients with hepatocellular carcinoma, macrovascular invasion, and no extrahepatic metastasis entered induction. After disease control and resectability assessment, 201 were randomized: surgery n=101 and maintenance n=100.", "wide"],
+      ["Comparator", "Three-cycle atezolizumab/bevacizumab induction plus one atezolizumab cycle, followed by liver resection and 12 months of atezolizumab/bevacizumab versus maintenance atezolizumab/bevacizumab without resection.", "wide"],
+      ["Primary endpoint", "Independent-review time to treatment failure: local recurrence or RECIST 1.1 progression, new extrahepatic spread, or death.", "wide"],
+      ["Effect size detail", "At median follow-up of 18.4 months, median time to treatment failure was 20.4 months with surgery versus 11.8 months with maintenance; HR 0.60 (95% CI 0.39-0.91), p=0.015.", "wide"],
+      ["Safety detail", "Grade 3-4 treatment-related adverse events occurred in 32/83 assessed surgical-group patients (39%) and 21/100 maintenance patients (21%). Two treatment-related deaths occurred in the surgery group.", "wide"],
+      ["Regulatory status", "Randomized clinical evidence for a treatment strategy, not a new FDA, EMA, CDSCO, or other product authorization. Trial registration NCT04649489 remains ongoing.", "wide"]
+    ],
+    source: "https://doi.org/10.1016/S0140-6736(26)01252-3",
+    sourceLabel: "Lancet phase III publication",
+    supportingSources: [
+      {
+        label: "PubMed abstract and indexing record",
+        url: "https://pubmed.ncbi.nlm.nih.gov/42624156/"
+      },
+      {
+        label: "ClinicalTrials.gov TALENTOP registry",
+        url: "https://clinicaltrials.gov/study/NCT04649489"
+      }
+    ]
+  },
+  {
     id: "intismeran", short: "Intismeran", name: "Personalized mRNA Neoantigen Therapy", cancer: "Melanoma",
     setting: "Completely resected high-risk stage IIB-IV cutaneous melanoma", company: "Moderna + Merck / MSD", phase: "Phase III topline",
     impact: "Potentially transformative, data immature", impactGroup: "high", maturity: 86, impactScore: 97,
@@ -979,7 +1013,8 @@ const portfolioAliasRules = [
   { match: /rusfertide/i, aliases: ["PTG-300"] },
   { match: /camizestrant|etcamah/i, aliases: ["AZD9833", "Etcamah"] },
   { match: /can-2409/i, aliases: ["aglatimagene besadenovec"] },
-  { match: /intismeran autogene cevumeran|personalized mrna neoantigen therapy/i, aliases: ["mRNA-4157", "V940"] }
+  { match: /intismeran autogene cevumeran|personalized mrna neoantigen therapy/i, aliases: ["mRNA-4157", "V940"] },
+  { match: /talentop|liver resection after atezolizumab\/bevacizumab/i, aliases: ["NCT04649489", "Tecentriq", "Avastin"] }
 ];
 
 function buildSearchText(...parts) {
