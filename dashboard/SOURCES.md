@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-08-22
+Updated: 2026-08-23
 
 ## Method
 
@@ -56,8 +56,37 @@ Updated: 2026-08-22
 - The 2026-08-20 review updated the existing intismeran melanoma dossier after Merck and Moderna announced positive topline Phase III INTerpath-001 results. The update is labeled as investigational and topline because effect sizes, confidence intervals, full safety tables, quality-of-life data, and overall survival were not yet reported.
 - The 2026-08-21 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 20-21 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the intismeran Phase III topline signal already represented in the August 20 edition.
 - The 2026-08-22 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 21-22 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
+- The 2026-08-23 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 22-23 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-08-23 Review-Only Checks
+
+- FDA oncology approval notifications index; no same-window newly verified oncology approval posting was identified, and the 13 August 2026 Zenbexus/iberdomide accelerated approval remained the newest visible oncology approval posting in this pass
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA ongoing, verified-benefit, other, and withdrawn cancer accelerated-approval surfaces were checked; no same-window oncology withdrawal, verified-benefit conversion, safety restriction, or confirmatory-obligation update cleared promotion
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/other-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- Merck/Moderna intismeran surfaces were rechecked after the 19 August 2026 INTerpath-001 topline release; no full effect sizes, confidence intervals, absolute RFS/DMFS rates, quality-of-life data, overall-survival update, regulatory filing, approval, price, or India-access milestone was officially posted in this pass
+  https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/
+  https://clinicaltrials.gov/study/NCT05933577
+- Recent August sponsor readouts, including AstraZeneca/Daiichi Sankyo high-level Phase III lung-cancer releases from 17 August 2026, were checked as context but not promoted in this August 23 pass because no new same-window full dataset, filing, approval, pricing, or access milestone was verified
+  https://www.astrazeneca.com/media-centre/press-releases/2026/tagrisso-orpathys-improved-pfs-os-egfrm-lung.html
+  https://www.astrazeneca.com/media-centre/press-releases/2026/enhertu-improved-pfs-in-1l-her2m-lung-cancer.html
+- EMA what's-new and cancer-therapeutic-area surfaces did not show a same-window promoted oncology medicine, authorization, refusal, safety restriction, shortage, or current-care milestone
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+- CDSCO clinical-trial approvals and Subject Expert Committee surfaces did not show a new same-window oncology approval, access, safety, pricing, procurement, or SEC recommendation strong enough for promotion
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+- WHO newsroom and IARC news checks did not retrieve a new same-window oncology systems, prevention, epidemiology, or public-health milestone that cleared the threshold
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+- PubMed, ClinicalTrials.gov, major-journal, and targeted official sponsor checks did not retrieve any other August 22-23 phase III result, material peer-reviewed oncology publication, trial-result posting, safety event, pricing or procurement change, India-access milestone, or global cancer-system update that cleared the inclusion threshold
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-08-22 Review-Only Checks
 

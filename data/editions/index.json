@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-08-22T07:14:32.035Z",
-  "currentEditionId": "2026-08-22",
-  "currentEditionLabel": "22 August 2026",
+  "generatedAt": "2026-08-27T04:14:28.016Z",
+  "currentEditionId": "2026-08-23",
+  "currentEditionLabel": "23 August 2026",
   "editions": [
+    {
+      "id": "2026-08-23",
+      "editionLabel": "23 August 2026",
+      "preparedLabel": "August 23 Morning Edition",
+      "monthKey": "2026-08",
+      "monthLabel": "August 2026",
+      "summary": "Merck and Moderna reported that adjuvant intismeran autogene plus Keytruda met the Phase III INTerpath-001 primary endpoint of recurrence-free survival and key secondary endpoint of distant metastasis-free survival versus Keytruda alone in completely resected stage IIB-IV cutaneous melanoma.",
+      "file": "/data/editions/2026-08-23.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 19,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 8,
+        "verifiedRecords": 38
+      }
+    },
     {
       "id": "2026-08-22",
       "editionLabel": "22 August 2026",
@@ -671,46 +688,46 @@
     {
       "monthKey": "2026-08",
       "monthLabel": "August 2026",
-      "leadEditionId": "2026-08-22",
+      "leadEditionId": "2026-08-23",
       "highlights": [
         {
-          "editionId": "2026-08-22",
-          "editionLabel": "22 August 2026",
+          "editionId": "2026-08-23",
+          "editionLabel": "23 August 2026",
           "tag": "Latest verified approval",
           "title": "Personalized mRNA Neoantigen Therapy",
           "summary": "Phase III topline result announced 19 August 2026; no regulatory approval or launch date announced"
         },
         {
-          "editionId": "2026-08-22",
-          "editionLabel": "22 August 2026",
+          "editionId": "2026-08-23",
+          "editionLabel": "23 August 2026",
           "tag": "Highest-impact treatment pool",
           "title": "Gedatolisib + Fulvestrant",
           "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
         },
         {
-          "editionId": "2026-08-22",
-          "editionLabel": "22 August 2026",
+          "editionId": "2026-08-23",
+          "editionLabel": "23 August 2026",
           "tag": "Negative trial",
           "title": "Galleri-NHS negative screening signal",
           "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
         },
         {
-          "editionId": "2026-08-21",
-          "editionLabel": "21 August 2026",
+          "editionId": "2026-08-22",
+          "editionLabel": "22 August 2026",
           "tag": "Latest verified approval",
           "title": "Personalized mRNA Neoantigen Therapy",
           "summary": "Phase III topline result announced 19 August 2026; no regulatory approval or launch date announced"
         },
         {
-          "editionId": "2026-08-21",
-          "editionLabel": "21 August 2026",
+          "editionId": "2026-08-22",
+          "editionLabel": "22 August 2026",
           "tag": "Highest-impact treatment pool",
           "title": "Gedatolisib + Fulvestrant",
           "summary": "FDA approved gedatolisib with fulvestrant, with or without palbociclib, for PIK3CA-wild-type HR-positive/HER2-negative metastatic breast cancer after endocrine progression, adding a large progression-free-survival gain in a setting where many patients have already exhausted first-line endocrine options."
         },
         {
-          "editionId": "2026-08-21",
-          "editionLabel": "21 August 2026",
+          "editionId": "2026-08-22",
+          "editionLabel": "22 August 2026",
           "tag": "Negative trial",
           "title": "Galleri-NHS negative screening signal",
           "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
