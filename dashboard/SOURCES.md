@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-08-23
+Updated: 2026-08-27
 
 ## Method
 
@@ -57,8 +57,43 @@ Updated: 2026-08-23
 - The 2026-08-21 review added the randomized Phase III TALENTOP treatment-strategy dossier after the Lancet paper became visible through PubMed on 20 August 2026. The record captures the time-to-treatment-failure benefit, added toxicity and treatment-related deaths, selected China-only population, absence of reported overall-survival benefit, and unverified India implementation pathway.
 - The 2026-08-22 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 21-22 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-23 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 22-23 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
+- The 2026-08-27 review added two FDA-backed treatment dossiers after a catch-up official-source pass found the live archive had not advanced beyond 2026-08-23 and the FDA oncology approval index showed newer material postings from 25-26 August 2026: daraxonrasib/Rasonque for metastatic pancreatic adenocarcinoma and zanidatamab/Ziihera-containing regimens, with or without tislelizumab/Tevimbra, for first-line HER2-positive gastroesophageal adenocarcinoma.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-08-27 Added Sources
+
+- FDA oncology approval notifications index; confirmed the 26 August 2026 daraxonrasib/Rasonque approval and 25 August 2026 zanidatamab/tislelizumab approval as newer oncology approval postings than the archived August 23 edition
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA approval notice for daraxonrasib/Rasonque in metastatic pancreatic adenocarcinoma; source for indication, RASolute 302 design, OS/PFS/ORR effect sizes, safety warnings, 300 mg once-daily dose, Project Orbis/RTOR/CNPV context, and Health Canada collaboration
+  https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-daraxonrasib-metastatic-pancreatic-adenocarcinoma
+- FDA press announcement for Rasonque; corroborated the 26 August 2026 approval date, Revolution Medicines as sponsor, treatment population, once-daily oral administration, and common adverse reactions
+  https://www.fda.gov/news-events/press-announcements/fda-approves-first-class-targeted-therapy-metastatic-pancreatic-cancer
+- Revolution Medicines approval release; corroborated US availability, no companion-diagnostic requirement, RASolute 302 OS/PFS effect sizes, patient-reported quality-of-life timing claims, Important Safety Information, and the company's statement that daraxonrasib remains investigational outside the United States
+  https://ir.revmed.com/news-releases/news-release-details/us-fda-approves-revolution-medicines-rasonquetm-daraxonrasib
+- NEJM RASolute 302 publication and ClinicalTrials.gov registry were checked for peer-reviewed and registry context on trial design, population, endpoints, and effect sizes; the dashboard uses FDA values as the regulatory source of record
+  https://doi.org/10.1056/NEJMoa2605555
+  https://clinicaltrials.gov/study/NCT06625320
+- FDA approval notice for zanidatamab-hrii/Ziihera and tislelizumab-jsgr/Tevimbra in HER2-positive gastric, gastroesophageal junction, or esophageal adenocarcinoma; source for both indications, HERIZON-GEA-01 design, OS/PFS effect sizes, companion-diagnostic approvals, warnings, dosing, Project Orbis/RTOR context, and ongoing non-US application reviews
+  https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zanidatamab-hrii-and-tislelizumab-jsgr-her2-positive-gastric-gastroesophageal-junction
+- Jazz Pharmaceuticals approval release; corroborated the 25 August 2026 FDA approval, first-line HER2-positive GEA population, PD-L1-independent Arm C approval language, and company framing of US approval scope
+  https://jazzpharma.gcs-web.com/news-releases/news-release-details/us-fda-approves-ziiherar-zanidatamab-hrii-and-without
+- ClinicalTrials.gov HERIZON-GEA-01 registry was checked for trial identity and registry context
+  https://clinicaltrials.gov/study/NCT05152147
+- FDA ongoing, verified-benefit, other, and withdrawn cancer accelerated-approval surfaces were checked; no additional same-window oncology withdrawal, verified-benefit conversion, safety restriction, or confirmatory-obligation update cleared promotion
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/other-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major-journal, and targeted sponsor checks did not identify another August 25-27 oncology approval, withdrawal, safety signal, material publication, pricing/procurement change, India-access milestone, or global cancer-system update strong enough for promotion
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-08-23 Review-Only Checks
 

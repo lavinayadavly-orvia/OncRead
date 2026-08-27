@@ -1,5 +1,16 @@
 # Dashboard Changelog
 
+## 2026-08-27 - Daraxonrasib and Zanidatamab FDA Approvals Added
+
+- Reviewed worldwide oncology developments made officially visible across the August 25-27 catch-up window after the live archive had not advanced beyond the August 23 Morning Edition. The August 27 deadline review found two newer FDA oncology approval postings that were material, source-verifiable, and not yet represented in the dashboard.
+- Added `Daraxonrasib for Metastatic PDAC` after FDA approved Rasonque on 26 August 2026 for adults with metastatic pancreatic adenocarcinoma after at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. Captured RASolute 302 randomized Phase III evidence: OS 13.2 versus 6.7 months, HR 0.40 (95% CI 0.30-0.53), p<0.0001; PFS 7.2 versus 3.6 months, HR 0.49 (95% CI 0.38-0.64), p<0.0001; ORR 30% versus 11%, p<0.0001.
+- Added `Zanidatamab Regimens in HER2+ GEA` after FDA approved two first-line Ziihera-containing regimens on 25 August 2026 for HER2-positive unresectable locally advanced or metastatic gastric, gastroesophageal junction, or esophageal adenocarcinoma. Captured HERIZON-GEA-01 evidence for zanidatamab plus tislelizumab plus chemotherapy versus trastuzumab plus chemotherapy: OS 26.4 versus 19.2 months, HR 0.72 (95% CI 0.57-0.90), p=0.0043; PFS 12.4 versus 8.1 months, HR 0.63 (95% CI 0.51-0.78), p<0.0001.
+- Recorded the companion-diagnostic approval for the zanidatamab regimen, Project Orbis and RTOR context for both approvals, Revolution Medicines' statement that daraxonrasib is investigational outside the United States, and the absence of verified CDSCO authorization, India launch date, official India price, reimbursement, or procurement pathway for either new regimen.
+- Labeled key limitations: daraxonrasib evidence comes from an open-label post-prior-therapy trial and requires sequencing, resistance, non-US regulatory, access, and real-world toxicity follow-up; the zanidatamab HERIZON-GEA-01 study was open-label, Arm B OS was not statistically significant at interim analysis, and cross-trial superiority claims should be avoided.
+- Extended portfolio aliasing so users can find the new dossiers through Rasonque, RMC-6236, RASolute 302, Ziihera, Tevimbra, and HERIZON-GEA-01. No taxonomy, scoring, filter, layout, or navigation redesign was required because the existing treatment-dossier model accurately represents both randomized FDA approval records.
+- Checked FDA accelerated-approval, withdrawal, EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major-journal, and targeted sponsor surfaces; no additional same-window safety withdrawal, pricing/procurement change, India-access milestone, or systems update cleared the materiality and verification threshold.
+- Rolled the visible briefing and archive forward to the August 27 Morning Edition. No detailed Word report was modified.
+
 ## 2026-08-23 - Verified Review With No Material Dashboard Change
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.

@@ -2,6 +2,8 @@ const portfolioAliasRules = [
   { match: /nivolumab/i, aliases: ["Opdivo"] },
   { match: /pembrolizumab/i, aliases: ["Keytruda"] },
   { match: /gedatolisib|revtorpyk/i, aliases: ["Revtorpyk"] },
+  { match: /daraxonrasib|rasonque|rasolute/i, aliases: ["Rasonque", "RMC-6236", "RASolute 302"] },
+  { match: /zanidatamab|ziihera|tislelizumab|tevimbra|herizon-gea/i, aliases: ["Ziihera", "Tevimbra", "HERIZON-GEA-01"] },
   { match: /pluvicto|lutetium|vipivotide|psma/i, aliases: ["Pluvicto", "Lu-PSMA-617", "Locametz"] },
   { match: /zidesamtinib|jideytro/i, aliases: ["Jideytro"] },
   { match: /durvalumab/i, aliases: ["Imfinzi"] },

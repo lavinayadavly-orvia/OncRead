@@ -40,6 +40,65 @@ const treatments = [
     sourceLabel: "FDA approval notice"
   },
   {
+    id: "daraxonrasib-rasonque", short: "Rasonque", name: "Daraxonrasib for Metastatic PDAC", cancer: "Pancreatic cancer",
+    setting: "Metastatic pancreatic adenocarcinoma after prior systemic therapy or not eligible for multiagent therapy", company: "Revolution Medicines", phase: "Phase III; FDA approved",
+    impact: "Very high in refractory PDAC", impactGroup: "high", maturity: 99, impactScore: 95,
+    eventDate: "2026-08-26",
+    headline: "OS HR 0.40", headlineNote: "13.2 vs 6.7 months in RASolute 302",
+    benefit: "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic.",
+    safety: "The prescribing information includes warnings and precautions for dermatologic and soft tissue toxicity, stomatitis and oral disorders, diarrhea, gastrointestinal perforation, interstitial lung disease or pneumonitis, and embryo-fetal toxicity. Revolution Medicines reported serious adverse reactions in 30% of treated patients, permanent discontinuation in 2.9%, and common adverse reactions including rash, diarrhea, stomatitis, nausea, fatigue, vomiting, abdominal pain, edema, decreased appetite, and hemorrhage.",
+    cost: "New branded oral targeted therapy; official price not verified from a primary source in this pass", indiaPrice: "No official US list price, India price, CDSCO approval, reimbursement, procurement figure, or India launch date for Rasonque was verified in this pass.",
+    indiaStatus: "not-launched", indiaLabel: "US approved; India unverified", launch: "FDA approval 26 August 2026",
+    indiaCaveat: "No verified CDSCO authorization, India availability, official launch date, price, reimbursement decision, or procurement pathway for daraxonrasib was identified. India relevance is currently indirect until a local regulatory or access action is official.",
+    limitations: "RASolute 302 was open-label and compared daraxonrasib with physician's choice chemotherapy after one prior systemic line; longer follow-up, sequencing data, resistance-management evidence, broader first-line data, non-US regulatory decisions, and real-world toxicity/access experience remain needed.",
+    detailSections: [
+      ["Event date / geography", "26 August 2026 FDA approval - United States; FDA collaborated with Health Canada through Project Orbis, with EMA and Japan PMDA as official observers.", "wide"],
+      ["Population / sample", "500 adults with metastatic pancreatic adenocarcinoma and disease progression after one prior systemic therapy in RASolute 302 (NCT06625320); the approved indication also includes adults not candidates for multiagent systemic therapy.", "wide"],
+      ["Comparator", "Daraxonrasib 300 mg orally once daily versus physician's choice standard-of-care chemotherapy in a randomized, open-label, multicenter trial.", "wide"],
+      ["Primary endpoints", "Overall survival and blinded independent central review progression-free survival in patients with a RAS G12 mutation and in the overall population; objective response rate was an additional outcome measure.", "wide"],
+      ["Effect size detail", "In the overall population, median OS was 13.2 months (95% CI 10.0-not estimable) versus 6.7 months (95% CI 5.8-8.0), HR 0.40 (95% CI 0.30-0.53), p<0.0001. Median PFS was 7.2 versus 3.6 months, HR 0.49 (95% CI 0.38-0.64), p<0.0001. ORR was 30% (95% CI 25-36) versus 11% (95% CI 7-15), p<0.0001.", "wide"],
+      ["Regulatory status", "FDA approved on 26 August 2026 with priority review, breakthrough therapy designation, orphan drug designation, Real-Time Oncology Review, Assessment Aid, Project Orbis, and the FDA Commissioner's National Priority Review Voucher pilot program. Outside the United States, Revolution Medicines states daraxonrasib is investigational and not approved by any regulatory authority.", "wide"],
+      ["Dose / administration", "Recommended dose is daraxonrasib 300 mg orally once daily until disease progression or unacceptable toxicity.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-daraxonrasib-metastatic-pancreatic-adenocarcinoma",
+    sourceLabel: "FDA approval notice",
+    supportingSources: [
+      { label: "FDA press announcement", url: "https://www.fda.gov/news-events/press-announcements/fda-approves-first-class-targeted-therapy-metastatic-pancreatic-cancer" },
+      { label: "Revolution Medicines approval release", url: "https://ir.revmed.com/news-releases/news-release-details/us-fda-approves-revolution-medicines-rasonquetm-daraxonrasib" },
+      { label: "NEJM RASolute 302 publication", url: "https://doi.org/10.1056/NEJMoa2605555" },
+      { label: "ClinicalTrials.gov RASolute 302 registry", url: "https://clinicaltrials.gov/study/NCT06625320" }
+    ]
+  },
+  {
+    id: "zanidatamab-tislelizumab-gea", short: "Ziihera +/- Tevimbra", name: "Zanidatamab Regimens in HER2+ GEA", cancer: "Gastric, GEJ, and esophageal adenocarcinoma",
+    setting: "First-line unresectable locally advanced or metastatic HER2-positive disease", company: "Jazz Pharmaceuticals + BeOne Medicines; Zymeworks partner asset", phase: "Phase III; FDA approved",
+    impact: "High first-line upper-GI approval", impactGroup: "high", maturity: 99, impactScore: 90,
+    eventDate: "2026-08-25",
+    headline: "OS HR 0.72", headlineNote: "26.4 vs 19.2 months with Ziihera/Tevimbra/chemo",
+    benefit: "FDA approved two zanidatamab-hrii-containing first-line regimens for adults with HER2-positive unresectable locally advanced or metastatic gastric, gastroesophageal junction, or esophageal adenocarcinoma: zanidatamab with fluoropyrimidine/platinum chemotherapy and tislelizumab for IHC 3+ or IHC 2+/ISH+ tumors, and zanidatamab with chemotherapy for IHC 3+ tumors.",
+    safety: "Zanidatamab prescribing information includes a boxed warning for diarrhea and embryo-fetal toxicity, plus warnings for left ventricular dysfunction and infusion-related reactions. Tislelizumab labeling includes warnings for immune-mediated adverse reactions, infusion reactions, allogeneic transplant complications, and embryo-fetal toxicity.",
+    cost: "New biologic combination layered onto chemotherapy and, for the broader HER2-positive group, PD-1 therapy; official price not verified", indiaPrice: "No official US list price, India price, CDSCO approval, reimbursement, procurement figure, or India launch date for these first-line Ziihera-containing GEA regimens was verified in this pass.",
+    indiaStatus: "not-launched", indiaLabel: "US approved; India unverified", launch: "FDA approval 25 August 2026",
+    indiaCaveat: "No verified CDSCO authorization, India availability, official launch date, price, reimbursement decision, or procurement pathway for zanidatamab-containing first-line HER2-positive GEA regimens was identified.",
+    limitations: "The pivotal trial was open-label. The zanidatamab-plus-chemotherapy arm had statistically significant PFS, but OS was not statistically significant at the interim analysis, and FDA noted exploratory evidence that Arm B's effect was primarily attributed to IHC 3+ tumors. Cross-trial comparison with other HER2/PD-1 strategies should be avoided.",
+    detailSections: [
+      ["Event date / geography", "25 August 2026 FDA approval - United States; FDA collaborated with Health Canada and the UK MHRA through Project Orbis, with other agency reviews ongoing.", "wide"],
+      ["Population / sample", "Adults with unresectable locally advanced or metastatic HER2-positive gastroesophageal adenocarcinoma, including gastric, gastroesophageal junction, and esophageal adenocarcinoma, in HERIZON-GEA-01 (NCT05152147).", "wide"],
+      ["Comparator", "Three-arm randomized, open-label active-comparator trial: trastuzumab plus CAPOX or FP chemotherapy; zanidatamab plus CAPOX or FP; or zanidatamab plus tislelizumab plus CAPOX or FP.", "wide"],
+      ["Primary endpoints", "Dual major efficacy outcomes were blinded independent central review progression-free survival by RECIST v1.1 and overall survival.", "wide"],
+      ["Effect size detail", "For zanidatamab plus tislelizumab plus chemotherapy versus trastuzumab plus chemotherapy in IHC 3+ or IHC 2+/ISH+ tumors, median OS was 26.4 months (95% CI 21.5-30.3) versus 19.2 months (95% CI 16.8-21.8), HR 0.72 (95% CI 0.57-0.90), p=0.0043; median PFS was 12.4 versus 8.1 months, HR 0.63 (95% CI 0.51-0.78), p<0.0001. For zanidatamab plus chemotherapy in IHC 3+ tumors, median PFS was 14.2 versus 7.6 months, HR 0.55 (95% CI 0.43-0.69).", "wide"],
+      ["Companion diagnostics", "FDA also approved Ventana/Roche PATHWAY anti-HER-2/neu (4B5) and VENTANA HER2 Dual ISH DNA Probe Cocktail companion diagnostic devices for identifying eligible HER2-positive gastric, GEJ, and esophageal adenocarcinoma patients.", "wide"],
+      ["Regulatory status", "FDA approved on 25 August 2026 with priority review, Real-Time Oncology Review, Assessment Aid, Project Orbis, and Fast Track, breakthrough therapy, and orphan drug designations for zanidatamab-hrii.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zanidatamab-hrii-and-tislelizumab-jsgr-her2-positive-gastric-gastroesophageal-junction",
+    sourceLabel: "FDA approval notice",
+    supportingSources: [
+      { label: "FDA oncology approval notifications index", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications" },
+      { label: "Jazz Pharmaceuticals approval release", url: "https://jazzpharma.gcs-web.com/news-releases/news-release-details/us-fda-approves-ziiherar-zanidatamab-hrii-and-without" },
+      { label: "ClinicalTrials.gov HERIZON-GEA-01 registry", url: "https://clinicaltrials.gov/study/NCT05152147" }
+    ]
+  },
+  {
     id: "gedatolisib", short: "Revtorpyk", name: "Gedatolisib + Fulvestrant", cancer: "Breast cancer",
     setting: "HR-positive / HER2-negative after endocrine progression", company: "Celcuity", phase: "Phase III",
     impact: "High", impactGroup: "high", maturity: 99, impactScore: 93,
@@ -990,6 +1049,8 @@ const portfolioAliasRules = [
   { match: /nivolumab/i, aliases: ["Opdivo"] },
   { match: /pembrolizumab/i, aliases: ["Keytruda"] },
   { match: /gedatolisib|revtorpyk/i, aliases: ["Revtorpyk"] },
+  { match: /daraxonrasib|rasonque|rasolute/i, aliases: ["Rasonque", "RMC-6236", "RASolute 302"] },
+  { match: /zanidatamab|ziihera|tislelizumab|tevimbra|herizon-gea/i, aliases: ["Ziihera", "Tevimbra", "HERIZON-GEA-01"] },
   { match: /iberdomide|zenbexus/i, aliases: ["Zenbexus", "IberDd"] },
   { match: /pluvicto|lutetium|vipivotide|psma/i, aliases: ["Pluvicto", "Lu-PSMA-617", "Locametz"] },
   { match: /zidesamtinib|jideytro/i, aliases: ["Jideytro"] },
