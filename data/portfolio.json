@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T04:25:19.352Z",
+  "generatedAt": "2026-08-31T03:44:39.635Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -2994,10 +2994,202 @@
       ]
     },
     {
-      "id": "watchlist:bemotrizinol-sunscreen",
+      "id": "watchlist:prostate-cardio-referral",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
       "order": 33,
+      "title": "Routine cardiovascular referral in prostate cancer",
+      "subtitle": "Supportive care / care delivery · Prostate cancer · Eight-country trial across 55 sites",
+      "organization": "International randomized trial investigators; JAMA Internal Medicine",
+      "snapshot": "Randomized neutral clinical-events result · 30 August 2026",
+      "summary": "Cardiovascular risk is common in prostate cancer and can be amplified by androgen-deprivation therapy. This large randomized study supports more reliable risk-factor control through structured referral, but it also cautions against claiming fewer cardiovascular deaths or events without stronger evidence.",
+      "headline": "At median follow-up of 5.8 years, the win ratio favored referral at 1.60 (95% CI 1.42-1.81), driven mainly by 12 mg/dL lower cholesterol (95% CI 9-15) from greater protocol-mandated statin use. Hard cardiovascular events did not differ: subdistribution HR 1.08 (95% CI 0.79-1.49).",
+      "statusLabel": "Randomized neutral clinical-events result",
+      "badges": [
+        "Randomized neutral clinical-events result",
+        "Supportive care / care delivery",
+        "Eight-country trial across 55 sites"
+      ],
+      "searchText": "routine cardiovascular referral in prostate cancer prostate cardio-oncology supportive care / care delivery prostate cancer eight-country trial across 55 sites international randomized trial investigators; jama internal medicine routine internist or cardiologist referral with protocol-driven statin, blood-pressure, smoking, diet, and exercise management for patients newly diagnosed with prostate cancer or starting androgen-deprivation therapy. at median follow-up of 5.8 years, the win ratio favored referral at 1.60 (95% ci 1.42-1.81), driven mainly by 12 mg/dl lower cholesterol (95% ci 9-15) from greater protocol-mandated statin use. hard cardiovascular events did not differ: subdistribution hr 1.08 (95% ci 0.79-1.49). health systems may use structured cardiovascular referral to improve statin uptake and risk-factor control, while deciding locally whether universal specialist referral adds enough value over standardized oncology or primary-care pathways given the neutral hard-event result. cardiovascular risk is common in prostate cancer and can be amplified by androgen-deprivation therapy. this large randomized study supports more reliable risk-factor control through structured referral, but it also cautions against claiming fewer cardiovascular deaths or events without stronger evidence.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "prostate-cardio-referral",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1001/jamainternmed.2026.4773"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://clinicaltrials.gov/study/NCT03127631"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "Routine internist or cardiologist referral with protocol-driven statin, blood-pressure, smoking, diet, and exercise management for patients newly diagnosed with prostate cancer or starting androgen-deprivation therapy."
+        ],
+        [
+          "Population / sample",
+          "2,487 patients diagnosed with prostate cancer within 12 months or recently starting/planning first androgen-deprivation therapy; patients already taking a statin with systolic blood pressure at or below 130 mm Hg were excluded."
+        ],
+        [
+          "Comparator",
+          "Usual care plus routine cardiovascular-specialist referral versus usual care alone."
+        ],
+        [
+          "Observed effect",
+          "At median follow-up of 5.8 years, the win ratio favored referral at 1.60 (95% CI 1.42-1.81), driven mainly by 12 mg/dL lower cholesterol (95% CI 9-15) from greater protocol-mandated statin use. Hard cardiovascular events did not differ: subdistribution HR 1.08 (95% CI 0.79-1.49).",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "Cardiovascular risk is common in prostate cancer and can be amplified by androgen-deprivation therapy. This large randomized study supports more reliable risk-factor control through structured referral, but it also cautions against claiming fewer cardiovascular deaths or events without stronger evidence.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients with prostate cancer starting or receiving androgen-deprivation therapy, oncologists, primary-care clinicians, internists, cardiologists, cardio-oncology services, and systems deciding whether specialist referral should be routine.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Health systems may use structured cardiovascular referral to improve statin uptake and risk-factor control, while deciding locally whether universal specialist referral adds enough value over standardized oncology or primary-care pathways given the neutral hard-event result.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "High for risk-factor control because this was a randomized trial with 2,487 participants, 55 sites, eight countries, and median 5.8-year follow-up. Clinical-event benefit remains unproven because cardiovascular death, myocardial infarction, stroke, and heart failure did not differ."
+        ],
+        [
+          "India relevance",
+          "India participation, an India-specific referral pathway, reimbursement, cost-effectiveness, or national guideline adoption was not verified. The care-delivery concept is relevant where cardio-oncology capacity is limited, but a scalable primary-care-led alternative may be more feasible than universal specialist referral.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "No official intervention cost, cost-effectiveness result, India reimbursement decision, or procurement figure was reported or verified."
+        ],
+        [
+          "Current limitation",
+          "The hierarchical composite was dominated by cholesterol control, protocol-mandated statin use exceeded usual guideline practice, event rates were insufficient to establish fewer hard cardiovascular outcomes, and country-specific generalizability and implementation cost were not reported in the abstract.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Full-text review of country participation and subgroup results, clinical-event maturation, cost-effectiveness analysis, and guideline or implementation responses."
+        ],
+        [
+          "Verification note",
+          "Verified from the JAMA Internal Medicine randomized-trial abstract indexed in PubMed on 30 August 2026 and ClinicalTrials.gov NCT03127631. Represented as a neutral care-delivery result, not proof that referral reduces cardiovascular events.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:mpower-asia-cancer-model",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 34,
+      "title": "MPOWER tobacco control and preventable cancers in Asia",
+      "subtitle": "Prevention / public health policy · Thirteen tobacco-related cancers · East and South-East Asia",
+      "organization": "Independent investigators using WHO Global Health Observatory and IARC Global Cancer Observatory data; The Lancet Regional Health - Western Pacific",
+      "snapshot": "Regional modeling study · 30 August 2026",
+      "summary": "The analysis translates tobacco-control policy implementation into future cancer burden at regional scale. It highlights that prevention policy can avert millions of cancers, while showing that the projected benefit changes materially after socioeconomic adjustment.",
+      "headline": "The study projected 159 million tobacco-related cancer cases, including 44.2 million attributable to current smoking. Full MPOWER implementation was estimated to prevent 3.5 million cancers (95% CI 2.9-4.0 million); after adjustment for Human Development Index variation, the estimate was 2.2 million.",
+      "statusLabel": "Regional modeling study",
+      "badges": [
+        "Regional modeling study",
+        "Prevention / public health policy",
+        "East and South-East Asia"
+      ],
+      "searchText": "mpower tobacco control and preventable cancers in asia mpower cancer prevention prevention / public health policy thirteen tobacco-related cancers east and south-east asia independent investigators using who global health observatory and iarc global cancer observatory data; the lancet regional health - western pacific projected cancer burden under continuation of current tobacco-control trends versus full implementation of the who mpower policy package from 2025 to 2050. the study projected 159 million tobacco-related cancer cases, including 44.2 million attributable to current smoking. full mpower implementation was estimated to prevent 3.5 million cancers (95% ci 2.9-4.0 million); after adjustment for human development index variation, the estimate was 2.2 million. whether governments intensify mpower implementation and incorporate modeled cancer prevention into tobacco taxation, smoke-free laws, cessation support, warning, advertising-control, and surveillance decisions. the analysis translates tobacco-control policy implementation into future cancer burden at regional scale. it highlights that prevention policy can avert millions of cancers, while showing that the projected benefit changes materially after socioeconomic adjustment.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "mpower-asia-cancer-model",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1016/j.lanwpc.2026.101962"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42668493/"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "Projected cancer burden under continuation of current tobacco-control trends versus full implementation of the WHO MPOWER policy package from 2025 to 2050."
+        ],
+        [
+          "Population / sample",
+          "Populations of East and South-East Asian countries through 2050, modeled for 13 tobacco-related cancers."
+        ],
+        [
+          "Comparator",
+          "Continuation of current MPOWER implementation trends versus full implementation of Monitor, Protect, Offer, Warn, Enforce, and Raise policies."
+        ],
+        [
+          "Observed effect",
+          "The study projected 159 million tobacco-related cancer cases, including 44.2 million attributable to current smoking. Full MPOWER implementation was estimated to prevent 3.5 million cancers (95% CI 2.9-4.0 million); after adjustment for Human Development Index variation, the estimate was 2.2 million.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "The analysis translates tobacco-control policy implementation into future cancer burden at regional scale. It highlights that prevention policy can avert millions of cancers, while showing that the projected benefit changes materially after socioeconomic adjustment.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "National governments, tobacco-control programs, cancer-control planners, public-health agencies, payers, and populations in East and South-East Asia, especially men because modeled smoking-attributable burden was much higher among men.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Whether governments intensify MPOWER implementation and incorporate modeled cancer prevention into tobacco taxation, smoke-free laws, cessation support, warning, advertising-control, and surveillance decisions.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate for policy planning: the study uses authoritative WHO and IARC inputs and reports uncertainty intervals, but outcomes are modeled projections rather than observed reductions in cancer incidence."
+        ],
+        [
+          "India relevance",
+          "The abstract describes East and South-East Asia rather than South Asia, so India should not be assumed to be included. The policy lesson is relevant to Indian tobacco and cancer-control planning, but no India-specific burden, intervention effect, funding, or procurement result was verified from this study.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "No intervention budget, cost-effectiveness estimate, India program cost, or procurement figure was reported in the abstract."
+        ],
+        [
+          "Current limitation",
+          "Fixed-effects ecological modeling cannot prove causal patient-level effects, future smoking prevalence and policy enforcement may differ from assumptions, the estimate fell from 3.5 million to 2.2 million after HDI adjustment, and country-level implementation effects may vary substantially.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Country-level estimates, full methods review, observed policy uptake, smoking-prevalence changes, cancer-incidence validation, and India-specific modeling from authoritative sources."
+        ],
+        [
+          "Verification note",
+          "Verified from the peer-reviewed abstract indexed in PubMed on 30 August 2026 and the DOI record. Kept as a modeled prevention-policy signal rather than an observed clinical-effect claim.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:bemotrizinol-sunscreen",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 35,
       "title": "Bemotrizinol sunscreen order takes effect",
       "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
       "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
@@ -3093,7 +3285,7 @@
       "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 34,
+      "order": 36,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -3189,7 +3381,7 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 35,
+      "order": 37,
       "title": "RP1 + nivolumab accelerated approval after advisory split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -3285,7 +3477,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 36,
+      "order": 38,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -3381,7 +3573,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 37,
+      "order": 39,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -3477,7 +3669,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 38,
+      "order": 40,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -3573,7 +3765,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 39,
+      "order": 41,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -3669,7 +3861,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 40,
+      "order": 42,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -3763,7 +3955,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 78,
+    "sourcesChecked": 82,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,

@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-08-27
+Updated: 2026-08-31
 
 ## Method
 
@@ -58,8 +58,29 @@ Updated: 2026-08-27
 - The 2026-08-22 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 21-22 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-23 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 22-23 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-27 review added two FDA-backed treatment dossiers after a catch-up official-source pass found the live archive had not advanced beyond 2026-08-23 and the FDA oncology approval index showed newer material postings from 25-26 August 2026: daraxonrasib/Rasonque for metastatic pancreatic adenocarcinoma and zanidatamab/Ziihera-containing regimens, with or without tislelizumab/Tevimbra, for first-line HER2-positive gastroesophageal adenocarcinoma.
+- The 2026-08-31 review added two non-treatment records: a randomized cardio-oncology care-delivery trial in prostate cancer that improved risk-factor control without reducing hard cardiovascular events, and a regional modeling study estimating cancers preventable through full WHO MPOWER tobacco-policy implementation in East and South-East Asia.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-08-31 Verified Updates
+
+- JAMA Internal Medicine randomized trial of routine cardiovascular-specialist referral in 2,487 patients with prostate cancer across 55 sites and eight countries; win ratio 1.60 (95% CI 1.42-1.81), driven mainly by cholesterol control, with no difference in cardiovascular death, myocardial infarction, stroke, or heart failure (subdistribution HR 1.08, 95% CI 0.79-1.49)
+  https://doi.org/10.1001/jamainternmed.2026.4773
+- PubMed record and structured abstract for the cardio-oncology referral trial, PMID 42669035; indexed 30 August 2026
+  https://pubmed.ncbi.nlm.nih.gov/42669035/
+- ClinicalTrials.gov registry NCT03127631; used for trial-registration context
+  https://clinicaltrials.gov/study/NCT03127631
+- Lancet Regional Health - Western Pacific modeling study of full WHO MPOWER implementation in East and South-East Asia; estimated 3.5 million preventable cancers (95% CI 2.9-4.0 million) from 2025-2050, reduced to 2.2 million after Human Development Index adjustment
+  https://doi.org/10.1016/j.lanwpc.2026.101962
+- PubMed record and structured abstract for the MPOWER modeling study, PMID 42668493; indexed 30 August 2026
+  https://pubmed.ncbi.nlm.nih.gov/42668493/
+- FDA oncology approval and accelerated-approval surfaces, EMA, CDSCO, WHO, IARC, ClinicalTrials.gov, major journals, and targeted sponsor disclosures were checked; no other August 30-31 oncology approval, withdrawal, safety action, material trial result, pricing/procurement change, India-access milestone, or global cancer-system update cleared promotion
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.who.int/news-room/releases
+  https://www.iarc.who.int/news-events/
+  https://clinicaltrials.gov/
 
 ## 2026-08-27 Added Sources
 

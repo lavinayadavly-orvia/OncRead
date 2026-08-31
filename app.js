@@ -751,6 +751,62 @@ asco2025Followup.forEach(item => Object.assign(item, followupDetails[item.id]));
 
 const watchlistSignals = [
   {
+    id: "prostate-cardio-referral",
+    title: "Routine cardiovascular referral in prostate cancer",
+    short: "Prostate cardio-oncology",
+    category: "Supportive care / care delivery",
+    status: "neutral",
+    statusLabel: "Randomized neutral clinical-events result",
+    geography: "Eight-country trial across 55 sites",
+    date: "30 August 2026",
+    cancer: "Prostate cancer",
+    issue: "Routine internist or cardiologist referral with protocol-driven statin, blood-pressure, smoking, diet, and exercise management for patients newly diagnosed with prostate cancer or starting androgen-deprivation therapy.",
+    organization: "International randomized trial investigators; JAMA Internal Medicine",
+    population: "2,487 patients diagnosed with prostate cancer within 12 months or recently starting/planning first androgen-deprivation therapy; patients already taking a statin with systolic blood pressure at or below 130 mm Hg were excluded.",
+    comparator: "Usual care plus routine cardiovascular-specialist referral versus usual care alone.",
+    endpoint: "Hierarchical composite of cardiovascular death, myocardial infarction, stroke, heart failure, suboptimal cholesterol, and suboptimal systolic blood pressure, analyzed by win ratio.",
+    effect: "At median follow-up of 5.8 years, the win ratio favored referral at 1.60 (95% CI 1.42-1.81), driven mainly by 12 mg/dL lower cholesterol (95% CI 9-15) from greater protocol-mandated statin use. Hard cardiovascular events did not differ: subdistribution HR 1.08 (95% CI 0.79-1.49).",
+    whyMatters: "Cardiovascular risk is common in prostate cancer and can be amplified by androgen-deprivation therapy. This large randomized study supports more reliable risk-factor control through structured referral, but it also cautions against claiming fewer cardiovascular deaths or events without stronger evidence.",
+    whoAffected: "Patients with prostate cancer starting or receiving androgen-deprivation therapy, oncologists, primary-care clinicians, internists, cardiologists, cardio-oncology services, and systems deciding whether specialist referral should be routine.",
+    decisionImpact: "Health systems may use structured cardiovascular referral to improve statin uptake and risk-factor control, while deciding locally whether universal specialist referral adds enough value over standardized oncology or primary-care pathways given the neutral hard-event result.",
+    evidenceStrength: "High for risk-factor control because this was a randomized trial with 2,487 participants, 55 sites, eight countries, and median 5.8-year follow-up. Clinical-event benefit remains unproven because cardiovascular death, myocardial infarction, stroke, and heart failure did not differ.",
+    limitations: "The hierarchical composite was dominated by cholesterol control, protocol-mandated statin use exceeded usual guideline practice, event rates were insufficient to establish fewer hard cardiovascular outcomes, and country-specific generalizability and implementation cost were not reported in the abstract.",
+    indiaImpact: "India participation, an India-specific referral pathway, reimbursement, cost-effectiveness, or national guideline adoption was not verified. The care-delivery concept is relevant where cardio-oncology capacity is limited, but a scalable primary-care-led alternative may be more feasible than universal specialist referral.",
+    cost: "No official intervention cost, cost-effectiveness result, India reimbursement decision, or procurement figure was reported or verified.",
+    nextMilestone: "Full-text review of country participation and subgroup results, clinical-event maturation, cost-effectiveness analysis, and guideline or implementation responses.",
+    verification: "Verified from the JAMA Internal Medicine randomized-trial abstract indexed in PubMed on 30 August 2026 and ClinicalTrials.gov NCT03127631. Represented as a neutral care-delivery result, not proof that referral reduces cardiovascular events.",
+    source: "https://doi.org/10.1001/jamainternmed.2026.4773",
+    secondarySource: "https://clinicaltrials.gov/study/NCT03127631"
+  },
+  {
+    id: "mpower-asia-cancer-model",
+    title: "MPOWER tobacco control and preventable cancers in Asia",
+    short: "MPOWER cancer prevention",
+    category: "Prevention / public health policy",
+    status: "systems",
+    statusLabel: "Regional modeling study",
+    geography: "East and South-East Asia",
+    date: "30 August 2026",
+    cancer: "Thirteen tobacco-related cancers",
+    issue: "Projected cancer burden under continuation of current tobacco-control trends versus full implementation of the WHO MPOWER policy package from 2025 to 2050.",
+    organization: "Independent investigators using WHO Global Health Observatory and IARC Global Cancer Observatory data; The Lancet Regional Health - Western Pacific",
+    population: "Populations of East and South-East Asian countries through 2050, modeled for 13 tobacco-related cancers.",
+    comparator: "Continuation of current MPOWER implementation trends versus full implementation of Monitor, Protect, Offer, Warn, Enforce, and Raise policies.",
+    endpoint: "Modeled tobacco-attributable and potentially preventable cancer cases from 2025 to 2050.",
+    effect: "The study projected 159 million tobacco-related cancer cases, including 44.2 million attributable to current smoking. Full MPOWER implementation was estimated to prevent 3.5 million cancers (95% CI 2.9-4.0 million); after adjustment for Human Development Index variation, the estimate was 2.2 million.",
+    whyMatters: "The analysis translates tobacco-control policy implementation into future cancer burden at regional scale. It highlights that prevention policy can avert millions of cancers, while showing that the projected benefit changes materially after socioeconomic adjustment.",
+    whoAffected: "National governments, tobacco-control programs, cancer-control planners, public-health agencies, payers, and populations in East and South-East Asia, especially men because modeled smoking-attributable burden was much higher among men.",
+    decisionImpact: "Whether governments intensify MPOWER implementation and incorporate modeled cancer prevention into tobacco taxation, smoke-free laws, cessation support, warning, advertising-control, and surveillance decisions.",
+    evidenceStrength: "Moderate for policy planning: the study uses authoritative WHO and IARC inputs and reports uncertainty intervals, but outcomes are modeled projections rather than observed reductions in cancer incidence.",
+    limitations: "Fixed-effects ecological modeling cannot prove causal patient-level effects, future smoking prevalence and policy enforcement may differ from assumptions, the estimate fell from 3.5 million to 2.2 million after HDI adjustment, and country-level implementation effects may vary substantially.",
+    indiaImpact: "The abstract describes East and South-East Asia rather than South Asia, so India should not be assumed to be included. The policy lesson is relevant to Indian tobacco and cancer-control planning, but no India-specific burden, intervention effect, funding, or procurement result was verified from this study.",
+    cost: "No intervention budget, cost-effectiveness estimate, India program cost, or procurement figure was reported in the abstract.",
+    nextMilestone: "Country-level estimates, full methods review, observed policy uptake, smoking-prevalence changes, cancer-incidence validation, and India-specific modeling from authoritative sources.",
+    verification: "Verified from the peer-reviewed abstract indexed in PubMed on 30 August 2026 and the DOI record. Kept as a modeled prevention-policy signal rather than an observed clinical-effect claim.",
+    source: "https://doi.org/10.1016/j.lanwpc.2026.101962",
+    secondarySource: "https://pubmed.ncbi.nlm.nih.gov/42668493/"
+  },
+  {
     id: "bemotrizinol-sunscreen",
     title: "Bemotrizinol sunscreen order takes effect",
     short: "Bemotrizinol",
@@ -2382,7 +2438,8 @@ function renderWatchlist() {
     regulatory: ["#6b4fc7", "#f0ebff"],
     conference: ["#3f70d8", "#eaf0ff"],
     negative: ["#d15f49", "#fff0eb"],
-    systems: ["#007f7b", "#dff3ef"]
+    systems: ["#007f7b", "#dff3ef"],
+    neutral: ["#556980", "#edf2f6"]
   };
   const data = filteredWatchlist();
   $("#watchlist-grid").innerHTML = data.length ? data.map(item => {

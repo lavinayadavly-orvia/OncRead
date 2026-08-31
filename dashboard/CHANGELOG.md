@@ -1,5 +1,17 @@
 # Dashboard Changelog
 
+## 2026-08-31 - Cardio-Oncology Referral and MPOWER Prevention Evidence Added
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Added `Routine cardiovascular referral in prostate cancer` after a JAMA Internal Medicine randomized trial indexed on 30 August 2026 reported a win ratio of 1.60 (95% CI 1.42-1.81) for a hierarchical cardiovascular composite in 2,487 patients across 55 sites and eight countries.
+- Preserved the neutral clinical interpretation: the composite advantage was driven mainly by 12 mg/dL lower cholesterol from protocol-mandated statin use, while cardiovascular death, myocardial infarction, stroke, and heart failure did not differ (subdistribution HR 1.08, 95% CI 0.79-1.49). The dashboard does not claim specialist referral reduces hard cardiovascular events.
+- Added `MPOWER tobacco control and preventable cancers in Asia` after a peer-reviewed regional modeling study indexed on 30 August estimated that full WHO MPOWER implementation could prevent 3.5 million cancers (95% CI 2.9-4.0 million) in East and South-East Asia from 2025-2050; the estimate fell to 2.2 million after Human Development Index adjustment.
+- Represented the MPOWER finding as modeled prevention-policy evidence rather than observed incidence reduction. Explicitly noted that India should not be assumed to be included because the study scope is East and South-East Asia, not South Asia.
+- Kept both findings in `Watchlist & systems`, where supportive-care delivery and prevention-policy evidence can be represented without forcing them into treatment cards, and extended the evidence-state filter and legend to represent neutral randomized results explicitly. No taxonomy, scoring, layout, or navigation redesign was required.
+- Rechecked FDA, EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major journals, and targeted official sponsor disclosures; no other August 30-31 item cleared the materiality and verification threshold.
+- Updated the source ledger and rolled the visible briefing/archive forward to the August 31 Morning Edition without exposing operational review language on the frontend.
+- No detailed Word report was modified.
+
 ## 2026-08-27 - Daraxonrasib and Zanidatamab FDA Approvals Added
 
 - Reviewed worldwide oncology developments made officially visible across the August 25-27 catch-up window after the live archive had not advanced beyond the August 23 Morning Edition. The August 27 deadline review found two newer FDA oncology approval postings that were material, source-verifiable, and not yet represented in the dashboard.
