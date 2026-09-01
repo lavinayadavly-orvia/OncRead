@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-08-31
+Updated: 2026-09-01
 
 ## Method
 
@@ -59,8 +59,34 @@ Updated: 2026-08-31
 - The 2026-08-23 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 22-23 development that was both materially decision-relevant and sufficiently verified for dashboard promotion.
 - The 2026-08-27 review added two FDA-backed treatment dossiers after a catch-up official-source pass found the live archive had not advanced beyond 2026-08-23 and the FDA oncology approval index showed newer material postings from 25-26 August 2026: daraxonrasib/Rasonque for metastatic pancreatic adenocarcinoma and zanidatamab/Ziihera-containing regimens, with or without tislelizumab/Tevimbra, for first-line HER2-positive gastroesophageal adenocarcinoma.
 - The 2026-08-31 review added two non-treatment records: a randomized cardio-oncology care-delivery trial in prostate cancer that improved risk-factor control without reducing hard cardiovascular events, and a regional modeling study estimating cancers preventable through full WHO MPOWER tobacco-policy implementation in East and South-East Asia.
+- The 2026-09-01 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 31-September 1 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the August 31 cardio-oncology referral and MPOWER prevention records already represented.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-01 Review-Only Checks
+
+- FDA oncology approval notifications index; no newly visible August 31-September 1 oncology approval posting cleared promotion beyond the already represented 26 August 2026 Rasonque/daraxonrasib and 25 August 2026 Ziihera/zanidatamab-tislelizumab approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA ongoing, verified-benefit, other, and withdrawn cancer accelerated-approval surfaces were checked; no same-window oncology withdrawal, verified-benefit conversion, safety restriction, or confirmatory-obligation update cleared promotion
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/other-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- August 31 PubMed and journal checks were re-run after the August 31 edition; no additional indexed oncology randomized trial, material peer-reviewed paper, safety signal, or clinical-practice update cleared promotion beyond the already represented cardio-oncology referral and MPOWER prevention studies
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://doi.org/10.1001/jamainternmed.2026.4773
+  https://doi.org/10.1016/j.lanwpc.2026.101962
+- FDA quantitative-medicine public-meeting materials and Oncologic Drugs Advisory Committee renewal context were reviewed as adjacent regulatory-policy signals, but not promoted because they did not create a same-window oncology care, access, evidence, safety, or architecture change
+  https://www.fda.gov/drugs/news-events-human-drugs/fdaduke-margolis-institute-health-policy-virtual-public-meeting-innovation-quantitative-medicine
+  https://www.federalregister.gov/
+- EMA, CDSCO, WHO, IARC, ClinicalTrials.gov, major-journal, and targeted sponsor checks did not identify another August 31-September 1 oncology approval, withdrawal, safety signal, material phase III result, pricing/procurement change, India-access milestone, or global cancer-system update strong enough for promotion
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://clinicaltrials.gov/
 
 ## 2026-08-31 Verified Updates
 
