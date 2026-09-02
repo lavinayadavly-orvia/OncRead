@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-01
+Updated: 2026-09-02
 
 ## Method
 
@@ -60,8 +60,30 @@ Updated: 2026-09-01
 - The 2026-08-27 review added two FDA-backed treatment dossiers after a catch-up official-source pass found the live archive had not advanced beyond 2026-08-23 and the FDA oncology approval index showed newer material postings from 25-26 August 2026: daraxonrasib/Rasonque for metastatic pancreatic adenocarcinoma and zanidatamab/Ziihera-containing regimens, with or without tislelizumab/Tevimbra, for first-line HER2-positive gastroesophageal adenocarcinoma.
 - The 2026-08-31 review added two non-treatment records: a randomized cardio-oncology care-delivery trial in prostate cancer that improved risk-factor control without reducing hard cardiovascular events, and a regional modeling study estimating cancers preventable through full WHO MPOWER tobacco-policy implementation in East and South-East Asia.
 - The 2026-09-01 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 31-September 1 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the August 31 cardio-oncology referral and MPOWER prevention records already represented.
+- The 2026-09-02 review added one press-release-only watchlist record after AstraZeneca and HUTCHMED reported positive high-level China Phase III SANOVO results for savolitinib plus osimertinib in treatment-naive EGFR-mutated, MET-overexpressing NSCLC. It was not represented as an approval or full treatment dossier because numerical effect sizes and full safety data were not yet disclosed.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-02 Verified Updates
+
+- AstraZeneca official release on SANOVO; source for the September 1, 2026 positive high-level Phase III signal, China first-line setting, treatment-naive EGFR-mutated NSCLC with MET overexpression, PFS endpoint, and statement that detailed results will be presented at a future medical meeting
+  https://www.astrazeneca.com/media-centre/press-releases/2026/tagrisso-orpathys-improved-pfs-in-1l-egfrm-lung.html
+- HUTCHMED official release on SANOVO; corroborated sponsor, China Phase III design context, MET IHC high-MET and intention-to-treat populations, PFS topline language, and absence of disclosed median PFS, hazard ratio, confidence interval, p value, or full safety table
+  https://www.globenewswire.com/news-release/2026/08/31/3353003/0/en/hutchmed-announces-sanovo-trial-demonstrated-significant-progression-free-survival-benefit-of-orpathys-plus-tagrisso-in-treatment-na%C3%AFve-patients-with-met-overexpressing-egfr-mutate.html
+- ClinicalTrials.gov SANOVO registry NCT05009836; used for trial identity, phase, sponsor, China study context, and active-not-recruiting registry status
+  https://clinicaltrials.gov/study/NCT05009836
+- FDA oncology approval and accelerated-approval surfaces, EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major journals, and targeted sponsor disclosures were checked; no other September 1-2 oncology approval, withdrawal, safety action, material peer-reviewed trial result, pricing/procurement change, India-access milestone, or global cancer-system update cleared promotion
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-09-01 Review-Only Checks
 

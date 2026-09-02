@@ -1,0 +1,84 @@
+{
+  "id": "2026-09-02",
+  "editionLabel": "2 September 2026",
+  "preparedLabel": "September 2 Morning Edition",
+  "monthKey": "2026-09",
+  "monthLabel": "September 2026",
+  "summary": "First-line EGFR-mutated NSCLC care is increasingly segmented by co-drivers such as MET overexpression. A positive randomized first-line China Phase III signal could influence biomarker testing, all-oral combination sequencing, and later regulatory strategy, but it is not yet an approval or a full efficacy dataset.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 22,
+    "followupApprovals": 7,
+    "indiaMarketed": 4,
+    "watchlistSignals": 11,
+    "verifiedRecords": 44
+  },
+  "headlines": [
+    {
+      "tag": "Company topline only",
+      "title": "SANOVO first-line EGFR/MET lung-cancer topline",
+      "summary": "First-line EGFR-mutated NSCLC care is increasingly segmented by co-drivers such as MET overexpression. A positive randomized first-line China Phase III signal could influence biomarker testing, all-oral combination sequencing, and later regulatory strategy, but it is not yet an approval or a full efficacy dataset."
+    },
+    {
+      "tag": "Latest verified approval",
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "summary": "FDA approval 26 August 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+    },
+    {
+      "tag": "Negative trial",
+      "title": "Galleri-NHS negative screening signal",
+      "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "daraxonrasib-rasonque"
+      },
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "subtitle": "FDA approval 26 August 2026",
+      "date": 1787702400000
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "mpower-asia-cancer-model"
+      },
+      "title": "MPOWER tobacco control and preventable cancers in Asia",
+      "subtitle": "Regional modeling study",
+      "date": 0
+    }
+  ],
+  "sourceCount": 44,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "daraxonrasib-rasonque"
+      },
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "subtitle": "FDA approval 26 August 2026",
+      "date": 1787702400000
+    }
+  }
+}

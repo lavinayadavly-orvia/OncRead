@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T03:49:29.125Z",
+  "generatedAt": "2026-09-02T01:09:31.413Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -2994,10 +2994,106 @@
       ]
     },
     {
-      "id": "watchlist:prostate-cardio-referral",
+      "id": "watchlist:sanovo-savolitinib-osimertinib",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
       "order": 33,
+      "title": "SANOVO first-line EGFR/MET lung-cancer topline",
+      "subtitle": "Press-release-only phase III · EGFR-mutated NSCLC with MET overexpression · China",
+      "organization": "AstraZeneca; HUTCHMED",
+      "snapshot": "Company topline only · 1 September 2026",
+      "summary": "First-line EGFR-mutated NSCLC care is increasingly segmented by co-drivers such as MET overexpression. A positive randomized first-line China Phase III signal could influence biomarker testing, all-oral combination sequencing, and later regulatory strategy, but it is not yet an approval or a full efficacy dataset.",
+      "headline": "Sponsors reported statistically significant and highly clinically meaningful PFS improvement in both high-MET and intention-to-treat populations, but did not report median PFS, hazard ratio, confidence interval, p value, response rate, overall survival, or detailed safety tables in the release.",
+      "statusLabel": "Company topline only",
+      "badges": [
+        "Company topline only",
+        "Press-release-only phase III",
+        "China"
+      ],
+      "searchText": "sanovo first-line egfr/met lung-cancer topline sanovo press-release-only phase iii egfr-mutated nsclc with met overexpression china astrazeneca; hutchmed astrazeneca and hutchmed reported positive high-level results from the china phase iii sanovo trial of orpathys (savolitinib) plus tagrisso (osimertinib) versus tagrisso alone in treatment-naive locally advanced or metastatic egfr-mutated nsclc with met overexpression. sponsors reported statistically significant and highly clinically meaningful pfs improvement in both high-met and intention-to-treat populations, but did not report median pfs, hazard ratio, confidence interval, p value, response rate, overall survival, or detailed safety tables in the release. whether clinicians, guideline groups, sponsors, and regulators should prepare for a first-line egfr/met combination pathway, while waiting for full effect sizes, safety, quality-of-life, overall-survival data, and any formal regulatory filing or approval. first-line egfr-mutated nsclc care is increasingly segmented by co-drivers such as met overexpression. a positive randomized first-line china phase iii signal could influence biomarker testing, all-oral combination sequencing, and later regulatory strategy, but it is not yet an approval or a full efficacy dataset.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "sanovo-savolitinib-osimertinib",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/tagrisso-orpathys-improved-pfs-in-1l-egfrm-lung.html"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://www.globenewswire.com/news-release/2026/08/31/3353003/0/en/hutchmed-announces-sanovo-trial-demonstrated-significant-progression-free-survival-benefit-of-orpathys-plus-tagrisso-in-treatment-na%C3%AFve-patients-with-met-overexpressing-egfr-mutate.html"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "AstraZeneca and HUTCHMED reported positive high-level results from the China Phase III SANOVO trial of Orpathys (savolitinib) plus Tagrisso (osimertinib) versus Tagrisso alone in treatment-naive locally advanced or metastatic EGFR-mutated NSCLC with MET overexpression."
+        ],
+        [
+          "Population / sample",
+          "Treatment-naive patients in China with locally advanced or metastatic non-small cell lung cancer whose tumors had an EGFR mutation and MET overexpression. ClinicalTrials.gov NCT05009836 identifies SANOVO as an active, not-recruiting phase III study sponsored by Hutchison Medipharma Limited."
+        ],
+        [
+          "Comparator",
+          "Savolitinib plus osimertinib versus osimertinib alone."
+        ],
+        [
+          "Observed effect",
+          "Sponsors reported statistically significant and highly clinically meaningful PFS improvement in both high-MET and intention-to-treat populations, but did not report median PFS, hazard ratio, confidence interval, p value, response rate, overall survival, or detailed safety tables in the release.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "First-line EGFR-mutated NSCLC care is increasingly segmented by co-drivers such as MET overexpression. A positive randomized first-line China Phase III signal could influence biomarker testing, all-oral combination sequencing, and later regulatory strategy, but it is not yet an approval or a full efficacy dataset.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients in China with treatment-naive locally advanced or metastatic EGFR-mutated, MET-overexpressing NSCLC; thoracic oncologists; molecular pathology programs measuring MET by IHC; AstraZeneca and HUTCHMED; and regulators or payers evaluating whether a first-line EGFR/MET combination has sufficient evidence.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Whether clinicians, guideline groups, sponsors, and regulators should prepare for a first-line EGFR/MET combination pathway, while waiting for full effect sizes, safety, quality-of-life, overall-survival data, and any formal regulatory filing or approval.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate as a signal: the trigger is an official company topline announcement from two responsible organizations and the trial is registered as phase III, but no numerical efficacy, confidence intervals, full safety results, or peer-reviewed report were available in this pass."
+        ],
+        [
+          "India relevance",
+          "No CDSCO authorization, India launch date, India price, reimbursement decision, procurement pathway, or India-specific biomarker-testing implementation milestone was verified. India relevance is indirect until a local regulatory or access action is official.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "No official price, cost-effectiveness result, India reimbursement, or procurement figure for this first-line combination was reported or verified."
+        ],
+        [
+          "Current limitation",
+          "Press-release-only finding; China-only study context; MET testing thresholds and assay implementation need full review; no official approval, filing, price, reimbursement, procurement, or India-access milestone was announced; no direct comparison with other first-line EGFR-mutated NSCLC strategies should be inferred.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Full SANOVO dataset with median PFS, hazard ratios, confidence intervals, safety tables, quality-of-life and OS data; conference or peer-reviewed presentation; China regulatory filing or approval; and any official India or global regulatory pathway announcement."
+        ],
+        [
+          "Verification note",
+          "Verified from AstraZeneca's 1 September 2026 official release and HUTCHMED's 31 August/1 September 2026 official release, with ClinicalTrials.gov NCT05009836 used for trial identity. Promoted as a press-release-only watchlist signal, not a treatment approval or practice-changing comparative claim.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:prostate-cardio-referral",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 34,
       "title": "Routine cardiovascular referral in prostate cancer",
       "subtitle": "Supportive care / care delivery · Prostate cancer · Eight-country trial across 55 sites",
       "organization": "International randomized trial investigators; JAMA Internal Medicine",
@@ -3093,7 +3189,7 @@
       "id": "watchlist:mpower-asia-cancer-model",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 34,
+      "order": 35,
       "title": "MPOWER tobacco control and preventable cancers in Asia",
       "subtitle": "Prevention / public health policy · Thirteen tobacco-related cancers · East and South-East Asia",
       "organization": "Independent investigators using WHO Global Health Observatory and IARC Global Cancer Observatory data; The Lancet Regional Health - Western Pacific",
@@ -3189,7 +3285,7 @@
       "id": "watchlist:bemotrizinol-sunscreen",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 35,
+      "order": 36,
       "title": "Bemotrizinol sunscreen order takes effect",
       "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
       "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
@@ -3285,7 +3381,7 @@
       "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 36,
+      "order": 37,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -3381,7 +3477,7 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 37,
+      "order": 38,
       "title": "RP1 + nivolumab accelerated approval after advisory split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -3477,7 +3573,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 38,
+      "order": 39,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -3573,7 +3669,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 39,
+      "order": 40,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -3669,7 +3765,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 40,
+      "order": 41,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -3765,7 +3861,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 41,
+      "order": 42,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -3861,7 +3957,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 42,
+      "order": 43,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -3955,7 +4051,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 82,
+    "sourcesChecked": 84,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,

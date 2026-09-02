@@ -1,5 +1,16 @@
 # Dashboard Changelog
 
+## 2026-09-02 - SANOVO EGFR/MET Lung-Cancer Topline Watch Added
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Added `SANOVO first-line EGFR/MET lung-cancer topline` to `Watchlist & systems` after AstraZeneca and HUTCHMED reported positive high-level China Phase III SANOVO results for Orpathys (savolitinib) plus Tagrisso (osimertinib) versus Tagrisso alone in treatment-naive locally advanced or metastatic EGFR-mutated NSCLC with MET overexpression.
+- Represented the finding as a press-release-only Phase III signal, not an approval or full treatment dossier, because sponsors reported statistically significant and highly clinically meaningful PFS improvement but did not disclose median PFS, hazard ratio, confidence interval, p value, response rate, overall survival, quality-of-life data, or detailed safety tables.
+- Captured who and where it affects: China first-line EGFR-mutated, MET-overexpressing NSCLC patients, thoracic oncologists, MET IHC testing programs, AstraZeneca, HUTCHMED, and regulators or payers evaluating an all-oral EGFR/MET combination pathway.
+- Recorded that ClinicalTrials.gov NCT05009836 identifies SANOVO as an active, not-recruiting Phase III study sponsored by Hutchison Medipharma Limited, and that no FDA, EMA, CDSCO, India launch, official price, reimbursement, procurement, or guideline milestone was verified.
+- Made no taxonomy, scoring, layout, or navigation redesign because the existing `Watchlist & systems` model can represent a nonconforming press-release-only Phase III signal without forcing it into the treatment cards.
+- Rechecked FDA oncology approval and accelerated-approval surfaces, EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major journals, and targeted sponsor disclosures; no other September 1-2 oncology approval, withdrawal, safety signal, material publication, pricing/procurement change, India-access milestone, or global cancer-system update cleared the materiality and verification threshold.
+- Rolled the visible briefing and archive forward to the September 2 Morning Edition. No detailed Word report was modified.
+
 ## 2026-09-01 - Verified Review With No Material Dashboard Change
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
