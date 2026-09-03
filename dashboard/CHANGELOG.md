@@ -1,5 +1,15 @@
 # Dashboard Changelog
 
+## 2026-09-03 - Verified Review With No Material Dashboard Change
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Added no new substantive dashboard record and made no treatment, watchlist, taxonomy, scoring, layout, navigation, dossier, or source-link change because no September 2-3 item was both materially decision-relevant and sufficiently verified from primary or authoritative sources beyond the September 2 SANOVO EGFR/MET NSCLC topline watchlist signal already represented.
+- Rechecked FDA oncology approval and accelerated-approval surfaces; no newer oncology approval posting, withdrawal, verified-benefit conversion, safety restriction, or confirmatory-obligation update was identified beyond the already represented 26 August 2026 Rasonque/daraxonrasib and 25 August 2026 Ziihera/zanidatamab-tislelizumab approvals.
+- Rechecked official sponsor disclosures, including the already represented AstraZeneca/HUTCHMED SANOVO signal; no same-window full dataset, regulatory filing, approval, pricing, reimbursement, procurement, India-access milestone, or guideline milestone was verified.
+- Rechecked EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major journals, and targeted official sponsor disclosures; no additional September 2-3 oncology approval, withdrawal, safety signal, phase III result, material publication, pricing/procurement change, India-access milestone, or global cancer-system update cleared the materiality and verification threshold.
+- Rolled the visible briefing and archive forward to the September 3 Morning Edition while keeping operational no-change language confined to this changelog and `dashboard/SOURCES.md`; the frontend continues to lead with the latest verified oncology evidence and prevention signals.
+- No detailed Word report was modified.
+
 ## 2026-09-02 - SANOVO EGFR/MET Lung-Cancer Topline Watch Added
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.

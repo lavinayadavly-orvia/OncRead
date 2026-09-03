@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-02
+Updated: 2026-09-03
 
 ## Method
 
@@ -61,8 +61,32 @@ Updated: 2026-09-02
 - The 2026-08-31 review added two non-treatment records: a randomized cardio-oncology care-delivery trial in prostate cancer that improved risk-factor control without reducing hard cardiovascular events, and a regional modeling study estimating cancers preventable through full WHO MPOWER tobacco-policy implementation in East and South-East Asia.
 - The 2026-09-01 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 31-September 1 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the August 31 cardio-oncology referral and MPOWER prevention records already represented.
 - The 2026-09-02 review added one press-release-only watchlist record after AstraZeneca and HUTCHMED reported positive high-level China Phase III SANOVO results for savolitinib plus osimertinib in treatment-naive EGFR-mutated, MET-overexpressing NSCLC. It was not represented as an approval or full treatment dossier because numerical effect sizes and full safety data were not yet disclosed.
+- The 2026-09-03 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 2-3 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the September 2 SANOVO watchlist signal already represented.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-03 Review-Only Checks
+
+- FDA oncology approval notifications index; no newly visible September 2-3 oncology approval posting cleared promotion beyond the already represented 26 August 2026 Rasonque/daraxonrasib and 25 August 2026 Ziihera/zanidatamab-tislelizumab approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- FDA ongoing, verified-benefit, other, and withdrawn cancer accelerated-approval surfaces were checked; no same-window oncology withdrawal, verified-benefit conversion, safety restriction, or confirmatory-obligation update cleared promotion
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/other-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- AstraZeneca and HUTCHMED SANOVO source surfaces were rechecked after the September 2 watchlist addition; no full effect sizes, confidence intervals, absolute PFS values, overall-survival data, full safety table, regulatory filing, approval, price, reimbursement, procurement, guideline change, or India-access milestone was officially posted in this pass
+  https://www.astrazeneca.com/media-centre/press-releases/2026/tagrisso-orpathys-improved-pfs-in-1l-egfrm-lung.html
+  https://www.globenewswire.com/news-release/2026/08/31/3353003/0/en/hutchmed-announces-sanovo-trial-demonstrated-significant-progression-free-survival-benefit-of-orpathys-plus-tagrisso-in-treatment-na%C3%AFve-patients-with-met-overexpressing-egfr-mutate.html
+  https://clinicaltrials.gov/study/NCT05009836
+- EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major-journal, and targeted sponsor checks did not identify another September 2-3 oncology approval, withdrawal, safety signal, material phase III result, pricing/procurement change, India-access milestone, or global cancer-system update strong enough for promotion
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-09-02 Verified Updates
 
