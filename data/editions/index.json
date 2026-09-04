@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-09-03T04:59:23.338Z",
-  "currentEditionId": "2026-09-03",
-  "currentEditionLabel": "3 September 2026",
+  "generatedAt": "2026-09-04T04:07:36.613Z",
+  "currentEditionId": "2026-09-04",
+  "currentEditionLabel": "4 September 2026",
   "editions": [
+    {
+      "id": "2026-09-04",
+      "editionLabel": "4 September 2026",
+      "preparedLabel": "September 4 Morning Edition",
+      "monthKey": "2026-09",
+      "monthLabel": "September 2026",
+      "summary": "A JAMA Oncology randomized Phase III trial reported higher blinded-review total pathological complete response with neoadjuvant anbenitamab plus HB1801, with or without carboplatin, versus trastuzumab, pertuzumab and docetaxel, with or without carboplatin, in stage II-III ERBB2-positive breast cancer.",
+      "file": "/data/editions/2026-09-04.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 23,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 12,
+        "verifiedRecords": 46
+      }
+    },
     {
       "id": "2026-09-03",
       "editionLabel": "3 September 2026",
@@ -773,8 +790,29 @@
     {
       "monthKey": "2026-09",
       "monthLabel": "September 2026",
-      "leadEditionId": "2026-09-03",
+      "leadEditionId": "2026-09-04",
       "highlights": [
+        {
+          "editionId": "2026-09-04",
+          "editionLabel": "4 September 2026",
+          "tag": "Latest verified approval",
+          "title": "Anbenitamab + HB1801 Neoadjuvant Strategy",
+          "summary": "Peer-reviewed online publication 3 September 2026; no regulatory approval verified"
+        },
+        {
+          "editionId": "2026-09-04",
+          "editionLabel": "4 September 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-09-04",
+          "editionLabel": "4 September 2026",
+          "tag": "Negative trial",
+          "title": "Galleri-NHS negative screening signal",
+          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
+        },
         {
           "editionId": "2026-09-03",
           "editionLabel": "3 September 2026",
@@ -795,27 +833,6 @@
           "tag": "Highest-impact treatment pool",
           "title": "Daraxonrasib for Metastatic PDAC",
           "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-09-03",
-          "editionLabel": "3 September 2026",
-          "tag": "Negative trial",
-          "title": "Galleri-NHS negative screening signal",
-          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
-        },
-        {
-          "editionId": "2026-09-02",
-          "editionLabel": "2 September 2026",
-          "tag": "Company topline only",
-          "title": "SANOVO first-line EGFR/MET lung-cancer topline",
-          "summary": "First-line EGFR-mutated NSCLC care is increasingly segmented by co-drivers such as MET overexpression. A positive randomized first-line China Phase III signal could influence biomarker testing, all-oral combination sequencing, and later regulatory strategy, but it is not yet an approval or a full efficacy dataset."
-        },
-        {
-          "editionId": "2026-09-02",
-          "editionLabel": "2 September 2026",
-          "tag": "Latest verified approval",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approval 26 August 2026"
         }
       ]
     },

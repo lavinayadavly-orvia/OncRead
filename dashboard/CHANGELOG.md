@@ -1,5 +1,18 @@
 # Dashboard Changelog
 
+## 2026-09-04 - Anbenitamab Publication and Etentamig Topline Added
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Added `Anbenitamab + HB1801 Neoadjuvant Strategy` after JAMA Oncology published the China multicenter Phase III randomized trial in stage II-III ERBB2-positive breast cancer on 3 September 2026.
+- Captured 521 randomized patients across 61 China hospitals; tpCR 62.4% (95% CI 56.2-68.2) versus 51.2% (95% CI 44.9-57.4), absolute difference 11.4 percentage points (95% CI 3.2-19.6), one-sided p=0.004; grade 3-4 treatment-related adverse events 29.3% versus 28.3%; no treatment-related deaths.
+- Labeled the limits: open-label China-only study, pCR surrogate endpoint, median follow-up under eight months, no event-free survival, invasive disease-free survival, overall-survival, long-term cardiac-safety, approval, price, or India-access milestone verified.
+- Added `CERVINO BCMA bispecific myeloma topline` to `Watchlist & systems` after AbbVie reported positive Phase III CERVINO interim topline results for investigational etentamig versus standard available therapies in triple-class-exposed relapsed/refractory multiple myeloma.
+- Captured ORR 74.0% (95% CI 67.25-79.97) versus 45.7% (95% CI 38.59-52.91), p<0.0001; PFS HR 0.40 (95% CI 0.29-0.54), p<0.0001; 12-month OS 87.9% versus 72.0%, HR 0.48 (95% CI 0.29-0.77), nominal p=0.0012, while explicitly noting that the prespecified OS efficacy boundary was not crossed.
+- Represented etentamig as press-release-only because full IMS data, median PFS/OS, detailed safety, DOR, MRD, comparator breakdown, filing, approval, price, and India-access details remain unavailable.
+- Rechecked FDA approval/accelerated approval, EMA, CDSCO, WHO/IARC, PubMed, ClinicalTrials.gov, major journals, and targeted sponsor disclosures; noted Nature Communications RATIONALE-306 long-term follow-up and JAMA Oncology pediatric B-ALL CAR-T nonrandomized report as reviewed but not promoted in this pass because the selected updates were more materially decision-relevant and/or because no new approval/access/pricing milestone was verified.
+- Updated aliasing for KN026/HB1801/ERBB2 and CERVINO/BCMA/ABBV-383; no taxonomy, scoring, layout, or navigation redesign required because existing treatment and watchlist models can represent the additions.
+- Rolled visible briefing/archive forward to September 4 Morning Edition. No detailed Word report modified.
+
 ## 2026-09-03 - Verified Review With No Material Dashboard Change
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.

@@ -13,6 +13,34 @@ const treatments = [
     source: "https://ascopubs.org/doi/10.1200/JCO-25-02176"
   },
   {
+    id: "anbenitamab-hb1801", short: "Anbenitamab + HB1801", name: "Anbenitamab + HB1801 Neoadjuvant Strategy", cancer: "Breast cancer",
+    setting: "Stage II-III ERBB2-positive neoadjuvant therapy", company: "Alphamab Oncology + CSPC/JMT-Bio investigators", phase: "Phase III; peer-reviewed",
+    impact: "High, pending survival", impactGroup: "high", maturity: 92, impactScore: 86,
+    eventDate: "2026-09-03",
+    headline: "tpCR 62.4% vs 51.2%", headlineNote: "Absolute difference 11.4 percentage points",
+    benefit: "A JAMA Oncology randomized Phase III trial reported higher blinded-review total pathological complete response with neoadjuvant anbenitamab plus HB1801, with or without carboplatin, versus trastuzumab, pertuzumab and docetaxel, with or without carboplatin, in stage II-III ERBB2-positive breast cancer.",
+    safety: "Grade 3 or 4 treatment-related adverse events occurred in 29.3% versus 28.3%, and no treatment-related deaths were reported. Nonhematologic events including rash, diarrhea, nausea, peripheral edema and peripheral sensory neuropathy were more frequent with the investigational regimen.",
+    cost: "Investigational biologic plus albumin-bound docetaxel strategy; official price not applicable yet", indiaPrice: "No official US approval, China approval, India price, CDSCO authorization, reimbursement, procurement figure, or India launch date for anbenitamab plus HB1801 in this setting was verified in this pass.",
+    indiaStatus: "not-launched", indiaLabel: "Investigational; India unverified", launch: "Peer-reviewed online publication 3 September 2026; no regulatory approval verified",
+    indiaCaveat: "No CDSCO authorization, India availability, official launch date, price, reimbursement decision, procurement pathway, or India-specific guideline adoption was identified.",
+    limitations: "The trial was conducted in China, was open-label, used pathological complete response as the primary endpoint, and had median follow-up under eight months. Event-free survival, invasive disease-free survival, overall survival, long-term cardiac safety, regulatory status, and implementation cost remain unverified.",
+    detailSections: [
+      ["Event date / geography", "3 September 2026 JAMA Oncology online publication - China multicenter trial", "wide"],
+      ["Population / sample", "521 patients with stage II or III ERBB2-positive breast cancer enrolled from 61 hospitals in China between 19 December 2024 and 29 August 2025; median age 52 years, 55.9% hormone receptor-positive disease, and 34.4% locally advanced disease.", "wide"],
+      ["Comparator", "Six cycles of neoadjuvant anbenitamab plus HB1801, with or without carboplatin, versus trastuzumab, pertuzumab and docetaxel, with or without carboplatin. Surgery was scheduled within four weeks after neoadjuvant therapy.", "wide"],
+      ["Primary endpoint", "Blinded independent review committee-assessed total pathological complete response, defined as ypT0/is ypN0.", "wide"],
+      ["Effect size detail", "tpCR occurred in 164 of 263 patients (62.4%; 95% CI 56.2-68.2) versus 132 of 258 patients (51.2%; 95% CI 44.9-57.4), absolute difference 11.4 percentage points (95% CI 3.2-19.6), one-sided p=0.004.", "wide"],
+      ["Regulatory status", "Peer-reviewed randomized evidence only. No FDA, EMA, CDSCO, China NMPA approval, official filing, official price, or India launch was verified in this pass.", "wide"]
+    ],
+    source: "https://jamanetwork.com/journals/jamaoncology/fullarticle/2853843",
+    sourceLabel: "JAMA Oncology publication",
+    supportingSources: [
+      { label: "ASCO 2026 abstract LBA660", url: "https://ascopubs.org/doi/10.1200/JCO.2026.44.17_suppl.LBA660" },
+      { label: "ClinicalTrials.gov registry", url: "https://clinicaltrials.gov/study/NCT06747338" },
+      { label: "Alphamab ASCO results release", url: "https://www.alphamabonc.com/en/html/news/2808.html" }
+    ]
+  },
+  {
     id: "tucatinib", short: "Tucatinib", name: "Tucatinib + HER2 Maintenance", cancer: "Breast cancer",
     setting: "Metastatic HER2-positive", company: "Pfizer / Seagen; Indian generics", phase: "Phase III",
     impact: "High", impactGroup: "high", maturity: 96, impactScore: 91,
@@ -751,6 +779,34 @@ asco2025Followup.forEach(item => Object.assign(item, followupDetails[item.id]));
 
 const watchlistSignals = [
   {
+    id: "cervino-etentamig",
+    title: "CERVINO BCMA bispecific myeloma topline",
+    short: "Etentamig",
+    category: "Press-release-only phase III",
+    status: "conference",
+    statusLabel: "Company topline only",
+    geography: "Global trial; sponsor release from United States",
+    date: "3 September 2026",
+    cancer: "Relapsed/refractory multiple myeloma",
+    issue: "AbbVie reported positive topline Phase III CERVINO results for etentamig, an investigational BCMA x CD3 bispecific T-cell engager, versus investigator's choice of standard available therapies in triple-class-exposed relapsed or refractory multiple myeloma.",
+    organization: "AbbVie",
+    population: "393 patients at data cutoff with triple-class-exposed relapsed or refractory multiple myeloma after proteasome inhibitor, immunomodulatory drug and anti-CD38 monoclonal antibody exposure; median prior lines of therapy was three.",
+    comparator: "Etentamig with a single step-up dose and monthly dosing from initiation versus investigator's choice of standard available therapies.",
+    endpoint: "Dual primary endpoints of objective response rate and progression-free survival in the Phase III CERVINO interim analysis.",
+    effect: "AbbVie reported ORR 74.0% (95% CI 67.25-79.97) versus 45.7% (95% CI 38.59-52.91), p<0.0001; PFS HR 0.40 (95% CI 0.29-0.54), p<0.0001. Twelve-month OS was 87.9% versus 72.0%, HR 0.48 (95% CI 0.29-0.77), nominal p=0.0012, but the prespecified OS efficacy boundary was not crossed.",
+    whyMatters: "Triple-class-exposed myeloma remains a high-need setting, and BCMA-directed therapies are often constrained by cytokine-release, infection, monitoring, and site-of-care burden. A monthly BCMA bispecific with positive randomized PFS and response data could affect sequencing and outpatient/community delivery assumptions if the full dataset supports the topline.",
+    whoAffected: "Patients with triple-class-exposed relapsed or refractory multiple myeloma, myeloma specialists, community oncology programs evaluating bispecific delivery, infusion centers, payers, AbbVie, and regulators assessing the etentamig evidence package.",
+    decisionImpact: "Whether developers, investigators, and treatment centers prepare for a potentially lower-burden BCMA bispecific pathway while waiting for full IMS presentation data, regulatory filing or approval, and comparative safety and durability details.",
+    evidenceStrength: "Moderate as a signal: the trigger is an official sponsor release with numerical ORR, PFS HR, confidence intervals and safety highlights from a randomized Phase III trial, but the full protocol, full safety table, Kaplan-Meier detail, subgroup data, and independent peer-reviewed publication were not available in this pass.",
+    limitations: "Press-release-only interim analysis; no median PFS, median OS, duration of response, complete response/MRD profile, detailed comparator breakdown, regional enrollment, quality-of-life, cost, filing, approval, or label was verified. Overall survival was immature for formal significance because the prespecified efficacy boundary was not crossed.",
+    indiaImpact: "No CDSCO authorization, India launch date, India price, reimbursement decision, procurement pathway, India trial-site details, or India-specific access program was verified.",
+    cost: "No official price, cost-effectiveness result, India reimbursement, or procurement figure was reported or verified.",
+    nextMilestone: "Full CERVINO results at the International Myeloma Society Annual Meeting on 23-26 September 2026, regulatory filing status, full label-quality safety data, site-of-care requirements, and any official India or global access announcement.",
+    verification: "Verified from AbbVie's 3 September 2026 official release. Promoted as a press-release-only watchlist signal, not a regulatory approval or definitive practice-changing comparative claim.",
+    source: "https://news.abbvie.com/2026-09-03-AbbVie-Announces-Positive-Topline-Results-from-the-Phase-3-CERVINO-Trial-Showing-Etentamig-Significantly-Improved-Response-Rate-and-Progression-Free-Survival-in-Patients-with-Relapsed-Refractory-Multiple-Myeloma",
+    secondarySource: "https://clinicaltrials.gov/"
+  },
+  {
     id: "sanovo-savolitinib-osimertinib",
     title: "SANOVO first-line EGFR/MET lung-cancer topline",
     short: "SANOVO",
@@ -1132,6 +1188,8 @@ function formatImpactClass(group) {
 const portfolioAliasRules = [
   { match: /nivolumab/i, aliases: ["Opdivo"] },
   { match: /pembrolizumab/i, aliases: ["Keytruda"] },
+  { match: /anbenitamab|hb1801|kn026|erbb2/i, aliases: ["KN026", "HB1801", "ERBB2"] },
+  { match: /etentamig|cervino|bcma/i, aliases: ["CERVINO", "BCMA", "ABBV-383"] },
   { match: /gedatolisib|revtorpyk/i, aliases: ["Revtorpyk"] },
   { match: /daraxonrasib|rasonque|rasolute/i, aliases: ["Rasonque", "RMC-6236", "RASolute 302"] },
   { match: /zanidatamab|ziihera|tislelizumab|tevimbra|herizon-gea/i, aliases: ["Ziihera", "Tevimbra", "HERIZON-GEA-01"] },

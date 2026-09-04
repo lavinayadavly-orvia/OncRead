@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-03
+Updated: 2026-09-04
 
 ## Method
 
@@ -62,8 +62,39 @@ Updated: 2026-09-03
 - The 2026-09-01 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface an August 31-September 1 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the August 31 cardio-oncology referral and MPOWER prevention records already represented.
 - The 2026-09-02 review added one press-release-only watchlist record after AstraZeneca and HUTCHMED reported positive high-level China Phase III SANOVO results for savolitinib plus osimertinib in treatment-naive EGFR-mutated, MET-overexpressing NSCLC. It was not represented as an approval or full treatment dossier because numerical effect sizes and full safety data were not yet disclosed.
 - The 2026-09-03 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 2-3 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the September 2 SANOVO watchlist signal already represented.
+- The 2026-09-04 review added one peer-reviewed treatment-strategy dossier after a JAMA Oncology randomized Phase III neoadjuvant ERBB2-positive breast-cancer publication and one press-release-only watchlist signal after AbbVie reported topline randomized Phase III CERVINO data for etentamig in triple-class-exposed relapsed/refractory multiple myeloma.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-04 Verified Updates
+
+- JAMA Oncology peer-reviewed randomized Phase III publication on neoadjuvant anbenitamab plus HB1801 in stage II-III ERBB2-positive breast cancer; source for the 3 September 2026 publication date, China multicenter design, 521 randomized patients, tpCR endpoint, effect size, adverse-event summary, and limits around follow-up and survival outcomes
+  https://jamanetwork.com/journals/jamaoncology/fullarticle/2853843
+- ASCO 2026 abstract LBA660 for anbenitamab plus HB1801; used as a second source for trial identity, regimen context, randomized neoadjuvant setting, tpCR endpoint, and conference presentation history
+  https://ascopubs.org/doi/10.1200/JCO.2026.44.17_suppl.LBA660
+- ClinicalTrials.gov registry NCT06747338; used for registration context on the anbenitamab/HB1801 neoadjuvant ERBB2-positive breast-cancer study
+  https://clinicaltrials.gov/study/NCT06747338
+- Alphamab Oncology ASCO results release; corroborated sponsor/drug naming, investigational context, and earlier disclosure history for anbenitamab/HB1801 while the dashboard uses the JAMA Oncology paper as the source of record
+  https://www.alphamabonc.com/en/html/news/2808.html
+- AbbVie official CERVINO release; source for the 3 September 2026 topline Phase III etentamig signal, triple-class-exposed relapsed/refractory multiple myeloma population, randomized comparator context, ORR, PFS HR, OS immaturity statement, safety highlights, and planned IMS presentation
+  https://news.abbvie.com/2026-09-03-AbbVie-Announces-Positive-Topline-Results-from-the-Phase-3-CERVINO-Trial-Showing-Etentamig-Significantly-Improved-Response-Rate-and-Progression-Free-Survival-in-Patients-with-Relapsed-Refractory-Multiple-Myeloma
+- ClinicalTrials.gov was checked for etentamig/CERVINO registry context; the dashboard promotes the record only as company-topline watchlist evidence because a full peer-reviewed paper, complete protocol-level result table, filing, approval, price, and India-access source were not verified in this pass
+  https://clinicaltrials.gov/
+- FDA oncology approval and accelerated-approval surfaces were checked; no newer oncology approval, withdrawal, verified-benefit conversion, safety restriction, or confirmatory-obligation update cleared promotion beyond the already represented late-August FDA approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/other-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major-journal, and targeted sponsor checks did not identify another September 3-4 oncology approval, withdrawal, safety signal, material phase III result, pricing/procurement change, India-access milestone, or global cancer-system update strong enough for promotion. Nature Communications RATIONALE-306 long-term follow-up and a JAMA Oncology pediatric B-ALL bicistronic CAR-T nonrandomized report were reviewed but not promoted in this pass because no new approval/access/pricing milestone or stronger same-window decision change was verified.
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-09-03 Review-Only Checks
 

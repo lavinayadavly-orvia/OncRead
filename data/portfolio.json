@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T04:59:23.303Z",
+  "generatedAt": "2026-09-04T04:07:36.571Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -73,10 +73,122 @@
       ]
     },
     {
-      "id": "treatment:tucatinib",
+      "id": "treatment:anbenitamab-hb1801",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
       "order": 1,
+      "title": "Anbenitamab + HB1801 Neoadjuvant Strategy",
+      "subtitle": "Anbenitamab + HB1801 · Breast cancer · Stage II-III ERBB2-positive neoadjuvant therapy",
+      "organization": "Alphamab Oncology + CSPC/JMT-Bio investigators",
+      "snapshot": "Phase III; peer-reviewed · High, pending survival",
+      "summary": "A JAMA Oncology randomized Phase III trial reported higher blinded-review total pathological complete response with neoadjuvant anbenitamab plus HB1801, with or without carboplatin, versus trastuzumab, pertuzumab and docetaxel, with or without carboplatin, in stage II-III ERBB2-positive breast cancer.",
+      "headline": "tpCR 62.4% vs 51.2% · Absolute difference 11.4 percentage points",
+      "statusLabel": "Investigational; India unverified",
+      "badges": [
+        "Phase III; peer-reviewed",
+        "High, pending survival",
+        "Investigational; India unverified"
+      ],
+      "searchText": "anbenitamab + hb1801 neoadjuvant strategy anbenitamab + hb1801 breast cancer stage ii-iii erbb2-positive neoadjuvant therapy alphamab oncology + cspc/jmt-bio investigators phase iii; peer-reviewed high, pending survival tpcr 62.4% vs 51.2% absolute difference 11.4 percentage points a jama oncology randomized phase iii trial reported higher blinded-review total pathological complete response with neoadjuvant anbenitamab plus hb1801, with or without carboplatin, versus trastuzumab, pertuzumab and docetaxel, with or without carboplatin, in stage ii-iii erbb2-positive breast cancer. grade 3 or 4 treatment-related adverse events occurred in 29.3% versus 28.3%, and no treatment-related deaths were reported. nonhematologic events including rash, diarrhea, nausea, peripheral edema and peripheral sensory neuropathy were more frequent with the investigational regimen. kn026 hb1801 erbb2 perjeta",
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "id": "anbenitamab-hb1801",
+        "label": "Open treatment dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "JAMA Oncology publication",
+          "url": "https://jamanetwork.com/journals/jamaoncology/fullarticle/2853843"
+        },
+        {
+          "label": "ASCO 2026 abstract LBA660",
+          "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.17_suppl.LBA660"
+        },
+        {
+          "label": "ClinicalTrials.gov registry",
+          "url": "https://clinicaltrials.gov/study/NCT06747338"
+        },
+        {
+          "label": "Alphamab ASCO results release",
+          "url": "https://www.alphamabonc.com/en/html/news/2808.html"
+        }
+      ],
+      "sections": [
+        [
+          "Cancer and setting",
+          "Breast cancer · Stage II-III ERBB2-positive neoadjuvant therapy"
+        ],
+        [
+          "Manufacturer / organization",
+          "Alphamab Oncology + CSPC/JMT-Bio investigators"
+        ],
+        [
+          "Event date / geography",
+          "3 September 2026 JAMA Oncology online publication - China multicenter trial",
+          "wide"
+        ],
+        [
+          "Population / sample",
+          "521 patients with stage II or III ERBB2-positive breast cancer enrolled from 61 hospitals in China between 19 December 2024 and 29 August 2025; median age 52 years, 55.9% hormone receptor-positive disease, and 34.4% locally advanced disease.",
+          "wide"
+        ],
+        [
+          "Comparator",
+          "Six cycles of neoadjuvant anbenitamab plus HB1801, with or without carboplatin, versus trastuzumab, pertuzumab and docetaxel, with or without carboplatin. Surgery was scheduled within four weeks after neoadjuvant therapy.",
+          "wide"
+        ],
+        [
+          "Primary endpoint",
+          "Blinded independent review committee-assessed total pathological complete response, defined as ypT0/is ypN0.",
+          "wide"
+        ],
+        [
+          "Effect size detail",
+          "tpCR occurred in 164 of 263 patients (62.4%; 95% CI 56.2-68.2) versus 132 of 258 patients (51.2%; 95% CI 44.9-57.4), absolute difference 11.4 percentage points (95% CI 3.2-19.6), one-sided p=0.004.",
+          "wide"
+        ],
+        [
+          "Regulatory status",
+          "Peer-reviewed randomized evidence only. No FDA, EMA, CDSCO, China NMPA approval, official filing, official price, or India launch was verified in this pass.",
+          "wide"
+        ],
+        [
+          "Measured effect",
+          "tpCR 62.4% vs 51.2%. Absolute difference 11.4 percentage points",
+          "wide"
+        ],
+        [
+          "Clinical meaning",
+          "A JAMA Oncology randomized Phase III trial reported higher blinded-review total pathological complete response with neoadjuvant anbenitamab plus HB1801, with or without carboplatin, versus trastuzumab, pertuzumab and docetaxel, with or without carboplatin, in stage II-III ERBB2-positive breast cancer.",
+          "wide"
+        ],
+        [
+          "Safety and burden",
+          "Grade 3 or 4 treatment-related adverse events occurred in 29.3% versus 28.3%, and no treatment-related deaths were reported. Nonhematologic events including rash, diarrhea, nausea, peripheral edema and peripheral sensory neuropathy were more frequent with the investigational regimen.",
+          "wide"
+        ],
+        [
+          "Cost and India access",
+          "Investigational biologic plus albumin-bound docetaxel strategy; official price not applicable yet. No official US approval, China approval, India price, CDSCO authorization, reimbursement, procurement figure, or India launch date for anbenitamab plus HB1801 in this setting was verified in this pass. No CDSCO authorization, India availability, official launch date, price, reimbursement decision, procurement pathway, or India-specific guideline adoption was identified.",
+          "wide"
+        ],
+        [
+          "Launch / market status",
+          "Peer-reviewed online publication 3 September 2026; no regulatory approval verified. Investigational; India unverified"
+        ],
+        [
+          "Current limitation",
+          "The trial was conducted in China, was open-label, used pathological complete response as the primary endpoint, and had median follow-up under eight months. Event-free survival, invasive disease-free survival, overall survival, long-term cardiac safety, regulatory status, and implementation cost remain unverified.",
+          "wide"
+        ]
+      ]
+    },
+    {
+      "id": "treatment:tucatinib",
+      "lane": "treatment",
+      "laneLabel": "Treatment explorer",
+      "order": 2,
       "title": "Tucatinib + HER2 Maintenance",
       "subtitle": "Tucatinib · Breast cancer · Metastatic HER2-positive",
       "organization": "Pfizer / Seagen; Indian generics",
@@ -146,7 +258,7 @@
       "id": "treatment:palbociclib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 2,
+      "order": 3,
       "title": "Palbociclib HER2 Maintenance",
       "subtitle": "Palbociclib · Breast cancer · Metastatic HR-positive / HER2-positive",
       "organization": "Pfizer; trastuzumab/pertuzumab manufacturers",
@@ -216,7 +328,7 @@
       "id": "treatment:daraxonrasib-rasonque",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 3,
+      "order": 4,
       "title": "Daraxonrasib for Metastatic PDAC",
       "subtitle": "Rasonque · Pancreatic cancer · Metastatic pancreatic adenocarcinoma after prior systemic therapy or not eligible for multiagent therapy",
       "organization": "Revolution Medicines",
@@ -337,7 +449,7 @@
       "id": "treatment:zanidatamab-tislelizumab-gea",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 4,
+      "order": 5,
       "title": "Zanidatamab Regimens in HER2+ GEA",
       "subtitle": "Ziihera +/- Tevimbra · Gastric, GEJ, and esophageal adenocarcinoma · First-line unresectable locally advanced or metastatic HER2-positive disease",
       "organization": "Jazz Pharmaceuticals + BeOne Medicines; Zymeworks partner asset",
@@ -454,7 +566,7 @@
       "id": "treatment:gedatolisib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 5,
+      "order": 6,
       "title": "Gedatolisib + Fulvestrant",
       "subtitle": "Revtorpyk · Breast cancer · HR-positive / HER2-negative after endocrine progression",
       "organization": "Celcuity",
@@ -554,7 +666,7 @@
       "id": "treatment:pluvicto-mapmns",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 6,
+      "order": 7,
       "title": "Pluvicto + ARPI in mAPMN/S Prostate Cancer",
       "subtitle": "Pluvicto + ARPI · Prostate cancer · PSMA-positive metastatic androgen pathway modulation-naive / sensitive",
       "organization": "Novartis",
@@ -671,7 +783,7 @@
       "id": "treatment:iberdomide-iberd",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 7,
+      "order": 8,
       "title": "Iberdomide + Daratumumab/Dexamethasone",
       "subtitle": "Zenbexus + IberDd · Multiple myeloma · Relapsed or refractory after 1+ prior line including PI and IMiD",
       "organization": "Bristol Myers Squibb",
@@ -788,7 +900,7 @@
       "id": "treatment:tudriqev-rp1",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 8,
+      "order": 9,
       "title": "Tudriqev + Nivolumab",
       "subtitle": "Tudriqev + nivolumab · Melanoma · Unresectable advanced cutaneous melanoma after anti-PD-1 progression",
       "organization": "Replimune + Bristol Myers Squibb",
@@ -905,7 +1017,7 @@
       "id": "treatment:selpercatinib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 9,
+      "order": 10,
       "title": "Tumor-Agnostic Selpercatinib",
       "subtitle": "Retevmo · RET fusion solid tumors · Locally advanced or metastatic, post-systemic therapy",
       "organization": "Eli Lilly and Company",
@@ -1005,7 +1117,7 @@
       "id": "treatment:zidesamtinib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 10,
+      "order": 11,
       "title": "Zidesamtinib After ROS1 TKI",
       "subtitle": "Jideytro · Lung cancer · ROS1-positive metastatic after prior ROS1 inhibitor",
       "organization": "GSK / Nuvalent",
@@ -1113,7 +1225,7 @@
       "id": "treatment:cretostimogene",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 11,
+      "order": 12,
       "title": "Cretostimogene in BCG-Unresponsive NMIBC",
       "subtitle": "Cretostimogene · Bladder cancer · High-risk non-muscle invasive with CIS, with or without Ta/T1",
       "organization": "CG Oncology",
@@ -1225,7 +1337,7 @@
       "id": "treatment:pembro-enfortumab-mibc",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 12,
+      "order": 13,
       "title": "Perioperative Pembrolizumab + Enfortumab",
       "subtitle": "Padcev + Keytruda · Bladder cancer · Muscle-invasive, cystectomy-eligible",
       "organization": "Merck + Astellas Pharma",
@@ -1325,7 +1437,7 @@
       "id": "treatment:isatuximab-sc",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 13,
+      "order": 14,
       "title": "Subcutaneous Isatuximab",
       "subtitle": "Sarclisa Escena · Multiple myeloma · Newly diagnosed + relapsed / refractory",
       "organization": "Sanofi",
@@ -1425,7 +1537,7 @@
       "id": "treatment:tregzi",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 14,
+      "order": 15,
       "title": "Tregzi Transplant Cell Therapy",
       "subtitle": "Tregzi · Hematologic malignancies · Matched-donor myeloablative HSCT",
       "organization": "Orca Bio",
@@ -1529,7 +1641,7 @@
       "id": "treatment:durvalumab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 15,
+      "order": 16,
       "title": "Neoadjuvant Durvalumab",
       "subtitle": "Durvalumab · Breast cancer · Early triple-negative",
       "organization": "AstraZeneca",
@@ -1599,7 +1711,7 @@
       "id": "treatment:talentop",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 16,
+      "order": 17,
       "title": "Liver Resection After Atezolizumab/Bevacizumab",
       "subtitle": "TALENTOP · Hepatocellular carcinoma · Macrovascular invasion, no extrahepatic metastasis, disease controlled after induction",
       "organization": "Investigator-led / Shanghai Roche-funded",
@@ -1712,7 +1824,7 @@
       "id": "treatment:intismeran",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 17,
+      "order": 18,
       "title": "Personalized mRNA Neoantigen Therapy",
       "subtitle": "Intismeran · Melanoma · Completely resected high-risk stage IIB-IV cutaneous melanoma",
       "organization": "Moderna + Merck / MSD",
@@ -1829,7 +1941,7 @@
       "id": "treatment:pemigatinib",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 18,
+      "order": 19,
       "title": "First-line Pemigatinib",
       "subtitle": "Pemigatinib · Cholangiocarcinoma · FGFR2-rearranged",
       "organization": "Incyte",
@@ -1899,7 +2011,7 @@
       "id": "treatment:amivantamab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 19,
+      "order": 20,
       "title": "Amivantamab in Refractory CRC",
       "subtitle": "Amivantamab · Colorectal cancer · RAS/BRAF wild-type",
       "organization": "Johnson & Johnson / Janssen",
@@ -1969,7 +2081,7 @@
       "id": "treatment:sigvotatug",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 20,
+      "order": 21,
       "title": "Integrin Beta-6 ADC",
       "subtitle": "Sigvotatug · Lung cancer · Advanced NSCLC",
       "organization": "Pfizer / Seagen",
@@ -2039,7 +2151,7 @@
       "id": "treatment:sacituzumab",
       "lane": "treatment",
       "laneLabel": "Treatment explorer",
-      "order": 21,
+      "order": 22,
       "title": "Neoadjuvant Sacituzumab Govitecan",
       "subtitle": "Sacituzumab · Bladder cancer · Cisplatin-ineligible MIBC",
       "organization": "Gilead Sciences",
@@ -2109,7 +2221,7 @@
       "id": "followup:matterhorn",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 22,
+      "order": 23,
       "title": "Durvalumab + FLOT",
       "subtitle": "MATTERHORN · Gastric / GEJ cancer",
       "organization": "AstraZeneca",
@@ -2189,7 +2301,7 @@
       "id": "followup:db09",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 23,
+      "order": 24,
       "title": "Trastuzumab deruxtecan + pertuzumab",
       "subtitle": "DESTINY-Breast09 · Breast cancer",
       "organization": "Daiichi Sankyo + AstraZeneca",
@@ -2269,7 +2381,7 @@
       "id": "followup:keynote689",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 24,
+      "order": 25,
       "title": "Perioperative pembrolizumab",
       "subtitle": "KEYNOTE-689 · Head and neck cancer",
       "organization": "Merck / MSD",
@@ -2349,7 +2461,7 @@
       "id": "followup:rusfertide",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 25,
+      "order": 26,
       "title": "Rusfertide",
       "subtitle": "VERIFY · Polycythemia vera",
       "organization": "Takeda + Protagonist Therapeutics",
@@ -2429,7 +2541,7 @@
       "id": "followup:camizestrant",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 26,
+      "order": 27,
       "title": "Camizestrant + CDK4/6 inhibitor",
       "subtitle": "SERENA-6 · Breast cancer",
       "organization": "AstraZeneca",
@@ -2513,7 +2625,7 @@
       "id": "followup:atomic",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 27,
+      "order": 28,
       "title": "Atezolizumab + mFOLFOX6",
       "subtitle": "ATOMIC · Colon cancer",
       "organization": "Genentech / Roche + NCI Alliance",
@@ -2593,7 +2705,7 @@
       "id": "followup:nivopostop",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 28,
+      "order": 29,
       "title": "Postoperative nivolumab + chemoradiotherapy",
       "subtitle": "NIVOPOSTOP · Head and neck cancer",
       "organization": "Bristol Myers Squibb + GORTEC",
@@ -2673,7 +2785,7 @@
       "id": "followup:ascent04",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 29,
+      "order": 30,
       "title": "Sacituzumab govitecan + pembrolizumab",
       "subtitle": "ASCENT-04 / KEYNOTE-D19 · Breast cancer",
       "organization": "Gilead + Merck / MSD",
@@ -2757,7 +2869,7 @@
       "id": "followup:cpost",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 30,
+      "order": 31,
       "title": "Adjuvant cemiplimab",
       "subtitle": "C-POST · Cutaneous squamous cell carcinoma",
       "organization": "Regeneron",
@@ -2837,7 +2949,7 @@
       "id": "followup:amplitude",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 31,
+      "order": 32,
       "title": "Niraparib + abiraterone + prednisone",
       "subtitle": "AMPLITUDE · Prostate cancer",
       "organization": "Johnson & Johnson / Janssen",
@@ -2917,7 +3029,7 @@
       "id": "followup:can2409",
       "lane": "followup",
       "laneLabel": "ASCO 2025 follow-up",
-      "order": 32,
+      "order": 33,
       "title": "CAN-2409 + valacyclovir + radiotherapy",
       "subtitle": "PrTK03 · Prostate cancer",
       "organization": "Candel Therapeutics",
@@ -2994,10 +3106,106 @@
       ]
     },
     {
+      "id": "watchlist:cervino-etentamig",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 34,
+      "title": "CERVINO BCMA bispecific myeloma topline",
+      "subtitle": "Press-release-only phase III · Relapsed/refractory multiple myeloma · Global trial; sponsor release from United States",
+      "organization": "AbbVie",
+      "snapshot": "Company topline only · 3 September 2026",
+      "summary": "Triple-class-exposed myeloma remains a high-need setting, and BCMA-directed therapies are often constrained by cytokine-release, infection, monitoring, and site-of-care burden. A monthly BCMA bispecific with positive randomized PFS and response data could affect sequencing and outpatient/community delivery assumptions if the full dataset supports the topline.",
+      "headline": "AbbVie reported ORR 74.0% (95% CI 67.25-79.97) versus 45.7% (95% CI 38.59-52.91), p<0.0001; PFS HR 0.40 (95% CI 0.29-0.54), p<0.0001. Twelve-month OS was 87.9% versus 72.0%, HR 0.48 (95% CI 0.29-0.77), nominal p=0.0012, but the prespecified OS efficacy boundary was not crossed.",
+      "statusLabel": "Company topline only",
+      "badges": [
+        "Company topline only",
+        "Press-release-only phase III",
+        "Global trial; sponsor release from United States"
+      ],
+      "searchText": "cervino bcma bispecific myeloma topline etentamig press-release-only phase iii relapsed/refractory multiple myeloma global trial; sponsor release from united states abbvie abbvie reported positive topline phase iii cervino results for etentamig, an investigational bcma x cd3 bispecific t-cell engager, versus investigator's choice of standard available therapies in triple-class-exposed relapsed or refractory multiple myeloma. abbvie reported orr 74.0% (95% ci 67.25-79.97) versus 45.7% (95% ci 38.59-52.91), p<0.0001; pfs hr 0.40 (95% ci 0.29-0.54), p<0.0001. twelve-month os was 87.9% versus 72.0%, hr 0.48 (95% ci 0.29-0.77), nominal p=0.0012, but the prespecified os efficacy boundary was not crossed. whether developers, investigators, and treatment centers prepare for a potentially lower-burden bcma bispecific pathway while waiting for full ims presentation data, regulatory filing or approval, and comparative safety and durability details. triple-class-exposed myeloma remains a high-need setting, and bcma-directed therapies are often constrained by cytokine-release, infection, monitoring, and site-of-care burden. a monthly bcma bispecific with positive randomized pfs and response data could affect sequencing and outpatient/community delivery assumptions if the full dataset supports the topline. cervino bcma abbv-383",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "cervino-etentamig",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://news.abbvie.com/2026-09-03-AbbVie-Announces-Positive-Topline-Results-from-the-Phase-3-CERVINO-Trial-Showing-Etentamig-Significantly-Improved-Response-Rate-and-Progression-Free-Survival-in-Patients-with-Relapsed-Refractory-Multiple-Myeloma"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://clinicaltrials.gov/"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "AbbVie reported positive topline Phase III CERVINO results for etentamig, an investigational BCMA x CD3 bispecific T-cell engager, versus investigator's choice of standard available therapies in triple-class-exposed relapsed or refractory multiple myeloma."
+        ],
+        [
+          "Population / sample",
+          "393 patients at data cutoff with triple-class-exposed relapsed or refractory multiple myeloma after proteasome inhibitor, immunomodulatory drug and anti-CD38 monoclonal antibody exposure; median prior lines of therapy was three."
+        ],
+        [
+          "Comparator",
+          "Etentamig with a single step-up dose and monthly dosing from initiation versus investigator's choice of standard available therapies."
+        ],
+        [
+          "Observed effect",
+          "AbbVie reported ORR 74.0% (95% CI 67.25-79.97) versus 45.7% (95% CI 38.59-52.91), p<0.0001; PFS HR 0.40 (95% CI 0.29-0.54), p<0.0001. Twelve-month OS was 87.9% versus 72.0%, HR 0.48 (95% CI 0.29-0.77), nominal p=0.0012, but the prespecified OS efficacy boundary was not crossed.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "Triple-class-exposed myeloma remains a high-need setting, and BCMA-directed therapies are often constrained by cytokine-release, infection, monitoring, and site-of-care burden. A monthly BCMA bispecific with positive randomized PFS and response data could affect sequencing and outpatient/community delivery assumptions if the full dataset supports the topline.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients with triple-class-exposed relapsed or refractory multiple myeloma, myeloma specialists, community oncology programs evaluating bispecific delivery, infusion centers, payers, AbbVie, and regulators assessing the etentamig evidence package.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Whether developers, investigators, and treatment centers prepare for a potentially lower-burden BCMA bispecific pathway while waiting for full IMS presentation data, regulatory filing or approval, and comparative safety and durability details.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate as a signal: the trigger is an official sponsor release with numerical ORR, PFS HR, confidence intervals and safety highlights from a randomized Phase III trial, but the full protocol, full safety table, Kaplan-Meier detail, subgroup data, and independent peer-reviewed publication were not available in this pass."
+        ],
+        [
+          "India relevance",
+          "No CDSCO authorization, India launch date, India price, reimbursement decision, procurement pathway, India trial-site details, or India-specific access program was verified.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "No official price, cost-effectiveness result, India reimbursement, or procurement figure was reported or verified."
+        ],
+        [
+          "Current limitation",
+          "Press-release-only interim analysis; no median PFS, median OS, duration of response, complete response/MRD profile, detailed comparator breakdown, regional enrollment, quality-of-life, cost, filing, approval, or label was verified. Overall survival was immature for formal significance because the prespecified efficacy boundary was not crossed.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Full CERVINO results at the International Myeloma Society Annual Meeting on 23-26 September 2026, regulatory filing status, full label-quality safety data, site-of-care requirements, and any official India or global access announcement."
+        ],
+        [
+          "Verification note",
+          "Verified from AbbVie's 3 September 2026 official release. Promoted as a press-release-only watchlist signal, not a regulatory approval or definitive practice-changing comparative claim.",
+          "full"
+        ]
+      ]
+    },
+    {
       "id": "watchlist:sanovo-savolitinib-osimertinib",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 33,
+      "order": 35,
       "title": "SANOVO first-line EGFR/MET lung-cancer topline",
       "subtitle": "Press-release-only phase III · EGFR-mutated NSCLC with MET overexpression · China",
       "organization": "AstraZeneca; HUTCHMED",
@@ -3093,7 +3301,7 @@
       "id": "watchlist:prostate-cardio-referral",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 34,
+      "order": 36,
       "title": "Routine cardiovascular referral in prostate cancer",
       "subtitle": "Supportive care / care delivery · Prostate cancer · Eight-country trial across 55 sites",
       "organization": "International randomized trial investigators; JAMA Internal Medicine",
@@ -3189,7 +3397,7 @@
       "id": "watchlist:mpower-asia-cancer-model",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 35,
+      "order": 37,
       "title": "MPOWER tobacco control and preventable cancers in Asia",
       "subtitle": "Prevention / public health policy · Thirteen tobacco-related cancers · East and South-East Asia",
       "organization": "Independent investigators using WHO Global Health Observatory and IARC Global Cancer Observatory data; The Lancet Regional Health - Western Pacific",
@@ -3285,7 +3493,7 @@
       "id": "watchlist:bemotrizinol-sunscreen",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 36,
+      "order": 38,
       "title": "Bemotrizinol sunscreen order takes effect",
       "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
       "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
@@ -3381,7 +3589,7 @@
       "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 37,
+      "order": 39,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -3477,7 +3685,7 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 38,
+      "order": 40,
       "title": "RP1 + nivolumab accelerated approval after advisory split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -3573,7 +3781,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 39,
+      "order": 41,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -3669,7 +3877,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 40,
+      "order": 42,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -3765,7 +3973,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 41,
+      "order": 43,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -3861,7 +4069,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 42,
+      "order": 44,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -3957,7 +4165,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 43,
+      "order": 45,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -4051,7 +4259,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 84,
+    "sourcesChecked": 90,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,
