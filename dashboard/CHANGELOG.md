@@ -1,5 +1,18 @@
 # Dashboard Changelog
 
+## 2026-09-05 - Etcamah FDA Approval and HARMONi Publication Added
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Updated the existing `Camizestrant + CDK4/6 inhibitor` SERENA-6 follow-up record after FDA announced accelerated approval of Etcamah on 4 September 2026 for adults with ER-positive, HER2-negative advanced or metastatic breast cancer whose ESR1 mutation is detected in circulating tumor DNA after at least six months of first-line endocrine therapy with a CDK4/6 inhibitor and who have no disease progression.
+- Recorded that the FDA approval covers camizestrant with palbociclib, ribociclib, or abemaciclib, and that the prior US review uncertainty has moved from pending/ODAC debate to an approved-but-conditional accelerated-approval state.
+- Preserved the evidence limits for SERENA-6: the switch strategy remains based on progression-free survival and a ctDNA-triggered pre-radiographic-progression design, with confirmatory requirements, mature survival, post-progression sequencing, reimbursement, official price, and India access still unresolved.
+- Added `Ivonescimab + Chemotherapy After EGFR TKI` after the HARMONi randomized Phase III data became visible through Lancet Oncology/PubMed and MD Anderson on 4 September 2026 in EGFR-mutated advanced nonsquamous NSCLC after third-generation EGFR TKI progression.
+- Captured 438 randomized patients; blinded independent central review PFS 6.8 months (95% CI 5.6-7.9) versus 4.4 months (95% CI 4.2-5.6), HR 0.52 (95% CI 0.40-0.66), p<0.0001; interim OS not reached versus 14.1 months, HR 0.80 (95% CI 0.59-1.08), p=0.072.
+- Labeled the safety tradeoff: grade 3 or worse treatment-related adverse events 61% versus 49%, serious treatment-related adverse events 34% versus 19%, and treatment-related deaths 2% versus less than 1%.
+- Represented ivonescimab as peer-reviewed randomized evidence with FDA BLA priority review, not an approval, because the 14 November 2026 PDUFA target, label, price, access, confirmatory regulatory decision, and India pathway remain unverified.
+- Rechecked FDA approval/accelerated approval, EMA, CDSCO, WHO/IARC, PubMed, ClinicalTrials.gov, major journals, and targeted sponsor disclosures; no other September 4-5 oncology approval, withdrawal, safety signal, pricing/procurement change, India-access milestone, or global cancer-system update cleared promotion.
+- Updated aliasing for ivonescimab/HARMONi/SMT112/AK112/PD-1/VEGF and rolled visible briefing/archive forward to September 5 Morning Edition. No detailed Word report modified.
+
 ## 2026-09-04 - Anbenitamab Publication and Etentamig Topline Added
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.

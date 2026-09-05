@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-04
+Updated: 2026-09-05
 
 ## Method
 
@@ -63,8 +63,41 @@ Updated: 2026-09-04
 - The 2026-09-02 review added one press-release-only watchlist record after AstraZeneca and HUTCHMED reported positive high-level China Phase III SANOVO results for savolitinib plus osimertinib in treatment-naive EGFR-mutated, MET-overexpressing NSCLC. It was not represented as an approval or full treatment dossier because numerical effect sizes and full safety data were not yet disclosed.
 - The 2026-09-03 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 2-3 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the September 2 SANOVO watchlist signal already represented.
 - The 2026-09-04 review added one peer-reviewed treatment-strategy dossier after a JAMA Oncology randomized Phase III neoadjuvant ERBB2-positive breast-cancer publication and one press-release-only watchlist signal after AbbVie reported topline randomized Phase III CERVINO data for etentamig in triple-class-exposed relapsed/refractory multiple myeloma.
+- The 2026-09-05 review updated the existing SERENA-6 camizestrant follow-up record after FDA granted accelerated approval to Etcamah and added one peer-reviewed randomized HARMONi treatment-strategy dossier for ivonescimab plus chemotherapy after third-generation EGFR TKI progression in EGFR-mutated nonsquamous NSCLC.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-05 Verified Updates
+
+- FDA press announcement granting accelerated approval to Etcamah (camizestrant) with palbociclib, ribociclib, or abemaciclib for adults with ER-positive, HER2-negative advanced or metastatic breast cancer whose ESR1 mutation is detected in circulating tumor DNA after at least six months of first-line endocrine therapy with a CDK4/6 inhibitor and who have no disease progression; source for the 4 September 2026 US regulatory milestone, label population, partner CDK4/6 inhibitors, and highlighted safety risks
+  https://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-new-breast-cancer-treatment
+- FDA oncology approval notifications index; checked for the same Etcamah action and for any additional newly visible September 4-5 oncology approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- EMA Etcamah medicine page and AstraZeneca's prior EU approval release remain supporting context for the July 2026 European Commission approval already represented in the dashboard
+  https://www.ema.europa.eu/en/medicines/human/EPAR/etcamah
+  https://ebs.publicnow.com/view/994FCDEE2DA854AD78FB88E77DCF6BCCF09162FB
+- PubMed / Lancet Oncology HARMONi abstract; source for the 4 September 2026 publication visibility, randomized Phase III design, 438-patient population, EGFR-mutated nonsquamous NSCLC after third-generation EGFR TKI progression, PFS and interim OS effect sizes, and safety-event rates
+  https://pubmed.ncbi.nlm.nih.gov/42636833/
+- MD Anderson HARMONi publication notice; used as a second authoritative institutional source for publication visibility, investigator context, population framing, and clinical interpretation
+  https://www.mdanderson.org/newsroom/research-newsroom/targeted-antibody-improves-outcomes-for-patients-with-advanced-l.h00-159858501.html
+- ClinicalTrials.gov HARMONi registry NCT05184712; used for trial-registration context
+  https://clinicaltrials.gov/study/NCT05184712
+- Summit Therapeutics FDA priority-review release; used for BLA review status and 14 November 2026 PDUFA target while keeping the dashboard clear that ivonescimab is not FDA-approved in this setting
+  https://www.smmttx.com/news/summit-therapeutics-announces-fda-acceptance-of-biologics-license-application-with-priority-review-for-ivonescimab-in-combination-with-chemotherapy-for-the-treatment-of-patients-with-egfr-mutated-locally-advanced-or-metastatic-non-squamous-non-small-cell-lung-cancer-who-have-progressed-after-egfr-tki-treatment
+- FDA ongoing, verified-benefit, other, and withdrawn cancer accelerated-approval surfaces were checked; no additional same-window oncology withdrawal, verified-benefit conversion, safety restriction, or confirmatory-obligation update cleared promotion
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/other-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major-journal, and targeted sponsor checks did not identify another September 4-5 oncology approval, withdrawal, safety signal, material phase III result, pricing/procurement change, India-access milestone, or global cancer-system update strong enough for promotion beyond Etcamah and HARMONi.
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-09-04 Verified Updates
 

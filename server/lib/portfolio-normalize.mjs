@@ -25,6 +25,7 @@ const portfolioAliasRules = [
   { match: /sacituzumab govitecan|trodelvy/i, aliases: ["Trodelvy"] },
   { match: /rusfertide/i, aliases: ["PTG-300"] },
   { match: /camizestrant|etcamah/i, aliases: ["AZD9833", "Etcamah"] },
+  { match: /ivonescimab|harmoni/i, aliases: ["SMT112", "AK112", "PD-1", "VEGF", "HARMONi"] },
   { match: /can-2409/i, aliases: ["aglatimagene besadenovec"] },
   { match: /intismeran autogene cevumeran|personalized mrna neoantigen therapy/i, aliases: ["mRNA-4157", "V940"] },
   { match: /talentop|liver resection after atezolizumab\/bevacizumab/i, aliases: ["NCT04649489", "Tecentriq", "Avastin"] }

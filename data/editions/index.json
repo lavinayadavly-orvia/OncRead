@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-09-04T04:07:36.613Z",
-  "currentEditionId": "2026-09-04",
-  "currentEditionLabel": "4 September 2026",
+  "generatedAt": "2026-09-05T18:54:25.381Z",
+  "currentEditionId": "2026-09-05",
+  "currentEditionLabel": "5 September 2026",
   "editions": [
+    {
+      "id": "2026-09-05",
+      "editionLabel": "5 September 2026",
+      "preparedLabel": "September 5 Morning Edition",
+      "monthKey": "2026-09",
+      "monthLabel": "September 2026",
+      "summary": "A Lancet Oncology randomized Phase III publication reported that ivonescimab, a bispecific antibody targeting PD-1 and VEGF, plus platinum-doublet chemotherapy improved progression-free survival versus placebo plus chemotherapy in patients with EGFR-mutated advanced nonsquamous non-small cell lung cancer after progression on a third-generation EGFR TKI.",
+      "file": "/data/editions/2026-09-05.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 24,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 12,
+        "verifiedRecords": 47
+      }
+    },
     {
       "id": "2026-09-04",
       "editionLabel": "4 September 2026",
@@ -790,8 +807,29 @@
     {
       "monthKey": "2026-09",
       "monthLabel": "September 2026",
-      "leadEditionId": "2026-09-04",
+      "leadEditionId": "2026-09-05",
       "highlights": [
+        {
+          "editionId": "2026-09-05",
+          "editionLabel": "5 September 2026",
+          "tag": "Latest verified approval",
+          "title": "Ivonescimab + Chemotherapy After EGFR TKI",
+          "summary": "Lancet Oncology publication visible 4 September 2026; US BLA priority review PDUFA target reported for 14 November 2026"
+        },
+        {
+          "editionId": "2026-09-05",
+          "editionLabel": "5 September 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-09-05",
+          "editionLabel": "5 September 2026",
+          "tag": "Negative trial",
+          "title": "Galleri-NHS negative screening signal",
+          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
+        },
         {
           "editionId": "2026-09-04",
           "editionLabel": "4 September 2026",
@@ -812,27 +850,6 @@
           "tag": "Negative trial",
           "title": "Galleri-NHS negative screening signal",
           "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
-        },
-        {
-          "editionId": "2026-09-03",
-          "editionLabel": "3 September 2026",
-          "tag": "Company topline only",
-          "title": "SANOVO first-line EGFR/MET lung-cancer topline",
-          "summary": "First-line EGFR-mutated NSCLC care is increasingly segmented by co-drivers such as MET overexpression. A positive randomized first-line China Phase III signal could influence biomarker testing, all-oral combination sequencing, and later regulatory strategy, but it is not yet an approval or a full efficacy dataset."
-        },
-        {
-          "editionId": "2026-09-03",
-          "editionLabel": "3 September 2026",
-          "tag": "Latest verified approval",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approval 26 August 2026"
-        },
-        {
-          "editionId": "2026-09-03",
-          "editionLabel": "3 September 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
         }
       ]
     },

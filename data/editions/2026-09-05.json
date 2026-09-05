@@ -1,0 +1,89 @@
+{
+  "id": "2026-09-05",
+  "editionLabel": "5 September 2026",
+  "preparedLabel": "September 5 Morning Edition",
+  "monthKey": "2026-09",
+  "monthLabel": "September 2026",
+  "summary": "A Lancet Oncology randomized Phase III publication reported that ivonescimab, a bispecific antibody targeting PD-1 and VEGF, plus platinum-doublet chemotherapy improved progression-free survival versus placebo plus chemotherapy in patients with EGFR-mutated advanced nonsquamous non-small cell lung cancer after progression on a third-generation EGFR TKI.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 24,
+    "followupApprovals": 7,
+    "indiaMarketed": 4,
+    "watchlistSignals": 12,
+    "verifiedRecords": 47
+  },
+  "headlines": [
+    {
+      "tag": "Latest verified approval",
+      "title": "Ivonescimab + Chemotherapy After EGFR TKI",
+      "summary": "Lancet Oncology publication visible 4 September 2026; US BLA priority review PDUFA target reported for 14 November 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+    },
+    {
+      "tag": "Negative trial",
+      "title": "Galleri-NHS negative screening signal",
+      "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "ivonescimab-harmoni"
+      },
+      "title": "Ivonescimab + Chemotherapy After EGFR TKI",
+      "subtitle": "Lancet Oncology publication visible 4 September 2026; US BLA priority review PDUFA target reported for 14 November 2026",
+      "date": 1788480000000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "daraxonrasib-rasonque"
+      },
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "subtitle": "Phase III; FDA approved · US approved; India unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "mpower-asia-cancer-model"
+      },
+      "title": "MPOWER tobacco control and preventable cancers in Asia",
+      "subtitle": "Regional modeling study",
+      "date": 0
+    }
+  ],
+  "sourceCount": 47,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "ivonescimab-harmoni"
+      },
+      "title": "Ivonescimab + Chemotherapy After EGFR TKI",
+      "subtitle": "Lancet Oncology publication visible 4 September 2026; US BLA priority review PDUFA target reported for 14 November 2026",
+      "date": 1788480000000
+    }
+  }
+}

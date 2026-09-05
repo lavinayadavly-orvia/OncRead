@@ -98,6 +98,34 @@ const treatments = [
     ]
   },
   {
+    id: "ivonescimab-harmoni", short: "Ivonescimab", name: "Ivonescimab + Chemotherapy After EGFR TKI", cancer: "Lung cancer",
+    setting: "Advanced EGFR-mutated nonsquamous NSCLC after EGFR TKI", company: "Summit Therapeutics / Akeso", phase: "Phase III; peer-reviewed; FDA BLA under review",
+    impact: "High, pending US review", impactGroup: "high", maturity: 94, impactScore: 88,
+    eventDate: "2026-09-04",
+    headline: "PFS HR 0.52", headlineNote: "Lancet Oncology HARMONi publication",
+    benefit: "A Lancet Oncology randomized Phase III publication reported that ivonescimab, a bispecific antibody targeting PD-1 and VEGF, plus platinum-doublet chemotherapy improved progression-free survival versus placebo plus chemotherapy in patients with EGFR-mutated advanced nonsquamous non-small cell lung cancer after progression on a third-generation EGFR TKI.",
+    safety: "The publication abstract reports grade 3 or worse treatment-related adverse events in 61% with ivonescimab plus chemotherapy versus 49% with placebo plus chemotherapy. Serious treatment-related adverse events occurred in 34% versus 19%, and treatment-related deaths occurred in 2% versus less than 1%.",
+    cost: "Investigational biologic plus chemotherapy; official US and India prices not applicable yet", indiaPrice: "No FDA approval, CDSCO authorization, India launch date, official India price, reimbursement decision, procurement pathway, or patient-assistance program for ivonescimab in this setting was verified in this pass.",
+    indiaStatus: "not-launched", indiaLabel: "BLA under review; India unverified", launch: "Lancet Oncology publication visible 4 September 2026; US BLA priority review PDUFA target reported for 14 November 2026",
+    indiaCaveat: "India relevance is currently indirect. No India-specific regulatory, price, procurement, or launch milestone was verified.",
+    limitations: "Overall survival was immature in the publication abstract, quality-of-life and detailed regional subgroup interpretation require full-text review, and the trial should not be used to infer superiority over untested post-osimertinib regimens. The US filing is under review; approval, label scope, price, and access terms are not established.",
+    detailSections: [
+      ["Event date / geography", "4 September 2026 MD Anderson publication notice and Lancet Oncology visibility; international randomized trial", "wide"],
+      ["Population / sample", "438 patients with EGFR-mutated advanced nonsquamous NSCLC whose disease had progressed after a third-generation EGFR tyrosine kinase inhibitor.", "wide"],
+      ["Comparator", "Ivonescimab plus chemotherapy versus placebo plus chemotherapy.", "wide"],
+      ["Primary endpoint", "Blinded independent central review-assessed progression-free survival.", "wide"],
+      ["Effect size detail", "Median PFS was 6.8 months (95% CI 5.6-7.9) versus 4.4 months (95% CI 4.2-5.6), HR 0.52 (95% CI 0.40-0.66), p<0.0001. Investigator-assessed PFS was 7.1 versus 4.8 months, HR 0.46 (95% CI 0.36-0.59), p<0.0001. At interim analysis, median OS was not reached versus 14.1 months, HR 0.80 (95% CI 0.59-1.08), p=0.072.", "wide"],
+      ["Regulatory status", "Summit reported FDA acceptance and priority review of the ivonescimab BLA for this setting, with a 14 November 2026 PDUFA goal date. No FDA approval, EMA authorization, CDSCO authorization, official price, or India launch was verified.", "wide"]
+    ],
+    source: "https://pubmed.ncbi.nlm.nih.gov/42636833/",
+    sourceLabel: "Lancet Oncology / PubMed abstract",
+    supportingSources: [
+      { label: "MD Anderson publication notice", url: "https://www.mdanderson.org/newsroom/research-newsroom/targeted-antibody-improves-outcomes-for-patients-with-advanced-l.h00-159858501.html" },
+      { label: "ClinicalTrials.gov HARMONi registry", url: "https://clinicaltrials.gov/study/NCT05184712" },
+      { label: "Summit FDA priority-review release", url: "https://www.smmttx.com/news/summit-therapeutics-announces-fda-acceptance-of-biologics-license-application-with-priority-review-for-ivonescimab-in-combination-with-chemotherapy-for-the-treatment-of-patients-with-egfr-mutated-locally-advanced-or-metastatic-non-squamous-non-small-cell-lung-cancer-who-have-progressed-after-egfr-tki-treatment" }
+    ]
+  },
+  {
     id: "zanidatamab-tislelizumab-gea", short: "Ziihera +/- Tevimbra", name: "Zanidatamab Regimens in HER2+ GEA", cancer: "Gastric, GEJ, and esophageal adenocarcinoma",
     setting: "First-line unresectable locally advanced or metastatic HER2-positive disease", company: "Jazz Pharmaceuticals + BeOne Medicines; Zymeworks partner asset", phase: "Phase III; FDA approved",
     impact: "High first-line upper-GI approval", impactGroup: "high", maturity: 99, impactScore: 90,
@@ -626,12 +654,12 @@ const asco2025Followup = [
   },
   {
     id: "camizestrant", program: "Camizestrant + CDK4/6 inhibitor", trial: "SERENA-6", cancer: "Breast cancer",
-    company: "AstraZeneca", status: "approved", statusLabel: "EU approved; US pending",
+    company: "AstraZeneca", status: "approved", statusLabel: "FDA accelerated approval",
     ascoSignal: "ctDNA-guided switch at emergent ESR1 mutation improved median PFS from 9.2 to 16.0 months.",
-    currentMilestone: "EU approval · 23 Jul 2026; US review unresolved",
-    assessment: "The SERENA-6 signal has now translated into a European Commission approval for Etcamah, but the US review remains unresolved after FDA's April 2026 ODAC discussion about whether switching before radiographic progression provides clinically meaningful benefit.",
+    currentMilestone: "FDA accelerated approval · 4 Sep 2026",
+    assessment: "FDA granted accelerated approval to Etcamah for a ctDNA-guided switch with palbociclib, ribociclib, or abemaciclib after emergent ESR1 mutation detection and no radiographic progression, resolving the prior US review watch while leaving confirmatory post-approval evidence and access questions open.",
     conferenceSource: "https://ascopost.com/issues/july-25-2025/plenary-highlights-across-tumor-types-reflect-advances-in-research-improvements-in-care-and-changes-in-practice/",
-    currentSource: "https://ebs.publicnow.com/view/994FCDEE2DA854AD78FB88E77DCF6BCCF09162FB",
+    currentSource: "https://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-new-breast-cancer-treatment",
     secondarySource: "https://www.ema.europa.eu/en/medicines/human/EPAR/etcamah"
   },
   {
@@ -726,9 +754,9 @@ const followupDetails = {
   camizestrant: {
     presentation: "1 June 2025 · Plenary LBA4", design: "Global randomized double-blind phase III; ctDNA-triggered switch", population: "HR+/HER2− advanced breast cancer with emergent ESR1 mutation before radiographic progression", comparator: "Continue aromatase inhibitor + same CDK4/6 inhibitor",
     endpoint: "Progression-free survival", effect: "Median PFS 16.0 vs 9.2 months; HR 0.44. The unresolved question is whether earlier switching improves outcomes compared with switching at clinical progression.",
-    safety: "EMA's Etcamah page lists neutropenia, visual effects, infections, anaemia, diarrhoea, nausea, fatigue, bradycardia and leukopenia among the common adverse effects; the practical burden still includes serial ctDNA testing alongside continued CDK4/6 exposure.",
-    us: "NDA remains under review; FDA ODAC discussed uncertainty on 30 April 2026 and no final US approval was verified in this pass.", eu: "European Commission approved Etcamah on 23 July 2026 for ER-positive, HER2-negative locally advanced or metastatic breast cancer with detected ESR1 mutation and no disease progression during first-line endocrine therapy plus a CDK4/6 inhibitor.", india: "No verified approval, launch, price, or CDSCO filing was identified in this pass.",
-    evidenceDelta: "The ASCO/NEJM efficacy signal has now crossed into an EU label, while the US review remains unresolved because regulators have weighed the pre-progression switching question differently.", adoption: "Requires serial ctDNA testing, validated ESR1 assay access, coordinated switching before radiographic progression, and payer comfort with an earlier branded oral SERD step.", nextDecision: "US FDA decision, European reimbursement uptake, and any official India filing or launch announcement.", confidence: "High for the trial result and EU approval; survival maturation and global adoption remain unsettled."
+    safety: "FDA highlighted visual impairment, low heart rate and QTc prolongation, with common adverse reactions including headache, diarrhea, nausea, fatigue, asthenia, musculoskeletal pain, decreased appetite and dizziness. The practical burden still includes serial ctDNA testing alongside continued CDK4/6 exposure.",
+    us: "FDA granted accelerated approval on 4 September 2026 for Etcamah with palbociclib, ribociclib, or abemaciclib in adults with ER-positive, HER2-negative advanced or metastatic breast cancer whose ESR1 mutation is detected in circulating tumor DNA after at least six months of first-line endocrine therapy with a CDK4/6 inhibitor and who have no disease progression.", eu: "European Commission approved Etcamah on 23 July 2026 for ER-positive, HER2-negative locally advanced or metastatic breast cancer with detected ESR1 mutation and no disease progression during first-line endocrine therapy plus a CDK4/6 inhibitor.", india: "No verified approval, launch, price, reimbursement, procurement pathway, or CDSCO filing was identified in this pass.",
+    evidenceDelta: "The ASCO/NEJM signal has now crossed into both EU authorization and US accelerated approval. FDA previously debated the pre-progression switch question at ODAC, so the label remains a conditional accelerated-approval milestone rather than final proof of survival or post-progression sequencing advantage.", adoption: "Requires serial ctDNA testing, validated ESR1 assay access, coordinated switching before radiographic progression, CDK4/6 partner selection, cardiac/QTc and visual-toxicity monitoring, and payer comfort with an earlier branded oral SERD step.", nextDecision: "FDA confirmatory requirements, mature survival/post-progression outcomes, reimbursement uptake, and any official India filing or launch announcement.", confidence: "High for the trial result and FDA/EU regulatory milestones; survival maturation and access remain unsettled."
   },
   atomic: {
     presentation: "1 June 2025 · Plenary LBA1", design: "Randomized phase III", population: "Stage III dMMR colon cancer", comparator: "mFOLFOX6 alone",
@@ -1215,6 +1243,7 @@ const portfolioAliasRules = [
   { match: /sacituzumab govitecan|trodelvy/i, aliases: ["Trodelvy"] },
   { match: /rusfertide/i, aliases: ["PTG-300"] },
   { match: /camizestrant|etcamah/i, aliases: ["AZD9833", "Etcamah"] },
+  { match: /ivonescimab|harmoni/i, aliases: ["SMT112", "AK112", "PD-1", "VEGF", "HARMONi"] },
   { match: /can-2409/i, aliases: ["aglatimagene besadenovec"] },
   { match: /intismeran autogene cevumeran|personalized mrna neoantigen therapy/i, aliases: ["mRNA-4157", "V940"] },
   { match: /talentop|liver resection after atezolizumab\/bevacizumab/i, aliases: ["NCT04649489", "Tecentriq", "Avastin"] }
@@ -2480,7 +2509,7 @@ function dossierField(label, value, extra = "") {
 
 function renderFollowupLessons() {
   const lessons = [
-    ["01", "Six programs reached FDA approval; one reached EU approval", "KEYNOTE-689, MATTERHORN, DESTINY-Breast09, ASCENT-04, C-POST and AMPLITUDE moved from ASCO evidence to regimen-specific US authorization, while camizestrant reached a verified EU label."],
+    ["01", "Six programs reached FDA approval; camizestrant reached EU and US accelerated approval", "KEYNOTE-689, MATTERHORN, DESTINY-Breast09, ASCENT-04, C-POST and AMPLITUDE moved from ASCO evidence to regimen-specific US authorization, while camizestrant reached EU authorization and a US accelerated approval."],
     ["02", "Regulators can diverge", "Camizestrant received a positive EU committee opinion while the US review questioned the clinical meaning of switching before imaging progression."],
     ["03", "Guidelines may precede labels", "ATOMIC influenced NCCN guidance, but a guideline recommendation does not itself create an FDA-approved indication."],
     ["04", "Maturation can become approval", "ASCENT-04 advanced from conference signal to NEJM publication and then FDA approval; NIVOPOSTOP produced additional analyses without a verified new label."],
