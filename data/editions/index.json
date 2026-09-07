@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-09-05T18:54:25.381Z",
-  "currentEditionId": "2026-09-05",
-  "currentEditionLabel": "5 September 2026",
+  "generatedAt": "2026-09-07T07:46:01.853Z",
+  "currentEditionId": "2026-09-07",
+  "currentEditionLabel": "7 September 2026",
   "editions": [
+    {
+      "id": "2026-09-07",
+      "editionLabel": "7 September 2026",
+      "preparedLabel": "September 7 Morning Edition",
+      "monthKey": "2026-09",
+      "monthLabel": "September 2026",
+      "summary": "Glioblastoma has historically shown limited benefit from systemic checkpoint blockade. Demonstrating intratumoral immune activation in a randomized surgical-window study supports further testing of dual PD-1/CTLA-4 blockade and biomarker-directed neoadjuvant strategies, but does not establish a new standard of care.",
+      "file": "/data/editions/2026-09-07.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 24,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 13,
+        "verifiedRecords": 48
+      }
+    },
     {
       "id": "2026-09-05",
       "editionLabel": "5 September 2026",
@@ -807,8 +824,36 @@
     {
       "monthKey": "2026-09",
       "monthLabel": "September 2026",
-      "leadEditionId": "2026-09-05",
+      "leadEditionId": "2026-09-07",
       "highlights": [
+        {
+          "editionId": "2026-09-07",
+          "editionLabel": "7 September 2026",
+          "tag": "Peer-reviewed emerging signal",
+          "title": "Neoadjuvant nivolumab plus ipilimumab in recurrent glioblastoma",
+          "summary": "Glioblastoma has historically shown limited benefit from systemic checkpoint blockade. Demonstrating intratumoral immune activation in a randomized surgical-window study supports further testing of dual PD-1/CTLA-4 blockade and biomarker-directed neoadjuvant strategies, but does not establish a new standard of care."
+        },
+        {
+          "editionId": "2026-09-07",
+          "editionLabel": "7 September 2026",
+          "tag": "Latest verified approval",
+          "title": "Ivonescimab + Chemotherapy After EGFR TKI",
+          "summary": "Lancet Oncology publication visible 4 September 2026; US BLA priority review PDUFA target reported for 14 November 2026"
+        },
+        {
+          "editionId": "2026-09-07",
+          "editionLabel": "7 September 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-09-07",
+          "editionLabel": "7 September 2026",
+          "tag": "Negative trial",
+          "title": "Galleri-NHS negative screening signal",
+          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
+        },
         {
           "editionId": "2026-09-05",
           "editionLabel": "5 September 2026",
@@ -822,34 +867,6 @@
           "tag": "Highest-impact treatment pool",
           "title": "Daraxonrasib for Metastatic PDAC",
           "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-09-05",
-          "editionLabel": "5 September 2026",
-          "tag": "Negative trial",
-          "title": "Galleri-NHS negative screening signal",
-          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
-        },
-        {
-          "editionId": "2026-09-04",
-          "editionLabel": "4 September 2026",
-          "tag": "Latest verified approval",
-          "title": "Anbenitamab + HB1801 Neoadjuvant Strategy",
-          "summary": "Peer-reviewed online publication 3 September 2026; no regulatory approval verified"
-        },
-        {
-          "editionId": "2026-09-04",
-          "editionLabel": "4 September 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-09-04",
-          "editionLabel": "4 September 2026",
-          "tag": "Negative trial",
-          "title": "Galleri-NHS negative screening signal",
-          "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
         }
       ]
     },

@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-05
+Updated: 2026-09-07
 
 ## Method
 
@@ -64,8 +64,31 @@ Updated: 2026-09-05
 - The 2026-09-03 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 2-3 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the September 2 SANOVO watchlist signal already represented.
 - The 2026-09-04 review added one peer-reviewed treatment-strategy dossier after a JAMA Oncology randomized Phase III neoadjuvant ERBB2-positive breast-cancer publication and one press-release-only watchlist signal after AbbVie reported topline randomized Phase III CERVINO data for etentamig in triple-class-exposed relapsed/refractory multiple myeloma.
 - The 2026-09-05 review updated the existing SERENA-6 camizestrant follow-up record after FDA granted accelerated approval to Etcamah and added one peer-reviewed randomized HARMONi treatment-strategy dossier for ivonescimab plus chemotherapy after third-generation EGFR TKI progression in EGFR-mutated nonsquamous NSCLC.
+- The 2026-09-07 catch-up review reconciled the missed September 6 interval and added one peer-reviewed early randomized surgical-window signal for neoadjuvant nivolumab plus ipilimumab in surgically resectable recurrent glioblastoma. It remains a watchlist record because the primary endpoint was pharmacodynamic and the small Phase I trial was not designed to establish a definitive survival advantage.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-07 Verified Updates and Catch-Up Checks
+
+- Nature Communications peer-reviewed early online article on neoadjuvant PD-1 plus CTLA-4 blockade in surgically resectable recurrent glioblastoma; source for the 5 September 2026 publication date, randomized Phase I surgical-window design, 63-patient intention-to-treat population, primary tumor-infiltrating-lymphocyte endpoint, survival estimates, exploratory immune findings, and statement that no unanticipated toxicities occurred
+  https://www.nature.com/articles/s41467-026-77433-z
+- ClinicalTrials.gov NCT04606316; used for registered trial identity, Phase I status, intervention arms, US multicenter context, sponsor identity, and active-not-recruiting status
+  https://clinicaltrials.gov/study/NCT04606316
+- FDA oncology approval notifications index and FDA accelerated-approval tracking surfaces; no additional September 5-7 oncology approval, withdrawal, verified-benefit conversion, safety restriction, or confirmatory-obligation update cleared promotion beyond the already represented 4 September Etcamah action
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/other-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major-journal, and targeted sponsor checks did not identify another September 5-7 oncology approval, withdrawal, safety signal, material late-phase result, pricing/procurement change, India-access milestone, or global cancer-system update strong enough for promotion. The missed September 6 review interval is incorporated into this September 7 catch-up ledger entry.
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-09-05 Verified Updates
 

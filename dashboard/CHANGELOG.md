@@ -1,5 +1,17 @@
 # Dashboard Changelog
 
+## 2026-09-07 - Recurrent Glioblastoma Surgical-Window Signal Added
+
+- Completed a catch-up review covering the missed September 5-6 interval and the September 6-7 window across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming oncology categories.
+- Added `Neoadjuvant nivolumab plus ipilimumab in recurrent glioblastoma` to `Watchlist & systems` after Nature Communications published a randomized Phase I surgical window-of-opportunity trial on 5 September 2026.
+- Captured 71 screened patients, 63 randomized patients, and 58 treated patients across four US centers. The study compared presurgical nivolumab plus ipilimumab, nivolumab alone, and placebo before resection, with protocol-defined postoperative checkpoint blockade.
+- Recorded that the primary pharmacodynamic endpoint was met: neoadjuvant dual blockade significantly increased tumor-infiltrating lymphocyte density versus untreated presurgical control.
+- Preserved the exploratory clinical interpretation: median overall survival was 402 days (95% CI 265-571) in the pooled postoperative dual-blockade arms and 273 days (95% CI 166-506) with nivolumab alone, but survival was secondary, the trial was small and Phase I, the comparison pooled two arms, and no definitive randomized survival advantage should be inferred.
+- Recorded no unanticipated toxicities from the article abstract while marking grade-specific adverse-event rates as not reported in the captured abstract. No regulatory filing, glioblastoma approval, official price, India trial site, CDSCO action, India launch, reimbursement, or procurement milestone was verified.
+- Rechecked FDA oncology approval and accelerated-approval surfaces, EMA, CDSCO, WHO, IARC, ClinicalTrials.gov, major journals, and targeted sponsor disclosures. No additional September 5-7 oncology approval, withdrawal, safety restriction, material late-phase result, pricing/procurement change, India-access milestone, or global cancer-system update cleared promotion beyond this glioblastoma signal.
+- No taxonomy, scoring, filter, layout, or navigation redesign was required because the existing watchlist model accurately distinguishes early randomized pharmacodynamic evidence from a treatment approval or practice-changing dossier.
+- Rolled the visible briefing and archive forward to the September 7 Morning Edition and documented the missed September 6 review interval in this catch-up entry. No detailed Word report was modified.
+
 ## 2026-09-05 - Etcamah FDA Approval and HARMONi Publication Added
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.

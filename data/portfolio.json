@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T18:54:25.338Z",
+  "generatedAt": "2026-09-07T07:46:01.809Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -3218,10 +3218,106 @@
       ]
     },
     {
-      "id": "watchlist:cervino-etentamig",
+      "id": "watchlist:neoadjuvant-nivolumab-ipilimumab-gbm",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
       "order": 35,
+      "title": "Neoadjuvant nivolumab plus ipilimumab in recurrent glioblastoma",
+      "subtitle": "Early randomized surgical-window evidence · Surgically resectable recurrent glioblastoma · United States; four-center trial",
+      "organization": "Dana-Farber Cancer Institute-led investigators; UCLA, Stanford, Memorial Sloan Kettering; Bristol Myers Squibb supplied study drugs",
+      "snapshot": "Peer-reviewed emerging signal · 5 September 2026",
+      "summary": "Glioblastoma has historically shown limited benefit from systemic checkpoint blockade. Demonstrating intratumoral immune activation in a randomized surgical-window study supports further testing of dual PD-1/CTLA-4 blockade and biomarker-directed neoadjuvant strategies, but does not establish a new standard of care.",
+      "headline": "The primary endpoint was met: neoadjuvant dual blockade significantly increased tumor-infiltrating lymphocyte density versus the untreated presurgical control. Median overall survival was 402 days (95% CI 265-571) among patients receiving postoperative dual blockade in Arms 1 and 3 and 273 days (95% CI 166-506) in the nivolumab-alone arm; the study was not designed to establish a definitive survival advantage between these pooled groups.",
+      "statusLabel": "Peer-reviewed emerging signal",
+      "badges": [
+        "Peer-reviewed emerging signal",
+        "Early randomized surgical-window evidence",
+        "United States; four-center trial"
+      ],
+      "searchText": "neoadjuvant nivolumab plus ipilimumab in recurrent glioblastoma nivolumab + ipilimumab gbm early randomized surgical-window evidence surgically resectable recurrent glioblastoma united states; four-center trial dana-farber cancer institute-led investigators; ucla, stanford, memorial sloan kettering; bristol myers squibb supplied study drugs a randomized phase i surgical window-of-opportunity trial evaluated presurgical nivolumab plus ipilimumab, nivolumab alone, or placebo before resection, followed by protocol-defined postoperative checkpoint blockade. the primary endpoint was met: neoadjuvant dual blockade significantly increased tumor-infiltrating lymphocyte density versus the untreated presurgical control. median overall survival was 402 days (95% ci 265-571) among patients receiving postoperative dual blockade in arms 1 and 3 and 273 days (95% ci 166-506) in the nivolumab-alone arm; the study was not designed to establish a definitive survival advantage between these pooled groups. the result may change trial-development priorities and biomarker sampling strategies, but should not independently change routine treatment selection because clinical efficacy was not the primary endpoint and the trial was small and phase i. glioblastoma has historically shown limited benefit from systemic checkpoint blockade. demonstrating intratumoral immune activation in a randomized surgical-window study supports further testing of dual pd-1/ctla-4 blockade and biomarker-directed neoadjuvant strategies, but does not establish a new standard of care. opdivo",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "neoadjuvant-nivolumab-ipilimumab-gbm",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.nature.com/articles/s41467-026-77433-z"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://clinicaltrials.gov/study/NCT04606316"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "A randomized Phase I surgical window-of-opportunity trial evaluated presurgical nivolumab plus ipilimumab, nivolumab alone, or placebo before resection, followed by protocol-defined postoperative checkpoint blockade."
+        ],
+        [
+          "Population / sample",
+          "71 adults were screened, 63 were randomized in the intention-to-treat population, and 58 received study treatment between 2021 and 2024 for surgically resectable recurrent glioblastoma."
+        ],
+        [
+          "Comparator",
+          "Presurgical nivolumab plus ipilimumab (Arm 1), nivolumab alone (Arm 2), or placebo (Arm 3). After surgery, Arms 1 and 3 received dual checkpoint blockade while Arm 2 continued nivolumab until progression or unacceptable toxicity."
+        ],
+        [
+          "Observed effect",
+          "The primary endpoint was met: neoadjuvant dual blockade significantly increased tumor-infiltrating lymphocyte density versus the untreated presurgical control. Median overall survival was 402 days (95% CI 265-571) among patients receiving postoperative dual blockade in Arms 1 and 3 and 273 days (95% CI 166-506) in the nivolumab-alone arm; the study was not designed to establish a definitive survival advantage between these pooled groups.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "Glioblastoma has historically shown limited benefit from systemic checkpoint blockade. Demonstrating intratumoral immune activation in a randomized surgical-window study supports further testing of dual PD-1/CTLA-4 blockade and biomarker-directed neoadjuvant strategies, but does not establish a new standard of care.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Adults with surgically resectable recurrent glioblastoma, neuro-oncology and neurosurgical teams, translational investigators, trial sponsors, and regulators evaluating whether pharmacodynamic activity warrants larger efficacy trials.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "The result may change trial-development priorities and biomarker sampling strategies, but should not independently change routine treatment selection because clinical efficacy was not the primary endpoint and the trial was small and Phase I.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate as an emerging signal: peer-reviewed, randomized, multicenter evidence met a prespecified tissue pharmacodynamic endpoint and reported confidence intervals for survival. Clinical-efficacy certainty is low because only 63 patients were randomized, postoperative treatment differed by arm, survival was secondary, and the reported comparison pooled two dual-blockade arms."
+        ],
+        [
+          "India relevance",
+          "No India trial site, CDSCO authorization, India-specific guideline action, official launch date, combination price, reimbursement decision, procurement pathway, or access program was verified. Both drugs have uses in other cancers, but this glioblastoma regimen is investigational.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not applicable as an approved glioblastoma regimen. No official regimen price, cost-effectiveness result, India reimbursement decision, or procurement figure was reported or verified."
+        ],
+        [
+          "Current limitation",
+          "Early online peer-reviewed version; Phase I; small sample; primary endpoint was tissue immune activation rather than progression-free or overall survival; no hazard ratio or randomized confirmatory survival test was reported in the abstract; detailed adverse-event rates, quality of life, cost-effectiveness, regulatory filing, approval, and broad generalizability were not established.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "A larger prospectively powered efficacy trial with a prespecified survival comparison, complete safety and quality-of-life reporting, biomarker validation, regulatory guidance, and any official India participation or access milestone."
+        ],
+        [
+          "Verification note",
+          "Verified from the 5 September 2026 peer-reviewed Nature Communications article and ClinicalTrials.gov NCT04606316. The article reports no unanticipated toxicities, but detailed grade-specific safety rates were not captured in the abstract. Represented as an emerging signal, not an approval or practice-changing survival claim.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:cervino-etentamig",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 36,
       "title": "CERVINO BCMA bispecific myeloma topline",
       "subtitle": "Press-release-only phase III · Relapsed/refractory multiple myeloma · Global trial; sponsor release from United States",
       "organization": "AbbVie",
@@ -3317,7 +3413,7 @@
       "id": "watchlist:sanovo-savolitinib-osimertinib",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 36,
+      "order": 37,
       "title": "SANOVO first-line EGFR/MET lung-cancer topline",
       "subtitle": "Press-release-only phase III · EGFR-mutated NSCLC with MET overexpression · China",
       "organization": "AstraZeneca; HUTCHMED",
@@ -3413,7 +3509,7 @@
       "id": "watchlist:prostate-cardio-referral",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 37,
+      "order": 38,
       "title": "Routine cardiovascular referral in prostate cancer",
       "subtitle": "Supportive care / care delivery · Prostate cancer · Eight-country trial across 55 sites",
       "organization": "International randomized trial investigators; JAMA Internal Medicine",
@@ -3509,7 +3605,7 @@
       "id": "watchlist:mpower-asia-cancer-model",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 38,
+      "order": 39,
       "title": "MPOWER tobacco control and preventable cancers in Asia",
       "subtitle": "Prevention / public health policy · Thirteen tobacco-related cancers · East and South-East Asia",
       "organization": "Independent investigators using WHO Global Health Observatory and IARC Global Cancer Observatory data; The Lancet Regional Health - Western Pacific",
@@ -3605,7 +3701,7 @@
       "id": "watchlist:bemotrizinol-sunscreen",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 39,
+      "order": 40,
       "title": "Bemotrizinol sunscreen order takes effect",
       "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
       "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
@@ -3701,7 +3797,7 @@
       "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 40,
+      "order": 41,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -3797,7 +3893,7 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 41,
+      "order": 42,
       "title": "RP1 + nivolumab accelerated approval after advisory split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -3893,7 +3989,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 42,
+      "order": 43,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -3989,7 +4085,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 43,
+      "order": 44,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -4085,7 +4181,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 44,
+      "order": 45,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -4181,7 +4277,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 45,
+      "order": 46,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -4277,7 +4373,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 46,
+      "order": 47,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -4371,7 +4467,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 94,
+    "sourcesChecked": 96,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,
