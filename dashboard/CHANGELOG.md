@@ -1,5 +1,16 @@
 # Dashboard Changelog
 
+## 2026-09-08 - WHO Childhood-Cancer Medicine Access Action Added
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours and rechecked authoritative surfaces for material items missed by the September 7 catch-up review.
+- Added `WHO childhood-cancer medicine prequalification invitation` to `Watchlist & systems` after identifying WHO's 4 September 2026 departmental update on its first invitation for childhood-cancer medicine manufacturers to submit products for WHO prequalification evaluation.
+- Captured six medicines prioritized for child-friendly formulation development: cyclophosphamide, etoposide, mercaptopurine, methotrexate, procarbazine and temozolomide; and six medicines selected for documented access or supply gaps: pegaspargase, asparaginase, preservative-free hydrocortisone, dactinomycin, vincristine and cytarabine.
+- Recorded why the action matters: WHO prequalification can establish a quality-assurance route for products used by international and national procurement programs, while the Global Platform is expected to reach approximately 120,000 children in low- and middle-income countries.
+- Preserved the implementation limits: an invitation does not establish manufacturer participation, successful prequalification, procurement awards, price reductions, uninterrupted supply, India participation, or patient-level outcomes. No product price, tender, contract, delivery volume, CDSCO action, or India-specific access milestone was verified.
+- The same-window FDA, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, journal, and sponsor review found no additional September 7-8 oncology approval, withdrawal, safety restriction, material late-phase result, pricing/procurement change, India-access milestone, or global cancer-system development that cleared promotion.
+- No taxonomy, scoring, filter, layout, or navigation redesign was required because the existing systems/access watchlist model can represent a prequalification and market-shaping action without implying treatment approval.
+- Rolled the visible briefing and archive forward to the September 8 Morning Edition. No detailed Word report was modified.
+
 ## 2026-09-07 - Recurrent Glioblastoma Surgical-Window Signal Added
 
 - Completed a catch-up review covering the missed September 5-6 interval and the September 6-7 window across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming oncology categories.

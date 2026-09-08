@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T07:46:01.809Z",
+  "generatedAt": "2026-09-08T03:33:02.738Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -3218,10 +3218,106 @@
       ]
     },
     {
-      "id": "watchlist:neoadjuvant-nivolumab-ipilimumab-gbm",
+      "id": "watchlist:who-childhood-cancer-prequalification-eoi",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
       "order": 35,
+      "title": "WHO childhood-cancer medicine prequalification invitation",
+      "subtitle": "Access / manufacturing / procurement · Childhood cancers · Global, with focus on low- and middle-income countries",
+      "organization": "World Health Organization; Global Platform for Access to Childhood Cancer Medicines; GAP-f; St. Jude Children's Research Hospital; UNICEF; PAHO Strategic Fund",
+      "snapshot": "WHO market-shaping action · 4 September 2026",
+      "summary": "Quality-assured supply and age-appropriate formulations are core constraints in childhood cancer care. A WHO prequalification route can lower procurement risk and create clearer development targets for manufacturers, but its impact depends on submissions, successful evaluations, purchasing commitments, and reliable country delivery.",
+      "headline": "The invitation covers six medicines needing child-friendly formulations - cyclophosphamide, etoposide, mercaptopurine, methotrexate, procarbazine and temozolomide - plus six medicines with documented access or supply gaps: pegaspargase, asparaginase, preservative-free hydrocortisone, dactinomycin, vincristine and cytarabine. No product prequalification, procurement award, price change, or delivery volume was announced in the update.",
+      "statusLabel": "WHO market-shaping action",
+      "badges": [
+        "WHO market-shaping action",
+        "Access / manufacturing / procurement",
+        "Global, with focus on low- and middle-income countries"
+      ],
+      "searchText": "who childhood-cancer medicine prequalification invitation who paediatric oncology eoi access / manufacturing / procurement childhood cancers global, with focus on low- and middle-income countries world health organization; global platform for access to childhood cancer medicines; gap-f; st. jude children's research hospital; unicef; paho strategic fund who highlighted its first invitation for manufacturers of childhood-cancer medicines to submit products for evaluation through the who prequalification programme, covering child-friendly formulation needs and documented supply gaps. the invitation covers six medicines needing child-friendly formulations - cyclophosphamide, etoposide, mercaptopurine, methotrexate, procarbazine and temozolomide - plus six medicines with documented access or supply gaps: pegaspargase, asparaginase, preservative-free hydrocortisone, dactinomycin, vincristine and cytarabine. no product prequalification, procurement award, price change, or delivery volume was announced in the update. manufacturers can decide whether to develop or submit eligible products, while procurement programs and countries can prepare to use future who-prequalified products. current treatment choices should not change solely because the invitation has opened. quality-assured supply and age-appropriate formulations are core constraints in childhood cancer care. a who prequalification route can lower procurement risk and create clearer development targets for manufacturers, but its impact depends on submissions, successful evaluations, purchasing commitments, and reliable country delivery.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "who-childhood-cancer-prequalification-eoi",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.who.int/news/item/04-09-2026-who-advances-access-to-quality-assured--child-friendly-cancer-medicines"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://extranet.who.int/prequal/news/1st-invitation-manufacturers-medicinal-products-treatment-childhood-cancer-submit-expression"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "WHO highlighted its first invitation for manufacturers of childhood-cancer medicines to submit products for evaluation through the WHO Prequalification Programme, covering child-friendly formulation needs and documented supply gaps."
+        ],
+        [
+          "Population / sample",
+          "Children and adolescents with cancer worldwide, especially the estimated 90% who live in low- and middle-income countries. WHO states that the Global Platform is expected to reach approximately 120,000 children."
+        ],
+        [
+          "Comparator",
+          "Current fragmented access to products of variable quality, formulations unsuitable for children, and supply interruptions; this is a market-shaping and quality-assurance action, not a comparative clinical trial."
+        ],
+        [
+          "Observed effect",
+          "The invitation covers six medicines needing child-friendly formulations - cyclophosphamide, etoposide, mercaptopurine, methotrexate, procarbazine and temozolomide - plus six medicines with documented access or supply gaps: pegaspargase, asparaginase, preservative-free hydrocortisone, dactinomycin, vincristine and cytarabine. No product prequalification, procurement award, price change, or delivery volume was announced in the update.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "Quality-assured supply and age-appropriate formulations are core constraints in childhood cancer care. A WHO prequalification route can lower procurement risk and create clearer development targets for manufacturers, but its impact depends on submissions, successful evaluations, purchasing commitments, and reliable country delivery.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Children with cancer in low- and middle-income countries, caregivers, paediatric oncology programs, medicine manufacturers, national procurement agencies, WHO and partner purchasing platforms, regulators, and supply-chain organizations.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Manufacturers can decide whether to develop or submit eligible products, while procurement programs and countries can prepare to use future WHO-prequalified products. Current treatment choices should not change solely because the invitation has opened.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "High for the policy action and named medicine list because both are documented by WHO and its Prequalification Programme. Evidence of downstream access improvement is not yet available because submissions, evaluations, prequalification decisions, contracts, prices, and deliveries remain future milestones."
+        ],
+        [
+          "India relevance",
+          "India is relevant as a major generic-medicine manufacturing and procurement market, but no India manufacturer submission, CDSCO action, India procurement decision, price, program enrollment, delivery commitment, or launch milestone was officially identified in this review.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "No product price, tender value, pooled-procurement price, manufacturer subsidy, India reimbursement decision, or cost-effectiveness result was reported or verified."
+        ],
+        [
+          "Current limitation",
+          "The invitation is an enabling regulatory and market-shaping step, not proof of manufacturer participation, product approval, clinical superiority, lower prices, procurement awards, continuous supply, or patient-level outcomes. Country eligibility, timelines, application volume, evaluation outcomes, and financing were not reported in the announcement.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Named manufacturer submissions, WHO evaluation and prequalification decisions, procurement awards and prices, country delivery schedules, supply-continuity measures, and any official India manufacturing or access participation."
+        ],
+        [
+          "Verification note",
+          "Verified from WHO's 4 September 2026 departmental update, the WHO Prequalification Programme invitation, and the Global Platform programme page. Added on 8 September as a catch-up correction after it was not promoted in the prior review. This is not a medicine approval or evidence that any listed product has completed prequalification.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:neoadjuvant-nivolumab-ipilimumab-gbm",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 36,
       "title": "Neoadjuvant nivolumab plus ipilimumab in recurrent glioblastoma",
       "subtitle": "Early randomized surgical-window evidence · Surgically resectable recurrent glioblastoma · United States; four-center trial",
       "organization": "Dana-Farber Cancer Institute-led investigators; UCLA, Stanford, Memorial Sloan Kettering; Bristol Myers Squibb supplied study drugs",
@@ -3317,7 +3413,7 @@
       "id": "watchlist:cervino-etentamig",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 36,
+      "order": 37,
       "title": "CERVINO BCMA bispecific myeloma topline",
       "subtitle": "Press-release-only phase III · Relapsed/refractory multiple myeloma · Global trial; sponsor release from United States",
       "organization": "AbbVie",
@@ -3413,7 +3509,7 @@
       "id": "watchlist:sanovo-savolitinib-osimertinib",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 37,
+      "order": 38,
       "title": "SANOVO first-line EGFR/MET lung-cancer topline",
       "subtitle": "Press-release-only phase III · EGFR-mutated NSCLC with MET overexpression · China",
       "organization": "AstraZeneca; HUTCHMED",
@@ -3509,7 +3605,7 @@
       "id": "watchlist:prostate-cardio-referral",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 38,
+      "order": 39,
       "title": "Routine cardiovascular referral in prostate cancer",
       "subtitle": "Supportive care / care delivery · Prostate cancer · Eight-country trial across 55 sites",
       "organization": "International randomized trial investigators; JAMA Internal Medicine",
@@ -3605,7 +3701,7 @@
       "id": "watchlist:mpower-asia-cancer-model",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 39,
+      "order": 40,
       "title": "MPOWER tobacco control and preventable cancers in Asia",
       "subtitle": "Prevention / public health policy · Thirteen tobacco-related cancers · East and South-East Asia",
       "organization": "Independent investigators using WHO Global Health Observatory and IARC Global Cancer Observatory data; The Lancet Regional Health - Western Pacific",
@@ -3701,7 +3797,7 @@
       "id": "watchlist:bemotrizinol-sunscreen",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 40,
+      "order": 41,
       "title": "Bemotrizinol sunscreen order takes effect",
       "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
       "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
@@ -3797,7 +3893,7 @@
       "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 41,
+      "order": 42,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -3893,7 +3989,7 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 42,
+      "order": 43,
       "title": "RP1 + nivolumab accelerated approval after advisory split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -3989,7 +4085,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 43,
+      "order": 44,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -4085,7 +4181,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 44,
+      "order": 45,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -4181,7 +4277,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 45,
+      "order": 46,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -4277,7 +4373,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 46,
+      "order": 47,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -4373,7 +4469,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 47,
+      "order": 48,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -4467,7 +4563,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 96,
+    "sourcesChecked": 98,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,
