@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-08
+Updated: 2026-09-09
 
 ## Method
 
@@ -66,8 +66,31 @@ Updated: 2026-09-08
 - The 2026-09-05 review updated the existing SERENA-6 camizestrant follow-up record after FDA granted accelerated approval to Etcamah and added one peer-reviewed randomized HARMONi treatment-strategy dossier for ivonescimab plus chemotherapy after third-generation EGFR TKI progression in EGFR-mutated nonsquamous NSCLC.
 - The 2026-09-07 catch-up review reconciled the missed September 6 interval and added one peer-reviewed early randomized surgical-window signal for neoadjuvant nivolumab plus ipilimumab in surgically resectable recurrent glioblastoma. It remains a watchlist record because the primary endpoint was pharmacodynamic and the small Phase I trial was not designed to establish a definitive survival advantage.
 - The 2026-09-08 review added WHO's first childhood-cancer medicine prequalification invitation as a systems/access record after the 4 September departmental update was found to have been missed in the prior catch-up pass. The record names all 12 medicines and keeps future submissions, prequalification decisions, prices, procurement awards, deliveries, and India participation explicitly unresolved.
+- The 2026-09-09 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 8-9 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the September 8 WHO childhood-cancer medicine access action already represented.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-09 Review-Only Checks
+
+- FDA oncology approval notifications index and accelerated-approval tracking surfaces; the 4 September Etcamah/camizestrant action remained the newest oncology approval posting, with no September 8-9 withdrawal, verified-benefit conversion, safety restriction, or confirmatory-obligation update promoted
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/other-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- The Oncologist advance-article surface was checked, including the 7 September Phase II apatinib report in pretreated penile cancer; no same-window randomized late-phase, regulatory, pricing, procurement, guideline, or India-access change sufficient for dashboard promotion was verified
+  https://academic.oup.com/oncolo/advance-articles
+- Merck's official news-release index was rechecked after a September 8 listing refresh; the INTerpath-001 melanoma topline result linked there remained the 19 August disclosure already represented in the dashboard, with no new numerical dataset, filing, approval, price, or India-access milestone
+  https://www.merck.com/media/news/
+- EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major-journal, and targeted sponsor checks did not identify another September 8-9 oncology approval, withdrawal, safety signal, material late-phase result, pricing/procurement change, India-access milestone, or global cancer-system update strong enough for promotion.
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-09-08 Verified Updates and Review Checks
 
