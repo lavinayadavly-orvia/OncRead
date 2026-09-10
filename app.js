@@ -13,6 +13,35 @@ const treatments = [
     source: "https://ascopubs.org/doi/10.1200/JCO-25-02176"
   },
   {
+    id: "sevabertinib-hyrnuo-first-line", short: "Hyrnuo", name: "Sevabertinib for First-Line HER2-Mutant NSCLC", cancer: "Lung cancer",
+    setting: "Previously untreated locally advanced or metastatic non-squamous NSCLC with HER2/ERBB2 TKD activating mutations", company: "Bayer Healthcare Pharmaceuticals", phase: "Phase I/II; FDA accelerated approval",
+    impact: "High in biomarker-selected disease", impactGroup: "high", maturity: 99, impactScore: 89,
+    eventDate: "2026-09-09",
+    headline: "ORR 75%", headlineNote: "95% CI 64-85 in 69 treatment-naive patients",
+    benefit: "FDA expanded Hyrnuo's accelerated approval to adults with previously untreated locally advanced or metastatic non-squamous NSCLC harboring HER2/ERBB2 tyrosine-kinase-domain activating mutations detected by an FDA-authorized test, creating an oral first-line targeted option for this uncommon molecular subgroup.",
+    safety: "FDA labeling highlights diarrhea, hepatotoxicity, interstitial lung disease or pneumonitis, left ventricular dysfunction, ocular toxicity, pancreatic enzyme elevation, and embryo-fetal toxicity. The FDA notice did not provide grade-specific event rates for the 69-patient approval population.",
+    cost: "Branded oral targeted therapy; official US list price not verified in this pass", indiaPrice: "No official India price, CDSCO authorization for this indication, reimbursement decision, procurement figure, patient-assistance terms, or India launch date was verified.",
+    indiaStatus: "not-launched", indiaLabel: "US approved; India unverified", launch: "FDA first-line indication expansion 9 September 2026",
+    indiaCaveat: "No verified CDSCO authorization, India availability, local companion-diagnostic pathway, official launch date, price, reimbursement, or procurement milestone was identified.",
+    limitations: "Accelerated approval is based on response rate and duration of response from a small, open-label, single-arm Phase I/II cohort. Comparative progression-free survival, overall survival, quality of life, resistance sequencing, confirmatory clinical benefit, long-term safety, and non-US first-line access remain unresolved.",
+    detailSections: [
+      ["Event date / geography", "9 September 2026 FDA accelerated-approval expansion - United States; review conducted under Project Orbis.", "wide"],
+      ["Population / sample", "69 adults with previously untreated locally advanced or metastatic non-squamous NSCLC and HER2/ERBB2 TKD activating mutations in the ongoing multicenter SOHO-01 trial (NCT05099172).", "wide"],
+      ["Comparator", "No concurrent comparator; open-label, single-arm, multicohort Phase I/II evidence.", "wide"],
+      ["Primary efficacy outcomes", "Blinded independent central review-confirmed objective response rate and duration of response under RECIST v1.1.", "wide"],
+      ["Effect size detail", "Confirmed ORR was 75% (95% CI 64-85). Among responding patients, 73% had a response lasting at least six months and 38% had a response lasting at least 12 months.", "wide"],
+      ["Dose / administration", "Sevabertinib 20 mg orally twice daily with food until disease progression or unacceptable toxicity.", "wide"],
+      ["Regulatory status", "FDA accelerated approval expanded the prior post-systemic-therapy indication into the first-line setting. Continued approval may depend on verification and description of clinical benefit in a confirmatory trial. No FDA traditional approval, EMA first-line authorization, CDSCO authorization, official India launch, or India price was verified.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sevabertinib-locally-advanced-or-metastatic-non-squamous-non-small",
+    sourceLabel: "FDA approval notice",
+    supportingSources: [
+      { label: "Bayer approval release", url: "https://www.bayer.com/media/en-us/us-fda-grants-accelerated-approval-to-bayers-targeted-therapy-sevabertinib-as-a-first-line-treatment-option-for-adults-with-her2-mutant-non-small-cell-lung-cancer/" },
+      { label: "ASCO 2026 SOHO-01 update", url: "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.8622" },
+      { label: "ClinicalTrials.gov SOHO-01 registry", url: "https://clinicaltrials.gov/study/NCT05099172" }
+    ]
+  },
+  {
     id: "anbenitamab-hb1801", short: "Anbenitamab + HB1801", name: "Anbenitamab + HB1801 Neoadjuvant Strategy", cancer: "Breast cancer",
     setting: "Stage II-III ERBB2-positive neoadjuvant therapy", company: "Alphamab Oncology + CSPC/JMT-Bio investigators", phase: "Phase III; peer-reviewed",
     impact: "High, pending survival", impactGroup: "high", maturity: 92, impactScore: 86,
@@ -1272,6 +1301,7 @@ function formatImpactClass(group) {
 const portfolioAliasRules = [
   { match: /nivolumab/i, aliases: ["Opdivo"] },
   { match: /pembrolizumab/i, aliases: ["Keytruda"] },
+  { match: /sevabertinib|hyrnuo|soho-01/i, aliases: ["Hyrnuo", "BAY 2927088", "SOHO-01", "HER2", "ERBB2"] },
   { match: /anbenitamab|hb1801|kn026|erbb2/i, aliases: ["KN026", "HB1801", "ERBB2"] },
   { match: /etentamig|cervino|bcma/i, aliases: ["CERVINO", "BCMA", "ABBV-383"] },
   { match: /gedatolisib|revtorpyk/i, aliases: ["Revtorpyk"] },

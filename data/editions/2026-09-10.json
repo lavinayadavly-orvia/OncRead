@@ -1,0 +1,89 @@
+{
+  "id": "2026-09-10",
+  "editionLabel": "10 September 2026",
+  "preparedLabel": "September 10 Morning Edition",
+  "monthKey": "2026-09",
+  "monthLabel": "September 2026",
+  "summary": "FDA expanded Hyrnuo's accelerated approval to adults with previously untreated locally advanced or metastatic non-squamous NSCLC harboring HER2/ERBB2 tyrosine-kinase-domain activating mutations detected by an FDA-authorized test, creating an oral first-line targeted option for this uncommon molecular subgroup.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 25,
+    "followupApprovals": 7,
+    "indiaMarketed": 4,
+    "watchlistSignals": 14,
+    "verifiedRecords": 50
+  },
+  "headlines": [
+    {
+      "tag": "Latest verified approval",
+      "title": "Sevabertinib for First-Line HER2-Mutant NSCLC",
+      "summary": "FDA first-line indication expansion 9 September 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+    },
+    {
+      "tag": "Negative trial",
+      "title": "Galleri-NHS negative screening signal",
+      "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "sevabertinib-hyrnuo-first-line"
+      },
+      "title": "Sevabertinib for First-Line HER2-Mutant NSCLC",
+      "subtitle": "FDA first-line indication expansion 9 September 2026",
+      "date": 1788912000000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "daraxonrasib-rasonque"
+      },
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "subtitle": "Phase III; FDA approved · US approved; India unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "who-childhood-cancer-prequalification-eoi"
+      },
+      "title": "WHO childhood-cancer medicine prequalification invitation",
+      "subtitle": "WHO market-shaping action",
+      "date": 0
+    }
+  ],
+  "sourceCount": 50,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "sevabertinib-hyrnuo-first-line"
+      },
+      "title": "Sevabertinib for First-Line HER2-Mutant NSCLC",
+      "subtitle": "FDA first-line indication expansion 9 September 2026",
+      "date": 1788912000000
+    }
+  }
+}

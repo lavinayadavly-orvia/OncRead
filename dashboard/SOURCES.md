@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-09
+Updated: 2026-09-10
 
 ## Method
 
@@ -67,8 +67,32 @@ Updated: 2026-09-09
 - The 2026-09-07 catch-up review reconciled the missed September 6 interval and added one peer-reviewed early randomized surgical-window signal for neoadjuvant nivolumab plus ipilimumab in surgically resectable recurrent glioblastoma. It remains a watchlist record because the primary endpoint was pharmacodynamic and the small Phase I trial was not designed to establish a definitive survival advantage.
 - The 2026-09-08 review added WHO's first childhood-cancer medicine prequalification invitation as a systems/access record after the 4 September departmental update was found to have been missed in the prior catch-up pass. The record names all 12 medicines and keeps future submissions, prequalification decisions, prices, procurement awards, deliveries, and India participation explicitly unresolved.
 - The 2026-09-09 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 8-9 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the September 8 WHO childhood-cancer medicine access action already represented.
+- The 2026-09-10 review added a treatment dossier after FDA expanded Hyrnuo/sevabertinib accelerated approval into previously untreated HER2/ERBB2 TKD-mutated advanced non-squamous NSCLC, while preserving the single-arm response-endpoint basis and unresolved confirmatory, pricing, and India-access questions.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-10 Verified Updates
+
+- FDA Hyrnuo/sevabertinib approval notice; source of record for the 9 September 2026 accelerated-approval expansion, first-line HER2/ERBB2 TKD-mutated non-squamous NSCLC population, 69-patient SOHO-01 efficacy set, ORR and response-duration proportions, labeled safety risks, dose, and Project Orbis context
+  https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sevabertinib-locally-advanced-or-metastatic-non-squamous-non-small
+- Bayer official approval release; corroborated first-line label framing, treatment-naive cohort size, Phase I/II status, prior November 2025 post-systemic-therapy approval, and accelerated-approval context
+  https://www.bayer.com/media/en-us/us-fda-grants-accelerated-approval-to-bayers-targeted-therapy-sevabertinib-as-a-first-line-treatment-option-for-adults-with-her2-mutant-non-small-cell-lung-cancer/
+- ASCO 2026 SOHO-01 update; supporting evidence for updated treatment-naive and previously treated cohort efficacy, duration, progression-free survival, and grade-specific safety context without substituting the FDA's 69-patient approval analysis
+  https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.8622
+- ClinicalTrials.gov NCT05099172; used for trial identity, ongoing multicenter Phase I/II design, intervention, population, and registry context
+  https://clinicaltrials.gov/study/NCT05099172
+- FDA accelerated-approval tracking, EMA, CDSCO, WHO/IARC, PubMed, ClinicalTrials.gov, major-journal, and targeted sponsor surfaces were checked; no additional September 9-10 oncology approval, withdrawal, safety restriction, material late-phase result, pricing/procurement change, India-access milestone, or global cancer-system update cleared promotion.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates/cancer
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-09-09 Review-Only Checks
 

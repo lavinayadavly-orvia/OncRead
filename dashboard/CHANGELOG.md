@@ -1,5 +1,16 @@
 # Dashboard Changelog
 
+## 2026-09-10 - First-Line Hyrnuo FDA Expansion Added
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Added `Sevabertinib for First-Line HER2-Mutant NSCLC` after FDA expanded Hyrnuo's accelerated approval on 9 September 2026 to adults with previously untreated locally advanced or metastatic non-squamous NSCLC whose tumors have HER2/ERBB2 tyrosine-kinase-domain activating mutations detected by an FDA-authorized test.
+- Captured the ongoing SOHO-01 open-label, single-arm, multicohort Phase I/II evidence in 69 treatment-naive patients: confirmed objective response rate 75% (95% CI 64-85), with 73% of responders maintaining response for at least six months and 38% for at least 12 months.
+- Recorded the 20 mg twice-daily oral dose and FDA warnings for diarrhea, hepatotoxicity, interstitial lung disease or pneumonitis, left ventricular dysfunction, ocular toxicity, pancreatic enzyme elevation, and embryo-fetal toxicity.
+- Preserved the accelerated-approval limits: there was no concurrent comparator, and comparative PFS, OS, quality of life, confirmatory clinical benefit, long-term safety, resistance sequencing, official US list price, India price, CDSCO authorization, reimbursement, procurement, and India launch remain unresolved.
+- Cross-checked the action against Bayer's official release, ASCO's 2026 SOHO-01 update, and ClinicalTrials.gov NCT05099172. No additional September 9-10 oncology approval, withdrawal, safety restriction, material late-phase result, pricing/procurement change, India-access milestone, or systems update cleared promotion.
+- Added Hyrnuo, BAY 2927088, SOHO-01, HER2, and ERBB2 search aliases in frontend and server normalization. No taxonomy, scoring, filter, layout, or navigation redesign was required because the existing treatment-dossier model accurately represents the approval and its evidence limits.
+- Rolled the visible briefing and archive forward to the September 10 Morning Edition. No detailed Word report was modified.
+
 ## 2026-09-09 - Verified Review With No Material Dashboard Change
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
