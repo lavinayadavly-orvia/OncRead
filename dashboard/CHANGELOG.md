@@ -1,5 +1,14 @@
 # Dashboard Changelog
 
+## 2026-09-11 - Verified Review With No Material Dashboard Change
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Added no new substantive dashboard record and made no treatment, watchlist, taxonomy, scoring, filter, layout, navigation, dossier, or source-link change because no September 10-11 item was both materially decision-relevant and sufficiently verified for promotion.
+- Rechecked FDA oncology approval and accelerated-approval surfaces; the 9 September Hyrnuo/sevabertinib first-line expansion remained the newest oncology approval posting, with no newer withdrawal, verified-benefit conversion, safety restriction, or confirmatory-obligation update identified.
+- Reviewed same-window EMA pharmacovigilance-process updates and journal publications, including preclinical and proof-of-concept oncology work; none created a patient-care, regulatory-label, late-phase evidence, safety, access, pricing, procurement, or India decision change sufficient for promotion.
+- Rechecked EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major journals, and targeted official sponsor disclosures; no additional September 10-11 material oncology update cleared the verification and decision-relevance threshold.
+- Rolled the visible briefing and archive forward to the September 11 Morning Edition while retaining Hyrnuo as the latest regulatory development. No detailed Word report was modified.
+
 ## 2026-09-10 - First-Line Hyrnuo FDA Expansion Added
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.

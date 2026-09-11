@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-10
+Updated: 2026-09-11
 
 ## Method
 
@@ -68,8 +68,29 @@ Updated: 2026-09-10
 - The 2026-09-08 review added WHO's first childhood-cancer medicine prequalification invitation as a systems/access record after the 4 September departmental update was found to have been missed in the prior catch-up pass. The record names all 12 medicines and keeps future submissions, prequalification decisions, prices, procurement awards, deliveries, and India participation explicitly unresolved.
 - The 2026-09-09 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 8-9 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the September 8 WHO childhood-cancer medicine access action already represented.
 - The 2026-09-10 review added a treatment dossier after FDA expanded Hyrnuo/sevabertinib accelerated approval into previously untreated HER2/ERBB2 TKD-mutated advanced non-squamous NSCLC, while preserving the single-arm response-endpoint basis and unresolved confirmatory, pricing, and India-access questions.
+- The 2026-09-11 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 10-11 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the September 10 Hyrnuo first-line approval already represented.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-11 Review-Only Checks
+
+- FDA oncology approval notifications index and accelerated-approval tracking surfaces; the 9 September Hyrnuo/sevabertinib first-line expansion remained the newest oncology approval posting, with no September 10-11 withdrawal, verified-benefit conversion, safety restriction, or confirmatory-obligation update promoted
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/other-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- EMA pharmacovigilance and what-is-new surfaces were reviewed; process updates taking effect on 10 September did not establish a new oncology-specific safety finding, treatment decision, approval, withdrawal, access change, or procurement action
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/good-pharmacovigilance-practices
+- PubMed and major-journal checks surfaced preclinical, proof-of-concept, biomarker, and review articles dated 10 September, but no same-window randomized late-phase result, guideline action, regulatory milestone, pricing/procurement change, or India-access decision sufficient for promotion
+  https://pubmed.ncbi.nlm.nih.gov/
+- CDSCO, WHO, IARC, ClinicalTrials.gov, and targeted sponsor surfaces did not identify another September 10-11 oncology approval, withdrawal, safety signal, material late-phase result, pricing/procurement change, India-access milestone, or global cancer-system update strong enough for promotion.
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://clinicaltrials.gov/
 
 ## 2026-09-10 Verified Updates
 
