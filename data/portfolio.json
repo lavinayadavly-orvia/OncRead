@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T03:20:04.685Z",
+  "generatedAt": "2026-09-12T04:24:02.024Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -3335,10 +3335,106 @@
       ]
     },
     {
-      "id": "watchlist:who-childhood-cancer-prequalification-eoi",
+      "id": "watchlist:tacti004-efti-manufacturing-followup",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
       "order": 36,
+      "title": "TACTI-004 efti manufacturing and futility follow-up",
+      "subtitle": "Manufacturing / negative trial follow-up · First-line advanced or metastatic non-small cell lung cancer · Global Phase III trial; India participation authorized",
+      "organization": "Immutep Limited; Merck & Co. supplied pembrolizumab; TACTI-004 investigators",
+      "snapshot": "Sponsor-reported root-cause signal · 11 September 2026",
+      "summary": "A possible scale-up-related product difference can affect how a failed pivotal immunotherapy trial is interpreted and how future comparability, potency, and manufacturing controls are designed. It does not reverse the negative Phase III result or establish that manufacturing caused the futility outcome.",
+      "headline": "The previously reported interim objective response rate was 42.9% with efti versus 55.1% with placebo, and the trial was stopped for futility. On 11 September, Immutep said the 2,000 L product showed structural differences and a markedly different immune-activation profile from earlier 200 L batches; the company called these differences potentially relevant and contracted a new 200 L manufacturing run.",
+      "statusLabel": "Sponsor-reported root-cause signal",
+      "badges": [
+        "Sponsor-reported root-cause signal",
+        "Manufacturing / negative trial follow-up",
+        "Global Phase III trial; India participation authorized"
+      ],
+      "searchText": "tacti-004 efti manufacturing and futility follow-up tacti-004 manufacturing follow-up manufacturing / negative trial follow-up first-line advanced or metastatic non-small cell lung cancer global phase iii trial; india participation authorized immutep limited; merck & co. supplied pembrolizumab; tacti-004 investigators immutep reported that its ongoing root-cause analysis of the discontinued phase iii tacti-004 trial identified structural differences, including a subtle n-glycan difference, between eftilagimod alfa manufactured at 2,000 l scale for tacti-004 and material manufactured at 200 l scale for earlier studies. the previously reported interim objective response rate was 42.9% with efti versus 55.1% with placebo, and the trial was stopped for futility. on 11 september, immutep said the 2,000 l product showed structural differences and a markedly different immune-activation profile from earlier 200 l batches; the company called these differences potentially relevant and contracted a new 200 l manufacturing run. the update may change manufacturing strategy, comparability testing, regulatory discussions, and whether future efti trials use 200 l material. it should not change routine nsclc treatment or support clinical use of efti outside trials. a possible scale-up-related product difference can affect how a failed pivotal immunotherapy trial is interpreted and how future comparability, potency, and manufacturing controls are designed. it does not reverse the negative phase iii result or establish that manufacturing caused the futility outcome. keytruda",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "tacti004-efti-manufacturing-followup",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.globenewswire.com/news-release/2026/09/11/3360296/0/en/immutep-outlines-focused-development-strategy-for-eftilagimod-alfa-efti.html"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://clinicaltrials.gov/study/NCT06726265"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "Immutep reported that its ongoing root-cause analysis of the discontinued Phase III TACTI-004 trial identified structural differences, including a subtle N-glycan difference, between eftilagimod alfa manufactured at 2,000 L scale for TACTI-004 and material manufactured at 200 L scale for earlier studies."
+        ],
+        [
+          "Population / sample",
+          "The July sponsor update reported a 173-patient TACTI-004 futility-analysis population with untreated advanced or metastatic NSCLC without EGFR, ALK, or ROS1 genomic aberrations. CDSCO had authorized up to 58 participants from India under the trial permission."
+        ],
+        [
+          "Comparator",
+          "Eftilagimod alfa plus pembrolizumab and chemotherapy versus placebo plus pembrolizumab and chemotherapy in a randomized, double-blind Phase III trial."
+        ],
+        [
+          "Observed effect",
+          "The previously reported interim objective response rate was 42.9% with efti versus 55.1% with placebo, and the trial was stopped for futility. On 11 September, Immutep said the 2,000 L product showed structural differences and a markedly different immune-activation profile from earlier 200 L batches; the company called these differences potentially relevant and contracted a new 200 L manufacturing run.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "A possible scale-up-related product difference can affect how a failed pivotal immunotherapy trial is interpreted and how future comparability, potency, and manufacturing controls are designed. It does not reverse the negative Phase III result or establish that manufacturing caused the futility outcome.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Participants and investigators in the global TACTI-004 program, including India sites; patients with first-line advanced NSCLC; regulators; trial sponsors; manufacturing and quality teams; and researchers evaluating efti in head and neck cancer or soft tissue sarcoma.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "The update may change manufacturing strategy, comparability testing, regulatory discussions, and whether future efti trials use 200 L material. It should not change routine NSCLC treatment or support clinical use of efti outside trials.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "High for the trial discontinuation and the sponsor's decision to revert to a 200 L manufacturing run; low to moderate for causality because the root-cause analysis is incomplete, the analytical differences are sponsor-reported, and no independent validation or direct demonstration that the structural difference caused the efficacy failure was available."
+        ],
+        [
+          "India relevance",
+          "CDSCO authorized up to 58 India participants in TACTI-004 in October 2024, making trial close-out and follow-up directly relevant to India sites and participants. No CDSCO conclusion on the manufacturing finding, India-specific outcome analysis, approval, price, reimbursement, access program, or launch date was reported or verified.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not applicable to an approved treatment because efti remains investigational. No official treatment price, manufacturing-cost effect, India reimbursement decision, procurement figure, or cost-effectiveness result was reported or verified."
+        ],
+        [
+          "Current limitation",
+          "Sponsor-release-only follow-up to a stopped trial; root-cause analysis remains ongoing; no final clinical analysis, complete safety table, validated potency-comparability package, independent laboratory confirmation, regulator conclusion, or peer-reviewed manufacturing analysis was reported. The proposed HNSCC and soft-tissue-sarcoma studies are not final and are targeted no earlier than the second half of 2027, subject to multiple conditions.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Completion and public reporting of the root-cause analysis; final TACTI-004 efficacy and safety results; validated analytical and functional comparability data for 200 L versus 2,000 L material; regulator feedback; and final protocols for any HNSCC or neoadjuvant soft-tissue-sarcoma trials."
+        ],
+        [
+          "Verification note",
+          "Verified from Immutep's 11 September 2026 official release, its 13 July clinical update with the 173-patient interim ORR results, ClinicalTrials.gov NCT06726265, and the CDSCO India trial permission. The manufacturing explanation is explicitly labeled as an unresolved sponsor hypothesis, not an established cause of trial failure.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:who-childhood-cancer-prequalification-eoi",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 37,
       "title": "WHO childhood-cancer medicine prequalification invitation",
       "subtitle": "Access / manufacturing / procurement · Childhood cancers · Global, with focus on low- and middle-income countries",
       "organization": "World Health Organization; Global Platform for Access to Childhood Cancer Medicines; GAP-f; St. Jude Children's Research Hospital; UNICEF; PAHO Strategic Fund",
@@ -3434,7 +3530,7 @@
       "id": "watchlist:neoadjuvant-nivolumab-ipilimumab-gbm",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 37,
+      "order": 38,
       "title": "Neoadjuvant nivolumab plus ipilimumab in recurrent glioblastoma",
       "subtitle": "Early randomized surgical-window evidence · Surgically resectable recurrent glioblastoma · United States; four-center trial",
       "organization": "Dana-Farber Cancer Institute-led investigators; UCLA, Stanford, Memorial Sloan Kettering; Bristol Myers Squibb supplied study drugs",
@@ -3530,7 +3626,7 @@
       "id": "watchlist:cervino-etentamig",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 38,
+      "order": 39,
       "title": "CERVINO BCMA bispecific myeloma topline",
       "subtitle": "Press-release-only phase III · Relapsed/refractory multiple myeloma · Global trial; sponsor release from United States",
       "organization": "AbbVie",
@@ -3626,7 +3722,7 @@
       "id": "watchlist:sanovo-savolitinib-osimertinib",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 39,
+      "order": 40,
       "title": "SANOVO first-line EGFR/MET lung-cancer topline",
       "subtitle": "Press-release-only phase III · EGFR-mutated NSCLC with MET overexpression · China",
       "organization": "AstraZeneca; HUTCHMED",
@@ -3722,7 +3818,7 @@
       "id": "watchlist:prostate-cardio-referral",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 40,
+      "order": 41,
       "title": "Routine cardiovascular referral in prostate cancer",
       "subtitle": "Supportive care / care delivery · Prostate cancer · Eight-country trial across 55 sites",
       "organization": "International randomized trial investigators; JAMA Internal Medicine",
@@ -3818,7 +3914,7 @@
       "id": "watchlist:mpower-asia-cancer-model",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 41,
+      "order": 42,
       "title": "MPOWER tobacco control and preventable cancers in Asia",
       "subtitle": "Prevention / public health policy · Thirteen tobacco-related cancers · East and South-East Asia",
       "organization": "Independent investigators using WHO Global Health Observatory and IARC Global Cancer Observatory data; The Lancet Regional Health - Western Pacific",
@@ -3914,7 +4010,7 @@
       "id": "watchlist:bemotrizinol-sunscreen",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 42,
+      "order": 43,
       "title": "Bemotrizinol sunscreen order takes effect",
       "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
       "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
@@ -4010,7 +4106,7 @@
       "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 43,
+      "order": 44,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -4106,7 +4202,7 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 44,
+      "order": 45,
       "title": "RP1 + nivolumab accelerated approval after advisory split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -4202,7 +4298,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 45,
+      "order": 46,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -4298,7 +4394,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 46,
+      "order": 47,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -4394,7 +4490,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 47,
+      "order": 48,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -4490,7 +4586,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 48,
+      "order": 49,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -4586,7 +4682,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 49,
+      "order": 50,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -4680,7 +4776,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 102,
+    "sourcesChecked": 104,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,

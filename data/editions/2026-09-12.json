@@ -1,0 +1,94 @@
+{
+  "id": "2026-09-12",
+  "editionLabel": "12 September 2026",
+  "preparedLabel": "September 12 Morning Edition",
+  "monthKey": "2026-09",
+  "monthLabel": "September 2026",
+  "summary": "A possible scale-up-related product difference can affect how a failed pivotal immunotherapy trial is interpreted and how future comparability, potency, and manufacturing controls are designed. It does not reverse the negative Phase III result or establish that manufacturing caused the futility outcome.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 25,
+    "followupApprovals": 7,
+    "indiaMarketed": 4,
+    "watchlistSignals": 15,
+    "verifiedRecords": 51
+  },
+  "headlines": [
+    {
+      "tag": "Sponsor-reported root-cause signal",
+      "title": "TACTI-004 efti manufacturing and futility follow-up",
+      "summary": "A possible scale-up-related product difference can affect how a failed pivotal immunotherapy trial is interpreted and how future comparability, potency, and manufacturing controls are designed. It does not reverse the negative Phase III result or establish that manufacturing caused the futility outcome."
+    },
+    {
+      "tag": "Latest verified approval",
+      "title": "Sevabertinib for First-Line HER2-Mutant NSCLC",
+      "summary": "FDA first-line indication expansion 9 September 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+    },
+    {
+      "tag": "Sponsor-reported root-cause signal",
+      "title": "TACTI-004 efti manufacturing and futility follow-up",
+      "summary": "A possible scale-up-related product difference can affect how a failed pivotal immunotherapy trial is interpreted and how future comparability, potency, and manufacturing controls are designed. It does not reverse the negative Phase III result or establish that manufacturing caused the futility outcome."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "sevabertinib-hyrnuo-first-line"
+      },
+      "title": "Sevabertinib for First-Line HER2-Mutant NSCLC",
+      "subtitle": "FDA first-line indication expansion 9 September 2026",
+      "date": 1788912000000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "daraxonrasib-rasonque"
+      },
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "subtitle": "Phase III; FDA approved · US approved; India unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "who-childhood-cancer-prequalification-eoi"
+      },
+      "title": "WHO childhood-cancer medicine prequalification invitation",
+      "subtitle": "WHO market-shaping action",
+      "date": 0
+    }
+  ],
+  "sourceCount": 51,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "sevabertinib-hyrnuo-first-line"
+      },
+      "title": "Sevabertinib for First-Line HER2-Mutant NSCLC",
+      "subtitle": "FDA first-line indication expansion 9 September 2026",
+      "date": 1788912000000
+    }
+  }
+}

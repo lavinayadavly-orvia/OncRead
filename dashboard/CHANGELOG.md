@@ -1,5 +1,15 @@
 # Dashboard Changelog
 
+## 2026-09-12 - TACTI-004 Manufacturing and Futility Follow-Up Added
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Added `TACTI-004 efti manufacturing and futility follow-up` to `Watchlist & systems` after Immutep reported that its ongoing root-cause analysis identified structural differences, including a subtle N-glycan difference, between the 2,000 L efti material used exclusively in the failed Phase III trial and 200 L material used in earlier studies.
+- Preserved the negative clinical result: the previously reported 173-patient interim analysis showed objective response rates of 42.9% with efti and 55.1% with placebo, and the trial was stopped for futility. The sponsor's manufacturing explanation remains an unresolved hypothesis and is not represented as proof of causality.
+- Recorded the operational consequence that Immutep contracted a new 200 L manufacturing run and intends to redirect registration-focused development toward PD-L1 CPS below 1 head and neck cancer and neoadjuvant soft tissue sarcoma, with study starts targeted for the second half of 2027 subject to final design, regulatory, manufacturing, partnering, and funding decisions.
+- Added direct India relevance because CDSCO had authorized up to 58 India participants in TACTI-004. No CDSCO conclusion on the manufacturing finding, India-specific outcome analysis, approval, price, reimbursement, access program, or launch date was reported or verified.
+- Rechecked FDA, EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major journals, and targeted sponsor disclosures. The 9 September Hyrnuo approval remained the newest FDA oncology approval posting; WCLC preview announcements did not yet provide new results suitable for promotion, and no other September 11-12 development cleared the materiality and verification threshold.
+- No taxonomy, scoring, filter, layout, or navigation redesign was required because the existing watchlist model can represent a manufacturing and negative-trial interpretation signal with explicit uncertainty. Rolled the visible briefing and archive forward to the September 12 Morning Edition. No detailed Word report was modified.
+
 ## 2026-09-11 - Verified Review With No Material Dashboard Change
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.

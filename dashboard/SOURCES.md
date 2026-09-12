@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-11
+Updated: 2026-09-12
 
 ## Method
 
@@ -69,8 +69,28 @@ Updated: 2026-09-11
 - The 2026-09-09 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 8-9 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the September 8 WHO childhood-cancer medicine access action already represented.
 - The 2026-09-10 review added a treatment dossier after FDA expanded Hyrnuo/sevabertinib accelerated approval into previously untreated HER2/ERBB2 TKD-mutated advanced non-squamous NSCLC, while preserving the single-arm response-endpoint basis and unresolved confirmatory, pricing, and India-access questions.
 - The 2026-09-11 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 10-11 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the September 10 Hyrnuo first-line approval already represented.
+- The 2026-09-12 review added a manufacturing and negative-trial follow-up watchlist record after Immutep reported potentially relevant structural differences between the 2,000 L efti material used in the failed Phase III TACTI-004 trial and 200 L material used in earlier studies. The record preserves the negative result and labels the manufacturing explanation as an incomplete sponsor hypothesis, with direct India relevance from the CDSCO-authorized trial participation.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-12 Verified Update
+
+- Immutep official 11 September development-strategy release; source for the ongoing TACTI-004 root-cause analysis, reported structural and immune-activation differences between 2,000 L and 200 L efti material, the new 200 L manufacturing run, remaining uncertainty, and proposed development redirection
+  https://www.globenewswire.com/news-release/2026/09/11/3360296/0/en/immutep-outlines-focused-development-strategy-for-eftilagimod-alfa-efti.html
+- Immutep 13 July clinical update; source for the 173-patient interim analysis, objective response rates of 42.9% with efti and 55.1% with placebo, absence of superiority across tested subgroups, and the markedly different immune-activation profile that preceded the manufacturing follow-up
+  https://www.globenewswire.com/news-release/2026/07/13/3326130/0/en/immutep-provides-clinical-update-in-1st-line-nsclc-positive-mature-overall-survival-data-from-insight-003-and-update-from-tacti-004.html
+- ClinicalTrials.gov NCT06726265; source for the randomized, double-blind Phase III design, untreated advanced or metastatic NSCLC population, interventions, and trial identity
+  https://clinicaltrials.gov/study/NCT06726265
+- CDSCO TACTI-004 permission; source for India authorization and the planned enrollment of up to 58 India participants
+  https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadCTApprovals/%2821%29-46194-Fortrea-CTNOC.pdf
+- FDA oncology approval notifications and EMA what-is-new surfaces were rechecked; Hyrnuo/sevabertinib on 9 September remained the newest FDA oncology approval posting, and no September 11-12 EMA action created another material oncology decision change
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.ema.europa.eu/en/news-events/whats-new
+- PubMed, WHO, IARC, ClinicalTrials.gov, and targeted sponsor surfaces were checked. WCLC announcements visible in the window were previews of future presentations rather than new result disclosures, and no additional September 11-12 regulatory, late-phase, safety, access, pricing, procurement, or systems development cleared promotion.
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://clinicaltrials.gov/
 
 ## 2026-09-11 Review-Only Checks
 
