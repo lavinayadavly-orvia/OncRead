@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-12
+Updated: 2026-09-13
 
 ## Method
 
@@ -70,8 +70,29 @@ Updated: 2026-09-12
 - The 2026-09-10 review added a treatment dossier after FDA expanded Hyrnuo/sevabertinib accelerated approval into previously untreated HER2/ERBB2 TKD-mutated advanced non-squamous NSCLC, while preserving the single-arm response-endpoint basis and unresolved confirmatory, pricing, and India-access questions.
 - The 2026-09-11 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 10-11 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the September 10 Hyrnuo first-line approval already represented.
 - The 2026-09-12 review added a manufacturing and negative-trial follow-up watchlist record after Immutep reported potentially relevant structural differences between the 2,000 L efti material used in the failed Phase III TACTI-004 trial and 200 L material used in earlier studies. The record preserves the negative result and labels the manufacturing explanation as an incomplete sponsor hypothesis, with direct India relevance from the CDSCO-authorized trial participation.
+- The 2026-09-13 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 12-13 development that was both materially decision-relevant and sufficiently verified for dashboard promotion; major WCLC Phase III results were not promoted from titles, previews, or incomplete secondary summaries before authoritative result disclosure.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-13 Review-Only Checks
+
+- FDA oncology approval notifications and accelerated-approval tracking surfaces; the 9 September Hyrnuo/sevabertinib first-line expansion remained the newest oncology approval posting, with no September 12-13 withdrawal, verified-benefit conversion, safety restriction, or confirmatory-obligation update promoted
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals
+  https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
+- IASLC WCLC 2026 program, press policy, and conference surfaces were reviewed. The conference opened on 12 September, but major Presidential Symposium results were still embargoed or lacked a complete authoritative result source at the review cutoff; preview releases and presentation titles were not treated as result disclosures.
+  https://wclc.iaslc.org/
+  https://wclc.iaslc.org/press-and-media/
+  https://wclc.iaslc.org/program-at-a-glance/
+- EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major-journal, and targeted sponsor surfaces did not identify another September 12-13 oncology approval, withdrawal, safety signal, material late-phase result, pricing/procurement change, India-access milestone, or global cancer-system update strong enough for promotion.
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-09-12 Verified Update
 

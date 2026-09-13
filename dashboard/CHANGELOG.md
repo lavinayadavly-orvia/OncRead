@@ -1,5 +1,14 @@
 # Dashboard Changelog
 
+## 2026-09-13 - Verified Review With No Material Dashboard Change
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
+- Added no new substantive dashboard record and made no treatment, watchlist, taxonomy, scoring, filter, layout, navigation, dossier, or source-link change because no September 12-13 item was both materially decision-relevant and sufficiently verified for promotion before the scheduled run.
+- Rechecked FDA oncology approval and accelerated-approval surfaces; the 9 September Hyrnuo/sevabertinib first-line expansion remained the newest oncology approval posting, with no newer withdrawal, verified-benefit conversion, safety restriction, or confirmatory-obligation update identified.
+- Reviewed the opening of IASLC WCLC 2026 in Seoul. The conference's major Phase III Presidential Symposium results were still embargoed or not yet available through a complete authoritative source at the review cutoff; preview announcements, presentation titles, and unsupported secondary summaries were not promoted as results.
+- Rechecked EMA, CDSCO, WHO, IARC, PubMed, ClinicalTrials.gov, major journals, and targeted official sponsor disclosures; no additional September 12-13 material oncology update cleared the verification and decision-relevance threshold.
+- Rolled the visible briefing and archive forward to the September 13 Morning Edition while retaining the TACTI-004 manufacturing and futility follow-up as the latest verified dashboard signal. No detailed Word report was modified.
+
 ## 2026-09-12 - TACTI-004 Manufacturing and Futility Follow-Up Added
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, trial registries, journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing and procurement, systems, public health, and other nonconforming categories.
