@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T02:18:09.607Z",
+  "generatedAt": "2026-09-15T03:49:13.571Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -3335,10 +3335,874 @@
       ]
     },
     {
-      "id": "watchlist:tacti004-efti-manufacturing-followup",
+      "id": "watchlist:wclc2026-destiny-lung04",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
       "order": 36,
+      "title": "DESTINY-Lung04 first-line trastuzumab deruxtecan",
+      "subtitle": "Conference-only Phase III treatment strategy · Unresectable locally advanced or metastatic HER2-mutant non-squamous NSCLC · Global randomized trial; presented in Seoul, Republic of Korea",
+      "organization": "AstraZeneca and Daiichi Sankyo; DESTINY-Lung04 investigators; IASLC WCLC 2026",
+      "snapshot": "Positive Phase III; OS unresolved · 14 September 2026",
+      "summary": "This is the first global randomized Phase III evidence that a HER2-directed therapy can improve first-line disease control over pembrolizumab plus chemotherapy in HER2-mutant NSCLC, but the non-favorable immature OS estimate and pulmonary toxicity require careful interpretation.",
+      "headline": "Median PFS was 14.3 versus 8.3 months (HR 0.63; 95% CI 0.50-0.79; p<0.0001), with ORR 70.0% versus 44.5%. Median OS was 29.3 versus 33.1 months (HR 1.15; 95% CI 0.88-1.52), with interpretation limited by imbalanced subsequent HER2-directed and immunotherapy use.",
+      "statusLabel": "Positive Phase III; OS unresolved",
+      "badges": [
+        "Positive Phase III; OS unresolved",
+        "Conference-only Phase III treatment strategy",
+        "Global randomized trial; presented in Seoul, Republic of Korea"
+      ],
+      "searchText": "destiny-lung04 first-line trastuzumab deruxtecan destiny-lung04 conference-only phase iii treatment strategy unresectable locally advanced or metastatic her2-mutant non-squamous nsclc global randomized trial; presented in seoul, republic of korea astrazeneca and daiichi sankyo; destiny-lung04 investigators; iaslc wclc 2026 first-line trastuzumab deruxtecan (t-dxd/enhertu) was compared with pembrolizumab plus platinum-pemetrexed chemotherapy in the phase iii destiny-lung04 trial. median pfs was 14.3 versus 8.3 months (hr 0.63; 95% ci 0.50-0.79; p<0.0001), with orr 70.0% versus 44.5%. median os was 29.3 versus 33.1 months (hr 1.15; 95% ci 0.88-1.52), with interpretation limited by imbalanced subsequent her2-directed and immunotherapy use. the data can support regulatory filings and first-line sequencing discussions, but should not be represented as a new approval or definitive survival advantage. this is the first global randomized phase iii evidence that a her2-directed therapy can improve first-line disease control over pembrolizumab plus chemotherapy in her2-mutant nsclc, but the non-favorable immature os estimate and pulmonary toxicity require careful interpretation. keytruda enhertu",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "wclc2026-destiny-lung04",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.iaslc.org/iaslc-news/press-release/phase-3-destiny-lung04-trial-shows-first-line-trastuzumab-deruxtecan"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/enhertu-in-DESTINY-Lung04-Phase-iii-trial.html"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "First-line trastuzumab deruxtecan (T-DXd/Enhertu) was compared with pembrolizumab plus platinum-pemetrexed chemotherapy in the Phase III DESTINY-Lung04 trial."
+        ],
+        [
+          "Population / sample",
+          "454 treatment-naive patients with HER2 exon 19 or exon 20 mutations were randomized 1:1."
+        ],
+        [
+          "Comparator",
+          "T-DXd 5.4 mg/kg intravenously every three weeks versus pembrolizumab plus platinum chemotherapy and pemetrexed."
+        ],
+        [
+          "Observed effect",
+          "Median PFS was 14.3 versus 8.3 months (HR 0.63; 95% CI 0.50-0.79; p<0.0001), with ORR 70.0% versus 44.5%. Median OS was 29.3 versus 33.1 months (HR 1.15; 95% CI 0.88-1.52), with interpretation limited by imbalanced subsequent HER2-directed and immunotherapy use.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "This is the first global randomized Phase III evidence that a HER2-directed therapy can improve first-line disease control over pembrolizumab plus chemotherapy in HER2-mutant NSCLC, but the non-favorable immature OS estimate and pulmonary toxicity require careful interpretation.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients with advanced HER2-mutant NSCLC, thoracic oncologists, molecular-testing programs, infusion services, regulators, payers, and manufacturers planning first-line sequencing.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "The data can support regulatory filings and first-line sequencing discussions, but should not be represented as a new approval or definitive survival advantage.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "High for the randomized PFS result and reported confidence interval; moderate for treatment-changing interpretation because the result is conference-only, OS is not improved, and subsequent therapy was imbalanced."
+        ],
+        [
+          "India relevance",
+          "HER2 testing and T-DXd delivery are relevant to India, but no CDSCO first-line HER2-mutant NSCLC authorization, India launch date, official India price, reimbursement, procurement, or India-specific outcome was verified.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "No official price for this first-line indication, India reimbursement decision, procurement figure, or cost-effectiveness result was reported or verified."
+        ],
+        [
+          "Current limitation",
+          "Conference presentation and official releases rather than a peer-reviewed full report; open-label design; OS was immature and numerically lower with T-DXd; quality-of-life, full subgroup, and complete safety tables were not captured in the public release.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Peer-reviewed publication, mature OS and patient-reported outcomes, regulatory submissions and decisions, detailed ILD management data, and any CDSCO or India-access milestone."
+        ],
+        [
+          "Verification note",
+          "Verified from the IASLC WCLC result release and AstraZeneca's 14 September 2026 sponsor release. Adjudicated drug-related ILD/pneumonitis occurred in 20.8% with T-DXd versus 2.3% with the comparator; Grade 3 or higher drug-related adverse events occurred in 34.1% versus 33.6%.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:wclc2026-rezilient3-zipalertinib",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 37,
+      "title": "REZILIENT3 zipalertinib plus chemotherapy",
+      "subtitle": "Conference-only Phase III treatment strategy · Previously untreated advanced EGFR exon 20 insertion-positive non-squamous NSCLC · Global randomized trial; presented in Seoul, Republic of Korea",
+      "organization": "Taiho Pharmaceutical, Taiho Oncology, Cullinan Therapeutics, and REZILIENT3 investigators",
+      "snapshot": "Positive Phase III PFS · 14 September 2026",
+      "summary": "The result could add a targeted first-line option in a molecularly defined group with limited evidence beyond amivantamab-based treatment, while the immature OS and substantial added toxicity remain important.",
+      "headline": "Median PFS was 14.5 versus 8.5 months (HR 0.50; 95% CI 0.34-0.73; p=0.00015); ORR was 65.0% versus 40.3%. At 30% OS maturity, HR for death was 0.72 (95% CI 0.42-1.23).",
+      "statusLabel": "Positive Phase III PFS",
+      "badges": [
+        "Positive Phase III PFS",
+        "Conference-only Phase III treatment strategy",
+        "Global randomized trial; presented in Seoul, Republic of Korea"
+      ],
+      "searchText": "rezilient3 zipalertinib plus chemotherapy rezilient3 conference-only phase iii treatment strategy previously untreated advanced egfr exon 20 insertion-positive non-squamous nsclc global randomized trial; presented in seoul, republic of korea taiho pharmaceutical, taiho oncology, cullinan therapeutics, and rezilient3 investigators the phase iii rezilient3 trial tested first-line zipalertinib plus platinum-pemetrexed chemotherapy against chemotherapy alone. median pfs was 14.5 versus 8.5 months (hr 0.50; 95% ci 0.34-0.73; p=0.00015); orr was 65.0% versus 40.3%. at 30% os maturity, hr for death was 0.72 (95% ci 0.42-1.23). supports regulatory and sequencing evaluation, including for patients with brain metastases, but does not establish approval, os benefit, or superiority over other targeted regimens. the result could add a targeted first-line option in a molecularly defined group with limited evidence beyond amivantamab-based treatment, while the immature os and substantial added toxicity remain important. rybrevant",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "wclc2026-rezilient3-zipalertinib",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.iaslc.org/iaslc-news/press-release/zipalertinib-plus-chemotherapy-significantly-extends-progression-free"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://www.taiho.co.jp/en/release/2026/20260914.html"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "The Phase III REZILIENT3 trial tested first-line zipalertinib plus platinum-pemetrexed chemotherapy against chemotherapy alone."
+        ],
+        [
+          "Population / sample",
+          "279 patients were randomized after a six-patient safety lead-in; untreated asymptomatic brain metastases up to 2 cm were permitted."
+        ],
+        [
+          "Comparator",
+          "Zipalertinib 100 mg twice daily plus platinum-pemetrexed versus chemotherapy alone, with crossover permitted after progression."
+        ],
+        [
+          "Observed effect",
+          "Median PFS was 14.5 versus 8.5 months (HR 0.50; 95% CI 0.34-0.73; p=0.00015); ORR was 65.0% versus 40.3%. At 30% OS maturity, HR for death was 0.72 (95% CI 0.42-1.23).",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "The result could add a targeted first-line option in a molecularly defined group with limited evidence beyond amivantamab-based treatment, while the immature OS and substantial added toxicity remain important.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients with EGFR exon 20 insertion-positive NSCLC, molecular laboratories, thoracic oncologists, regulators, payers, and trial sponsors.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Supports regulatory and sequencing evaluation, including for patients with brain metastases, but does not establish approval, OS benefit, or superiority over other targeted regimens.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "High for randomized PFS; moderate for practice-changing interpretation because the evidence is conference-only and OS is immature."
+        ],
+        [
+          "India relevance",
+          "No CDSCO authorization for this regimen, India trial outcome, official India price, reimbursement, procurement, or launch date was reported or verified.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Investigational first-line regimen; no official price, India reimbursement decision, procurement figure, or cost-effectiveness result was reported."
+        ],
+        [
+          "Current limitation",
+          "Open-label trial; crossover can complicate OS; only 30% OS maturity; no head-to-head comparison with amivantamab-based therapy; full quality-of-life and subgroup data were not available in the captured releases.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "OS maturation, peer-reviewed publication, regulatory submissions and decisions, cross-regimen sequencing evidence, and any India filing or access milestone."
+        ],
+        [
+          "Verification note",
+          "Verified from matching IASLC and Taiho 14 September result releases and ClinicalTrials.gov NCT05973773. Grade 3 or higher adverse events occurred in 87.1% with zipalertinib plus chemotherapy versus 54.4% with chemotherapy; no new safety signal was reported.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:wclc2026-harmoni2-os",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 38,
+      "title": "HARMONi-2 ivonescimab overall-survival update",
+      "subtitle": "Conference-only Phase III survival update · Treatment-naive PD-L1-positive advanced NSCLC without EGFR or ALK alterations · China; presented in Seoul, Republic of Korea",
+      "organization": "Akeso Biopharma; HARMONi-2 investigators; IASLC WCLC 2026",
+      "snapshot": "Positive interim OS; China-only trial · 13 September 2026",
+      "summary": "A chemotherapy-free PD-1/VEGF bispecific showing a randomized OS advantage over pembrolizumab could alter first-line immunotherapy competition, but external validity beyond China and subgroup uncertainty remain central.",
+      "headline": "Median OS was 30.8 versus 22.6 months (HR 0.73; 95% CI 0.57-0.95; p=0.009). The OS HR was 0.85 (95% CI 0.61-1.18) for PD-L1 TPS 1-49% and 0.58 (95% CI 0.38-0.89) for TPS at least 50%.",
+      "statusLabel": "Positive interim OS; China-only trial",
+      "badges": [
+        "Positive interim OS; China-only trial",
+        "Conference-only Phase III survival update",
+        "China; presented in Seoul, Republic of Korea"
+      ],
+      "searchText": "harmoni-2 ivonescimab overall-survival update harmoni-2 os conference-only phase iii survival update treatment-naive pd-l1-positive advanced nsclc without egfr or alk alterations china; presented in seoul, republic of korea akeso biopharma; harmoni-2 investigators; iaslc wclc 2026 a prespecified interim analysis of harmoni-2 compared ivonescimab, a pd-1/vegf bispecific antibody, with pembrolizumab monotherapy. median os was 30.8 versus 22.6 months (hr 0.73; 95% ci 0.57-0.95; p=0.009). the os hr was 0.85 (95% ci 0.61-1.18) for pd-l1 tps 1-49% and 0.58 (95% ci 0.38-0.89) for tps at least 50%. strengthens the evidence for ivonescimab in its china-approved setting and may inform global development, but should not be generalized as a global approval or as definitive benefit in every pd-l1 subgroup. a chemotherapy-free pd-1/vegf bispecific showing a randomized os advantage over pembrolizumab could alter first-line immunotherapy competition, but external validity beyond china and subgroup uncertainty remain central. keytruda smt112 ak112 pd-1 vegf harmoni",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "wclc2026-harmoni2-os",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.iaslc.org/iaslc-news/press-release/late-breaking-harmoni-2-analysis-shows-ivonescimab-significantly-improves"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40057343/"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "A prespecified interim analysis of HARMONi-2 compared ivonescimab, a PD-1/VEGF bispecific antibody, with pembrolizumab monotherapy."
+        ],
+        [
+          "Population / sample",
+          "398 patients enrolled at centers in China with PD-L1 TPS of at least 1%; 198 received ivonescimab and 200 pembrolizumab."
+        ],
+        [
+          "Comparator",
+          "Ivonescimab 20 mg/kg versus pembrolizumab 200 mg every three weeks."
+        ],
+        [
+          "Observed effect",
+          "Median OS was 30.8 versus 22.6 months (HR 0.73; 95% CI 0.57-0.95; p=0.009). The OS HR was 0.85 (95% CI 0.61-1.18) for PD-L1 TPS 1-49% and 0.58 (95% CI 0.38-0.89) for TPS at least 50%.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "A chemotherapy-free PD-1/VEGF bispecific showing a randomized OS advantage over pembrolizumab could alter first-line immunotherapy competition, but external validity beyond China and subgroup uncertainty remain central.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients with PD-L1-positive advanced NSCLC, thoracic oncologists, regulators, payers, and developers of PD-(L)1/VEGF combinations.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Strengthens the evidence for ivonescimab in its China-approved setting and may inform global development, but should not be generalized as a global approval or as definitive benefit in every PD-L1 subgroup.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "High for the randomized prespecified interim OS analysis; moderate for global applicability because all patients were enrolled in China and some subgroup confidence intervals crossed one."
+        ],
+        [
+          "India relevance",
+          "No CDSCO authorization, India trial site result, official India price, reimbursement, procurement, or launch date for ivonescimab was verified.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "No official India price, reimbursement decision, procurement figure, or cost-effectiveness result was reported or verified."
+        ],
+        [
+          "Current limitation",
+          "Conference-only OS update; China-only population; key subgroup estimates remain uncertain; no direct evidence against chemo-immunotherapy; full long-term safety, quality-of-life, and global regulatory data were not available.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Peer-reviewed OS publication, mature subgroup and safety analyses, global trial readouts, regulatory decisions outside China, and any India filing or access announcement."
+        ],
+        [
+          "Verification note",
+          "Verified from the IASLC result release and the peer-reviewed HARMONi-2 PFS publication/registry record NCT05499390. Serious treatment-related adverse events were 29.9% with ivonescimab versus 21.6% with pembrolizumab.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:wclc2026-maverick-pci",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 39,
+      "title": "MAVERICK MRI surveillance versus prophylactic cranial irradiation",
+      "subtitle": "Radiotherapy de-escalation / supportive care · Limited-stage or extensive-stage small-cell lung cancer after initial therapy · International SWOG/NCTN trial; presented in Seoul, Republic of Korea",
+      "organization": "SWOG Cancer Research Network, US National Clinical Trials Network, and MAVERICK investigators",
+      "snapshot": "Positive cognitive endpoint; final OS pending · 13 September 2026",
+      "summary": "Avoiding preventive brain radiation may preserve cognition and reduce serious toxicity without an early survival penalty, directly affecting post-treatment SCLC care. Adoption depends on reliable serial MRI access and final OS.",
+      "headline": "MRI surveillance alone improved cognitive failure-free survival (HR 0.60; 90% CI 0.46-0.78; p=0.001). Preliminary OS showed no apparent difference (HR 0.90; 90% CI 0.67-1.20), and brain-metastasis-free survival was not significantly different (HR 1.25; 90% CI 0.95-1.66).",
+      "statusLabel": "Positive cognitive endpoint; final OS pending",
+      "badges": [
+        "Positive cognitive endpoint; final OS pending",
+        "Radiotherapy de-escalation / supportive care",
+        "International SWOG/NCTN trial; presented in Seoul, Republic of Korea"
+      ],
+      "searchText": "maverick mri surveillance versus prophylactic cranial irradiation maverick radiotherapy de-escalation / supportive care limited-stage or extensive-stage small-cell lung cancer after initial therapy international swog/nctn trial; presented in seoul, republic of korea swog cancer research network, us national clinical trials network, and maverick investigators phase iii swog s1827 maverick tested scheduled brain mri surveillance alone against mri surveillance plus prophylactic cranial irradiation (pci). mri surveillance alone improved cognitive failure-free survival (hr 0.60; 90% ci 0.46-0.78; p=0.001). preliminary os showed no apparent difference (hr 0.90; 90% ci 0.67-1.20), and brain-metastasis-free survival was not significantly different (hr 1.25; 90% ci 0.95-1.66). supports discussion of mri surveillance as an alternative to pci, while final survival evidence and local mri capacity should remain explicit in shared decision-making. avoiding preventive brain radiation may preserve cognition and reduce serious toxicity without an early survival penalty, directly affecting post-treatment sclc care. adoption depends on reliable serial mri access and final os.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "wclc2026-maverick-pci",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.iaslc.org/iaslc-news/press-release/phase-iii-maverick-trial-supports-brain-mri-surveillance-alone-standard"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://clinicaltrials.gov/study/NCT04155034"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "Phase III SWOG S1827 MAVERICK tested scheduled brain MRI surveillance alone against MRI surveillance plus prophylactic cranial irradiation (PCI)."
+        ],
+        [
+          "Population / sample",
+          "304 patients who had completed initial therapy and had no brain metastases on baseline MRI."
+        ],
+        [
+          "Comparator",
+          "Brain MRI every three months in year one and every six months in year two, with or without PCI 25 Gy in 10 fractions."
+        ],
+        [
+          "Observed effect",
+          "MRI surveillance alone improved cognitive failure-free survival (HR 0.60; 90% CI 0.46-0.78; p=0.001). Preliminary OS showed no apparent difference (HR 0.90; 90% CI 0.67-1.20), and brain-metastasis-free survival was not significantly different (HR 1.25; 90% CI 0.95-1.66).",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "Avoiding preventive brain radiation may preserve cognition and reduce serious toxicity without an early survival penalty, directly affecting post-treatment SCLC care. Adoption depends on reliable serial MRI access and final OS.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients with limited- or extensive-stage SCLC after response to initial therapy, radiation and medical oncologists, radiology services, caregivers, and health systems able to deliver close MRI surveillance.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Supports discussion of MRI surveillance as an alternative to PCI, while final survival evidence and local MRI capacity should remain explicit in shared decision-making.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "High for randomized cognitive and toxicity outcomes; moderate for definitive de-escalation because only 304 patients were reported and the OS analysis is preliminary."
+        ],
+        [
+          "India relevance",
+          "The result is clinically relevant in India, but no India enrollment, guideline change, reimbursement, standardized MRI-surveillance pathway, or comparative India cost analysis was verified. MRI availability and out-of-pocket cost may constrain adoption.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "No official comparative cost or India reimbursement analysis was reported; repeated MRI and salvage-treatment costs must be weighed against PCI delivery and toxicity."
+        ],
+        [
+          "Current limitation",
+          "Conference-only result; final OS is planned after 190 deaths; 90% rather than 95% confidence intervals were reported; implementation assumes timely repeated MRI and salvage treatment access.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Final OS after 190 deaths, peer-reviewed publication, guideline responses, quality-of-life detail, and implementation evidence in settings with constrained MRI access."
+        ],
+        [
+          "Verification note",
+          "Verified from IASLC's WCLC result release, the SWOG S1827 trial page, and ClinicalTrials.gov NCT04155034. Grade 3-5 treatment-related adverse events were 0.8% with MRI alone versus 7.9% with MRI plus PCI; one grade 5 encephalopathy occurred with PCI.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:wclc2026-taishan302-tampeli",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 40,
+      "title": "TAISHAN-302 tambotatug pelitecan versus topotecan",
+      "subtitle": "Conference-only Phase III ADC evidence · Relapsed small-cell lung cancer after first-line therapy · Randomized trial; presented in Seoul, Republic of Korea",
+      "organization": "MediLink Therapeutics and TAISHAN-302 investigators",
+      "snapshot": "Positive Phase III OS · 13 September 2026",
+      "summary": "A large randomized survival gain in relapsed SCLC could create a new second-line ADC option and intensify competition among B7-H3 programs.",
+      "headline": "Median OS was 13.3 versus 9.4 months (HR 0.46; 95% CI 0.35-0.62; p<0.0001); median PFS was 7.4 versus 2.8 months (HR 0.29; 95% CI 0.23-0.37; p<0.0001); ORR was 59.1% versus 9.7%.",
+      "statusLabel": "Positive Phase III OS",
+      "badges": [
+        "Positive Phase III OS",
+        "Conference-only Phase III ADC evidence",
+        "Randomized trial; presented in Seoul, Republic of Korea"
+      ],
+      "searchText": "taishan-302 tambotatug pelitecan versus topotecan taishan-302 conference-only phase iii adc evidence relapsed small-cell lung cancer after first-line therapy randomized trial; presented in seoul, republic of korea medilink therapeutics and taishan-302 investigators taishan-302 compared the investigational anti-b7-h3 antibody-drug conjugate tambotatug pelitecan (tam-peli/yl201) with topotecan. median os was 13.3 versus 9.4 months (hr 0.46; 95% ci 0.35-0.62; p<0.0001); median pfs was 7.4 versus 2.8 months (hr 0.29; 95% ci 0.23-0.37; p<0.0001); orr was 59.1% versus 9.7%. supports regulatory development and trial/planning decisions, but does not establish approval or comparative superiority over other new sclc agents. a large randomized survival gain in relapsed sclc could create a new second-line adc option and intensify competition among b7-h3 programs.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "wclc2026-taishan302-tampeli",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.iaslc.org/iaslc-news/press-release/phase-iii-taishan-302-trial-shows-tam-peli-significantly-improves-survival"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://clinicaltrials.gov/study/NCT06612151"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "TAISHAN-302 compared the investigational anti-B7-H3 antibody-drug conjugate tambotatug pelitecan (Tam-Peli/YL201) with topotecan."
+        ],
+        [
+          "Population / sample",
+          "451 patients were randomized 1:1; prespecified subgroups included brain metastases, liver metastases, and chemotherapy-free interval under 90 days."
+        ],
+        [
+          "Comparator",
+          "Tam-Peli 2.0 mg/kg intravenously every three weeks versus topotecan."
+        ],
+        [
+          "Observed effect",
+          "Median OS was 13.3 versus 9.4 months (HR 0.46; 95% CI 0.35-0.62; p<0.0001); median PFS was 7.4 versus 2.8 months (HR 0.29; 95% CI 0.23-0.37; p<0.0001); ORR was 59.1% versus 9.7%.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "A large randomized survival gain in relapsed SCLC could create a new second-line ADC option and intensify competition among B7-H3 programs.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients with relapsed SCLC, thoracic oncologists, infusion centers, regulators, payers, and ADC developers.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Supports regulatory development and trial/planning decisions, but does not establish approval or comparative superiority over other new SCLC agents.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "High for the randomized OS and PFS results; moderate for immediate practice interpretation because evidence remains conference-only and regulatory review is pending."
+        ],
+        [
+          "India relevance",
+          "No CDSCO authorization, verified India enrollment, official India price, reimbursement, procurement, access program, or launch date was reported.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Investigational ADC; no official commercial price, India price, reimbursement decision, procurement figure, or cost-effectiveness result was reported."
+        ],
+        [
+          "Current limitation",
+          "Open-label conference report; full geographic distribution, patient-reported outcomes, long-term safety, post-progression therapy, and peer-reviewed analysis were not available in the captured source.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Peer-reviewed publication, regulatory filings and decisions, longer follow-up, detailed ILD monitoring, and any India trial or access milestone."
+        ],
+        [
+          "Verification note",
+          "Verified from IASLC's official WCLC release and ClinicalTrials.gov NCT06612151. Grade 3 or higher treatment-related adverse events occurred in 46.4% with Tam-Peli versus 74.7% with topotecan; treatment-emergent ILD/pneumonitis occurred in 4.9% versus 1.4%.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:wclc2026-artemis008-risrez",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 41,
+      "title": "ARTEMIS-008 risvutatug rezetecan versus topotecan",
+      "subtitle": "Conference-only Phase III ADC evidence · Relapsed small-cell lung cancer after platinum-based chemotherapy · China; presented in Seoul, Republic of Korea",
+      "organization": "Hansoh Pharma, GSK, and ARTEMIS-008 investigators",
+      "snapshot": "Positive Phase III OS; China-only trial · 13 September 2026",
+      "summary": "This second positive Phase III B7-H3 ADC result in the same relapsed-SCLC setting reinforces the target while creating a need for careful cross-program differentiation without indirect superiority claims.",
+      "headline": "Median OS was 18.5 versus 10.3 months (HR 0.46; 95% CI 0.35-0.62; p<0.0001); median PFS was 7.2 versus 3.0 months (HR 0.33; 95% CI 0.25-0.42); ORR was 58.3% versus 12.6%.",
+      "statusLabel": "Positive Phase III OS; China-only trial",
+      "badges": [
+        "Positive Phase III OS; China-only trial",
+        "Conference-only Phase III ADC evidence",
+        "China; presented in Seoul, Republic of Korea"
+      ],
+      "searchText": "artemis-008 risvutatug rezetecan versus topotecan artemis-008 conference-only phase iii adc evidence relapsed small-cell lung cancer after platinum-based chemotherapy china; presented in seoul, republic of korea hansoh pharma, gsk, and artemis-008 investigators artemis-008 compared risvutatug rezetecan (ris-rez), a b7-h3-directed adc, with topotecan. median os was 18.5 versus 10.3 months (hr 0.46; 95% ci 0.35-0.62; p<0.0001); median pfs was 7.2 versus 3.0 months (hr 0.33; 95% ci 0.25-0.42); orr was 58.3% versus 12.6%. supports regulatory development and informs the emerging b7-h3 class, but should not be used for direct comparison with tam-peli because the trials were separate. this second positive phase iii b7-h3 adc result in the same relapsed-sclc setting reinforces the target while creating a need for careful cross-program differentiation without indirect superiority claims.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "wclc2026-artemis008-risrez",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.iaslc.org/iaslc-news/press-release/phase-iii-artemis-008-trial-shows-risvutatug-rezetecan-significantly"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://clinicaltrials.gov/study/NCT06498479"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "ARTEMIS-008 compared risvutatug rezetecan (Ris-Rez), a B7-H3-directed ADC, with topotecan."
+        ],
+        [
+          "Population / sample",
+          "461 patients in China were randomized 1:1; more than 80% had previously received a PD-(L)1 inhibitor."
+        ],
+        [
+          "Comparator",
+          "Ris-Rez 8.0 mg/kg every three weeks versus topotecan 1.2 mg/m2 on days 1-5 every three weeks."
+        ],
+        [
+          "Observed effect",
+          "Median OS was 18.5 versus 10.3 months (HR 0.46; 95% CI 0.35-0.62; p<0.0001); median PFS was 7.2 versus 3.0 months (HR 0.33; 95% CI 0.25-0.42); ORR was 58.3% versus 12.6%.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "This second positive Phase III B7-H3 ADC result in the same relapsed-SCLC setting reinforces the target while creating a need for careful cross-program differentiation without indirect superiority claims.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients with relapsed SCLC, thoracic oncologists, regulators, payers, and B7-H3 ADC developers.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Supports regulatory development and informs the emerging B7-H3 class, but should not be used for direct comparison with Tam-Peli because the trials were separate.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "High for randomized OS and PFS in the studied China population; moderate for global applicability and immediate practice change because the evidence is conference-only and approval is pending."
+        ],
+        [
+          "India relevance",
+          "No CDSCO authorization, India enrollment, official India price, reimbursement, procurement, access program, or launch date was verified.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Investigational ADC; no official commercial or India price, reimbursement decision, procurement figure, or cost-effectiveness result was reported."
+        ],
+        [
+          "Current limitation",
+          "China-only open-label trial; no head-to-head comparison with other B7-H3 ADCs; full long-term safety, quality-of-life, subgroup, and post-progression data were not available in the captured release.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Peer-reviewed publication, regulatory filings and decisions inside and outside China, global-development data, and any India trial or access milestone."
+        ],
+        [
+          "Verification note",
+          "Verified from IASLC's WCLC release, GSK's official topline context, and ClinicalTrials.gov NCT06498479. Grade 3 or higher treatment-related adverse events occurred in 60.9% with Ris-Rez versus 78.2% with topotecan, mainly hematologic.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:wclc2026-evoke03-negative",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 42,
+      "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
+      "subtitle": "Negative Phase III evidence · Previously untreated PD-L1-high metastatic NSCLC without EGFR, ALK, or ROS1 alterations · Global randomized trial; presented in Seoul, Republic of Korea",
+      "organization": "Gilead Sciences, Merck & Co., and EVOKE-03 investigators",
+      "snapshot": "Primary endpoints not met · 13 September 2026",
+      "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease.",
+      "headline": "Median PFS was 11.8 versus 7.7 months (HR 0.81; 95% CI 0.66-1.00; p=0.0252), but the prespecified significance threshold was not met. Interim median OS was 21.5 versus 22.8 months (HR 1.07; 95% CI 0.85-1.35; p=0.7155).",
+      "statusLabel": "Primary endpoints not met",
+      "badges": [
+        "Primary endpoints not met",
+        "Negative Phase III evidence",
+        "Global randomized trial; presented in Seoul, Republic of Korea"
+      ],
+      "searchText": "evoke-03 sacituzumab govitecan plus pembrolizumab evoke-03 negative negative phase iii evidence previously untreated pd-l1-high metastatic nsclc without egfr, alk, or ros1 alterations global randomized trial; presented in seoul, republic of korea gilead sciences, merck & co., and evoke-03 investigators evoke-03/keynote-d46 tested sacituzumab govitecan plus pembrolizumab versus pembrolizumab alone in tumors with pd-l1 tps at least 50%. median pfs was 11.8 versus 7.7 months (hr 0.81; 95% ci 0.66-1.00; p=0.0252), but the prespecified significance threshold was not met. interim median os was 21.5 versus 22.8 months (hr 1.07; 95% ci 0.85-1.35; p=0.7155). does not support replacing pembrolizumab monotherapy with the combination in this population based on current evidence; further analyses may affect development strategy. the negative result prevents a higher response rate and numerical pfs difference from being mistaken for established first-line benefit and informs whether trop-2 adc combinations should advance in pd-l1-high disease. keytruda trodelvy",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "wclc2026-evoke03-negative",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.iaslc.org/iaslc-news/press-release/sacituzumab-govitecan-plus-pembrolizumab-does-not-meet-primary-endpoints"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://clinicaltrials.gov/study/NCT05609968"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "EVOKE-03/KEYNOTE-D46 tested sacituzumab govitecan plus pembrolizumab versus pembrolizumab alone in tumors with PD-L1 TPS at least 50%."
+        ],
+        [
+          "Population / sample",
+          "620 patients with untreated metastatic NSCLC and PD-L1 TPS at least 50% were randomized."
+        ],
+        [
+          "Comparator",
+          "Sacituzumab govitecan 10 mg/kg on days 1 and 8 plus pembrolizumab 200 mg every 21 days versus pembrolizumab alone."
+        ],
+        [
+          "Observed effect",
+          "Median PFS was 11.8 versus 7.7 months (HR 0.81; 95% CI 0.66-1.00; p=0.0252), but the prespecified significance threshold was not met. Interim median OS was 21.5 versus 22.8 months (HR 1.07; 95% CI 0.85-1.35; p=0.7155).",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients with PD-L1-high metastatic NSCLC, thoracic oncologists, regulators, payers, Gilead and Merck, and investigators designing ADC-immunotherapy combinations.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Does not support replacing pembrolizumab monotherapy with the combination in this population based on current evidence; further analyses may affect development strategy.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "High for the randomized negative primary-endpoint result; OS remains interim."
+        ],
+        [
+          "India relevance",
+          "No India-specific outcome, CDSCO indication change, price, reimbursement, procurement, or access milestone was reported or verified.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "No comparative cost-effectiveness or official India regimen-price analysis was reported; adding an ADC would increase treatment and toxicity-management burden without established primary-endpoint benefit."
+        ],
+        [
+          "Current limitation",
+          "Conference-only primary report; OS follow-up is incomplete; biomarker and subgroup analyses were not fully available; lack of statistical significance should not be reframed as benefit from numerical PFS or response differences.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Mature OS, peer-reviewed publication, biomarker/subgroup analyses, sponsor development decisions, and any regulatory communication."
+        ],
+        [
+          "Verification note",
+          "Verified from IASLC's WCLC release, the official Gilead/Merck study update, and ClinicalTrials.gov NCT05609968. Grade 3 or higher treatment-related adverse events were 55.7% with the combination versus 16.5% with pembrolizumab.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:wclc2026-lonestar-negative",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 43,
+      "title": "LONESTAR local consolidative therapy after dual immunotherapy",
+      "subtitle": "Negative Phase III multimodality evidence · Immunotherapy-naive metastatic NSCLC, including oligometastatic disease · United States; single-center randomized trial presented in Seoul",
+      "organization": "MD Anderson Cancer Center and LONESTAR investigators",
+      "snapshot": "No OS or PFS benefit · 12 September 2026",
+      "summary": "Local consolidation has been attractive for selected oligometastatic NSCLC, but this randomized result argues against routine addition after dual checkpoint blockade in an unselected population.",
+      "headline": "Median OS was 52.8 months with immunotherapy alone versus 43.2 months with local consolidation (HR 1.14; 95% CI 0.75-1.74; p=0.54). Median PFS was 24.3 versus 31.3 months (HR 0.79; 95% CI 0.54-1.15; p=0.22); no benefit was reported in the oligometastatic subgroup.",
+      "statusLabel": "No OS or PFS benefit",
+      "badges": [
+        "No OS or PFS benefit",
+        "Negative Phase III multimodality evidence",
+        "United States; single-center randomized trial presented in Seoul"
+      ],
+      "searchText": "lonestar local consolidative therapy after dual immunotherapy lonestar negative negative phase iii multimodality evidence immunotherapy-naive metastatic nsclc, including oligometastatic disease united states; single-center randomized trial presented in seoul md anderson cancer center and lonestar investigators lonestar tested radiation or surgery as local consolidative therapy after 12 weeks of nivolumab plus ipilimumab in patients without progression or dose-limiting toxicity. median os was 52.8 months with immunotherapy alone versus 43.2 months with local consolidation (hr 1.14; 95% ci 0.75-1.74; p=0.54). median pfs was 24.3 versus 31.3 months (hr 0.79; 95% ci 0.54-1.15; p=0.22); no benefit was reported in the oligometastatic subgroup. should temper routine radiation or surgery after nivolumab plus ipilimumab outside individualized indications or trials. local consolidation has been attractive for selected oligometastatic nsclc, but this randomized result argues against routine addition after dual checkpoint blockade in an unselected population. opdivo",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "wclc2026-lonestar-negative",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.iaslc.org/iaslc-news/press-release/local-consolidative-therapy-does-not-improve-survival-after-dual"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://clinicaltrials.gov/study/NCT03391869"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "LONESTAR tested radiation or surgery as local consolidative therapy after 12 weeks of nivolumab plus ipilimumab in patients without progression or dose-limiting toxicity."
+        ],
+        [
+          "Population / sample",
+          "166 patients were randomized after induction; 77 had oligometastatic disease at randomization."
+        ],
+        [
+          "Comparator",
+          "Continued nivolumab plus ipilimumab alone versus local consolidative radiation or surgery followed by the same dual immunotherapy."
+        ],
+        [
+          "Observed effect",
+          "Median OS was 52.8 months with immunotherapy alone versus 43.2 months with local consolidation (HR 1.14; 95% CI 0.75-1.74; p=0.54). Median PFS was 24.3 versus 31.3 months (HR 0.79; 95% CI 0.54-1.15; p=0.22); no benefit was reported in the oligometastatic subgroup.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "Local consolidation has been attractive for selected oligometastatic NSCLC, but this randomized result argues against routine addition after dual checkpoint blockade in an unselected population.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients with metastatic or oligometastatic NSCLC, thoracic oncologists, radiation oncologists, surgeons, multidisciplinary tumor boards, and payers.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Should temper routine radiation or surgery after nivolumab plus ipilimumab outside individualized indications or trials.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate to high for the negative randomized result; generalizability is limited by the single-center design and selected post-induction population."
+        ],
+        [
+          "India relevance",
+          "The result is relevant to multidisciplinary care in India, but no India enrollment, guideline response, comparative cost, reimbursement, or local implementation study was verified.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "No formal cost-effectiveness analysis was reported; the result questions adding radiation or surgery costs and burden without demonstrated survival benefit."
+        ],
+        [
+          "Current limitation",
+          "Single-center, open-label, 166-patient trial; subgroup power was limited; treatment techniques and selection may differ across centers; conference-only report without full peer-reviewed publication.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Peer-reviewed publication, prespecified subgroup detail, treatment-quality analysis, and guideline responses."
+        ],
+        [
+          "Verification note",
+          "Verified from IASLC's official WCLC release and the registered LONESTAR study NCT03391869. Grade 3 or higher adverse events were not increased overall, but pneumonitis was 9.5% with local consolidation versus 4.9% with immunotherapy alone.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:wclc2026-impower030-neutral",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 44,
+      "title": "IMpower030 perioperative atezolizumab final analysis",
+      "subtitle": "Neutral Phase III perioperative evidence · Resectable stage IIB-IIIB non-small-cell lung cancer · Global randomized trial; presented in Seoul, Republic of Korea",
+      "organization": "Roche/Genentech and IMpower030 investigators",
+      "snapshot": "Primary endpoint not statistically significant · 12 September 2026",
+      "summary": "The study shows why favorable medians and pathologic-response rates cannot substitute for a statistically successful primary endpoint when judging a perioperative regimen.",
+      "headline": "Median event-free survival was 62.8 versus 34.9 months, but the prespecified statistical threshold was not met. Pathologic complete response was 30.6% versus 8.6%, and major pathologic response was 54.3% versus 24.9%; hazard ratio and confidence interval were not reported in the captured release.",
+      "statusLabel": "Primary endpoint not statistically significant",
+      "badges": [
+        "Primary endpoint not statistically significant",
+        "Neutral Phase III perioperative evidence",
+        "Global randomized trial; presented in Seoul, Republic of Korea"
+      ],
+      "searchText": "impower030 perioperative atezolizumab final analysis impower030 neutral neutral phase iii perioperative evidence resectable stage iib-iiib non-small-cell lung cancer global randomized trial; presented in seoul, republic of korea roche/genentech and impower030 investigators final phase iii impower030 results compared perioperative atezolizumab plus platinum-based chemotherapy with chemotherapy alone. median event-free survival was 62.8 versus 34.9 months, but the prespecified statistical threshold was not met. pathologic complete response was 30.6% versus 8.6%, and major pathologic response was 54.3% versus 24.9%; hazard ratio and confidence interval were not reported in the captured release. does not independently establish this perioperative atezolizumab regimen as superior; detailed analysis may still inform trial design and biomarker selection. the study shows why favorable medians and pathologic-response rates cannot substitute for a statistically successful primary endpoint when judging a perioperative regimen. tecentriq",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "wclc2026-impower030-neutral",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.iaslc.org/iaslc-news/press-release/perioperative-atezolizumab-plus-chemotherapy-more-doubles-event-free"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://clinicaltrials.gov/study/NCT03456063"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "Final Phase III IMpower030 results compared perioperative atezolizumab plus platinum-based chemotherapy with chemotherapy alone."
+        ],
+        [
+          "Population / sample",
+          "Adults with resectable stage IIB-IIIB NSCLC; full randomized population size was not reported in the captured IASLC release."
+        ],
+        [
+          "Comparator",
+          "Perioperative atezolizumab plus platinum chemotherapy versus placebo plus chemotherapy."
+        ],
+        [
+          "Observed effect",
+          "Median event-free survival was 62.8 versus 34.9 months, but the prespecified statistical threshold was not met. Pathologic complete response was 30.6% versus 8.6%, and major pathologic response was 54.3% versus 24.9%; hazard ratio and confidence interval were not reported in the captured release.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "The study shows why favorable medians and pathologic-response rates cannot substitute for a statistically successful primary endpoint when judging a perioperative regimen.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients with resectable NSCLC, thoracic surgeons, medical oncologists, pathologists, multidisciplinary teams, regulators, and payers.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Does not independently establish this perioperative atezolizumab regimen as superior; detailed analysis may still inform trial design and biomarker selection.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate: randomized Phase III final results were officially presented, but the primary endpoint was not met and key effect estimates were absent from the public release."
+        ],
+        [
+          "India relevance",
+          "No India-specific outcome, CDSCO perioperative indication change, official India regimen price, reimbursement, or procurement milestone was verified.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "No cost-effectiveness result or official India regimen cost was reported; perioperative immunotherapy adds treatment duration and monitoring without a statistically successful primary endpoint in this trial."
+        ],
+        [
+          "Current limitation",
+          "Conference-only report; sample size, EFS hazard ratio and confidence interval, full OS data, subgroup analyses, complete safety tables, and patient-reported outcomes were not reported in the captured release.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Full abstract/slides and peer-reviewed publication, complete hazard-ratio and safety reporting, biomarker analyses, and any regulator or guideline response."
+        ],
+        [
+          "Verification note",
+          "Verified from IASLC's official WCLC release and ClinicalTrials.gov NCT03456063. Surgical cancellation rates were reported as low and similar, and no new safety signal was identified.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:tacti004-efti-manufacturing-followup",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 45,
       "title": "TACTI-004 efti manufacturing and futility follow-up",
       "subtitle": "Manufacturing / negative trial follow-up · First-line advanced or metastatic non-small cell lung cancer · Global Phase III trial; India participation authorized",
       "organization": "Immutep Limited; Merck & Co. supplied pembrolizumab; TACTI-004 investigators",
@@ -3434,7 +4298,7 @@
       "id": "watchlist:who-childhood-cancer-prequalification-eoi",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 37,
+      "order": 46,
       "title": "WHO childhood-cancer medicine prequalification invitation",
       "subtitle": "Access / manufacturing / procurement · Childhood cancers · Global, with focus on low- and middle-income countries",
       "organization": "World Health Organization; Global Platform for Access to Childhood Cancer Medicines; GAP-f; St. Jude Children's Research Hospital; UNICEF; PAHO Strategic Fund",
@@ -3530,7 +4394,7 @@
       "id": "watchlist:neoadjuvant-nivolumab-ipilimumab-gbm",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 38,
+      "order": 47,
       "title": "Neoadjuvant nivolumab plus ipilimumab in recurrent glioblastoma",
       "subtitle": "Early randomized surgical-window evidence · Surgically resectable recurrent glioblastoma · United States; four-center trial",
       "organization": "Dana-Farber Cancer Institute-led investigators; UCLA, Stanford, Memorial Sloan Kettering; Bristol Myers Squibb supplied study drugs",
@@ -3626,7 +4490,7 @@
       "id": "watchlist:cervino-etentamig",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 39,
+      "order": 48,
       "title": "CERVINO BCMA bispecific myeloma topline",
       "subtitle": "Press-release-only phase III · Relapsed/refractory multiple myeloma · Global trial; sponsor release from United States",
       "organization": "AbbVie",
@@ -3722,7 +4586,7 @@
       "id": "watchlist:sanovo-savolitinib-osimertinib",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 40,
+      "order": 49,
       "title": "SANOVO first-line EGFR/MET lung-cancer topline",
       "subtitle": "Press-release-only phase III · EGFR-mutated NSCLC with MET overexpression · China",
       "organization": "AstraZeneca; HUTCHMED",
@@ -3818,7 +4682,7 @@
       "id": "watchlist:prostate-cardio-referral",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 41,
+      "order": 50,
       "title": "Routine cardiovascular referral in prostate cancer",
       "subtitle": "Supportive care / care delivery · Prostate cancer · Eight-country trial across 55 sites",
       "organization": "International randomized trial investigators; JAMA Internal Medicine",
@@ -3914,7 +4778,7 @@
       "id": "watchlist:mpower-asia-cancer-model",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 42,
+      "order": 51,
       "title": "MPOWER tobacco control and preventable cancers in Asia",
       "subtitle": "Prevention / public health policy · Thirteen tobacco-related cancers · East and South-East Asia",
       "organization": "Independent investigators using WHO Global Health Observatory and IARC Global Cancer Observatory data; The Lancet Regional Health - Western Pacific",
@@ -4010,7 +4874,7 @@
       "id": "watchlist:bemotrizinol-sunscreen",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 43,
+      "order": 52,
       "title": "Bemotrizinol sunscreen order takes effect",
       "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
       "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
@@ -4106,7 +4970,7 @@
       "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 44,
+      "order": 53,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -4202,7 +5066,7 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 45,
+      "order": 54,
       "title": "RP1 + nivolumab accelerated approval after advisory split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -4298,7 +5162,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 46,
+      "order": 55,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -4394,7 +5258,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 47,
+      "order": 56,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -4490,7 +5354,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 48,
+      "order": 57,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -4586,7 +5450,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 49,
+      "order": 58,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -4682,7 +5546,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 50,
+      "order": 59,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -4776,7 +5640,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 104,
+    "sourcesChecked": 122,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,

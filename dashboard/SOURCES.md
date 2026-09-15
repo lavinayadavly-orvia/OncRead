@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-13
+Updated: 2026-09-15
 
 ## Method
 
@@ -71,8 +71,55 @@ Updated: 2026-09-13
 - The 2026-09-11 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 10-11 development that was both materially decision-relevant and sufficiently verified for dashboard promotion beyond the September 10 Hyrnuo first-line approval already represented.
 - The 2026-09-12 review added a manufacturing and negative-trial follow-up watchlist record after Immutep reported potentially relevant structural differences between the 2,000 L efti material used in the failed Phase III TACTI-004 trial and 200 L material used in earlier studies. The record preserves the negative result and labels the manufacturing explanation as an incomplete sponsor hypothesis, with direct India relevance from the CDSCO-authorized trial participation.
 - The 2026-09-13 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 12-13 development that was both materially decision-relevant and sufficiently verified for dashboard promotion; major WCLC Phase III results were not promoted from titles, previews, or incomplete secondary summaries before authoritative result disclosure.
+- The 2026-09-15 catch-up review added nine WCLC 2026 Phase III records after complete authoritative result releases became available: positive MAVERICK, TAISHAN-302, ARTEMIS-008, HARMONi-2, DESTINY-Lung04, and REZILIENT3 results, plus negative EVOKE-03 and LONESTAR and neutral IMpower030 evidence. Every record remains labeled conference-only and retains unresolved regulatory, pricing, India-access, and publication milestones.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-15 Verified WCLC Updates and Review Checks
+
+- IASLC WCLC 2026 Phase III MAVERICK release; source for the 304-patient MRI-surveillance versus PCI comparison, cognitive failure-free survival HR, preliminary OS and brain-metastasis-free survival estimates, and Grade 3-5 toxicity
+  https://www.iaslc.org/iaslc-news/press-release/phase-iii-maverick-trial-supports-brain-mri-surveillance-alone-standard
+  https://clinicaltrials.gov/study/NCT04155034
+- IASLC TAISHAN-302 release and trial registry; source for Tam-Peli/YL201 versus topotecan design, 451-patient population, OS/PFS/ORR effects, Grade 3 or worse toxicity, and ILD/pneumonitis rates
+  https://www.iaslc.org/iaslc-news/press-release/phase-iii-taishan-302-trial-shows-tam-peli-significantly-improves-survival
+  https://clinicaltrials.gov/study/NCT06612151
+- IASLC ARTEMIS-008 release, GSK official topline context, and registry; source for the China-only randomized Ris-Rez versus topotecan trial, OS/PFS/response results, and hematologic toxicity
+  https://www.iaslc.org/iaslc-news/press-release/phase-iii-artemis-008-trial-shows-risvutatug-rezetecan-significantly
+  https://www.gsk.com/en-gb/media/press-releases/gsk-s-licensor-hansoh-pharma-announces-positive-phase-iii-results-for-ris-rez-in-china-patient-population/
+  https://clinicaltrials.gov/study/NCT06498479
+- IASLC EVOKE-03/KEYNOTE-D46 release, Gilead/Merck official study update, and registry; source for the unmet PFS significance threshold, neutral interim OS, response rates, and higher Grade 3 or worse toxicity with sacituzumab govitecan plus pembrolizumab
+  https://www.iaslc.org/iaslc-news/press-release/sacituzumab-govitecan-plus-pembrolizumab-does-not-meet-primary-endpoints
+  https://www.gilead.com/news/news-details/2026/merck-and-gilead-provide-update-on-phase-3-keynote-d46-evoke-03-study
+  https://clinicaltrials.gov/study/NCT05609968
+- IASLC HARMONi-2 OS release and peer-reviewed PFS publication; source for the China-only trial design, median OS 30.8 versus 22.6 months, HR 0.73, subgroup estimates, and safety
+  https://www.iaslc.org/iaslc-news/press-release/late-breaking-harmoni-2-analysis-shows-ivonescimab-significantly-improves
+  https://pubmed.ncbi.nlm.nih.gov/40057343/
+- IASLC and AstraZeneca/Daiichi Sankyo DESTINY-Lung04 releases; source for the 454-patient first-line HER2-mutant NSCLC trial, PFS HR 0.63, response, non-favorable immature OS estimate, and ILD/pneumonitis risk
+  https://www.iaslc.org/iaslc-news/press-release/phase-3-destiny-lung04-trial-shows-first-line-trastuzumab-deruxtecan
+  https://www.astrazeneca.com/media-centre/press-releases/2026/enhertu-in-DESTINY-Lung04-Phase-iii-trial.html
+- IASLC and Taiho/Cullinan REZILIENT3 releases plus registry; source for the 279-patient zipalertinib-plus-chemotherapy study, PFS HR 0.50, response, immature OS, and Grade 3 or worse adverse-event rate
+  https://www.iaslc.org/iaslc-news/press-release/zipalertinib-plus-chemotherapy-significantly-extends-progression-free
+  https://www.taiho.co.jp/en/release/2026/20260914.html
+  https://clinicaltrials.gov/study/NCT05973773
+- IASLC LONESTAR release and registry; source for the randomized negative local-consolidation result after nivolumab plus ipilimumab, including overall and oligometastatic populations
+  https://www.iaslc.org/iaslc-news/press-release/local-consolidative-therapy-does-not-improve-survival-after-dual
+  https://clinicaltrials.gov/study/NCT03391869
+- IASLC IMpower030 release and registry; source for the statistically neutral final event-free-survival result, pathologic response rates, surgical feasibility, and reported absence of a new safety signal
+  https://www.iaslc.org/iaslc-news/press-release/perioperative-atezolizumab-plus-chemotherapy-more-doubles-event-free
+  https://clinicaltrials.gov/study/NCT03456063
+- IASLC ADAURA and PAPILLON releases were reviewed but not added as separate records. ADAURA's exploratory eight-year update reinforces an existing standard; PAPILLON's unadjusted OS comparison was not statistically significant and the crossover-adjusted estimate does not establish a new label.
+  https://www.iaslc.org/iaslc-news/press-release/eight-year-adaura-update-shows-sustained-overall-survival-benefit-adjuvant
+  https://www.iaslc.org/iaslc-news/press-release/papillon-study-first-line-amivantamab-chemotherapy-demonstrates-longest
+- FDA oncology approval and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, PubMed, ClinicalTrials.gov, and targeted sponsor surfaces were rechecked. Hyrnuo/sevabertinib on 9 September remained the newest FDA oncology approval posting; no additional September 13-15 approval, withdrawal, safety restriction, pricing/procurement action, India-access milestone, or global cancer-system change cleared promotion.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-09-13 Review-Only Checks
 
