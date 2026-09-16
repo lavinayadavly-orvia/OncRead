@@ -836,6 +836,146 @@ asco2025Followup.forEach(item => Object.assign(item, followupDetails[item.id]));
 
 const watchlistSignals = [
   {
+    id: "who-childhood-cancer-market-strategy-2026",
+    title: "WHO childhood-cancer medicines market-shaping strategy",
+    short: "WHO paediatric oncology strategy",
+    category: "Access / manufacturing / procurement",
+    status: "systems",
+    statusLabel: "WHO 2026-2030 strategy",
+    geography: "Global, focused on low- and middle-income countries",
+    date: "15 September 2026",
+    cancer: "Childhood cancers",
+    issue: "WHO and Global Platform partners launched a 2026-2030 market-shaping strategy to address concentrated supply, fragmented demand, shortages, quality assurance, affordability, and child-appropriate formulations for essential childhood-cancer medicines.",
+    organization: "World Health Organization; St. Jude Children's Research Hospital; UNICEF; PAHO Strategic Fund; Global Platform for Access to Childhood Cancer Medicines",
+    population: "Children with cancer in low- and middle-income countries, including patients served by the Global Platform's 12 current participating governments and future countries expected to join from 2027.",
+    comparator: "Current fragmented procurement and an unstable supplier base; WHO's baseline across 51 hospitals in 12 countries found only about 45% of essential childhood-cancer medicines available and nearly half out of stock for at least one month in the prior year.",
+    endpoint: "Implementation of ten linked market interventions, including a broader quality-assured supplier base, pooled demand and published forecasts, volume guarantees, regulatory reliance, nationally financed benefit packages, and possible voluntary licensing for newer therapies.",
+    effect: "The strategy establishes a coordinated 2026-2030 implementation roadmap and reports that the Global Platform is already working with 12 governments. It does not report a new product prequalification, pooled-procurement award, medicine price, delivery volume, stockout reduction, or patient-survival outcome.",
+    whyMatters: "Reliable supply and affordable, quality-assured formulations determine whether children can complete curative treatment. The strategy moves WHO's earlier prequalification invitation into a broader procurement and market-design plan, but impact depends on funded implementation and measurable country delivery.",
+    whoAffected: "Children and families, paediatric oncology programs, governments, procurement agencies, medicine manufacturers, regulators, donors, and supply-chain partners in low- and middle-income countries.",
+    decisionImpact: "Governments and partners can align forecasting, pooled purchasing, financing, and supplier incentives around the roadmap. It should not be represented as evidence that access, prices, stock continuity, or survival have already improved.",
+    evidenceStrength: "High for the policy launch, baseline access findings, named interventions, and participating-country list because these are documented by WHO. Evidence of implementation effectiveness is not yet available.",
+    limitations: "A strategy is not a procurement contract, regulatory approval, funded national benefit, or outcome evaluation. Intervention-level budgets, binding volume guarantees, supplier commitments, product prices, delivery schedules, country targets, and patient-level outcomes were not reported in the announcement.",
+    indiaImpact: "India is relevant as a major generic-manufacturing and procurement market, but India is not among the 12 participating countries named by WHO. No India enrollment, manufacturer commitment, CDSCO reliance action, procurement award, official price, reimbursement change, or delivery milestone was verified.",
+    cost: "No medicine price, pooled-procurement price, strategy budget, volume-guarantee amount, tender value, India reimbursement decision, or cost-effectiveness result was reported or verified.",
+    nextMilestone: "Published demand forecasts, named supplier and country commitments, prequalification decisions, pooled-procurement awards and prices, delivery and stockout metrics, additional countries joining from 2027, and any official India participation.",
+    verification: "Verified from WHO's 15 September 2026 departmental update and linked 2026-2030 strategy. This is a new systems and access milestone that extends, but does not replace, the 4 September prequalification-invitation record.",
+    source: "https://www.who.int/news/item/15-09-2026-new-strategy-to-build-a-healthier-market-for-childhood-cancer-medicines",
+    secondarySource: "https://iris.who.int/handle/10665/383790"
+  },
+  {
+    id: "wclc2026-preserve003-gotistobart-os",
+    title: "PRESERVE-003 gotistobart survival update",
+    short: "PRESERVE-003",
+    category: "Conference-only Phase III development signal",
+    status: "conference",
+    statusLabel: "Positive non-pivotal Stage 1 OS",
+    geography: "Global randomized trial; presented at IASLC WCLC 2026 in Seoul",
+    date: "15 September 2026",
+    cancer: "Metastatic squamous NSCLC after PD-(L)1 inhibitor and platinum chemotherapy",
+    issue: "Updated overall-survival data from the non-pivotal Stage 1 dose-selection portion of PRESERVE-003 compared investigational anti-CTLA-4 antibody gotistobart with docetaxel.",
+    organization: "BioNTech; OncoC4; PRESERVE-003 investigators; IASLC WCLC 2026",
+    population: "87 patients were randomized: 45 to gotistobart and 42 to docetaxel. Median follow-up was 25.4 months at the 17 July 2026 cutoff.",
+    comparator: "Gotistobart 6 mg/kg with two 10 mg/kg loading doses versus docetaxel 75 mg/m2 in the second-line or later setting.",
+    endpoint: "Overall survival in non-pivotal Stage 1; the ongoing pivotal Stage 2 portion has overall survival as its primary endpoint.",
+    effect: "Median OS was 18.5 versus 10.0 months (HR 0.56; nominal p=0.0295). Grade 3 or higher treatment-related adverse events occurred in 44.4% versus 48.8%, and no new safety signal was reported.",
+    whyMatters: "The randomized survival signal is clinically meaningful in a setting with limited options after immunotherapy and chemotherapy, but it comes from a small, non-pivotal dose-selection stage and requires confirmation in the ongoing pivotal cohort.",
+    whoAffected: "Patients with previously treated metastatic squamous NSCLC, thoracic oncologists, trial sites, regulators, payers, and developers of CTLA-4-directed immunotherapy.",
+    decisionImpact: "Supports continued pivotal development and trial consideration, but does not establish approval, a new standard of care, or a definitive survival advantage until the pivotal Stage 2 result is available.",
+    evidenceStrength: "Moderate: randomized survival data from an officially reported Phase III program, cross-checked by IASLC and the sponsor, but only 87 patients contributed to a non-pivotal Stage 1 analysis and the p-value was nominal.",
+    limitations: "Conference and sponsor-release update; open-label design; small dose-selection stage; nominal statistical test; no confidence interval was reported in the captured official release; full subgroup, quality-of-life, subsequent-therapy, and peer-reviewed OS analyses were unavailable.",
+    indiaImpact: "No India-specific outcome, confirmed India trial site, CDSCO authorization for gotistobart, official India price, reimbursement, procurement, access program, or launch date was reported or verified.",
+    cost: "Investigational therapy; no official commercial price, India price, reimbursement decision, procurement figure, or cost-effectiveness result was reported.",
+    nextMilestone: "Pivotal Stage 2 OS result, peer-reviewed publication, mature safety and quality-of-life analyses, regulatory submissions and decisions, and any CDSCO or India-access milestone.",
+    verification: "Verified from IASLC's official WCLC release, BioNTech and OncoC4's 14 September release, and ClinicalTrials.gov NCT05671510. The record explicitly distinguishes non-pivotal Stage 1 from the ongoing pivotal portion.",
+    source: "https://www.iaslc.org/iaslc-news/press-release/investigational-immunotherapy-nearly-doubles-overall-survival-compared",
+    secondarySource: "https://clinicaltrials.gov/study/NCT05671510"
+  },
+  {
+    id: "wclc2026-braf-class23-ici-outcomes",
+    title: "Class II and III BRAF NSCLC immunotherapy outcomes",
+    short: "BRAF class II/III NSCLC",
+    category: "Biomarker / retrospective outcomes",
+    status: "conference",
+    statusLabel: "Conference-only retrospective signal",
+    geography: "Multicenter Europe and United States cohorts; presented in Seoul",
+    date: "15 September 2026",
+    cancer: "Metastatic NSCLC with class II or class III BRAF alterations",
+    issue: "A retrospective multicenter analysis evaluated clinicopathologic and genomic differences and first-line immune-checkpoint-inhibitor outcomes in less-defined non-V600 BRAF classes.",
+    organization: "Memorial Sloan Kettering Cancer Center; Dana-Farber Cancer Institute; 15 academic centers; IASLC WCLC 2026 investigators",
+    population: "The genomic cohort included 15,212 tested patients, with 247 class II and 225 class III BRAF alterations. The immunotherapy cohort included 256 patients whose only oncogenic driver was class II or III BRAF.",
+    comparator: "Class III versus class II BRAF-altered NSCLC treated with first-line immune checkpoint inhibition with or without chemotherapy; not a randomized treatment comparison.",
+    endpoint: "Objective response, progression-free survival, overall survival, clinicopathologic features, and co-mutation patterns.",
+    effect: "ORR was 47% versus 52% (p=0.45), median PFS 5.8 versus 10.0 months (HR 1.26; p=0.10), and median OS 12.7 versus 20.5 months (HR 1.47; p=0.01) for class III versus class II. STK11, KEAP1, and SMARCA4 co-mutations were associated with worse outcomes.",
+    whyMatters: "Patients with non-V600 BRAF alterations lack approved class-specific targeted options. Separating class II from class III and reporting co-mutations may improve prognosis discussions, molecular stratification, and future trial design, but does not prove a predictive treatment effect.",
+    whoAffected: "Patients with metastatic non-V600 BRAF NSCLC, molecular pathologists, thoracic oncologists, genomic-testing programs, and sponsors designing biomarker-stratified trials.",
+    decisionImpact: "Supports more granular BRAF and co-mutation reporting and trial stratification. It should not be used to withhold immunotherapy or claim that one regimen is superior because treatment was not randomized and residual confounding is likely.",
+    evidenceStrength: "Moderate for prognostic association because the dataset is large and multicenter; low for predictive treatment inference because the analysis is retrospective, nonrandomized, and conference-only.",
+    limitations: "Retrospective selection, heterogeneous ICI regimens and centers, potential treatment and testing confounding, no randomized interaction test, no confidence intervals reported in the captured release, and no peer-reviewed full report captured.",
+    indiaImpact: "Broad genomic profiling can distinguish BRAF classes and co-mutations in India, but no India cohort, India-specific outcome, CDSCO treatment action, official testing price, reimbursement, procurement, or access milestone was reported.",
+    cost: "No official molecular-testing cost, treatment cost, India reimbursement decision, procurement figure, or cost-effectiveness analysis was reported.",
+    nextMilestone: "Peer-reviewed publication with adjusted analyses and confidence intervals, prospective validation, biomarker-treatment interaction testing, class-specific trials, and India-representative genomic data.",
+    verification: "Verified from IASLC's official WCLC release. The release reports the cohort sizes, outcome estimates, and co-mutation associations; treatment-predictive conclusions are explicitly not inferred.",
+    source: "https://www.iaslc.org/iaslc-news/press-release/study-identifies-distinct-outcomes-and-genomic-features-nsclc-class-ii-and",
+    secondarySource: "https://wclc.iaslc.org/virtual-delegate-bag-2026/"
+  },
+  {
+    id: "wclc2026-sqcc-tumor-budding-grade",
+    title: "IASLC tumor-budding grade validation in lung SqCC",
+    short: "Tumor-budding grade",
+    category: "Pathology / prognostic biomarker",
+    status: "conference",
+    statusLabel: "Conference-only validation",
+    geography: "Republic of Korea single-center cohort; presented in Seoul",
+    date: "15 September 2026",
+    cancer: "Resected lung squamous cell carcinoma",
+    issue: "Investigators independently evaluated the 2025 IASLC two-tier tumor-budding grading system and explored whether grade identified patients more likely to benefit from adjuvant chemotherapy.",
+    organization: "Yonsei University Medical Center investigators; International Association for the Study of Lung Cancer",
+    population: "585 consecutive patients who underwent curative-intent upfront resection from 2015 through 2022; 520 were low grade and 65 high grade. Exploratory genomic profiling used a case-matched subset of 100.",
+    comparator: "High- versus low-tumor-budding grade; exploratory adjuvant-chemotherapy outcomes within pathologic stage IB-III disease.",
+    endpoint: "Overall and disease-free survival, association with adjuvant chemotherapy outcomes, and exploratory genomic differences.",
+    effect: "High grade was independently associated with worse overall and disease-free survival. Across stage IB-III there was no overall DFS benefit from adjuvant chemotherapy; the high-grade subgroup showed a clinically meaningful trend toward benefit, while low-grade patients did not. Effect sizes and confidence intervals were not reported in the IASLC release.",
+    whyMatters: "A reproducible morphology-based grade could improve prognostic reporting and help target adjuvant-treatment research in resected lung SqCC without requiring an expensive assay, but prospective evidence is needed before treatment selection changes.",
+    whoAffected: "Patients with resected lung SqCC, thoracic pathologists and surgeons, medical oncologists, multidisciplinary tumor boards, and guideline groups.",
+    decisionImpact: "Supports pathology standardization and prospective stratification. It should not currently determine adjuvant chemotherapy because the treatment analysis was retrospective, exploratory, and underpowered in the 65-patient high-grade group.",
+    evidenceStrength: "Moderate for independent prognostic validation in a consecutive cohort; low for predictive chemotherapy selection because the evidence is retrospective and exploratory.",
+    limitations: "Single-center retrospective study; only 65 high-grade tumors; treatment was not randomized by grade; effect estimates and confidence intervals were absent from the captured release; no prospective multicenter or interobserver-reproducibility validation was reported.",
+    indiaImpact: "The approach may be feasible in Indian pathology services if definitions and reproducibility are validated, but no India cohort, guideline adoption, training standard, reimbursement, test price, or treatment-selection pathway was verified.",
+    cost: "Not applicable as a medicine price. No implementation-cost, pathology-workload, reimbursement, or cost-effectiveness analysis was reported.",
+    nextMilestone: "Prospective multicenter validation, reproducibility studies, full adjusted effect estimates, randomized or prospectively stratified adjuvant evidence, guideline review, and validation in diverse populations including India.",
+    verification: "Verified from IASLC's official WCLC release and conference abstract resources. The chemotherapy finding is labeled as an exploratory trend rather than a proven predictive effect.",
+    source: "https://www.iaslc.org/iaslc-news/press-release/iaslc-tumor-budding-grade-identifies-high-risk-patients-resected-lung",
+    secondarySource: "https://wclc.iaslc.org/virtual-delegate-bag-2026/"
+  },
+  {
+    id: "wclc2026-brelt3-mobile-ldct",
+    title: "BRELT3 mobile lung-cancer screening in Brazil",
+    short: "BRELT3 mobile LDCT",
+    category: "Screening / care delivery / equity",
+    status: "conference",
+    statusLabel: "Prospective observational implementation signal",
+    geography: "Four cities in Northeast Brazil",
+    date: "15 September 2026",
+    cancer: "Lung cancer screening",
+    issue: "BRELT3 evaluated a mobile low-dose CT unit and community-health-worker outreach for reaching high-risk and socially vulnerable populations in resource-limited settings.",
+    organization: "ProPulmao Institute and BRELT3 investigators; IASLC WCLC 2026",
+    population: "Of 5,223 potential participants identified, 2,018 eligible adults aged 50-80 who were current or former smokers underwent LDCT from 2023 through 2025; 87% self-identified as non-White and 64% had primary-level education.",
+    comparator: "No concurrent control group. Recruitment through trained community health workers was descriptively compared with media and other recruitment routes.",
+    endpoint: "Screening reach, Lung-RADS findings, biopsy completion, cancers detected, stage and treatment, and contribution of community health workers.",
+    effect: "Lung-RADS 3 or 4 findings occurred in 283 participants; biopsy was indicated for 46, performed in 34, and 19 lung cancers were diagnosed (0.94% of those screened). Seven were advanced stage and seven underwent surgery. Community health workers recruited 894 participants (44.3%) and nearly 60% of rural participants.",
+    whyMatters: "Mobile imaging plus community outreach may extend screening to populations usually missed by facility-based programs. The findings also expose diagnostic follow-through gaps because not every indicated biopsy was completed and several cancers were already advanced.",
+    whoAffected: "High-risk adults in underserved and rural communities, primary-care and community-health workers, radiology and thoracic programs, public-health planners, and payers considering organized screening.",
+    decisionImpact: "Supports implementation studies and locally designed outreach pathways, but does not establish mortality benefit, cost-effectiveness, or generalizability to India or other settings without a controlled comparison and longer follow-up.",
+    evidenceStrength: "Moderate for feasibility and reach because the cohort was prospective and included 2,018 screened participants; low for comparative effectiveness because the study was single-arm and observational.",
+    limitations: "Conference-only initial results; no control group; selection and referral bias; incomplete biopsy completion; no interval-cancer, false-positive, mortality, quality-of-life, cost, or long-term adherence analysis; outcomes may depend on Brazil's local community-health infrastructure.",
+    indiaImpact: "Mobile LDCT and community-health-worker outreach are relevant to India's geographic access barriers, but no India implementation study, eligibility standard, national screening recommendation, reimbursement, procurement, official price, or capacity assessment was verified.",
+    cost: "No mobile-unit capital cost, per-person screening cost, biopsy cost, cost-effectiveness result, India price, reimbursement decision, or procurement figure was reported.",
+    nextMilestone: "Longer follow-up, biopsy-completion and stage-shift outcomes, interval cancers and mortality, false-positive harms, full economic evaluation, controlled implementation comparisons, and prospective India feasibility evidence.",
+    verification: "Verified from IASLC's official WCLC release and cross-checked against earlier BRELT3 protocol and congress reports. The record represents feasibility and equity evidence, not proof of mortality reduction.",
+    source: "https://www.iaslc.org/iaslc-news/press-release/mobile-ct-lung-cancer-screening-expands-access-underserved-populations",
+    secondarySource: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12147508/"
+  },
+  {
     id: "wclc2026-destiny-lung04",
     title: "DESTINY-Lung04 first-line trastuzumab deruxtecan",
     short: "DESTINY-Lung04",
@@ -1123,9 +1263,9 @@ const watchlistSignals = [
     status: "systems",
     statusLabel: "WHO market-shaping action",
     geography: "Global, with focus on low- and middle-income countries",
-    date: "4 September 2026",
+    date: "15 September 2026",
     cancer: "Childhood cancers",
-    issue: "WHO highlighted its first invitation for manufacturers of childhood-cancer medicines to submit products for evaluation through the WHO Prequalification Programme, covering child-friendly formulation needs and documented supply gaps.",
+    issue: "WHO highlighted its first invitation for manufacturers of childhood-cancer medicines to submit products for evaluation through the WHO Prequalification Programme, then on 15 September linked that action to a broader 2026-2030 market-shaping strategy.",
     organization: "World Health Organization; Global Platform for Access to Childhood Cancer Medicines; GAP-f; St. Jude Children's Research Hospital; UNICEF; PAHO Strategic Fund",
     population: "Children and adolescents with cancer worldwide, especially the estimated 90% who live in low- and middle-income countries. WHO states that the Global Platform is expected to reach approximately 120,000 children.",
     comparator: "Current fragmented access to products of variable quality, formulations unsuitable for children, and supply interruptions; this is a market-shaping and quality-assurance action, not a comparative clinical trial.",
@@ -1138,8 +1278,8 @@ const watchlistSignals = [
     limitations: "The invitation is an enabling regulatory and market-shaping step, not proof of manufacturer participation, product approval, clinical superiority, lower prices, procurement awards, continuous supply, or patient-level outcomes. Country eligibility, timelines, application volume, evaluation outcomes, and financing were not reported in the announcement.",
     indiaImpact: "India is relevant as a major generic-medicine manufacturing and procurement market, but no India manufacturer submission, CDSCO action, India procurement decision, price, program enrollment, delivery commitment, or launch milestone was officially identified in this review.",
     cost: "No product price, tender value, pooled-procurement price, manufacturer subsidy, India reimbursement decision, or cost-effectiveness result was reported or verified.",
-    nextMilestone: "Named manufacturer submissions, WHO evaluation and prequalification decisions, procurement awards and prices, country delivery schedules, supply-continuity measures, and any official India manufacturing or access participation.",
-    verification: "Verified from WHO's 4 September 2026 departmental update, the WHO Prequalification Programme invitation, and the Global Platform programme page. Added on 8 September as a catch-up correction after it was not promoted in the prior review. This is not a medicine approval or evidence that any listed product has completed prequalification.",
+    nextMilestone: "Named manufacturer submissions, WHO evaluation and prequalification decisions, published demand forecasts, procurement awards and prices, country delivery and stockout metrics, and any official India manufacturing or access participation.",
+    verification: "Verified from WHO's 4 September 2026 departmental update, the WHO Prequalification Programme invitation, and WHO's 15 September 2026 market-shaping strategy launch. This remains an enabling action, not a medicine approval or evidence that any listed product has completed prequalification.",
     source: "https://www.who.int/news/item/04-09-2026-who-advances-access-to-quality-assured--child-friendly-cancer-medicines",
     secondarySource: "https://extranet.who.int/prequal/news/1st-invitation-manufacturers-medicinal-products-treatment-childhood-cancer-submit-expression"
   },
@@ -1319,25 +1459,25 @@ const watchlistSignals = [
     status: "regulatory",
     statusLabel: "FDA policy package",
     geography: "United States; global sponsor relevance",
-    date: "6 August 2026",
+    date: "15 September 2026",
     cancer: "All cancers",
     issue: "FDA announced a clinical-development modernization package spanning expedited first-in-human IND preparation, phase-specific CMC expectations, dose-selection guidance, one-trial-plus-confirmatory-evidence approaches, and master protocol guidance.",
     organization: "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
     population: "Drug and biologic sponsors, academic medical centers, contract research organizations, oncology trial networks, regulators, and patients affected by trial-startup and pivotal-evidence timelines.",
     comparator: "Current sequential IND and pivotal-trial development practices versus proposed or updated FDA processes intended to reduce avoidable delay while retaining safety and effectiveness standards.",
     endpoint: "Regulatory policy and trial-methodology change; not a patient-level clinical endpoint.",
-    effect: "FDA stated that phase-appropriate early-development expectations could save 6 to 12 months of development time, announced an Expedited IND pilot concept with rolling IND submission and qualified research-institution partners, and revised late-stage guidance on substantial evidence and master protocols, including basket, umbrella, and platform trials.",
+    effect: "FDA stated that phase-appropriate early-development expectations could save 6 to 12 months. On 15 September, FDA finalized the Expedited IND Pilot design, opened applications through 30 October 2026, and said it expects to select 8-10 sponsor-qualified-research-institution pairs for rolling pre-IND review and coordinated startup.",
     whyMatters: "Oncology development relies heavily on first-in-human dose selection, complex biologics, targeted therapies, rare molecular subsets, basket/platform trials, and single pivotal datasets with confirmatory evidence. A regulator-level change to these evidence pathways can alter trial startup, study design, investment decisions, and how quickly investigational cancer therapies reach patients.",
     whoAffected: "US oncology sponsors and trial sites are most directly affected; global oncology developers, academic cancer centers, patients seeking early-phase trials, and regulators or payers interpreting FDA precedent may also be affected.",
     decisionImpact: "Whether oncology sponsors redesign early IND packages, use quantitative systems pharmacology or other model-informed starting-dose methods, pursue master-protocol structures, or plan evidence packages around one rigorous trial plus confirmatory evidence rather than defaulting to duplicate pivotal trials.",
-    evidenceStrength: "High for the existence and scope of the FDA policy package because the trigger is an FDA page and linked FDA webinar/RFI materials. Evidence is policy-level, not clinical-outcome evidence, and several components remain draft guidance, proposed pilots, or requests for public feedback.",
-    limitations: "This is not an oncology approval, guideline, reimbursement decision, or completed trial. It does not establish that any specific cancer drug can use a shortened path, and implementation details, eligibility, review consistency, and international uptake remain uncertain.",
+    evidenceStrength: "High for the existence, final pilot design, application window, and planned cohort size because these are documented by FDA. Evidence is policy-level, not clinical-outcome evidence, and several broader TrialBlazer components remain guidance or implementation proposals.",
+    limitations: "This is not an oncology approval, guideline, reimbursement decision, or completed trial. The initial pilot is limited to 8-10 sponsor-institution pairs, selection has not occurred, and no evidence yet shows shorter trial startup, fewer clinical holds, faster approvals, or maintained outcome quality.",
     indiaImpact: "No direct CDSCO policy change was verified. India relevance is indirect: global oncology programs may adapt study design or evidence generation around FDA expectations, while Indian trial sites and regulators may later face protocol designs influenced by these US policy shifts.",
     cost: "Not applicable for therapy pricing. Potential development-cost and time savings are policy claims; no official product price, procurement figure, or India reimbursement effect applies.",
-    nextMilestone: "FDA comment deadline for the Expedited IND pilot RFI on 24 August 2026, final or revised guidance adoption, pilot launch criteria, and oncology-specific examples showing how sponsors use the new pathways.",
-    verification: "Captured from FDA's 6 August 2026 clinical-development modernization page and cross-checked against FDA's same-day Expedited IND webinar page and the earlier HHS Operation TrialBlazer release. Treated as a watchlist signal because implementation is pending and cancer-specific effects are inferential.",
+    nextMilestone: "Application close on 30 October 2026, selection of the 8-10 initial pairs, first accepted rolling pre-IND components, measured effects on clinical holds and startup time, and oncology-specific examples.",
+    verification: "Captured from FDA's 6 August 2026 modernization package and updated from FDA's 15 September final Expedited IND Pilot announcement. Treated as a watchlist signal because participant selection and measured implementation effects remain pending.",
     source: "https://www.fda.gov/industry/fda-actions-accelerate-and-modernize-early-and-late-stage-clinical-development",
-    secondarySource: "https://www.fda.gov/news-events/fda-meetings-conferences-and-workshops/expedited-ind-pilot-program-educational-webinar-stakeholders-08062026"
+    secondarySource: "https://www.fda.gov/news-events/press-announcements/fda-launches-expedited-ind-pilot-begins-accepting-applications"
   },
   {
     id: "rp1-adcom",
@@ -1943,16 +2083,29 @@ function morningEditionLabel(editionId) {
   return `${MONTH_NAMES[month - 1]} ${day} Morning Edition`;
 }
 
+function parseDashboardDate(dateValue) {
+  const isoMatch = String(dateValue).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (isoMatch) return new Date(Date.UTC(Number(isoMatch[1]), Number(isoMatch[2]) - 1, Number(isoMatch[3])));
+
+  const writtenMatch = String(dateValue).match(/^(\d{1,2}) ([A-Za-z]+) (\d{4})$/);
+  if (writtenMatch) {
+    const month = MONTH_NAMES.findIndex(name => name.toLowerCase() === writtenMatch[2].toLowerCase());
+    if (month >= 0) return new Date(Date.UTC(Number(writtenMatch[3]), month, Number(writtenMatch[1])));
+  }
+
+  return new Date(dateValue);
+}
+
 function formatDisplayDate(dateValue) {
   if (!dateValue) return "Not dated";
-  const parsed = new Date(dateValue);
+  const parsed = parseDashboardDate(dateValue);
   if (Number.isNaN(parsed.valueOf())) return dateValue;
   return parsed.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
 }
 
 function formatCompactDate(dateValue) {
   if (!dateValue) return "Live";
-  const parsed = new Date(dateValue);
+  const parsed = parseDashboardDate(dateValue);
   if (Number.isNaN(parsed.valueOf())) return dateValue;
   return parsed.toLocaleDateString("en-GB", { day: "numeric", month: "short", timeZone: "UTC" });
 }

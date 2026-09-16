@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-09-15T03:49:13.627Z",
-  "currentEditionId": "2026-09-15",
-  "currentEditionLabel": "15 September 2026",
+  "generatedAt": "2026-09-16T04:37:08.659Z",
+  "currentEditionId": "2026-09-16",
+  "currentEditionLabel": "16 September 2026",
   "editions": [
+    {
+      "id": "2026-09-16",
+      "editionLabel": "16 September 2026",
+      "preparedLabel": "September 16 Morning Edition",
+      "monthKey": "2026-09",
+      "monthLabel": "September 2026",
+      "summary": "Reliable supply and affordable, quality-assured formulations determine whether children can complete curative treatment. The strategy moves WHO's earlier prequalification invitation into a broader procurement and market-design plan, but impact depends on funded implementation and measurable country delivery.",
+      "file": "/data/editions/2026-09-16.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 25,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 29,
+        "verifiedRecords": 65
+      }
+    },
     {
       "id": "2026-09-15",
       "editionLabel": "15 September 2026",
@@ -943,8 +960,36 @@
     {
       "monthKey": "2026-09",
       "monthLabel": "September 2026",
-      "leadEditionId": "2026-09-15",
+      "leadEditionId": "2026-09-16",
       "highlights": [
+        {
+          "editionId": "2026-09-16",
+          "editionLabel": "16 September 2026",
+          "tag": "WHO 2026-2030 strategy",
+          "title": "WHO childhood-cancer medicines market-shaping strategy",
+          "summary": "Reliable supply and affordable, quality-assured formulations determine whether children can complete curative treatment. The strategy moves WHO's earlier prequalification invitation into a broader procurement and market-design plan, but impact depends on funded implementation and measurable country delivery."
+        },
+        {
+          "editionId": "2026-09-16",
+          "editionLabel": "16 September 2026",
+          "tag": "Latest verified approval",
+          "title": "Sevabertinib for First-Line HER2-Mutant NSCLC",
+          "summary": "FDA first-line indication expansion 9 September 2026"
+        },
+        {
+          "editionId": "2026-09-16",
+          "editionLabel": "16 September 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-09-16",
+          "editionLabel": "16 September 2026",
+          "tag": "Primary endpoints not met",
+          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
+          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
+        },
         {
           "editionId": "2026-09-15",
           "editionLabel": "15 September 2026",
@@ -955,34 +1000,6 @@
         {
           "editionId": "2026-09-15",
           "editionLabel": "15 September 2026",
-          "tag": "Latest verified approval",
-          "title": "Sevabertinib for First-Line HER2-Mutant NSCLC",
-          "summary": "FDA first-line indication expansion 9 September 2026"
-        },
-        {
-          "editionId": "2026-09-15",
-          "editionLabel": "15 September 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-09-15",
-          "editionLabel": "15 September 2026",
-          "tag": "Primary endpoints not met",
-          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
-          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
-        },
-        {
-          "editionId": "2026-09-13",
-          "editionLabel": "13 September 2026",
-          "tag": "Sponsor-reported root-cause signal",
-          "title": "TACTI-004 efti manufacturing and futility follow-up",
-          "summary": "A possible scale-up-related product difference can affect how a failed pivotal immunotherapy trial is interpreted and how future comparability, potency, and manufacturing controls are designed. It does not reverse the negative Phase III result or establish that manufacturing caused the futility outcome."
-        },
-        {
-          "editionId": "2026-09-13",
-          "editionLabel": "13 September 2026",
           "tag": "Latest verified approval",
           "title": "Sevabertinib for First-Line HER2-Mutant NSCLC",
           "summary": "FDA first-line indication expansion 9 September 2026"

@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-15
+Updated: 2026-09-16
 
 ## Method
 
@@ -72,8 +72,39 @@ Updated: 2026-09-15
 - The 2026-09-12 review added a manufacturing and negative-trial follow-up watchlist record after Immutep reported potentially relevant structural differences between the 2,000 L efti material used in the failed Phase III TACTI-004 trial and 200 L material used in earlier studies. The record preserves the negative result and labels the manufacturing explanation as an incomplete sponsor hypothesis, with direct India relevance from the CDSCO-authorized trial participation.
 - The 2026-09-13 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 12-13 development that was both materially decision-relevant and sufficiently verified for dashboard promotion; major WCLC Phase III results were not promoted from titles, previews, or incomplete secondary summaries before authoritative result disclosure.
 - The 2026-09-15 catch-up review added nine WCLC 2026 Phase III records after complete authoritative result releases became available: positive MAVERICK, TAISHAN-302, ARTEMIS-008, HARMONi-2, DESTINY-Lung04, and REZILIENT3 results, plus negative EVOKE-03 and LONESTAR and neutral IMpower030 evidence. Every record remains labeled conference-only and retains unresolved regulatory, pricing, India-access, and publication milestones.
+- The 2026-09-16 review added four WCLC closing-day evidence records, added WHO's 2026-2030 childhood-cancer medicine market strategy, and updated the existing WHO prequalification and FDA TrialBlazer records after new implementation details became official. No record is represented as an approval or completed access improvement.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-16 Verified Updates and Review Checks
+
+- WHO 2026-2030 childhood-cancer medicines market-shaping strategy launch and linked report; source for the baseline 45% medicine-availability finding across 51 hospitals, the ten interventions, current 12-country participation, and 2027 onboarding direction
+  https://www.who.int/news/item/15-09-2026-new-strategy-to-build-a-healthier-market-for-childhood-cancer-medicines
+  https://iris.who.int/handle/10665/383790
+- FDA final Expedited IND Pilot announcement; source for the 30 October application deadline, rolling pre-IND review, sponsor-qualified-research-institution pairing, continued FDA authority, and expected initial cohort of 8-10 pairs
+  https://www.fda.gov/news-events/press-announcements/fda-launches-expedited-ind-pilot-begins-accepting-applications
+  https://www.fda.gov/industry/fda-actions-accelerate-and-modernize-early-and-late-stage-clinical-development
+- IASLC and BioNTech/OncoC4 PRESERVE-003 releases plus registry; source for the 87-patient non-pivotal Stage 1 population, median OS 18.5 versus 10.0 months, HR 0.56, nominal p-value, Grade 3 or worse treatment-related adverse events, and ongoing pivotal Stage 2 distinction
+  https://www.iaslc.org/iaslc-news/press-release/investigational-immunotherapy-nearly-doubles-overall-survival-compared
+  https://www.biontech.com/int/en/home/mediaroom/news/press-releases/2026/09/BioNTech-and-OncoC4-Present-Updated-Data-Showing-Gotistobart-Nearly-Doubled-Median-Overall-Survival-versus-Standard-of-Care-Chemotherapy-in-Previously-Treated-Squamous-Non-Small-Cell-Lung-Cancer-Patients.html
+  https://clinicaltrials.gov/study/NCT05671510
+- IASLC class II/III BRAF NSCLC release; source for the multicenter retrospective design, genomic and immunotherapy cohort sizes, response, PFS and OS estimates, and STK11/KEAP1/SMARCA4 co-mutation associations
+  https://www.iaslc.org/iaslc-news/press-release/study-identifies-distinct-outcomes-and-genomic-features-nsclc-class-ii-and
+- IASLC tumor-budding grade release and WCLC abstract resources; source for the 585-patient resected lung SqCC validation cohort, high-grade frequency, prognostic association, exploratory chemotherapy trend, and prospective-validation requirement
+  https://www.iaslc.org/iaslc-news/press-release/iaslc-tumor-budding-grade-identifies-high-risk-patients-resected-lung
+  https://wclc.iaslc.org/virtual-delegate-bag-2026/
+- IASLC BRELT3 release plus published protocol; source for the prospective mobile-LDCT implementation, 2,018 screened participants, 19 detected cancers, biopsy pathway, and community-health-worker recruitment contribution
+  https://www.iaslc.org/iaslc-news/press-release/mobile-ct-lung-cancer-screening-expands-access-underserved-populations
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC12147508/
+- FDA oncology approvals, EMA, CDSCO, WHO/IARC, PubMed, ClinicalTrials.gov, and targeted sponsor surfaces were rechecked. Hyrnuo/sevabertinib on 9 September remained the newest FDA oncology approval posting; no additional September 15-16 approval, withdrawal, safety restriction, official pricing/procurement action, or India-access milestone cleared promotion.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-09-15 Verified WCLC Updates and Review Checks
 
