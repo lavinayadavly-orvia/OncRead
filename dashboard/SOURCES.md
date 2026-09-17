@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-16
+Updated: 2026-09-17
 
 ## Method
 
@@ -73,8 +73,31 @@ Updated: 2026-09-16
 - The 2026-09-13 review was a no-content-change pass. Open-ended primary and authoritative-source checks did not surface a September 12-13 development that was both materially decision-relevant and sufficiently verified for dashboard promotion; major WCLC Phase III results were not promoted from titles, previews, or incomplete secondary summaries before authoritative result disclosure.
 - The 2026-09-15 catch-up review added nine WCLC 2026 Phase III records after complete authoritative result releases became available: positive MAVERICK, TAISHAN-302, ARTEMIS-008, HARMONi-2, DESTINY-Lung04, and REZILIENT3 results, plus negative EVOKE-03 and LONESTAR and neutral IMpower030 evidence. Every record remains labeled conference-only and retains unresolved regulatory, pricing, India-access, and publication milestones.
 - The 2026-09-16 review added four WCLC closing-day evidence records, added WHO's 2026-2030 childhood-cancer medicine market strategy, and updated the existing WHO prequalification and FDA TrialBlazer records after new implementation details became official. No record is represented as an approval or completed access improvement.
+- The 2026-09-17 review added one catch-up emerging-signal record for GFH375 after peer-reviewed Phase I publication and a separate sponsor-reported Phase II NSCLC expansion became visible. The two cohorts remain explicitly separated, single arm, and investigational.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-17 Verified Update and Review Checks
+
+- Nature Medicine Phase I GFH375 publication; source for the 74-patient population, tumor-specific response and survival estimates, recommended 600 mg once-daily dose, Grade 3 or worse adverse-event rate, grade 5 septic-shock event, and protocol/statistical context
+  https://www.nature.com/articles/s41591-026-04559-4
+- ClinicalTrials.gov NCT06500676; source for the GenFleet-sponsored open-label Phase I/II design, KRAS G12D-mutant advanced-solid-tumor population, recruitment status, planned enrollment, study dates, and China-site context
+  https://clinicaltrials.gov/study/NCT06500676
+- GenFleet WCLC Phase II NSCLC release; source for the distinct 75-patient 600 mg once-daily expansion cohort, 71 response-evaluable patients, confirmed response, disease control, PFS and OS landmarks, and recent-checkpoint-inhibitor hepatotoxicity signal
+  https://www.genfleet.com/en/press_release-119
+- FDA oncology approval and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, PubMed, ClinicalTrials.gov, SIOP, and targeted sponsor sources were rechecked. Hyrnuo/sevabertinib on 9 September remained the newest FDA oncology approval posting; no additional September 16-17 approval, withdrawal, safety restriction, official price/procurement action, or India-access milestone cleared promotion.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
+  https://siop-congress.org/
+- Avacta's FOCUS-01 update was reviewed but not promoted because it described pharmacokinetic proof of mechanism through three dose levels without a decision-relevant patient efficacy dataset.
+  https://avacta.com/avacta-achieves-clinical-proof-of-mechanism-for-the-next-generation-of-precision-medicines-with-ava6103-fap-exd-in-the-phase-1-focus-01-trial/
 
 ## 2026-09-16 Verified Updates and Review Checks
 

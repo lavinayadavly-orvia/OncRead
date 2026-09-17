@@ -1,5 +1,16 @@
 # Dashboard Changelog
 
+## 2026-09-17 - GFH375 KRAS G12D Signal Added
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, registries, journals, sponsor disclosures, SIOP 2026, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing, procurement, and systems evidence.
+- Added `GFH375 oral KRAS G12D inhibitor` as a catch-up emerging-signal record after Nature Medicine published the first-in-human Phase I trial on 15 September and GenFleet reported a separate expanded Phase II NSCLC cohort at WCLC. The record keeps the two cohorts distinct and does not pool their efficacy estimates.
+- Captured the peer-reviewed 74-patient Phase I dataset: confirmed ORR 35.1% in evaluable pancreatic cancer and 35.7% in evaluable NSCLC, median PFS 5.5 months in both groups, median OS 9.9 and 13.4 months, Grade 3 or worse treatment-related adverse events in 36.5%, and one treatment-related grade 5 septic-shock event.
+- Captured the sponsor-reported 75-patient Phase II NSCLC expansion separately: confirmed ORR 52.1%, disease control 93%, median PFS 8.3 months, 12-month OS 77%, and a higher reported rate of Grade 3 or worse hepatotoxicity when checkpoint-inhibitor exposure occurred within 90 days. These remain single-arm conference findings without a concurrent comparator or peer-reviewed full Phase II report.
+- Recorded that GFH375 remains investigational, the program is China-only in the captured datasets, and no India trial site, CDSCO action, official India price, reimbursement, procurement, access program, or launch date was verified.
+- Rechecked FDA oncology approvals, EMA, CDSCO, WHO/IARC, PubMed, ClinicalTrials.gov, SIOP, and targeted sponsor sources. Hyrnuo on 9 September remained the newest FDA oncology approval posting; no September 16-17 oncology approval, withdrawal, safety restriction, pricing/procurement action, or India-access milestone cleared promotion.
+- Considered Avacta's sponsor-reported FOCUS-01 pharmacokinetic proof-of-mechanism update but did not add it because only three dose levels were described and no patient-level antitumor efficacy dataset was reported. SIOP 2026 abstract publication and workforce programming were reviewed, but no same-window result was promoted without a complete, decision-relevant primary dataset. No item was omitted because of taxonomy fit.
+- No scoring, filter, navigation, or layout redesign was required because the existing watchlist can represent peer-reviewed Phase I evidence alongside a clearly separated conference-only expansion. Rolled the visible briefing and archive forward to the September 17 Morning Edition. No detailed Word report was modified.
+
 ## 2026-09-16 - WHO Access Strategy, FDA Pilot, and WCLC Closing-Day Evidence Added
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours and completed a closing-day WCLC catch-up across treatment, biomarkers, pathology, screening, regulation, access, safety, India relevance, pricing, procurement, and systems evidence.

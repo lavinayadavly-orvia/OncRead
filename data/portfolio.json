@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T04:37:08.610Z",
+  "generatedAt": "2026-09-17T03:27:37.368Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -3431,10 +3431,106 @@
       ]
     },
     {
-      "id": "watchlist:wclc2026-preserve003-gotistobart-os",
+      "id": "watchlist:gfh375-kras-g12d-phase1-phase2",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
       "order": 37,
+      "title": "GFH375 oral KRAS G12D inhibitor",
+      "subtitle": "Peer-reviewed early-phase targeted therapy · Previously treated KRAS G12D-mutant advanced solid tumors, including pancreatic ductal adenocarcinoma and NSCLC · China; multicenter Phase I/II program",
+      "organization": "GenFleet Therapeutics; Shanghai Chest Hospital and participating China centers; Verastem Oncology holds development and commercialization rights outside China",
+      "snapshot": "Phase I publication; Phase II conference update · 15 September 2026",
+      "summary": "KRAS G12D is common in pancreatic, lung, and colorectal cancers and has lacked an approved mutation-specific oral inhibitor. Peer-reviewed human activity across two major tumor types and a larger NSCLC expansion support continued registrational development, while the evidence remains early and noncomparative.",
+      "headline": "In the Phase I publication, confirmed ORR was 35.1% (13/37) in evaluable PDAC and 35.7% (5/14) in evaluable NSCLC; median PFS was 5.5 months in both groups, median OS was 9.9 months in PDAC and 13.4 months in NSCLC, and median response duration in PDAC was 5.6 months. In the separate sponsor-reported NSCLC expansion, confirmed ORR was 52.1%, disease control 93%, median PFS 8.3 months overall, and 12-month OS 77%; median OS was not reached.",
+      "statusLabel": "Phase I publication; Phase II conference update",
+      "badges": [
+        "Phase I publication; Phase II conference update",
+        "Peer-reviewed early-phase targeted therapy",
+        "China; multicenter Phase I/II program"
+      ],
+      "searchText": "gfh375 oral kras g12d inhibitor gfh375 / vs-7375 peer-reviewed early-phase targeted therapy previously treated kras g12d-mutant advanced solid tumors, including pancreatic ductal adenocarcinoma and nsclc china; multicenter phase i/ii program genfleet therapeutics; shanghai chest hospital and participating china centers; verastem oncology holds development and commercialization rights outside china nature medicine published first-in-human phase i data for the oral kras g12d on/off inhibitor gfh375, while genfleet separately reported an expanded phase ii nsclc cohort at iaslc wclc 2026. in the phase i publication, confirmed orr was 35.1% (13/37) in evaluable pdac and 35.7% (5/14) in evaluable nsclc; median pfs was 5.5 months in both groups, median os was 9.9 months in pdac and 13.4 months in nsclc, and median response duration in pdac was 5.6 months. in the separate sponsor-reported nsclc expansion, confirmed orr was 52.1%, disease control 93%, median pfs 8.3 months overall, and 12-month os 77%; median os was not reached. supports molecular screening and clinical-trial consideration where available. it should not change routine treatment, establish a preferred sequencing strategy, or be represented as an approval until randomized and registrational evidence is available. kras g12d is common in pancreatic, lung, and colorectal cancers and has lacked an approved mutation-specific oral inhibitor. peer-reviewed human activity across two major tumor types and a larger nsclc expansion support continued registrational development, while the evidence remains early and noncomparative.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "gfh375-kras-g12d-phase1-phase2",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.nature.com/articles/s41591-026-04559-4"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://clinicaltrials.gov/study/NCT06500676"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "Nature Medicine published first-in-human Phase I data for the oral KRAS G12D ON/OFF inhibitor GFH375, while GenFleet separately reported an expanded Phase II NSCLC cohort at IASLC WCLC 2026."
+        ],
+        [
+          "Population / sample",
+          "The peer-reviewed Phase I analysis included 74 heavily treated patients: 43 with pancreatic ductal adenocarcinoma, 16 with NSCLC, 10 with colorectal cancer, and five with other solid tumors. The separate WCLC Phase II update described 75 previously treated NSCLC patients at 600 mg once daily, with 71 evaluable for response."
+        ],
+        [
+          "Comparator",
+          "Single-arm treatment without a concurrent control. Outcomes cannot establish superiority over chemotherapy, another KRAS inhibitor, or standard molecularly guided care."
+        ],
+        [
+          "Observed effect",
+          "In the Phase I publication, confirmed ORR was 35.1% (13/37) in evaluable PDAC and 35.7% (5/14) in evaluable NSCLC; median PFS was 5.5 months in both groups, median OS was 9.9 months in PDAC and 13.4 months in NSCLC, and median response duration in PDAC was 5.6 months. In the separate sponsor-reported NSCLC expansion, confirmed ORR was 52.1%, disease control 93%, median PFS 8.3 months overall, and 12-month OS 77%; median OS was not reached.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "KRAS G12D is common in pancreatic, lung, and colorectal cancers and has lacked an approved mutation-specific oral inhibitor. Peer-reviewed human activity across two major tumor types and a larger NSCLC expansion support continued registrational development, while the evidence remains early and noncomparative.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients with KRAS G12D-mutant advanced cancers, molecular-testing programs, thoracic and gastrointestinal oncologists, early-phase trial sites, regulators, payers, and developers of RAS-directed therapies.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Supports molecular screening and clinical-trial consideration where available. It should not change routine treatment, establish a preferred sequencing strategy, or be represented as an approval until randomized and registrational evidence is available.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate as an emerging signal: the Phase I dataset is peer reviewed with protocol and statistical materials, and the trial registry confirms the program. The larger NSCLC expansion is conference and sponsor reported, single arm, and not yet peer reviewed in the captured sources."
+        ],
+        [
+          "India relevance",
+          "No India trial site, CDSCO authorization, official India price, reimbursement, procurement, named-patient access program, or India launch date for GFH375 or VS-7375 was reported or verified. KRAS G12D testing availability and cost would also affect future access.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Investigational therapy; no official commercial price, India price, molecular-testing price, reimbursement decision, procurement figure, or cost-effectiveness result was reported or verified."
+        ],
+        [
+          "Current limitation",
+          "China-only, open-label, nonrandomized cohorts; small tumor-specific Phase I denominators; no control arm; response estimates are vulnerable to selection and follow-up effects; confidence intervals were not reported in the captured abstract; the Phase I and WCLC cohorts are distinct and should not be pooled; randomized survival benefit and patient-reported outcomes are unknown.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Peer-reviewed Phase II NSCLC results, mature duration and survival follow-up, randomized Kylin-Flight 01 and registration-directed TARGET-D 202 results, broader geographic validation, regulatory submissions and decisions, and any official India trial or access milestone."
+        ],
+        [
+          "Verification note",
+          "Verified from the 15 September 2026 Nature Medicine publication, ClinicalTrials.gov NCT06500676, and GenFleet's WCLC Phase II release. One treatment-related grade 5 septic-shock event and Grade 3 or higher treatment-related adverse events in 36.5% were reported in Phase I; the WCLC update reported greater Grade 3 or higher hepatotoxicity when checkpoint-inhibitor exposure occurred within 90 days (16.7% versus 0%).",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:wclc2026-preserve003-gotistobart-os",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 38,
       "title": "PRESERVE-003 gotistobart survival update",
       "subtitle": "Conference-only Phase III development signal · Metastatic squamous NSCLC after PD-(L)1 inhibitor and platinum chemotherapy · Global randomized trial; presented at IASLC WCLC 2026 in Seoul",
       "organization": "BioNTech; OncoC4; PRESERVE-003 investigators; IASLC WCLC 2026",
@@ -3530,7 +3626,7 @@
       "id": "watchlist:wclc2026-braf-class23-ici-outcomes",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 38,
+      "order": 39,
       "title": "Class II and III BRAF NSCLC immunotherapy outcomes",
       "subtitle": "Biomarker / retrospective outcomes · Metastatic NSCLC with class II or class III BRAF alterations · Multicenter Europe and United States cohorts; presented in Seoul",
       "organization": "Memorial Sloan Kettering Cancer Center; Dana-Farber Cancer Institute; 15 academic centers; IASLC WCLC 2026 investigators",
@@ -3626,7 +3722,7 @@
       "id": "watchlist:wclc2026-sqcc-tumor-budding-grade",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 39,
+      "order": 40,
       "title": "IASLC tumor-budding grade validation in lung SqCC",
       "subtitle": "Pathology / prognostic biomarker · Resected lung squamous cell carcinoma · Republic of Korea single-center cohort; presented in Seoul",
       "organization": "Yonsei University Medical Center investigators; International Association for the Study of Lung Cancer",
@@ -3722,7 +3818,7 @@
       "id": "watchlist:wclc2026-brelt3-mobile-ldct",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 40,
+      "order": 41,
       "title": "BRELT3 mobile lung-cancer screening in Brazil",
       "subtitle": "Screening / care delivery / equity · Lung cancer screening · Four cities in Northeast Brazil",
       "organization": "ProPulmao Institute and BRELT3 investigators; IASLC WCLC 2026",
@@ -3818,7 +3914,7 @@
       "id": "watchlist:wclc2026-destiny-lung04",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 41,
+      "order": 42,
       "title": "DESTINY-Lung04 first-line trastuzumab deruxtecan",
       "subtitle": "Conference-only Phase III treatment strategy · Unresectable locally advanced or metastatic HER2-mutant non-squamous NSCLC · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "AstraZeneca and Daiichi Sankyo; DESTINY-Lung04 investigators; IASLC WCLC 2026",
@@ -3914,7 +4010,7 @@
       "id": "watchlist:wclc2026-rezilient3-zipalertinib",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 42,
+      "order": 43,
       "title": "REZILIENT3 zipalertinib plus chemotherapy",
       "subtitle": "Conference-only Phase III treatment strategy · Previously untreated advanced EGFR exon 20 insertion-positive non-squamous NSCLC · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "Taiho Pharmaceutical, Taiho Oncology, Cullinan Therapeutics, and REZILIENT3 investigators",
@@ -4010,7 +4106,7 @@
       "id": "watchlist:wclc2026-harmoni2-os",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 43,
+      "order": 44,
       "title": "HARMONi-2 ivonescimab overall-survival update",
       "subtitle": "Conference-only Phase III survival update · Treatment-naive PD-L1-positive advanced NSCLC without EGFR or ALK alterations · China; presented in Seoul, Republic of Korea",
       "organization": "Akeso Biopharma; HARMONi-2 investigators; IASLC WCLC 2026",
@@ -4106,7 +4202,7 @@
       "id": "watchlist:wclc2026-maverick-pci",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 44,
+      "order": 45,
       "title": "MAVERICK MRI surveillance versus prophylactic cranial irradiation",
       "subtitle": "Radiotherapy de-escalation / supportive care · Limited-stage or extensive-stage small-cell lung cancer after initial therapy · International SWOG/NCTN trial; presented in Seoul, Republic of Korea",
       "organization": "SWOG Cancer Research Network, US National Clinical Trials Network, and MAVERICK investigators",
@@ -4202,7 +4298,7 @@
       "id": "watchlist:wclc2026-taishan302-tampeli",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 45,
+      "order": 46,
       "title": "TAISHAN-302 tambotatug pelitecan versus topotecan",
       "subtitle": "Conference-only Phase III ADC evidence · Relapsed small-cell lung cancer after first-line therapy · Randomized trial; presented in Seoul, Republic of Korea",
       "organization": "MediLink Therapeutics and TAISHAN-302 investigators",
@@ -4298,7 +4394,7 @@
       "id": "watchlist:wclc2026-artemis008-risrez",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 46,
+      "order": 47,
       "title": "ARTEMIS-008 risvutatug rezetecan versus topotecan",
       "subtitle": "Conference-only Phase III ADC evidence · Relapsed small-cell lung cancer after platinum-based chemotherapy · China; presented in Seoul, Republic of Korea",
       "organization": "Hansoh Pharma, GSK, and ARTEMIS-008 investigators",
@@ -4394,7 +4490,7 @@
       "id": "watchlist:wclc2026-evoke03-negative",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 47,
+      "order": 48,
       "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
       "subtitle": "Negative Phase III evidence · Previously untreated PD-L1-high metastatic NSCLC without EGFR, ALK, or ROS1 alterations · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "Gilead Sciences, Merck & Co., and EVOKE-03 investigators",
@@ -4490,7 +4586,7 @@
       "id": "watchlist:wclc2026-lonestar-negative",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 48,
+      "order": 49,
       "title": "LONESTAR local consolidative therapy after dual immunotherapy",
       "subtitle": "Negative Phase III multimodality evidence · Immunotherapy-naive metastatic NSCLC, including oligometastatic disease · United States; single-center randomized trial presented in Seoul",
       "organization": "MD Anderson Cancer Center and LONESTAR investigators",
@@ -4586,7 +4682,7 @@
       "id": "watchlist:wclc2026-impower030-neutral",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 49,
+      "order": 50,
       "title": "IMpower030 perioperative atezolizumab final analysis",
       "subtitle": "Neutral Phase III perioperative evidence · Resectable stage IIB-IIIB non-small-cell lung cancer · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "Roche/Genentech and IMpower030 investigators",
@@ -4682,7 +4778,7 @@
       "id": "watchlist:tacti004-efti-manufacturing-followup",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 50,
+      "order": 51,
       "title": "TACTI-004 efti manufacturing and futility follow-up",
       "subtitle": "Manufacturing / negative trial follow-up · First-line advanced or metastatic non-small cell lung cancer · Global Phase III trial; India participation authorized",
       "organization": "Immutep Limited; Merck & Co. supplied pembrolizumab; TACTI-004 investigators",
@@ -4778,7 +4874,7 @@
       "id": "watchlist:who-childhood-cancer-prequalification-eoi",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 51,
+      "order": 52,
       "title": "WHO childhood-cancer medicine prequalification invitation",
       "subtitle": "Access / manufacturing / procurement · Childhood cancers · Global, with focus on low- and middle-income countries",
       "organization": "World Health Organization; Global Platform for Access to Childhood Cancer Medicines; GAP-f; St. Jude Children's Research Hospital; UNICEF; PAHO Strategic Fund",
@@ -4874,7 +4970,7 @@
       "id": "watchlist:neoadjuvant-nivolumab-ipilimumab-gbm",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 52,
+      "order": 53,
       "title": "Neoadjuvant nivolumab plus ipilimumab in recurrent glioblastoma",
       "subtitle": "Early randomized surgical-window evidence · Surgically resectable recurrent glioblastoma · United States; four-center trial",
       "organization": "Dana-Farber Cancer Institute-led investigators; UCLA, Stanford, Memorial Sloan Kettering; Bristol Myers Squibb supplied study drugs",
@@ -4970,7 +5066,7 @@
       "id": "watchlist:cervino-etentamig",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 53,
+      "order": 54,
       "title": "CERVINO BCMA bispecific myeloma topline",
       "subtitle": "Press-release-only phase III · Relapsed/refractory multiple myeloma · Global trial; sponsor release from United States",
       "organization": "AbbVie",
@@ -5066,7 +5162,7 @@
       "id": "watchlist:sanovo-savolitinib-osimertinib",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 54,
+      "order": 55,
       "title": "SANOVO first-line EGFR/MET lung-cancer topline",
       "subtitle": "Press-release-only phase III · EGFR-mutated NSCLC with MET overexpression · China",
       "organization": "AstraZeneca; HUTCHMED",
@@ -5162,7 +5258,7 @@
       "id": "watchlist:prostate-cardio-referral",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 55,
+      "order": 56,
       "title": "Routine cardiovascular referral in prostate cancer",
       "subtitle": "Supportive care / care delivery · Prostate cancer · Eight-country trial across 55 sites",
       "organization": "International randomized trial investigators; JAMA Internal Medicine",
@@ -5258,7 +5354,7 @@
       "id": "watchlist:mpower-asia-cancer-model",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 56,
+      "order": 57,
       "title": "MPOWER tobacco control and preventable cancers in Asia",
       "subtitle": "Prevention / public health policy · Thirteen tobacco-related cancers · East and South-East Asia",
       "organization": "Independent investigators using WHO Global Health Observatory and IARC Global Cancer Observatory data; The Lancet Regional Health - Western Pacific",
@@ -5354,7 +5450,7 @@
       "id": "watchlist:bemotrizinol-sunscreen",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 57,
+      "order": 58,
       "title": "Bemotrizinol sunscreen order takes effect",
       "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
       "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
@@ -5450,7 +5546,7 @@
       "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 58,
+      "order": 59,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -5546,7 +5642,7 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 59,
+      "order": 60,
       "title": "RP1 + nivolumab accelerated approval after advisory split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -5642,7 +5738,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 60,
+      "order": 61,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -5738,7 +5834,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 61,
+      "order": 62,
       "title": "Galleri-NHS negative screening signal",
       "subtitle": "Screening · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
@@ -5834,7 +5930,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 62,
+      "order": 63,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -5930,7 +6026,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 63,
+      "order": 64,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -6026,7 +6122,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 64,
+      "order": 65,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -6120,7 +6216,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 131,
+    "sourcesChecked": 133,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,
