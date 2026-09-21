@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-09-17T03:27:37.401Z",
-  "currentEditionId": "2026-09-17",
-  "currentEditionLabel": "17 September 2026",
+  "generatedAt": "2026-09-21T11:06:20.697Z",
+  "currentEditionId": "2026-09-21",
+  "currentEditionLabel": "21 September 2026",
   "editions": [
+    {
+      "id": "2026-09-21",
+      "editionLabel": "21 September 2026",
+      "preparedLabel": "September 21 Morning Edition",
+      "monthKey": "2026-09",
+      "monthLabel": "September 2026",
+      "summary": "FDA granted full approval to the all-oral imlunestrant plus abemaciclib combination for ESR1-mutated ER-positive, HER2-negative advanced or metastatic breast cancer after endocrine therapy. FDA also approved Guardant360 CDx as the companion diagnostic for this combination.",
+      "file": "/data/editions/2026-09-21.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 26,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 31,
+        "verifiedRecords": 68
+      }
+    },
     {
       "id": "2026-09-17",
       "editionLabel": "17 September 2026",
@@ -977,8 +994,29 @@
     {
       "monthKey": "2026-09",
       "monthLabel": "September 2026",
-      "leadEditionId": "2026-09-17",
+      "leadEditionId": "2026-09-21",
       "highlights": [
+        {
+          "editionId": "2026-09-21",
+          "editionLabel": "21 September 2026",
+          "tag": "Latest verified approval",
+          "title": "Imlunestrant + Abemaciclib for ESR1-Mutated Breast Cancer",
+          "summary": "FDA full approval 18 September 2026"
+        },
+        {
+          "editionId": "2026-09-21",
+          "editionLabel": "21 September 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-09-21",
+          "editionLabel": "21 September 2026",
+          "tag": "Primary endpoints not met",
+          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
+          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
+        },
         {
           "editionId": "2026-09-17",
           "editionLabel": "17 September 2026",
@@ -999,27 +1037,6 @@
           "tag": "Highest-impact treatment pool",
           "title": "Daraxonrasib for Metastatic PDAC",
           "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-09-17",
-          "editionLabel": "17 September 2026",
-          "tag": "Primary endpoints not met",
-          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
-          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
-        },
-        {
-          "editionId": "2026-09-16",
-          "editionLabel": "16 September 2026",
-          "tag": "WHO 2026-2030 strategy",
-          "title": "WHO childhood-cancer medicines market-shaping strategy",
-          "summary": "Reliable supply and affordable, quality-assured formulations determine whether children can complete curative treatment. The strategy moves WHO's earlier prequalification invitation into a broader procurement and market-design plan, but impact depends on funded implementation and measurable country delivery."
-        },
-        {
-          "editionId": "2026-09-16",
-          "editionLabel": "16 September 2026",
-          "tag": "Latest verified approval",
-          "title": "Sevabertinib for First-Line HER2-Mutant NSCLC",
-          "summary": "FDA first-line indication expansion 9 September 2026"
         }
       ]
     },

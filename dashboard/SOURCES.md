@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-17
+Updated: 2026-09-21
 
 ## Method
 
@@ -74,8 +74,32 @@ Updated: 2026-09-17
 - The 2026-09-15 catch-up review added nine WCLC 2026 Phase III records after complete authoritative result releases became available: positive MAVERICK, TAISHAN-302, ARTEMIS-008, HARMONi-2, DESTINY-Lung04, and REZILIENT3 results, plus negative EVOKE-03 and LONESTAR and neutral IMpower030 evidence. Every record remains labeled conference-only and retains unresolved regulatory, pricing, India-access, and publication milestones.
 - The 2026-09-16 review added four WCLC closing-day evidence records, added WHO's 2026-2030 childhood-cancer medicine market strategy, and updated the existing WHO prequalification and FDA TrialBlazer records after new implementation details became official. No record is represented as an approval or completed access improvement.
 - The 2026-09-17 review added one catch-up emerging-signal record for GFH375 after peer-reviewed Phase I publication and a separate sponsor-reported Phase II NSCLC expansion became visible. The two cohorts remain explicitly separated, single arm, and investigational.
+- The 2026-09-21 review found no material 20-21 September item but completed a catch-up because the live archive had stopped on 17 September. It added FDA's 18 September full approval of imlunestrant plus abemaciclib in ESR1-mutated advanced breast cancer and an EMA CHMP package record covering three oncology new-medicine opinions, a pertuzumab biosimilar opinion, and the trilaciclib application withdrawal.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-21 Verified Updates and Review Checks
+
+- FDA full-approval notice for imlunestrant plus abemaciclib; source for the indication, Guardant360 CDx companion-diagnostic action, EMBER-3 design, ESR1-mutated subgroup PFS and response estimates, immature OS, safety warnings, and dosing
+  https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-imlunestrant-combination-abemaciclib-er-positive-her2-negative-esr1-mutated-advanced-or
+- Eli Lilly approval release and ClinicalTrials.gov EMBER-3 record; secondary checks for the full-approval characterization, study identity, global randomized design, dosing, and safety context
+  https://investor.lilly.com/news-releases/news-release-details/us-fda-approves-inluriyo-imlunestrant-combination-verzenio
+  https://clinicaltrials.gov/study/NCT04975308
+- EMA September CHMP meeting highlights and product pages; source for the positive opinions and exact proposed indications for Gevalka/ensartinib, Lifyorli/relacorilant plus nab-paclitaxel, Sepalna/senaparib, and Pebrilzo/pertuzumab, and for the 22 July applicant withdrawal of Zinmyleo/trilaciclib plus EMA's unresolved efficacy and chemotherapy-interference concerns
+  https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026
+  https://www.ema.europa.eu/en/medicines/human/EPAR/gevalka
+  https://www.ema.europa.eu/en/medicines/human/EPAR/sepalna
+  https://www.ema.europa.eu/en/medicines/human/EPAR/zinmyleo
+- FDA oncology approval and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, major-journal publication surfaces, ClinicalTrials.gov, and targeted sponsor sources were rechecked. No additional 20-21 September approval, withdrawal, safety restriction, official price/procurement action, India-access milestone, or sufficiently mature trial result cleared promotion.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-09-17 Verified Update and Review Checks
 

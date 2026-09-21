@@ -1,5 +1,15 @@
 # Dashboard Changelog
 
+## 2026-09-21 - FDA Imlunestrant Combination and EMA CHMP Catch-Up
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 21 September run and performed a catch-up review because the published archive had not advanced beyond 17 September.
+- Added `Imlunestrant + Abemaciclib for ESR1-Mutated Breast Cancer` after FDA granted full approval on 18 September for adults with ER-positive, HER2-negative, ESR1-mutated locally advanced or metastatic breast cancer progressing after endocrine therapy. FDA also authorized Guardant360 CDx as the companion diagnostic.
+- Captured the EMBER-3 exploratory 159-patient ESR1-mutated subgroup: median PFS 11.1 versus 5.5 months, HR 0.53 (95% CI 0.35-0.80), and ORR 35% versus 15% for the combination versus imlunestrant alone. Preserved immature OS, the exploratory subgroup status, safety warnings, and the absence of a comparison with other active combination regimens.
+- Added a reusable `EMA September 2026 oncology CHMP package` systems record covering positive opinions for Gevalka/ensartinib, Lifyorli/relacorilant plus nab-paclitaxel, Sepalna/senaparib, and pertuzumab biosimilar Pebrilzo, plus withdrawal of the Zinmyleo/trilaciclib initial marketing-authorisation application.
+- Explicitly distinguished CHMP opinions from final European Commission authorizations and the applicant's 22 July trilaciclib withdrawal from a refusal, safety withdrawal, or final negative opinion. EMA's provisional concerns about meaningful myeloprotection and possible interference with chemotherapy efficacy were captured without inferring unreported effect sizes, prices, or reimbursement outcomes.
+- Rechecked FDA oncology approvals and accelerated-approval tracking, EMA, CDSCO, WHO/IARC, major-journal publication surfaces, ClinicalTrials.gov, and targeted official sponsor sources. No additional 20-21 September approval, withdrawal, safety restriction, pricing/procurement action, India-access milestone, or sufficiently mature trial result cleared promotion.
+- No scoring, filter, navigation, or layout redesign was required. Added shared portfolio aliases for the new treatment and CHMP products, refreshed the stale watchlist review-date label, rolled the visible briefing and archive forward to the September 21 Morning Edition, and did not modify the detailed Word report.
+
 ## 2026-09-17 - GFH375 KRAS G12D Signal Added
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, registries, journals, sponsor disclosures, SIOP 2026, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing, procurement, and systems evidence.

@@ -1,5 +1,33 @@
 const treatments = [
   {
+    id: "imlunestrant-abemaciclib-esr1", short: "Inluriyo + Verzenio", name: "Imlunestrant + Abemaciclib for ESR1-Mutated Breast Cancer", cancer: "Breast cancer",
+    setting: "ER-positive, HER2-negative, ESR1-mutated locally advanced or metastatic breast cancer after at least one line of endocrine therapy", company: "Eli Lilly and Company", phase: "Phase III; FDA approved",
+    impact: "High in biomarker-selected disease", impactGroup: "high", maturity: 99, impactScore: 90,
+    eventDate: "2026-09-18",
+    headline: "PFS 11.1 vs 5.5 months", headlineNote: "Exploratory ESR1-mutated subgroup; HR 0.53 (95% CI 0.35-0.80)",
+    benefit: "FDA granted full approval to the all-oral imlunestrant plus abemaciclib combination for ESR1-mutated ER-positive, HER2-negative advanced or metastatic breast cancer after endocrine therapy. FDA also approved Guardant360 CDx as the companion diagnostic for this combination.",
+    safety: "Imlunestrant labeling warns of embryo-fetal toxicity. Abemaciclib labeling includes diarrhea, neutropenia, interstitial lung disease or pneumonitis, hepatotoxicity, venous thromboembolism, and embryo-fetal toxicity. Lilly reports serious adverse reactions in 21% and fatal adverse reactions in 3.8% of combination-treated patients at 29 months; attribution and event-level context require the full label.",
+    cost: "Branded oral endocrine and CDK4/6 combination; official US list price not verified in this pass", indiaPrice: "No official India price for imlunestrant, combination price, reimbursement decision, procurement figure, patient-assistance terms, or cost-effectiveness result was reported or verified.",
+    indiaStatus: "not-launched", indiaLabel: "US approved; India unverified", launch: "FDA full approval 18 September 2026",
+    indiaCaveat: "No CDSCO authorization for imlunestrant or this combination, official India launch date, price, reimbursement, procurement pathway, or locally authorized ESR1 companion-diagnostic pathway was verified.",
+    limitations: "The FDA-approved biomarker subgroup analysis included 159 patients and was exploratory. The comparison was imlunestrant plus abemaciclib versus imlunestrant alone, not versus fulvestrant plus a CDK4/6 inhibitor or chemotherapy. Overall-survival data were immature with 35% of deaths at interim analysis, and cross-trial comparisons with other oral SERDs are inappropriate.",
+    detailSections: [
+      ["Event date / geography", "18 September 2026 FDA full approval - United States.", "wide"],
+      ["Population / sample", "EMBER-3 enrolled 874 adults with ER-positive, HER2-negative locally advanced or metastatic breast cancer previously treated with an aromatase inhibitor alone or with a CDK4/6 inhibitor. The approval-relevant exploratory ESR1-mutated combination subgroup included 159 patients.", "wide"],
+      ["Comparator", "Imlunestrant plus abemaciclib versus imlunestrant monotherapy within a randomized, open-label, active-controlled Phase III trial.", "wide"],
+      ["Endpoints", "Investigator-assessed progression-free survival under RECIST v1.1; additional outcomes included overall survival and objective response rate.", "wide"],
+      ["Effect size detail", "In the ESR1-mutated subgroup, median PFS was 11.1 months (95% CI 7.4-13.7) with the combination and 5.5 months (95% CI 3.8-7.2) with imlunestrant alone; HR 0.53 (95% CI 0.35-0.80). ORR was 35% (95% CI 22-48) versus 15% (95% CI 7-23). OS remained immature.", "wide"],
+      ["Dose / administration", "Imlunestrant 400 mg orally once daily on an empty stomach plus abemaciclib 150 mg orally twice daily until progression or unacceptable toxicity.", "wide"],
+      ["Regulatory status", "FDA full approval with Guardant360 CDx authorized as the companion diagnostic. No EMA authorization, CDSCO authorization, official India price, reimbursement, procurement action, or India launch was verified in this pass.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-imlunestrant-combination-abemaciclib-er-positive-her2-negative-esr1-mutated-advanced-or",
+    sourceLabel: "FDA approval notice",
+    supportingSources: [
+      { label: "Lilly approval release", url: "https://investor.lilly.com/news-releases/news-release-details/us-fda-approves-inluriyo-imlunestrant-combination-verzenio" },
+      { label: "ClinicalTrials.gov EMBER-3 registry", url: "https://clinicaltrials.gov/study/NCT04975308" }
+    ]
+  },
+  {
     id: "neocarhp", short: "neoCARHP", name: "Carboplatin De-escalation", cancer: "Breast cancer",
     setting: "Early HER2-positive", company: "Roche + generic manufacturers", phase: "Phase III",
     impact: "High, pending survival", impactGroup: "high", maturity: 95, impactScore: 84,
@@ -835,6 +863,34 @@ const followupDetails = {
 asco2025Followup.forEach(item => Object.assign(item, followupDetails[item.id]));
 
 const watchlistSignals = [
+  {
+    id: "ema-september-2026-oncology-chmp-package",
+    title: "EMA September 2026 oncology CHMP package",
+    short: "September CHMP oncology package",
+    category: "Regulatory policy / market authorization",
+    status: "systems",
+    statusLabel: "Positive opinions and one withdrawal",
+    geography: "European Union; European Commission decisions pending",
+    date: "18 September 2026",
+    cancer: "ALK-positive advanced NSCLC; platinum-resistant and advanced high-grade ovarian cancers; HER2-positive breast cancer; chemotherapy-associated myelosuppression in extensive-stage SCLC",
+    issue: "EMA's September CHMP meeting produced several material oncology recommendations and one withdrawal that should not be conflated with final EU marketing authorizations.",
+    organization: "European Medicines Agency CHMP; SFL Pharmaceuticals Deutschland; Corcept Therapeutics Netherlands; Biosimilar Collaborations Ireland; Pharmacosmos",
+    population: "Adults with ALK-positive advanced NSCLC; adults with platinum-resistant high-grade epithelial ovarian, fallopian-tube, or primary-peritoneal cancer after one to three prior regimens; patients eligible for maintenance treatment of advanced high-grade ovarian, fallopian-tube, or primary-peritoneal cancer; adults with breast cancer eligible for pertuzumab; and patients receiving certain chemotherapy for extensive-stage SCLC.",
+    comparator: "No single comparator applies to this regulatory package. The captured CHMP highlights summarize regulatory opinions and a withdrawal rather than one comparative clinical study.",
+    endpoint: "CHMP recommendation or application status: positive opinions for Gevalka (ensartinib), Lifyorli (relacorilant plus nab-paclitaxel), Sepalna (senaparib), and pertuzumab biosimilar Pebrilzo; withdrawal of the Zinmyleo (trilaciclib) initial marketing-authorisation application.",
+    effect: "The CHMP recommended three new oncology medicines and the first biosimilar assessed through the tailored clinical approach. Pharmacosmos had withdrawn trilaciclib's application on 22 July 2026; EMA later stated that unresolved issues included insufficient evidence of a meaningful myeloprotection benefit and insufficient reassurance that trilaciclib would not interfere with chemotherapy's anticancer activity. Product-level effect sizes and confidence intervals were not reported in the captured CHMP summaries and are not inferred here.",
+    whyMatters: "The opinions could expand targeted lung-cancer, ovarian-cancer, and HER2-biosimilar options after European Commission decisions. The trilaciclib withdrawal removes an expected EU regulatory pathway for supportive care unless a new application is filed.",
+    whoAffected: "Patients, oncologists, pharmacy and procurement teams, payers, regulators, manufacturers, and biomarker-testing programs across the European Economic Area; India stakeholders may also monitor biosimilar and global development implications.",
+    decisionImpact: "European stakeholders can prepare for possible Commission authorizations but should not prescribe or procure on the basis of CHMP opinion alone. The trilaciclib withdrawal should be reflected in development tracking and not represented as a safety withdrawal or final negative CHMP opinion; EMA's provisional concerns remain material to any future refiling.",
+    evidenceStrength: "High for the regulatory statuses and named indications because they are reported by EMA. Clinical-effect magnitude, detailed safety, pricing, reimbursement, and implementation evidence were not provided in the captured meeting highlights.",
+    limitations: "Positive CHMP opinions remain pending European Commission decisions; exact final labels can change. The composite record does not replace product-specific assessment reports. Detailed clinical datasets, product-level effect sizes and confidence intervals, prices, and country reimbursement decisions were not reported in the captured summaries. Zinmyleo's withdrawal occurred on 22 July and was republished in the September meeting package rather than being a new 18 September withdrawal event.",
+    indiaImpact: "No CDSCO authorization, India filing, official India price, procurement award, reimbursement decision, local biosimilar action, or India launch date for these products was reported or verified. EMA opinions do not create Indian authorization.",
+    cost: "No official EU list price, negotiated reimbursement, tender value, biosimilar discount, India price, procurement figure, or cost-effectiveness result was reported in the captured EMA material.",
+    nextMilestone: "European Commission decisions and final product information for Gevalka, Lifyorli, Sepalna, and Pebrilzo; product-specific assessment reports; any refiled trilaciclib application; national pricing and reimbursement decisions; and any CDSCO or India-access milestone.",
+    verification: "Verified from EMA's 18 September 2026 CHMP meeting highlights, Gevalka and Sepalna positive-opinion pages, and the Zinmyleo withdrawal page. This record distinguishes positive opinions from final authorizations and an applicant withdrawal from a refusal, safety withdrawal, or final negative opinion.",
+    source: "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
+    secondarySource: "https://www.ema.europa.eu/en/medicines/human/EPAR/zinmyleo"
+  },
   {
     id: "who-childhood-cancer-market-strategy-2026",
     title: "WHO childhood-cancer medicines market-shaping strategy",
@@ -1750,6 +1806,8 @@ const portfolioAliasRules = [
   { match: /nivolumab/i, aliases: ["Opdivo"] },
   { match: /pembrolizumab/i, aliases: ["Keytruda"] },
   { match: /sevabertinib|hyrnuo|soho-01/i, aliases: ["Hyrnuo", "BAY 2927088", "SOHO-01", "HER2", "ERBB2"] },
+  { match: /imlunestrant|inluriyo|ember-3/i, aliases: ["Inluriyo", "EMBER-3", "ESR1", "Guardant360 CDx", "Verzenio"] },
+  { match: /ema september 2026 oncology chmp|gevalka|ensartinib|lifyorli|relacorilant|sepalna|senaparib|pebrilzo|zinmyleo|trilaciclib/i, aliases: ["CHMP", "Gevalka", "Ensartinib", "Lifyorli", "Relacorilant", "Sepalna", "Senaparib", "Pebrilzo", "Zinmyleo", "Trilaciclib"] },
   { match: /anbenitamab|hb1801|kn026|erbb2/i, aliases: ["KN026", "HB1801", "ERBB2"] },
   { match: /etentamig|cervino|bcma/i, aliases: ["CERVINO", "BCMA", "ABBV-383"] },
   { match: /gedatolisib|revtorpyk/i, aliases: ["Revtorpyk"] },

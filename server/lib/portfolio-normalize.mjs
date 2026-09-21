@@ -2,6 +2,8 @@ const portfolioAliasRules = [
   { match: /nivolumab/i, aliases: ["Opdivo"] },
   { match: /pembrolizumab/i, aliases: ["Keytruda"] },
   { match: /sevabertinib|hyrnuo|soho-01/i, aliases: ["Hyrnuo", "BAY 2927088", "SOHO-01", "HER2", "ERBB2"] },
+  { match: /imlunestrant|inluriyo|ember-3/i, aliases: ["Inluriyo", "EMBER-3", "ESR1", "Guardant360 CDx", "Verzenio"] },
+  { match: /ema september 2026 oncology chmp|gevalka|ensartinib|lifyorli|relacorilant|sepalna|senaparib|pebrilzo|zinmyleo|trilaciclib/i, aliases: ["CHMP", "Gevalka", "Ensartinib", "Lifyorli", "Relacorilant", "Sepalna", "Senaparib", "Pebrilzo", "Zinmyleo", "Trilaciclib"] },
   { match: /anbenitamab|hb1801|kn026|erbb2/i, aliases: ["KN026", "HB1801", "ERBB2"] },
   { match: /etentamig|cervino|bcma/i, aliases: ["CERVINO", "BCMA", "ABBV-383"] },
   { match: /gedatolisib|revtorpyk/i, aliases: ["Revtorpyk"] },
