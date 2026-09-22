@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-21
+Updated: 2026-09-22
 
 ## Method
 
@@ -75,8 +75,30 @@ Updated: 2026-09-21
 - The 2026-09-16 review added four WCLC closing-day evidence records, added WHO's 2026-2030 childhood-cancer medicine market strategy, and updated the existing WHO prequalification and FDA TrialBlazer records after new implementation details became official. No record is represented as an approval or completed access improvement.
 - The 2026-09-17 review added one catch-up emerging-signal record for GFH375 after peer-reviewed Phase I publication and a separate sponsor-reported Phase II NSCLC expansion became visible. The two cohorts remain explicitly separated, single arm, and investigational.
 - The 2026-09-21 review found no material 20-21 September item but completed a catch-up because the live archive had stopped on 17 September. It added FDA's 18 September full approval of imlunestrant plus abemaciclib in ESR1-mutated advanced breast cancer and an EMA CHMP package record covering three oncology new-medicine opinions, a pertuzumab biosimilar opinion, and the trilaciclib application withdrawal.
+- The 2026-09-22 review added the peer-reviewed, prematurely closed ADVANCE randomized Phase III signal for aumolertinib plus radiotherapy in unresectable EGFR-mutated stage III NSCLC. The record preserves the large PFS estimate while emphasizing the 43-patient sample, outdated control, immature OS, early closure, China-only population, and unresolved India authorization.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-22 Verified Update and Review Checks
+
+- Peer-reviewed ADVANCE Phase III publication; source for the randomized design, 43-patient population, treatment sequence, PFS and OS estimates, response, safety, quality of life, early termination, real-world cohort, and limitations
+  https://www.nature.com/articles/s41392-026-02891-2
+- Chinese Clinical Trial Registry ChiCTR2000040590; source for prospective registration, Phase III design, population, interventions, primary endpoint, sponsor/investigator identity, and original study plan
+  https://www.chictr.org.cn/showprojEN.html?proj=65006
+- ASCO 2025 ADVANCE abstract; secondary check for the randomized efficacy, safety, and real-world-cohort findings reported before full peer-reviewed publication
+  https://ascopubs.org/doi/10.1200/JCO.2025.43.16_suppl.8048
+- CDSCO oncology SEC recommendation dated 7 April 2026; source for the India proposal to manufacture and market aumolertinib 55 mg, the committee's decision not to support the Phase III waiver at that stage, and requested Southeast Asian subset data and structured Phase IV protocol
+  https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadCommitteeFiles/Recommendations%20Oncology%2007.04.2026.pdf
+- FDA oncology approval and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, major-journal publication surfaces, ClinicalTrials.gov, and targeted sponsor sources were rechecked. The 18 September Inluriyo plus Verzenio action remained the newest FDA oncology approval; no additional 21-22 September approval, withdrawal, safety restriction, official price/procurement action, or India-access milestone cleared promotion.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
 
 ## 2026-09-21 Verified Updates and Review Checks
 

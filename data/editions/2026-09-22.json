@@ -1,0 +1,94 @@
+{
+  "id": "2026-09-22",
+  "editionLabel": "22 September 2026",
+  "preparedLabel": "September 22 Morning Edition",
+  "monthKey": "2026-09",
+  "monthLabel": "September 2026",
+  "summary": "A chemotherapy-free targeted-radiotherapy strategy could reduce hematologic and gastrointestinal burden while preserving curative-intent local treatment for a molecularly defined stage III population. The result is hypothesis-strengthening rather than practice-defining because its precision and external validity are limited.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 26,
+    "followupApprovals": 7,
+    "indiaMarketed": 4,
+    "watchlistSignals": 32,
+    "verifiedRecords": 69
+  },
+  "headlines": [
+    {
+      "tag": "Peer-reviewed early-stopped Phase III",
+      "title": "ADVANCE aumolertinib plus radiotherapy",
+      "summary": "A chemotherapy-free targeted-radiotherapy strategy could reduce hematologic and gastrointestinal burden while preserving curative-intent local treatment for a molecularly defined stage III population. The result is hypothesis-strengthening rather than practice-defining because its precision and external validity are limited."
+    },
+    {
+      "tag": "Latest verified approval",
+      "title": "Imlunestrant + Abemaciclib for ESR1-Mutated Breast Cancer",
+      "summary": "FDA full approval 18 September 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+    },
+    {
+      "tag": "Primary endpoints not met",
+      "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
+      "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "imlunestrant-abemaciclib-esr1"
+      },
+      "title": "Imlunestrant + Abemaciclib for ESR1-Mutated Breast Cancer",
+      "subtitle": "FDA full approval 18 September 2026",
+      "date": 1789689600000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "daraxonrasib-rasonque"
+      },
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "subtitle": "Phase III; FDA approved · US approved; India unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "ema-september-2026-oncology-chmp-package"
+      },
+      "title": "EMA September 2026 oncology CHMP package",
+      "subtitle": "Positive opinions and one withdrawal",
+      "date": 0
+    }
+  ],
+  "sourceCount": 69,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "imlunestrant-abemaciclib-esr1"
+      },
+      "title": "Imlunestrant + Abemaciclib for ESR1-Mutated Breast Cancer",
+      "subtitle": "FDA full approval 18 September 2026",
+      "date": 1789689600000
+    }
+  }
+}

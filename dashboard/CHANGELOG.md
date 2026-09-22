@@ -1,5 +1,16 @@
 # Dashboard Changelog
 
+## 2026-09-22 - ADVANCE Chemotherapy-Free Stage III EGFR NSCLC Signal Added
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 22 September run across regulators, registries, peer-reviewed journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing, procurement, and systems evidence.
+- Added `ADVANCE aumolertinib plus radiotherapy` after the randomized Phase III report was published on 21 September. The chemotherapy-free strategy used nine weeks of induction aumolertinib, concurrent aumolertinib plus definitive radiotherapy, and aumolertinib consolidation versus platinum-based concurrent chemoradiotherapy.
+- Captured the 43-patient intention-to-treat result: median PFS 34.0 versus 7.4 months, HR 0.15 (95% CI 0.06-0.38; p<0.001); median OS not reached versus 30.5 months, HR 0.32 with p=0.09; and ORR 70.8% versus 63.2% (p=0.75).
+- Preserved the main safety findings: no grade 4-5 events, one grade 3 radiation-esophagitis event and one grade 3 radiation-pneumonitis event with the experimental strategy, more neutropenia and nausea with chemoradiotherapy, and better reported quality of life with the experimental arm.
+- Explicitly labeled the severe evidence constraints: 43 of 98 planned patients randomized, early closure outside a prespecified efficacy-stopping framework, open-label China-only design, immature OS, crossover, nonrandomized real-world validation, and a control arm that did not include the later LAURA osimertinib-consolidation standard. The result is not represented as a new standard or approval.
+- Added direct India context from CDSCO's April 2026 oncology SEC review of Glenmark's aumolertinib 55 mg proposal. The committee did not support a Phase III waiver at that stage and requested Southeast Asian subset data and a structured Phase IV protocol; no CDSCO authorization, official India price, reimbursement, procurement, or launch date was inferred.
+- Rechecked FDA oncology approvals and accelerated-approval tracking, EMA, CDSCO, WHO/IARC, major-journal publication surfaces, ClinicalTrials.gov, and targeted official sponsor sources. The FDA's 18 September Inluriyo plus Verzenio approval remained the newest oncology approval, and no additional 21-22 September approval, withdrawal, safety restriction, price/procurement action, or India-access milestone cleared promotion.
+- No scoring, filter, navigation, or layout redesign was required. Added shared ADVANCE/aumolertinib search aliases, rolled the visible briefing and archive forward to the September 22 Morning Edition, and did not modify the detailed Word report.
+
 ## 2026-09-21 - FDA Imlunestrant Combination and EMA CHMP Catch-Up
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 21 September run and performed a catch-up review because the published archive had not advanced beyond 17 September.
