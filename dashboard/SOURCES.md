@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 ## Method
 
@@ -76,8 +76,34 @@ Updated: 2026-09-22
 - The 2026-09-17 review added one catch-up emerging-signal record for GFH375 after peer-reviewed Phase I publication and a separate sponsor-reported Phase II NSCLC expansion became visible. The two cohorts remain explicitly separated, single arm, and investigational.
 - The 2026-09-21 review found no material 20-21 September item but completed a catch-up because the live archive had stopped on 17 September. It added FDA's 18 September full approval of imlunestrant plus abemaciclib in ESR1-mutated advanced breast cancer and an EMA CHMP package record covering three oncology new-medicine opinions, a pertuzumab biosimilar opinion, and the trilaciclib application withdrawal.
 - The 2026-09-22 review added the peer-reviewed, prematurely closed ADVANCE randomized Phase III signal for aumolertinib plus radiotherapy in unresectable EGFR-mutated stage III NSCLC. The record preserves the large PFS estimate while emphasizing the 43-patient sample, outdated control, immature OS, early closure, China-only population, and unresolved India authorization.
+- The 2026-09-23 review upgraded the NHS-Galleri record with peer-reviewed three-round performance evidence while preserving the negative randomized clinical-utility primary endpoint, and added the peer-reviewed EAGLE noncontrast-CT esophageal-cancer diagnostic signal with its retrospective, follow-up, implementation, and patient-outcome limitations.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-23 Verified Updates and Review Checks
+
+- Nature Medicine NHS-Galleri publication; primary source for the prespecified intervention-arm performance analysis across three annual rounds, randomized denominator, positivity and cancer-detection rates, PPV, NPV, specificity, episode sensitivity, cancer-signal-origin accuracy, sponsor role, and unresolved outcomes
+  https://www.nature.com/articles/s41591-026-04652-8
+- ASCO LBA100 NHS-Galleri abstract; source for the separate randomized clinical-utility primary result, stage III-IV incidence-rate ratio, stage IV secondary result, early-stage increase, and related adverse-event summary
+  https://ascopubs.org/doi/10.1200/JCO.2026.44.17_suppl.LBA100
+- ClinicalTrials.gov NHS-Galleri record; source for the randomized, participant- and endpoint-assessor-masked design, study population, intervention, primary endpoint, and registry status
+  https://clinicaltrials.gov/study/NCT05611632
+- Nature Medicine PATHFINDER 2 publication and registry; supporting single-arm context for MCED detection rate, PPV, specificity, episode sensitivity, invasive follow-up procedures, and safety. This study was not added as a separate dashboard record because it does not establish population clinical utility.
+  https://www.nature.com/articles/s41591-026-04618-w
+  https://clinicaltrials.gov/study/NCT05155605
+- Nature Medicine EAGLE publication; primary source for the 80,612-person multicohort program, noncontrast and low-dose CT performance, prospective hospital validation, false-positive calibration, reader analysis, paired CT-endoscopy findings, registry identifier ChiCTR2300074806, and reported limitations
+  https://www.nature.com/articles/s41591-026-04656-4
+- FDA oncology approval and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, major-journal publication surfaces, ClinicalTrials.gov, and targeted official sources were rechecked. The 18 September Inluriyo plus Verzenio action remained the newest FDA oncology approval; no additional 22-23 September approval, withdrawal, safety restriction, official price/procurement action, or India-access milestone cleared promotion.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
+- Early-phase HERBOT biliary-tract evidence, a descriptive metastatic-breast-cancer cfDNA landscape study, result-free conference previews, reviews, and preclinical reports were considered but not promoted because they did not clear the same-window materiality and decision-relevance threshold. No item was excluded because of taxonomy fit.
 
 ## 2026-09-22 Verified Update and Review Checks
 
@@ -1621,10 +1647,15 @@ Updated: 2026-09-22
   Source: https://www.theguardian.com/society/2026/may/29/groundbreaking-genomic-test-spare-breast-cancer-patients-chemotherapy-hormone-therapy
   Secondary check: https://www.theguardian.com/society/2026/may/29/breast-cancer-chemotherapy-genomic-test-case-study
 
-- Galleri-NHS negative screening signal
-  Conference-only; direct abstract capture pending in this pass.
-  Source: https://www.theguardian.com/science/2026/may/30/trial-of-multi-cancer-blood-test-among-142000-nhs-patients-fails-to-meet-main-aim
-  Secondary check: https://www.businessinsider.com/multi-cancer-blood-test-does-grail-galleri-work-to-spot-cancer-early-2026-5
+- NHS-Galleri randomized MCED screening
+  Peer-reviewed intervention-arm performance analysis; the randomized primary clinical-utility result remains conference-reported and negative.
+  Source: https://www.nature.com/articles/s41591-026-04652-8
+  Randomized result: https://ascopubs.org/doi/10.1200/JCO.2026.44.17_suppl.LBA100
+  Registry: https://clinicaltrials.gov/study/NCT05611632
+
+- EAGLE AI esophageal-cancer detection on noncontrast CT
+  Peer-reviewed multicohort diagnostic validation; not a randomized patient-outcome or mortality trial.
+  Source: https://www.nature.com/articles/s41591-026-04656-4
 
 - Durvalumab bladder-preservation signal
   Conference-only phase II; direct abstract capture pending in this pass.

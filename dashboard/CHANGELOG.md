@@ -1,5 +1,17 @@
 # Dashboard Changelog
 
+## 2026-09-23 - Galleri Evidence Upgrade and EAGLE CT Screening Signal Added
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 23 September run across regulators, registries, peer-reviewed journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing, procurement, and systems evidence.
+- Upgraded the existing `NHS-Galleri randomized MCED screening` record after Nature Medicine published the prespecified three-round intervention-arm performance analysis. Captured 142,250 randomized participants, 937 MCED-detected primary cancers, aggregate PPV of 52.0%, specificity of 99.50%-99.60%, and declining episode sensitivity of 37.2%, 27.1%, and 26.7% across rounds.
+- Kept test performance separate from clinical utility. The ASCO LBA100 randomized result did not meet the combined stage III-IV primary endpoint: 706 versus 688 cancers, IRR 1.03 (95% CI 0.92-1.14; p=0.6324). The 14% stage IV reduction, IRR 0.86 (95% CI 0.744-0.998), remains a secondary hypothesis-generating finding rather than proof of screening benefit.
+- Added `EAGLE AI esophageal-cancer detection on noncontrast CT` as a peer-reviewed diagnostic watchlist signal. Across a reported 80,612-person multicohort program, external-test cancer sensitivity was 90.0% with 98.5% specificity, prospective hospital PPV was 42.2%, and real-world low-dose CT specificity was 99.94%.
+- Preserved the EAGLE evidence limits: much of the evidence was retrospective, endoscopy adherence was incomplete, prospective follow-up was under two years, and no randomized patient-outcome, mortality, interval-cancer, overdiagnosis, downstream-harm, implementation, or cost-effectiveness result was established.
+- No India cohort, local workflow validation, CDSCO or ICMR adoption, official India price, reimbursement, procurement action, or announced launch was verified for either technology. No such values or dates were inferred.
+- Reviewed PATHFINDER 2 as supporting single-arm MCED performance and safety evidence but did not add a duplicative dashboard record because it does not resolve the NHS-Galleri clinical-utility question. Early-phase, descriptive, preclinical, review, and result-free preview items were not promoted.
+- Rechecked FDA oncology approvals and accelerated-approval tracking, EMA, CDSCO, WHO/IARC, major-journal publication surfaces, ClinicalTrials.gov, and targeted official sources. The FDA's 18 September Inluriyo plus Verzenio action remained the newest oncology approval; no additional 22-23 September approval, withdrawal, safety restriction, official price/procurement action, or India-access milestone cleared promotion.
+- No scoring, filter, navigation, or layout redesign was required because the existing watchlist supports negative screening evidence and diagnostic-validation signals with explicit limitations. Added shared Galleri, MCED, EAGLE, and registry search aliases, rolled the visible briefing and archive forward to the September 23 Morning Edition, and did not modify the detailed Word report.
+
 ## 2026-09-22 - ADVANCE Chemotherapy-Free Stage III EGFR NSCLC Signal Added
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 22 September run across regulators, registries, peer-reviewed journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing, procurement, and systems evidence.

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T05:07:13.479Z",
+  "generatedAt": "2026-09-23T04:57:29.847Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -6140,19 +6140,19 @@
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
       "order": 65,
-      "title": "Galleri-NHS negative screening signal",
-      "subtitle": "Screening · Multiple cancers · United Kingdom",
+      "title": "NHS-Galleri randomized MCED screening",
+      "subtitle": "Screening / diagnostics · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL",
-      "snapshot": "Negative trial · 30 May 2026",
-      "summary": "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public.",
-      "headline": "Conference coverage reported no statistically significant reduction in the combined stage III-IV primary endpoint, although stage IV diagnoses alone reportedly fell by 14%.",
-      "statusLabel": "Negative trial",
+      "snapshot": "Peer-reviewed performance; negative primary endpoint · 22 September 2026",
+      "summary": "This is the largest randomized population test of blood-based multi-cancer screening. Strong specificity and cancer-signal localization do not establish clinical benefit, and the negative primary endpoint should prevent test performance from being presented as proof that routine screening improves outcomes.",
+      "headline": "The randomized primary endpoint was not met: 706 versus 688 stage III-IV cancers across 12 prespecified types, IRR 1.03 (95% CI 0.92-1.14; p=0.6324). Stage IV diagnoses were 342 versus 397, a 14% secondary reduction (IRR 0.86; 95% CI 0.744-0.998). The peer-reviewed intervention-arm analysis reported 937 MCED-detected primary cancers, aggregate PPV 52.0%, specificity 99.50%-99.60%, and episode sensitivity of 37.2%, 27.1%, and 26.7% across rounds 1-3.",
+      "statusLabel": "Peer-reviewed performance; negative primary endpoint",
       "badges": [
-        "Negative trial",
-        "Screening",
+        "Peer-reviewed performance; negative primary endpoint",
+        "Screening / diagnostics",
         "United Kingdom"
       ],
-      "searchText": "galleri-nhs negative screening signal galleri-nhs screening multiple cancers united kingdom nhs england + grail galleri mced blood test added to routine screening conference coverage reported no statistically significant reduction in the combined stage iii-iv primary endpoint, although stage iv diagnoses alone reportedly fell by 14%. whether mced testing has enough evidence for population-scale implementation before mortality data mature. this is a major cautionary signal for population blood-based multi-cancer screening. a negative primary endpoint should slow premature adoption and reshape how mced claims are presented to payers and the public.",
+      "searchText": "nhs-galleri randomized mced screening galleri-nhs screening / diagnostics multiple cancers united kingdom nhs england + grail three annual galleri multi-cancer early-detection blood tests added to usual-care screening the randomized primary endpoint was not met: 706 versus 688 stage iii-iv cancers across 12 prespecified types, irr 1.03 (95% ci 0.92-1.14; p=0.6324). stage iv diagnoses were 342 versus 397, a 14% secondary reduction (irr 0.86; 95% ci 0.744-0.998). the peer-reviewed intervention-arm analysis reported 937 mced-detected primary cancers, aggregate ppv 52.0%, specificity 99.50%-99.60%, and episode sensitivity of 37.2%, 27.1%, and 26.7% across rounds 1-3. routine population rollout should await patient-outcome, overdiagnosis, utilization, and cost-effectiveness evidence. the secondary stage iv reduction is hypothesis-generating rather than a substitute for the failed combined stage iii-iv endpoint. this is the largest randomized population test of blood-based multi-cancer screening. strong specificity and cancer-signal localization do not establish clinical benefit, and the negative primary endpoint should prevent test performance from being presented as proof that routine screening improves outcomes. nhs-galleri galleri mced nct05611632 pathfinder 2 nct05155605",
       "route": {
         "view": "watchlist",
         "kind": "watchlist",
@@ -6162,21 +6162,21 @@
       "sourceLinks": [
         {
           "label": "Source",
-          "url": "https://www.theguardian.com/science/2026/may/30/trial-of-multi-cancer-blood-test-among-142000-nhs-patients-fails-to-meet-main-aim"
+          "url": "https://www.nature.com/articles/s41591-026-04652-8"
         },
         {
           "label": "Secondary check",
-          "url": "https://www.businessinsider.com/multi-cancer-blood-test-does-grail-galleri-work-to-spot-cancer-early-2026-5"
+          "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.17_suppl.LBA100"
         }
       ],
       "sections": [
         [
           "Issue",
-          "Galleri MCED blood test added to routine screening"
+          "Three annual Galleri multi-cancer early-detection blood tests added to usual-care screening"
         ],
         [
           "Population / sample",
-          "142,942 asymptomatic adults aged 50-77 in a randomized NHS study"
+          "142,250 asymptomatic adults aged 50-78 randomized after baseline blood collection; 71,122 to intervention and 71,128 to control"
         ],
         [
           "Comparator",
@@ -6184,12 +6184,12 @@
         ],
         [
           "Observed effect",
-          "Conference coverage reported no statistically significant reduction in the combined stage III-IV primary endpoint, although stage IV diagnoses alone reportedly fell by 14%.",
+          "The randomized primary endpoint was not met: 706 versus 688 stage III-IV cancers across 12 prespecified types, IRR 1.03 (95% CI 0.92-1.14; p=0.6324). Stage IV diagnoses were 342 versus 397, a 14% secondary reduction (IRR 0.86; 95% CI 0.744-0.998). The peer-reviewed intervention-arm analysis reported 937 MCED-detected primary cancers, aggregate PPV 52.0%, specificity 99.50%-99.60%, and episode sensitivity of 37.2%, 27.1%, and 26.7% across rounds 1-3.",
           "wide"
         ],
         [
           "Why it matters to care",
-          "This is a major cautionary signal for population blood-based multi-cancer screening. A negative primary endpoint should slow premature adoption and reshape how MCED claims are presented to payers and the public.",
+          "This is the largest randomized population test of blood-based multi-cancer screening. Strong specificity and cancer-signal localization do not establish clinical benefit, and the negative primary endpoint should prevent test performance from being presented as proof that routine screening improves outcomes.",
           "wide"
         ],
         [
@@ -6199,34 +6199,126 @@
         ],
         [
           "What decision could change",
-          "Whether MCED testing has enough evidence for population-scale implementation before mortality data mature.",
+          "Routine population rollout should await patient-outcome, overdiagnosis, utilization, and cost-effectiveness evidence. The secondary stage IV reduction is hypothesis-generating rather than a substitute for the failed combined stage III-IV endpoint.",
           "wide"
         ],
         [
           "Evidence strength",
-          "Very large randomized implementation study with direct policy relevance."
+          "Very large blinded randomized clinical-utility trial plus a peer-reviewed prespecified descriptive performance analysis. The primary clinical-utility result remains available as a conference abstract rather than a full peer-reviewed report."
         ],
         [
           "India relevance",
-          "Strong argument against routine rollout or aggressive marketing of MCED testing without proven patient-outcome benefit in local policy contexts.",
+          "No India cohort, CDSCO authorization, ICMR program adoption, official India price, reimbursement, procurement pathway, or announced India launch was verified. The negative primary endpoint argues against routine Indian population rollout before local clinical-utility and implementation evidence exists.",
           "wide"
         ],
         [
           "Cost / procurement",
-          "No official India pricing or government procurement pathway was verified."
+          "No official India price, reimbursement, government procurement cost, or India-specific cost-effectiveness analysis was verified."
         ],
         [
           "Current limitation",
-          "The direct abstract or full paper was not retrieved in this pass. Mortality outcomes remain pending, and the stage-shift secondary findings need full primary-source review before broader conclusions are drawn.",
+          "The peer-reviewed paper reports intervention-arm performance rather than the randomized primary clinical-utility analysis and uses descriptive analyses without hypothesis testing. Mortality, overdiagnosis, healthcare utilization, psychological outcomes, and cost-effectiveness remain unresolved. GRAIL funded the study and participated in design, data curation, interpretation, and drafting, although Queen Mary University of London independently conducted the analysis.",
           "wide"
         ],
         [
           "Next verification milestone",
-          "Capture the full abstract/publication and eventual mortality results."
+          "Full peer-reviewed publication of the randomized clinical-utility analysis, cancer-specific mortality, overdiagnosis and resource-use results, regulatory decisions, and India validation or access milestones."
         ],
         [
           "Verification note",
-          "Negative primary-endpoint framing was cross-checked across conference coverage and stakeholder statements. Primary abstract capture remains pending.",
+          "Nature Medicine reports the prespecified secondary performance analysis; ASCO LBA100 reports the separate randomized primary and stage-shift results. PATHFINDER 2 provides supportive single-arm performance and safety context but does not establish clinical utility.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:eagle-ai-esophageal-ct-screening",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 66,
+      "title": "EAGLE AI esophageal-cancer detection on noncontrast CT",
+      "subtitle": "Diagnostics / AI screening · Esophageal cancer and high-grade intraepithelial neoplasia · China-led validation across China, the Czech Republic, and Australia",
+      "organization": "Sun Yat-sen University Cancer Center-led EAGLE investigators",
+      "snapshot": "Peer-reviewed multicohort validation · 22 September 2026",
+      "summary": "The approach could use chest CT already obtained for other reasons to identify an otherwise difficult-to-screen cancer and triage scarce endoscopy capacity, but diagnostic accuracy alone does not prove fewer late diagnoses or deaths.",
+      "headline": "Across eight external test cohorts (n=11,466), cancer sensitivity was 90.0% and specificity 98.5%; precancer sensitivity was 52.5%. Calibration reduced false positives by 72.7% in a 35,402-person real-world cohort while preserving sensitivity. Prospective hospital validation (n=17,446) yielded 42.2% PPV, and a 10,959-person real-world low-dose CT cohort yielded 99.94% specificity. In paired CT-endoscopy cohorts, a higher-sensitivity operating point detected 65.0% of precancers and 78.4% of stage I cancers.",
+      "statusLabel": "Peer-reviewed multicohort validation",
+      "badges": [
+        "Peer-reviewed multicohort validation",
+        "Diagnostics / AI screening",
+        "China-led validation across China, the Czech Republic, and Australia"
+      ],
+      "searchText": "eagle ai esophageal-cancer detection on noncontrast ct eagle ct screening diagnostics / ai screening esophageal cancer and high-grade intraepithelial neoplasia china-led validation across china, the czech republic, and australia sun yat-sen university cancer center-led eagle investigators ai analysis of existing noncontrast chest ct and low-dose ct to identify people who may need diagnostic endoscopy across eight external test cohorts (n=11,466), cancer sensitivity was 90.0% and specificity 98.5%; precancer sensitivity was 52.5%. calibration reduced false positives by 72.7% in a 35,402-person real-world cohort while preserving sensitivity. prospective hospital validation (n=17,446) yielded 42.2% ppv, and a 10,959-person real-world low-dose ct cohort yielded 99.94% specificity. in paired ct-endoscopy cohorts, a higher-sensitivity operating point detected 65.0% of precancers and 78.4% of stage i cancers. whether the model should move into prospective workflow trials and targeted endoscopy pathways rather than routine clinical deployment. the approach could use chest ct already obtained for other reasons to identify an otherwise difficult-to-screen cancer and triage scarce endoscopy capacity, but diagnostic accuracy alone does not prove fewer late diagnoses or deaths. eagle esophageal ai noncontrast ct ldct chictr2300074806",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "eagle-ai-esophageal-ct-screening",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.nature.com/articles/s41591-026-04656-4"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "AI analysis of existing noncontrast chest CT and low-dose CT to identify people who may need diagnostic endoscopy"
+        ],
+        [
+          "Population / sample",
+          "80,612 participants across development, external test, real-world, prospective hospital, low-dose CT, and paired CT-endoscopy cohorts"
+        ],
+        [
+          "Comparator",
+          "EAGLE predictions compared with endoscopy and histopathology, clinical follow-up, and radiologist interpretation across cohort types; no randomized patient-outcome comparator"
+        ],
+        [
+          "Observed effect",
+          "Across eight external test cohorts (n=11,466), cancer sensitivity was 90.0% and specificity 98.5%; precancer sensitivity was 52.5%. Calibration reduced false positives by 72.7% in a 35,402-person real-world cohort while preserving sensitivity. Prospective hospital validation (n=17,446) yielded 42.2% PPV, and a 10,959-person real-world low-dose CT cohort yielded 99.94% specificity. In paired CT-endoscopy cohorts, a higher-sensitivity operating point detected 65.0% of precancers and 78.4% of stage I cancers.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "The approach could use chest CT already obtained for other reasons to identify an otherwise difficult-to-screen cancer and triage scarce endoscopy capacity, but diagnostic accuracy alone does not prove fewer late diagnoses or deaths.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Adults receiving chest CT or low-dose lung screening, radiology services, gastroenterology and endoscopy programs, and health systems in high-incidence regions.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Whether the model should move into prospective workflow trials and targeted endoscopy pathways rather than routine clinical deployment.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate diagnostic-validation signal from a large peer-reviewed multicenter and multicountry dataset with prospective hospital validation, but much of the evidence is retrospective and no randomized patient-outcome trial was reported."
+        ],
+        [
+          "India relevance",
+          "Potentially relevant where chest CT is available and endoscopy capacity is constrained, but no India cohort, local workflow validation, CDSCO or ICMR adoption, official price, reimbursement, procurement, or announced launch was verified.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "No official software price, integration cost, India reimbursement, procurement price, or cost-effectiveness estimate was reported or verified."
+        ],
+        [
+          "Current limitation",
+          "Paired CT-endoscopy analyses were retrospective and the screening simulation came from one prospective site with few positives. Follow-up was under two years in prospective and real-world low-dose CT validation, recommended endoscopy adherence was suboptimal, and the reader study lacked full crossover. Mortality, interval cancers, overdiagnosis, downstream harms, cost-effectiveness, and implementation outcomes were not established.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Prospective diverse-population workflow trials with complete endoscopy follow-up, interval-cancer and harm reporting, patient-outcome and cost-effectiveness analyses, regulatory review, and India validation."
+        ],
+        [
+          "Verification note",
+          "Peer-reviewed Nature Medicine multicohort study registered as ChiCTR2300074806. Findings are represented as diagnostic validation, not proof of screening benefit or an authorization.",
           "full"
         ]
       ]
@@ -6235,7 +6327,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 66,
+      "order": 67,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -6331,7 +6423,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 67,
+      "order": 68,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -6427,7 +6519,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 68,
+      "order": 69,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -6521,7 +6613,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 140,
+    "sourcesChecked": 141,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,
