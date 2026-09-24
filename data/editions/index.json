@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-09-23T04:57:29.906Z",
-  "currentEditionId": "2026-09-23",
-  "currentEditionLabel": "23 September 2026",
+  "generatedAt": "2026-09-24T03:37:24.824Z",
+  "currentEditionId": "2026-09-24",
+  "currentEditionLabel": "24 September 2026",
   "editions": [
+    {
+      "id": "2026-09-24",
+      "editionLabel": "24 September 2026",
+      "preparedLabel": "September 24 Morning Edition",
+      "monthKey": "2026-09",
+      "monthLabel": "September 2026",
+      "summary": "This is the largest randomized population test of blood-based multi-cancer screening and now a live US regulatory decision. The favorable panel recommendation does not erase the negative primary clinical-utility endpoint, and strong test performance still does not establish improved patient outcomes.",
+      "file": "/data/editions/2026-09-24.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 26,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 33,
+        "verifiedRecords": 70
+      }
+    },
     {
       "id": "2026-09-23",
       "editionLabel": "23 September 2026",
@@ -1028,8 +1045,36 @@
     {
       "monthKey": "2026-09",
       "monthLabel": "September 2026",
-      "leadEditionId": "2026-09-23",
+      "leadEditionId": "2026-09-24",
       "highlights": [
+        {
+          "editionId": "2026-09-24",
+          "editionLabel": "24 September 2026",
+          "tag": "FDA panel favorable; primary endpoint negative",
+          "title": "NHS-Galleri randomized MCED screening",
+          "summary": "This is the largest randomized population test of blood-based multi-cancer screening and now a live US regulatory decision. The favorable panel recommendation does not erase the negative primary clinical-utility endpoint, and strong test performance still does not establish improved patient outcomes."
+        },
+        {
+          "editionId": "2026-09-24",
+          "editionLabel": "24 September 2026",
+          "tag": "Latest verified approval",
+          "title": "Imlunestrant + Abemaciclib for ESR1-Mutated Breast Cancer",
+          "summary": "FDA full approval 18 September 2026"
+        },
+        {
+          "editionId": "2026-09-24",
+          "editionLabel": "24 September 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-09-24",
+          "editionLabel": "24 September 2026",
+          "tag": "Primary endpoints not met",
+          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
+          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
+        },
         {
           "editionId": "2026-09-23",
           "editionLabel": "23 September 2026",
@@ -1040,34 +1085,6 @@
         {
           "editionId": "2026-09-23",
           "editionLabel": "23 September 2026",
-          "tag": "Latest verified approval",
-          "title": "Imlunestrant + Abemaciclib for ESR1-Mutated Breast Cancer",
-          "summary": "FDA full approval 18 September 2026"
-        },
-        {
-          "editionId": "2026-09-23",
-          "editionLabel": "23 September 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-09-23",
-          "editionLabel": "23 September 2026",
-          "tag": "Primary endpoints not met",
-          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
-          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
-        },
-        {
-          "editionId": "2026-09-22",
-          "editionLabel": "22 September 2026",
-          "tag": "Peer-reviewed early-stopped Phase III",
-          "title": "ADVANCE aumolertinib plus radiotherapy",
-          "summary": "A chemotherapy-free targeted-radiotherapy strategy could reduce hematologic and gastrointestinal burden while preserving curative-intent local treatment for a molecularly defined stage III population. The result is hypothesis-strengthening rather than practice-defining because its precision and external validity are limited."
-        },
-        {
-          "editionId": "2026-09-22",
-          "editionLabel": "22 September 2026",
           "tag": "Latest verified approval",
           "title": "Imlunestrant + Abemaciclib for ESR1-Mutated Breast Cancer",
           "summary": "FDA full approval 18 September 2026"

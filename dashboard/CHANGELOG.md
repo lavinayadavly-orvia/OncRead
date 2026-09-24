@@ -1,5 +1,16 @@
 # Dashboard Changelog
 
+## 2026-09-24 - Galleri FDA Panel and Peer-Reviewed Primary Analysis
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 24 September run across regulators, registries, peer-reviewed journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing, procurement, and systems evidence.
+- Updated the existing `NHS-Galleri randomized MCED screening` record after the full randomized primary analysis was published in NEJM. Across 142,250 participants, the combined stage III-IV endpoint was not met: incidence-rate ratio 1.03 (95% CI 0.92-1.14; p=0.63). The key secondary stage IV result was IRR 0.86 (95% CI 0.74-1.00); less than 1% had trial-related adverse events and none were serious.
+- Added the 23 September FDA advisory-panel outcome: 10-0 on safety, 6-4 on effectiveness, and 7-2 with one abstention that benefits outweigh risks. The dashboard explicitly states that the recommendation is nonbinding, Galleri is not FDA approved, and no official final-decision date has been announced.
+- Preserved the negative primary endpoint, split efficacy vote, sponsor involvement, unresolved mortality, overdiagnosis, utilization, psychological-outcome, and cost-effectiveness questions, and the distinction between test performance and demonstrated clinical benefit.
+- No India cohort, CDSCO authorization, ICMR adoption, official India price, reimbursement, procurement pathway, or announced India launch was verified. No value or date was inferred.
+- Rechecked FDA oncology approvals and accelerated-approval tracking, EMA, CDSCO, WHO/IARC, major-journal publication surfaces, ClinicalTrials.gov, and targeted official sources. The FDA's 18 September Inluriyo plus Verzenio action remained the newest oncology drug approval; no additional same-window approval, withdrawal, safety restriction, official price/procurement action, or India-access milestone cleared promotion.
+- Considered Nature Cancer reviews and editorial content, preclinical ecDNA, metastasis-metabolism and kinase reports, a result-free Combi-TED presentation announcement, and IARC event notices, but did not promote them because they did not provide a same-window decision-relevant clinical or policy result. No item was excluded because of taxonomy fit.
+- No scoring, filter, navigation, or layout redesign was required. Extended Galleri search aliases for the FDA panel and PMA context, rolled the visible briefing and archive forward to the September 24 Morning Edition, and did not modify the detailed Word report.
+
 ## 2026-09-23 - Galleri Evidence Upgrade and EAGLE CT Screening Signal Added
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 23 September run across regulators, registries, peer-reviewed journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing, procurement, and systems evidence.

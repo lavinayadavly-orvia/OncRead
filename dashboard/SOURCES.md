@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-23
+Updated: 2026-09-24
 
 ## Method
 
@@ -77,8 +77,35 @@ Updated: 2026-09-23
 - The 2026-09-21 review found no material 20-21 September item but completed a catch-up because the live archive had stopped on 17 September. It added FDA's 18 September full approval of imlunestrant plus abemaciclib in ESR1-mutated advanced breast cancer and an EMA CHMP package record covering three oncology new-medicine opinions, a pertuzumab biosimilar opinion, and the trilaciclib application withdrawal.
 - The 2026-09-22 review added the peer-reviewed, prematurely closed ADVANCE randomized Phase III signal for aumolertinib plus radiotherapy in unresectable EGFR-mutated stage III NSCLC. The record preserves the large PFS estimate while emphasizing the 43-patient sample, outdated control, immature OS, early closure, China-only population, and unresolved India authorization.
 - The 2026-09-23 review upgraded the NHS-Galleri record with peer-reviewed three-round performance evidence while preserving the negative randomized clinical-utility primary endpoint, and added the peer-reviewed EAGLE noncontrast-CT esophageal-cancer diagnostic signal with its retrospective, follow-up, implementation, and patient-outcome limitations.
+- The 2026-09-24 review updated the existing NHS-Galleri record with the peer-reviewed randomized primary analysis and the FDA advisory-panel outcome while preserving the negative primary endpoint, split effectiveness vote, nonbinding regulatory status, and unresolved patient-outcome and implementation evidence gaps.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-24 Verified Update and Review Checks
+
+- Peer-reviewed NHS-Galleri randomized primary analysis; source for the 142,250-participant design, negative combined stage III-IV primary endpoint, key stage IV secondary result, adverse-event findings, sponsor involvement, and conclusion that further follow-up is needed
+  https://www.nejm.org/doi/full/10.1056/NEJMoa2505723
+- FDA Molecular and Clinical Genetics Devices Panel meeting questions; official source for the proposed prescription-only Galleri indication in adults aged 50 or older, its use in addition to standard screening, and the warning that a negative result does not rule out cancer
+  https://www.fda.gov/media/194907/download
+- FDA voting questions; official source for the panel's safety, effectiveness, and benefit-risk questions
+  https://www.fda.gov/media/194908/download
+- GRAIL official release; source for the reported 10-0 safety vote, 6-4 effectiveness vote, and 7-2 benefit-risk vote with one abstention. The tally was cross-checked against contemporaneous independent reporting, while the dashboard clearly labels the recommendation as nonbinding and not an FDA approval.
+  https://investors.grail.com/news-releases/news-release-details/fda-advisory-committee-votes-favor-approval-grails-gallerir
+- Peer-reviewed prespecified intervention-arm performance analysis; supporting source for PPV, specificity, episode sensitivity, and cancer-signal-origin findings, kept separate from randomized clinical utility
+  https://www.nature.com/articles/s41591-026-04652-8
+- NHS-Galleri registry; source for trial registration and design context
+  https://clinicaltrials.gov/study/NCT05611632
+- FDA oncology approval and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, major-journal publication surfaces, ClinicalTrials.gov, and targeted official sources were rechecked. The 18 September Inluriyo plus Verzenio action remained the newest FDA oncology drug approval; no additional same-window approval, withdrawal, safety restriction, official price/procurement action, or India-access milestone cleared promotion.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
+- Nature Cancer reviews and editorial content, preclinical ecDNA, metastasis-metabolism and kinase reports, a result-free Combi-TED presentation announcement, and IARC event notices were considered but not promoted because they did not clear the same-window materiality and decision-relevance threshold. No item was excluded because of taxonomy fit.
 
 ## 2026-09-23 Verified Updates and Review Checks
 
@@ -1648,9 +1675,12 @@ Updated: 2026-09-23
   Secondary check: https://www.theguardian.com/society/2026/may/29/breast-cancer-chemotherapy-genomic-test-case-study
 
 - NHS-Galleri randomized MCED screening
-  Peer-reviewed intervention-arm performance analysis; the randomized primary clinical-utility result remains conference-reported and negative.
-  Source: https://www.nature.com/articles/s41591-026-04652-8
-  Randomized result: https://ascopubs.org/doi/10.1200/JCO.2026.44.17_suppl.LBA100
+  Peer-reviewed randomized primary analysis with a negative combined stage III-IV endpoint; the FDA advisory-panel recommendation is nonbinding and is not an approval.
+  Primary clinical-utility source: https://www.nejm.org/doi/full/10.1056/NEJMoa2505723
+  Performance source: https://www.nature.com/articles/s41591-026-04652-8
+  FDA panel questions: https://www.fda.gov/media/194907/download
+  FDA voting questions: https://www.fda.gov/media/194908/download
+  Vote-result source: https://investors.grail.com/news-releases/news-release-details/fda-advisory-committee-votes-favor-approval-grails-gallerir
   Registry: https://clinicaltrials.gov/study/NCT05611632
 
 - EAGLE AI esophageal-cancer detection on noncontrast CT

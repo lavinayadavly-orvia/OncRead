@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T04:57:29.847Z",
+  "generatedAt": "2026-09-24T03:37:24.769Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -6142,17 +6142,17 @@
       "order": 65,
       "title": "NHS-Galleri randomized MCED screening",
       "subtitle": "Screening / diagnostics · Multiple cancers · United Kingdom",
-      "organization": "NHS England + GRAIL",
-      "snapshot": "Peer-reviewed performance; negative primary endpoint · 22 September 2026",
-      "summary": "This is the largest randomized population test of blood-based multi-cancer screening. Strong specificity and cancer-signal localization do not establish clinical benefit, and the negative primary endpoint should prevent test performance from being presented as proof that routine screening improves outcomes.",
-      "headline": "The randomized primary endpoint was not met: 706 versus 688 stage III-IV cancers across 12 prespecified types, IRR 1.03 (95% CI 0.92-1.14; p=0.6324). Stage IV diagnoses were 342 versus 397, a 14% secondary reduction (IRR 0.86; 95% CI 0.744-0.998). The peer-reviewed intervention-arm analysis reported 937 MCED-detected primary cancers, aggregate PPV 52.0%, specificity 99.50%-99.60%, and episode sensitivity of 37.2%, 27.1%, and 26.7% across rounds 1-3.",
-      "statusLabel": "Peer-reviewed performance; negative primary endpoint",
+      "organization": "NHS England + GRAIL + FDA Molecular and Clinical Genetics Devices Panel",
+      "snapshot": "FDA panel favorable; primary endpoint negative · 23 September 2026",
+      "summary": "This is the largest randomized population test of blood-based multi-cancer screening and now a live US regulatory decision. The favorable panel recommendation does not erase the negative primary clinical-utility endpoint, and strong test performance still does not establish improved patient outcomes.",
+      "headline": "The peer-reviewed randomized primary endpoint was not met: 706 versus 688 stage III-IV cancers across 12 prespecified types, IRR 1.03 (95% CI 0.92-1.14; p=0.63). Stage IV diagnoses were lower in a key secondary analysis, IRR 0.86 (95% CI 0.74-1.00). Less than 1% of participants had trial-related adverse events and none were serious. On 23 September, an FDA advisory panel voted 10-0 that Galleri is safe, 6-4 that it is effective, and 7-2 with one abstention that benefits outweigh risks; the vote is nonbinding and Galleri is not FDA approved. The separate peer-reviewed intervention-arm analysis reported 937 MCED-detected primary cancers, aggregate PPV 52.0%, specificity 99.50%-99.60%, and declining episode sensitivity across rounds.",
+      "statusLabel": "FDA panel favorable; primary endpoint negative",
       "badges": [
-        "Peer-reviewed performance; negative primary endpoint",
+        "FDA panel favorable; primary endpoint negative",
         "Screening / diagnostics",
         "United Kingdom"
       ],
-      "searchText": "nhs-galleri randomized mced screening galleri-nhs screening / diagnostics multiple cancers united kingdom nhs england + grail three annual galleri multi-cancer early-detection blood tests added to usual-care screening the randomized primary endpoint was not met: 706 versus 688 stage iii-iv cancers across 12 prespecified types, irr 1.03 (95% ci 0.92-1.14; p=0.6324). stage iv diagnoses were 342 versus 397, a 14% secondary reduction (irr 0.86; 95% ci 0.744-0.998). the peer-reviewed intervention-arm analysis reported 937 mced-detected primary cancers, aggregate ppv 52.0%, specificity 99.50%-99.60%, and episode sensitivity of 37.2%, 27.1%, and 26.7% across rounds 1-3. routine population rollout should await patient-outcome, overdiagnosis, utilization, and cost-effectiveness evidence. the secondary stage iv reduction is hypothesis-generating rather than a substitute for the failed combined stage iii-iv endpoint. this is the largest randomized population test of blood-based multi-cancer screening. strong specificity and cancer-signal localization do not establish clinical benefit, and the negative primary endpoint should prevent test performance from being presented as proof that routine screening improves outcomes. nhs-galleri galleri mced nct05611632 pathfinder 2 nct05155605",
+      "searchText": "nhs-galleri randomized mced screening galleri-nhs screening / diagnostics multiple cancers united kingdom nhs england + grail + fda molecular and clinical genetics devices panel three annual galleri multi-cancer early-detection blood tests added to usual-care screening the peer-reviewed randomized primary endpoint was not met: 706 versus 688 stage iii-iv cancers across 12 prespecified types, irr 1.03 (95% ci 0.92-1.14; p=0.63). stage iv diagnoses were lower in a key secondary analysis, irr 0.86 (95% ci 0.74-1.00). less than 1% of participants had trial-related adverse events and none were serious. on 23 september, an fda advisory panel voted 10-0 that galleri is safe, 6-4 that it is effective, and 7-2 with one abstention that benefits outweigh risks; the vote is nonbinding and galleri is not fda approved. the separate peer-reviewed intervention-arm analysis reported 937 mced-detected primary cancers, aggregate ppv 52.0%, specificity 99.50%-99.60%, and declining episode sensitivity across rounds. fda must make the final pma decision and define any label or postapproval requirements; the advisory vote is not an approval. routine population rollout should still await patient-outcome, mortality, overdiagnosis, utilization, and cost-effectiveness evidence. the secondary stage iv result is not a substitute for the failed combined stage iii-iv endpoint. this is the largest randomized population test of blood-based multi-cancer screening and now a live us regulatory decision. the favorable panel recommendation does not erase the negative primary clinical-utility endpoint, and strong test performance still does not establish improved patient outcomes. nhs-galleri galleri mced nct05611632 pathfinder 2 nct05155605 pma fda advisory panel",
       "route": {
         "view": "watchlist",
         "kind": "watchlist",
@@ -6162,11 +6162,11 @@
       "sourceLinks": [
         {
           "label": "Source",
-          "url": "https://www.nature.com/articles/s41591-026-04652-8"
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2505723"
         },
         {
           "label": "Secondary check",
-          "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.17_suppl.LBA100"
+          "url": "https://investors.grail.com/news-releases/news-release-details/fda-advisory-committee-votes-favor-approval-grails-gallerir"
         }
       ],
       "sections": [
@@ -6184,12 +6184,12 @@
         ],
         [
           "Observed effect",
-          "The randomized primary endpoint was not met: 706 versus 688 stage III-IV cancers across 12 prespecified types, IRR 1.03 (95% CI 0.92-1.14; p=0.6324). Stage IV diagnoses were 342 versus 397, a 14% secondary reduction (IRR 0.86; 95% CI 0.744-0.998). The peer-reviewed intervention-arm analysis reported 937 MCED-detected primary cancers, aggregate PPV 52.0%, specificity 99.50%-99.60%, and episode sensitivity of 37.2%, 27.1%, and 26.7% across rounds 1-3.",
+          "The peer-reviewed randomized primary endpoint was not met: 706 versus 688 stage III-IV cancers across 12 prespecified types, IRR 1.03 (95% CI 0.92-1.14; p=0.63). Stage IV diagnoses were lower in a key secondary analysis, IRR 0.86 (95% CI 0.74-1.00). Less than 1% of participants had trial-related adverse events and none were serious. On 23 September, an FDA advisory panel voted 10-0 that Galleri is safe, 6-4 that it is effective, and 7-2 with one abstention that benefits outweigh risks; the vote is nonbinding and Galleri is not FDA approved. The separate peer-reviewed intervention-arm analysis reported 937 MCED-detected primary cancers, aggregate PPV 52.0%, specificity 99.50%-99.60%, and declining episode sensitivity across rounds.",
           "wide"
         ],
         [
           "Why it matters to care",
-          "This is the largest randomized population test of blood-based multi-cancer screening. Strong specificity and cancer-signal localization do not establish clinical benefit, and the negative primary endpoint should prevent test performance from being presented as proof that routine screening improves outcomes.",
+          "This is the largest randomized population test of blood-based multi-cancer screening and now a live US regulatory decision. The favorable panel recommendation does not erase the negative primary clinical-utility endpoint, and strong test performance still does not establish improved patient outcomes.",
           "wide"
         ],
         [
@@ -6199,12 +6199,12 @@
         ],
         [
           "What decision could change",
-          "Routine population rollout should await patient-outcome, overdiagnosis, utilization, and cost-effectiveness evidence. The secondary stage IV reduction is hypothesis-generating rather than a substitute for the failed combined stage III-IV endpoint.",
+          "FDA must make the final PMA decision and define any label or postapproval requirements; the advisory vote is not an approval. Routine population rollout should still await patient-outcome, mortality, overdiagnosis, utilization, and cost-effectiveness evidence. The secondary stage IV result is not a substitute for the failed combined stage III-IV endpoint.",
           "wide"
         ],
         [
           "Evidence strength",
-          "Very large blinded randomized clinical-utility trial plus a peer-reviewed prespecified descriptive performance analysis. The primary clinical-utility result remains available as a conference abstract rather than a full peer-reviewed report."
+          "Very large peer-reviewed blinded randomized clinical-utility trial, a peer-reviewed prespecified descriptive performance analysis, and a formal FDA advisory-panel review. The randomized primary endpoint was negative and the panel's efficacy vote was split 6-4."
         ],
         [
           "India relevance",
@@ -6217,16 +6217,16 @@
         ],
         [
           "Current limitation",
-          "The peer-reviewed paper reports intervention-arm performance rather than the randomized primary clinical-utility analysis and uses descriptive analyses without hypothesis testing. Mortality, overdiagnosis, healthcare utilization, psychological outcomes, and cost-effectiveness remain unresolved. GRAIL funded the study and participated in design, data curation, interpretation, and drafting, although Queen Mary University of London independently conducted the analysis.",
+          "The primary stage III-IV endpoint was negative and the stage IV confidence interval reached 1.00. Mortality, overdiagnosis, healthcare utilization, psychological outcomes, and cost-effectiveness remain unresolved. The advisory vote is nonbinding. GRAIL funded the trial and participated in design, data curation, interpretation, and drafting, although Queen Mary University of London independently conducted the analysis.",
           "wide"
         ],
         [
           "Next verification milestone",
-          "Full peer-reviewed publication of the randomized clinical-utility analysis, cancer-specific mortality, overdiagnosis and resource-use results, regulatory decisions, and India validation or access milestones."
+          "FDA's final PMA decision, exact labeling and any postapproval requirements; cancer-specific mortality, overdiagnosis, resource-use and cost results; and India validation or access milestones. No official FDA decision date has been announced."
         ],
         [
           "Verification note",
-          "Nature Medicine reports the prespecified secondary performance analysis; ASCO LBA100 reports the separate randomized primary and stage-shift results. PATHFINDER 2 provides supportive single-arm performance and safety context but does not establish clinical utility.",
+          "The NEJM publication reports the randomized primary analysis; Nature Medicine reports the separate prespecified performance analysis. FDA meeting materials confirm the proposed indication and voting questions. The vote tally is from GRAIL's official release and was cross-checked against contemporaneous independent reporting.",
           "full"
         ]
       ]
