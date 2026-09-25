@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-09-24T03:37:24.824Z",
-  "currentEditionId": "2026-09-24",
-  "currentEditionLabel": "24 September 2026",
+  "generatedAt": "2026-09-25T08:28:01.961Z",
+  "currentEditionId": "2026-09-25",
+  "currentEditionLabel": "25 September 2026",
   "editions": [
+    {
+      "id": "2026-09-25",
+      "editionLabel": "25 September 2026",
+      "preparedLabel": "September 25 Morning Edition",
+      "monthKey": "2026-09",
+      "monthLabel": "September 2026",
+      "summary": "This is a regulator-independent global evidence classification that can shape national screening policy and distinguishes an established mortality-reducing method from unproven alternatives. It also makes programme quality, diagnostic follow-up, equitable access, and tobacco cessation part of the decision rather than treating the scan as a stand-alone intervention.",
+      "file": "/data/editions/2026-09-25.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 27,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 34,
+        "verifiedRecords": 72
+      }
+    },
     {
       "id": "2026-09-24",
       "editionLabel": "24 September 2026",
@@ -1045,8 +1062,36 @@
     {
       "monthKey": "2026-09",
       "monthLabel": "September 2026",
-      "leadEditionId": "2026-09-24",
+      "leadEditionId": "2026-09-25",
       "highlights": [
+        {
+          "editionId": "2026-09-25",
+          "editionLabel": "25 September 2026",
+          "tag": "IARC Group A LDCT evaluation",
+          "title": "IARC lung-cancer screening evaluation",
+          "summary": "This is a regulator-independent global evidence classification that can shape national screening policy and distinguishes an established mortality-reducing method from unproven alternatives. It also makes programme quality, diagnostic follow-up, equitable access, and tobacco cessation part of the decision rather than treating the scan as a stand-alone intervention."
+        },
+        {
+          "editionId": "2026-09-25",
+          "editionLabel": "25 September 2026",
+          "tag": "Latest verified approval",
+          "title": "Lirafugratinib for FGFR2-Altered Cholangiocarcinoma",
+          "summary": "FDA approval 23 September 2026; sponsor expects US availability in Q4 2026"
+        },
+        {
+          "editionId": "2026-09-25",
+          "editionLabel": "25 September 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-09-25",
+          "editionLabel": "25 September 2026",
+          "tag": "Primary endpoints not met",
+          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
+          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
+        },
         {
           "editionId": "2026-09-24",
           "editionLabel": "24 September 2026",
@@ -1057,34 +1102,6 @@
         {
           "editionId": "2026-09-24",
           "editionLabel": "24 September 2026",
-          "tag": "Latest verified approval",
-          "title": "Imlunestrant + Abemaciclib for ESR1-Mutated Breast Cancer",
-          "summary": "FDA full approval 18 September 2026"
-        },
-        {
-          "editionId": "2026-09-24",
-          "editionLabel": "24 September 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-09-24",
-          "editionLabel": "24 September 2026",
-          "tag": "Primary endpoints not met",
-          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
-          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
-        },
-        {
-          "editionId": "2026-09-23",
-          "editionLabel": "23 September 2026",
-          "tag": "Peer-reviewed performance; negative primary endpoint",
-          "title": "NHS-Galleri randomized MCED screening",
-          "summary": "This is the largest randomized population test of blood-based multi-cancer screening. Strong specificity and cancer-signal localization do not establish clinical benefit, and the negative primary endpoint should prevent test performance from being presented as proof that routine screening improves outcomes."
-        },
-        {
-          "editionId": "2026-09-23",
-          "editionLabel": "23 September 2026",
           "tag": "Latest verified approval",
           "title": "Imlunestrant + Abemaciclib for ESR1-Mutated Breast Cancer",
           "summary": "FDA full approval 18 September 2026"

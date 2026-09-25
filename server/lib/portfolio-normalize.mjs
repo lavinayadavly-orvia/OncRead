@@ -4,6 +4,8 @@ const portfolioAliasRules = [
   { match: /sevabertinib|hyrnuo|soho-01/i, aliases: ["Hyrnuo", "BAY 2927088", "SOHO-01", "HER2", "ERBB2"] },
   { match: /imlunestrant|inluriyo|ember-3/i, aliases: ["Inluriyo", "EMBER-3", "ESR1", "Guardant360 CDx", "Verzenio"] },
   { match: /advance aumolertinib|aumolertinib|almonertinib|chictr2000040590/i, aliases: ["ADVANCE", "Aumolertinib", "Almonertinib", "ChiCTR2000040590", "EGFR", "Radiotherapy"] },
+  { match: /lirafugratinib|lyrfigtu|nct04526106|refocus/i, aliases: ["Lirafugratinib", "Lyrfigtu", "RLY-4008", "REFOCUS", "NCT04526106", "FGFR2"] },
+  { match: /iarc lung-cancer screening|iarc ldct evaluation|nejmsb2608211|volume 21/i, aliases: ["IARC Volume 21", "LDCT", "lung cancer screening", "NEJMsb2608211", "chest radiography"] },
   { match: /nhs-galleri|galleri|mced|nct05611632|pathfinder 2|nct05155605/i, aliases: ["NHS-Galleri", "Galleri", "MCED", "NCT05611632", "PATHFINDER 2", "NCT05155605", "PMA", "FDA advisory panel"] },
   { match: /eagle ai|esophageal-cancer detection|noncontrast ct|chictr2300074806/i, aliases: ["EAGLE", "Esophageal AI", "Noncontrast CT", "LDCT", "ChiCTR2300074806"] },
   { match: /ema september 2026 oncology chmp|gevalka|ensartinib|lifyorli|relacorilant|sepalna|senaparib|pebrilzo|zinmyleo|trilaciclib/i, aliases: ["CHMP", "Gevalka", "Ensartinib", "Lifyorli", "Relacorilant", "Sepalna", "Senaparib", "Pebrilzo", "Zinmyleo", "Trilaciclib"] },

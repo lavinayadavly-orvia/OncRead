@@ -1,5 +1,33 @@
 const treatments = [
   {
+    id: "lirafugratinib-lyrfigtu-cholangiocarcinoma", short: "Lyrfigtu", name: "Lirafugratinib for FGFR2-Altered Cholangiocarcinoma", cancer: "Cholangiocarcinoma",
+    setting: "Previously treated unresectable, locally advanced, or metastatic cholangiocarcinoma with an FGFR2 fusion or other rearrangement", company: "Elevar Therapeutics / HLB; licensed from Relay Therapeutics", phase: "Phase I/II; FDA approved",
+    impact: "High in biomarker-selected disease", impactGroup: "high", maturity: 99, impactScore: 88,
+    eventDate: "2026-09-23",
+    headline: "ORR 46%", headlineNote: "95% CI 36-55; median DOR 11.8 months",
+    benefit: "FDA approved once-daily oral lirafugratinib, marketed as Lyrfigtu, for adults with previously treated unresectable, locally advanced, or metastatic cholangiocarcinoma harboring an FGFR2 fusion or other rearrangement. The approval adds a selective FGFR2 inhibitor after prior chemotherapy or chemoimmunotherapy and reinforces the need for molecular testing in advanced bile-duct cancer.",
+    safety: "FDA labeling warns of ocular toxicity, hyperphosphatemia with soft-tissue mineralization, and embryo-fetal toxicity. In the 385-patient safety pool reported by Elevar, retinal pigment epithelial detachment occurred in 31% (Grade 3, 1.8%), dry eye in 38%, corneal toxicity or keratitis in 11%, blurred vision in 18%, and hyperphosphatemia in 21%.",
+    cost: "New branded oral targeted therapy; no official US list price was reported or verified", indiaPrice: "No official India price, reimbursement decision, procurement figure, patient-assistance terms, or India cost-effectiveness result was reported or verified.",
+    indiaStatus: "not-launched", indiaLabel: "US approved; India unverified", launch: "FDA approval 23 September 2026; sponsor expects US availability in Q4 2026",
+    indiaCaveat: "No CDSCO authorization, India availability, official launch date, price, reimbursement, procurement pathway, or India-specific companion-diagnostic action for lirafugratinib was verified. The sponsor's Q4 2026 availability statement applies to the United States only.",
+    limitations: "Approval is based on response rate and duration of response from a 116-patient, open-label, single-arm cohort without a concurrent comparator. The approval population was FGFR-inhibitor naive. Comparative progression-free survival, overall survival, quality of life, sequencing after other FGFR inhibitors, resistance management, long-term safety, and non-US access remain unresolved.",
+    detailSections: [
+      ["Event date / geography", "23 September 2026 FDA approval - United States. The approval became visible on FDA's oncology notification surface after the prior briefing cutoff.", "wide"],
+      ["Population / sample", "116 adults in REFOCUS with unresectable or metastatic cholangiocarcinoma, an FGFR2 fusion or other rearrangement, prior chemotherapy or chemoimmunotherapy, and no prior FGFR inhibitor.", "wide"],
+      ["Comparator", "No concurrent comparator; multicenter, open-label, single-arm Phase I/II evidence.", "wide"],
+      ["Primary efficacy outcomes", "Independent-review-committee objective response rate and duration of response under RECIST v1.1.", "wide"],
+      ["Effect size detail", "Confirmed ORR was 46% (95% CI 36-55) and median DOR was 11.8 months (95% CI 7.5-13.0). Elevar additionally reported median PFS of 11.3 months (95% CI 9.2-14.8), which was not the FDA notice's major efficacy endpoint.", "wide"],
+      ["Dose / monitoring", "Lirafugratinib 70 mg orally once daily until progression or unacceptable toxicity. Label-linked monitoring includes baseline and serial ophthalmologic examination and serum phosphate monitoring.", "wide"],
+      ["Regulatory status", "FDA approved with priority review, breakthrough therapy, orphan drug, Real-Time Oncology Review, and Assessment Aid designations or pathways. Elevar has submitted an EMA marketing-authorisation application, but no European Commission or CDSCO authorization was verified.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-lirafugratinib-previously-treated-unresectable-locally-advanced-or-metastatic",
+    sourceLabel: "FDA approval notice",
+    supportingSources: [
+      { label: "Elevar approval and safety release", url: "https://elevartx.com/2026/09/23/elevar-fda-approval-lyrfigtu-2/" },
+      { label: "ClinicalTrials.gov REFOCUS registry", url: "https://clinicaltrials.gov/study/NCT04526106" }
+    ]
+  },
+  {
     id: "imlunestrant-abemaciclib-esr1", short: "Inluriyo + Verzenio", name: "Imlunestrant + Abemaciclib for ESR1-Mutated Breast Cancer", cancer: "Breast cancer",
     setting: "ER-positive, HER2-negative, ESR1-mutated locally advanced or metastatic breast cancer after at least one line of endocrine therapy", company: "Eli Lilly and Company", phase: "Phase III; FDA approved",
     impact: "High in biomarker-selected disease", impactGroup: "high", maturity: 99, impactScore: 90,
@@ -863,6 +891,34 @@ const followupDetails = {
 asco2025Followup.forEach(item => Object.assign(item, followupDetails[item.id]));
 
 const watchlistSignals = [
+  {
+    id: "iarc-lung-cancer-screening-volume21",
+    title: "IARC lung-cancer screening evaluation",
+    short: "IARC LDCT evaluation",
+    category: "Screening guideline / public health",
+    status: "systems",
+    statusLabel: "IARC Group A LDCT evaluation",
+    geography: "Global evidence evaluation",
+    date: "24 September 2026",
+    cancer: "Lung cancer",
+    issue: "IARC's independent Working Group evaluated lung-cancer screening methods and classified low-dose computed tomography for high-risk individuals selected by age and smoking history as established to reduce lung-cancer mortality and stage III-IV incidence.",
+    organization: "International Agency for Research on Cancer / World Health Organization; IARC Handbooks of Cancer Prevention Working Group",
+    population: "People at high risk of lung cancer based on age and smoking history; exact eligibility thresholds and screening intervals depend on programme design and were not specified in the summary evaluation.",
+    comparator: "Evidence synthesis across experimental and observational studies of LDCT and chest radiography, with or without sputum cytology; no single trial comparator applies.",
+    endpoint: "Reduction in lung-cancer mortality and reduction in the incidence of stage III-IV lung cancer, together with screening harms and implementation requirements.",
+    effect: "IARC assigned LDCT Group A for both reduced lung-cancer mortality and reduced stage III-IV incidence, meaning the method is established to reduce those outcomes when appropriately targeted to high-risk individuals. Chest radiography, with or without sputum cytology, was Group C for both outcomes because the evidence was not classifiable. No pooled effect size or confidence interval was reported in the summary evaluation.",
+    whyMatters: "This is a regulator-independent global evidence classification that can shape national screening policy and distinguishes an established mortality-reducing method from unproven alternatives. It also makes programme quality, diagnostic follow-up, equitable access, and tobacco cessation part of the decision rather than treating the scan as a stand-alone intervention.",
+    whoAffected: "High-risk adults, primary-care and tobacco-cessation services, radiology and thoracic teams, public-health agencies, payers, programme planners, and countries considering organized lung-cancer screening.",
+    decisionImpact: "Supports organized, quality-assured LDCT screening for appropriately selected high-risk populations where diagnostic and treatment pathways can be delivered. It does not justify population-wide CT screening, chest-radiography screening, or implementation without follow-up capacity and harm monitoring.",
+    evidenceStrength: "High for the direction of the LDCT mortality and late-stage conclusions because they result from an independent IARC Working Group review and a peer-reviewed NEJM Special Report. The detailed Volume 21 assessments were still in preparation at the time of this update.",
+    limitations: "The summary does not provide one universal age, smoking-exposure, stopping, or screening-frequency threshold, nor pooled effect sizes or confidence intervals. False positives, overdiagnosis, overtreatment, procedure complications, radiation-induced cancer, psychological effects, infrastructure, workforce, quality assurance, and equitable access remain material implementation constraints.",
+    indiaImpact: "The evaluation is directly relevant to India's large tobacco-related lung-cancer burden, but no new national LDCT screening recommendation, eligibility standard, funded programme, reimbursement, procurement action, capacity plan, or implementation milestone was verified. Any Indian programme would need risk criteria, smoking-cessation integration, quality assurance, diagnostic follow-up, and treatment capacity.",
+    cost: "Not applicable as a medicine price. No India programme budget, per-person screening price, reimbursement decision, procurement figure, or India-specific cost-effectiveness result was reported in the summary evaluation.",
+    nextMilestone: "Publication of the complete IARC Handbooks Volume 21 assessments, country-specific guideline responses, defined eligibility and quality standards, implementation and equity evidence, and any official Indian policy or funded pilot milestone.",
+    verification: "Verified from IARC's 24 September 2026 press release, posted evaluation table, and the NEJM Special Report DOI. The record represents a global evidence evaluation, not a new trial, WHO treatment guideline, or India policy change.",
+    source: "https://www.iarc.who.int/wp-content/uploads/2026/09/pr385_E.pdf",
+    secondarySource: "https://www.nejm.org/doi/10.1056/NEJMsb2608211"
+  },
   {
     id: "advance-aumolertinib-radiotherapy-stage3-nsclc",
     title: "ADVANCE aumolertinib plus radiotherapy",
@@ -1863,6 +1919,8 @@ const portfolioAliasRules = [
   { match: /sevabertinib|hyrnuo|soho-01/i, aliases: ["Hyrnuo", "BAY 2927088", "SOHO-01", "HER2", "ERBB2"] },
   { match: /imlunestrant|inluriyo|ember-3/i, aliases: ["Inluriyo", "EMBER-3", "ESR1", "Guardant360 CDx", "Verzenio"] },
   { match: /advance aumolertinib|aumolertinib|almonertinib|chictr2000040590/i, aliases: ["ADVANCE", "Aumolertinib", "Almonertinib", "ChiCTR2000040590", "EGFR", "Radiotherapy"] },
+  { match: /lirafugratinib|lyrfigtu|nct04526106|refocus/i, aliases: ["Lirafugratinib", "Lyrfigtu", "RLY-4008", "REFOCUS", "NCT04526106", "FGFR2"] },
+  { match: /iarc lung-cancer screening|iarc ldct evaluation|nejmsb2608211|volume 21/i, aliases: ["IARC Volume 21", "LDCT", "lung cancer screening", "NEJMsb2608211", "chest radiography"] },
   { match: /nhs-galleri|galleri|mced|nct05611632|pathfinder 2|nct05155605/i, aliases: ["NHS-Galleri", "Galleri", "MCED", "NCT05611632", "PATHFINDER 2", "NCT05155605", "PMA", "FDA advisory panel"] },
   { match: /eagle ai|esophageal-cancer detection|noncontrast ct|chictr2300074806/i, aliases: ["EAGLE", "Esophageal AI", "Noncontrast CT", "LDCT", "ChiCTR2300074806"] },
   { match: /ema september 2026 oncology chmp|gevalka|ensartinib|lifyorli|relacorilant|sepalna|senaparib|pebrilzo|zinmyleo|trilaciclib/i, aliases: ["CHMP", "Gevalka", "Ensartinib", "Lifyorli", "Relacorilant", "Sepalna", "Senaparib", "Pebrilzo", "Zinmyleo", "Trilaciclib"] },
@@ -2652,7 +2710,7 @@ function renderInsights() {
       signal: featuredSignal,
       why: featuredWhy,
       constraint: featuredConstraint,
-      confidence: featuredTreatment.impact,
+      confidence: featuredWatchlist?.evidenceStrength || featuredTreatment.impact,
       route: "Open dossier",
       view: featuredRoute.view,
       kind: featuredRoute.kind,

@@ -1,6 +1,6 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-24
+Updated: 2026-09-25
 
 ## Method
 
@@ -78,8 +78,36 @@ Updated: 2026-09-24
 - The 2026-09-22 review added the peer-reviewed, prematurely closed ADVANCE randomized Phase III signal for aumolertinib plus radiotherapy in unresectable EGFR-mutated stage III NSCLC. The record preserves the large PFS estimate while emphasizing the 43-patient sample, outdated control, immature OS, early closure, China-only population, and unresolved India authorization.
 - The 2026-09-23 review upgraded the NHS-Galleri record with peer-reviewed three-round performance evidence while preserving the negative randomized clinical-utility primary endpoint, and added the peer-reviewed EAGLE noncontrast-CT esophageal-cancer diagnostic signal with its retrospective, follow-up, implementation, and patient-outcome limitations.
 - The 2026-09-24 review updated the existing NHS-Galleri record with the peer-reviewed randomized primary analysis and the FDA advisory-panel outcome while preserving the negative primary endpoint, split effectiveness vote, nonbinding regulatory status, and unresolved patient-outcome and implementation evidence gaps.
+- The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-25 Verified Updates and Review Checks
+
+- FDA Lyrfigtu approval notice; primary source for the indication, 116-patient REFOCUS efficacy population, FGFR-inhibitor-naive prior-treatment requirement, ORR, duration of response, dose, safety-warning categories, and review pathways
+  https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-lirafugratinib-previously-treated-unresectable-locally-advanced-or-metastatic
+- FDA oncology approval notifications index; source confirming that the 23 September approval became the newest visible FDA oncology drug action after the prior briefing cutoff
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- Elevar official approval and safety release; source for the announced Q4 2026 US availability window, sponsor-reported PFS, 385-patient safety-pool event rates, ophthalmologic and phosphate monitoring context, and licensing/manufacturer information
+  https://elevartx.com/2026/09/23/elevar-fda-approval-lyrfigtu-2/
+- ClinicalTrials.gov REFOCUS registry; source for the Phase I/II, multicohort, open-label, nonrandomized design, completed status, enrollment context, eligibility, outcomes, and sponsor identity
+  https://clinicaltrials.gov/study/NCT04526106
+- IARC Volume 21 press release; primary source for the independent evidence review, Group A LDCT conclusions, Group C chest-radiography conclusions, assessed harms, implementation requirements, and 24 September publication date
+  https://www.iarc.who.int/wp-content/uploads/2026/09/pr385_E.pdf
+- IARC posted evaluation table; source for the formal Group A and Group C classifications for lung-cancer mortality and stage III-IV incidence
+  https://handbooks.iarc.who.int/documents-handbooks/hb21/vol21-evaluations.pdf
+- NEJM Special Report; peer-reviewed summary of the IARC Working Group evaluation
+  https://www.nejm.org/doi/10.1056/NEJMsb2608211
+- FDA accelerated-approval tracking, EMA, CDSCO, WHO/IARC, major-journal publication surfaces, ClinicalTrials.gov, and targeted official sources were rechecked. No additional same-window approval, withdrawal, safety restriction, official price/procurement action, or India-access milestone cleared promotion.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://clinicaltrials.gov/
+- Astellas's first-patient Phase III setidegrasib announcement, result-free World Cancer Congress previews, IARC administrative meeting materials, reviews, and preclinical studies were considered but not promoted because they did not clear the same-window materiality and decision-relevance threshold. No item was excluded because of taxonomy fit.
 
 ## 2026-09-24 Verified Update and Review Checks
 
