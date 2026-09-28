@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-09-25T08:28:01.961Z",
-  "currentEditionId": "2026-09-25",
-  "currentEditionLabel": "25 September 2026",
+  "generatedAt": "2026-09-28T03:39:21.816Z",
+  "currentEditionId": "2026-09-28",
+  "currentEditionLabel": "28 September 2026",
   "editions": [
+    {
+      "id": "2026-09-28",
+      "editionLabel": "28 September 2026",
+      "preparedLabel": "September 28 Morning Edition",
+      "monthKey": "2026-09",
+      "monthLabel": "September 2026",
+      "summary": "Triple-class-exposed myeloma remains a high-need setting, and BCMA-directed therapies are often constrained by cytokine-release, infection, monitoring, and site-of-care burden. The full randomized CERVINO presentation supports a monthly BCMA bispecific strategy that could affect sequencing and outpatient or community delivery if regulatory review confirms a favorable benefit-risk profile.",
+      "file": "/data/editions/2026-09-28.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 28,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 34,
+        "verifiedRecords": 73
+      }
+    },
     {
       "id": "2026-09-25",
       "editionLabel": "25 September 2026",
@@ -1062,8 +1079,36 @@
     {
       "monthKey": "2026-09",
       "monthLabel": "September 2026",
-      "leadEditionId": "2026-09-25",
+      "leadEditionId": "2026-09-28",
       "highlights": [
+        {
+          "editionId": "2026-09-28",
+          "editionLabel": "28 September 2026",
+          "tag": "IMS 2026 Phase III presentation",
+          "title": "CERVINO etentamig Phase III results",
+          "summary": "Triple-class-exposed myeloma remains a high-need setting, and BCMA-directed therapies are often constrained by cytokine-release, infection, monitoring, and site-of-care burden. The full randomized CERVINO presentation supports a monthly BCMA bispecific strategy that could affect sequencing and outpatient or community delivery if regulatory review confirms a favorable benefit-risk profile."
+        },
+        {
+          "editionId": "2026-09-28",
+          "editionLabel": "28 September 2026",
+          "tag": "Latest verified approval",
+          "title": "Belzutifan + Lenvatinib for Advanced Clear-Cell RCC",
+          "summary": "FDA approval 24 September 2026; sponsor announcement 25 September 2026"
+        },
+        {
+          "editionId": "2026-09-28",
+          "editionLabel": "28 September 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-09-28",
+          "editionLabel": "28 September 2026",
+          "tag": "Primary endpoints not met",
+          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
+          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
+        },
         {
           "editionId": "2026-09-25",
           "editionLabel": "25 September 2026",
@@ -1077,34 +1122,6 @@
           "tag": "Latest verified approval",
           "title": "Lirafugratinib for FGFR2-Altered Cholangiocarcinoma",
           "summary": "FDA approval 23 September 2026; sponsor expects US availability in Q4 2026"
-        },
-        {
-          "editionId": "2026-09-25",
-          "editionLabel": "25 September 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-09-25",
-          "editionLabel": "25 September 2026",
-          "tag": "Primary endpoints not met",
-          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
-          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
-        },
-        {
-          "editionId": "2026-09-24",
-          "editionLabel": "24 September 2026",
-          "tag": "FDA panel favorable; primary endpoint negative",
-          "title": "NHS-Galleri randomized MCED screening",
-          "summary": "This is the largest randomized population test of blood-based multi-cancer screening and now a live US regulatory decision. The favorable panel recommendation does not erase the negative primary clinical-utility endpoint, and strong test performance still does not establish improved patient outcomes."
-        },
-        {
-          "editionId": "2026-09-24",
-          "editionLabel": "24 September 2026",
-          "tag": "Latest verified approval",
-          "title": "Imlunestrant + Abemaciclib for ESR1-Mutated Breast Cancer",
-          "summary": "FDA full approval 18 September 2026"
         }
       ]
     },

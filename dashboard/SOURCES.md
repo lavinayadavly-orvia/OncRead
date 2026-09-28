@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-25
+Updated: 2026-09-28
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-09-28 catch-up review added one FDA treatment dossier and upgraded two existing myeloma records using a peer-reviewed Phase III publication and full IMS 2026 presentation data; no duplicate records were created.
 - The `Watchlist & systems` section was added specifically for material items that should not be forced into the standard treatment cards.
 - Watchlist entries added on 2026-06-15 are clearly labeled when they remain conference-only or when direct primary abstract/report capture was still pending in this pass.
 - The 2026-06-16 review was a no-content-change pass. Official-source checks did not surface a new post-2026-06-15 development that was both material and verifiable enough to promote into the dashboard.
@@ -81,6 +82,37 @@ Updated: 2026-09-25
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-28 Verified Updates and Review Checks
+
+- FDA belzutifan plus lenvatinib approval notice; source for the indication, randomized LITESPARK-011 population, endpoints, PFS, OS, ORR, dosing, boxed warning, and safety precautions
+  https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-belzutifan-combination-lenvatinib-advanced-renal-cell-carcinoma-clear-cell-component
+- Merck and Eisai approval release; secondary check for the indication, LITESPARK-011 estimates, excluded populations, serious adverse reactions, and sponsor characterization of the first approved HIF-2 alpha inhibitor plus VEGFR-TKI combination in this setting
+  https://us.eisai.com/press-releases/us-fda-approves-welireg-belzutifan-plus-lenvima-lenvatinib-for-certain-previously-treated-adult-patients-with-advanced-renal-cell-carcinoma-with-a-clear-cell-component-ccrcc
+- Peer-reviewed LITESPARK-011 publication and ClinicalTrials.gov record; checks for the 747-patient randomized design, active comparator, post-PD-1/PD-L1 population, dual primary endpoints, and trial registration
+  https://pubmed.ncbi.nlm.nih.gov/42586114/
+  https://clinicaltrials.gov/study/NCT04586231
+- Peer-reviewed EXCALIBER-RRMM publication; source for the randomized 420-patient MRD analysis, effect estimates, response depth, safety, and ongoing confirmatory PFS endpoint
+  https://doi.org/10.1016/S1470-2045(26)00450-X
+- Bristol Myers Squibb IMS 2026 release and ClinicalTrials.gov record; secondary checks for follow-up, ORR, Grade 3/4 neutropenia and infection, fatal infection, neuropathy, total randomized population, and trial design
+  https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-Announces-First-Presentation-of-Results-for-ZENBEXUS-iberdomide-in-Combination-with-Daratumumab-from-Phase-3-EXCALIBER-RRMM-Trial-in-Relapsed-or-Refractory-Multiple-Myeloma/default.aspx
+  https://clinicaltrials.gov/study/NCT04975997
+- AbbVie CERVINO release, IMS 2026 LBA-01 report, and ClinicalTrials.gov record; sources for the 393-patient randomized population, comparator regimens, ORR, PFS, interim OS, response depth, duration, CRS, ICANS, infection, and dosing details
+  https://news.abbvie.com/2026-09-03-AbbVie-Announces-Positive-Topline-Results-from-the-Phase-3-CERVINO-Trial-Showing-Etentamig-Significantly-Improved-Response-Rate-and-Progression-Free-Survival-in-Patients-with-Relapsed-Refractory-Multiple-Myeloma
+  https://www.cancernetwork.com/view/etentamig-shows-superior-efficacy-vs-soc-in-relapsed-refractory-myeloma
+  https://clinicaltrials.gov/study/NCT06158841
+- CDSCO oncology SEC recommendation dated 18 March 2026; source for the separate Indian belzutifan 40 mg VHL-associated-tumor proposal, which was not treated as authorization for the new belzutifan-lenvatinib post-immunotherapy RCC indication
+  https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadCommitteeFiles/Recommendations%20Oncology%2018.03.2026.pdf
+- FDA oncology and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal publication surfaces, IMS 2026 materials, and targeted official sponsor sources were rechecked. No additional approval, withdrawal, safety restriction, official price or procurement action, or India-access milestone cleared promotion through the 28 September cutoff.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://clinicaltrials.gov/
+- Early-phase and preclinical pancreatic-cancer reports, non-randomized myeloma combinations, mature updates without a new decision-relevant endpoint, and result-free conference material were considered but not promoted. No item was excluded because of taxonomy fit.
 
 ## 2026-09-25 Verified Updates and Review Checks
 
