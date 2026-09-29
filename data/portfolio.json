@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T03:39:21.704Z",
+  "generatedAt": "2026-09-29T12:03:45.926Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -3687,10 +3687,394 @@
       ]
     },
     {
-      "id": "watchlist:iarc-lung-cancer-screening-volume21",
+      "id": "watchlist:alliance-a071801-fractionated-postop-srs",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
       "order": 39,
+      "title": "Alliance A071801 fractionated postoperative radiosurgery",
+      "subtitle": "Radiotherapy / brain metastases · Resected brain metastases from non-CNS solid tumors · United States; NCI-sponsored Alliance multicenter trial",
+      "organization": "Alliance for Clinical Trials in Oncology; National Cancer Institute; Mayo Clinic; Mass General Brigham/Dana-Farber investigators; American Society for Radiation Oncology",
+      "snapshot": "Conference-only randomized Phase III · 28 September 2026",
+      "summary": "This is the first randomized Phase III comparison of postoperative fractionated and single-session radiosurgery for larger resection cavities. It supports a practice already adopted from retrospective evidence while retaining the convenience and tissue-sparing rationale of focal treatment.",
+      "headline": "At one year, 87% of patients assigned fractionated radiosurgery versus 81% assigned single-session treatment remained free from recurrence at the surgical site; ASTRO reported this difference as statistically significant but did not provide the effect estimate, confidence interval, or p value in the public release. Median OS was 29 versus 20 months, with a reported 31% lower risk of death after adjustment. Progression of treated unresected tumors occurred in 4% versus 11%, a difference that was not statistically significant.",
+      "statusLabel": "Conference-only randomized Phase III",
+      "badges": [
+        "Conference-only randomized Phase III",
+        "Radiotherapy / brain metastases",
+        "United States; NCI-sponsored Alliance multicenter trial"
+      ],
+      "searchText": "alliance a071801 fractionated postoperative radiosurgery a071801 fractionated srs radiotherapy / brain metastases resected brain metastases from non-cns solid tumors united states; nci-sponsored alliance multicenter trial alliance for clinical trials in oncology; national cancer institute; mayo clinic; mass general brigham/dana-farber investigators; american society for radiation oncology alliance a071801 directly compared three- or five-session fractionated stereotactic radiosurgery with single-session radiosurgery after resection of a brain metastasis larger than 2 cm. at one year, 87% of patients assigned fractionated radiosurgery versus 81% assigned single-session treatment remained free from recurrence at the surgical site; astro reported this difference as statistically significant but did not provide the effect estimate, confidence interval, or p value in the public release. median os was 29 versus 20 months, with a reported 31% lower risk of death after adjustment. progression of treated unresected tumors occurred in 4% versus 11%, a difference that was not statistically significant. supports considering three to five postoperative sessions rather than one session for appropriately selected larger resection cavities. the unexpected survival result should not be treated as definitively causal because the trial was not designed to explain it and the public report did not provide a complete statistical table. this is the first randomized phase iii comparison of postoperative fractionated and single-session radiosurgery for larger resection cavities. it supports a practice already adopted from retrospective evidence while retaining the convenience and tissue-sparing rationale of focal treatment.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "alliance-a071801-fractionated-postop-srs",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.astro.org/news-and-publications/news-and-media-center/news-releases/2026/fractionated-radiosurgery-reduces-cancer-recurrence-after-surgery-for-large-brain-metastases"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://www.eurekalert.org/news-releases/1145265"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "Alliance A071801 directly compared three- or five-session fractionated stereotactic radiosurgery with single-session radiosurgery after resection of a brain metastasis larger than 2 cm."
+        ],
+        [
+          "Population / sample",
+          "242 patients with one to four brain metastases, including one surgically resected metastasis larger than 2 cm, randomized from 2019 to 2022 and followed for a median of four years."
+        ],
+        [
+          "Comparator",
+          "Fractionated stereotactic radiosurgery in three or five sessions, with dose based on cavity size, versus single-session stereotactic radiosurgery. Any unresected metastases were treated using the assigned schedule."
+        ],
+        [
+          "Observed effect",
+          "At one year, 87% of patients assigned fractionated radiosurgery versus 81% assigned single-session treatment remained free from recurrence at the surgical site; ASTRO reported this difference as statistically significant but did not provide the effect estimate, confidence interval, or p value in the public release. Median OS was 29 versus 20 months, with a reported 31% lower risk of death after adjustment. Progression of treated unresected tumors occurred in 4% versus 11%, a difference that was not statistically significant.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "This is the first randomized Phase III comparison of postoperative fractionated and single-session radiosurgery for larger resection cavities. It supports a practice already adopted from retrospective evidence while retaining the convenience and tissue-sparing rationale of focal treatment.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients undergoing surgery for larger brain metastases, radiation oncologists, neurosurgeons, multidisciplinary neuro-oncology teams, treatment-planning services, and payers.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Supports considering three to five postoperative sessions rather than one session for appropriately selected larger resection cavities. The unexpected survival result should not be treated as definitively causal because the trial was not designed to explain it and the public report did not provide a complete statistical table.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate-to-high emerging evidence: randomized multicenter Phase III data with four-year median follow-up, but conference-only and not yet peer reviewed in this pass. Publicly reported local-control and survival estimates remain less complete than a full publication."
+        ],
+        [
+          "India relevance",
+          "The treatment approach is technically relevant to Indian centers with stereotactic-radiotherapy capability, but no Indian trial site, national guideline change, reimbursement decision, procurement action, capacity initiative, or implementation milestone was verified.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not reported. No comparative treatment-course cost, India tariff, reimbursement decision, procurement figure, or cost-effectiveness result was verified; fractionation adds visits and planning/delivery capacity relative to a single session."
+        ],
+        [
+          "Current limitation",
+          "Conference-only reporting; exact primary-effect estimate, confidence interval, p value, radiation doses by cavity size, subgroup results, and full adverse-event table were not available in the captured public release. The survival difference was unexpected and unexplained, and may reflect unmeasured factors despite balanced reported baseline characteristics.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Peer-reviewed publication with the complete statistical and safety dataset, guideline review, external validation of the survival finding, subgroup analyses, and implementation or access evidence in resource-constrained settings."
+        ],
+        [
+          "Verification note",
+          "Verified from ASTRO's 28 September 2026 official release and meeting report for late-breaking abstract LBA 01. The record is explicitly conference-only and does not infer a regulatory action or universal standard for every resection cavity.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:nrg-cc009-srs-sclc-brain-metastases",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 40,
+      "title": "NRG-CC009 focused radiosurgery for SCLC brain metastases",
+      "subtitle": "Radiotherapy / brain metastases · Small-cell lung cancer with brain metastases · United States and Canada; NRG Oncology multicenter trial",
+      "organization": "NRG Oncology; participating North American centers; American Society for Radiation Oncology",
+      "snapshot": "Conference-only randomized Phase III · 28 September 2026",
+      "summary": "This is the first randomized Phase III comparison of the two modern approaches in SCLC brain metastases and challenges automatic reliance on whole-brain treatment for every appropriately selected patient.",
+      "headline": "Neurocognitive failure did not differ significantly: adjusted HR 0.83 (95% CI 0.53-1.28; p=0.39). Median OS was 17.4 months with SRS versus 8.6 months with HA-WBRT plus memantine, adjusted HR 0.60 (95% CI 0.39-0.91; p=0.016). Adjusted intracranial failure, neurologic mortality, salvage treatment, and treatment-related grade 3-5 adverse events did not differ significantly.",
+      "statusLabel": "Conference-only randomized Phase III",
+      "badges": [
+        "Conference-only randomized Phase III",
+        "Radiotherapy / brain metastases",
+        "United States and Canada; NRG Oncology multicenter trial"
+      ],
+      "searchText": "nrg-cc009 focused radiosurgery for sclc brain metastases nrg-cc009 srs versus ha-wbrt radiotherapy / brain metastases small-cell lung cancer with brain metastases united states and canada; nrg oncology multicenter trial nrg oncology; participating north american centers; american society for radiation oncology nrg-cc009 tested stereotactic radiosurgery to visible brain metastases against modern hippocampal-avoidant whole-brain radiotherapy plus memantine, addressing a population historically excluded from radiosurgery trials. neurocognitive failure did not differ significantly: adjusted hr 0.83 (95% ci 0.53-1.28; p=0.39). median os was 17.4 months with srs versus 8.6 months with ha-wbrt plus memantine, adjusted hr 0.60 (95% ci 0.39-0.91; p=0.016). adjusted intracranial failure, neurologic mortality, salvage treatment, and treatment-related grade 3-5 adverse events did not differ significantly. supports srs as a reasonable standard-of-care option for selected patients able to undergo focal treatment and close mri surveillance. it does not prove that srs improves cognition or definitively causes longer survival; treatment selection should account for intracranial disease burden, prognosis, follow-up capacity, and salvage access. this is the first randomized phase iii comparison of the two modern approaches in sclc brain metastases and challenges automatic reliance on whole-brain treatment for every appropriately selected patient.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "nrg-cc009-srs-sclc-brain-metastases",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://amportal.astro.org/sessions/pl-01-22946/nrg-cc009-a-phase-iii-trial-of-stereotactic-radiosurgery-srs-vs-hippocampal-avoidant-whole-br-114061"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://www.nrgoncology.org/Clinical-Trials/Protocol/nrg-cc009/"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "NRG-CC009 tested stereotactic radiosurgery to visible brain metastases against modern hippocampal-avoidant whole-brain radiotherapy plus memantine, addressing a population historically excluded from radiosurgery trials."
+        ],
+        [
+          "Population / sample",
+          "151 patients randomized from February 2021 to June 2026. Eligible patients had SCLC diagnosed within five years, brain metastases no larger than 4 cm, total intracranial tumor volume no greater than 30 cubic centimeters, and a median of two metastases; the protocol later removed its initial ten-lesion cap."
+        ],
+        [
+          "Comparator",
+          "Stereotactic radiosurgery to visible metastases versus hippocampal-avoidant whole-brain radiotherapy plus memantine."
+        ],
+        [
+          "Observed effect",
+          "Neurocognitive failure did not differ significantly: adjusted HR 0.83 (95% CI 0.53-1.28; p=0.39). Median OS was 17.4 months with SRS versus 8.6 months with HA-WBRT plus memantine, adjusted HR 0.60 (95% CI 0.39-0.91; p=0.016). Adjusted intracranial failure, neurologic mortality, salvage treatment, and treatment-related grade 3-5 adverse events did not differ significantly.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "This is the first randomized Phase III comparison of the two modern approaches in SCLC brain metastases and challenges automatic reliance on whole-brain treatment for every appropriately selected patient.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients with SCLC brain metastases, thoracic and radiation oncologists, neuro-oncology teams, MRI-surveillance services, patients prioritizing treatment burden and cognitive outcomes, and payers.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Supports SRS as a reasonable standard-of-care option for selected patients able to undergo focal treatment and close MRI surveillance. It does not prove that SRS improves cognition or definitively causes longer survival; treatment selection should account for intracranial disease burden, prognosis, follow-up capacity, and salvage access.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate-to-high emerging evidence: randomized Phase III trial with a prespecified cognitive endpoint and an active modern comparator, but conference-only, under the 200-patient target, and with only 9.5 months' median follow-up among survivors."
+        ],
+        [
+          "India relevance",
+          "SRS and whole-brain radiotherapy are available at selected Indian centers, but no India-specific trial cohort, guideline change, reimbursement decision, procurement action, price comparison, or national implementation milestone was verified. MRI surveillance and salvage access may constrain applicability.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not reported. No comparative cost, India tariff, reimbursement decision, procurement figure, or cost-effectiveness result was verified; SRS may reduce whole-brain exposure but requires stereotactic planning and serial MRI surveillance."
+        ],
+        [
+          "Current limitation",
+          "The primary neurocognitive endpoint was negative. The OS finding was secondary and the trial was not specifically powered to prove a survival benefit; unmeasured imbalance and differential availability for later cognitive testing remain possible. Full quality-of-life, lesion-level control, salvage, and toxicity detail awaits publication.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Peer-reviewed publication, longer follow-up, explanation and replication of the secondary OS finding, complete cognitive and quality-of-life results, guideline review, and implementation evidence across different resource settings."
+        ],
+        [
+          "Verification note",
+          "Verified from ASTRO's LBA 02 abstract, official 28 September 2026 release, and NRG Oncology protocol page. The record preserves the negative primary endpoint and labels the survival finding as secondary.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:pace-a-sbrt-versus-prostatectomy-2026",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 41,
+      "title": "PACE-A five-fraction SBRT versus prostatectomy",
+      "subtitle": "Radiotherapy / surgery comparison · Predominantly low- or favorable intermediate-risk localized prostate cancer · United Kingdom; eight-center trial",
+      "organization": "The Royal Marsden; Institute of Cancer Research Clinical Trials and Statistics Unit; PACE investigators; American Society for Radiation Oncology",
+      "snapshot": "Conference-only randomized Phase III · 28 September 2026",
+      "summary": "Patients choosing definitive treatment need contemporary randomized evidence on both tumor control and durable urinary, bowel, and sexual trade-offs. PACE-A directly informs shared decision-making between a short non-surgical course and surgery.",
+      "headline": "Thirteen biochemical or clinical failures occurred: five after SBRT and eight after surgery, HR 0.48 (95% CI 0.16-1.46; p=0.18). Failure-free rates were 94% versus 95% at five years and 91% versus 84% at eight years, with no statistically significant difference. Five-year daily-pad use was 8% after SBRT versus 48% after surgery. Median five-year erectile-function scores were 19 versus 5; no prostate-cancer deaths occurred.",
+      "statusLabel": "Conference-only randomized Phase III",
+      "badges": [
+        "Conference-only randomized Phase III",
+        "Radiotherapy / surgery comparison",
+        "United Kingdom; eight-center trial"
+      ],
+      "searchText": "pace-a five-fraction sbrt versus prostatectomy pace-a mature randomized outcomes radiotherapy / surgery comparison predominantly low- or favorable intermediate-risk localized prostate cancer united kingdom; eight-center trial the royal marsden; institute of cancer research clinical trials and statistics unit; pace investigators; american society for radiation oncology pace-a reported mature cancer-control and five-year functional outcomes from the first randomized phase iii comparison of contemporary five-fraction prostate sbrt with radical prostatectomy. thirteen biochemical or clinical failures occurred: five after sbrt and eight after surgery, hr 0.48 (95% ci 0.16-1.46; p=0.18). failure-free rates were 94% versus 95% at five years and 91% versus 84% at eight years, with no statistically significant difference. five-year daily-pad use was 8% after sbrt versus 48% after surgery. median five-year erectile-function scores were 19 versus 5; no prostate-cancer deaths occurred. supports discussing five-fraction sbrt as an effective non-surgical option with lower long-term urinary-pad use and better sexual outcomes in a selected favorable-risk population. it does not establish oncologic equivalence or superiority because the trial was small, had only 13 failure events, and was not designed to establish noninferiority for cancer control. patients choosing definitive treatment need contemporary randomized evidence on both tumor control and durable urinary, bowel, and sexual trade-offs. pace-a directly informs shared decision-making between a short non-surgical course and surgery.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "pace-a-sbrt-versus-prostatectomy-2026",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.newswise.com/articles/five-treatment-radiation-therapy-offers-effective-nonsurgical-alternative-for-localized-prostate-cancer"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://www.icr.ac.uk/docs/default-source/clinical-trials/trial-documents/pace/pace_protocol_v13_18-10-2023_clean.pdf"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "PACE-A reported mature cancer-control and five-year functional outcomes from the first randomized Phase III comparison of contemporary five-fraction prostate SBRT with radical prostatectomy."
+        ],
+        [
+          "Population / sample",
+          "123 surgery-eligible patients randomized from 2012 to 2022; 94% had low- or intermediate-risk localized disease, median age was 65.5 years, and androgen-deprivation therapy was not permitted."
+        ],
+        [
+          "Comparator",
+          "Prostate SBRT 36.25 Gy in five fractions over one to two weeks versus open, laparoscopic, or robot-assisted radical prostatectomy."
+        ],
+        [
+          "Observed effect",
+          "Thirteen biochemical or clinical failures occurred: five after SBRT and eight after surgery, HR 0.48 (95% CI 0.16-1.46; p=0.18). Failure-free rates were 94% versus 95% at five years and 91% versus 84% at eight years, with no statistically significant difference. Five-year daily-pad use was 8% after SBRT versus 48% after surgery. Median five-year erectile-function scores were 19 versus 5; no prostate-cancer deaths occurred.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "Patients choosing definitive treatment need contemporary randomized evidence on both tumor control and durable urinary, bowel, and sexual trade-offs. PACE-A directly informs shared decision-making between a short non-surgical course and surgery.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Men with localized prostate cancer who require treatment and are eligible for both approaches, urologists, radiation oncologists, multidisciplinary prostate clinics, rehabilitation services, and payers.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Supports discussing five-fraction SBRT as an effective non-surgical option with lower long-term urinary-pad use and better sexual outcomes in a selected favorable-risk population. It does not establish oncologic equivalence or superiority because the trial was small, had only 13 failure events, and was not designed to establish noninferiority for cancer control.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate emerging evidence: randomized Phase III design and median eight-year follow-up, supported by earlier peer-reviewed functional results, but this mature analysis is conference-only and statistically underpowered for definitive comparative cancer-control conclusions."
+        ],
+        [
+          "India relevance",
+          "The shared-decision evidence is relevant to Indian prostate-cancer services, but no India site, CDSCO issue, national guideline update, reimbursement decision, procurement action, official comparative price, or capacity milestone was verified. SBRT access and treatment quality vary by center.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not reported. No official comparative episode cost, India tariff, reimbursement decision, procurement figure, or cost-effectiveness result was verified; SBRT requires five treatment visits while surgery carries operative and recovery resource use."
+        ],
+        [
+          "Current limitation",
+          "Only 123 patients at eight UK centers, few cancer events, incomplete five-year patient-reported follow-up, treatment-received analyses for some outcomes, and limited applicability to high-risk disease or patients requiring androgen-deprivation therapy. Different PSA failure definitions after radiation and surgery also complicate direct comparison.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Peer-reviewed mature publication, continued follow-up for metastasis and cancer-specific survival, clarification of missing patient-reported data, guideline review, and comparative effectiveness and cost evidence in broader populations."
+        ],
+        [
+          "Verification note",
+          "Verified from ASTRO's official 28 September 2026 release as syndicated by Newswise, the ASTRO meeting abstract, and the PACE protocol. The dashboard makes no cross-modality superiority claim for cancer control.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:soft-preop-pancreatic-sbrt-2026",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 42,
+      "title": "SOFT Preop pancreatic SBRT versus chemoradiotherapy",
+      "subtitle": "Radiotherapy / surgery pathway · Resectable, borderline-resectable, or selected locally advanced pancreatic adenocarcinoma · United States; multicenter trial",
+      "organization": "Medical College of Wisconsin-led investigators; participating centers; American Society for Radiation Oncology",
+      "snapshot": "Conference-only randomized Phase II · 28 September 2026",
+      "summary": "A five-treatment course could reduce treatment and travel burden before major pancreatic surgery without an observed loss in pathologic or surgical outcomes, while preserving patient-reported function during therapy.",
+      "headline": "Node positivity was 41% with SBRT versus 38% with chemoradiotherapy (p=0.754). Median PFS was 14.28 versus 21.6 months (p=0.96), and median OS from enrollment was 26.04 versus 42.96 months (p=0.639); no efficacy difference was established. Intended therapy including surgery was completed by 41 versus 42 patients, and surgical complications did not differ. SBRT better preserved physical function, global physical health, and fatigue (p<0.05).",
+      "statusLabel": "Conference-only randomized Phase II",
+      "badges": [
+        "Conference-only randomized Phase II",
+        "Radiotherapy / surgery pathway",
+        "United States; multicenter trial"
+      ],
+      "searchText": "soft preop pancreatic sbrt versus chemoradiotherapy soft preop randomized phase ii radiotherapy / surgery pathway resectable, borderline-resectable, or selected locally advanced pancreatic adenocarcinoma united states; multicenter trial medical college of wisconsin-led investigators; participating centers; american society for radiation oncology soft preop compared five-treatment preoperative sbrt with 28-fraction conventionally fractionated chemoradiotherapy after neoadjuvant chemotherapy. node positivity was 41% with sbrt versus 38% with chemoradiotherapy (p=0.754). median pfs was 14.28 versus 21.6 months (p=0.96), and median os from enrollment was 26.04 versus 42.96 months (p=0.639); no efficacy difference was established. intended therapy including surgery was completed by 41 versus 42 patients, and surgical complications did not differ. sbrt better preserved physical function, global physical health, and fatigue (p<0.05). supports further evaluation and individualized use of short-course sbrt in experienced multidisciplinary programs. it does not establish superior tumor control or survival, and the numerically longer os with conventional chemoradiotherapy was not statistically significant. a five-treatment course could reduce treatment and travel burden before major pancreatic surgery without an observed loss in pathologic or surgical outcomes, while preserving patient-reported function during therapy.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "soft-preop-pancreatic-sbrt-2026",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://amportal.astro.org/sessions/lba-01-22916/a-randomized-phase-ii-clinical-trial-of-stereotactic-body-radiation-therapy-or-conventionally-114057"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://www.newswise.com/articles/short-course-radiation-therapy-better-preserves-physical-function-before-pancreatic-cancer-surgery/"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "SOFT Preop compared five-treatment preoperative SBRT with 28-fraction conventionally fractionated chemoradiotherapy after neoadjuvant chemotherapy."
+        ],
+        [
+          "Population / sample",
+          "102 patients enrolled after at least one month of neoadjuvant chemotherapy; four withdrew and 83 of 98 evaluable patients completed all intended therapy including surgery. Resectability groups were 38% resectable, 42% borderline, and 20% locally advanced type A."
+        ],
+        [
+          "Comparator",
+          "SBRT with 25 Gy in five fractions to elective nodes and 33-40 Gy in five fractions to the primary tumor without concurrent chemotherapy versus 50.4 Gy in 28 fractions with weekly gemcitabine or capecitabine."
+        ],
+        [
+          "Observed effect",
+          "Node positivity was 41% with SBRT versus 38% with chemoradiotherapy (p=0.754). Median PFS was 14.28 versus 21.6 months (p=0.96), and median OS from enrollment was 26.04 versus 42.96 months (p=0.639); no efficacy difference was established. Intended therapy including surgery was completed by 41 versus 42 patients, and surgical complications did not differ. SBRT better preserved physical function, global physical health, and fatigue (p<0.05).",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "A five-treatment course could reduce treatment and travel burden before major pancreatic surgery without an observed loss in pathologic or surgical outcomes, while preserving patient-reported function during therapy.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients receiving neoadjuvant treatment for potentially operable pancreatic cancer, surgical and radiation oncologists, multidisciplinary pancreas programs, caregivers, and services where six weeks of daily treatment creates access burden.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Supports further evaluation and individualized use of short-course SBRT in experienced multidisciplinary programs. It does not establish superior tumor control or survival, and the numerically longer OS with conventional chemoradiotherapy was not statistically significant.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate emerging evidence: prospective randomized Phase II comparison with a patient-centered quality-of-life signal, but conference-only, small, heterogeneous by resectability, and not powered to establish survival equivalence or noninferiority."
+        ],
+        [
+          "India relevance",
+          "The shorter schedule may reduce travel burden in India, but no Indian trial cohort, national guideline update, reimbursement decision, official tariff comparison, procurement action, MRI-linac capacity initiative, or implementation milestone was verified.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not reported. No official comparative cost, India tariff, reimbursement decision, procurement figure, or cost-effectiveness result was verified; five fractions reduce visits but adaptive MRI-guided delivery may require specialized infrastructure."
+        ],
+        [
+          "Current limitation",
+          "Phase II sample; heterogeneous resectable, borderline, and selected locally advanced population; varied induction chemotherapy exposure; most SBRT delivered with 1.5-T adaptive MRI guidance that may not be widely available; multiple secondary quality-of-life comparisons; and no statistically significant primary or survival advantage.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Peer-reviewed publication, larger confirmatory comparison, detailed toxicity and surgical-complication tables, subgroup analysis by resectability and chemotherapy, longer survival follow-up, and implementation evidence outside specialist MRI-guided centers."
+        ],
+        [
+          "Verification note",
+          "Verified from ASTRO's LBA 08 abstract and official 28 September 2026 release as syndicated by Newswise. The record preserves the neutral primary and survival results and labels the quality-of-life finding as secondary.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:iarc-lung-cancer-screening-volume21",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 43,
       "title": "IARC lung-cancer screening evaluation",
       "subtitle": "Screening guideline / public health · Lung cancer · Global evidence evaluation",
       "organization": "International Agency for Research on Cancer / World Health Organization; IARC Handbooks of Cancer Prevention Working Group",
@@ -3786,7 +4170,7 @@
       "id": "watchlist:advance-aumolertinib-radiotherapy-stage3-nsclc",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 40,
+      "order": 44,
       "title": "ADVANCE aumolertinib plus radiotherapy",
       "subtitle": "Radiotherapy / targeted therapy strategy · Unresectable stage III non-squamous NSCLC with centrally confirmed EGFR exon 19 deletion or L858R mutation · China; randomized trial at 11 enrolling sites with supportive multicenter real-world cohort",
       "organization": "Cancer Hospital, Chinese Academy of Medical Sciences-led investigators; Jiangsu Hansoh Pharmaceutical Group supplied aumolertinib and chemotherapy agents",
@@ -3882,7 +4266,7 @@
       "id": "watchlist:ema-september-2026-oncology-chmp-package",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 41,
+      "order": 45,
       "title": "EMA September 2026 oncology CHMP package",
       "subtitle": "Regulatory policy / market authorization · ALK-positive advanced NSCLC; platinum-resistant and advanced high-grade ovarian cancers; HER2-positive breast cancer; chemotherapy-associated myelosuppression in extensive-stage SCLC · European Union; European Commission decisions pending",
       "organization": "European Medicines Agency CHMP; SFL Pharmaceuticals Deutschland; Corcept Therapeutics Netherlands; Biosimilar Collaborations Ireland; Pharmacosmos",
@@ -3978,7 +4362,7 @@
       "id": "watchlist:who-childhood-cancer-market-strategy-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 42,
+      "order": 46,
       "title": "WHO childhood-cancer medicines market-shaping strategy",
       "subtitle": "Access / manufacturing / procurement · Childhood cancers · Global, focused on low- and middle-income countries",
       "organization": "World Health Organization; St. Jude Children's Research Hospital; UNICEF; PAHO Strategic Fund; Global Platform for Access to Childhood Cancer Medicines",
@@ -4074,7 +4458,7 @@
       "id": "watchlist:gfh375-kras-g12d-phase1-phase2",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 43,
+      "order": 47,
       "title": "GFH375 oral KRAS G12D inhibitor",
       "subtitle": "Peer-reviewed early-phase targeted therapy · Previously treated KRAS G12D-mutant advanced solid tumors, including pancreatic ductal adenocarcinoma and NSCLC · China; multicenter Phase I/II program",
       "organization": "GenFleet Therapeutics; Shanghai Chest Hospital and participating China centers; Verastem Oncology holds development and commercialization rights outside China",
@@ -4170,7 +4554,7 @@
       "id": "watchlist:wclc2026-preserve003-gotistobart-os",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 44,
+      "order": 48,
       "title": "PRESERVE-003 gotistobart survival update",
       "subtitle": "Conference-only Phase III development signal · Metastatic squamous NSCLC after PD-(L)1 inhibitor and platinum chemotherapy · Global randomized trial; presented at IASLC WCLC 2026 in Seoul",
       "organization": "BioNTech; OncoC4; PRESERVE-003 investigators; IASLC WCLC 2026",
@@ -4266,7 +4650,7 @@
       "id": "watchlist:wclc2026-braf-class23-ici-outcomes",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 45,
+      "order": 49,
       "title": "Class II and III BRAF NSCLC immunotherapy outcomes",
       "subtitle": "Biomarker / retrospective outcomes · Metastatic NSCLC with class II or class III BRAF alterations · Multicenter Europe and United States cohorts; presented in Seoul",
       "organization": "Memorial Sloan Kettering Cancer Center; Dana-Farber Cancer Institute; 15 academic centers; IASLC WCLC 2026 investigators",
@@ -4362,7 +4746,7 @@
       "id": "watchlist:wclc2026-sqcc-tumor-budding-grade",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 46,
+      "order": 50,
       "title": "IASLC tumor-budding grade validation in lung SqCC",
       "subtitle": "Pathology / prognostic biomarker · Resected lung squamous cell carcinoma · Republic of Korea single-center cohort; presented in Seoul",
       "organization": "Yonsei University Medical Center investigators; International Association for the Study of Lung Cancer",
@@ -4458,7 +4842,7 @@
       "id": "watchlist:wclc2026-brelt3-mobile-ldct",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 47,
+      "order": 51,
       "title": "BRELT3 mobile lung-cancer screening in Brazil",
       "subtitle": "Screening / care delivery / equity · Lung cancer screening · Four cities in Northeast Brazil",
       "organization": "ProPulmao Institute and BRELT3 investigators; IASLC WCLC 2026",
@@ -4554,7 +4938,7 @@
       "id": "watchlist:wclc2026-destiny-lung04",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 48,
+      "order": 52,
       "title": "DESTINY-Lung04 first-line trastuzumab deruxtecan",
       "subtitle": "Conference-only Phase III treatment strategy · Unresectable locally advanced or metastatic HER2-mutant non-squamous NSCLC · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "AstraZeneca and Daiichi Sankyo; DESTINY-Lung04 investigators; IASLC WCLC 2026",
@@ -4650,7 +5034,7 @@
       "id": "watchlist:wclc2026-rezilient3-zipalertinib",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 49,
+      "order": 53,
       "title": "REZILIENT3 zipalertinib plus chemotherapy",
       "subtitle": "Conference-only Phase III treatment strategy · Previously untreated advanced EGFR exon 20 insertion-positive non-squamous NSCLC · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "Taiho Pharmaceutical, Taiho Oncology, Cullinan Therapeutics, and REZILIENT3 investigators",
@@ -4746,7 +5130,7 @@
       "id": "watchlist:wclc2026-harmoni2-os",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 50,
+      "order": 54,
       "title": "HARMONi-2 ivonescimab overall-survival update",
       "subtitle": "Conference-only Phase III survival update · Treatment-naive PD-L1-positive advanced NSCLC without EGFR or ALK alterations · China; presented in Seoul, Republic of Korea",
       "organization": "Akeso Biopharma; HARMONi-2 investigators; IASLC WCLC 2026",
@@ -4842,7 +5226,7 @@
       "id": "watchlist:wclc2026-maverick-pci",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 51,
+      "order": 55,
       "title": "MAVERICK MRI surveillance versus prophylactic cranial irradiation",
       "subtitle": "Radiotherapy de-escalation / supportive care · Limited-stage or extensive-stage small-cell lung cancer after initial therapy · International SWOG/NCTN trial; presented in Seoul, Republic of Korea",
       "organization": "SWOG Cancer Research Network, US National Clinical Trials Network, and MAVERICK investigators",
@@ -4938,7 +5322,7 @@
       "id": "watchlist:wclc2026-taishan302-tampeli",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 52,
+      "order": 56,
       "title": "TAISHAN-302 tambotatug pelitecan versus topotecan",
       "subtitle": "Conference-only Phase III ADC evidence · Relapsed small-cell lung cancer after first-line therapy · Randomized trial; presented in Seoul, Republic of Korea",
       "organization": "MediLink Therapeutics and TAISHAN-302 investigators",
@@ -5034,7 +5418,7 @@
       "id": "watchlist:wclc2026-artemis008-risrez",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 53,
+      "order": 57,
       "title": "ARTEMIS-008 risvutatug rezetecan versus topotecan",
       "subtitle": "Conference-only Phase III ADC evidence · Relapsed small-cell lung cancer after platinum-based chemotherapy · China; presented in Seoul, Republic of Korea",
       "organization": "Hansoh Pharma, GSK, and ARTEMIS-008 investigators",
@@ -5130,7 +5514,7 @@
       "id": "watchlist:wclc2026-evoke03-negative",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 54,
+      "order": 58,
       "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
       "subtitle": "Negative Phase III evidence · Previously untreated PD-L1-high metastatic NSCLC without EGFR, ALK, or ROS1 alterations · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "Gilead Sciences, Merck & Co., and EVOKE-03 investigators",
@@ -5226,7 +5610,7 @@
       "id": "watchlist:wclc2026-lonestar-negative",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 55,
+      "order": 59,
       "title": "LONESTAR local consolidative therapy after dual immunotherapy",
       "subtitle": "Negative Phase III multimodality evidence · Immunotherapy-naive metastatic NSCLC, including oligometastatic disease · United States; single-center randomized trial presented in Seoul",
       "organization": "MD Anderson Cancer Center and LONESTAR investigators",
@@ -5322,7 +5706,7 @@
       "id": "watchlist:wclc2026-impower030-neutral",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 56,
+      "order": 60,
       "title": "IMpower030 perioperative atezolizumab final analysis",
       "subtitle": "Neutral Phase III perioperative evidence · Resectable stage IIB-IIIB non-small-cell lung cancer · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "Roche/Genentech and IMpower030 investigators",
@@ -5418,7 +5802,7 @@
       "id": "watchlist:tacti004-efti-manufacturing-followup",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 57,
+      "order": 61,
       "title": "TACTI-004 efti manufacturing and futility follow-up",
       "subtitle": "Manufacturing / negative trial follow-up · First-line advanced or metastatic non-small cell lung cancer · Global Phase III trial; India participation authorized",
       "organization": "Immutep Limited; Merck & Co. supplied pembrolizumab; TACTI-004 investigators",
@@ -5514,7 +5898,7 @@
       "id": "watchlist:who-childhood-cancer-prequalification-eoi",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 58,
+      "order": 62,
       "title": "WHO childhood-cancer medicine prequalification invitation",
       "subtitle": "Access / manufacturing / procurement · Childhood cancers · Global, with focus on low- and middle-income countries",
       "organization": "World Health Organization; Global Platform for Access to Childhood Cancer Medicines; GAP-f; St. Jude Children's Research Hospital; UNICEF; PAHO Strategic Fund",
@@ -5610,7 +5994,7 @@
       "id": "watchlist:neoadjuvant-nivolumab-ipilimumab-gbm",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 59,
+      "order": 63,
       "title": "Neoadjuvant nivolumab plus ipilimumab in recurrent glioblastoma",
       "subtitle": "Early randomized surgical-window evidence · Surgically resectable recurrent glioblastoma · United States; four-center trial",
       "organization": "Dana-Farber Cancer Institute-led investigators; UCLA, Stanford, Memorial Sloan Kettering; Bristol Myers Squibb supplied study drugs",
@@ -5706,7 +6090,7 @@
       "id": "watchlist:cervino-etentamig",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 60,
+      "order": 64,
       "title": "CERVINO etentamig Phase III results",
       "subtitle": "Randomized Phase III conference results · Relapsed/refractory multiple myeloma · Global trial; presented in Glasgow, United Kingdom",
       "organization": "AbbVie; CERVINO investigators; International Myeloma Society",
@@ -5802,7 +6186,7 @@
       "id": "watchlist:sanovo-savolitinib-osimertinib",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 61,
+      "order": 65,
       "title": "SANOVO first-line EGFR/MET lung-cancer topline",
       "subtitle": "Press-release-only phase III · EGFR-mutated NSCLC with MET overexpression · China",
       "organization": "AstraZeneca; HUTCHMED",
@@ -5898,7 +6282,7 @@
       "id": "watchlist:prostate-cardio-referral",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 62,
+      "order": 66,
       "title": "Routine cardiovascular referral in prostate cancer",
       "subtitle": "Supportive care / care delivery · Prostate cancer · Eight-country trial across 55 sites",
       "organization": "International randomized trial investigators; JAMA Internal Medicine",
@@ -5994,7 +6378,7 @@
       "id": "watchlist:mpower-asia-cancer-model",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 63,
+      "order": 67,
       "title": "MPOWER tobacco control and preventable cancers in Asia",
       "subtitle": "Prevention / public health policy · Thirteen tobacco-related cancers · East and South-East Asia",
       "organization": "Independent investigators using WHO Global Health Observatory and IARC Global Cancer Observatory data; The Lancet Regional Health - Western Pacific",
@@ -6090,7 +6474,7 @@
       "id": "watchlist:bemotrizinol-sunscreen",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 64,
+      "order": 68,
       "title": "Bemotrizinol sunscreen order takes effect",
       "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
       "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
@@ -6186,7 +6570,7 @@
       "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 65,
+      "order": 69,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -6282,7 +6666,7 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 66,
+      "order": 70,
       "title": "RP1 + nivolumab accelerated approval after advisory split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -6378,7 +6762,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 67,
+      "order": 71,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -6474,7 +6858,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 68,
+      "order": 72,
       "title": "NHS-Galleri randomized MCED screening",
       "subtitle": "Screening / diagnostics · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL + FDA Molecular and Clinical Genetics Devices Panel",
@@ -6570,7 +6954,7 @@
       "id": "watchlist:eagle-ai-esophageal-ct-screening",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 69,
+      "order": 73,
       "title": "EAGLE AI esophageal-cancer detection on noncontrast CT",
       "subtitle": "Diagnostics / AI screening · Esophageal cancer and high-grade intraepithelial neoplasia · China-led validation across China, the Czech Republic, and Australia",
       "organization": "Sun Yat-sen University Cancer Center-led EAGLE investigators",
@@ -6662,7 +7046,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 70,
+      "order": 74,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -6758,7 +7142,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 71,
+      "order": 75,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -6854,7 +7238,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 72,
+      "order": 76,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -6948,7 +7332,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 151,
+    "sourcesChecked": 159,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,

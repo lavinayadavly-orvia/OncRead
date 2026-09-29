@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-09-28T03:39:21.816Z",
-  "currentEditionId": "2026-09-28",
-  "currentEditionLabel": "28 September 2026",
+  "generatedAt": "2026-09-29T12:03:45.982Z",
+  "currentEditionId": "2026-09-29",
+  "currentEditionLabel": "29 September 2026",
   "editions": [
+    {
+      "id": "2026-09-29",
+      "editionLabel": "29 September 2026",
+      "preparedLabel": "September 29 Morning Edition",
+      "monthKey": "2026-09",
+      "monthLabel": "September 2026",
+      "summary": "This is the first randomized Phase III comparison of postoperative fractionated and single-session radiosurgery for larger resection cavities. It supports a practice already adopted from retrospective evidence while retaining the convenience and tissue-sparing rationale of focal treatment.",
+      "file": "/data/editions/2026-09-29.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 28,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 38,
+        "verifiedRecords": 77
+      }
+    },
     {
       "id": "2026-09-28",
       "editionLabel": "28 September 2026",
@@ -1079,8 +1096,36 @@
     {
       "monthKey": "2026-09",
       "monthLabel": "September 2026",
-      "leadEditionId": "2026-09-28",
+      "leadEditionId": "2026-09-29",
       "highlights": [
+        {
+          "editionId": "2026-09-29",
+          "editionLabel": "29 September 2026",
+          "tag": "Conference-only randomized Phase III",
+          "title": "Alliance A071801 fractionated postoperative radiosurgery",
+          "summary": "This is the first randomized Phase III comparison of postoperative fractionated and single-session radiosurgery for larger resection cavities. It supports a practice already adopted from retrospective evidence while retaining the convenience and tissue-sparing rationale of focal treatment."
+        },
+        {
+          "editionId": "2026-09-29",
+          "editionLabel": "29 September 2026",
+          "tag": "Latest verified approval",
+          "title": "Belzutifan + Lenvatinib for Advanced Clear-Cell RCC",
+          "summary": "FDA approval 24 September 2026; sponsor announcement 25 September 2026"
+        },
+        {
+          "editionId": "2026-09-29",
+          "editionLabel": "29 September 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-09-29",
+          "editionLabel": "29 September 2026",
+          "tag": "Primary endpoints not met",
+          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
+          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
+        },
         {
           "editionId": "2026-09-28",
           "editionLabel": "28 September 2026",
@@ -1094,34 +1139,6 @@
           "tag": "Latest verified approval",
           "title": "Belzutifan + Lenvatinib for Advanced Clear-Cell RCC",
           "summary": "FDA approval 24 September 2026; sponsor announcement 25 September 2026"
-        },
-        {
-          "editionId": "2026-09-28",
-          "editionLabel": "28 September 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-09-28",
-          "editionLabel": "28 September 2026",
-          "tag": "Primary endpoints not met",
-          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
-          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
-        },
-        {
-          "editionId": "2026-09-25",
-          "editionLabel": "25 September 2026",
-          "tag": "IARC Group A LDCT evaluation",
-          "title": "IARC lung-cancer screening evaluation",
-          "summary": "This is a regulator-independent global evidence classification that can shape national screening policy and distinguishes an established mortality-reducing method from unproven alternatives. It also makes programme quality, diagnostic follow-up, equitable access, and tobacco cessation part of the decision rather than treating the scan as a stand-alone intervention."
-        },
-        {
-          "editionId": "2026-09-25",
-          "editionLabel": "25 September 2026",
-          "tag": "Latest verified approval",
-          "title": "Lirafugratinib for FGFR2-Altered Cholangiocarcinoma",
-          "summary": "FDA approval 23 September 2026; sponsor expects US availability in Q4 2026"
         }
       ]
     },

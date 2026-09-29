@@ -499,8 +499,8 @@ tbody tr:hover { background: #f8fafb; }
 .portfolio-detail-hero .eyebrow { color: #7fd8cd; }
 .portfolio-detail-hero h3 { margin: 0; font-size: 30px; line-height: 1.08; letter-spacing: -.04em; }
 .portfolio-detail-hero p:not(.eyebrow) { margin: 7px 0 0; color: #c5dbde; font-size: 11px; line-height: 1.55; }
-.portfolio-detail-actions { display: flex; align-items: flex-start; }
-.portfolio-detail-actions .button { white-space: nowrap; }
+.portfolio-detail-actions { display: flex; align-items: flex-start; min-width: 0; max-width: 100%; }
+.portfolio-detail-actions .button { max-width: 100%; white-space: normal; overflow-wrap: anywhere; text-align: center; }
 .portfolio-detail-body { padding-top: 18px; }
 .portfolio-lead { margin: 0 0 18px; color: #42556a; font-size: 12px; line-height: 1.7; }
 .treatment-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 15px; }

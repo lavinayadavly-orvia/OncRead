@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-28
+Updated: 2026-09-29
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-09-29 review added four ASTRO 2026 randomized radiotherapy records: Phase III Alliance A071801 for fractionated postoperative radiosurgery after resection of larger brain metastases; Phase III NRG-CC009 for SRS versus hippocampal-avoidant whole-brain radiotherapy plus memantine in SCLC brain metastases; mature Phase III PACE-A outcomes comparing five-fraction prostate SBRT with prostatectomy; and randomized Phase II SOFT Preop evidence comparing five-fraction pancreatic SBRT with conventionally fractionated chemoradiotherapy. All remain conference-only, and neutral or negative primary outcomes are retained.
 - The 2026-09-28 catch-up review added one FDA treatment dossier and upgraded two existing myeloma records using a peer-reviewed Phase III publication and full IMS 2026 presentation data; no duplicate records were created.
 - The `Watchlist & systems` section was added specifically for material items that should not be forced into the standard treatment cards.
 - Watchlist entries added on 2026-06-15 are clearly labeled when they remain conference-only or when direct primary abstract/report capture was still pending in this pass.
@@ -82,6 +83,33 @@ Updated: 2026-09-28
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-29 Verified Updates and Review Checks
+
+- ASTRO official release and Alliance A071801 meeting report; sources for the 242-patient randomized Phase III population, three- or five-session versus single-session postoperative radiosurgery comparison, one-year surgical-site control, median OS, unresected-lesion progression, safety summary, four-year follow-up, and conference-only status
+  https://www.astro.org/news-and-publications/news-and-media-center/news-releases/2026/fractionated-radiosurgery-reduces-cancer-recurrence-after-surgery-for-large-brain-metastases
+  https://www.eurekalert.org/news-releases/1145265
+- ASTRO LBA 02 abstract, official release, and NRG Oncology protocol page; sources for the NRG-CC009 design, eligibility, 151-patient randomized population, negative neurocognitive primary endpoint, secondary OS result, intracranial-control and safety summaries, target accrual, and conference-only status
+  https://amportal.astro.org/sessions/pl-01-22946/nrg-cc009-a-phase-iii-trial-of-stereotactic-radiosurgery-srs-vs-hippocampal-avoidant-whole-br-114061
+  https://www.astro.org/news-and-publications/news-and-media-center/news-releases/2026/radiosurgery-linked-to-longer-survival-for-small-cell-lung-cancer-with-brain-metastases
+  https://www.nrgoncology.org/Clinical-Trials/Protocol/nrg-cc009/
+- ASTRO PACE-A official release as syndicated by Newswise, ASTRO meeting materials, and PACE protocol; sources for the randomized 123-patient design, five- and eight-year biochemical or clinical control, effect estimate, survival, urinary and sexual outcomes, eligibility, dose, and the explicit limitation that the mature analysis does not establish noninferiority or superiority
+  https://www.newswise.com/articles/five-treatment-radiation-therapy-offers-effective-nonsurgical-alternative-for-localized-prostate-cancer
+  https://amportal.astro.org/abstracts?page=18
+  https://www.icr.ac.uk/docs/default-source/clinical-trials/trial-documents/pace/pace_protocol_v13_18-10-2023_clean.pdf
+- ASTRO SOFT Preop abstract and official release as syndicated by Newswise; sources for the 102-patient randomized Phase II design, radiation schedules, neutral node-positivity primary endpoint, surgery completion, PFS, OS, quality-of-life signal, and implementation limits
+  https://amportal.astro.org/sessions/lba-01-22916/a-randomized-phase-ii-clinical-trial-of-stereotactic-body-radiation-therapy-or-conventionally-114057
+  https://www.newswise.com/articles/short-course-radiation-therapy-better-preserves-physical-function-before-pancreatic-cancer-surgery/
+- FDA oncology and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal publication surfaces, ASTRO 2026 materials, and targeted official sponsor sources were rechecked. No same-window oncology approval, withdrawal, safety restriction, official price or procurement action, or India-access milestone cleared promotion beyond the four ASTRO evidence records.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://clinicaltrials.gov/
+- Sponsor congress previews, trial-start notices, preclinical reports, observational analyses, administrative meeting material, and other items without a completed decision-relevant clinical, regulatory, policy, safety, access, or procurement result were considered but not promoted. No item was excluded because of taxonomy fit.
 
 ## 2026-09-28 Verified Updates and Review Checks
 
