@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-09-29T12:03:45.982Z",
-  "currentEditionId": "2026-09-29",
-  "currentEditionLabel": "29 September 2026",
+  "generatedAt": "2026-09-30T04:46:18.702Z",
+  "currentEditionId": "2026-09-30",
+  "currentEditionLabel": "30 September 2026",
   "editions": [
+    {
+      "id": "2026-09-30",
+      "editionLabel": "30 September 2026",
+      "preparedLabel": "September 30 Morning Edition",
+      "monthKey": "2026-09",
+      "monthLabel": "September 2026",
+      "summary": "MET overexpression or amplification is a common mechanism of resistance after third-generation EGFR inhibition. A positive global randomized trial and US filing could create a biomarker-selected, chemotherapy-sparing treatment pathway after osimertinib progression.",
+      "file": "/data/editions/2026-09-30.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 28,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 40,
+        "verifiedRecords": 79
+      }
+    },
     {
       "id": "2026-09-29",
       "editionLabel": "29 September 2026",
@@ -1096,8 +1113,36 @@
     {
       "monthKey": "2026-09",
       "monthLabel": "September 2026",
-      "leadEditionId": "2026-09-29",
+      "leadEditionId": "2026-09-30",
       "highlights": [
+        {
+          "editionId": "2026-09-30",
+          "editionLabel": "30 September 2026",
+          "tag": "US NDA submitted; not approved",
+          "title": "SAFFRON savolitinib-osimertinib US NDA",
+          "summary": "MET overexpression or amplification is a common mechanism of resistance after third-generation EGFR inhibition. A positive global randomized trial and US filing could create a biomarker-selected, chemotherapy-sparing treatment pathway after osimertinib progression."
+        },
+        {
+          "editionId": "2026-09-30",
+          "editionLabel": "30 September 2026",
+          "tag": "Latest verified approval",
+          "title": "Belzutifan + Lenvatinib for Advanced Clear-Cell RCC",
+          "summary": "FDA approval 24 September 2026; sponsor announcement 25 September 2026"
+        },
+        {
+          "editionId": "2026-09-30",
+          "editionLabel": "30 September 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-09-30",
+          "editionLabel": "30 September 2026",
+          "tag": "Primary endpoints not met",
+          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
+          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
+        },
         {
           "editionId": "2026-09-29",
           "editionLabel": "29 September 2026",
@@ -1108,34 +1153,6 @@
         {
           "editionId": "2026-09-29",
           "editionLabel": "29 September 2026",
-          "tag": "Latest verified approval",
-          "title": "Belzutifan + Lenvatinib for Advanced Clear-Cell RCC",
-          "summary": "FDA approval 24 September 2026; sponsor announcement 25 September 2026"
-        },
-        {
-          "editionId": "2026-09-29",
-          "editionLabel": "29 September 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-09-29",
-          "editionLabel": "29 September 2026",
-          "tag": "Primary endpoints not met",
-          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
-          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
-        },
-        {
-          "editionId": "2026-09-28",
-          "editionLabel": "28 September 2026",
-          "tag": "IMS 2026 Phase III presentation",
-          "title": "CERVINO etentamig Phase III results",
-          "summary": "Triple-class-exposed myeloma remains a high-need setting, and BCMA-directed therapies are often constrained by cytokine-release, infection, monitoring, and site-of-care burden. The full randomized CERVINO presentation supports a monthly BCMA bispecific strategy that could affect sequencing and outpatient or community delivery if regulatory review confirms a favorable benefit-risk profile."
-        },
-        {
-          "editionId": "2026-09-28",
-          "editionLabel": "28 September 2026",
           "tag": "Latest verified approval",
           "title": "Belzutifan + Lenvatinib for Advanced Clear-Cell RCC",
           "summary": "FDA approval 24 September 2026; sponsor announcement 25 September 2026"

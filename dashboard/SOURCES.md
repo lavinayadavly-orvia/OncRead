@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-29
+Updated: 2026-09-30
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-09-30 review added the peer-reviewed randomized Phase III ROADS record for intraoperative GammaTile after brain-metastasis resection and a separate regulatory watchlist record for the US NDA submission of savolitinib plus osimertinib based on the global Phase III SAFFRON trial. The filing is not represented as FDA acceptance or approval, and SAFFRON remains topline-only pending its full ESMO presentation.
 - The 2026-09-29 review added four ASTRO 2026 randomized radiotherapy records: Phase III Alliance A071801 for fractionated postoperative radiosurgery after resection of larger brain metastases; Phase III NRG-CC009 for SRS versus hippocampal-avoidant whole-brain radiotherapy plus memantine in SCLC brain metastases; mature Phase III PACE-A outcomes comparing five-fraction prostate SBRT with prostatectomy; and randomized Phase II SOFT Preop evidence comparing five-fraction pancreatic SBRT with conventionally fractionated chemoradiotherapy. All remain conference-only, and neutral or negative primary outcomes are retained.
 - The 2026-09-28 catch-up review added one FDA treatment dossier and upgraded two existing myeloma records using a peer-reviewed Phase III publication and full IMS 2026 presentation data; no duplicate records were created.
 - The `Watchlist & systems` section was added specifically for material items that should not be forced into the standard treatment cards.
@@ -83,6 +84,27 @@ Updated: 2026-09-29
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-09-30 Verified Updates and Review Checks
+
+- Journal of Clinical Oncology rapid communication, ASCO LBA2000 report, and UT MD Anderson institutional summary; sources for the 230-patient ROADS randomized Phase III design, 204-patient modified intention-to-treat analysis, comparator, co-primary endpoints, surgical-site recurrence, recurrence-free survival, OS, radiation-necrosis and serious-toxicity context, treatment-completion time, sponsor role, and FDA-cleared device status
+  https://ascopubs.org/doi/10.1200/JCO-26-01894
+  https://ascopubs.org/doi/10.1200/JCO.2026.44.17_suppl.LBA2000
+  https://www.mdanderson.org/newsroom/research-newsroom/researchers-suggest-tile-based-radiation-therapy-as-standard-of-care-to-lower-risk-of-recurrence-in-brain-metastases.h00-159858501.html
+- HUTCHMED exchange announcement and company-distributed release plus AstraZeneca's official SAFFRON trial registry; sources for the 29 September US NDA submission, proposed biomarker-selected population, global randomized Phase III design, 345-patient enrollment, chemotherapy comparator, sponsor-reported PFS and OS significance, undisclosed numerical results, planned ESMO presentation, and unresolved FDA acceptance, review designation, and decision date
+  https://www.globenewswire.com/news-release/2026/09/29/3370345/0/en/hutchmed-announces-submission-of-us-nda-for-orpathys-plus-tagrisso-in-met-driven-egfr-mutated-lung-cancer.html
+  https://www.astrazenecaclinicaltrials.com/study/D5087C00001/
+  https://clinicaltrials.gov/study/NCT05261399
+- FDA oncology and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal publication surfaces, ASTRO 2026 materials, and targeted official sponsor sources were rechecked. No additional same-window oncology approval, withdrawal, material safety restriction, official price or procurement action, or India-access milestone cleared promotion.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://clinicaltrials.gov/
+- Trial-start announcements, early-phase and preclinical reports, observational analyses, educational conference sessions, administrative material, and results already visible before the review window were considered but not promoted. No item was excluded because of taxonomy fit.
 
 ## 2026-09-29 Verified Updates and Review Checks
 

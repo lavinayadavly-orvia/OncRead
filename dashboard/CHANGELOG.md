@@ -1,5 +1,17 @@
 # Dashboard Changelog
 
+## 2026-09-30 - ROADS Phase III Publication and SAFFRON US Filing
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 30 September run across regulators, registries, peer-reviewed journals, conference sources, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing, procurement, and systems evidence.
+- Added `ROADS intraoperative GammaTile for resected brain metastases` after the randomized multicenter Phase III results were published as a Journal of Clinical Oncology rapid communication. The trial randomized 230 patients and analyzed 204 who underwent surgery and had follow-up information.
+- Captured the peer-reviewed ROADS outcomes: 12-month surgical-site recurrence of 1.3% versus 15.4%, HR 0.07 (95% CI 0.01-0.56; p=0.012); surgical-bed recurrence-free survival HR 0.48 (95% CI 0.30-0.76; p=0.002); and median OS 42.5 versus 17.6 months, HR 0.59 (95% CI 0.37-0.96; p=0.032), for intraoperative cesium-131 tile-based radiotherapy versus postoperative stereotactic radiotherapy.
+- Preserved the ROADS limits: open-label and industry-sponsored design, modified intention-to-treat analysis, selected surgically eligible population, relatively short original follow-up, unresolved late and neurocognitive outcomes, and an unexpected secondary OS result that cannot be assumed to arise solely from faster local treatment.
+- Added `SAFFRON savolitinib-osimertinib US NDA` after AstraZeneca submitted an application for the all-oral combination in EGFR-mutated, MET-overexpressed or MET-amplified advanced NSCLC after EGFR-TKI progression. The record explicitly distinguishes submission from FDA acceptance, priority review, or approval.
+- Recorded the global 345-patient Phase III SAFFRON design and sponsor-reported statistically significant PFS and OS improvement versus platinum-pemetrexed chemotherapy, while labeling the evidence topline-only because medians, hazard ratios, confidence intervals, p values, quality-of-life findings, subgroup results, and detailed safety tables remain undisclosed before the ESMO 2026 presentation.
+- No CDSCO filing or authorization, official India launch date, price, reimbursement, procurement action, access program, or implementation milestone was verified for either development. No value or date was inferred.
+- Rechecked FDA oncology and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal surfaces, ASTRO materials, and targeted sponsor sources. Trial starts, early-phase and preclinical reports, observational analyses, and result-free conference sessions were considered but not promoted. No item was excluded because of taxonomy fit.
+- No scoring, filter, navigation, or layout redesign was required. The existing watchlist and systems structure can represent a surgery-radiotherapy device trial and a regulatory filing accurately; search aliases and the visible September 30 edition/archive were updated. The detailed Word report was not modified.
+
 ## 2026-09-29 - ASTRO Randomized Radiotherapy Evidence
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 29 September run across regulators, registries, peer-reviewed journals, conference sources, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing, procurement, and systems evidence.
