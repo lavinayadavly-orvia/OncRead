@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T04:46:18.654Z",
+  "generatedAt": "2026-10-01T03:02:22.721Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -3687,10 +3687,202 @@
       ]
     },
     {
-      "id": "watchlist:roads-gammatile-brain-metastases-2026",
+      "id": "watchlist:virage-vcn01-pancreatic-cancer-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
       "order": 39,
+      "title": "VIRAGE VCN-01 plus chemotherapy in metastatic pancreatic cancer",
+      "subtitle": "Investigational therapy / oncolytic virus · Newly diagnosed metastatic pancreatic ductal adenocarcinoma · United States and Spain; 14-center trial",
+      "organization": "Theriva Biologics; United States and Spanish investigators; Nature Medicine",
+      "snapshot": "Peer-reviewed randomized Phase IIb · 30 September 2026",
+      "summary": "Metastatic pancreatic cancer has limited first-line options and has historically been resistant to immunotherapy. A randomized signal for a systemically administered, stroma-modifying oncolytic virus is scientifically important, but the mixed primary OS results make a blinded Phase III confirmation essential before practice adoption.",
+      "headline": "In the intent-to-treat population, median OS was 10.6 versus 8.6 months, HR 0.69 (95% CI 0.42-1.12; p=0.196), and median PFS was 5.6 versus 4.6 months, HR 0.63 (95% CI 0.40-1.00; p=0.046). In the full analysis set, median OS was 10.8 versus 8.6 months, HR 0.57 (95% CI 0.34-0.96; p=0.055), median PFS was 7.0 versus 4.6 months, HR 0.55 (95% CI 0.34-0.88; p=0.011), and duration of response was 11.2 versus 5.4 months, HR 0.22 (95% CI 0.08-0.63; p=0.004). Overall response and disease-control rates did not differ significantly. More frequent VCN-01-related events included pyrexia, flu-like symptoms, elevated liver enzymes, and decreased platelets; serious VCN-01-related events occurred in 22.6%, and one fatal event in each arm was not considered treatment related.",
+      "statusLabel": "Peer-reviewed randomized Phase IIb",
+      "badges": [
+        "Peer-reviewed randomized Phase IIb",
+        "Investigational therapy / oncolytic virus",
+        "United States and Spain; 14-center trial"
+      ],
+      "searchText": "virage vcn-01 plus chemotherapy in metastatic pancreatic cancer virage vcn-01 phase iib investigational therapy / oncolytic virus newly diagnosed metastatic pancreatic ductal adenocarcinoma united states and spain; 14-center trial theriva biologics; united states and spanish investigators; nature medicine virage evaluated two intravenous doses of the hyaluronidase-expressing oncolytic adenovirus zabilugene almadenorepvec (vcn-01) added to first-line gemcitabine plus nab-paclitaxel. in the intent-to-treat population, median os was 10.6 versus 8.6 months, hr 0.69 (95% ci 0.42-1.12; p=0.196), and median pfs was 5.6 versus 4.6 months, hr 0.63 (95% ci 0.40-1.00; p=0.046). in the full analysis set, median os was 10.8 versus 8.6 months, hr 0.57 (95% ci 0.34-0.96; p=0.055), median pfs was 7.0 versus 4.6 months, hr 0.55 (95% ci 0.34-0.88; p=0.011), and duration of response was 11.2 versus 5.4 months, hr 0.22 (95% ci 0.08-0.63; p=0.004). overall response and disease-control rates did not differ significantly. more frequent vcn-01-related events included pyrexia, flu-like symptoms, elevated liver enzymes, and decreased platelets; serious vcn-01-related events occurred in 22.6%, and one fatal event in each arm was not considered treatment related. supports continued controlled development and phase iii planning rather than routine clinical use. the non-significant intent-to-treat os result and analysis-population differences should prevent the favorable full-analysis-set result from being presented as definitive survival benefit. metastatic pancreatic cancer has limited first-line options and has historically been resistant to immunotherapy. a randomized signal for a systemically administered, stroma-modifying oncolytic virus is scientifically important, but the mixed primary os results make a blinded phase iii confirmation essential before practice adoption.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "virage-vcn01-pancreatic-cancer-2026",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1038/s41591-026-04705-y"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://clinicaltrials.gov/study/NCT05673811"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "VIRAGE evaluated two intravenous doses of the hyaluronidase-expressing oncolytic adenovirus zabilugene almadenorepvec (VCN-01) added to first-line gemcitabine plus nab-paclitaxel."
+        ],
+        [
+          "Population / sample",
+          "The multinational open-label trial randomized 112 adults. The publication abstract reports an intent-to-treat efficacy population of 101 patients, 53 assigned VCN-01 plus chemotherapy and 48 chemotherapy alone, and a full analysis set of 96 patients, 48 per group."
+        ],
+        [
+          "Comparator",
+          "Two intravenous VCN-01 doses, approximately 14 weeks apart, plus gemcitabine and nab-paclitaxel versus gemcitabine and nab-paclitaxel alone."
+        ],
+        [
+          "Observed effect",
+          "In the intent-to-treat population, median OS was 10.6 versus 8.6 months, HR 0.69 (95% CI 0.42-1.12; p=0.196), and median PFS was 5.6 versus 4.6 months, HR 0.63 (95% CI 0.40-1.00; p=0.046). In the full analysis set, median OS was 10.8 versus 8.6 months, HR 0.57 (95% CI 0.34-0.96; p=0.055), median PFS was 7.0 versus 4.6 months, HR 0.55 (95% CI 0.34-0.88; p=0.011), and duration of response was 11.2 versus 5.4 months, HR 0.22 (95% CI 0.08-0.63; p=0.004). Overall response and disease-control rates did not differ significantly. More frequent VCN-01-related events included pyrexia, flu-like symptoms, elevated liver enzymes, and decreased platelets; serious VCN-01-related events occurred in 22.6%, and one fatal event in each arm was not considered treatment related.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "Metastatic pancreatic cancer has limited first-line options and has historically been resistant to immunotherapy. A randomized signal for a systemically administered, stroma-modifying oncolytic virus is scientifically important, but the mixed primary OS results make a blinded Phase III confirmation essential before practice adoption.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Patients with newly diagnosed metastatic pancreatic ductal adenocarcinoma, gastrointestinal oncologists, infusion services, viral-vector manufacturers, regulators, trial groups, and health systems considering how an intravenous oncolytic-virus platform could fit with chemotherapy.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Supports continued controlled development and Phase III planning rather than routine clinical use. The non-significant intent-to-treat OS result and analysis-population differences should prevent the favorable full-analysis-set result from being presented as definitive survival benefit.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate emerging evidence: peer-reviewed, randomized, multinational Phase IIb evidence with a concurrent control and reported confidence intervals. It remains open label, industry sponsored, relatively small, and internally mixed across prespecified analysis populations."
+        ],
+        [
+          "India relevance",
+          "No Indian trial site, CDSCO authorization, official India price, reimbursement decision, procurement action, named-patient access pathway, manufacturing arrangement, or India launch date was verified. India relevance remains investigational and indirect.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not reported. No official product price, administration cost, India price, reimbursement decision, procurement figure, or cost-effectiveness result was verified."
+        ],
+        [
+          "Current limitation",
+          "The intent-to-treat OS endpoint was not statistically significant; the full-analysis-set OS p value was 0.055 despite a confidence interval excluding 1; the abstract and earlier sponsor materials use differing labels for the 101-patient analysis population; the trial was open label and sponsor funded; the control did not include NALIRIFOX; quality-of-life, cost-effectiveness, and definitive Phase III evidence are absent; and exploratory two-dose subgroup findings may reflect post-randomization selection.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Blinded Phase III design and initiation, confirmation of the optimal repeated-dose schedule, regulator feedback, longer survival and safety follow-up, quality-of-life and cost evidence, and any official India development or access milestone."
+        ],
+        [
+          "Verification note",
+          "Verified from the 30 September 2026 peer-reviewed Nature Medicine publication, ClinicalTrials.gov NCT05673811 and the sponsor trial overview. The dashboard preserves the non-significant intent-to-treat OS result and does not represent VCN-01 as approved or practice changing.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:aztound-astx030-mds-cmml-2026",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 40,
+      "title": "AZTOUND oral azacitidine-cedazuridine Phase III topline",
+      "subtitle": "Care delivery / oral therapy · Myelodysplastic syndromes and chronic myelomonocytic leukemia · Multinational Phase III; planned United States filing",
+      "organization": "Taiho Oncology; Taiho Pharmaceutical",
+      "snapshot": "Sponsor topline Phase III; NDA planned · 30 September 2026",
+      "summary": "A fully oral azacitidine regimen could reduce repeated injection and clinic burden for adults with MDS or CMML, but this announcement establishes a pharmacokinetic bridge rather than comparative improvement in survival, response, symptoms, or quality of life.",
+      "headline": "The sponsor reported that the total-cycle AUC0-24 exposure endpoint was met and that safety was consistent with parenteral azacitidine. Numerical exposure ratios, confidence intervals, response outcomes, transfusion outcomes, survival, quality-of-life results, and detailed adverse-event tables were not disclosed.",
+      "statusLabel": "Sponsor topline Phase III; NDA planned",
+      "badges": [
+        "Sponsor topline Phase III; NDA planned",
+        "Care delivery / oral therapy",
+        "Multinational Phase III; planned United States filing"
+      ],
+      "searchText": "aztound oral azacitidine-cedazuridine phase iii topline aztound astx030 topline care delivery / oral therapy myelodysplastic syndromes and chronic myelomonocytic leukemia multinational phase iii; planned united states filing taiho oncology; taiho pharmaceutical taiho reported that oral azacitidine plus cedazuridine (astx030) met the phase iii aztound pharmacokinetic primary endpoint versus subcutaneous azacitidine and said it intends to submit a us new drug application. the sponsor reported that the total-cycle auc0-24 exposure endpoint was met and that safety was consistent with parenteral azacitidine. numerical exposure ratios, confidence intervals, response outcomes, transfusion outcomes, survival, quality-of-life results, and detailed adverse-event tables were not disclosed. supports preparation for a potential us filing and full data review. it should not change routine treatment before regulatory assessment, numerical pharmacokinetic and safety disclosure, and clarification of adherence, clinical outcomes, and payer access. a fully oral azacitidine regimen could reduce repeated injection and clinic burden for adults with mds or cmml, but this announcement establishes a pharmacokinetic bridge rather than comparative improvement in survival, response, symptoms, or quality of life.",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "aztound-astx030-mds-cmml-2026",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://www.taihooncology.com/us/news/taiho-oncology-and-taiho-pharmaceutical-announce-positive-topline-results-in-phase-3-aztound-trial-evaluating-oral-azacitidine-and-cedazuridine-in-myelodysplastic-syndromes-or-chronic-myelomonocytic-leukemia/"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCT04256317"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "Taiho reported that oral azacitidine plus cedazuridine (ASTX030) met the Phase III AZTOUND pharmacokinetic primary endpoint versus subcutaneous azacitidine and said it intends to submit a US New Drug Application."
+        ],
+        [
+          "Population / sample",
+          "Eighty-eight adults with myelodysplastic syndromes or chronic myelomonocytic leukemia enrolled in the randomized open-label crossover Phase III monotherapy portion of NCT04256317."
+        ],
+        [
+          "Comparator",
+          "Oral azacitidine plus cedazuridine versus subcutaneous azacitidine in a crossover design."
+        ],
+        [
+          "Observed effect",
+          "The sponsor reported that the total-cycle AUC0-24 exposure endpoint was met and that safety was consistent with parenteral azacitidine. Numerical exposure ratios, confidence intervals, response outcomes, transfusion outcomes, survival, quality-of-life results, and detailed adverse-event tables were not disclosed.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "A fully oral azacitidine regimen could reduce repeated injection and clinic burden for adults with MDS or CMML, but this announcement establishes a pharmacokinetic bridge rather than comparative improvement in survival, response, symptoms, or quality of life.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "Adults receiving azacitidine for MDS or CMML, hematologists, infusion and pharmacy services, caregivers, regulators, payers, and systems trying to reduce repeated parenteral-treatment visits.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Supports preparation for a potential US filing and full data review. It should not change routine treatment before regulatory assessment, numerical pharmacokinetic and safety disclosure, and clarification of adherence, clinical outcomes, and payer access.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate but incomplete: randomized Phase III crossover evidence and an official sponsor result, cross-checked against NCT04256317 and the NCI trial record. The finding remains press-release-only and numerical results have not yet been presented or peer reviewed."
+        ],
+        [
+          "India relevance",
+          "No Indian trial site, CDSCO filing or authorization, official India price, reimbursement decision, procurement action, access program, manufacturing arrangement, or India launch date was verified.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not reported. No official US or India price, comparative administration cost, reimbursement decision, procurement figure, or cost-effectiveness result was disclosed."
+        ],
+        [
+          "Current limitation",
+          "Sponsor topline only; primary endpoint is pharmacokinetic rather than a direct patient-outcome endpoint; open-label crossover design; no numerical AUC ratio or confidence interval; no complete safety, response, survival, transfusion, quality-of-life, adherence, or subgroup results; no submitted or accepted NDA; and no health-authority approval.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "International conference presentation, peer-reviewed full report, numerical pharmacokinetic and safety results, US NDA submission and acceptance, regulator review, adherence and quality-of-life evidence, and any official India regulatory or access development."
+        ],
+        [
+          "Verification note",
+          "Verified from Taiho Oncology's 30 September 2026 official release and cross-checked against ClinicalTrials.gov/NCI trial identifier NCT04256317. The record explicitly distinguishes a planned NDA from submission, acceptance, or approval.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:roads-gammatile-brain-metastases-2026",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 41,
       "title": "ROADS intraoperative GammaTile for resected brain metastases",
       "subtitle": "Surgery / intraoperative radiotherapy · Newly diagnosed operable brain metastases from solid tumors · United States; 32-center multicenter trial",
       "organization": "UT MD Anderson Cancer Center-led investigators; GT Medical Technologies; Journal of Clinical Oncology",
@@ -3786,7 +3978,7 @@
       "id": "watchlist:saffron-savolitinib-osimertinib-us-nda",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 40,
+      "order": 42,
       "title": "SAFFRON savolitinib-osimertinib US NDA",
       "subtitle": "Regulatory filing / targeted therapy · EGFR-mutated, MET-overexpressed or MET-amplified locally advanced or metastatic non-small cell lung cancer after progression on an EGFR TKI · United States filing; global Phase III trial across 29 countries",
       "organization": "AstraZeneca; HUTCHMED; US Food and Drug Administration",
@@ -3882,7 +4074,7 @@
       "id": "watchlist:alliance-a071801-fractionated-postop-srs",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 41,
+      "order": 43,
       "title": "Alliance A071801 fractionated postoperative radiosurgery",
       "subtitle": "Radiotherapy / brain metastases · Resected brain metastases from non-CNS solid tumors · United States; NCI-sponsored Alliance multicenter trial",
       "organization": "Alliance for Clinical Trials in Oncology; National Cancer Institute; Mayo Clinic; Mass General Brigham/Dana-Farber investigators; American Society for Radiation Oncology",
@@ -3978,7 +4170,7 @@
       "id": "watchlist:nrg-cc009-srs-sclc-brain-metastases",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 42,
+      "order": 44,
       "title": "NRG-CC009 focused radiosurgery for SCLC brain metastases",
       "subtitle": "Radiotherapy / brain metastases · Small-cell lung cancer with brain metastases · United States and Canada; NRG Oncology multicenter trial",
       "organization": "NRG Oncology; participating North American centers; American Society for Radiation Oncology",
@@ -4074,7 +4266,7 @@
       "id": "watchlist:pace-a-sbrt-versus-prostatectomy-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 43,
+      "order": 45,
       "title": "PACE-A five-fraction SBRT versus prostatectomy",
       "subtitle": "Radiotherapy / surgery comparison · Predominantly low- or favorable intermediate-risk localized prostate cancer · United Kingdom; eight-center trial",
       "organization": "The Royal Marsden; Institute of Cancer Research Clinical Trials and Statistics Unit; PACE investigators; American Society for Radiation Oncology",
@@ -4170,7 +4362,7 @@
       "id": "watchlist:soft-preop-pancreatic-sbrt-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 44,
+      "order": 46,
       "title": "SOFT Preop pancreatic SBRT versus chemoradiotherapy",
       "subtitle": "Radiotherapy / surgery pathway · Resectable, borderline-resectable, or selected locally advanced pancreatic adenocarcinoma · United States; multicenter trial",
       "organization": "Medical College of Wisconsin-led investigators; participating centers; American Society for Radiation Oncology",
@@ -4266,7 +4458,7 @@
       "id": "watchlist:iarc-lung-cancer-screening-volume21",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 45,
+      "order": 47,
       "title": "IARC lung-cancer screening evaluation",
       "subtitle": "Screening guideline / public health · Lung cancer · Global evidence evaluation",
       "organization": "International Agency for Research on Cancer / World Health Organization; IARC Handbooks of Cancer Prevention Working Group",
@@ -4362,7 +4554,7 @@
       "id": "watchlist:advance-aumolertinib-radiotherapy-stage3-nsclc",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 46,
+      "order": 48,
       "title": "ADVANCE aumolertinib plus radiotherapy",
       "subtitle": "Radiotherapy / targeted therapy strategy · Unresectable stage III non-squamous NSCLC with centrally confirmed EGFR exon 19 deletion or L858R mutation · China; randomized trial at 11 enrolling sites with supportive multicenter real-world cohort",
       "organization": "Cancer Hospital, Chinese Academy of Medical Sciences-led investigators; Jiangsu Hansoh Pharmaceutical Group supplied aumolertinib and chemotherapy agents",
@@ -4458,7 +4650,7 @@
       "id": "watchlist:ema-september-2026-oncology-chmp-package",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 47,
+      "order": 49,
       "title": "EMA September 2026 oncology CHMP package",
       "subtitle": "Regulatory policy / market authorization · ALK-positive advanced NSCLC; platinum-resistant and advanced high-grade ovarian cancers; HER2-positive breast cancer; chemotherapy-associated myelosuppression in extensive-stage SCLC · European Union; European Commission decisions pending",
       "organization": "European Medicines Agency CHMP; SFL Pharmaceuticals Deutschland; Corcept Therapeutics Netherlands; Biosimilar Collaborations Ireland; Pharmacosmos",
@@ -4554,7 +4746,7 @@
       "id": "watchlist:who-childhood-cancer-market-strategy-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 48,
+      "order": 50,
       "title": "WHO childhood-cancer medicines market-shaping strategy",
       "subtitle": "Access / manufacturing / procurement · Childhood cancers · Global, focused on low- and middle-income countries",
       "organization": "World Health Organization; St. Jude Children's Research Hospital; UNICEF; PAHO Strategic Fund; Global Platform for Access to Childhood Cancer Medicines",
@@ -4650,7 +4842,7 @@
       "id": "watchlist:gfh375-kras-g12d-phase1-phase2",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 49,
+      "order": 51,
       "title": "GFH375 oral KRAS G12D inhibitor",
       "subtitle": "Peer-reviewed early-phase targeted therapy · Previously treated KRAS G12D-mutant advanced solid tumors, including pancreatic ductal adenocarcinoma and NSCLC · China; multicenter Phase I/II program",
       "organization": "GenFleet Therapeutics; Shanghai Chest Hospital and participating China centers; Verastem Oncology holds development and commercialization rights outside China",
@@ -4746,7 +4938,7 @@
       "id": "watchlist:wclc2026-preserve003-gotistobart-os",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 50,
+      "order": 52,
       "title": "PRESERVE-003 gotistobart survival update",
       "subtitle": "Conference-only Phase III development signal · Metastatic squamous NSCLC after PD-(L)1 inhibitor and platinum chemotherapy · Global randomized trial; presented at IASLC WCLC 2026 in Seoul",
       "organization": "BioNTech; OncoC4; PRESERVE-003 investigators; IASLC WCLC 2026",
@@ -4842,7 +5034,7 @@
       "id": "watchlist:wclc2026-braf-class23-ici-outcomes",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 51,
+      "order": 53,
       "title": "Class II and III BRAF NSCLC immunotherapy outcomes",
       "subtitle": "Biomarker / retrospective outcomes · Metastatic NSCLC with class II or class III BRAF alterations · Multicenter Europe and United States cohorts; presented in Seoul",
       "organization": "Memorial Sloan Kettering Cancer Center; Dana-Farber Cancer Institute; 15 academic centers; IASLC WCLC 2026 investigators",
@@ -4938,7 +5130,7 @@
       "id": "watchlist:wclc2026-sqcc-tumor-budding-grade",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 52,
+      "order": 54,
       "title": "IASLC tumor-budding grade validation in lung SqCC",
       "subtitle": "Pathology / prognostic biomarker · Resected lung squamous cell carcinoma · Republic of Korea single-center cohort; presented in Seoul",
       "organization": "Yonsei University Medical Center investigators; International Association for the Study of Lung Cancer",
@@ -5034,7 +5226,7 @@
       "id": "watchlist:wclc2026-brelt3-mobile-ldct",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 53,
+      "order": 55,
       "title": "BRELT3 mobile lung-cancer screening in Brazil",
       "subtitle": "Screening / care delivery / equity · Lung cancer screening · Four cities in Northeast Brazil",
       "organization": "ProPulmao Institute and BRELT3 investigators; IASLC WCLC 2026",
@@ -5130,7 +5322,7 @@
       "id": "watchlist:wclc2026-destiny-lung04",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 54,
+      "order": 56,
       "title": "DESTINY-Lung04 first-line trastuzumab deruxtecan",
       "subtitle": "Conference-only Phase III treatment strategy · Unresectable locally advanced or metastatic HER2-mutant non-squamous NSCLC · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "AstraZeneca and Daiichi Sankyo; DESTINY-Lung04 investigators; IASLC WCLC 2026",
@@ -5226,7 +5418,7 @@
       "id": "watchlist:wclc2026-rezilient3-zipalertinib",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 55,
+      "order": 57,
       "title": "REZILIENT3 zipalertinib plus chemotherapy",
       "subtitle": "Conference-only Phase III treatment strategy · Previously untreated advanced EGFR exon 20 insertion-positive non-squamous NSCLC · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "Taiho Pharmaceutical, Taiho Oncology, Cullinan Therapeutics, and REZILIENT3 investigators",
@@ -5322,7 +5514,7 @@
       "id": "watchlist:wclc2026-harmoni2-os",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 56,
+      "order": 58,
       "title": "HARMONi-2 ivonescimab overall-survival update",
       "subtitle": "Conference-only Phase III survival update · Treatment-naive PD-L1-positive advanced NSCLC without EGFR or ALK alterations · China; presented in Seoul, Republic of Korea",
       "organization": "Akeso Biopharma; HARMONi-2 investigators; IASLC WCLC 2026",
@@ -5418,7 +5610,7 @@
       "id": "watchlist:wclc2026-maverick-pci",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 57,
+      "order": 59,
       "title": "MAVERICK MRI surveillance versus prophylactic cranial irradiation",
       "subtitle": "Radiotherapy de-escalation / supportive care · Limited-stage or extensive-stage small-cell lung cancer after initial therapy · International SWOG/NCTN trial; presented in Seoul, Republic of Korea",
       "organization": "SWOG Cancer Research Network, US National Clinical Trials Network, and MAVERICK investigators",
@@ -5514,7 +5706,7 @@
       "id": "watchlist:wclc2026-taishan302-tampeli",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 58,
+      "order": 60,
       "title": "TAISHAN-302 tambotatug pelitecan versus topotecan",
       "subtitle": "Conference-only Phase III ADC evidence · Relapsed small-cell lung cancer after first-line therapy · Randomized trial; presented in Seoul, Republic of Korea",
       "organization": "MediLink Therapeutics and TAISHAN-302 investigators",
@@ -5610,7 +5802,7 @@
       "id": "watchlist:wclc2026-artemis008-risrez",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 59,
+      "order": 61,
       "title": "ARTEMIS-008 risvutatug rezetecan versus topotecan",
       "subtitle": "Conference-only Phase III ADC evidence · Relapsed small-cell lung cancer after platinum-based chemotherapy · China; presented in Seoul, Republic of Korea",
       "organization": "Hansoh Pharma, GSK, and ARTEMIS-008 investigators",
@@ -5706,7 +5898,7 @@
       "id": "watchlist:wclc2026-evoke03-negative",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 60,
+      "order": 62,
       "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
       "subtitle": "Negative Phase III evidence · Previously untreated PD-L1-high metastatic NSCLC without EGFR, ALK, or ROS1 alterations · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "Gilead Sciences, Merck & Co., and EVOKE-03 investigators",
@@ -5802,7 +5994,7 @@
       "id": "watchlist:wclc2026-lonestar-negative",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 61,
+      "order": 63,
       "title": "LONESTAR local consolidative therapy after dual immunotherapy",
       "subtitle": "Negative Phase III multimodality evidence · Immunotherapy-naive metastatic NSCLC, including oligometastatic disease · United States; single-center randomized trial presented in Seoul",
       "organization": "MD Anderson Cancer Center and LONESTAR investigators",
@@ -5898,7 +6090,7 @@
       "id": "watchlist:wclc2026-impower030-neutral",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 62,
+      "order": 64,
       "title": "IMpower030 perioperative atezolizumab final analysis",
       "subtitle": "Neutral Phase III perioperative evidence · Resectable stage IIB-IIIB non-small-cell lung cancer · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "Roche/Genentech and IMpower030 investigators",
@@ -5994,7 +6186,7 @@
       "id": "watchlist:tacti004-efti-manufacturing-followup",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 63,
+      "order": 65,
       "title": "TACTI-004 efti manufacturing and futility follow-up",
       "subtitle": "Manufacturing / negative trial follow-up · First-line advanced or metastatic non-small cell lung cancer · Global Phase III trial; India participation authorized",
       "organization": "Immutep Limited; Merck & Co. supplied pembrolizumab; TACTI-004 investigators",
@@ -6090,7 +6282,7 @@
       "id": "watchlist:who-childhood-cancer-prequalification-eoi",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 64,
+      "order": 66,
       "title": "WHO childhood-cancer medicine prequalification invitation",
       "subtitle": "Access / manufacturing / procurement · Childhood cancers · Global, with focus on low- and middle-income countries",
       "organization": "World Health Organization; Global Platform for Access to Childhood Cancer Medicines; GAP-f; St. Jude Children's Research Hospital; UNICEF; PAHO Strategic Fund",
@@ -6186,7 +6378,7 @@
       "id": "watchlist:neoadjuvant-nivolumab-ipilimumab-gbm",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 65,
+      "order": 67,
       "title": "Neoadjuvant nivolumab plus ipilimumab in recurrent glioblastoma",
       "subtitle": "Early randomized surgical-window evidence · Surgically resectable recurrent glioblastoma · United States; four-center trial",
       "organization": "Dana-Farber Cancer Institute-led investigators; UCLA, Stanford, Memorial Sloan Kettering; Bristol Myers Squibb supplied study drugs",
@@ -6282,7 +6474,7 @@
       "id": "watchlist:cervino-etentamig",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 66,
+      "order": 68,
       "title": "CERVINO etentamig Phase III results",
       "subtitle": "Randomized Phase III conference results · Relapsed/refractory multiple myeloma · Global trial; presented in Glasgow, United Kingdom",
       "organization": "AbbVie; CERVINO investigators; International Myeloma Society",
@@ -6378,7 +6570,7 @@
       "id": "watchlist:sanovo-savolitinib-osimertinib",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 67,
+      "order": 69,
       "title": "SANOVO first-line EGFR/MET lung-cancer topline",
       "subtitle": "Press-release-only phase III · EGFR-mutated NSCLC with MET overexpression · China",
       "organization": "AstraZeneca; HUTCHMED",
@@ -6474,7 +6666,7 @@
       "id": "watchlist:prostate-cardio-referral",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 68,
+      "order": 70,
       "title": "Routine cardiovascular referral in prostate cancer",
       "subtitle": "Supportive care / care delivery · Prostate cancer · Eight-country trial across 55 sites",
       "organization": "International randomized trial investigators; JAMA Internal Medicine",
@@ -6570,7 +6762,7 @@
       "id": "watchlist:mpower-asia-cancer-model",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 69,
+      "order": 71,
       "title": "MPOWER tobacco control and preventable cancers in Asia",
       "subtitle": "Prevention / public health policy · Thirteen tobacco-related cancers · East and South-East Asia",
       "organization": "Independent investigators using WHO Global Health Observatory and IARC Global Cancer Observatory data; The Lancet Regional Health - Western Pacific",
@@ -6666,7 +6858,7 @@
       "id": "watchlist:bemotrizinol-sunscreen",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 70,
+      "order": 72,
       "title": "Bemotrizinol sunscreen order takes effect",
       "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
       "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
@@ -6762,7 +6954,7 @@
       "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 71,
+      "order": 73,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -6858,7 +7050,7 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 72,
+      "order": 74,
       "title": "RP1 + nivolumab accelerated approval after advisory split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -6954,7 +7146,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 73,
+      "order": 75,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -7050,7 +7242,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 74,
+      "order": 76,
       "title": "NHS-Galleri randomized MCED screening",
       "subtitle": "Screening / diagnostics · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL + FDA Molecular and Clinical Genetics Devices Panel",
@@ -7146,7 +7338,7 @@
       "id": "watchlist:eagle-ai-esophageal-ct-screening",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 75,
+      "order": 77,
       "title": "EAGLE AI esophageal-cancer detection on noncontrast CT",
       "subtitle": "Diagnostics / AI screening · Esophageal cancer and high-grade intraepithelial neoplasia · China-led validation across China, the Czech Republic, and Australia",
       "organization": "Sun Yat-sen University Cancer Center-led EAGLE investigators",
@@ -7238,7 +7430,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 76,
+      "order": 78,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -7334,7 +7526,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 77,
+      "order": 79,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -7430,7 +7622,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 78,
+      "order": 80,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -7524,7 +7716,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 163,
+    "sourcesChecked": 167,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,

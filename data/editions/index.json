@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-09-30T04:46:18.702Z",
-  "currentEditionId": "2026-09-30",
-  "currentEditionLabel": "30 September 2026",
+  "generatedAt": "2026-10-01T03:02:22.782Z",
+  "currentEditionId": "2026-10-01",
+  "currentEditionLabel": "1 October 2026",
   "editions": [
+    {
+      "id": "2026-10-01",
+      "editionLabel": "1 October 2026",
+      "preparedLabel": "October 1 Morning Edition",
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "summary": "Metastatic pancreatic cancer has limited first-line options and has historically been resistant to immunotherapy. A randomized signal for a systemically administered, stroma-modifying oncolytic virus is scientifically important, but the mixed primary OS results make a blinded Phase III confirmation essential before practice adoption.",
+      "file": "/data/editions/2026-10-01.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 28,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 42,
+        "verifiedRecords": 81
+      }
+    },
     {
       "id": "2026-09-30",
       "editionLabel": "30 September 2026",
@@ -1110,6 +1127,41 @@
     }
   ],
   "monthlyHeadlines": [
+    {
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "leadEditionId": "2026-10-01",
+      "highlights": [
+        {
+          "editionId": "2026-10-01",
+          "editionLabel": "1 October 2026",
+          "tag": "Peer-reviewed randomized Phase IIb",
+          "title": "VIRAGE VCN-01 plus chemotherapy in metastatic pancreatic cancer",
+          "summary": "Metastatic pancreatic cancer has limited first-line options and has historically been resistant to immunotherapy. A randomized signal for a systemically administered, stroma-modifying oncolytic virus is scientifically important, but the mixed primary OS results make a blinded Phase III confirmation essential before practice adoption."
+        },
+        {
+          "editionId": "2026-10-01",
+          "editionLabel": "1 October 2026",
+          "tag": "Latest verified approval",
+          "title": "Belzutifan + Lenvatinib for Advanced Clear-Cell RCC",
+          "summary": "FDA approval 24 September 2026; sponsor announcement 25 September 2026"
+        },
+        {
+          "editionId": "2026-10-01",
+          "editionLabel": "1 October 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-10-01",
+          "editionLabel": "1 October 2026",
+          "tag": "Primary endpoints not met",
+          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
+          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
+        }
+      ]
+    },
     {
       "monthKey": "2026-09",
       "monthLabel": "September 2026",

@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-09-30
+Updated: 2026-10-01
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-10-01 review added the peer-reviewed randomized Phase IIb VIRAGE record for intravenous VCN-01 plus chemotherapy in metastatic pancreatic cancer and a separate press-release-only Phase III AZTOUND record for oral azacitidine-cedazuridine in MDS or CMML. VIRAGE retains its non-significant intent-to-treat OS result and mixed analysis-population interpretation; AZTOUND is represented as a pharmacokinetic topline and planned filing, not a submitted NDA or clinical-outcome advantage.
 - The 2026-09-30 review added the peer-reviewed randomized Phase III ROADS record for intraoperative GammaTile after brain-metastasis resection and a separate regulatory watchlist record for the US NDA submission of savolitinib plus osimertinib based on the global Phase III SAFFRON trial. The filing is not represented as FDA acceptance or approval, and SAFFRON remains topline-only pending its full ESMO presentation.
 - The 2026-09-29 review added four ASTRO 2026 randomized radiotherapy records: Phase III Alliance A071801 for fractionated postoperative radiosurgery after resection of larger brain metastases; Phase III NRG-CC009 for SRS versus hippocampal-avoidant whole-brain radiotherapy plus memantine in SCLC brain metastases; mature Phase III PACE-A outcomes comparing five-fraction prostate SBRT with prostatectomy; and randomized Phase II SOFT Preop evidence comparing five-fraction pancreatic SBRT with conventionally fractionated chemoradiotherapy. All remain conference-only, and neutral or negative primary outcomes are retained.
 - The 2026-09-28 catch-up review added one FDA treatment dossier and upgraded two existing myeloma records using a peer-reviewed Phase III publication and full IMS 2026 presentation data; no duplicate records were created.
@@ -84,6 +85,27 @@ Updated: 2026-09-30
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-01 Verified Updates and Review Checks
+
+- Nature Medicine peer-reviewed VIRAGE publication, ClinicalTrials.gov record, and Theriva trial overview; sources for the randomized Phase IIb design, United States and Spain sites, analysis populations, comparator, OS, PFS, duration-of-response, response, safety, sponsor role, and investigational status
+  https://doi.org/10.1038/s41591-026-04705-y
+  https://clinicaltrials.gov/study/NCT05673811
+  https://therivabio.com/our-pipeline/
+- Taiho Oncology official AZTOUND release plus the NCI/ClinicalTrials.gov record; sources for the 88-patient randomized crossover Phase III design, pharmacokinetic primary endpoint, sponsor-reported endpoint success and safety summary, planned US NDA, undisclosed numerical and patient-outcome results, and investigational status
+  https://www.taihooncology.com/us/news/taiho-oncology-and-taiho-pharmaceutical-announce-positive-topline-results-in-phase-3-aztound-trial-evaluating-oral-azacitidine-and-cedazuridine-in-myelodysplastic-syndromes-or-chronic-myelomonocytic-leukemia/
+  https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCT04256317
+  https://clinicaltrials.gov/study/NCT04256317
+- FDA oncology and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, NCI, major-journal publication surfaces, and targeted sponsor sources were rechecked. No same-window oncology approval, withdrawal, material safety restriction, official price or procurement action, or India-access milestone cleared promotion beyond VIRAGE and AZTOUND.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://clinicaltrials.gov/
+- Early-phase first-patient announcements, preclinical reports, corporate updates, and the new CAN-2409 biomarker analysis were considered but not promoted because they did not provide a new completed decision-relevant clinical or policy result beyond records already represented. No item was excluded because of taxonomy fit.
 
 ## 2026-09-30 Verified Updates and Review Checks
 

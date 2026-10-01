@@ -1,5 +1,17 @@
 # Dashboard Changelog
 
+## 2026-10-01 - VIRAGE Publication and AZTOUND Oral-Therapy Topline
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 1 October run across regulators, registries, peer-reviewed journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing, procurement, and systems evidence.
+- Added `VIRAGE VCN-01 plus chemotherapy in metastatic pancreatic cancer` after Nature Medicine published the multinational randomized Phase IIb study of intravenous zabilugene almadenorepvec plus gemcitabine and nab-paclitaxel versus chemotherapy alone.
+- Preserved the mixed VIRAGE primary results: intent-to-treat median OS was 10.6 versus 8.6 months, HR 0.69 (95% CI 0.42-1.12; p=0.196), while the full analysis set showed median OS 10.8 versus 8.6 months, HR 0.57 (95% CI 0.34-0.96; p=0.055). PFS favored VCN-01 in both reported analysis populations, and duration of response was 11.2 versus 5.4 months in the full analysis set.
+- Recorded that overall response and disease-control rates did not differ significantly, serious VCN-01-related events occurred in 22.6%, and the two fatal events, one per arm, were not considered treatment related. The dashboard does not convert the favorable full-analysis-set signal or exploratory repeated-dose subgroup into a definitive survival claim.
+- Added `AZTOUND oral azacitidine-cedazuridine Phase III topline` after Taiho reported that the 88-patient randomized crossover study met its total-cycle azacitidine exposure endpoint versus subcutaneous azacitidine and said it intends to submit a US NDA.
+- Kept AZTOUND explicitly press-release-only and investigational: the sponsor did not disclose the numerical exposure ratio, confidence interval, response, transfusion, survival, quality-of-life, adherence, subgroup, or detailed safety results, and no NDA has yet been submitted, accepted, or approved.
+- No Indian trial site, CDSCO filing or authorization, official India launch date, price, reimbursement, procurement action, access program, or manufacturing milestone was verified for either development. No value or date was inferred.
+- Rechecked FDA oncology and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov/NCI, major-journal surfaces, and targeted sponsor sources. Early-phase trial starts, preclinical reports, corporate updates, and new biomarker analyses that did not change an already represented clinical decision were considered but not promoted. No item was excluded because of taxonomy fit.
+- The existing watchlist structure can represent both developments accurately. Added a regulatory evidence-state filter option, updated shared search aliases and the watchlist review label, rolled the visible briefing and archive to the October 1 Morning Edition, and did not modify the detailed Word report.
+
 ## 2026-09-30 - ROADS Phase III Publication and SAFFRON US Filing
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 30 September run across regulators, registries, peer-reviewed journals, conference sources, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing, procurement, and systems evidence.
