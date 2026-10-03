@@ -1,5 +1,17 @@
 # Dashboard Changelog
 
+## 2026-10-03 - uRARE-seq Diagnostic Publication, Japan Optune Pax Approval, and REZILIENT3 Filing Update
+
+- Completed an open-ended review of oncology developments made officially visible since the 1 October published edition, including the latest 24-hour window before the 3 October run, because the 2 October automation did not produce a published edition.
+- Added `uRARE-seq urine cell-free RNA for bladder cancer` after Nature Medicine published the 683-sample, 515-participant multicohort study. The record captures reported bladder-cancer detection performance, separate-cohort validation, molecular residual-disease analyses, and exploratory BCG-versus-chemotherapy response prediction.
+- Kept uRARE-seq explicitly investigational: the reported training result of AUC 0.97 with 95% sensitivity at 90% specificity and the treatment-response signature do not establish that test-guided care improves outcomes, replaces cystoscopy or cytology, or should determine treatment outside prospective validation.
+- Added `Optune Pax for Locally Advanced Pancreatic Cancer` after Novocure announced Japan MHLW approval with gemcitabine and nab-paclitaxel. PANOVA-3 randomized 571 patients and reported median OS of 16.2 versus 14.2 months, HR 0.82 (95% CI 0.68-0.99), p=0.039.
+- Preserved Optune Pax implementation and safety constraints: device-related skin events occurred in 76.3%, including Grade 3 or higher events in 7.7%; adoption requires sustained wearable-device use, array fitting, skin management, adherence support, reimbursement, and device supply.
+- Updated the existing `REZILIENT3 zipalertinib plus chemotherapy` record after Cullinan reported initiation of a rolling US NDA under FDA Real-Time Oncology Review. The dashboard distinguishes an initiated rolling submission from a complete or accepted NDA, approval, and the separate accepted later-line monotherapy application.
+- No CDSCO authorization, Indian validation cohort, official India launch date, price, reimbursement decision, procurement action, local device-support pathway, or implementation milestone was verified for the three developments. No missing value or launch timing was inferred.
+- Rechecked FDA oncology and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal publication surfaces, diagnostic and screening evidence, surgery, radiotherapy, supportive care, safety, manufacturing, workforce, pricing, procurement, and targeted sponsor sources. Early trial starts, reviews, preclinical reports, and result-free corporate announcements were considered but not promoted.
+- The existing treatment and watchlist structures can represent the device approval, diagnostic evidence, and rolling filing accurately. Search aliases and evidence-state metadata were extended, the visible briefing and archive were rolled to the October 3 Morning Edition, and the detailed Word report was not modified.
+
 ## 2026-10-01 - VIRAGE Publication and AZTOUND Oral-Therapy Topline
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 1 October run across regulators, registries, peer-reviewed journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, India access, pricing, procurement, and systems evidence.

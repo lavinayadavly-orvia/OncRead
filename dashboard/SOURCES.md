@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-01
+Updated: 2026-10-03
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-10-03 catch-up review added the peer-reviewed uRARE-seq bladder-cancer diagnostic signal, Japan's Optune Pax pancreatic-cancer device approval, and the REZILIENT3 first-line zipalertinib rolling-NDA update. Diagnostic accuracy is kept separate from clinical utility, the modest PANOVA-3 survival gain is shown with device burden and skin toxicity, and the initiated rolling submission is not represented as complete, accepted, or approved.
 - The 2026-10-01 review added the peer-reviewed randomized Phase IIb VIRAGE record for intravenous VCN-01 plus chemotherapy in metastatic pancreatic cancer and a separate press-release-only Phase III AZTOUND record for oral azacitidine-cedazuridine in MDS or CMML. VIRAGE retains its non-significant intent-to-treat OS result and mixed analysis-population interpretation; AZTOUND is represented as a pharmacokinetic topline and planned filing, not a submitted NDA or clinical-outcome advantage.
 - The 2026-09-30 review added the peer-reviewed randomized Phase III ROADS record for intraoperative GammaTile after brain-metastasis resection and a separate regulatory watchlist record for the US NDA submission of savolitinib plus osimertinib based on the global Phase III SAFFRON trial. The filing is not represented as FDA acceptance or approval, and SAFFRON remains topline-only pending its full ESMO presentation.
 - The 2026-09-29 review added four ASTRO 2026 randomized radiotherapy records: Phase III Alliance A071801 for fractionated postoperative radiosurgery after resection of larger brain metastases; Phase III NRG-CC009 for SRS versus hippocampal-avoidant whole-brain radiotherapy plus memantine in SCLC brain metastases; mature Phase III PACE-A outcomes comparing five-fraction prostate SBRT with prostatectomy; and randomized Phase II SOFT Preop evidence comparing five-fraction pancreatic SBRT with conventionally fractionated chemoradiotherapy. All remain conference-only, and neutral or negative primary outcomes are retained.
@@ -85,6 +86,26 @@ Updated: 2026-10-01
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-03 Verified Updates and Review Checks
+
+- Nature Medicine uRARE-seq publication and Stanford Medicine institutional report; sources for the 683-sample, 515-participant multicohort design, localized bladder-cancer detection, locked-model validation, residual-disease and exploratory treatment-response analyses, investigational status, replication requirement, and disclosed commercial interests
+  https://doi.org/10.1038/s41591-026-04673-3
+  https://med.stanford.edu/news/all-news/2026/10/bladder-cancer-test.html
+- Novocure Japan approval release, peer-reviewed PANOVA-3 publication, and registry; sources for Japan MHLW approval, 571-patient randomized design, overall-survival effect, device-related skin toxicity, US and CE regulatory context, and implementation burden
+  https://investor.novocure.com/news-releases/news-release-details/novocures-optune-paxr-receives-approval-japan-treatment
+  https://ascopubs.org/doi/10.1200/JCO-25-00746
+  https://clinicaltrials.gov/study/NCT03377491
+- Cullinan official release, prior IASLC result release, and registry; sources for initiation of the first-line zipalertinib rolling NDA under FDA RTOR, expected completion by year-end 2026, distinction from the accepted later-line monotherapy NDA, REZILIENT3 randomized evidence, and investigational status
+  https://investors.cullinantherapeutics.com/news-releases/news-release-details/new-drug-application-submission-initiated-zipalertinib-plus
+  https://www.iaslc.org/iaslc-news/press-release/zipalertinib-plus-chemotherapy-significantly-extends-progression-free
+  https://clinicaltrials.gov/study/NCT05973773
+- FDA oncology and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal publication surfaces, and targeted sponsor sources were rechecked. No additional same-window approval, withdrawal, material safety restriction, official India price or procurement action, or India-access milestone cleared promotion. Reviews, preclinical studies, early trial starts, and result-free corporate announcements were considered but not promoted.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.ema.europa.eu/en/medicines
+  https://cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
 
 ## 2026-10-01 Verified Updates and Review Checks
 
