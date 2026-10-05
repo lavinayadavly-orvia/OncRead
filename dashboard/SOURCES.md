@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-03
+Updated: 2026-10-05
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-10-05 catch-up review added the conference-only RAINFOL-01 Rina-S ovarian-cancer signal from the missed 3 October interval. The single-arm response and duration estimates are retained with complete comparator, survival, subgroup, publication, regulatory, cost, and India-access limitations; no additional 4-5 October item cleared promotion.
 - The 2026-10-03 catch-up review added the peer-reviewed uRARE-seq bladder-cancer diagnostic signal, Japan's Optune Pax pancreatic-cancer device approval, and the REZILIENT3 first-line zipalertinib rolling-NDA update. Diagnostic accuracy is kept separate from clinical utility, the modest PANOVA-3 survival gain is shown with device burden and skin toxicity, and the initiated rolling submission is not represented as complete, accepted, or approved.
 - The 2026-10-01 review added the peer-reviewed randomized Phase IIb VIRAGE record for intravenous VCN-01 plus chemotherapy in metastatic pancreatic cancer and a separate press-release-only Phase III AZTOUND record for oral azacitidine-cedazuridine in MDS or CMML. VIRAGE retains its non-significant intent-to-treat OS result and mixed analysis-population interpretation; AZTOUND is represented as a pharmacokinetic topline and planned filing, not a submitted NDA or clinical-outcome advantage.
 - The 2026-09-30 review added the peer-reviewed randomized Phase III ROADS record for intraoperative GammaTile after brain-metastasis resection and a separate regulatory watchlist record for the US NDA submission of savolitinib plus osimertinib based on the global Phase III SAFFRON trial. The filing is not represented as FDA acceptance or approval, and SAFFRON remains topline-only pending its full ESMO presentation.
@@ -86,6 +87,19 @@ Updated: 2026-10-03
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-05 Verified Updates and Review Checks
+
+- Genmab's official RAINFOL-01 release and ClinicalTrials.gov record; sources for the 109-patient open-label Phase 1/2 cohort, dose, heavily pretreated population, ORR, duration of response, PFS, safety summary, investigational status, and ongoing Phase III confirmation
+  https://ir.genmab.com/news-releases/news-release-details/genmab-announces-rinatabart-sesutecan-rina-sr-phase-2-rainfoltm
+  https://clinicaltrials.gov/study/NCT05579366
+- FDA oncology and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal publication surfaces, IGCS disclosures, and targeted sponsor sources were rechecked through the 5 October cutoff. No additional 4-5 October approval, withdrawal, material safety restriction, negative pivotal result, official India price or procurement action, or India-access milestone cleared promotion. Early studies, reviews, conference previews, and result-free corporate announcements were considered but not promoted.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/medicines
+  https://cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
 
 ## 2026-10-03 Verified Updates and Review Checks
 

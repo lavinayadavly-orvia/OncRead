@@ -1,5 +1,16 @@
 # Dashboard Changelog
 
+## 2026-10-05 - RAINFOL-01 Rina-S Ovarian-Cancer Signal and Catch-up Review
+
+- Completed an open-ended catch-up review from the 3 October published edition through the 24-hour window before the 5 October run because the 4 October edition was not completed or published.
+- Added `RAINFOL-01 rinatabart sesutecan in platinum-resistant ovarian cancer` after Genmab reported late-breaking IGCS 2026 Part C results from the open-label Phase 1/2 study of the investigational FRalpha-targeted ADC.
+- Captured the 109-patient cohort's confirmed ORR of 45.9% (95% CI 36.3-55.7), five complete responses, median duration of response of 12.1 months (95% CI 6.5-15.4), 51% one-year ongoing-response estimate, and median PFS of 9.5 months (95% CI 7.6-11.3).
+- Preserved the evidence limits: no concurrent comparator, no reported overall-survival result, sponsor-release and conference-only evidence, incomplete subgroup denominators and confidence intervals, and no basis for direct superiority claims against mirvetuximab or chemotherapy.
+- Recorded the reported safety burden: fatigue and gastrointestinal and hematologic events were common, serious adverse events occurred in approximately one-third, and treatment-emergent adverse events caused discontinuation in 5.5%. The absence of reported ocular, neuropathy, ILD, or stomatitis signals is labeled as a sponsor report rather than a definitive exclusion of risk.
+- No FDA, EMA, CDSCO, or other authorization, official price, reimbursement decision, procurement action, Indian trial site, India launch, or manufacturing milestone was verified. Rina-S remains investigational globally, and no missing value or date was inferred.
+- Rechecked FDA oncology and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal publication surfaces, IGCS disclosures, and targeted sponsor sources. No additional 4-5 October approval, withdrawal, material safety restriction, negative pivotal result, official India price or procurement action, or access milestone cleared promotion.
+- The existing watchlist structure can represent the result accurately. Search aliases were extended, the visible briefing and archive were rolled to the October 5 Morning Edition, and the detailed Word report was not modified.
+
 ## 2026-10-03 - uRARE-seq Diagnostic Publication, Japan Optune Pax Approval, and REZILIENT3 Filing Update
 
 - Completed an open-ended review of oncology developments made officially visible since the 1 October published edition, including the latest 24-hour window before the 3 October run, because the 2 October automation did not produce a published edition.

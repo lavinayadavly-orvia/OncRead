@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-03T06:01:13.910Z",
-  "currentEditionId": "2026-10-03",
-  "currentEditionLabel": "3 October 2026",
+  "generatedAt": "2026-10-05T01:39:51.507Z",
+  "currentEditionId": "2026-10-05",
+  "currentEditionLabel": "5 October 2026",
   "editions": [
+    {
+      "id": "2026-10-05",
+      "editionLabel": "5 October 2026",
+      "preparedLabel": "October 5 Morning Edition",
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "summary": "Platinum-resistant ovarian cancer after bevacizumab, PARP inhibition, or mirvetuximab has limited durable options. The response duration and reported activity in low or non-expressing FRalpha tumors support randomized confirmation of a potentially broader ADC strategy.",
+      "file": "/data/editions/2026-10-05.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 29,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 44,
+        "verifiedRecords": 84
+      }
+    },
     {
       "id": "2026-10-03",
       "editionLabel": "3 October 2026",
@@ -1147,8 +1164,36 @@
     {
       "monthKey": "2026-10",
       "monthLabel": "October 2026",
-      "leadEditionId": "2026-10-03",
+      "leadEditionId": "2026-10-05",
       "highlights": [
+        {
+          "editionId": "2026-10-05",
+          "editionLabel": "5 October 2026",
+          "tag": "Conference-only single-arm Phase 1/2",
+          "title": "RAINFOL-01 rinatabart sesutecan in platinum-resistant ovarian cancer",
+          "summary": "Platinum-resistant ovarian cancer after bevacizumab, PARP inhibition, or mirvetuximab has limited durable options. The response duration and reported activity in low or non-expressing FRalpha tumors support randomized confirmation of a potentially broader ADC strategy."
+        },
+        {
+          "editionId": "2026-10-05",
+          "editionLabel": "5 October 2026",
+          "tag": "Latest verified approval",
+          "title": "Optune Pax for Locally Advanced Pancreatic Cancer",
+          "summary": "Japan MHLW approval announced 1 October 2026"
+        },
+        {
+          "editionId": "2026-10-05",
+          "editionLabel": "5 October 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-10-05",
+          "editionLabel": "5 October 2026",
+          "tag": "Primary endpoints not met",
+          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
+          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
+        },
         {
           "editionId": "2026-10-03",
           "editionLabel": "3 October 2026",
@@ -1162,34 +1207,6 @@
           "tag": "Latest verified approval",
           "title": "Optune Pax for Locally Advanced Pancreatic Cancer",
           "summary": "Japan MHLW approval announced 1 October 2026"
-        },
-        {
-          "editionId": "2026-10-03",
-          "editionLabel": "3 October 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-10-03",
-          "editionLabel": "3 October 2026",
-          "tag": "Primary endpoints not met",
-          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
-          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
-        },
-        {
-          "editionId": "2026-10-01",
-          "editionLabel": "1 October 2026",
-          "tag": "Peer-reviewed randomized Phase IIb",
-          "title": "VIRAGE VCN-01 plus chemotherapy in metastatic pancreatic cancer",
-          "summary": "Metastatic pancreatic cancer has limited first-line options and has historically been resistant to immunotherapy. A randomized signal for a systemically administered, stroma-modifying oncolytic virus is scientifically important, but the mixed primary OS results make a blinded Phase III confirmation essential before practice adoption."
-        },
-        {
-          "editionId": "2026-10-01",
-          "editionLabel": "1 October 2026",
-          "tag": "Latest verified approval",
-          "title": "Belzutifan + Lenvatinib for Advanced Clear-Cell RCC",
-          "summary": "FDA approval 24 September 2026; sponsor announcement 25 September 2026"
         }
       ]
     },

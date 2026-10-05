@@ -3,6 +3,7 @@ const portfolioAliasRules = [
   { match: /pembrolizumab/i, aliases: ["Keytruda"] },
   { match: /sevabertinib|hyrnuo|soho-01/i, aliases: ["Hyrnuo", "BAY 2927088", "SOHO-01", "HER2", "ERBB2"] },
   { match: /imlunestrant|inluriyo|ember-3/i, aliases: ["Inluriyo", "EMBER-3", "ESR1", "Guardant360 CDx", "Verzenio"] },
+  { match: /rainfol-01|rinatabart sesutecan|rina-s|gen1184|nct05579366/i, aliases: ["RAINFOL-01", "Rina-S", "Rinatabart sesutecan", "GEN1184", "NCT05579366", "FRalpha", "ovarian cancer"] },
   { match: /urare-seq|urine cell-free rna|bladder cancer detection|s41591-026-04673-3/i, aliases: ["uRARE-seq", "urine cfRNA", "bladder cancer", "liquid biopsy", "BCG response", "minimal residual disease"] },
   { match: /optune pax|panova-3|tumor treating fields|nct03377491/i, aliases: ["Optune Pax", "PANOVA-3", "Tumor Treating Fields", "TTFields", "NCT03377491", "pancreatic cancer", "Japan MHLW"] },
   { match: /rezilient3|zipalertinib|nct05973773/i, aliases: ["REZILIENT3", "Zipalertinib", "NCT05973773", "CLN-081", "TAS6417", "EGFR exon 20 insertion", "RTOR", "rolling NDA"] },
