@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-05
+Updated: 2026-10-06
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-10-06 review added the press-release-only Phase III EPCORE DLBCL-2 frontline epcoritamab plus R-CHOP signal. Both reported PFS hazard ratios are retained while absent absolute PFS, follow-up, survival, response, quality-of-life, subgroup, and numerical safety details remain explicitly unavailable.
 - The 2026-10-05 catch-up review added the conference-only RAINFOL-01 Rina-S ovarian-cancer signal from the missed 3 October interval. The single-arm response and duration estimates are retained with complete comparator, survival, subgroup, publication, regulatory, cost, and India-access limitations; no additional 4-5 October item cleared promotion.
 - The 2026-10-03 catch-up review added the peer-reviewed uRARE-seq bladder-cancer diagnostic signal, Japan's Optune Pax pancreatic-cancer device approval, and the REZILIENT3 first-line zipalertinib rolling-NDA update. Diagnostic accuracy is kept separate from clinical utility, the modest PANOVA-3 survival gain is shown with device burden and skin toxicity, and the initiated rolling submission is not represented as complete, accepted, or approved.
 - The 2026-10-01 review added the peer-reviewed randomized Phase IIb VIRAGE record for intravenous VCN-01 plus chemotherapy in metastatic pancreatic cancer and a separate press-release-only Phase III AZTOUND record for oral azacitidine-cedazuridine in MDS or CMML. VIRAGE retains its non-significant intent-to-treat OS result and mixed analysis-population interpretation; AZTOUND is represented as a pharmacokinetic topline and planned filing, not a submitted NDA or clinical-outcome advantage.
@@ -87,6 +88,22 @@ Updated: 2026-10-05
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-06 Verified Updates and Review Checks
+
+- AbbVie's official EPCORE DLBCL-2 topline release and ClinicalTrials.gov record; sources for the global randomized Phase III design, fixed-duration epcoritamab plus R-CHOP regimen, IPI 2-5 population, primary IPI 3-5 and key secondary total-population PFS results, monitoring-committee recommendation, investigational status, and planned regulatory engagement
+  https://www.prnewswire.com/news-releases/abbvie-and-genmab-announce-epcoritamab-in-combination-with-r-chop-demonstrates-significant-improvement-in-progression-free-survival-versus-r-chop-in-patients-with-newly-diagnosed-diffuse-large-b-cell-lymphoma-302898795.html
+  https://clinicaltrials.gov/study/NCT05578976
+- IARC's ENIGMA Uganda report and linked peer-reviewed Helicobacter article were reviewed as a nonconforming epidemiology and prevention signal. The 700-person population study reported high early H. pylori exposure and relatively uncommon serologic gastric atrophy, but it was not promoted because it does not yet change a cancer-care decision and the authors call for broader Ugandan validation.
+  https://www.iarc.who.int/news-events/epidemiology-of-helicobacter-pylori-and-gastric-atrophy-in-rural-south-western-uganda-the-enigma-uganda-study/
+  https://doi.org/10.1111/hel.70163
+- FDA oncology and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal publication surfaces, and targeted sponsor sources were rechecked through the 6 October cutoff. No additional same-window approval, withdrawal, material safety restriction, negative pivotal result, official India price or procurement action, or India-access milestone cleared promotion. Reviews, preclinical reports, trial starts, and result-free corporate announcements were considered but not promoted.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/medicines
+  https://cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
 
 ## 2026-10-05 Verified Updates and Review Checks
 

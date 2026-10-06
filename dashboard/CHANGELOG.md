@@ -1,5 +1,16 @@
 # Dashboard Changelog
 
+## 2026-10-06 - EPCORE DLBCL-2 Frontline Bispecific Phase III Topline
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 6 October run across regulators, registries, peer-reviewed journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, access, pricing, procurement, epidemiology, and health systems.
+- Added `EPCORE DLBCL-2 epcoritamab plus R-CHOP frontline topline` after AbbVie and Genmab reported that the randomized global Phase III trial met its primary PFS endpoint in newly diagnosed large B-cell lymphoma with IPI 3-5 and its key secondary PFS endpoint in the total IPI 2-5 population.
+- Captured the reported 51% reduction in progression or death for IPI 2-5, HR 0.49 (95% CI 0.36-0.67; p<0.0001), and the primary IPI 3-5 result, HR 0.49 (95% CI 0.35-0.69; p<0.0001). The independent monitoring committee recommended unblinding at the first planned efficacy interim analysis.
+- Preserved the evidence limits: sponsor-release-only interim evidence, open-label design, no absolute PFS estimate or median follow-up, no overall-survival result, incomplete response and subgroup evidence, no quality-of-life result, and no numerical safety table. The sponsor's description of safety as generally tolerable and consistent is not treated as a complete safety assessment.
+- Kept the combination explicitly investigational and separate from epcoritamab approvals in later-line lymphoma settings. No routine-use recommendation or cross-trial superiority claim is made before full presentation, publication, regulatory review, and guideline assessment.
+- No CDSCO authorization or India-specific filing, site, subgroup, price, reimbursement, procurement, step-up-dosing pathway, or announced India launch date was verified. No missing value, price, or date was inferred.
+- Considered IARC's population-based ENIGMA Uganda H. pylori and gastric-atrophy study. It provides useful baseline epidemiology but was not promoted because it does not yet change a screening, prevention, or treatment decision and requires validation in other Ugandan populations.
+- The existing watchlist structure can represent the finding accurately. Search aliases were extended, the visible briefing and archive were rolled to the October 6 Morning Edition, and the detailed Word report was not modified.
+
 ## 2026-10-05 - RAINFOL-01 Rina-S Ovarian-Cancer Signal and Catch-up Review
 
 - Completed an open-ended catch-up review from the 3 October published edition through the 24-hour window before the 5 October run because the 4 October edition was not completed or published.
