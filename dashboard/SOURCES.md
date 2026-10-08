@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-06
+Updated: 2026-10-08
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-10-08 catch-up review upgraded the existing tucatinib dossier after FDA approved tucatinib with trastuzumab and pertuzumab as maintenance following induction therapy for unresectable locally advanced or metastatic HER2-positive breast cancer. It also added the FDA's 2 October first-line pirtobrutinib approval for CLL/SLL without a known 17p deletion, which had been missed by the prior edition reviews. Both records preserve immature overall-survival evidence, label safety warnings, comparator limits, and unverified India indication-specific access. The reusable treatment detail modal now exposes existing structured trial fields and supporting-source links directly.
 - The 2026-10-06 review added the press-release-only Phase III EPCORE DLBCL-2 frontline epcoritamab plus R-CHOP signal. Both reported PFS hazard ratios are retained while absent absolute PFS, follow-up, survival, response, quality-of-life, subgroup, and numerical safety details remain explicitly unavailable.
 - The 2026-10-05 catch-up review added the conference-only RAINFOL-01 Rina-S ovarian-cancer signal from the missed 3 October interval. The single-arm response and duration estimates are retained with complete comparator, survival, subgroup, publication, regulatory, cost, and India-access limitations; no additional 4-5 October item cleared promotion.
 - The 2026-10-03 catch-up review added the peer-reviewed uRARE-seq bladder-cancer diagnostic signal, Japan's Optune Pax pancreatic-cancer device approval, and the REZILIENT3 first-line zipalertinib rolling-NDA update. Diagnostic accuracy is kept separate from clinical utility, the modest PANOVA-3 survival gain is shown with device burden and skin toxicity, and the initiated rolling submission is not represented as complete, accepted, or approved.
@@ -88,6 +89,31 @@ Updated: 2026-10-06
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-08 Verified Updates and Review Checks
+
+- FDA tucatinib maintenance approval notice; primary source for the 7 October indication, 654-patient HER2CLIMB-05 design, induction requirement, comparator, PFS, immature OS, dose, and label warning categories
+  https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer
+- Pfizer approval and safety release; secondary check for the labeled population, randomization counts, common and serious adverse reactions, liver-function abnormalities, dose modifications, confirmed Hy's Law cases, and fatal drug-induced liver injury after rechallenge
+  https://www.pfizer.com/news/press-release/press-release-detail/pfizers-tukysa-regimen-receives-fda-approval-front-line
+- JCO HER2CLIMB-05 publication and ClinicalTrials.gov registry; checks for the randomized Phase III design, population, endpoints, efficacy estimates, subgroup context, and trial registration
+  https://ascopubs.org/doi/10.1200/JCO-25-02600
+  https://clinicaltrials.gov/study/NCT05132582
+- FDA pirtobrutinib first-line approval notice; primary source for the 2 October indication, 282-patient BRUIN CLL-313 design, no-known-17p-deletion population, active comparator, independent-review PFS, immature OS, safety, dose, and orphan designation
+  https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pirtobrutinib-previously-untreated-chronic-lymphocytic-leukemia-or-small-lymphocytic
+- Lilly approval release and ClinicalTrials.gov registry; secondary checks for the label expansion, non-covalent BTK mechanism, adverse-reaction and laboratory-abnormality context, trial design, eligibility, and registration
+  https://investor.lilly.com/news-releases/news-release-details/lillys-jaypirca-pirtobrutinib-first-and-only-approved-non-1
+  https://clinicaltrials.gov/study/NCT05023980
+- FDA oncology and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal publication surfaces, and targeted official sponsor sources were rechecked across the missed 7 October interval and current window. No additional same-window item cleared promotion. WHO's 7 October childhood-obesity guidance was considered but did not provide a direct oncology decision or cancer-specific result.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.fda.gov/drugs/resources-information-approved-drugs/ongoing-cancer-accelerated-approvals
+  https://www.ema.europa.eu/en/news-events/whats-new
+  https://www.cdsco.gov.in/opencms/opencms/en/Approval_new/CT-Approvals/
+  https://www.cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+  https://www.who.int/news-room
+  https://www.iarc.who.int/news-events/
+  https://clinicaltrials.gov/
+- Early trial starts, preclinical findings, non-oncology health guidance, reviews, and result-free corporate announcements were considered but not promoted. No item was excluded because of taxonomy fit.
 
 ## 2026-10-06 Verified Updates and Review Checks
 

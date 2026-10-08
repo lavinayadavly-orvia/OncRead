@@ -185,16 +185,60 @@ const treatments = [
   },
   {
     id: "tucatinib", short: "Tucatinib", name: "Tucatinib + HER2 Maintenance", cancer: "Breast cancer",
-    setting: "Metastatic HER2-positive", company: "Pfizer / Seagen; Indian generics", phase: "Phase III",
-    impact: "High", impactGroup: "high", maturity: 96, impactScore: 91,
-    headline: "+8.6 months median PFS", headlineNote: "24.9 vs 16.3 months; HR 0.641",
-    benefit: "A direct randomized improvement over trastuzumab/pertuzumab maintenance, with a 35.9% relative reduction in progression or death. Benefit appeared across hormone-receptor and brain-metastasis subgroups.",
-    safety: "Diarrhea in 72.7%, grade 3 or higher in 6.1%. Grade 3 or higher ALT and AST elevations were 13.5% and 7.1%; 13.5% discontinued for treatment-emergent toxicity.",
+    setting: "Unresectable locally advanced or metastatic HER2-positive disease after induction therapy", company: "Pfizer / Seagen; Indian generics", phase: "Randomized Phase III; FDA approved",
+    impact: "High", impactGroup: "high", maturity: 99, impactScore: 93,
+    eventDate: "2026-10-07",
+    headline: "+8.6 months median PFS", headlineNote: "24.9 vs 16.3 months; HR 0.64",
+    benefit: "FDA approved tucatinib with trastuzumab and pertuzumab as maintenance after four to eight induction cycles of trastuzumab, pertuzumab and a taxane in adults without progression. HER2CLIMB-05 reduced the risk of progression or death by 36% versus placebo plus trastuzumab and pertuzumab; overall survival remains immature.",
+    safety: "The US label carries a boxed warning for severe hepatotoxicity. In the sponsor safety summary, diarrhea occurred in 73% and grade 3 diarrhea in 6%; serious adverse reactions occurred in 17%, permanent discontinuation in 14%, and one fatal drug-induced liver injury occurred after rechallenge. The label also warns about embryo-fetal toxicity and increased serum creatinine without renal impairment.",
     cost: "High added continuous cost", indiaPrice: "₹6,000 retail or ₹7,678-₹8,190 MRP per 10 × 150 mg tablets; about ₹72,000-₹98,000 per 30 days at 300 mg twice daily.",
-    indiaStatus: "available", indiaLabel: "Approved and marketed", launch: "Launched after 8 April 2025 approval",
-    indiaCaveat: "Indian approval is for previously treated disease with trastuzumab and capecitabine, not HER2CLIMB-05 first-line maintenance.",
-    limitations: "Overall survival is immature; long-term value depends on CNS-event avoidance, treatment duration and net pricing.",
-    source: "https://ascopubs.org/doi/10.1200/JCO-25-02600"
+    indiaStatus: "available", indiaLabel: "Product marketed; maintenance label unverified", launch: "FDA maintenance approval 7 October 2026",
+    indiaCaveat: "Indian approval is for previously treated disease with trastuzumab and capecitabine, not the HER2CLIMB-05 maintenance regimen. No CDSCO authorization, official India launch date, reimbursement decision, or procurement pathway for this new regimen was verified.",
+    limitations: "Overall survival is immature; the trial selected patients without progression after induction; severe hepatotoxicity requires active monitoring; and the result does not establish superiority over maintenance regimens that were not tested directly. Long-term value depends on CNS-event avoidance, treatment duration, toxicity management, and net pricing.",
+    detailSections: [
+      ["Event date / geography", "7 October 2026 FDA approval - United States", "wide"],
+      ["Population / sample", "654 adults with unresectable locally advanced or metastatic HER2-positive breast cancer without progression after four to eight induction cycles of trastuzumab, pertuzumab and a taxane in HER2CLIMB-05 (NCT05132582).", "wide"],
+      ["Comparator", "Tucatinib 300 mg orally twice daily or placebo, each with trastuzumab and pertuzumab; patients with hormone-receptor-positive disease could continue endocrine therapy.", "wide"],
+      ["Primary endpoint / effect", "Investigator-assessed median PFS was 24.9 months (95% CI 21.3-not reached) versus 16.3 months (95% CI 12.6-18.7), HR 0.64 (95% CI 0.51-0.80), p<0.0001. Overall survival was immature.", "wide"],
+      ["Safety", "Diarrhea occurred in 73% and grade 3 diarrhea in 6%. Serious adverse reactions occurred in 17%; hepatotoxicity was serious in 3.9%. The sponsor reported five confirmed Hy's Law cases after rechallenge, including one fatal drug-induced liver injury. Hepatotoxicity led to dose reduction in 15% and discontinuation in 8%.", "wide"],
+      ["Regulatory status", "FDA approved on 7 October 2026. The recommended tucatinib dose is 300 mg orally twice daily until disease progression or unacceptable toxicity.", "wide"],
+      ["India access", "Tucatinib products are marketed in India for a previously treated HER2-positive indication, but CDSCO authorization and official launch or reimbursement terms for this maintenance regimen were not verified.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer",
+    sourceLabel: "FDA approval notice",
+    supportingSources: [
+      { label: "Pfizer approval release", url: "https://www.pfizer.com/news/press-release/press-release-detail/pfizers-tukysa-regimen-receives-fda-approval-front-line" },
+      { label: "JCO HER2CLIMB-05 publication", url: "https://ascopubs.org/doi/10.1200/JCO-25-02600" },
+      { label: "ClinicalTrials.gov HER2CLIMB-05 registry", url: "https://clinicaltrials.gov/study/NCT05132582" }
+    ]
+  },
+  {
+    id: "pirtobrutinib-firstline-cll", short: "Jaypirca", name: "Pirtobrutinib for Previously Untreated CLL/SLL", cancer: "Hematologic malignancies",
+    setting: "Previously untreated CLL or SLL without a known 17p deletion", company: "Eli Lilly and Company", phase: "Randomized Phase III; FDA approved",
+    impact: "High in the labeled population", impactGroup: "high", maturity: 99, impactScore: 90,
+    eventDate: "2026-10-02",
+    headline: "PFS HR 0.20", headlineNote: "Median not estimable vs 33.5 months",
+    benefit: "FDA expanded Jaypirca to previously untreated CLL or SLL without a known 17p deletion after BRUIN CLL-313 showed a large PFS advantage over bendamustine plus rituximab. This establishes a first-line non-covalent BTK inhibitor option, but it does not establish superiority over modern covalent BTK inhibitors or venetoclax-based regimens.",
+    safety: "Common non-laboratory adverse reactions included upper respiratory tract infection (27%), rash (22%), and COVID-19 (21%). Grade 3 or 4 decreased neutrophils was the most common severe laboratory abnormality, and serious adverse reactions occurred in 28%. Label warnings include infections, hemorrhage, cytopenias, cardiac arrhythmias, second primary malignancies, hepatotoxicity, and embryo-fetal toxicity.",
+    cost: "Continuous branded oral therapy; official price not reported in the FDA approval notice", indiaPrice: "No official India price, CDSCO authorization for this first-line indication, reimbursement decision, procurement pathway, or announced India launch date was verified.",
+    indiaStatus: "not-launched", indiaLabel: "US approved; India first-line label unverified", launch: "FDA first-line approval 2 October 2026",
+    indiaCaveat: "No CDSCO authorization, official India availability, India launch date, price, reimbursement decision, or procurement pathway for this first-line CLL/SLL indication was verified.",
+    limitations: "BRUIN CLL-313 was open-label, excluded known 17p deletion, used bendamustine plus rituximab rather than a modern targeted regimen as the comparator, and has immature overall survival. The evidence does not establish superiority over covalent BTK inhibitors, venetoclax combinations, or time-limited approaches.",
+    detailSections: [
+      ["Event date / geography", "2 October 2026 FDA approval - United States; identified and reconciled during the 8 October catch-up review", "wide"],
+      ["Population / sample", "282 patients with previously untreated CLL or SLL and no known 17p deletion in BRUIN CLL-313 (NCT05023980); 141 were assigned to each group.", "wide"],
+      ["Comparator", "Pirtobrutinib 200 mg orally once daily versus bendamustine plus rituximab in a randomized, open-label, active-controlled trial.", "wide"],
+      ["Primary endpoint / effect", "Independent-review PFS at 28 months' median follow-up: median not estimable (95% CI not estimable-not estimable) versus 33.5 months (95% CI 32.7-not estimable), HR 0.20 (95% CI 0.11-0.37), p<0.0001.", "wide"],
+      ["Overall survival", "OS was immature and median OS was not reached in either group. Thirteen deaths occurred: 3 of 141 (2.1%) with pirtobrutinib and 10 of 141 (7.1%) with bendamustine plus rituximab.", "wide"],
+      ["Safety", "Upper respiratory tract infection occurred in 27%, rash in 22%, and COVID-19 in 21%. Serious adverse reactions occurred in 28%. Label warnings include infections, hemorrhage, cytopenias, cardiac arrhythmias, second primary malignancies, hepatotoxicity, and embryo-fetal toxicity.", "wide"],
+      ["Regulatory status", "FDA approved on 2 October 2026 with orphan drug designation. Recommended dose is 200 mg orally once daily until disease progression or unacceptable toxicity.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pirtobrutinib-previously-untreated-chronic-lymphocytic-leukemia-or-small-lymphocytic",
+    sourceLabel: "FDA approval notice",
+    supportingSources: [
+      { label: "Lilly approval release", url: "https://investor.lilly.com/news-releases/news-release-details/lillys-jaypirca-pirtobrutinib-first-and-only-approved-non-1" },
+      { label: "ClinicalTrials.gov BRUIN CLL-313 registry", url: "https://clinicaltrials.gov/study/NCT05023980" }
+    ]
   },
   {
     id: "palbociclib", short: "Palbociclib", name: "Palbociclib HER2 Maintenance", cancer: "Breast cancer",
@@ -2326,7 +2370,8 @@ const portfolioAliasRules = [
   { match: /selpercatinib|retevmo|retsevmo/i, aliases: ["Retevmo", "Retsevmo"] },
   { match: /tregzi|orca-t/i, aliases: ["Tregzi", "Orca-T"] },
   { match: /palbociclib/i, aliases: ["Ibrance"] },
-  { match: /tucatinib/i, aliases: ["Tukysa"] },
+  { match: /tucatinib|her2climb-05|nct05132582/i, aliases: ["Tukysa", "HER2CLIMB-05", "NCT05132582"] },
+  { match: /pirtobrutinib|jaypirca|bruin cll-313|nct05023980/i, aliases: ["Jaypirca", "Pirtobrutinib", "BRUIN CLL-313", "NCT05023980", "CLL", "SLL", "BTK"] },
   { match: /trastuzumab deruxtecan|t-dxd/i, aliases: ["Enhertu"] },
   { match: /pertuzumab/i, aliases: ["Perjeta"] },
   { match: /pemigatinib/i, aliases: ["Pemazyre"] },
@@ -3828,10 +3873,12 @@ function openDetail(id) {
         <div class="detail-kpi"><span>India status</span><strong>${t.indiaLabel}</strong></div>
       </div>
       ${detailSection("Clinical advancement", t.benefit)}
+      ${(t.detailSections || []).map(([title, text]) => detailSection(title, text)).join("")}
       ${detailSection("Safety and treatment burden", t.safety)}
       ${detailSection("Cost and India access", `${t.indiaPrice} ${t.indiaCaveat}`)}
       ${detailSection("Why caution remains", t.limitations)}
       <a class="source-link" href="${t.source}" target="_blank" rel="noreferrer">Open ${t.sourceLabel || "primary study"} ↗</a>
+      ${(t.supportingSources || []).map(source => `<a class="source-link" href="${source.url}" target="_blank" rel="noreferrer">Open ${source.label} ↗</a>`).join("")}
     </div>`;
   $("#detail-dialog").showModal();
 }

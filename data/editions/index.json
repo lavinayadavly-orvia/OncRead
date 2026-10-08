@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-06T06:25:13.404Z",
-  "currentEditionId": "2026-10-06",
-  "currentEditionLabel": "6 October 2026",
+  "generatedAt": "2026-10-08T06:03:19.042Z",
+  "currentEditionId": "2026-10-08",
+  "currentEditionLabel": "8 October 2026",
   "editions": [
+    {
+      "id": "2026-10-08",
+      "editionLabel": "8 October 2026",
+      "preparedLabel": "October 8 Morning Edition",
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "summary": "FDA approved tucatinib with trastuzumab and pertuzumab as maintenance after four to eight induction cycles of trastuzumab, pertuzumab and a taxane in adults without progression. HER2CLIMB-05 reduced the risk of progression or death by 36% versus placebo plus trastuzumab and pertuzumab; overall survival remains immature.",
+      "file": "/data/editions/2026-10-08.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 30,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 45,
+        "verifiedRecords": 86
+      }
+    },
     {
       "id": "2026-10-06",
       "editionLabel": "6 October 2026",
@@ -1181,8 +1198,29 @@
     {
       "monthKey": "2026-10",
       "monthLabel": "October 2026",
-      "leadEditionId": "2026-10-06",
+      "leadEditionId": "2026-10-08",
       "highlights": [
+        {
+          "editionId": "2026-10-08",
+          "editionLabel": "8 October 2026",
+          "tag": "Latest verified approval",
+          "title": "Tucatinib + HER2 Maintenance",
+          "summary": "FDA maintenance approval 7 October 2026"
+        },
+        {
+          "editionId": "2026-10-08",
+          "editionLabel": "8 October 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-10-08",
+          "editionLabel": "8 October 2026",
+          "tag": "Primary endpoints not met",
+          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
+          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
+        },
         {
           "editionId": "2026-10-06",
           "editionLabel": "6 October 2026",
@@ -1203,27 +1241,6 @@
           "tag": "Highest-impact treatment pool",
           "title": "Daraxonrasib for Metastatic PDAC",
           "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-10-06",
-          "editionLabel": "6 October 2026",
-          "tag": "Primary endpoints not met",
-          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
-          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
-        },
-        {
-          "editionId": "2026-10-05",
-          "editionLabel": "5 October 2026",
-          "tag": "Conference-only single-arm Phase 1/2",
-          "title": "RAINFOL-01 rinatabart sesutecan in platinum-resistant ovarian cancer",
-          "summary": "Platinum-resistant ovarian cancer after bevacizumab, PARP inhibition, or mirvetuximab has limited durable options. The response duration and reported activity in low or non-expressing FRalpha tumors support randomized confirmation of a potentially broader ADC strategy."
-        },
-        {
-          "editionId": "2026-10-05",
-          "editionLabel": "5 October 2026",
-          "tag": "Latest verified approval",
-          "title": "Optune Pax for Locally Advanced Pancreatic Cancer",
-          "summary": "Japan MHLW approval announced 1 October 2026"
         }
       ]
     },

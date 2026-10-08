@@ -1,5 +1,17 @@
 # Dashboard Changelog
 
+## 2026-10-08 - Tucatinib Maintenance Approval and Pirtobrutinib Catch-up
+
+- Completed an open-ended catch-up review from the 6 October published edition through the 24-hour window before the 8 October run because the 7 October edition was not completed or published.
+- Upgraded the existing `Tucatinib + HER2 Maintenance` dossier after FDA approved tucatinib with trastuzumab and pertuzumab as maintenance following four to eight induction cycles of trastuzumab, pertuzumab and a taxane for adults with unresectable locally advanced or metastatic HER2-positive breast cancer without progression.
+- Captured HER2CLIMB-05 randomized evidence in 654 patients: median investigator-assessed PFS was 24.9 versus 16.3 months, HR 0.64 (95% CI 0.51-0.80), p<0.0001. Overall survival remains immature, so no survival advantage is claimed.
+- Added the FDA label's severe-hepatotoxicity warning and the sponsor's detailed safety context, including serious adverse reactions in 17%, hepatotoxicity serious in 3.9%, five confirmed Hy's Law cases after rechallenge, and one fatal drug-induced liver injury.
+- Added `Pirtobrutinib for Previously Untreated CLL/SLL` as a catch-up dossier after the current FDA index review identified the 2 October approval that prior editions had missed. BRUIN CLL-313 randomized 282 patients without a known 17p deletion and reported median PFS not estimable versus 33.5 months, HR 0.20 (95% CI 0.11-0.37), p<0.0001; OS remains immature.
+- Preserved the pirtobrutinib evidence limits: open-label design, exclusion of known 17p deletion, bendamustine-rituximab comparator, indefinite daily therapy, and no basis for superiority claims against covalent BTK inhibitors, venetoclax combinations, or time-limited strategies.
+- Tucatinib products are marketed in India for a previously treated HER2-positive indication, but the new maintenance label was not verified with CDSCO. No CDSCO authorization, official India price, reimbursement decision, procurement pathway, or announced India launch date for the pirtobrutinib first-line indication was verified. No missing value or date was inferred.
+- Rechecked FDA oncology and accelerated-approval surfaces, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal publication surfaces, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, manufacturing, pricing, procurement, and targeted sponsor sources. WHO's 7 October childhood-obesity guidance was considered but not promoted because it did not create a direct oncology decision or cancer-specific evidence update.
+- Both developments fit the reusable treatment-dossier structure, and the tucatinib record was updated rather than duplicated. The treatment detail modal was extended to expose existing structured population, comparator, endpoint, regulatory, and supporting-source fields directly rather than only through the global portfolio; search aliases were extended for both trials and brands, and accessible names were added to the dashboard dialogs. No broader layout or scoring change was required, and the detailed Word report was not modified.
+
 ## 2026-10-06 - EPCORE DLBCL-2 Frontline Bispecific Phase III Topline
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 6 October run across regulators, registries, peer-reviewed journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, access, pricing, procurement, epidemiology, and health systems.

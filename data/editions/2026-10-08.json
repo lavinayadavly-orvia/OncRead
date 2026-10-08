@@ -1,0 +1,89 @@
+{
+  "id": "2026-10-08",
+  "editionLabel": "8 October 2026",
+  "preparedLabel": "October 8 Morning Edition",
+  "monthKey": "2026-10",
+  "monthLabel": "October 2026",
+  "summary": "FDA approved tucatinib with trastuzumab and pertuzumab as maintenance after four to eight induction cycles of trastuzumab, pertuzumab and a taxane in adults without progression. HER2CLIMB-05 reduced the risk of progression or death by 36% versus placebo plus trastuzumab and pertuzumab; overall survival remains immature.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 30,
+    "followupApprovals": 7,
+    "indiaMarketed": 4,
+    "watchlistSignals": 45,
+    "verifiedRecords": 86
+  },
+  "headlines": [
+    {
+      "tag": "Latest verified approval",
+      "title": "Tucatinib + HER2 Maintenance",
+      "summary": "FDA maintenance approval 7 October 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+    },
+    {
+      "tag": "Primary endpoints not met",
+      "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
+      "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "tucatinib"
+      },
+      "title": "Tucatinib + HER2 Maintenance",
+      "subtitle": "FDA maintenance approval 7 October 2026",
+      "date": 1791331200000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "daraxonrasib-rasonque"
+      },
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "subtitle": "Phase III; FDA approved · US approved; India unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "iarc-lung-cancer-screening-volume21"
+      },
+      "title": "IARC lung-cancer screening evaluation",
+      "subtitle": "IARC Group A LDCT evaluation",
+      "date": 0
+    }
+  ],
+  "sourceCount": 86,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "tucatinib"
+      },
+      "title": "Tucatinib + HER2 Maintenance",
+      "subtitle": "FDA maintenance approval 7 October 2026",
+      "date": 1791331200000
+    }
+  }
+}
