@@ -1,4 +1,6 @@
 const portfolioAliasRules = [
+  { match: /olaparib.*tremelimumab|tremelimumab.*olaparib|nct02571725|germline brca.*ovarian/i, aliases: ["Olaparib", "Tremelimumab", "NCT02571725", "BRCA1", "BRCA2", "ovarian cancer", "negative trial"] },
+  { match: /disitamab.*tislelizumab|tislelizumab.*disitamab|nct05495724|erbb2-positive.*nmibc/i, aliases: ["Disitamab vedotin", "Tislelizumab", "NCT05495724", "ERBB2", "HER2", "NMIBC", "bladder preservation"] },
   { match: /nivolumab/i, aliases: ["Opdivo"] },
   { match: /pembrolizumab/i, aliases: ["Keytruda"] },
   { match: /sevabertinib|hyrnuo|soho-01/i, aliases: ["Hyrnuo", "BAY 2927088", "SOHO-01", "HER2", "ERBB2"] },

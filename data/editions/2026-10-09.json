@@ -1,0 +1,94 @@
+{
+  "id": "2026-10-09",
+  "editionLabel": "9 October 2026",
+  "preparedLabel": "October 9 Morning Edition",
+  "monthKey": "2026-10",
+  "monthLabel": "October 2026",
+  "summary": "The negative result argues against assuming that preclinical PARP-CTLA-4 synergy translates into broad clinical benefit in recurrent BRCA-mutated ovarian cancer. It narrows the development case toward biomarker-selected research and makes the toxicity burden central to any future trial design.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 30,
+    "followupApprovals": 7,
+    "indiaMarketed": 4,
+    "watchlistSignals": 47,
+    "verifiedRecords": 88
+  },
+  "headlines": [
+    {
+      "tag": "Peer-reviewed Phase I/II; efficacy endpoint not met",
+      "title": "Olaparib plus tremelimumab in recurrent germline BRCA ovarian cancer",
+      "summary": "The negative result argues against assuming that preclinical PARP-CTLA-4 synergy translates into broad clinical benefit in recurrent BRCA-mutated ovarian cancer. It narrows the development case toward biomarker-selected research and makes the toxicity burden central to any future trial design."
+    },
+    {
+      "tag": "Latest verified approval",
+      "title": "Tucatinib + HER2 Maintenance",
+      "summary": "FDA maintenance approval 7 October 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+    },
+    {
+      "tag": "Peer-reviewed Phase I/II; efficacy endpoint not met",
+      "title": "Olaparib plus tremelimumab in recurrent germline BRCA ovarian cancer",
+      "summary": "The negative result argues against assuming that preclinical PARP-CTLA-4 synergy translates into broad clinical benefit in recurrent BRCA-mutated ovarian cancer. It narrows the development case toward biomarker-selected research and makes the toxicity burden central to any future trial design."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "tucatinib"
+      },
+      "title": "Tucatinib + HER2 Maintenance",
+      "subtitle": "FDA maintenance approval 7 October 2026",
+      "date": 1791331200000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "daraxonrasib-rasonque"
+      },
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "subtitle": "Phase III; FDA approved · US approved; India unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "iarc-lung-cancer-screening-volume21"
+      },
+      "title": "IARC lung-cancer screening evaluation",
+      "subtitle": "IARC Group A LDCT evaluation",
+      "date": 0
+    }
+  ],
+  "sourceCount": 88,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "tucatinib"
+      },
+      "title": "Tucatinib + HER2 Maintenance",
+      "subtitle": "FDA maintenance approval 7 October 2026",
+      "date": 1791331200000
+    }
+  }
+}

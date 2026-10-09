@@ -1,5 +1,16 @@
 # Dashboard Changelog
 
+## 2026-10-09 - Negative BRCA Ovarian Trial and ERBB2-Positive NMIBC Signal
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 9 October run across regulators, registries, peer-reviewed journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, access, pricing, procurement, epidemiology, and health systems.
+- Added `Olaparib plus tremelimumab in recurrent germline BRCA ovarian cancer` after Nature Communications published the 50-patient multisite Phase I/II study. The trial did not meet its prespecified efficacy endpoint: ORR was 32.7% (95% CI 19.5-45.8), median PFS was 3.0 months (95% CI 2.7-5.9), and median OS was 24.3 months (95% CI 14.9-30.4).
+- Preserved the negative study's safety and interpretation limits: grade 3 or 4 nonhematologic toxicity occurred in 57% of the 49-person safety cohort and tremelimumab was discontinued in 34.7%. The exploratory VSTM5 and IFIT1B associations are post hoc and are not represented as validated treatment-selection biomarkers.
+- Added `Disitamab vedotin plus tislelizumab in unresectable ERBB2-positive NMIBC` after JAMA Oncology published the single-center Phase II study. Complete response occurred in 19 of 26 efficacy-evaluable patients, 73.1% (95% CI 54.8-91.3), and in 19 of all 28 treated patients, 67.9% (95% CI 49.4-86.3).
+- Kept the NMIBC regimen explicitly investigational and noncomparative. The cohort was small, China-only, ERBB2 selected, and included only two BCG-unresponsive patients; complete response is not established here as a survival surrogate, and no superiority over cystectomy or standard bladder-preservation pathways is claimed.
+- No FDA, EMA, CDSCO, or other authorization, official India price, reimbursement decision, procurement action, India cohort, or announced India launch date was verified for either regimen. No missing value, approval, cost, or launch timing was inferred.
+- Considered a 5 October JAMA randomized smoking-cessation trial, the older ROAM/EORTC-1308 atypical-meningioma publication highlighted on 8 October, and same-day trial-start and conference-preview releases. They were not promoted because they fell outside the review window, did not represent newly visible primary evidence, or did not yet provide a material clinical result.
+- The existing watchlist structure accurately represents one negative trial and one early bladder-preservation signal. Search aliases were extended, the visible briefing and archive were rolled to the October 9 Morning Edition, and the detailed Word report was not modified.
+
 ## 2026-10-08 - Tucatinib Maintenance Approval and Pirtobrutinib Catch-up
 
 - Completed an open-ended catch-up review from the 6 October published edition through the 24-hour window before the 8 October run because the 7 October edition was not completed or published.

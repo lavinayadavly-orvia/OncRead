@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-08T06:03:19.042Z",
-  "currentEditionId": "2026-10-08",
-  "currentEditionLabel": "8 October 2026",
+  "generatedAt": "2026-10-09T00:50:12.519Z",
+  "currentEditionId": "2026-10-09",
+  "currentEditionLabel": "9 October 2026",
   "editions": [
+    {
+      "id": "2026-10-09",
+      "editionLabel": "9 October 2026",
+      "preparedLabel": "October 9 Morning Edition",
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "summary": "The negative result argues against assuming that preclinical PARP-CTLA-4 synergy translates into broad clinical benefit in recurrent BRCA-mutated ovarian cancer. It narrows the development case toward biomarker-selected research and makes the toxicity burden central to any future trial design.",
+      "file": "/data/editions/2026-10-09.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 30,
+        "followupApprovals": 7,
+        "indiaMarketed": 4,
+        "watchlistSignals": 47,
+        "verifiedRecords": 88
+      }
+    },
     {
       "id": "2026-10-08",
       "editionLabel": "8 October 2026",
@@ -1198,8 +1215,36 @@
     {
       "monthKey": "2026-10",
       "monthLabel": "October 2026",
-      "leadEditionId": "2026-10-08",
+      "leadEditionId": "2026-10-09",
       "highlights": [
+        {
+          "editionId": "2026-10-09",
+          "editionLabel": "9 October 2026",
+          "tag": "Peer-reviewed Phase I/II; efficacy endpoint not met",
+          "title": "Olaparib plus tremelimumab in recurrent germline BRCA ovarian cancer",
+          "summary": "The negative result argues against assuming that preclinical PARP-CTLA-4 synergy translates into broad clinical benefit in recurrent BRCA-mutated ovarian cancer. It narrows the development case toward biomarker-selected research and makes the toxicity burden central to any future trial design."
+        },
+        {
+          "editionId": "2026-10-09",
+          "editionLabel": "9 October 2026",
+          "tag": "Latest verified approval",
+          "title": "Tucatinib + HER2 Maintenance",
+          "summary": "FDA maintenance approval 7 October 2026"
+        },
+        {
+          "editionId": "2026-10-09",
+          "editionLabel": "9 October 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-10-09",
+          "editionLabel": "9 October 2026",
+          "tag": "Peer-reviewed Phase I/II; efficacy endpoint not met",
+          "title": "Olaparib plus tremelimumab in recurrent germline BRCA ovarian cancer",
+          "summary": "The negative result argues against assuming that preclinical PARP-CTLA-4 synergy translates into broad clinical benefit in recurrent BRCA-mutated ovarian cancer. It narrows the development case toward biomarker-selected research and makes the toxicity burden central to any future trial design."
+        },
         {
           "editionId": "2026-10-08",
           "editionLabel": "8 October 2026",
@@ -1210,34 +1255,6 @@
         {
           "editionId": "2026-10-08",
           "editionLabel": "8 October 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-10-08",
-          "editionLabel": "8 October 2026",
-          "tag": "Primary endpoints not met",
-          "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
-          "summary": "The negative result prevents a higher response rate and numerical PFS difference from being mistaken for established first-line benefit and informs whether Trop-2 ADC combinations should advance in PD-L1-high disease."
-        },
-        {
-          "editionId": "2026-10-06",
-          "editionLabel": "6 October 2026",
-          "tag": "Positive Phase III sponsor topline",
-          "title": "EPCORE DLBCL-2 epcoritamab plus R-CHOP frontline topline",
-          "summary": "R-CHOP has remained the frontline backbone for most newly diagnosed DLBCL. A large PFS effect from adding a CD3xCD20 bispecific could alter first-line treatment if complete efficacy, safety, survival, and implementation evidence supports regulatory approval and clinical adoption."
-        },
-        {
-          "editionId": "2026-10-06",
-          "editionLabel": "6 October 2026",
-          "tag": "Latest verified approval",
-          "title": "Optune Pax for Locally Advanced Pancreatic Cancer",
-          "summary": "Japan MHLW approval announced 1 October 2026"
-        },
-        {
-          "editionId": "2026-10-06",
-          "editionLabel": "6 October 2026",
           "tag": "Highest-impact treatment pool",
           "title": "Daraxonrasib for Metastatic PDAC",
           "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
