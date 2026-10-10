@@ -1,5 +1,17 @@
 # Dashboard Changelog
 
+## 2026-10-10 - ATOMIC FDA Approval and NRG-BR002 Negative Local-Therapy Evidence
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 10 October run and completed a focused catch-up for consequential primary evidence and regulator actions not yet represented in the 9 October edition.
+- Upgraded the existing `Atezolizumab + mFOLFOX6` ATOMIC follow-up record from a guideline signal to FDA approval after the agency approved intravenous atezolizumab with fluoropyrimidine-oxaliplatin chemotherapy for adults and children aged 2 years or older with stage III dMMR colon cancer. FDA also approved atezolizumab-hyaluronidase for patients aged 12 years or older who weigh at least 40 kg.
+- Captured the randomized Phase III evidence in 712 patients: at 40.9 months median follow-up, three-year DFS was 86.3% (95% CI 81.8-89.8) versus 76.2% (95% CI 70.9-80.6), HR 0.50 (95% CI 0.35-0.73), p<0.001. Median DFS was not reached in either arm and overall survival remained immature.
+- Preserved the treatment burden and safety trade-off: grade 3 or 4 adverse events occurred in 84.1% with atezolizumab plus mFOLFOX6 versus 71.9% with mFOLFOX6 alone. The pathway requires six months of combination therapy followed by six months of atezolizumab monotherapy.
+- Added `NRG-BR002 metastasis-directed ablation in oligometastatic breast cancer` as peer-reviewed negative randomized evidence. Median PFS was 23.0 months with systemic therapy alone versus 19.5 months with comprehensive ablation, HR 0.92 (95% CI 0.57-1.47), and OS did not differ, HR 1.07 (95% CI 0.60-1.89); the trial did not proceed to Phase III.
+- Kept the exploratory low or absent circulating-tumor-cell subgroup hypothesis separate from the negative primary result. The record supports palliation, local-control indications, and clinical trials rather than routine ablation of every metastasis with an expectation of survival benefit.
+- Roche India lists Tecentriq as marketed for other oncology indications, but no CDSCO authorization, official India regimen price, reimbursement decision, procurement action, or announced India launch date was verified for adjuvant stage III dMMR colon cancer. No India-specific NRG-BR002 cohort, procedure price, reimbursement decision, or implementation guidance was verified.
+- Considered the 9 October first-in-human roginolisib publication, mechanistic oncology studies, diagnostic-development reports, reviews, and sponsor trial-start or designation releases. Roginolisib was not promoted because the heterogeneous early-phase study produced two partial responses among 32 solid-tumor patients, lacked a comparator, and did not yet establish a decision-changing efficacy signal.
+- The existing follow-up and watchlist structures accurately represent the regulatory upgrade and negative local-therapy result. Follow-up dossiers and portfolio records now expose cost/procurement status as a reusable field, search aliases were extended, the visible briefing and archive were rolled to the October 10 Morning Edition, and the detailed Word report was not modified.
+
 ## 2026-10-09 - Negative BRCA Ovarian Trial and ERBB2-Positive NMIBC Signal
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 9 October run across regulators, registries, peer-reviewed journals, sponsor disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, access, pricing, procurement, epidemiology, and health systems.

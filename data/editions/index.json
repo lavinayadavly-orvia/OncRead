@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-09T00:50:12.519Z",
-  "currentEditionId": "2026-10-09",
-  "currentEditionLabel": "9 October 2026",
+  "generatedAt": "2026-10-10T00:51:20.721Z",
+  "currentEditionId": "2026-10-10",
+  "currentEditionLabel": "10 October 2026",
   "editions": [
+    {
+      "id": "2026-10-10",
+      "editionLabel": "10 October 2026",
+      "preparedLabel": "October 10 Morning Edition",
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "summary": "FDA adjuvant approval · 8 Oct 2026",
+      "file": "/data/editions/2026-10-10.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 30,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 48,
+        "verifiedRecords": 89
+      }
+    },
     {
       "id": "2026-10-09",
       "editionLabel": "9 October 2026",
@@ -1215,30 +1232,30 @@
     {
       "monthKey": "2026-10",
       "monthLabel": "October 2026",
-      "leadEditionId": "2026-10-09",
+      "leadEditionId": "2026-10-10",
       "highlights": [
         {
-          "editionId": "2026-10-09",
-          "editionLabel": "9 October 2026",
-          "tag": "Peer-reviewed Phase I/II; efficacy endpoint not met",
-          "title": "Olaparib plus tremelimumab in recurrent germline BRCA ovarian cancer",
-          "summary": "The negative result argues against assuming that preclinical PARP-CTLA-4 synergy translates into broad clinical benefit in recurrent BRCA-mutated ovarian cancer. It narrows the development case toward biomarker-selected research and makes the toxicity burden central to any future trial design."
-        },
-        {
-          "editionId": "2026-10-09",
-          "editionLabel": "9 October 2026",
+          "editionId": "2026-10-10",
+          "editionLabel": "10 October 2026",
           "tag": "Latest verified approval",
-          "title": "Tucatinib + HER2 Maintenance",
-          "summary": "FDA maintenance approval 7 October 2026"
+          "title": "Atezolizumab + mFOLFOX6",
+          "summary": "FDA adjuvant approval · 8 Oct 2026"
         },
         {
-          "editionId": "2026-10-09",
-          "editionLabel": "9 October 2026",
+          "editionId": "2026-10-10",
+          "editionLabel": "10 October 2026",
           "tag": "Highest-impact treatment pool",
           "title": "Daraxonrasib for Metastatic PDAC",
           "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
         },
         {
+          "editionId": "2026-10-10",
+          "editionLabel": "10 October 2026",
+          "tag": "Peer-reviewed randomized Phase II; no PFS or OS benefit",
+          "title": "NRG-BR002 metastasis-directed ablation in oligometastatic breast cancer",
+          "summary": "Metastasis-directed ablation is increasingly used for oligometastatic disease despite limited breast-cancer-specific randomized evidence. This result argues against routine comprehensive ablation for otherwise unselected oligometastatic breast cancer when patients are already receiving effective systemic therapy."
+        },
+        {
           "editionId": "2026-10-09",
           "editionLabel": "9 October 2026",
           "tag": "Peer-reviewed Phase I/II; efficacy endpoint not met",
@@ -1246,15 +1263,15 @@
           "summary": "The negative result argues against assuming that preclinical PARP-CTLA-4 synergy translates into broad clinical benefit in recurrent BRCA-mutated ovarian cancer. It narrows the development case toward biomarker-selected research and makes the toxicity burden central to any future trial design."
         },
         {
-          "editionId": "2026-10-08",
-          "editionLabel": "8 October 2026",
+          "editionId": "2026-10-09",
+          "editionLabel": "9 October 2026",
           "tag": "Latest verified approval",
           "title": "Tucatinib + HER2 Maintenance",
           "summary": "FDA maintenance approval 7 October 2026"
         },
         {
-          "editionId": "2026-10-08",
-          "editionLabel": "8 October 2026",
+          "editionId": "2026-10-09",
+          "editionLabel": "9 October 2026",
           "tag": "Highest-impact treatment pool",
           "title": "Daraxonrasib for Metastatic PDAC",
           "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."

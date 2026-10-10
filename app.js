@@ -856,12 +856,13 @@ const asco2025Followup = [
   },
   {
     id: "atomic", program: "Atezolizumab + mFOLFOX6", trial: "ATOMIC", cancer: "Colon cancer",
-    company: "Genentech / Roche + NCI Alliance", status: "guideline", statusLabel: "Guideline signal",
+    company: "Genentech / Roche + NCI Alliance", status: "approved", statusLabel: "FDA approved",
     ascoSignal: "Three-year DFS 86.4% versus 76.6% in stage III dMMR colon cancer; HR 0.50.",
-    currentMilestone: "NCCN incorporation reported · Jun 2025",
-    assessment: "The regimen entered NCCN guidance rapidly, but no FDA approval for this adjuvant dMMR colon indication was identified as of 9 June 2026. Guideline use and regulatory labeling are therefore not equivalent.",
+    currentMilestone: "FDA adjuvant approval · 8 Oct 2026",
+    assessment: "FDA approved intravenous atezolizumab with fluoropyrimidine-oxaliplatin chemotherapy for adults and children aged 2 years or older with stage III dMMR colon cancer, and the subcutaneous hyaluronidase formulation for patients aged 12 years or older weighing at least 40 kg. The approval converts the earlier guideline signal into a US label while overall survival remains immature.",
     conferenceSource: "https://www.asco.org/about-asco/press-center/news-releases/large-national-cancer-institute-funded-trial-atezolizumab-chemotherapy",
-    currentSource: "https://ascopost.com/issues/july-25-2025/plenary-highlights-across-tumor-types-reflect-advances-in-research-improvements-in-care-and-changes-in-practice/"
+    currentSource: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-atezolizumab-combination-chemotherapy-stage-iii-mismatch-repair-deficient-colon-cancer",
+    secondarySource: "https://www.nejm.org/doi/full/10.1056/NEJMoa2507874"
   },
   {
     id: "nivopostop", program: "Postoperative nivolumab + chemoradiotherapy", trial: "NIVOPOSTOP", cancer: "Head and neck cancer",
@@ -951,11 +952,12 @@ const followupDetails = {
     evidenceDelta: "The ASCO/NEJM signal has now crossed into both EU authorization and US accelerated approval. FDA previously debated the pre-progression switch question at ODAC, so the label remains a conditional accelerated-approval milestone rather than final proof of survival or post-progression sequencing advantage.", adoption: "Requires serial ctDNA testing, validated ESR1 assay access, coordinated switching before radiographic progression, CDK4/6 partner selection, cardiac/QTc and visual-toxicity monitoring, and payer comfort with an earlier branded oral SERD step.", nextDecision: "FDA confirmatory requirements, mature survival/post-progression outcomes, reimbursement uptake, and any official India filing or launch announcement.", confidence: "High for the trial result and FDA/EU regulatory milestones; survival maturation and access remain unsettled."
   },
   atomic: {
-    presentation: "1 June 2025 · Plenary LBA1", design: "Randomized phase III", population: "Stage III dMMR colon cancer", comparator: "mFOLFOX6 alone",
-    endpoint: "Disease-free survival", effect: "Three-year DFS 86.4% vs 76.6%; HR 0.50; p<0.0001.",
-    safety: "Adds checkpoint-inhibitor immune toxicity to six months of oxaliplatin-based chemotherapy.",
-    us: "Reported incorporation into NCCN Colon Cancer v4.2025; no FDA label for this indication verified by 9 June 2026.", eu: "No verified regulatory authorization for this indication.", india: "Atezolizumab availability does not establish adjuvant dMMR colon approval; no exact CDSCO indication verified.",
-    evidenceDelta: "Rapid guideline movement, but no verified regimen-specific regulatory approval.", adoption: "Requires universal MMR testing, one year of treatment exposure and funding despite immature OS.", nextDecision: "Publication, OS maturation and regulatory filings.", confidence: "High for ASCO data; guideline statement reported by ASCO Post."
+    presentation: "1 June 2025 · Plenary LBA1", design: "International multicenter randomized open-label phase III", population: "712 patients after complete resection of stage III dMMR colon cancer: 711 adults and one pediatric patient; median age 64 years and 53.9% had T4, N2, or both high-risk features", comparator: "Atezolizumab plus 12 cycles of mFOLFOX6 followed by six months of atezolizumab monotherapy versus 12 cycles of mFOLFOX6 alone",
+    endpoint: "Investigator-assessed disease-free survival; overall survival and adverse events were secondary endpoints", effect: "At 40.9 months median follow-up, three-year DFS was 86.3% (95% CI 81.8-89.8) versus 76.2% (95% CI 70.9-80.6); HR 0.50 (95% CI 0.35-0.73), p<0.001. Median DFS was not reached in either arm; overall survival remained immature.",
+    safety: "Grade 3 or 4 adverse events occurred in 84.1% with atezolizumab plus mFOLFOX6 versus 71.9% with mFOLFOX6 alone. FDA labeling warns about immune-mediated adverse reactions, infusion reactions, allogeneic transplant complications, and embryo-fetal toxicity.",
+    cost: "One year of branded immunotherapy plus six months of fluoropyrimidine-oxaliplatin chemotherapy. No official US total-course price, India regimen price, reimbursement decision, procurement figure, or cost-effectiveness result for this exact adjuvant indication was reported or verified.",
+    us: "FDA approved intravenous atezolizumab with a fluoropyrimidine and oxaliplatin on 8 October 2026 for adults and pediatric patients aged 2 years or older with stage III dMMR colon cancer. FDA also approved atezolizumab-hyaluronidase for patients aged 12 years or older who weigh at least 40 kg.", eu: "No European Commission authorization for this exact adjuvant stage III dMMR colon indication was verified in this pass.", india: "Roche India lists Tecentriq as marketed for other oncology indications, but no CDSCO authorization, official India regimen price, reimbursement decision, procurement action, or announced India launch date was verified for adjuvant stage III dMMR colon cancer.",
+    evidenceDelta: "The ASCO 2025 DFS signal progressed through peer-reviewed publication and guideline incorporation to a US approval for both intravenous and eligible subcutaneous administration.", adoption: "Requires universal MMR testing, six months of combination therapy, a total year of atezolizumab exposure, management of additional immune and chemotherapy toxicity, and funding while overall survival remains immature.", nextDecision: "Overall-survival maturation, European and Indian regulatory decisions, guideline implementation, pediatric experience, reimbursement, and real-world treatment completion.", confidence: "High: randomized Phase III evidence, peer-reviewed publication, and FDA approval; overall survival, long-term toxicity, and non-US access remain unsettled.", verifiedThrough: "10 October 2026"
   },
   nivopostop: {
     presentation: "1 June 2025 · Plenary LBA2", design: "Randomized phase III", population: "High-risk resected locally advanced HNSCC", comparator: "Postoperative cisplatin-radiotherapy",
@@ -998,6 +1000,34 @@ const followupDetails = {
 asco2025Followup.forEach(item => Object.assign(item, followupDetails[item.id]));
 
 const watchlistSignals = [
+  {
+    id: "nrg-br002-oligometastatic-breast-2026",
+    title: "NRG-BR002 metastasis-directed ablation in oligometastatic breast cancer",
+    short: "NRG-BR002 randomized Phase II",
+    category: "Negative randomized local-therapy evidence",
+    status: "negative",
+    statusLabel: "Peer-reviewed randomized Phase II; no PFS or OS benefit",
+    geography: "United States and Canada; NRG Oncology multicenter trial",
+    date: "7 October 2026",
+    cancer: "Oligometastatic breast cancer with four or fewer extracranial metastases",
+    issue: "Journal of Clinical Oncology published the randomized Phase II portion of NRG-BR002, evaluating whether stereotactic body radiotherapy or surgical ablation of all known metastases improves outcomes when added to first-line systemic therapy for oligometastatic breast cancer.",
+    organization: "NRG Oncology; National Cancer Institute; US and Canadian investigators",
+    population: "The trial enrolled 129 patients and included 125 eligible patients. Median age was 54 years; 79% had hormone receptor-positive, HER2-negative disease, 60% had a solitary metastasis, 50% had bone involvement, and 37% had bone-only disease. Participants had controlled primary disease, four or fewer extracranial metastases, and no progression during up to 12 months of first-line systemic therapy.",
+    comparator: "First-line systemic therapy alone versus the same systemic therapy plus ablation of all visible metastases. Metastasis-directed treatment used stereotactic body radiotherapy in 93% and surgery in the remainder.",
+    endpoint: "The Phase II primary endpoint was progression-free survival; overall survival and toxicity were secondary endpoints. The trial required a prespecified PFS signal to proceed to Phase III.",
+    effect: "At 29.9 months median follow-up, median PFS was 23.0 months with systemic therapy alone versus 19.5 months with ablation, HR 0.92 (70% CI 0.71-1.17; 95% CI 0.57-1.47), one-sided p=0.36. OS did not differ, HR 1.07 (95% CI 0.60-1.89), one-sided p=0.41. The efficacy threshold was not met, so the trial did not proceed to Phase III. No grade 5 toxicities occurred.",
+    whyMatters: "Metastasis-directed ablation is increasingly used for oligometastatic disease despite limited breast-cancer-specific randomized evidence. This result argues against routine comprehensive ablation for otherwise unselected oligometastatic breast cancer when patients are already receiving effective systemic therapy.",
+    whoAffected: "People with newly diagnosed or recurrent oligometastatic breast cancer, breast oncologists, radiation oncologists, surgeons, multidisciplinary tumor boards, payers, and clinical-trial groups in settings where ablative local treatment is being considered.",
+    decisionImpact: "Supports reserving SBRT or surgery for palliation, local control, or clinical trials rather than expecting a PFS or OS gain from routine ablation of every metastasis. The exploratory low or absent circulating-tumor-cell subgroup is hypothesis generating and should not select treatment without prospective validation.",
+    evidenceStrength: "Moderate-to-high cautionary evidence: peer-reviewed randomized multicenter Phase II evidence with a concurrent control and survival endpoints, but a 125-patient selected population, wide confidence intervals, underrepresentation of HER2-positive and triple-negative disease, and no Phase III continuation.",
+    limitations: "The trial was powered as a randomized Phase II screening study rather than a definitive Phase III test; systemic therapy before and after enrollment was not protocol standardized; most participants had hormone receptor-positive, HER2-negative disease; molecular subgroups and metastatic sites were small; imaging and local-therapy techniques evolved during the enrollment period; and the circulating-tumor-cell analysis was exploratory.",
+    indiaImpact: "SBRT and metastasis-directed surgery are available in India, but no India trial cohort, India-specific effectiveness analysis, official procedure bundle price, reimbursement decision, procurement action, or national implementation guidance tied to NRG-BR002 was verified.",
+    cost: "Not reported. No official procedure cost, total-care cost, India price, reimbursement decision, procurement figure, or cost-effectiveness analysis was reported or verified.",
+    nextMilestone: "Prospective biomarker-selected trials, longer follow-up, disease-subtype-specific randomized evidence, quality-of-life and symptom-control analyses, cost-effectiveness studies, and guideline reassessment of routine metastasis-directed ablation.",
+    verification: "Verified from the 7 October 2026 peer-reviewed Journal of Clinical Oncology report and cross-checked against ClinicalTrials.gov NCT02364557. The negative PFS and OS findings are treated as practice-relevant evidence; the exploratory circulating-tumor-cell subgroup is not presented as validated.",
+    source: "https://ascopubs.org/doi/10.1200/JCO-26-00201",
+    secondarySource: "https://clinicaltrials.gov/study/NCT02364557"
+  },
   {
     id: "olaparib-tremelimumab-brca-ovarian-2026",
     title: "Olaparib plus tremelimumab in recurrent germline BRCA ovarian cancer",
@@ -2385,6 +2415,8 @@ function formatImpactClass(group) {
 }
 
 const portfolioAliasRules = [
+  { match: /nrg-br002|metastasis-directed ablation.*breast|nct02364557/i, aliases: ["NRG-BR002", "NCT02364557", "SBRT", "oligometastatic breast cancer", "metastasis-directed therapy"] },
+  { match: /atomic|atezolizumab.*mfolfox6|nct02912559/i, aliases: ["ATOMIC", "NCT02912559", "Tecentriq", "Tecentriq Hybreza", "dMMR", "MSI-H", "colon cancer"] },
   { match: /olaparib.*tremelimumab|tremelimumab.*olaparib|nct02571725|germline brca.*ovarian/i, aliases: ["Olaparib", "Tremelimumab", "NCT02571725", "BRCA1", "BRCA2", "ovarian cancer", "negative trial"] },
   { match: /disitamab.*tislelizumab|tislelizumab.*disitamab|nct05495724|erbb2-positive.*nmibc/i, aliases: ["Disitamab vedotin", "Tislelizumab", "NCT05495724", "ERBB2", "HER2", "NMIBC", "bladder preservation"] },
   { match: /nivolumab/i, aliases: ["Opdivo"] },
@@ -2509,7 +2541,7 @@ function buildPortfolioEntries() {
       headline: item.effect,
       statusLabel: item.statusLabel,
       badges: [item.statusLabel, item.cancer],
-      searchText: buildSearchText(item.program, item.trial, item.cancer, item.company, item.statusLabel, item.ascoSignal, item.currentMilestone, item.effect, item.assessment, item.safety),
+      searchText: buildSearchText(item.program, item.trial, item.cancer, item.company, item.statusLabel, item.ascoSignal, item.currentMilestone, item.effect, item.assessment, item.safety, item.cost),
       route: { view: "followup", kind: "followup", id: item.id, label: "Open follow-up dossier" },
       sourceLinks: [
         { label: "ASCO-era evidence", url: item.conferenceSource },
@@ -2525,6 +2557,7 @@ function buildPortfolioEntries() {
         ["What changed after ASCO", item.evidenceDelta, "wide"],
         ["Regional status", `US: ${item.us} Europe: ${item.eu} India: ${item.india}`, "full"],
         ["Safety and burden", item.safety, "wide"],
+        ["Cost / procurement", item.cost || "Not reported or verified"],
         ["Next verifiable decision point", item.nextDecision],
         ["Evidence confidence", item.confidence]
       ]
@@ -2779,7 +2812,8 @@ function parseDashboardDate(dateValue) {
 
   const writtenMatch = String(dateValue).match(/^(\d{1,2}) ([A-Za-z]+) (\d{4})$/);
   if (writtenMatch) {
-    const month = MONTH_NAMES.findIndex(name => name.toLowerCase() === writtenMatch[2].toLowerCase());
+    const writtenMonth = writtenMatch[2].toLowerCase();
+    const month = MONTH_NAMES.findIndex(name => name.toLowerCase().startsWith(writtenMonth));
     if (month >= 0) return new Date(Date.UTC(Number(writtenMatch[3]), month, Number(writtenMatch[1])));
   }
 
@@ -3126,18 +3160,23 @@ function renderInsights() {
   const routeApproval = currentDetail?.routeSummary?.approval || null;
   const featuredHeadline = currentDetail?.headlines?.[0] || null;
   const featuredWatchlist = watchlistSignals.find(item => item.title === featuredHeadline?.title) || null;
+  const featuredFollowup = asco2025Followup.find(item => item.program === featuredHeadline?.title) || null;
   const featuredRoute = featuredWatchlist ? {
     view: "watchlist",
     kind: "watchlist",
     targetId: featuredWatchlist.id
+  } : featuredFollowup ? {
+    view: "followup",
+    kind: "followup",
+    targetId: featuredFollowup.id
   } : routeApproval?.route || {
     view: "treatments",
     kind: "detail",
     targetId: newestTreatmentApproval?.id || "tucatinib"
   };
   const featuredTreatment = treatments.find(item => item.id === featuredRoute.targetId) || newestTreatmentApproval || treatments[0];
-  const featuredLabel = featuredWatchlist?.title || routeApproval?.title || featuredTreatment.name;
-  const featuredNote = featuredWatchlist?.statusLabel || routeApproval?.subtitle || featuredTreatment.launch;
+  const featuredLabel = featuredWatchlist?.title || featuredFollowup?.program || routeApproval?.title || featuredTreatment.name;
+  const featuredNote = featuredWatchlist?.statusLabel || featuredFollowup?.currentMilestone || routeApproval?.subtitle || featuredTreatment.launch;
   const approvedCount = asco2025Followup.filter(item => item.status === "approved").length;
   const pendingPrimaryCount = watchlistSignals.filter(item => item.verification.includes("pending")).length;
   const availableCount = treatments.filter(item => item.indiaStatus === "available").length;
@@ -3184,10 +3223,12 @@ function renderInsights() {
   const regulatoryLead = asco2025Followup.find(item => item.id === "camizestrant");
   const cautionLead = watchlistSignals.find(item => item.id === "galleri");
   const systemsLead = watchlistSignals.find(item => item.id === "workforce");
-  const featuredWhy = featuredWatchlist?.whyMatters || featuredTreatment.benefit;
-  const featuredConstraint = featuredWatchlist?.limitations || featuredTreatment.indiaCaveat || featuredTreatment.limitations;
-  const featuredSignal = featuredWatchlist?.effect || `${featuredTreatment.headline} · ${featuredTreatment.headlineNote}`;
-  const featuredDate = featuredWatchlist?.date || featuredTreatment.eventDate;
+  const featuredWhy = featuredWatchlist?.whyMatters || featuredFollowup?.assessment || featuredTreatment.benefit;
+  const featuredConstraint = featuredWatchlist?.limitations || featuredFollowup?.adoption || featuredFollowup?.nextDecision || featuredTreatment.indiaCaveat || featuredTreatment.limitations;
+  const featuredSignal = featuredWatchlist?.effect || featuredFollowup?.effect || `${featuredTreatment.headline} · ${featuredTreatment.headlineNote}`;
+  const featuredDate = featuredWatchlist?.date
+    || featuredFollowup?.currentMilestone.split("·").pop()?.trim()
+    || featuredTreatment.eventDate;
 
   const cards = [
     {
@@ -3198,7 +3239,7 @@ function renderInsights() {
       signal: featuredSignal,
       why: featuredWhy,
       constraint: featuredConstraint,
-      confidence: featuredWatchlist?.evidenceStrength || featuredTreatment.impact,
+      confidence: featuredWatchlist?.evidenceStrength || featuredFollowup?.confidence || featuredTreatment.impact,
       route: "Open dossier",
       view: featuredRoute.view,
       kind: featuredRoute.kind,
@@ -3381,7 +3422,7 @@ function renderInsights() {
     <button class="briefing-feature-button" type="button" data-insight-view="${featuredRoute.view}" data-insight-kind="${featuredRoute.kind}" ${featuredRoute.targetId ? `data-insight-id="${featuredRoute.targetId}"` : ""}>
       <span class="briefing-feature-eyebrow">${featuredHeadline?.tag || "Newest verified move"}</span>
       <h3>${featuredLabel}</h3>
-      <p>${featuredHeadline?.summary || featuredTreatment.benefit}</p>
+      <p>${featuredHeadline?.summary || featuredWhy}</p>
       <div class="briefing-feature-grid">
         <div>
           <span>Why it matters now</span>
@@ -3695,6 +3736,7 @@ function openFollowupDetail(id) {
         ${dossierField("Primary endpoint", item.endpoint)}
         ${dossierField("Measured effect", item.effect, "wide")}
         ${dossierField("Safety and burden", item.safety, "full")}
+        ${dossierField("Cost / procurement", item.cost)}
         ${dossierField("What changed after ASCO", item.evidenceDelta, "wide")}
         ${dossierField("Evidence confidence", item.confidence)}
         ${dossierField("Adoption and commercialization constraint", item.adoption, "wide")}
@@ -3718,9 +3760,9 @@ function dossierField(label, value, extra = "") {
 
 function renderFollowupLessons() {
   const lessons = [
-    ["01", "Six programs reached FDA approval; camizestrant reached EU and US accelerated approval", "KEYNOTE-689, MATTERHORN, DESTINY-Breast09, ASCENT-04, C-POST and AMPLITUDE moved from ASCO evidence to regimen-specific US authorization, while camizestrant reached EU authorization and a US accelerated approval."],
+    ["01", "Seven programs reached FDA approval; camizestrant reached EU and US accelerated approval", "KEYNOTE-689, MATTERHORN, DESTINY-Breast09, ASCENT-04, C-POST, AMPLITUDE and ATOMIC moved from ASCO evidence to regimen-specific US authorization, while camizestrant reached EU authorization and a US accelerated approval."],
     ["02", "Regulators can diverge", "Camizestrant received a positive EU committee opinion while the US review questioned the clinical meaning of switching before imaging progression."],
-    ["03", "Guidelines may precede labels", "ATOMIC influenced NCCN guidance, but a guideline recommendation does not itself create an FDA-approved indication."],
+    ["03", "Guidelines can precede labels", "ATOMIC influenced NCCN guidance before FDA approved the adjuvant dMMR colon regimen in October 2026, illustrating why guideline and regulatory status must be tracked separately over time."],
     ["04", "Maturation can become approval", "ASCENT-04 advanced from conference signal to NEJM publication and then FDA approval; NIVOPOSTOP produced additional analyses without a verified new label."],
     ["05", "Submission is not approval", "Rusfertide reached priority review, but remains investigational until the regulator issues a decision."]
   ];

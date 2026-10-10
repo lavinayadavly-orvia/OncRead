@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-09
+Updated: 2026-10-10
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-10-10 review upgraded the existing ATOMIC follow-up record from guideline signal to FDA approval for adjuvant atezolizumab plus fluoropyrimidine-oxaliplatin chemotherapy in stage III dMMR colon cancer. FDA's approval notice, the peer-reviewed New England Journal of Medicine report, ClinicalTrials.gov NCT02912559, Genentech's approval release, and Roche India's current product-information surface were used to separate the US label from immature overall survival and unverified indication-specific India access. The review also added the peer-reviewed NRG-BR002 negative randomized record, cross-checked against NCT02364557, and retained its no-PFS/no-OS result, selected population, exploratory circulating-tumor-cell subgroup, and non-routine-use conclusion.
 - The 2026-10-09 review added two peer-reviewed investigational watchlist records published on 8 October: the negative olaparib-tremelimumab Phase I/II study in recurrent germline BRCA1/2-mutated ovarian cancer and the single-arm disitamab-vedotin plus tislelizumab Phase II signal in transurethrally unresectable ERBB2-positive very high-risk NMIBC. The ovarian record retains the missed prespecified efficacy endpoint and high-grade toxicity; the bladder record retains its 28-person, single-center, noncomparative limits. ClinicalTrials.gov records NCT02571725 and NCT05495724 were used as registry cross-checks. Neither regimen is represented as approved, comparative, or available in India.
 - The 2026-10-08 catch-up review upgraded the existing tucatinib dossier after FDA approved tucatinib with trastuzumab and pertuzumab as maintenance following induction therapy for unresectable locally advanced or metastatic HER2-positive breast cancer. It also added the FDA's 2 October first-line pirtobrutinib approval for CLL/SLL without a known 17p deletion, which had been missed by the prior edition reviews. Both records preserve immature overall-survival evidence, label safety warnings, comparator limits, and unverified India indication-specific access. The reusable treatment detail modal now exposes existing structured trial fields and supporting-source links directly.
 - The 2026-10-06 review added the press-release-only Phase III EPCORE DLBCL-2 frontline epcoritamab plus R-CHOP signal. Both reported PFS hazard ratios are retained while absent absolute PFS, follow-up, survival, response, quality-of-life, subgroup, and numerical safety details remain explicitly unavailable.
@@ -1860,7 +1861,11 @@ Updated: 2026-10-09
 - SERENA-6 additional verification: https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-30-2026-meeting-oncologic-drugs-advisory-committee-meeting-announcement-04302026
 
 - ATOMIC conference: https://www.asco.org/about-asco/press-center/news-releases/large-national-cancer-institute-funded-trial-atezolizumab-chemotherapy
-- ATOMIC current status: https://ascopost.com/issues/july-25-2025/plenary-highlights-across-tumor-types-reflect-advances-in-research-improvements-in-care-and-changes-in-practice/
+- ATOMIC FDA approval: https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-atezolizumab-combination-chemotherapy-stage-iii-mismatch-repair-deficient-colon-cancer
+- ATOMIC peer-reviewed Phase III report: https://www.nejm.org/doi/full/10.1056/NEJMoa2507874
+- ATOMIC registry: https://clinicaltrials.gov/study/NCT02912559
+- ATOMIC sponsor confirmation: https://www.gene.com/media/press-releases/15135/2026-10-08/fda-approves-genentechs-tecentriq-in-com
+- Roche India oncology portfolio: https://www.rocheindia.com/solutions/focus-areas/oncology
 
 - NIVOPOSTOP conference: https://ascopost.com/issues/july-25-2025/plenary-highlights-across-tumor-types-reflect-advances-in-research-improvements-in-care-and-changes-in-practice/
 - NIVOPOSTOP current status: https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.6001
@@ -1879,6 +1884,11 @@ Updated: 2026-10-09
 - CAN-2409 current status: https://ir.candeltx.com/news-releases/news-release-details/candel-therapeutics-presents-positive-phase-3-can-2409-results
 
 ## Watchlist & Systems
+
+- NRG-BR002 metastasis-directed ablation in oligometastatic breast cancer
+  Peer-reviewed randomized Phase II with no PFS or OS benefit; exploratory circulating-tumor-cell subgroup findings are hypothesis-generating only.
+  Primary source: https://ascopubs.org/doi/10.1200/JCO-26-00201
+  Registry: https://clinicaltrials.gov/study/NCT02364557
 
 - OPTIMA genomic de-escalation
   Conference-only; direct abstract capture pending in this pass.

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T00:50:12.465Z",
+  "generatedAt": "2026-10-10T00:51:20.675Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -3146,6 +3146,10 @@
           "wide"
         ],
         [
+          "Cost / procurement",
+          "Not reported or verified"
+        ],
+        [
           "Next verifiable decision point",
           "Regional approvals, reimbursement and real-world uptake."
         ],
@@ -3224,6 +3228,10 @@
           "Safety and burden",
           "T-DXd carries boxed warning for interstitial lung disease/pneumonitis; nausea, marrow toxicity and cardiac monitoring remain relevant.",
           "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not reported or verified"
         ],
         [
           "Next verifiable decision point",
@@ -3306,6 +3314,10 @@
           "wide"
         ],
         [
+          "Cost / procurement",
+          "Not reported or verified"
+        ],
+        [
           "Next verifiable decision point",
           "Long-term efficacy, regional approvals and implementation outside trial centers."
         ],
@@ -3384,6 +3396,10 @@
           "Safety and burden",
           "Weekly self-injection; generally tolerated in trials. Full approved-label safety is unavailable because the product remains investigational.",
           "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not reported or verified"
         ],
         [
           "Next verifiable decision point",
@@ -3470,6 +3486,10 @@
           "wide"
         ],
         [
+          "Cost / procurement",
+          "Not reported or verified"
+        ],
+        [
           "Next verifiable decision point",
           "FDA confirmatory requirements, mature survival/post-progression outcomes, reimbursement uptake, and any official India filing or launch announcement."
         ],
@@ -3487,15 +3507,15 @@
       "title": "Atezolizumab + mFOLFOX6",
       "subtitle": "ATOMIC · Colon cancer",
       "organization": "Genentech / Roche + NCI Alliance",
-      "snapshot": "NCCN incorporation reported · Jun 2025",
-      "summary": "The regimen entered NCCN guidance rapidly, but no FDA approval for this adjuvant dMMR colon indication was identified as of 9 June 2026. Guideline use and regulatory labeling are therefore not equivalent.",
-      "headline": "Three-year DFS 86.4% vs 76.6%; HR 0.50; p<0.0001.",
-      "statusLabel": "Guideline signal",
+      "snapshot": "FDA adjuvant approval · 8 Oct 2026",
+      "summary": "FDA approved intravenous atezolizumab with fluoropyrimidine-oxaliplatin chemotherapy for adults and children aged 2 years or older with stage III dMMR colon cancer, and the subcutaneous hyaluronidase formulation for patients aged 12 years or older weighing at least 40 kg. The approval converts the earlier guideline signal into a US label while overall survival remains immature.",
+      "headline": "At 40.9 months median follow-up, three-year DFS was 86.3% (95% CI 81.8-89.8) versus 76.2% (95% CI 70.9-80.6); HR 0.50 (95% CI 0.35-0.73), p<0.001. Median DFS was not reached in either arm; overall survival remained immature.",
+      "statusLabel": "FDA approved",
       "badges": [
-        "Guideline signal",
+        "FDA approved",
         "Colon cancer"
       ],
-      "searchText": "atezolizumab + mfolfox6 atomic colon cancer genentech / roche + nci alliance guideline signal three-year dfs 86.4% versus 76.6% in stage iii dmmr colon cancer; hr 0.50. nccn incorporation reported · jun 2025 three-year dfs 86.4% vs 76.6%; hr 0.50; p<0.0001. the regimen entered nccn guidance rapidly, but no fda approval for this adjuvant dmmr colon indication was identified as of 9 june 2026. guideline use and regulatory labeling are therefore not equivalent. adds checkpoint-inhibitor immune toxicity to six months of oxaliplatin-based chemotherapy. tecentriq",
+      "searchText": "atezolizumab + mfolfox6 atomic colon cancer genentech / roche + nci alliance fda approved three-year dfs 86.4% versus 76.6% in stage iii dmmr colon cancer; hr 0.50. fda adjuvant approval · 8 oct 2026 at 40.9 months median follow-up, three-year dfs was 86.3% (95% ci 81.8-89.8) versus 76.2% (95% ci 70.9-80.6); hr 0.50 (95% ci 0.35-0.73), p<0.001. median dfs was not reached in either arm; overall survival remained immature. fda approved intravenous atezolizumab with fluoropyrimidine-oxaliplatin chemotherapy for adults and children aged 2 years or older with stage iii dmmr colon cancer, and the subcutaneous hyaluronidase formulation for patients aged 12 years or older weighing at least 40 kg. the approval converts the earlier guideline signal into a us label while overall survival remains immature. grade 3 or 4 adverse events occurred in 84.1% with atezolizumab plus mfolfox6 versus 71.9% with mfolfox6 alone. fda labeling warns about immune-mediated adverse reactions, infusion reactions, allogeneic transplant complications, and embryo-fetal toxicity. one year of branded immunotherapy plus six months of fluoropyrimidine-oxaliplatin chemotherapy. no official us total-course price, india regimen price, reimbursement decision, procurement figure, or cost-effectiveness result for this exact adjuvant indication was reported or verified. atomic nct02912559 tecentriq tecentriq hybreza dmmr msi-h colon cancer tecentriq",
       "route": {
         "view": "followup",
         "kind": "followup",
@@ -3509,53 +3529,61 @@
         },
         {
           "label": "Current-status source",
-          "url": "https://ascopost.com/issues/july-25-2025/plenary-highlights-across-tumor-types-reflect-advances-in-research-improvements-in-care-and-changes-in-practice/"
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-atezolizumab-combination-chemotherapy-stage-iii-mismatch-repair-deficient-colon-cancer"
+        },
+        {
+          "label": "Additional verification",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2507874"
         }
       ],
       "sections": [
         [
           "Trial design",
-          "Randomized phase III"
+          "International multicenter randomized open-label phase III"
         ],
         [
           "Population / sample",
-          "Stage III dMMR colon cancer"
+          "712 patients after complete resection of stage III dMMR colon cancer: 711 adults and one pediatric patient; median age 64 years and 53.9% had T4, N2, or both high-risk features"
         ],
         [
           "Comparator",
-          "mFOLFOX6 alone"
+          "Atezolizumab plus 12 cycles of mFOLFOX6 followed by six months of atezolizumab monotherapy versus 12 cycles of mFOLFOX6 alone"
         ],
         [
           "Measured effect",
-          "Three-year DFS 86.4% vs 76.6%; HR 0.50; p<0.0001.",
+          "At 40.9 months median follow-up, three-year DFS was 86.3% (95% CI 81.8-89.8) versus 76.2% (95% CI 70.9-80.6); HR 0.50 (95% CI 0.35-0.73), p<0.001. Median DFS was not reached in either arm; overall survival remained immature.",
           "wide"
         ],
         [
           "Current milestone",
-          "NCCN incorporation reported · Jun 2025"
+          "FDA adjuvant approval · 8 Oct 2026"
         ],
         [
           "What changed after ASCO",
-          "Rapid guideline movement, but no verified regimen-specific regulatory approval.",
+          "The ASCO 2025 DFS signal progressed through peer-reviewed publication and guideline incorporation to a US approval for both intravenous and eligible subcutaneous administration.",
           "wide"
         ],
         [
           "Regional status",
-          "US: Reported incorporation into NCCN Colon Cancer v4.2025; no FDA label for this indication verified by 9 June 2026. Europe: No verified regulatory authorization for this indication. India: Atezolizumab availability does not establish adjuvant dMMR colon approval; no exact CDSCO indication verified.",
+          "US: FDA approved intravenous atezolizumab with a fluoropyrimidine and oxaliplatin on 8 October 2026 for adults and pediatric patients aged 2 years or older with stage III dMMR colon cancer. FDA also approved atezolizumab-hyaluronidase for patients aged 12 years or older who weigh at least 40 kg. Europe: No European Commission authorization for this exact adjuvant stage III dMMR colon indication was verified in this pass. India: Roche India lists Tecentriq as marketed for other oncology indications, but no CDSCO authorization, official India regimen price, reimbursement decision, procurement action, or announced India launch date was verified for adjuvant stage III dMMR colon cancer.",
           "full"
         ],
         [
           "Safety and burden",
-          "Adds checkpoint-inhibitor immune toxicity to six months of oxaliplatin-based chemotherapy.",
+          "Grade 3 or 4 adverse events occurred in 84.1% with atezolizumab plus mFOLFOX6 versus 71.9% with mFOLFOX6 alone. FDA labeling warns about immune-mediated adverse reactions, infusion reactions, allogeneic transplant complications, and embryo-fetal toxicity.",
           "wide"
         ],
         [
+          "Cost / procurement",
+          "One year of branded immunotherapy plus six months of fluoropyrimidine-oxaliplatin chemotherapy. No official US total-course price, India regimen price, reimbursement decision, procurement figure, or cost-effectiveness result for this exact adjuvant indication was reported or verified."
+        ],
+        [
           "Next verifiable decision point",
-          "Publication, OS maturation and regulatory filings."
+          "Overall-survival maturation, European and Indian regulatory decisions, guideline implementation, pediatric experience, reimbursement, and real-world treatment completion."
         ],
         [
           "Evidence confidence",
-          "High for ASCO data; guideline statement reported by ASCO Post."
+          "High: randomized Phase III evidence, peer-reviewed publication, and FDA approval; overall survival, long-term toxicity, and non-US access remain unsettled."
         ]
       ]
     },
@@ -3628,6 +3656,10 @@
           "Safety and burden",
           "Adds concurrent and maintenance nivolumab to an already toxic postoperative chemoradiotherapy pathway.",
           "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not reported or verified"
         ],
         [
           "Next verifiable decision point",
@@ -3714,6 +3746,10 @@
           "wide"
         ],
         [
+          "Cost / procurement",
+          "Not reported or verified"
+        ],
+        [
           "Next verifiable decision point",
           "Regional approvals, reimbursement decisions and any official India filing or launch announcement."
         ],
@@ -3792,6 +3828,10 @@
           "Safety and burden",
           "Immune-mediated adverse reactions, infusion reactions and transplant-related precautions apply.",
           "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not reported or verified"
         ],
         [
           "Next verifiable decision point",
@@ -3874,6 +3914,10 @@
           "wide"
         ],
         [
+          "Cost / procurement",
+          "Not reported or verified"
+        ],
+        [
           "Next verifiable decision point",
           "OS maturation, regional approvals and testing uptake."
         ],
@@ -3954,6 +3998,10 @@
           "wide"
         ],
         [
+          "Cost / procurement",
+          "Not reported or verified"
+        ],
+        [
           "Next verifiable decision point",
           "Whether the planned Q4 2026 BLA is submitted and accepted."
         ],
@@ -3964,10 +4012,106 @@
       ]
     },
     {
-      "id": "watchlist:olaparib-tremelimumab-brca-ovarian-2026",
+      "id": "watchlist:nrg-br002-oligometastatic-breast-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
       "order": 41,
+      "title": "NRG-BR002 metastasis-directed ablation in oligometastatic breast cancer",
+      "subtitle": "Negative randomized local-therapy evidence · Oligometastatic breast cancer with four or fewer extracranial metastases · United States and Canada; NRG Oncology multicenter trial",
+      "organization": "NRG Oncology; National Cancer Institute; US and Canadian investigators",
+      "snapshot": "Peer-reviewed randomized Phase II; no PFS or OS benefit · 7 October 2026",
+      "summary": "Metastasis-directed ablation is increasingly used for oligometastatic disease despite limited breast-cancer-specific randomized evidence. This result argues against routine comprehensive ablation for otherwise unselected oligometastatic breast cancer when patients are already receiving effective systemic therapy.",
+      "headline": "At 29.9 months median follow-up, median PFS was 23.0 months with systemic therapy alone versus 19.5 months with ablation, HR 0.92 (70% CI 0.71-1.17; 95% CI 0.57-1.47), one-sided p=0.36. OS did not differ, HR 1.07 (95% CI 0.60-1.89), one-sided p=0.41. The efficacy threshold was not met, so the trial did not proceed to Phase III. No grade 5 toxicities occurred.",
+      "statusLabel": "Peer-reviewed randomized Phase II; no PFS or OS benefit",
+      "badges": [
+        "Peer-reviewed randomized Phase II; no PFS or OS benefit",
+        "Negative randomized local-therapy evidence",
+        "United States and Canada; NRG Oncology multicenter trial"
+      ],
+      "searchText": "nrg-br002 metastasis-directed ablation in oligometastatic breast cancer nrg-br002 randomized phase ii negative randomized local-therapy evidence oligometastatic breast cancer with four or fewer extracranial metastases united states and canada; nrg oncology multicenter trial nrg oncology; national cancer institute; us and canadian investigators journal of clinical oncology published the randomized phase ii portion of nrg-br002, evaluating whether stereotactic body radiotherapy or surgical ablation of all known metastases improves outcomes when added to first-line systemic therapy for oligometastatic breast cancer. at 29.9 months median follow-up, median pfs was 23.0 months with systemic therapy alone versus 19.5 months with ablation, hr 0.92 (70% ci 0.71-1.17; 95% ci 0.57-1.47), one-sided p=0.36. os did not differ, hr 1.07 (95% ci 0.60-1.89), one-sided p=0.41. the efficacy threshold was not met, so the trial did not proceed to phase iii. no grade 5 toxicities occurred. supports reserving sbrt or surgery for palliation, local control, or clinical trials rather than expecting a pfs or os gain from routine ablation of every metastasis. the exploratory low or absent circulating-tumor-cell subgroup is hypothesis generating and should not select treatment without prospective validation. metastasis-directed ablation is increasingly used for oligometastatic disease despite limited breast-cancer-specific randomized evidence. this result argues against routine comprehensive ablation for otherwise unselected oligometastatic breast cancer when patients are already receiving effective systemic therapy. nrg-br002 nct02364557 sbrt oligometastatic breast cancer metastasis-directed therapy",
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "id": "nrg-br002-oligometastatic-breast-2026",
+        "label": "Open watchlist dossier"
+      },
+      "sourceLinks": [
+        {
+          "label": "Source",
+          "url": "https://ascopubs.org/doi/10.1200/JCO-26-00201"
+        },
+        {
+          "label": "Secondary check",
+          "url": "https://clinicaltrials.gov/study/NCT02364557"
+        }
+      ],
+      "sections": [
+        [
+          "Issue",
+          "Journal of Clinical Oncology published the randomized Phase II portion of NRG-BR002, evaluating whether stereotactic body radiotherapy or surgical ablation of all known metastases improves outcomes when added to first-line systemic therapy for oligometastatic breast cancer."
+        ],
+        [
+          "Population / sample",
+          "The trial enrolled 129 patients and included 125 eligible patients. Median age was 54 years; 79% had hormone receptor-positive, HER2-negative disease, 60% had a solitary metastasis, 50% had bone involvement, and 37% had bone-only disease. Participants had controlled primary disease, four or fewer extracranial metastases, and no progression during up to 12 months of first-line systemic therapy."
+        ],
+        [
+          "Comparator",
+          "First-line systemic therapy alone versus the same systemic therapy plus ablation of all visible metastases. Metastasis-directed treatment used stereotactic body radiotherapy in 93% and surgery in the remainder."
+        ],
+        [
+          "Observed effect",
+          "At 29.9 months median follow-up, median PFS was 23.0 months with systemic therapy alone versus 19.5 months with ablation, HR 0.92 (70% CI 0.71-1.17; 95% CI 0.57-1.47), one-sided p=0.36. OS did not differ, HR 1.07 (95% CI 0.60-1.89), one-sided p=0.41. The efficacy threshold was not met, so the trial did not proceed to Phase III. No grade 5 toxicities occurred.",
+          "wide"
+        ],
+        [
+          "Why it matters to care",
+          "Metastasis-directed ablation is increasingly used for oligometastatic disease despite limited breast-cancer-specific randomized evidence. This result argues against routine comprehensive ablation for otherwise unselected oligometastatic breast cancer when patients are already receiving effective systemic therapy.",
+          "wide"
+        ],
+        [
+          "Who and where it affects",
+          "People with newly diagnosed or recurrent oligometastatic breast cancer, breast oncologists, radiation oncologists, surgeons, multidisciplinary tumor boards, payers, and clinical-trial groups in settings where ablative local treatment is being considered.",
+          "wide"
+        ],
+        [
+          "What decision could change",
+          "Supports reserving SBRT or surgery for palliation, local control, or clinical trials rather than expecting a PFS or OS gain from routine ablation of every metastasis. The exploratory low or absent circulating-tumor-cell subgroup is hypothesis generating and should not select treatment without prospective validation.",
+          "wide"
+        ],
+        [
+          "Evidence strength",
+          "Moderate-to-high cautionary evidence: peer-reviewed randomized multicenter Phase II evidence with a concurrent control and survival endpoints, but a 125-patient selected population, wide confidence intervals, underrepresentation of HER2-positive and triple-negative disease, and no Phase III continuation."
+        ],
+        [
+          "India relevance",
+          "SBRT and metastasis-directed surgery are available in India, but no India trial cohort, India-specific effectiveness analysis, official procedure bundle price, reimbursement decision, procurement action, or national implementation guidance tied to NRG-BR002 was verified.",
+          "wide"
+        ],
+        [
+          "Cost / procurement",
+          "Not reported. No official procedure cost, total-care cost, India price, reimbursement decision, procurement figure, or cost-effectiveness analysis was reported or verified."
+        ],
+        [
+          "Current limitation",
+          "The trial was powered as a randomized Phase II screening study rather than a definitive Phase III test; systemic therapy before and after enrollment was not protocol standardized; most participants had hormone receptor-positive, HER2-negative disease; molecular subgroups and metastatic sites were small; imaging and local-therapy techniques evolved during the enrollment period; and the circulating-tumor-cell analysis was exploratory.",
+          "wide"
+        ],
+        [
+          "Next verification milestone",
+          "Prospective biomarker-selected trials, longer follow-up, disease-subtype-specific randomized evidence, quality-of-life and symptom-control analyses, cost-effectiveness studies, and guideline reassessment of routine metastasis-directed ablation."
+        ],
+        [
+          "Verification note",
+          "Verified from the 7 October 2026 peer-reviewed Journal of Clinical Oncology report and cross-checked against ClinicalTrials.gov NCT02364557. The negative PFS and OS findings are treated as practice-relevant evidence; the exploratory circulating-tumor-cell subgroup is not presented as validated.",
+          "full"
+        ]
+      ]
+    },
+    {
+      "id": "watchlist:olaparib-tremelimumab-brca-ovarian-2026",
+      "lane": "watchlist",
+      "laneLabel": "Watchlist & systems",
+      "order": 42,
       "title": "Olaparib plus tremelimumab in recurrent germline BRCA ovarian cancer",
       "subtitle": "Investigational therapy / negative trial · Recurrent epithelial ovarian, fallopian-tube, or primary-peritoneal cancer with a germline BRCA1 or BRCA2 mutation · United States; multisite single-arm study",
       "organization": "University of New Mexico-led investigators; National Cancer Institute; AstraZeneca",
@@ -4063,7 +4207,7 @@
       "id": "watchlist:disitamab-tislelizumab-nmibc-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 42,
+      "order": 43,
       "title": "Disitamab vedotin plus tislelizumab in unresectable ERBB2-positive NMIBC",
       "subtitle": "Investigational therapy / bladder preservation · Transurethrally unresectable ERBB2-positive very high-risk non-muscle-invasive bladder cancer · China; single academic hospital",
       "organization": "Tianjin Medical University investigators",
@@ -4159,7 +4303,7 @@
       "id": "watchlist:epcore-dlbcl-2-epcoritamab-rchop-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 43,
+      "order": 44,
       "title": "EPCORE DLBCL-2 epcoritamab plus R-CHOP frontline topline",
       "subtitle": "Investigational therapy / bispecific antibody · Newly diagnosed diffuse large B-cell lymphoma and related large B-cell lymphomas; IPI score 2-5 · Global open-label multicenter trial",
       "organization": "AbbVie; Genmab; EPCORE DLBCL-2 investigators",
@@ -4255,7 +4399,7 @@
       "id": "watchlist:rainfol-01-rina-s-ovarian-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 44,
+      "order": 45,
       "title": "RAINFOL-01 rinatabart sesutecan in platinum-resistant ovarian cancer",
       "subtitle": "Investigational therapy / antibody-drug conjugate · Platinum-resistant high-grade serous ovarian, primary peritoneal, or fallopian-tube cancer · Multicenter study; results presented at IGCS 2026 in Montreal, Canada",
       "organization": "Genmab; RAINFOL-01 investigators; International Gynecologic Cancer Society",
@@ -4351,7 +4495,7 @@
       "id": "watchlist:urare-seq-bladder-cancer-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 45,
+      "order": 46,
       "title": "uRARE-seq urine cell-free RNA for bladder cancer",
       "subtitle": "Diagnostics / treatment-response prediction · Localized bladder cancer; exploratory genitourinary-cancer cohorts · United States; Stanford Medicine and VA Palo Alto-led study",
       "organization": "Stanford Medicine; VA Palo Alto Health Care System; Resero Bio; Nature Medicine",
@@ -4447,7 +4591,7 @@
       "id": "watchlist:virage-vcn01-pancreatic-cancer-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 46,
+      "order": 47,
       "title": "VIRAGE VCN-01 plus chemotherapy in metastatic pancreatic cancer",
       "subtitle": "Investigational therapy / oncolytic virus · Newly diagnosed metastatic pancreatic ductal adenocarcinoma · United States and Spain; 14-center trial",
       "organization": "Theriva Biologics; United States and Spanish investigators; Nature Medicine",
@@ -4543,7 +4687,7 @@
       "id": "watchlist:aztound-astx030-mds-cmml-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 47,
+      "order": 48,
       "title": "AZTOUND oral azacitidine-cedazuridine Phase III topline",
       "subtitle": "Care delivery / oral therapy · Myelodysplastic syndromes and chronic myelomonocytic leukemia · Multinational Phase III; planned United States filing",
       "organization": "Taiho Oncology; Taiho Pharmaceutical",
@@ -4639,7 +4783,7 @@
       "id": "watchlist:roads-gammatile-brain-metastases-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 48,
+      "order": 49,
       "title": "ROADS intraoperative GammaTile for resected brain metastases",
       "subtitle": "Surgery / intraoperative radiotherapy · Newly diagnosed operable brain metastases from solid tumors · United States; 32-center multicenter trial",
       "organization": "UT MD Anderson Cancer Center-led investigators; GT Medical Technologies; Journal of Clinical Oncology",
@@ -4735,7 +4879,7 @@
       "id": "watchlist:saffron-savolitinib-osimertinib-us-nda",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 49,
+      "order": 50,
       "title": "SAFFRON savolitinib-osimertinib US NDA",
       "subtitle": "Regulatory filing / targeted therapy · EGFR-mutated, MET-overexpressed or MET-amplified locally advanced or metastatic non-small cell lung cancer after progression on an EGFR TKI · United States filing; global Phase III trial across 29 countries",
       "organization": "AstraZeneca; HUTCHMED; US Food and Drug Administration",
@@ -4831,7 +4975,7 @@
       "id": "watchlist:alliance-a071801-fractionated-postop-srs",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 50,
+      "order": 51,
       "title": "Alliance A071801 fractionated postoperative radiosurgery",
       "subtitle": "Radiotherapy / brain metastases · Resected brain metastases from non-CNS solid tumors · United States; NCI-sponsored Alliance multicenter trial",
       "organization": "Alliance for Clinical Trials in Oncology; National Cancer Institute; Mayo Clinic; Mass General Brigham/Dana-Farber investigators; American Society for Radiation Oncology",
@@ -4927,7 +5071,7 @@
       "id": "watchlist:nrg-cc009-srs-sclc-brain-metastases",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 51,
+      "order": 52,
       "title": "NRG-CC009 focused radiosurgery for SCLC brain metastases",
       "subtitle": "Radiotherapy / brain metastases · Small-cell lung cancer with brain metastases · United States and Canada; NRG Oncology multicenter trial",
       "organization": "NRG Oncology; participating North American centers; American Society for Radiation Oncology",
@@ -5023,7 +5167,7 @@
       "id": "watchlist:pace-a-sbrt-versus-prostatectomy-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 52,
+      "order": 53,
       "title": "PACE-A five-fraction SBRT versus prostatectomy",
       "subtitle": "Radiotherapy / surgery comparison · Predominantly low- or favorable intermediate-risk localized prostate cancer · United Kingdom; eight-center trial",
       "organization": "The Royal Marsden; Institute of Cancer Research Clinical Trials and Statistics Unit; PACE investigators; American Society for Radiation Oncology",
@@ -5119,7 +5263,7 @@
       "id": "watchlist:soft-preop-pancreatic-sbrt-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 53,
+      "order": 54,
       "title": "SOFT Preop pancreatic SBRT versus chemoradiotherapy",
       "subtitle": "Radiotherapy / surgery pathway · Resectable, borderline-resectable, or selected locally advanced pancreatic adenocarcinoma · United States; multicenter trial",
       "organization": "Medical College of Wisconsin-led investigators; participating centers; American Society for Radiation Oncology",
@@ -5215,7 +5359,7 @@
       "id": "watchlist:iarc-lung-cancer-screening-volume21",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 54,
+      "order": 55,
       "title": "IARC lung-cancer screening evaluation",
       "subtitle": "Screening guideline / public health · Lung cancer · Global evidence evaluation",
       "organization": "International Agency for Research on Cancer / World Health Organization; IARC Handbooks of Cancer Prevention Working Group",
@@ -5311,7 +5455,7 @@
       "id": "watchlist:advance-aumolertinib-radiotherapy-stage3-nsclc",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 55,
+      "order": 56,
       "title": "ADVANCE aumolertinib plus radiotherapy",
       "subtitle": "Radiotherapy / targeted therapy strategy · Unresectable stage III non-squamous NSCLC with centrally confirmed EGFR exon 19 deletion or L858R mutation · China; randomized trial at 11 enrolling sites with supportive multicenter real-world cohort",
       "organization": "Cancer Hospital, Chinese Academy of Medical Sciences-led investigators; Jiangsu Hansoh Pharmaceutical Group supplied aumolertinib and chemotherapy agents",
@@ -5407,7 +5551,7 @@
       "id": "watchlist:ema-september-2026-oncology-chmp-package",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 56,
+      "order": 57,
       "title": "EMA September 2026 oncology CHMP package",
       "subtitle": "Regulatory policy / market authorization · ALK-positive advanced NSCLC; platinum-resistant and advanced high-grade ovarian cancers; HER2-positive breast cancer; chemotherapy-associated myelosuppression in extensive-stage SCLC · European Union; European Commission decisions pending",
       "organization": "European Medicines Agency CHMP; SFL Pharmaceuticals Deutschland; Corcept Therapeutics Netherlands; Biosimilar Collaborations Ireland; Pharmacosmos",
@@ -5503,7 +5647,7 @@
       "id": "watchlist:who-childhood-cancer-market-strategy-2026",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 57,
+      "order": 58,
       "title": "WHO childhood-cancer medicines market-shaping strategy",
       "subtitle": "Access / manufacturing / procurement · Childhood cancers · Global, focused on low- and middle-income countries",
       "organization": "World Health Organization; St. Jude Children's Research Hospital; UNICEF; PAHO Strategic Fund; Global Platform for Access to Childhood Cancer Medicines",
@@ -5599,7 +5743,7 @@
       "id": "watchlist:gfh375-kras-g12d-phase1-phase2",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 58,
+      "order": 59,
       "title": "GFH375 oral KRAS G12D inhibitor",
       "subtitle": "Peer-reviewed early-phase targeted therapy · Previously treated KRAS G12D-mutant advanced solid tumors, including pancreatic ductal adenocarcinoma and NSCLC · China; multicenter Phase I/II program",
       "organization": "GenFleet Therapeutics; Shanghai Chest Hospital and participating China centers; Verastem Oncology holds development and commercialization rights outside China",
@@ -5695,7 +5839,7 @@
       "id": "watchlist:wclc2026-preserve003-gotistobart-os",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 59,
+      "order": 60,
       "title": "PRESERVE-003 gotistobart survival update",
       "subtitle": "Conference-only Phase III development signal · Metastatic squamous NSCLC after PD-(L)1 inhibitor and platinum chemotherapy · Global randomized trial; presented at IASLC WCLC 2026 in Seoul",
       "organization": "BioNTech; OncoC4; PRESERVE-003 investigators; IASLC WCLC 2026",
@@ -5791,7 +5935,7 @@
       "id": "watchlist:wclc2026-braf-class23-ici-outcomes",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 60,
+      "order": 61,
       "title": "Class II and III BRAF NSCLC immunotherapy outcomes",
       "subtitle": "Biomarker / retrospective outcomes · Metastatic NSCLC with class II or class III BRAF alterations · Multicenter Europe and United States cohorts; presented in Seoul",
       "organization": "Memorial Sloan Kettering Cancer Center; Dana-Farber Cancer Institute; 15 academic centers; IASLC WCLC 2026 investigators",
@@ -5887,7 +6031,7 @@
       "id": "watchlist:wclc2026-sqcc-tumor-budding-grade",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 61,
+      "order": 62,
       "title": "IASLC tumor-budding grade validation in lung SqCC",
       "subtitle": "Pathology / prognostic biomarker · Resected lung squamous cell carcinoma · Republic of Korea single-center cohort; presented in Seoul",
       "organization": "Yonsei University Medical Center investigators; International Association for the Study of Lung Cancer",
@@ -5983,7 +6127,7 @@
       "id": "watchlist:wclc2026-brelt3-mobile-ldct",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 62,
+      "order": 63,
       "title": "BRELT3 mobile lung-cancer screening in Brazil",
       "subtitle": "Screening / care delivery / equity · Lung cancer screening · Four cities in Northeast Brazil",
       "organization": "ProPulmao Institute and BRELT3 investigators; IASLC WCLC 2026",
@@ -6079,7 +6223,7 @@
       "id": "watchlist:wclc2026-destiny-lung04",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 63,
+      "order": 64,
       "title": "DESTINY-Lung04 first-line trastuzumab deruxtecan",
       "subtitle": "Conference-only Phase III treatment strategy · Unresectable locally advanced or metastatic HER2-mutant non-squamous NSCLC · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "AstraZeneca and Daiichi Sankyo; DESTINY-Lung04 investigators; IASLC WCLC 2026",
@@ -6175,7 +6319,7 @@
       "id": "watchlist:wclc2026-rezilient3-zipalertinib",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 64,
+      "order": 65,
       "title": "REZILIENT3 zipalertinib plus chemotherapy",
       "subtitle": "Regulatory filing / Phase III treatment strategy · Previously untreated advanced EGFR exon 20 insertion-positive non-squamous NSCLC · Global randomized trial; United States rolling submission",
       "organization": "Taiho Pharmaceutical, Taiho Oncology, Cullinan Therapeutics, and REZILIENT3 investigators",
@@ -6271,7 +6415,7 @@
       "id": "watchlist:wclc2026-harmoni2-os",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 65,
+      "order": 66,
       "title": "HARMONi-2 ivonescimab overall-survival update",
       "subtitle": "Conference-only Phase III survival update · Treatment-naive PD-L1-positive advanced NSCLC without EGFR or ALK alterations · China; presented in Seoul, Republic of Korea",
       "organization": "Akeso Biopharma; HARMONi-2 investigators; IASLC WCLC 2026",
@@ -6367,7 +6511,7 @@
       "id": "watchlist:wclc2026-maverick-pci",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 66,
+      "order": 67,
       "title": "MAVERICK MRI surveillance versus prophylactic cranial irradiation",
       "subtitle": "Radiotherapy de-escalation / supportive care · Limited-stage or extensive-stage small-cell lung cancer after initial therapy · International SWOG/NCTN trial; presented in Seoul, Republic of Korea",
       "organization": "SWOG Cancer Research Network, US National Clinical Trials Network, and MAVERICK investigators",
@@ -6463,7 +6607,7 @@
       "id": "watchlist:wclc2026-taishan302-tampeli",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 67,
+      "order": 68,
       "title": "TAISHAN-302 tambotatug pelitecan versus topotecan",
       "subtitle": "Conference-only Phase III ADC evidence · Relapsed small-cell lung cancer after first-line therapy · Randomized trial; presented in Seoul, Republic of Korea",
       "organization": "MediLink Therapeutics and TAISHAN-302 investigators",
@@ -6559,7 +6703,7 @@
       "id": "watchlist:wclc2026-artemis008-risrez",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 68,
+      "order": 69,
       "title": "ARTEMIS-008 risvutatug rezetecan versus topotecan",
       "subtitle": "Conference-only Phase III ADC evidence · Relapsed small-cell lung cancer after platinum-based chemotherapy · China; presented in Seoul, Republic of Korea",
       "organization": "Hansoh Pharma, GSK, and ARTEMIS-008 investigators",
@@ -6655,7 +6799,7 @@
       "id": "watchlist:wclc2026-evoke03-negative",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 69,
+      "order": 70,
       "title": "EVOKE-03 sacituzumab govitecan plus pembrolizumab",
       "subtitle": "Negative Phase III evidence · Previously untreated PD-L1-high metastatic NSCLC without EGFR, ALK, or ROS1 alterations · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "Gilead Sciences, Merck & Co., and EVOKE-03 investigators",
@@ -6751,7 +6895,7 @@
       "id": "watchlist:wclc2026-lonestar-negative",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 70,
+      "order": 71,
       "title": "LONESTAR local consolidative therapy after dual immunotherapy",
       "subtitle": "Negative Phase III multimodality evidence · Immunotherapy-naive metastatic NSCLC, including oligometastatic disease · United States; single-center randomized trial presented in Seoul",
       "organization": "MD Anderson Cancer Center and LONESTAR investigators",
@@ -6847,7 +6991,7 @@
       "id": "watchlist:wclc2026-impower030-neutral",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 71,
+      "order": 72,
       "title": "IMpower030 perioperative atezolizumab final analysis",
       "subtitle": "Neutral Phase III perioperative evidence · Resectable stage IIB-IIIB non-small-cell lung cancer · Global randomized trial; presented in Seoul, Republic of Korea",
       "organization": "Roche/Genentech and IMpower030 investigators",
@@ -6943,7 +7087,7 @@
       "id": "watchlist:tacti004-efti-manufacturing-followup",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 72,
+      "order": 73,
       "title": "TACTI-004 efti manufacturing and futility follow-up",
       "subtitle": "Manufacturing / negative trial follow-up · First-line advanced or metastatic non-small cell lung cancer · Global Phase III trial; India participation authorized",
       "organization": "Immutep Limited; Merck & Co. supplied pembrolizumab; TACTI-004 investigators",
@@ -7039,7 +7183,7 @@
       "id": "watchlist:who-childhood-cancer-prequalification-eoi",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 73,
+      "order": 74,
       "title": "WHO childhood-cancer medicine prequalification invitation",
       "subtitle": "Access / manufacturing / procurement · Childhood cancers · Global, with focus on low- and middle-income countries",
       "organization": "World Health Organization; Global Platform for Access to Childhood Cancer Medicines; GAP-f; St. Jude Children's Research Hospital; UNICEF; PAHO Strategic Fund",
@@ -7135,7 +7279,7 @@
       "id": "watchlist:neoadjuvant-nivolumab-ipilimumab-gbm",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 74,
+      "order": 75,
       "title": "Neoadjuvant nivolumab plus ipilimumab in recurrent glioblastoma",
       "subtitle": "Early randomized surgical-window evidence · Surgically resectable recurrent glioblastoma · United States; four-center trial",
       "organization": "Dana-Farber Cancer Institute-led investigators; UCLA, Stanford, Memorial Sloan Kettering; Bristol Myers Squibb supplied study drugs",
@@ -7231,7 +7375,7 @@
       "id": "watchlist:cervino-etentamig",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 75,
+      "order": 76,
       "title": "CERVINO etentamig Phase III results",
       "subtitle": "Randomized Phase III conference results · Relapsed/refractory multiple myeloma · Global trial; presented in Glasgow, United Kingdom",
       "organization": "AbbVie; CERVINO investigators; International Myeloma Society",
@@ -7327,7 +7471,7 @@
       "id": "watchlist:sanovo-savolitinib-osimertinib",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 76,
+      "order": 77,
       "title": "SANOVO first-line EGFR/MET lung-cancer topline",
       "subtitle": "Press-release-only phase III · EGFR-mutated NSCLC with MET overexpression · China",
       "organization": "AstraZeneca; HUTCHMED",
@@ -7423,7 +7567,7 @@
       "id": "watchlist:prostate-cardio-referral",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 77,
+      "order": 78,
       "title": "Routine cardiovascular referral in prostate cancer",
       "subtitle": "Supportive care / care delivery · Prostate cancer · Eight-country trial across 55 sites",
       "organization": "International randomized trial investigators; JAMA Internal Medicine",
@@ -7519,7 +7663,7 @@
       "id": "watchlist:mpower-asia-cancer-model",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 78,
+      "order": 79,
       "title": "MPOWER tobacco control and preventable cancers in Asia",
       "subtitle": "Prevention / public health policy · Thirteen tobacco-related cancers · East and South-East Asia",
       "organization": "Independent investigators using WHO Global Health Observatory and IARC Global Cancer Observatory data; The Lancet Regional Health - Western Pacific",
@@ -7615,7 +7759,7 @@
       "id": "watchlist:bemotrizinol-sunscreen",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 79,
+      "order": 80,
       "title": "Bemotrizinol sunscreen order takes effect",
       "subtitle": "Prevention / regulatory policy · Skin cancer prevention · United States; ingredient already used in multiple other markets",
       "organization": "U.S. Food and Drug Administration; DSM Nutritional Products LLC",
@@ -7711,7 +7855,7 @@
       "id": "watchlist:fda-trialblazer",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 80,
+      "order": 81,
       "title": "FDA Operation TrialBlazer trial-policy package",
       "subtitle": "Trial methodology / regulatory policy · All cancers · United States; global sponsor relevance",
       "organization": "U.S. Food and Drug Administration; U.S. Department of Health and Human Services Operation TrialBlazer",
@@ -7807,7 +7951,7 @@
       "id": "watchlist:rp1-adcom",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 81,
+      "order": 82,
       "title": "RP1 + nivolumab accelerated approval after advisory split",
       "subtitle": "Regulatory evidence · Advanced cutaneous melanoma · United States",
       "organization": "Replimune + Bristol Myers Squibb; FDA Cellular, Tissue, and Gene Therapies Advisory Committee",
@@ -7903,7 +8047,7 @@
       "id": "watchlist:optima",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 82,
+      "order": 83,
       "title": "OPTIMA genomic de-escalation",
       "subtitle": "De-escalation · Breast cancer · UK-led international",
       "organization": "UCL + University of Glasgow + Veracyte",
@@ -7999,7 +8143,7 @@
       "id": "watchlist:galleri",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 83,
+      "order": 84,
       "title": "NHS-Galleri randomized MCED screening",
       "subtitle": "Screening / diagnostics · Multiple cancers · United Kingdom",
       "organization": "NHS England + GRAIL + FDA Molecular and Clinical Genetics Devices Panel",
@@ -8095,7 +8239,7 @@
       "id": "watchlist:eagle-ai-esophageal-ct-screening",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 84,
+      "order": 85,
       "title": "EAGLE AI esophageal-cancer detection on noncontrast CT",
       "subtitle": "Diagnostics / AI screening · Esophageal cancer and high-grade intraepithelial neoplasia · China-led validation across China, the Czech Republic, and Australia",
       "organization": "Sun Yat-sen University Cancer Center-led EAGLE investigators",
@@ -8187,7 +8331,7 @@
       "id": "watchlist:bladder-preservation",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 85,
+      "order": 86,
       "title": "Durvalumab bladder-preservation signal",
       "subtitle": "Surgery / RT · Bladder cancer · United Kingdom",
       "organization": "Institute of Cancer Research + Royal Marsden + University of Birmingham + AstraZeneca",
@@ -8283,7 +8427,7 @@
       "id": "watchlist:who-cancer-report",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 86,
+      "order": 87,
       "title": "WHO/IARC cancer inequity report",
       "subtitle": "Public health / equity · All cancers · Global",
       "organization": "World Health Organization + International Agency for Research on Cancer",
@@ -8379,7 +8523,7 @@
       "id": "watchlist:workforce",
       "lane": "watchlist",
       "laneLabel": "Watchlist & systems",
-      "order": 87,
+      "order": 88,
       "title": "Global oncology workforce warning",
       "subtitle": "Workforce · All cancers · Global",
       "organization": "Global oncology authorship led from MSK and Queen's University Belfast; Lancet-linked report",
@@ -8473,7 +8617,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 187,
+    "sourcesChecked": 191,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,

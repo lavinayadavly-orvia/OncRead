@@ -1,4 +1,6 @@
 const portfolioAliasRules = [
+  { match: /nrg-br002|metastasis-directed ablation.*breast|nct02364557/i, aliases: ["NRG-BR002", "NCT02364557", "SBRT", "oligometastatic breast cancer", "metastasis-directed therapy"] },
+  { match: /atomic|atezolizumab.*mfolfox6|nct02912559/i, aliases: ["ATOMIC", "NCT02912559", "Tecentriq", "Tecentriq Hybreza", "dMMR", "MSI-H", "colon cancer"] },
   { match: /olaparib.*tremelimumab|tremelimumab.*olaparib|nct02571725|germline brca.*ovarian/i, aliases: ["Olaparib", "Tremelimumab", "NCT02571725", "BRCA1", "BRCA2", "ovarian cancer", "negative trial"] },
   { match: /disitamab.*tislelizumab|tislelizumab.*disitamab|nct05495724|erbb2-positive.*nmibc/i, aliases: ["Disitamab vedotin", "Tislelizumab", "NCT05495724", "ERBB2", "HER2", "NMIBC", "bladder preservation"] },
   { match: /nivolumab/i, aliases: ["Opdivo"] },
@@ -109,7 +111,7 @@ export function normalizePortfolio({ treatments, asco2025Followup, watchlistSign
       headline: item.effect,
       statusLabel: item.statusLabel,
       badges: [item.statusLabel, item.cancer],
-      searchText: buildSearchText(item.program, item.trial, item.cancer, item.company, item.statusLabel, item.ascoSignal, item.currentMilestone, item.effect, item.assessment, item.safety),
+      searchText: buildSearchText(item.program, item.trial, item.cancer, item.company, item.statusLabel, item.ascoSignal, item.currentMilestone, item.effect, item.assessment, item.safety, item.cost),
       route: { view: "followup", kind: "followup", id: item.id, label: "Open follow-up dossier" },
       sourceLinks: [
         { label: "ASCO-era evidence", url: item.conferenceSource },
@@ -125,6 +127,7 @@ export function normalizePortfolio({ treatments, asco2025Followup, watchlistSign
         ["What changed after ASCO", item.evidenceDelta, "wide"],
         ["Regional status", `US: ${item.us} Europe: ${item.eu} India: ${item.india}`, "full"],
         ["Safety and burden", item.safety, "wide"],
+        ["Cost / procurement", item.cost || "Not reported or verified"],
         ["Next verifiable decision point", item.nextDecision],
         ["Evidence confidence", item.confidence]
       ]
