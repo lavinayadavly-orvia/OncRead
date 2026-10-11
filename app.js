@@ -1001,6 +1001,34 @@ asco2025Followup.forEach(item => Object.assign(item, followupDetails[item.id]));
 
 const watchlistSignals = [
   {
+    id: "ifinatamab-deruxtecan-sclc-bla-withdrawal-2026",
+    title: "Ifinatamab deruxtecan SCLC accelerated-approval BLA withdrawal",
+    short: "I-DXd SCLC filing withdrawal",
+    category: "Regulatory withdrawal / negative filing outcome",
+    status: "negative",
+    statusLabel: "US BLA voluntarily withdrawn after FDA feedback",
+    geography: "United States filing; global Phase II and Phase III development",
+    date: "25 September 2026",
+    cancer: "Previously treated extensive-stage small cell lung cancer",
+    issue: "Daiichi Sankyo and Merck voluntarily withdrew the US biologics license application seeking accelerated approval for ifinatamab deruxtecan after FDA discussions concluded that the supporting data, including IDeate-Lung01, did not satisfy the requirements for the proposed indication. The withdrawal resolved the former 10 October 2026 PDUFA milestone without an FDA approval decision.",
+    organization: "Daiichi Sankyo and Merck / MSD; US Food and Drug Administration",
+    population: "IDeate-Lung01 enrolled 187 patients with extensive-stage SCLC previously treated with at least one platinum-based line and no more than three prior lines across Asia, Europe, and North America. The peer-reviewed analysis included 183 treated patients; 137 received the selected 12 mg/kg dose.",
+    comparator: "No concurrent standard-care efficacy comparator. Phase II dose optimization randomized 8 mg/kg versus 12 mg/kg before expansion at 12 mg/kg every three weeks. The ongoing IDeate-Lung02 Phase III trial compares 12 mg/kg I-DXd with physician's-choice amrubicin, lurbinectedin, or topotecan after one prior platinum-based line.",
+    endpoint: "IDeate-Lung01's primary endpoint was blinded-independent-review objective response rate. The ongoing IDeate-Lung02 randomized Phase III trial has dual primary endpoints of objective response rate and overall survival.",
+    effect: "In the peer-reviewed 12 mg/kg Phase II cohort (n=137), confirmed ORR was 48.2% (95% CI 39.6-56.9), median response duration 5.3 months (95% CI 4.0-6.5), and median PFS 4.9 months (95% CI 4.2-5.5); the nine-month OS estimate was 59.1%. Grade 3 or higher treatment-related adverse events occurred in 36.5%, treatment-related discontinuation in 9.5%, treatment-related death in 4.4%, and adjudicated treatment-related ILD in 12.4% (grade 3 or higher, 4.4%). Despite the response signal, FDA feedback was that the dataset did not meet accelerated-approval requirements.",
+    whyMatters: "The withdrawal prevents a single-arm response signal from being mistaken for an approved B7-H3-directed option in relapsed SCLC. It leaves a substantial post-platinum treatment gap and shifts the evidence threshold to randomized comparative benefit and survival.",
+    whoAffected: "Adults with relapsed extensive-stage SCLC after platinum therapy, thoracic oncologists, trial investigators, regulators, payers, and B7-H3 ADC development programs in the United States and other markets considering the same evidence package.",
+    decisionImpact: "Ifinatamab deruxtecan remains investigational and should not be represented as FDA approved or commercially available for SCLC. Treatment access should remain within clinical trials where available; any future US filing is expected to depend on IDeate-Lung02 or other adequate evidence.",
+    evidenceStrength: "High confidence for the filing withdrawal and its stated regulatory rationale from the joint sponsor release; moderate evidence for antitumor activity from a peer-reviewed multicenter Phase II study without a standard-care control; comparative clinical benefit remains unproven pending Phase III.",
+    limitations: "The FDA did not publish a complete response letter or detailed review memorandum, so the full regulatory deficiencies are not public. IDeate-Lung01 had no concurrent standard-care efficacy comparator, enrolled a selected population, and used response rate rather than survival as its primary endpoint. Cross-trial comparisons with chemotherapy are not reliable.",
+    indiaImpact: "No CDSCO authorization, India filing, India launch, official India price, reimbursement decision, procurement action, or announced India availability was verified. India participation in the cited Phase II analysis was not separately reported in the sources reviewed.",
+    cost: "Not applicable commercially because the product is investigational and the US application was withdrawn. No official US or India price, reimbursement decision, procurement figure, or cost-effectiveness result was reported or verified.",
+    nextMilestone: "Completion and reporting of the randomized IDeate-Lung02 Phase III trial (NCT06203210), including overall survival, comparative safety, quality of life, subgroup outcomes, and any subsequent regulatory filing. No replacement FDA action date has been announced.",
+    verification: "Catch-up verification completed on 11 October 2026 after the former 10 October PDUFA date. The 25 September joint Merck-Daiichi Sankyo release was cross-checked against the peer-reviewed IDeate-Lung01 report and ClinicalTrials.gov records NCT05280470 and NCT06203210. No same-window FDA approval or replacement filing was identified.",
+    source: "https://www.merck.com/news/ifinatamab-deruxtecan-biologics-license-application-for-certain-patients-with-previously-treated-extensive-stage-small-cell-lung-cancer-voluntarily-withdrawn/",
+    secondarySource: "https://ascopubs.org/doi/10.1200/JCO-25-02142"
+  },
+  {
     id: "nrg-br002-oligometastatic-breast-2026",
     title: "NRG-BR002 metastasis-directed ablation in oligometastatic breast cancer",
     short: "NRG-BR002 randomized Phase II",
@@ -2415,6 +2443,7 @@ function formatImpactClass(group) {
 }
 
 const portfolioAliasRules = [
+  { match: /ifinatamab deruxtecan|i-dxd|ideate-lung0[12]|nct05280470|nct06203210/i, aliases: ["Ifinatamab deruxtecan", "I-DXd", "DS-7300", "MK-2400", "IDeate-Lung01", "IDeate-Lung02", "NCT05280470", "NCT06203210", "B7-H3", "SCLC"] },
   { match: /nrg-br002|metastasis-directed ablation.*breast|nct02364557/i, aliases: ["NRG-BR002", "NCT02364557", "SBRT", "oligometastatic breast cancer", "metastasis-directed therapy"] },
   { match: /atomic|atezolizumab.*mfolfox6|nct02912559/i, aliases: ["ATOMIC", "NCT02912559", "Tecentriq", "Tecentriq Hybreza", "dMMR", "MSI-H", "colon cancer"] },
   { match: /olaparib.*tremelimumab|tremelimumab.*olaparib|nct02571725|germline brca.*ovarian/i, aliases: ["Olaparib", "Tremelimumab", "NCT02571725", "BRCA1", "BRCA2", "ovarian cancer", "negative trial"] },

@@ -1,5 +1,16 @@
 # Dashboard Changelog
 
+## 2026-10-11 - Ifinatamab Deruxtecan SCLC Filing Withdrawal Catch-up
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 11 October run across regulators, peer-reviewed journals, trial registries, official company disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, access, pricing, procurement, epidemiology, and health systems. No newly visible same-window item cleared the threshold for a substantive dashboard record.
+- Added a missed negative regulatory record for `Ifinatamab deruxtecan SCLC accelerated-approval BLA withdrawal`. The former 10 October 2026 FDA action date was obsolete because Daiichi Sankyo and Merck had voluntarily withdrawn the application on 25 September after FDA discussions concluded that the supporting dataset, including IDeate-Lung01, did not satisfy accelerated-approval requirements.
+- Preserved the peer-reviewed Phase II signal without treating it as approval evidence: among 137 patients at 12 mg/kg, confirmed ORR was 48.2% (95% CI 39.6-56.9), median response duration 5.3 months (95% CI 4.0-6.5), median PFS 4.9 months (95% CI 4.2-5.5), and the nine-month OS estimate was 59.1%. The trial lacked a concurrent standard-care efficacy comparator.
+- Retained the safety burden: grade 3 or higher treatment-related adverse events occurred in 36.5%, treatment-related discontinuation in 9.5%, treatment-related death in 4.4%, and adjudicated treatment-related ILD in 12.4%, including 4.4% grade 3 or higher.
+- The product remains investigational and no B7-H3-directed cancer medicine is approved. Enrollment continues in the randomized IDeate-Lung02 Phase III trial comparing I-DXd with physician's-choice chemotherapy after one prior platinum-based line; no replacement FDA filing or action date has been announced.
+- No CDSCO authorization, India filing, official India price, reimbursement decision, procurement action, or announced India availability was verified. Commercial cost is not applicable because the product is investigational and the US application was withdrawn.
+- Considered the 10 October JCO issue, same-day mechanistic and diagnostic publications, review articles, trial-start announcements, and republished NEOPRISM-CRC coverage. They were not promoted because the underlying primary evidence had been available earlier, was non-decision-changing, or reported trial initiation rather than a clinical result.
+- The existing negative-regulatory watchlist structure represents the finding accurately. Search aliases were extended, the visible briefing and archive were rolled to the October 11 Morning Edition, and the detailed Word report was not modified.
+
 ## 2026-10-10 - ATOMIC FDA Approval and NRG-BR002 Negative Local-Therapy Evidence
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 10 October run and completed a focused catch-up for consequential primary evidence and regulator actions not yet represented in the 9 October edition.
