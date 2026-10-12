@@ -1,0 +1,89 @@
+{
+  "id": "2026-10-12",
+  "editionLabel": "12 October 2026",
+  "preparedLabel": "October 12 Morning Edition",
+  "monthKey": "2026-10",
+  "monthLabel": "October 2026",
+  "summary": "FDA adjuvant approval · 8 Oct 2026",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 30,
+    "followupApprovals": 8,
+    "indiaMarketed": 4,
+    "watchlistSignals": 49,
+    "verifiedRecords": 90
+  },
+  "headlines": [
+    {
+      "tag": "Latest verified approval",
+      "title": "Atezolizumab + mFOLFOX6",
+      "summary": "FDA adjuvant approval · 8 Oct 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+    },
+    {
+      "tag": "US BLA voluntarily withdrawn after FDA feedback",
+      "title": "Ifinatamab deruxtecan SCLC accelerated-approval BLA withdrawal",
+      "summary": "The withdrawal prevents a single-arm response signal from being mistaken for an approved B7-H3-directed option in relapsed SCLC. It leaves a substantial post-platinum treatment gap and shifts the evidence threshold to randomized comparative benefit and survival."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "atomic"
+      },
+      "title": "Atezolizumab + mFOLFOX6",
+      "subtitle": "FDA adjuvant approval · 8 Oct 2026",
+      "date": 1791397800000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "daraxonrasib-rasonque"
+      },
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "subtitle": "Phase III; FDA approved · US approved; India unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "iarc-lung-cancer-screening-volume21"
+      },
+      "title": "IARC lung-cancer screening evaluation",
+      "subtitle": "IARC Group A LDCT evaluation",
+      "date": 0
+    }
+  ],
+  "sourceCount": 90,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "atomic"
+      },
+      "title": "Atezolizumab + mFOLFOX6",
+      "subtitle": "FDA adjuvant approval · 8 Oct 2026",
+      "date": 1791397800000
+    }
+  }
+}

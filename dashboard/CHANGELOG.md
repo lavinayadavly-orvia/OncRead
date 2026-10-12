@@ -1,5 +1,13 @@
 # Dashboard Changelog
 
+## 2026-10-12 - No Material Verified Oncology Update
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 12 October run across regulators, peer-reviewed journals, trial registries, official company disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive and palliative care, safety, manufacturing, shortages, access, pricing, procurement, epidemiology, public health, care delivery, workforce, policy, and data infrastructure.
+- No same-window regulator action, pivotal or decision-changing clinical result, material safety signal, withdrawal, guideline change, access decision, or care-delivery development cleared the threshold for a substantive dashboard record.
+- Considered 11 October peer-reviewed mechanistic, retrospective, and model-development publications covering TNBC biology, lung-tumor imaging, thymic-tumor perioperative prediction, ALL image classification, CNS lymphoma microenvironment, and simulated sarcoma tumor-board coding. They were not promoted because they were preclinical, retrospective, synthetic or limited validation studies and did not establish a new clinical decision, patient-outcome benefit, regulatory action, or deployable standard of care.
+- Rechecked the current FDA oncology approval index, EMA oncology surfaces, CDSCO notices and meeting calendar, WHO/IARC publications, ClinicalTrials.gov, major-journal publication feeds, and targeted official sponsor disclosures. No official India price, reimbursement, procurement, launch, shortage, or access milestone requiring a new record was verified.
+- No information-architecture change was warranted. The visible briefing and archive were rolled to the October 12 Morning Edition, substantive oncology records and evidence ratings were preserved, and the detailed Word report was not modified.
+
 ## 2026-10-11 - Ifinatamab Deruxtecan SCLC Filing Withdrawal Catch-up
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 11 October run across regulators, peer-reviewed journals, trial registries, official company disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, access, pricing, procurement, epidemiology, and health systems. No newly visible same-window item cleared the threshold for a substantive dashboard record.
