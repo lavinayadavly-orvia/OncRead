@@ -1,0 +1,94 @@
+{
+  "id": "2026-10-13",
+  "editionLabel": "13 October 2026",
+  "preparedLabel": "October 13 Morning Edition",
+  "monthKey": "2026-10",
+  "monthLabel": "October 2026",
+  "summary": "Cachexia can limit treatment tolerance, quality of life, and survival yet is often recognized late. The study shows that routinely collected weight and laboratory data can identify dynamic episodes at health-system scale and may support earlier supportive-care research without requiring a new assay.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 30,
+    "followupApprovals": 8,
+    "indiaMarketed": 4,
+    "watchlistSignals": 50,
+    "verifiedRecords": 91
+  },
+  "headlines": [
+    {
+      "tag": "Peer-reviewed observational atlas; model not ready for clinical deployment",
+      "title": "Multimodal cancer-cachexia risk atlas",
+      "summary": "Cachexia can limit treatment tolerance, quality of life, and survival yet is often recognized late. The study shows that routinely collected weight and laboratory data can identify dynamic episodes at health-system scale and may support earlier supportive-care research without requiring a new assay."
+    },
+    {
+      "tag": "Latest verified approval",
+      "title": "Atezolizumab + mFOLFOX6",
+      "summary": "FDA adjuvant approval · 8 Oct 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+    },
+    {
+      "tag": "US BLA voluntarily withdrawn after FDA feedback",
+      "title": "Ifinatamab deruxtecan SCLC accelerated-approval BLA withdrawal",
+      "summary": "The withdrawal prevents a single-arm response signal from being mistaken for an approved B7-H3-directed option in relapsed SCLC. It leaves a substantial post-platinum treatment gap and shifts the evidence threshold to randomized comparative benefit and survival."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "atomic"
+      },
+      "title": "Atezolizumab + mFOLFOX6",
+      "subtitle": "FDA adjuvant approval · 8 Oct 2026",
+      "date": 1791397800000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "daraxonrasib-rasonque"
+      },
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "subtitle": "Phase III; FDA approved · US approved; India unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "cancer-cachexia-multimodal-atlas-2026"
+      },
+      "title": "Multimodal cancer-cachexia risk atlas",
+      "subtitle": "Peer-reviewed observational atlas; model not ready for clinical deployment",
+      "date": 0
+    }
+  ],
+  "sourceCount": 91,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "atomic"
+      },
+      "title": "Atezolizumab + mFOLFOX6",
+      "subtitle": "FDA adjuvant approval · 8 Oct 2026",
+      "date": 1791397800000
+    }
+  }
+}

@@ -1,4 +1,5 @@
 const portfolioAliasRules = [
+  { match: /cancer cachexia|cachexia atlas|episode-resolved|s41591-026-04689-9/i, aliases: ["Cancer cachexia", "Cachexia atlas", "Weight loss", "MSK-IMPACT", "Supportive care", "Nutrition", "Sarcopenia", "s41591-026-04689-9"] },
   { match: /ifinatamab deruxtecan|i-dxd|ideate-lung0[12]|nct05280470|nct06203210/i, aliases: ["Ifinatamab deruxtecan", "I-DXd", "DS-7300", "MK-2400", "IDeate-Lung01", "IDeate-Lung02", "NCT05280470", "NCT06203210", "B7-H3", "SCLC"] },
   { match: /nrg-br002|metastasis-directed ablation.*breast|nct02364557/i, aliases: ["NRG-BR002", "NCT02364557", "SBRT", "oligometastatic breast cancer", "metastasis-directed therapy"] },
   { match: /atomic|atezolizumab.*mfolfox6|nct02912559/i, aliases: ["ATOMIC", "NCT02912559", "Tecentriq", "Tecentriq Hybreza", "dMMR", "MSI-H", "colon cancer"] },

@@ -1,5 +1,15 @@
 # Dashboard Changelog
 
+## 2026-10-13 - Multimodal Cancer-Cachexia Risk Atlas
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 13 October run across regulators, peer-reviewed journals, trial registries, official company disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive and palliative care, safety, manufacturing, shortages, access, pricing, procurement, epidemiology, public health, care delivery, workforce, policy, and data infrastructure.
+- Added `Multimodal cancer-cachexia risk atlas` after Nature Medicine published the episode-resolved clinicogenomic analysis of 52,236 adults across 589 cancer histologies, with cancer-type-stratified replication in 5,785 Dana-Farber patients.
+- Captured 30,938 identified episodes affecting 46.63% of patients, 22.56% recurrence among affected patients, and the univariate pan-cancer survival association, HR 3.02 (p<0.000001). The survival association is not represented as a causal treatment effect.
+- Preserved the exploratory model limits: C-indices were 0.648 (95% CI 0.635-0.661) for lung adenocarcinoma, 0.670 (95% CI 0.653-0.691) for prostate cancer, and 0.639 (95% CI 0.628-0.650) for colorectal cancer. No prospective implementation or evidence that acting on predicted risk improves outcomes was reported.
+- No Indian cohort, local calibration, clinical pathway, implementation cost, reimbursement decision, procurement action, or India-specific outcome benefit was reported or verified. The record supports systematic weight surveillance and prospective supportive-care research, not genotype-based treatment selection or automated clinical deployment.
+- Considered IARC's Cancer RADAR website launch, Ghana's WHO/IAEA/IARC imPACT review feature, G-CODE mortality-model validation, and same-day mechanistic, genomic, and data-harmonization papers. They were not promoted because they did not yet report an implemented policy outcome, intervention benefit, sufficiently decision-changing result, or deployable standard of care.
+- Reviewed CDSCO's 12 October daily dispatch, which listed four biological-division firm letters without product, indication, approval, price, procurement, or patient-access details; no oncology action was inferred. The existing watchlist structure accurately represents the cachexia finding, search aliases were extended, the visible briefing and archive were rolled to the October 13 Morning Edition, and the detailed Word report was not modified.
+
 ## 2026-10-12 - No Material Verified Oncology Update
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 12 October run across regulators, peer-reviewed journals, trial registries, official company disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive and palliative care, safety, manufacturing, shortages, access, pricing, procurement, epidemiology, public health, care delivery, workforce, policy, and data infrastructure.
