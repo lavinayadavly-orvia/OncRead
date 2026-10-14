@@ -7,7 +7,7 @@
   <link rel="icon" href="oncread_favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="oncread_favicon.svg">
   <title>OncRead - Onco updates made easy</title>
-  <link rel="stylesheet" href="styles.css?v=20261013-36fdd84">
+  <link rel="stylesheet" href="styles.css?v=20261014-32e72a5">
 </head>
 <body>
   <div class="app-shell">
@@ -50,7 +50,7 @@
         <span class="status-dot"></span>
         <div>
           <strong>Research snapshot</strong>
-          <p id="sidebar-prepared-date">October 13 Morning Edition</p>
+          <p id="sidebar-prepared-date">October 14 Morning Edition</p>
         </div>
       </div>
       <a class="report-link" href="ASCO_2026_Advances_Impact_Assessment.docx">Open detailed report</a>
@@ -65,7 +65,7 @@
         <div class="topbar-actions">
           <label class="search-box">
             <span class="sr-only">Search global portfolio</span>
-            <input id="global-search" type="search" placeholder="Search drug, program, company, cancer...">
+            <input id="global-search" type="search" aria-label="Search dashboard" placeholder="Search drug, program, company, cancer...">
             <kbd>⌘ K</kbd>
           </label>
           <button id="methodology-button" class="button secondary">Rating guide</button>
@@ -76,8 +76,8 @@
         <div class="briefing-hero">
           <div class="briefing-hero-copy">
             <p class="eyebrow light">Morning briefing</p>
-            <h3 id="briefing-headline">Multimodal cancer-cachexia risk atlas</h3>
-            <p id="briefing-summary">Cachexia can limit treatment tolerance, quality of life, and survival yet is often recognized late. The study shows that routinely collected weight and laboratory data can identify dynamic episodes at health-system scale and may support earlier supportive-care research without requiring a new assay.</p>
+            <h3 id="briefing-headline">AHEAD-MERIT BNT113 plus pembrolizumab PFS miss</h3>
+            <p id="briefing-summary">This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures.</p>
             <div id="briefing-tag-row" class="briefing-tag-row"><span class="briefing-tag"><strong>Live edition</strong>20 July 2026</span><span class="briefing-tag"><strong>Lead headline</strong>Gedatolisib + Fulvestrant</span><span class="briefing-tag"><strong>Decision line</strong>Camizestrant + CDK4/6 inhibitor</span><span class="briefing-tag"><strong>Caution line</strong>Galleri screening signal</span></div>
             <div class="briefing-cta-row">
               <button id="briefing-primary-action" class="button primary" type="button">Read Dossier</button>
@@ -86,7 +86,7 @@
           </div>
           <div class="briefing-pulse">
             <span class="briefing-pulse-label">Live briefing pulse</span>
-            <strong id="briefing-date-label">October 13 Morning Edition</strong>
+            <strong id="briefing-date-label">October 14 Morning Edition</strong>
             <p id="briefing-pulse-summary">Review the lead development, regulatory decision points, and evidence limitations shaping oncology care.</p>
             <div id="briefing-pulse-list" class="briefing-pulse-list"></div>
           </div>
@@ -232,10 +232,10 @@
 
         <div class="portfolio-toolbar">
           <label class="portfolio-search-box">Search the portfolio
-            <input id="portfolio-search" type="search" placeholder="Try tucatinib, pembrolizumab, AstraZeneca, bladder cancer">
+            <input id="portfolio-search" type="search" aria-label="Search verified portfolio" placeholder="Try tucatinib, pembrolizumab, AstraZeneca, bladder cancer">
           </label>
           <label>Portfolio lane
-            <select id="portfolio-type-filter">
+            <select id="portfolio-type-filter" aria-label="Filter portfolio by record type">
               <option value="all">All verified records</option>
               <option value="treatment">Treatment explorer</option>
               <option value="followup">ASCO 2025 follow-up</option>
@@ -288,16 +288,16 @@
       <section id="treatments" class="view" aria-labelledby="view-title">
         <div class="filter-bar">
           <label>Cancer type
-            <select id="cancer-filter"><option value="all">All cancer types</option></select>
+            <select id="cancer-filter" aria-label="Filter treatments by cancer type"><option value="all">All cancer types</option></select>
           </label>
           <label>Evidence
-            <select id="phase-filter"><option value="all">All phases</option></select>
+            <select id="phase-filter" aria-label="Filter treatments by evidence phase"><option value="all">All phases</option></select>
           </label>
           <label>Impact
-            <select id="impact-filter"><option value="all">All impact levels</option></select>
+            <select id="impact-filter" aria-label="Filter treatments by impact level"><option value="all">All impact levels</option></select>
           </label>
           <label>India status
-            <select id="india-filter">
+            <select id="india-filter" aria-label="Filter treatments by India access status">
               <option value="all">All access states</option>
               <option value="available">Available / marketed</option>
               <option value="limited">Import / trial access</option>
@@ -388,7 +388,7 @@
 
         <div class="filter-bar followup-filters">
           <label>Current pathway
-            <select id="followup-status-filter">
+            <select id="followup-status-filter" aria-label="Filter follow-up records by pathway status">
               <option value="all">All pathways</option>
               <option value="approved">Regulatory approval</option>
               <option value="review">Under regulatory review</option>
@@ -397,7 +397,7 @@
             </select>
           </label>
           <label>Disease area
-            <select id="followup-cancer-filter"><option value="all">All disease areas</option></select>
+            <select id="followup-cancer-filter" aria-label="Filter follow-up records by disease area"><option value="all">All disease areas</option></select>
           </label>
           <button id="reset-followup" class="button secondary">Reset</button>
           <div class="followup-legend">
@@ -475,12 +475,12 @@
 
         <div class="filter-bar followup-filters">
           <label>Signal type
-            <select id="watchlist-type-filter">
+            <select id="watchlist-type-filter" aria-label="Filter watchlist by signal type">
               <option value="all">All signal types</option>
             </select>
           </label>
           <label>Evidence state
-            <select id="watchlist-status-filter">
+            <select id="watchlist-status-filter" aria-label="Filter watchlist by evidence state">
               <option value="all">All evidence states</option>
               <option value="published">Peer-reviewed publication</option>
               <option value="regulatory">Regulatory filing or policy</option>
@@ -566,10 +566,27 @@
 
   <script id="initial-edition-archive" type="application/json">
 {
-  "generatedAt": "2026-10-13T03:22:20.608Z",
-  "currentEditionId": "2026-10-13",
-  "currentEditionLabel": "13 October 2026",
+  "generatedAt": "2026-10-14T09:36:03.302Z",
+  "currentEditionId": "2026-10-14",
+  "currentEditionLabel": "14 October 2026",
   "editions": [
+    {
+      "id": "2026-10-14",
+      "editionLabel": "14 October 2026",
+      "preparedLabel": "October 14 Morning Edition",
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "summary": "This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures.",
+      "file": "/data/editions/2026-10-14.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 30,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 51,
+        "verifiedRecords": 92
+      }
+    },
     {
       "id": "2026-10-13",
       "editionLabel": "13 October 2026",
@@ -1850,8 +1867,36 @@
     {
       "monthKey": "2026-10",
       "monthLabel": "October 2026",
-      "leadEditionId": "2026-10-13",
+      "leadEditionId": "2026-10-14",
       "highlights": [
+        {
+          "editionId": "2026-10-14",
+          "editionLabel": "14 October 2026",
+          "tag": "Sponsor topline; PFS endpoint not met and OS follow-up continues",
+          "title": "AHEAD-MERIT BNT113 plus pembrolizumab PFS miss",
+          "summary": "This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures."
+        },
+        {
+          "editionId": "2026-10-14",
+          "editionLabel": "14 October 2026",
+          "tag": "Latest verified approval",
+          "title": "Atezolizumab + mFOLFOX6",
+          "summary": "FDA adjuvant approval · 8 Oct 2026"
+        },
+        {
+          "editionId": "2026-10-14",
+          "editionLabel": "14 October 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-10-14",
+          "editionLabel": "14 October 2026",
+          "tag": "Sponsor topline; PFS endpoint not met and OS follow-up continues",
+          "title": "AHEAD-MERIT BNT113 plus pembrolizumab PFS miss",
+          "summary": "This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures."
+        },
         {
           "editionId": "2026-10-13",
           "editionLabel": "13 October 2026",
@@ -1865,34 +1910,6 @@
           "tag": "Latest verified approval",
           "title": "Atezolizumab + mFOLFOX6",
           "summary": "FDA adjuvant approval · 8 Oct 2026"
-        },
-        {
-          "editionId": "2026-10-13",
-          "editionLabel": "13 October 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-10-13",
-          "editionLabel": "13 October 2026",
-          "tag": "US BLA voluntarily withdrawn after FDA feedback",
-          "title": "Ifinatamab deruxtecan SCLC accelerated-approval BLA withdrawal",
-          "summary": "The withdrawal prevents a single-arm response signal from being mistaken for an approved B7-H3-directed option in relapsed SCLC. It leaves a substantial post-platinum treatment gap and shifts the evidence threshold to randomized comparative benefit and survival."
-        },
-        {
-          "editionId": "2026-10-12",
-          "editionLabel": "12 October 2026",
-          "tag": "Latest verified approval",
-          "title": "Atezolizumab + mFOLFOX6",
-          "summary": "FDA adjuvant approval · 8 Oct 2026"
-        },
-        {
-          "editionId": "2026-10-12",
-          "editionLabel": "12 October 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
         }
       ]
     },
@@ -2097,26 +2114,26 @@
 </script>
   <script id="initial-current-edition" type="application/json">
 {
-  "id": "2026-10-13",
-  "editionLabel": "13 October 2026",
-  "preparedLabel": "October 13 Morning Edition",
+  "id": "2026-10-14",
+  "editionLabel": "14 October 2026",
+  "preparedLabel": "October 14 Morning Edition",
   "monthKey": "2026-10",
   "monthLabel": "October 2026",
-  "summary": "Cachexia can limit treatment tolerance, quality of life, and survival yet is often recognized late. The study shows that routinely collected weight and laboratory data can identify dynamic episodes at health-system scale and may support earlier supportive-care research without requiring a new assay.",
+  "summary": "This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures.",
   "provenance": "Generated from the current working tree.",
   "metrics": {
     "insights": 4,
     "treatments": 30,
     "followupApprovals": 8,
     "indiaMarketed": 4,
-    "watchlistSignals": 50,
-    "verifiedRecords": 91
+    "watchlistSignals": 51,
+    "verifiedRecords": 92
   },
   "headlines": [
     {
-      "tag": "Peer-reviewed observational atlas; model not ready for clinical deployment",
-      "title": "Multimodal cancer-cachexia risk atlas",
-      "summary": "Cachexia can limit treatment tolerance, quality of life, and survival yet is often recognized late. The study shows that routinely collected weight and laboratory data can identify dynamic episodes at health-system scale and may support earlier supportive-care research without requiring a new assay."
+      "tag": "Sponsor topline; PFS endpoint not met and OS follow-up continues",
+      "title": "AHEAD-MERIT BNT113 plus pembrolizumab PFS miss",
+      "summary": "This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures."
     },
     {
       "tag": "Latest verified approval",
@@ -2129,9 +2146,9 @@
       "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
     },
     {
-      "tag": "US BLA voluntarily withdrawn after FDA feedback",
-      "title": "Ifinatamab deruxtecan SCLC accelerated-approval BLA withdrawal",
-      "summary": "The withdrawal prevents a single-arm response signal from being mistaken for an approved B7-H3-directed option in relapsed SCLC. It leaves a substantial post-platinum treatment gap and shifts the evidence threshold to randomized comparative benefit and survival."
+      "tag": "Sponsor topline; PFS endpoint not met and OS follow-up continues",
+      "title": "AHEAD-MERIT BNT113 plus pembrolizumab PFS miss",
+      "summary": "This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures."
     }
   ],
   "spotlight": [
@@ -2176,7 +2193,7 @@
       "date": 0
     }
   ],
-  "sourceCount": 91,
+  "sourceCount": 92,
   "routeSummary": {
     "approval": {
       "route": {
@@ -2191,6 +2208,6 @@
   }
 }
 </script>
-  <script src="app.js?v=20261013-36fdd84"></script>
+  <script src="app.js?v=20261014-32e72a5"></script>
 </body>
 </html>

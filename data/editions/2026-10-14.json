@@ -1,0 +1,94 @@
+{
+  "id": "2026-10-14",
+  "editionLabel": "14 October 2026",
+  "preparedLabel": "October 14 Morning Edition",
+  "monthKey": "2026-10",
+  "monthLabel": "October 2026",
+  "summary": "This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 30,
+    "followupApprovals": 8,
+    "indiaMarketed": 4,
+    "watchlistSignals": 51,
+    "verifiedRecords": 92
+  },
+  "headlines": [
+    {
+      "tag": "Sponsor topline; PFS endpoint not met and OS follow-up continues",
+      "title": "AHEAD-MERIT BNT113 plus pembrolizumab PFS miss",
+      "summary": "This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures."
+    },
+    {
+      "tag": "Latest verified approval",
+      "title": "Atezolizumab + mFOLFOX6",
+      "summary": "FDA adjuvant approval · 8 Oct 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+    },
+    {
+      "tag": "Sponsor topline; PFS endpoint not met and OS follow-up continues",
+      "title": "AHEAD-MERIT BNT113 plus pembrolizumab PFS miss",
+      "summary": "This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "atomic"
+      },
+      "title": "Atezolizumab + mFOLFOX6",
+      "subtitle": "FDA adjuvant approval · 8 Oct 2026",
+      "date": 1791397800000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "daraxonrasib-rasonque"
+      },
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "subtitle": "Phase III; FDA approved · US approved; India unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "cancer-cachexia-multimodal-atlas-2026"
+      },
+      "title": "Multimodal cancer-cachexia risk atlas",
+      "subtitle": "Peer-reviewed observational atlas; model not ready for clinical deployment",
+      "date": 0
+    }
+  ],
+  "sourceCount": 92,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "atomic"
+      },
+      "title": "Atezolizumab + mFOLFOX6",
+      "subtitle": "FDA adjuvant approval · 8 Oct 2026",
+      "date": 1791397800000
+    }
+  }
+}

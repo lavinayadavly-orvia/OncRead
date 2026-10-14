@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-13T03:22:20.608Z",
-  "currentEditionId": "2026-10-13",
-  "currentEditionLabel": "13 October 2026",
+  "generatedAt": "2026-10-14T09:36:03.302Z",
+  "currentEditionId": "2026-10-14",
+  "currentEditionLabel": "14 October 2026",
   "editions": [
+    {
+      "id": "2026-10-14",
+      "editionLabel": "14 October 2026",
+      "preparedLabel": "October 14 Morning Edition",
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "summary": "This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures.",
+      "file": "/data/editions/2026-10-14.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 30,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 51,
+        "verifiedRecords": 92
+      }
+    },
     {
       "id": "2026-10-13",
       "editionLabel": "13 October 2026",
@@ -1283,8 +1300,36 @@
     {
       "monthKey": "2026-10",
       "monthLabel": "October 2026",
-      "leadEditionId": "2026-10-13",
+      "leadEditionId": "2026-10-14",
       "highlights": [
+        {
+          "editionId": "2026-10-14",
+          "editionLabel": "14 October 2026",
+          "tag": "Sponsor topline; PFS endpoint not met and OS follow-up continues",
+          "title": "AHEAD-MERIT BNT113 plus pembrolizumab PFS miss",
+          "summary": "This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures."
+        },
+        {
+          "editionId": "2026-10-14",
+          "editionLabel": "14 October 2026",
+          "tag": "Latest verified approval",
+          "title": "Atezolizumab + mFOLFOX6",
+          "summary": "FDA adjuvant approval · 8 Oct 2026"
+        },
+        {
+          "editionId": "2026-10-14",
+          "editionLabel": "14 October 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Daraxonrasib for Metastatic PDAC",
+          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+        },
+        {
+          "editionId": "2026-10-14",
+          "editionLabel": "14 October 2026",
+          "tag": "Sponsor topline; PFS endpoint not met and OS follow-up continues",
+          "title": "AHEAD-MERIT BNT113 plus pembrolizumab PFS miss",
+          "summary": "This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures."
+        },
         {
           "editionId": "2026-10-13",
           "editionLabel": "13 October 2026",
@@ -1298,34 +1343,6 @@
           "tag": "Latest verified approval",
           "title": "Atezolizumab + mFOLFOX6",
           "summary": "FDA adjuvant approval · 8 Oct 2026"
-        },
-        {
-          "editionId": "2026-10-13",
-          "editionLabel": "13 October 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-10-13",
-          "editionLabel": "13 October 2026",
-          "tag": "US BLA voluntarily withdrawn after FDA feedback",
-          "title": "Ifinatamab deruxtecan SCLC accelerated-approval BLA withdrawal",
-          "summary": "The withdrawal prevents a single-arm response signal from being mistaken for an approved B7-H3-directed option in relapsed SCLC. It leaves a substantial post-platinum treatment gap and shifts the evidence threshold to randomized comparative benefit and survival."
-        },
-        {
-          "editionId": "2026-10-12",
-          "editionLabel": "12 October 2026",
-          "tag": "Latest verified approval",
-          "title": "Atezolizumab + mFOLFOX6",
-          "summary": "FDA adjuvant approval · 8 Oct 2026"
-        },
-        {
-          "editionId": "2026-10-12",
-          "editionLabel": "12 October 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Daraxonrasib for Metastatic PDAC",
-          "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
         }
       ]
     },

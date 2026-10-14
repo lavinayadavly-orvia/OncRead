@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-13
+Updated: 2026-10-14
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-10-14 review added the press-release-only negative AHEAD-MERIT watchlist record after BioNTech reported that BNT113 plus pembrolizumab did not significantly improve progression-free survival versus pembrolizumab alone in first-line HPV16-positive, PD-L1-positive recurrent or metastatic HNSCC. The official sponsor trial page and NCT04534205 were used to cross-check the randomized Phase II/III design, population, comparator, and dual PFS/OS endpoints. All undisclosed numerical efficacy, safety, follow-up, analysis-population, and subgroup details remain explicitly not reported; OS follow-up continues. IARC's Brazil resilience Viewpoint, EMA's draft CHMP agenda, same-day translational research, and CDSCO's product-unspecified 13 October dispatch were reviewed but did not clear the threshold for separate records.
 - The 2026-10-13 review added the peer-reviewed multimodal cancer-cachexia atlas as a supportive-care and data-infrastructure watchlist record. Nature Medicine is the primary source; Memorial Sloan Kettering's same-day institutional summary and the public analysis-code repository were used as implementation and reproducibility checks. The record preserves the 52,236-person observational design, 5,785-person external replication cohort, episode prevalence, survival association, modest model discrimination, absence of an intervention, and lack of prospective or India-specific validation. IARC's Cancer RADAR launch, Ghana's imPACT review, G-CODE validation, and CDSCO's product-unspecified 12 October biological-division dispatch were reviewed but did not clear the threshold for separate records.
 - The 2026-10-12 review found no newly visible development that cleared the substantive-update threshold. The current FDA oncology approval index, EMA oncology surfaces, CDSCO notices and meeting calendar, WHO/IARC publications, ClinicalTrials.gov, major-journal publication feeds, and targeted official sponsor disclosures were rechecked. Same-window mechanistic, retrospective, and model-development papers were not promoted because they did not establish a new clinical decision, patient-outcome benefit, regulator action, or deployable standard of care. Substantive records and evidence ratings were unchanged.
 - The 2026-10-11 review found no newly visible same-window development that cleared the substantive-update threshold. It added a missed negative regulatory record after the former 10 October FDA deadline exposed that Daiichi Sankyo and Merck had already withdrawn the ifinatamab deruxtecan accelerated-approval BLA for previously treated ES-SCLC. The joint sponsor release was cross-checked against the peer-reviewed IDeate-Lung01 report and ClinicalTrials.gov records NCT05280470 and NCT06203210; the Phase II response signal, safety burden, absence of a standard-care efficacy comparator, investigational status, and randomized Phase III next milestone are retained separately.
@@ -94,6 +95,19 @@ Updated: 2026-10-13
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-14 Verified Updates and Review Checks
+
+- BioNTech official AHEAD-MERIT topline release; primary source for the missed PFS endpoint, continuing OS follow-up, prespecified dual-primary-endpoint interpretation, investigational status, and absence of numerical efficacy and safety detail
+  https://www.biontech.com/us/en/home/mediaroom/news/press-releases/2026/10/BioNTech-Provides-Update-on-Phase-2-3-Clinical-Trial-for-mRNA-Cancer-Immunotherapy-Candidate-BNT113-in-Metastatic-HPV16-positive-Head-and-Neck-Cancer.html
+- Official BioNTech trial page and ClinicalTrials.gov record; design checks for the randomized Phase II/III population, comparator, treatment duration, recruitment status, and dual endpoints
+  https://clinicaltrials.biontech.com/trials/BNT113-01
+  https://clinicaltrials.gov/study/NCT04534205
+- FDA oncology approval index, EMA draft CHMP agenda, IARC Brazil resilience Q&A/Viewpoint, and CDSCO 13 October daily dispatch were reviewed. No same-window FDA action, final EMA opinion, implemented resilience policy, or product-specific Indian oncology authorization, price, reimbursement, procurement, or launch milestone was identified.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.ema.europa.eu/en/documents/agenda/agenda-chmp-meeting-12-15-october-2026_en.pdf
+  https://www.iarc.who.int/wp-content/uploads/2026/10/Q_AResilience_Brazil.pdf
+  https://www.cdsco.gov.in/opencms/opencms/en/industry/Daily-Dispatch-Report/
 
 ## 2026-10-08 Verified Updates and Review Checks
 

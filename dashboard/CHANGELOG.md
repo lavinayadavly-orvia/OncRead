@@ -1,5 +1,15 @@
 # Dashboard Changelog
 
+## 2026-10-14 - AHEAD-MERIT BNT113 Progression-Free-Survival Miss
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 14 October run across regulators, peer-reviewed journals, trial registries, official company disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive and palliative care, safety, manufacturing, shortages, access, pricing, procurement, epidemiology, public health, care delivery, workforce, policy, and data infrastructure.
+- Added `AHEAD-MERIT BNT113 plus pembrolizumab PFS miss` after BioNTech reported that the randomized pivotal part of the Phase II/III trial did not demonstrate a statistically significant progression-free-survival improvement over pembrolizumab alone in first-line unresectable recurrent or metastatic HPV16-positive, PD-L1-positive HNSCC.
+- Preserved the prespecified dual-primary-endpoint design: the Independent Data Monitoring Committee recommended continuing blinded follow-up for overall survival, and a statistically significant OS improvement could still establish a positive trial outcome under the statistical plan.
+- Labeled the result as sponsor topline and recorded the hazard ratio, confidence interval, p value, absolute PFS, analyzed sample, follow-up, response, subgroup, quality-of-life, exposure, and numerical safety results as not reported. BNT113 remains investigational and is not represented as approved, clinically deployable, or commercially available.
+- No CDSCO authorization, India filing, Indian subgroup result, official India price, reimbursement decision, procurement action, or announced India launch was verified. The 13 October CDSCO daily dispatch listed firm-level biological and vaccine letters without product, indication, approval, price, or access details; no oncology action was inferred.
+- Considered IARC's Brazil cancer-control resilience recommendations, EMA's 12-15 October draft CHMP agenda, same-day spatial-transcriptomic and preclinical research, and early trial-start announcements. They were not promoted because they did not yet establish an implemented policy outcome, final regulator decision, patient-outcome benefit, or deployable standard of care.
+- The existing negative-trial watchlist structure accurately represents the finding, search aliases were extended, and explicit accessible names were added to the dashboard's search and filter controls. The visible briefing and archive were rolled to the October 14 Morning Edition, and the detailed Word report was not modified.
+
 ## 2026-10-13 - Multimodal Cancer-Cachexia Risk Atlas
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 13 October run across regulators, peer-reviewed journals, trial registries, official company disclosures, diagnostics, screening, surgery, radiotherapy, prevention, supportive and palliative care, safety, manufacturing, shortages, access, pricing, procurement, epidemiology, public health, care delivery, workforce, policy, and data infrastructure.
