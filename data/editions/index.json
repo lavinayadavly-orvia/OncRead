@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-14T09:36:03.302Z",
-  "currentEditionId": "2026-10-14",
-  "currentEditionLabel": "14 October 2026",
+  "generatedAt": "2026-10-15T00:56:36.623Z",
+  "currentEditionId": "2026-10-15",
+  "currentEditionLabel": "15 October 2026",
   "editions": [
+    {
+      "id": "2026-10-15",
+      "editionLabel": "15 October 2026",
+      "preparedLabel": "October 15 Morning Edition",
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "summary": "Workforce capability, trial access, and measurable facility quality are major constraints on cancer outcomes, especially in lower-resource systems. The agreement links WHO's government and health-system reach with ASCO's clinical education and quality programs and could create reusable implementation pathways rather than isolated training events.",
+      "file": "/data/editions/2026-10-15.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 31,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 54,
+        "verifiedRecords": 96
+      }
+    },
     {
       "id": "2026-10-14",
       "editionLabel": "14 October 2026",
@@ -1300,30 +1317,37 @@
     {
       "monthKey": "2026-10",
       "monthLabel": "October 2026",
-      "leadEditionId": "2026-10-14",
+      "leadEditionId": "2026-10-15",
       "highlights": [
         {
-          "editionId": "2026-10-14",
-          "editionLabel": "14 October 2026",
-          "tag": "Sponsor topline; PFS endpoint not met and OS follow-up continues",
-          "title": "AHEAD-MERIT BNT113 plus pembrolizumab PFS miss",
-          "summary": "This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures."
+          "editionId": "2026-10-15",
+          "editionLabel": "15 October 2026",
+          "tag": "Formal collaboration agreement; implementation outcomes pending",
+          "title": "WHO-ASCO global cancer-care quality partnership",
+          "summary": "Workforce capability, trial access, and measurable facility quality are major constraints on cancer outcomes, especially in lower-resource systems. The agreement links WHO's government and health-system reach with ASCO's clinical education and quality programs and could create reusable implementation pathways rather than isolated training events."
         },
         {
-          "editionId": "2026-10-14",
-          "editionLabel": "14 October 2026",
+          "editionId": "2026-10-15",
+          "editionLabel": "15 October 2026",
           "tag": "Latest verified approval",
-          "title": "Atezolizumab + mFOLFOX6",
-          "summary": "FDA adjuvant approval · 8 Oct 2026"
+          "title": "Anktiva + BCG for BCG-Unresponsive NMIBC",
+          "summary": "FDA expanded indication 14 October 2026"
         },
         {
-          "editionId": "2026-10-14",
-          "editionLabel": "14 October 2026",
+          "editionId": "2026-10-15",
+          "editionLabel": "15 October 2026",
           "tag": "Highest-impact treatment pool",
           "title": "Daraxonrasib for Metastatic PDAC",
           "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
         },
         {
+          "editionId": "2026-10-15",
+          "editionLabel": "15 October 2026",
+          "tag": "Peer-reviewed randomized Phase II; no clear added clinical benefit and higher toxicity",
+          "title": "ZZ-FIRST talazoparib plus enzalutamide in high-volume mHNPC",
+          "summary": "The trial tests whether PARP inhibition adds value before castration resistance in a biomarker-unselected, high-volume population. Its randomized results caution against interpreting a single-arm PSA threshold as proof of comparative benefit and expose a substantial hematologic toxicity trade-off."
+        },
+        {
           "editionId": "2026-10-14",
           "editionLabel": "14 October 2026",
           "tag": "Sponsor topline; PFS endpoint not met and OS follow-up continues",
@@ -1331,15 +1355,8 @@
           "summary": "This is a pivotal negative efficacy signal for an off-the-shelf HPV16-targeted mRNA cancer immunotherapy in a biomarker-selected population. It prevents immune-response or early-phase activity from being mistaken for proven clinical benefit and keeps pembrolizumab-based standard care unchanged while OS matures."
         },
         {
-          "editionId": "2026-10-13",
-          "editionLabel": "13 October 2026",
-          "tag": "Peer-reviewed observational atlas; model not ready for clinical deployment",
-          "title": "Multimodal cancer-cachexia risk atlas",
-          "summary": "Cachexia can limit treatment tolerance, quality of life, and survival yet is often recognized late. The study shows that routinely collected weight and laboratory data can identify dynamic episodes at health-system scale and may support earlier supportive-care research without requiring a new assay."
-        },
-        {
-          "editionId": "2026-10-13",
-          "editionLabel": "13 October 2026",
+          "editionId": "2026-10-14",
+          "editionLabel": "14 October 2026",
           "tag": "Latest verified approval",
           "title": "Atezolizumab + mFOLFOX6",
           "summary": "FDA adjuvant approval · 8 Oct 2026"

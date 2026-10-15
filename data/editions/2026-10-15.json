@@ -1,0 +1,94 @@
+{
+  "id": "2026-10-15",
+  "editionLabel": "15 October 2026",
+  "preparedLabel": "October 15 Morning Edition",
+  "monthKey": "2026-10",
+  "monthLabel": "October 2026",
+  "summary": "Workforce capability, trial access, and measurable facility quality are major constraints on cancer outcomes, especially in lower-resource systems. The agreement links WHO's government and health-system reach with ASCO's clinical education and quality programs and could create reusable implementation pathways rather than isolated training events.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 31,
+    "followupApprovals": 8,
+    "indiaMarketed": 4,
+    "watchlistSignals": 54,
+    "verifiedRecords": 96
+  },
+  "headlines": [
+    {
+      "tag": "Formal collaboration agreement; implementation outcomes pending",
+      "title": "WHO-ASCO global cancer-care quality partnership",
+      "summary": "Workforce capability, trial access, and measurable facility quality are major constraints on cancer outcomes, especially in lower-resource systems. The agreement links WHO's government and health-system reach with ASCO's clinical education and quality programs and could create reusable implementation pathways rather than isolated training events."
+    },
+    {
+      "tag": "Latest verified approval",
+      "title": "Anktiva + BCG for BCG-Unresponsive NMIBC",
+      "summary": "FDA expanded indication 14 October 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
+    },
+    {
+      "tag": "Peer-reviewed randomized Phase II; no clear added clinical benefit and higher toxicity",
+      "title": "ZZ-FIRST talazoparib plus enzalutamide in high-volume mHNPC",
+      "summary": "The trial tests whether PARP inhibition adds value before castration resistance in a biomarker-unselected, high-volume population. Its randomized results caution against interpreting a single-arm PSA threshold as proof of comparative benefit and expose a substantial hematologic toxicity trade-off."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "anktiva-bcg-papillary-nmibc"
+      },
+      "title": "Anktiva + BCG for BCG-Unresponsive NMIBC",
+      "subtitle": "FDA expanded indication 14 October 2026",
+      "date": 1791936000000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "daraxonrasib-rasonque"
+      },
+      "title": "Daraxonrasib for Metastatic PDAC",
+      "subtitle": "Phase III; FDA approved · US approved; India unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "who-asco-global-quality-partnership-2026"
+      },
+      "title": "WHO-ASCO global cancer-care quality partnership",
+      "subtitle": "Formal collaboration agreement; implementation outcomes pending",
+      "date": 0
+    }
+  ],
+  "sourceCount": 96,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "anktiva-bcg-papillary-nmibc"
+      },
+      "title": "Anktiva + BCG for BCG-Unresponsive NMIBC",
+      "subtitle": "FDA expanded indication 14 October 2026",
+      "date": 1791936000000
+    }
+  }
+}

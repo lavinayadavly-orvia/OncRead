@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-14
+Updated: 2026-10-15
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-10-15 review added FDA's Anktiva label expansion, two peer-reviewed randomized Phase II signals with explicit efficacy and safety limitations, and the formal WHO-ASCO quality partnership. FDA, peer-reviewed reports, trial registries, WHO, and ASCO were used as primary or authoritative sources. Same-window prevention-tool launches, webinars, very small feasibility work, mechanistic studies, and result-free announcements were reviewed but not promoted when they did not change a clinical decision, final regulator status, implemented access pathway, or measured patient outcome.
 - The 2026-10-14 review added the press-release-only negative AHEAD-MERIT watchlist record after BioNTech reported that BNT113 plus pembrolizumab did not significantly improve progression-free survival versus pembrolizumab alone in first-line HPV16-positive, PD-L1-positive recurrent or metastatic HNSCC. The official sponsor trial page and NCT04534205 were used to cross-check the randomized Phase II/III design, population, comparator, and dual PFS/OS endpoints. All undisclosed numerical efficacy, safety, follow-up, analysis-population, and subgroup details remain explicitly not reported; OS follow-up continues. IARC's Brazil resilience Viewpoint, EMA's draft CHMP agenda, same-day translational research, and CDSCO's product-unspecified 13 October dispatch were reviewed but did not clear the threshold for separate records.
 - The 2026-10-13 review added the peer-reviewed multimodal cancer-cachexia atlas as a supportive-care and data-infrastructure watchlist record. Nature Medicine is the primary source; Memorial Sloan Kettering's same-day institutional summary and the public analysis-code repository were used as implementation and reproducibility checks. The record preserves the 52,236-person observational design, 5,785-person external replication cohort, episode prevalence, survival association, modest model discrimination, absence of an intervention, and lack of prospective or India-specific validation. IARC's Cancer RADAR launch, Ghana's imPACT review, G-CODE validation, and CDSCO's product-unspecified 12 October biological-division dispatch were reviewed but did not clear the threshold for separate records.
 - The 2026-10-12 review found no newly visible development that cleared the substantive-update threshold. The current FDA oncology approval index, EMA oncology surfaces, CDSCO notices and meeting calendar, WHO/IARC publications, ClinicalTrials.gov, major-journal publication feeds, and targeted official sponsor disclosures were rechecked. Same-window mechanistic, retrospective, and model-development papers were not promoted because they did not establish a new clinical decision, patient-outcome benefit, regulator action, or deployable standard of care. Substantive records and evidence ratings were unchanged.
@@ -95,6 +96,29 @@ Updated: 2026-10-14
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-15 Verified Updates and Review Checks
+
+- FDA expanded-indication notice; primary source for the 14 October Anktiva plus BCG label expansion into high-grade papillary-only BCG-unresponsive NMIBC, efficacy extrapolation rationale, prior 77-patient CIS cohort results, adverse reactions, dose, and delayed-cystectomy warning
+  https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-expanded-indication-nogapendekin-alfa-inbakicept-pmln-bcg-unresponsive-non-muscle
+- ImmunityBio official release and ClinicalTrials.gov QUILT-3.032 record; secondary checks for the revised label, prior CIS-containing cohort, administration, commercial status, study design, and registration
+  https://ir.immunitybio.com/news-releases/news-release-details/fda-expands-anktivar-approval-bcg-unresponsive-non-muscle
+  https://clinicaltrials.gov/study/NCT03022825
+- Peer-reviewed Nature Medicine ZZ-FIRST publication and ClinicalTrials.gov record; sources for the randomized 54-patient design, historical-threshold primary endpoint, between-arm PSA result, rPFS, OS, severe toxicity, fatal myeloid neoplasms, biomarker limits, and investigational status
+  https://www.nature.com/articles/s41591-026-04671-5
+  https://clinicaltrials.gov/study/NCT04332744
+- Peer-reviewed Signal Transduction and Targeted Therapy camrelizumab publication and WHO trial-registry entry; sources for the randomized design, 41-patient enrollment versus 112 planned, regimen, PFS, OS, immune-related safety, stage and PCI imbalances, and single-center limitations
+  https://www.nature.com/articles/s41392-026-02984-y
+  https://trialsearch.who.int/Trial2.aspx?TrialID=ChiCTR2000032275
+- WHO official departmental update and ASCO Global Collaborations page; sources for the signed collaboration agreement, three workstreams, proposed delivery modes, government/facility focus, and absence of reported implementation outcomes
+  https://www.who.int/singapore/news/detail-global/15-10-2026-who-formalize-partnership-with-the-largest-organization-for-physicians-and-oncology-professionals
+  https://www.asco.org/news-initiatives/current-initiatives/global-impact/collaborations
+- WHO/Europe's alcohol screening hub launch, the WHO childhood-cancer market-shaping webinar, the personalized ovarian-cancer vaccine Phase I publication, EMA's current CHMP agenda, CDSCO current surfaces, and other same-day mechanistic, observational, model-development, and trial-start materials were reviewed. They were not promoted because they did not add a sufficiently decision-changing patient outcome, final regulator action, implemented access result, or India-specific milestone beyond the four represented developments.
+  https://www.who.int/europe/news/item/14-10-2026-alcohol-can-cause-breast-cancer--but-very-few-patients-get-asked-about-their-drinking
+  https://www.who.int/news-room/events/detail/2026/10/14/default-calendar/webinar-from-strategy-to-collective-action-shaping-healthier-markets-for-childhood-cancer-medicines
+  https://www.nature.com/articles/s41591-026-04717-8
+  https://www.ema.europa.eu/en/documents/agenda/agenda-chmp-meeting-12-15-october-2026_en.pdf
+  https://www.cdsco.gov.in/opencms/opencms/en/industry/Daily-Dispatch-Report/
 
 ## 2026-10-14 Verified Updates and Review Checks
 
