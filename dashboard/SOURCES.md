@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-15
+Updated: 2026-10-16
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-10-16 review added three peer-reviewed watchlist records spanning perioperative immunotherapy and potential organ preservation in localized dMMR/MSI-H gastric/GEJ cancer, quality of life after selective watch-and-wait for rectal cancer, and neoadjuvant SABR before RCC vena-cava thrombectomy. All remain explicitly nonrandomized or post hoc and are not represented as comparative survival proof, validated surgery-omission pathways, or routine standards of care.
 - The 2026-10-15 review added FDA's Anktiva label expansion, two peer-reviewed randomized Phase II signals with explicit efficacy and safety limitations, and the formal WHO-ASCO quality partnership. FDA, peer-reviewed reports, trial registries, WHO, and ASCO were used as primary or authoritative sources. Same-window prevention-tool launches, webinars, very small feasibility work, mechanistic studies, and result-free announcements were reviewed but not promoted when they did not change a clinical decision, final regulator status, implemented access pathway, or measured patient outcome.
 - The 2026-10-14 review added the press-release-only negative AHEAD-MERIT watchlist record after BioNTech reported that BNT113 plus pembrolizumab did not significantly improve progression-free survival versus pembrolizumab alone in first-line HPV16-positive, PD-L1-positive recurrent or metastatic HNSCC. The official sponsor trial page and NCT04534205 were used to cross-check the randomized Phase II/III design, population, comparator, and dual PFS/OS endpoints. All undisclosed numerical efficacy, safety, follow-up, analysis-population, and subgroup details remain explicitly not reported; OS follow-up continues. IARC's Brazil resilience Viewpoint, EMA's draft CHMP agenda, same-day translational research, and CDSCO's product-unspecified 13 October dispatch were reviewed but did not clear the threshold for separate records.
 - The 2026-10-13 review added the peer-reviewed multimodal cancer-cachexia atlas as a supportive-care and data-infrastructure watchlist record. Nature Medicine is the primary source; Memorial Sloan Kettering's same-day institutional summary and the public analysis-code repository were used as implementation and reproducibility checks. The record preserves the 52,236-person observational design, 5,785-person external replication cohort, episode prevalence, survival association, modest model discrimination, absence of an intervention, and lack of prospective or India-specific validation. IARC's Cancer RADAR launch, Ghana's imPACT review, G-CODE validation, and CDSCO's product-unspecified 12 October biological-division dispatch were reviewed but did not clear the threshold for separate records.
@@ -96,6 +97,29 @@ Updated: 2026-10-15
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-16 Verified Updates and Review Checks
+
+- JAMA Oncology NEONIPIGA long-term Phase II publication and ClinicalTrials.gov record; sources for the 32-patient single-arm design, regimen, four-year EFS and OS, pCR, safety, nonsurgical cases, and absence of comparative survival proof
+  https://jamanetwork.com/journals/jamaoncology/article-abstract/2855333
+  https://clinicaltrials.gov/study/NCT04006262
+- JAMA Network Open rectal-cancer organ-preservation analysis and parent trial records; sources for the 385-patient post hoc cohort, 56-patient initial watch-and-wait group, five-year questionnaire attrition, adjusted QOL estimates, complete-response selection, and nonrandomized limitations
+  https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855353
+  https://clinicaltrials.gov/study/NCT02363374
+  https://clinicaltrials.gov/study/NCT03561142
+- JAMA Oncology RCC vena-cava-thrombus SABR Phase II publication and ClinicalTrials.gov record; sources for the 23-patient prospective design, historical benchmark, one-year RFS, perioperative outcomes, radiation safety, distant recurrence, and exploratory biomarker results
+  https://jamanetwork.com/journals/jamaoncology/fullarticle/2855337
+  https://clinicaltrials.gov/study/NCT02473536
+- FDA oncology approval index, EMA's 12-15 October CHMP agenda, CDSCO current dispatch surface, WHO/IARC current news, and major-journal feeds were rechecked. The same-day Lu-177 PSMA sequencing cohort, ocular-melanoma prognostic-classifier study, breast-cancer survivorship laser secondary analysis, preclinical STING and HER2/p53 studies, and BCG-unresponsive NMIBC review were considered but not promoted because they did not add a sufficiently clear new care decision, final regulator action, or implemented access outcome.
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.ema.europa.eu/en/documents/agenda/agenda-chmp-meeting-12-15-october-2026_en.pdf
+  https://www.cdsco.gov.in/opencms/opencms/en/industry/Daily-Dispatch-Report/
+  https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855350
+  https://jamanetwork.com/journals/jamaophthalmology/article-abstract/2854985
+  https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855354
+  https://www.nature.com/articles/s41416-026-03634-4
+  https://www.nature.com/articles/s41523-026-01062-4
+  https://www.nature.com/articles/s41585-026-01193-0
 
 ## 2026-10-15 Verified Updates and Review Checks
 

@@ -1,5 +1,8 @@
 const portfolioAliasRules = [
   { match: /anktiva|nogapendekin|quilt-3\.032|nct03022825|papillary-only.*nmibc/i, aliases: ["Anktiva", "Nogapendekin alfa inbakicept-pmln", "N-803", "QUILT-3.032", "NCT03022825", "BCG", "NMIBC", "papillary-only"] },
+  { match: /neonipiga|nct04006262|nivolumab.*ipilimumab.*gastric/i, aliases: ["NEONIPIGA", "NCT04006262", "Opdivo", "Yervoy", "dMMR", "MSI-H", "gastric cancer", "GEJ", "organ preservation"] },
+  { match: /rectal-cancer organ preservation|watch-and-wait qol|nct02363374|nct03561142/i, aliases: ["Watch and wait", "Total neoadjuvant therapy", "TNT", "Rectal cancer", "TME", "NCT02363374", "NCT03561142", "quality of life"] },
+  { match: /neoadjuvant sabr.*vena-cava|rcc ivc-thrombus|nct02473536/i, aliases: ["NCT02473536", "RCC", "IVC thrombus", "vena cava thrombectomy", "SABR", "SBRT", "nephrectomy"] },
   { match: /who-asco global|global cancer-care quality partnership/i, aliases: ["WHO", "ASCO", "quality cancer care", "oncology workforce", "clinical trial access", "Member States"] },
   { match: /zz-first|talazoparib.*enzalutamide|nct04332744/i, aliases: ["ZZ-FIRST", "Talzenna", "Xtandi", "Talazoparib", "Enzalutamide", "NCT04332744", "mHNPC", "HRR"] },
   { match: /camrelizumab induction-consolidation|camrelizumab.*limited-stage|chictr2000032275/i, aliases: ["Camrelizumab", "ChiCTR2000032275", "LS-SCLC", "limited-stage SCLC", "chemoradiotherapy", "CRT"] },
