@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-16
+Updated: 2026-10-20
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-10-20 review added FDA's accelerated approval of dostarlimab for previously untreated Stage II/III dMMR/MSI-H locally advanced rectal cancer as a full treatment dossier, preserving the two single-arm evidence packages, central-versus-investigator response discrepancy, incomplete follow-up, surveillance and salvage requirements, immune-mediated risks, and absence of verified India indication-specific access. A catch-up EMA watchlist record separately preserves the mixed positive, withdrawn, and non-recommended oncology outcomes published after the prior visible edition.
 - The 2026-10-16 review added three peer-reviewed watchlist records spanning perioperative immunotherapy and potential organ preservation in localized dMMR/MSI-H gastric/GEJ cancer, quality of life after selective watch-and-wait for rectal cancer, and neoadjuvant SABR before RCC vena-cava thrombectomy. All remain explicitly nonrandomized or post hoc and are not represented as comparative survival proof, validated surgery-omission pathways, or routine standards of care.
 - The 2026-10-15 review added FDA's Anktiva label expansion, two peer-reviewed randomized Phase II signals with explicit efficacy and safety limitations, and the formal WHO-ASCO quality partnership. FDA, peer-reviewed reports, trial registries, WHO, and ASCO were used as primary or authoritative sources. Same-window prevention-tool launches, webinars, very small feasibility work, mechanistic studies, and result-free announcements were reviewed but not promoted when they did not change a clinical decision, final regulator status, implemented access pathway, or measured patient outcome.
 - The 2026-10-14 review added the press-release-only negative AHEAD-MERIT watchlist record after BioNTech reported that BNT113 plus pembrolizumab did not significantly improve progression-free survival versus pembrolizumab alone in first-line HPV16-positive, PD-L1-positive recurrent or metastatic HNSCC. The official sponsor trial page and NCT04534205 were used to cross-check the randomized Phase II/III design, population, comparator, and dual PFS/OS endpoints. All undisclosed numerical efficacy, safety, follow-up, analysis-population, and subgroup details remain explicitly not reported; OS follow-up continues. IARC's Brazil resilience Viewpoint, EMA's draft CHMP agenda, same-day translational research, and CDSCO's product-unspecified 13 October dispatch were reviewed but did not clear the threshold for separate records.
@@ -97,6 +98,29 @@ Updated: 2026-10-16
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-20 Verified Updates and Review Checks
+
+- FDA accelerated-approval notice for dostarlimab/Jemperli in previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer; primary source for the 19 October 2026 action, AZUR-1 population, dose, multimodal response assessments, cCR12 and ORR estimates, treatment disposition, surveillance cadence, surgical pathology findings, safety warnings, Project Orbis participation, and expedited-program status
+  https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dostarlimab-locally-advanced-rectal-cancer
+- FDA oncology approval-notifications index; corroborated the 19 October approval date and indication and confirmed that dostarlimab was the newest oncology action visible in the review window
+  https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- ClinicalTrials.gov AZUR-1 record NCT05723562; cross-check for the multicenter single-arm design, population, intervention, response-assessment framework, and ongoing follow-up
+  https://clinicaltrials.gov/study/NCT05723562
+- ClinicalTrials.gov investigator-led dostarlimab record NCT04165772; cross-check for the independent 50-patient single-arm evidence package reviewed by FDA
+  https://clinicaltrials.gov/study/NCT04165772
+- EMA October CHMP meeting highlights; catch-up primary source for positive opinions on Rasonque, Talvey and Tukysa, withdrawn Ibrance and Truqap extension applications, and the Mylotarg pediatric non-recommendation
+  https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-12-15-october-2026
+- EMA Talvey variation opinion; source for the proposed combination indications with daratumumab and pomalidomide or daratumumab after at least one prior therapy and pending European Commission status
+  https://www.ema.europa.eu/en/medicines/human/variation/talvey
+- EMA Tukysa variation opinion; source for the proposed maintenance indication with trastuzumab and pertuzumab after first-line chemotherapy and pending European Commission status
+  https://www.ema.europa.eu/en/medicines/human/variation/tukysa
+- EMA Mylotarg pediatric assessment Q&A; source for the 515-child main-study design, lack of established EFS benefit, missing no-Mylotarg comparator, limited safety collection, supportive-study EFS/OS findings, and non-authorisation of the proposed pediatric combination
+  https://www.ema.europa.eu/en/documents/medicine-qa/questions-answers-outcome-assessment-use-mylotarg-treatment-acute-myeloid-leukaemia-children_en.pdf
+- EMA draft reflection paper on confirmatory platform-trial methods; consultation opened 19 October 2026 and was reviewed as an important cross-therapeutic methodology proposal, but not promoted because it is draft guidance without an implemented oncology-specific decision
+  https://www.ema.europa.eu/en/documents/scientific-guideline/reflection-paper-methodological-aspects-confirmatory-platform-trials_en.pdf
+- Same-window peer-reviewed bladder-cancer urine-sediment machine-learning study and preclinical sonodynamic, DNA-origami, aptamer-degrader, photocatalysis, and BET-inhibitor reports were considered but not promoted because they did not establish prospective clinical utility, patient-outcome benefit, regulatory action, or a deployable standard of care.
+- Rechecked EMA news, WHO/IARC publications, CDSCO surfaces, ClinicalTrials.gov, and official sponsor disclosures. No additional same-window final regulator action, material safety restriction, verified India price, procurement action, shortage, or India-access milestone cleared promotion.
 
 ## 2026-10-16 Verified Updates and Review Checks
 

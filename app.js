@@ -1,5 +1,34 @@
 const treatments = [
   {
+    id: "dostarlimab-azur1-rectal-cancer", short: "Jemperli", name: "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer", cancer: "Rectal cancer",
+    setting: "Previously untreated Stage II/III locally advanced rectal cancer with dMMR or MSI-H", company: "GSK", phase: "Single-arm Phase II; FDA accelerated approval",
+    impact: "Very high for biomarker-selected organ preservation", impactGroup: "high", maturity: 99, impactScore: 96,
+    eventDate: "2026-10-19",
+    headline: "FDA accelerated approval", headlineNote: "47% centrally reviewed sustained cCR at 12 months; 95% CI 27-56",
+    benefit: "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required.",
+    safety: "The prescribing information warns about immune-mediated adverse reactions, infusion-related reactions, complications of allogeneic hematopoietic stem-cell transplantation, and embryo-fetal toxicity. FDA's approval notice did not provide a complete numerical adverse-event table for the AZUR-1 population.",
+    cost: "Nine intravenous doses plus intensive MRI, endoscopy, CT, and clinical surveillance; official course cost not reported in the FDA notice", indiaPrice: "No official India price for this nine-cycle LARC regimen, CDSCO authorization, reimbursement decision, procurement figure, or announced India launch date was verified.",
+    indiaStatus: "not-launched", indiaLabel: "US accelerated approval; India indication unverified", launch: "FDA accelerated approval 19 October 2026",
+    indiaCaveat: "Dostarlimab may be available in India for other indications, but no CDSCO authorization, official launch, reimbursement, procurement pathway, validated local non-operative surveillance program, or India-specific evidence for this LARC indication was verified.",
+    limitations: "Accelerated approval rests on two single-arm studies and a sustained clinical complete-response endpoint rather than randomized disease-free or overall survival. Central and investigator cCR estimates differed, 38 AZUR-1 patients with centrally assessed cCR had less than 12 months of follow-up, near-complete response was common, some patients proceeded to surgery or chemoradiation, and intensive surveillance and salvage capacity are essential.",
+    detailSections: [
+      ["Event date / geography", "19 October 2026 FDA accelerated approval - United States; Project Orbis reviews remain ongoing in Canada, Israel, Switzerland, and the United Kingdom.", "wide"],
+      ["Population / sample", "AZUR-1 enrolled 154 adults with previously untreated, histologically confirmed, Stage II/III MSI-H or dMMR locally advanced rectal cancer. FDA also reviewed a 50-patient investigator-led multicenter study (NCT04165772).", "wide"],
+      ["Comparator", "No concurrent comparator in either supporting study. Patients received dostarlimab 500 mg intravenously every three weeks for up to nine cycles, with standard-care evaluation for incomplete response, recurrence, or progression.", "wide"],
+      ["Primary endpoint", "Independent-central-review sustained clinical complete response for 12 months from the first post-treatment assessment showing cCR. Response assessment combined endoscopy, rectal MRI, and CT imaging.", "wide"],
+      ["Effect size detail", "Among 116 centrally evaluable AZUR-1 patients, cCR12 was 47% (95% CI 27-56) and ORR was 79% (95% CI 71-85). Investigator-assessed cCR12 was 68% (95% CI 60-76) in 144 evaluable patients. In the 50-patient investigator-led study, cCR12 was 93% (95% CI 82-99) and ORR was 100% (95% CI 93-100).", "wide"],
+      ["Treatment disposition", "Of 154 AZUR-1 patients, 110 (71%) received dostarlimab alone without additional treatment or progression; 26 (17%) underwent surgery with or without additional therapy; 13 (8%) received systemic therapy or radiation; one progressed without further treatment; and four withdrew or were lost to follow-up.", "wide"],
+      ["Surveillance / salvage", "Patients with cCR entered multimodal surveillance every four months for two years and every six months thereafter. Fifteen patients underwent surgery after dostarlimab alone for imaging-suspected incomplete response; 12 had pathologic complete response, underscoring response-classification uncertainty.", "wide"],
+      ["Regulatory status", "FDA accelerated approval with priority review, breakthrough therapy designation, Real-Time Oncology Review, Assessment Aid, and Project Orbis. Continued approval may depend on verification and description of clinical benefit.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dostarlimab-locally-advanced-rectal-cancer",
+    sourceLabel: "FDA accelerated-approval notice",
+    supportingSources: [
+      { label: "ClinicalTrials.gov AZUR-1 registry", url: "https://clinicaltrials.gov/study/NCT05723562" },
+      { label: "ClinicalTrials.gov investigator-led study", url: "https://clinicaltrials.gov/study/NCT04165772" }
+    ]
+  },
+  {
     id: "anktiva-bcg-papillary-nmibc", short: "Anktiva + BCG", name: "Anktiva + BCG for BCG-Unresponsive NMIBC", cancer: "Bladder cancer",
     setting: "Adults with BCG-unresponsive non-muscle-invasive bladder cancer, including high-grade papillary-only disease", company: "Altor BioScience / ImmunityBio", phase: "FDA-approved label expansion; efficacy extrapolation",
     impact: "High for bladder-preservation decisions", impactGroup: "high", maturity: 99, impactScore: 86,
@@ -1028,6 +1057,34 @@ const followupDetails = {
 asco2025Followup.forEach(item => Object.assign(item, followupDetails[item.id]));
 
 const watchlistSignals = [
+  {
+    id: "ema-october-2026-oncology-chmp-package",
+    title: "EMA October 2026 oncology decision package",
+    short: "October CHMP oncology package",
+    category: "Regulatory policy / portfolio decisions",
+    status: "systems",
+    statusLabel: "Official CHMP opinions, withdrawals, and non-recommendation; EC decisions pending where applicable",
+    geography: "European Union",
+    date: "16 October 2026",
+    cancer: "Pancreatic cancer, breast cancer, multiple myeloma, prostate cancer, and pediatric acute myeloid leukemia",
+    issue: "EMA published a mixed oncology package from the 12-15 October CHMP meeting: positive opinions for Rasonque in metastatic pancreatic cancer and for new Talvey and Tukysa indications; withdrawals of Ibrance and Truqap extension applications; and a non-recommendation for pediatric Mylotarg with mitoxantrone and cytarabine.",
+    organization: "European Medicines Agency Committee for Medicinal Products for Human Use; relevant marketing-authorisation holders",
+    population: "Adults with previously treated metastatic pancreatic adenocarcinoma; adults with relapsed or refractory multiple myeloma after at least one prior therapy; adults receiving first-line maintenance for unresectable or metastatic HER2-positive breast cancer; adults with HR-positive/HER2-positive advanced breast cancer or PTEN-deficient metastatic hormone-sensitive prostate cancer covered by withdrawn applications; and children aged 1 to under 18 years with newly diagnosed CD33-positive AML covered by the non-recommended Mylotarg application.",
+    comparator: "Not applicable as a single comparison. Each decision used its own application and evidence package; the pediatric Mylotarg main study compared one versus three doses without a no-Mylotarg arm, while a supportive study compared chemotherapy with versus without Mylotarg.",
+    endpoint: "Regulatory outcomes were CHMP positive opinions, applicant withdrawals, or non-recommendation. Treatment-specific clinical endpoints remain those of each supporting application and are not pooled across products.",
+    effect: "Positive opinions: Rasonque for metastatic pancreatic cancer after at least one prior treatment; Talvey with daratumumab and pomalidomide or with daratumumab after at least one prior therapy; and Tukysa with trastuzumab and pertuzumab as maintenance after first-line chemotherapy. Pfizer withdrew the Ibrance HR-positive/HER2-positive maintenance extension and AstraZeneca withdrew the Truqap PTEN-deficient metastatic hormone-sensitive prostate-cancer extension; reasons and complete assessment data were not reported in the meeting highlights. EMA did not recommend pediatric Mylotarg because the 515-child main study did not establish improved event-free survival, lacked a no-Mylotarg comparator, and had limited safety collection; the supportive study improved EFS but not OS and had more deaths after complete remission.",
+    whyMatters: "The package changes the European regulatory trajectory for several high-impact oncology regimens and prevents US approvals or positive trial results from being mistaken for EU authorisation. It also preserves negative and withdrawn outcomes that materially affect treatment availability and evidence interpretation.",
+    whoAffected: "Patients and clinicians in the EU; pancreatic, breast, prostate, myeloma, and pediatric leukemia teams; regulators; guideline developers; payers; sponsors; and access teams tracking cross-jurisdictional divergence.",
+    decisionImpact: "The positive opinions require European Commission decisions before the new EU uses are authorised. The withdrawn Ibrance and Truqap applications do not change their existing EU indications, and the Mylotarg outcome means the proposed pediatric combination is not authorised; none of these outcomes should be inferred to alter separate FDA labels.",
+    evidenceStrength: "High for the regulatory status because EMA published the outcomes and treatment-specific opinion pages. Clinical-effect certainty varies by product; the package is not a cross-treatment efficacy comparison.",
+    limitations: "European Commission decisions were pending for the positive opinions; reasons and full assessment details for the Ibrance and Truqap withdrawals were not available in the meeting highlights; products, indications, trial designs, endpoints, and maturity differ; no cross-trial superiority inference is valid; and the package does not establish India regulatory or access status.",
+    indiaImpact: "No CDSCO authorization, India label change, official India launch date, price, reimbursement decision, procurement action, or India-specific implementation milestone was reported or verified for these EU outcomes. EU status should not be used as a proxy for Indian approval.",
+    cost: "Not reported or not applicable at package level. No official EU net prices, India prices, reimbursement decisions, procurement figures, or cost-effectiveness results were included in the EMA meeting package.",
+    nextMilestone: "European Commission decisions and updated product information for positive opinions; publication of full withdrawal assessments for Ibrance and Truqap; mature confirmatory evidence and post-authorisation obligations where applicable; and any official CDSCO or India access action.",
+    verification: "Verified from EMA's 16 October 2026 CHMP meeting highlights, treatment-specific Talvey and Tukysa opinion pages, and the official Mylotarg pediatric assessment Q&A. Existing US treatment dossiers remain separate and are not represented as EU authorisations.",
+    source: "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-12-15-october-2026",
+    secondarySource: "https://www.ema.europa.eu/en/documents/medicine-qa/questions-answers-outcome-assessment-use-mylotarg-treatment-acute-myeloid-leukaemia-children_en.pdf"
+  },
   {
     id: "neonipiga-nivolumab-ipilimumab-msi-gastric-2026",
     title: "NEONIPIGA perioperative immunotherapy in localized dMMR/MSI-H gastric cancer",
@@ -2695,6 +2752,8 @@ function formatImpactClass(group) {
 }
 
 const portfolioAliasRules = [
+  { match: /dostarlimab|jemperli|azur-1|nct05723562|nct04165772/i, aliases: ["Jemperli", "Dostarlimab", "AZUR-1", "NCT05723562", "NCT04165772", "dMMR", "MSI-H", "rectal cancer", "organ preservation", "non-operative management"] },
+  { match: /ema october 2026 oncology|october chmp oncology|mylotarg|talvey|truqap/i, aliases: ["EMA", "CHMP", "Rasonque", "Talvey", "Talquetamab", "Tukysa", "Ibrance", "Palbociclib", "Truqap", "Capivasertib", "Mylotarg", "Gemtuzumab ozogamicin", "multiple myeloma", "pediatric AML", "withdrawal", "non-recommendation"] },
   { match: /anktiva|nogapendekin|quilt-3\.032|nct03022825|papillary-only.*nmibc/i, aliases: ["Anktiva", "Nogapendekin alfa inbakicept-pmln", "N-803", "QUILT-3.032", "NCT03022825", "BCG", "NMIBC", "papillary-only"] },
   { match: /neonipiga|nct04006262|nivolumab.*ipilimumab.*gastric/i, aliases: ["NEONIPIGA", "NCT04006262", "Opdivo", "Yervoy", "dMMR", "MSI-H", "gastric cancer", "GEJ", "organ preservation"] },
   { match: /rectal-cancer organ preservation|watch-and-wait qol|nct02363374|nct03561142/i, aliases: ["Watch and wait", "Total neoadjuvant therapy", "TNT", "Rectal cancer", "TME", "NCT02363374", "NCT03561142", "quality of life"] },

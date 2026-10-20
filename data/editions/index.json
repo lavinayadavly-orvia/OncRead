@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-16T00:48:34.374Z",
-  "currentEditionId": "2026-10-16",
-  "currentEditionLabel": "16 October 2026",
+  "generatedAt": "2026-10-20T08:07:46.110Z",
+  "currentEditionId": "2026-10-20",
+  "currentEditionLabel": "20 October 2026",
   "editions": [
+    {
+      "id": "2026-10-20",
+      "editionLabel": "20 October 2026",
+      "preparedLabel": "October 20 Morning Edition",
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required.",
+      "file": "/data/editions/2026-10-20.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 32,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 58,
+        "verifiedRecords": 101
+      }
+    },
     {
       "id": "2026-10-16",
       "editionLabel": "16 October 2026",
@@ -1334,8 +1351,29 @@
     {
       "monthKey": "2026-10",
       "monthLabel": "October 2026",
-      "leadEditionId": "2026-10-16",
+      "leadEditionId": "2026-10-20",
       "highlights": [
+        {
+          "editionId": "2026-10-20",
+          "editionLabel": "20 October 2026",
+          "tag": "Latest verified approval",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA accelerated approval 19 October 2026"
+        },
+        {
+          "editionId": "2026-10-20",
+          "editionLabel": "20 October 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+        },
+        {
+          "editionId": "2026-10-20",
+          "editionLabel": "20 October 2026",
+          "tag": "Peer-reviewed randomized Phase II; no clear added clinical benefit and higher toxicity",
+          "title": "ZZ-FIRST talazoparib plus enzalutamide in high-volume mHNPC",
+          "summary": "The trial tests whether PARP inhibition adds value before castration resistance in a biomarker-unselected, high-volume population. Its randomized results caution against interpreting a single-arm PSA threshold as proof of comparative benefit and expose a substantial hematologic toxicity trade-off."
+        },
         {
           "editionId": "2026-10-16",
           "editionLabel": "16 October 2026",
@@ -1356,27 +1394,6 @@
           "tag": "Highest-impact treatment pool",
           "title": "Daraxonrasib for Metastatic PDAC",
           "summary": "FDA approved once-daily oral daraxonrasib, marketed as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy. The label creates the first FDA-approved broad RAS-targeted option in this high-mortality setting and does not require a companion diagnostic."
-        },
-        {
-          "editionId": "2026-10-16",
-          "editionLabel": "16 October 2026",
-          "tag": "Peer-reviewed randomized Phase II; no clear added clinical benefit and higher toxicity",
-          "title": "ZZ-FIRST talazoparib plus enzalutamide in high-volume mHNPC",
-          "summary": "The trial tests whether PARP inhibition adds value before castration resistance in a biomarker-unselected, high-volume population. Its randomized results caution against interpreting a single-arm PSA threshold as proof of comparative benefit and expose a substantial hematologic toxicity trade-off."
-        },
-        {
-          "editionId": "2026-10-15",
-          "editionLabel": "15 October 2026",
-          "tag": "Formal collaboration agreement; implementation outcomes pending",
-          "title": "WHO-ASCO global cancer-care quality partnership",
-          "summary": "Workforce capability, trial access, and measurable facility quality are major constraints on cancer outcomes, especially in lower-resource systems. The agreement links WHO's government and health-system reach with ASCO's clinical education and quality programs and could create reusable implementation pathways rather than isolated training events."
-        },
-        {
-          "editionId": "2026-10-15",
-          "editionLabel": "15 October 2026",
-          "tag": "Latest verified approval",
-          "title": "Anktiva + BCG for BCG-Unresponsive NMIBC",
-          "summary": "FDA expanded indication 14 October 2026"
         }
       ]
     },

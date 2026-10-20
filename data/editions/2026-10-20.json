@@ -1,0 +1,79 @@
+{
+  "id": "2026-10-20",
+  "editionLabel": "20 October 2026",
+  "preparedLabel": "October 20 Morning Edition",
+  "monthKey": "2026-10",
+  "monthLabel": "October 2026",
+  "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 32,
+    "followupApprovals": 8,
+    "indiaMarketed": 4,
+    "watchlistSignals": 58,
+    "verifiedRecords": 101
+  },
+  "headlines": [
+    {
+      "tag": "Latest verified approval",
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "summary": "FDA accelerated approval 19 October 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+    },
+    {
+      "tag": "Peer-reviewed randomized Phase II; no clear added clinical benefit and higher toxicity",
+      "title": "ZZ-FIRST talazoparib plus enzalutamide in high-volume mHNPC",
+      "summary": "The trial tests whether PARP inhibition adds value before castration resistance in a biomarker-unselected, high-volume population. Its randomized results caution against interpreting a single-arm PSA threshold as proof of comparative benefit and expose a substantial hematologic toxicity trade-off."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "dostarlimab-azur1-rectal-cancer"
+      },
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "subtitle": "FDA accelerated approval 19 October 2026",
+      "date": 1792368000000
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "ema-october-2026-oncology-chmp-package"
+      },
+      "title": "EMA October 2026 oncology decision package",
+      "subtitle": "Official CHMP opinions, withdrawals, and non-recommendation; EC decisions pending where applicable",
+      "date": 0
+    }
+  ],
+  "sourceCount": 101,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "dostarlimab-azur1-rectal-cancer"
+      },
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "subtitle": "FDA accelerated approval 19 October 2026",
+      "date": 1792368000000
+    }
+  }
+}
