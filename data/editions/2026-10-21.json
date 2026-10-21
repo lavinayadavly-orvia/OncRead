@@ -1,0 +1,84 @@
+{
+  "id": "2026-10-21",
+  "editionLabel": "21 October 2026",
+  "preparedLabel": "October 21 Morning Edition",
+  "monthKey": "2026-10",
+  "monthLabel": "October 2026",
+  "summary": "National averages can conceal groups with very low screening access. Disaggregated monitoring can change where outreach, screening capacity, navigation, financing, and follow-up resources are directed, particularly for cervical-cancer elimination programmes.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 32,
+    "followupApprovals": 8,
+    "indiaMarketed": 4,
+    "watchlistSignals": 59,
+    "verifiedRecords": 102
+  },
+  "headlines": [
+    {
+      "tag": "Authoritative global descriptive assessment; not an intervention trial",
+      "title": "WHO global NCD inequality assessment and cancer-screening gaps",
+      "summary": "National averages can conceal groups with very low screening access. Disaggregated monitoring can change where outreach, screening capacity, navigation, financing, and follow-up resources are directed, particularly for cervical-cancer elimination programmes."
+    },
+    {
+      "tag": "Latest verified approval",
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "summary": "FDA accelerated approval 19 October 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+    },
+    {
+      "tag": "Peer-reviewed randomized Phase II; no clear added clinical benefit and higher toxicity",
+      "title": "ZZ-FIRST talazoparib plus enzalutamide in high-volume mHNPC",
+      "summary": "The trial tests whether PARP inhibition adds value before castration resistance in a biomarker-unselected, high-volume population. Its randomized results caution against interpreting a single-arm PSA threshold as proof of comparative benefit and expose a substantial hematologic toxicity trade-off."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "dostarlimab-azur1-rectal-cancer"
+      },
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "subtitle": "FDA accelerated approval 19 October 2026",
+      "date": 1792368000000
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "who-ncd-inequality-cancer-screening-2026"
+      },
+      "title": "WHO global NCD inequality assessment and cancer-screening gaps",
+      "subtitle": "Authoritative global descriptive assessment; not an intervention trial",
+      "date": 0
+    }
+  ],
+  "sourceCount": 102,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "dostarlimab-azur1-rectal-cancer"
+      },
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "subtitle": "FDA accelerated approval 19 October 2026",
+      "date": 1792368000000
+    }
+  }
+}

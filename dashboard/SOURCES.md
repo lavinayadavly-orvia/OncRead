@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-20
+Updated: 2026-10-21
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-10-21 review added WHO's first comprehensive global assessment of within-country NCD inequalities as an equity and cancer-screening systems record. The 185-page report, WHO departmental update, and advocacy brief support the scope, quantified cervical-screening gradients, policy relevance, and evidence limitations. Cross-country subgroup medians remain descriptive and are not represented as causal effects or India programme outcomes.
 - The 2026-10-20 review added FDA's accelerated approval of dostarlimab for previously untreated Stage II/III dMMR/MSI-H locally advanced rectal cancer as a full treatment dossier, preserving the two single-arm evidence packages, central-versus-investigator response discrepancy, incomplete follow-up, surveillance and salvage requirements, immune-mediated risks, and absence of verified India indication-specific access. A catch-up EMA watchlist record separately preserves the mixed positive, withdrawn, and non-recommended oncology outcomes published after the prior visible edition.
 - The 2026-10-16 review added three peer-reviewed watchlist records spanning perioperative immunotherapy and potential organ preservation in localized dMMR/MSI-H gastric/GEJ cancer, quality of life after selective watch-and-wait for rectal cancer, and neoadjuvant SABR before RCC vena-cava thrombectomy. All remain explicitly nonrandomized or post hoc and are not represented as comparative survival proof, validated surgery-omission pathways, or routine standards of care.
 - The 2026-10-15 review added FDA's Anktiva label expansion, two peer-reviewed randomized Phase II signals with explicit efficacy and safety limitations, and the formal WHO-ASCO quality partnership. FDA, peer-reviewed reports, trial registries, WHO, and ASCO were used as primary or authoritative sources. Same-window prevention-tool launches, webinars, very small feasibility work, mechanistic studies, and result-free announcements were reviewed but not promoted when they did not change a clinical decision, final regulator status, implemented access pathway, or measured patient outcome.
@@ -98,6 +99,19 @@ Updated: 2026-10-20
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-21 Verified Updates and Review Checks
+
+- WHO global report `State of inequality: noncommunicable diseases and their risk factors`; primary source for the nine multicountry data sources, 35 indicators, inequality dimensions, cancer-screening methods, quantified cervical-screening subgroup medians, India literature context, and stated data limitations
+  https://www.who.int/publications/i/item/9789240125018
+- WHO departmental update on the report; corroborated the 20 October publication date, first-global-assessment framing, rural and socioeconomic cervical-screening gaps, and policy use of inequality monitoring
+  https://www.who.int/wallisandfutuna/news/detail-global/20-10-2026-who-report-examines-inequalities-in-noncommunicable-diseases-and-their-risk-factors
+- WHO advocacy brief `The hidden inequalities behind noncommunicable diseases: from evidence to action`; source for the three implementation priorities of scaling proven interventions, targeting policy and resources using disaggregated data, and routinely measuring inequalities
+  https://www.who.int/publications/i/item/B09918
+- FDA final guidance on prescription-drug apps and software was reviewed as a potentially relevant cross-therapeutic digital-health policy update but not promoted because it did not establish an oncology-specific approval, safety action, care outcome, or implemented access change
+  https://www.fda.gov/news-events/press-announcements/fda-issues-final-guidance-prescription-drug-apps-and-software
+- EMA's 21st pharmacovigilance stakeholder platform, same-window reviews, editorials, case reports, preclinical reports, and result-free announcements were considered but not promoted because they did not add a final oncology-specific policy outcome, patient-outcome result, or deployable standard of care.
+- Rechecked FDA oncology approvals, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal publication surfaces, and targeted official sponsor disclosures. No additional same-window approval, withdrawal, material safety restriction, official India price, procurement action, shortage, or India-access milestone cleared promotion.
 
 ## 2026-10-20 Verified Updates and Review Checks
 

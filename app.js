@@ -1058,6 +1058,34 @@ asco2025Followup.forEach(item => Object.assign(item, followupDetails[item.id]));
 
 const watchlistSignals = [
   {
+    id: "who-ncd-inequality-cancer-screening-2026",
+    title: "WHO global NCD inequality assessment and cancer-screening gaps",
+    short: "WHO cancer-screening inequality assessment",
+    category: "Equity / screening / public-health data",
+    status: "systems",
+    statusLabel: "Authoritative global descriptive assessment; not an intervention trial",
+    geography: "Global; within-country analyses using multicountry data collected over the past decade",
+    date: "20 October 2026",
+    cancer: "Cervical, breast, and colorectal cancer screening; broader cancer-care equity data gaps",
+    issue: "WHO published the first comprehensive global assessment of within-country inequalities across noncommunicable diseases. Its cancer chapter found persistent economic, education, and residence-related gaps in screening, especially for cervical cancer in low- and middle-income countries, while documenting major gaps in comparable disaggregated data across the cancer-care continuum.",
+    organization: "World Health Organization, Data, Digital Health, Analytics and AI Department",
+    population: "The full report used nine multicountry data sources and 35 NCD indicators. The cancer chapter analysed self-reported lifetime cervical, breast, and colorectal screening coverage using DHS, EHIS, and STEPS data; cervical-screening comparisons covered varying groups of 15-43 countries depending on source and inequality dimension.",
+    comparator: "Within-country population strata by economic status, education, place of residence, employment, sex, or age, depending on indicator and data availability. This was descriptive monitoring rather than assignment to an intervention or control.",
+    endpoint: "Coverage of cancer screening and the magnitude and direction of inequalities between population subgroups. The report did not evaluate a screening intervention's effect on cancer incidence, stage, mortality, survival, or quality of life.",
+    effect: "For cervical screening in 22 predominantly low- and middle-income DHS countries, median lifetime coverage among women aged 30-49 years rose from 5.9% in the poorest quintile to 29.6% in the richest; median coverage was 7.2% among the least educated versus 18.4% among the most educated, and 9.8% in rural versus 18.8% in urban groups. In STEPS countries, the corresponding medians were 18.3% versus 39.8% by education and 15.7% versus 26.4% by residence. These cross-country subgroup medians are indicative and are not pooled causal effect estimates.",
+    whyMatters: "National averages can conceal groups with very low screening access. Disaggregated monitoring can change where outreach, screening capacity, navigation, financing, and follow-up resources are directed, particularly for cervical-cancer elimination programmes.",
+    whoAffected: "Women with low income or education and rural communities with lower cervical-screening access; people with disabilities or migration-related barriers; national cancer-control programmes; screening providers; health ministries; funders; and equity-monitoring teams.",
+    decisionImpact: "Supports routine subgroup reporting alongside national screening averages and equity-targeted programme design. It does not identify a single preferred screening technology, prove that a particular outreach intervention improves outcomes, or justify transferring one country's inequality estimate to another.",
+    evidenceStrength: "High for the existence and direction of documented inequalities because WHO synthesized nine authoritative multicountry data sources using a defined inequality-monitoring framework. Moderate-to-low for precise cross-country magnitude and implementation conclusions because survey years, age ranges, screening definitions, protocols, and country coverage differed.",
+    limitations: "Cancer analysis was restricted mainly to self-reported lifetime screening, with only 15-31 countries available for several DHS/STEPS inequality dimensions and no comparable global disaggregated datasets for diagnosis, treatment, survival, palliative care, or mortality. Data sources differed in age ranges, survey periods, protocols, and indicator measurement; the report labels cross-source results indicative and does not establish causality or intervention effectiveness.",
+    indiaImpact: "The report's literature review notes low breast- and cervical-cancer testing in India and lower participation among poor, non-educated, and rural women, with greater economic inequality in rural areas. It does not report a new India policy, programme target, procurement action, implementation budget, state-level estimate, or measured improvement; those remain unverified in this review.",
+    cost: "Not applicable as a treatment price. The report and advocacy brief did not provide an India programme budget, screening unit cost, procurement figure, reimbursement change, or cost-effectiveness estimate.",
+    nextMilestone: "WHO's 22 October report-launch webinar; national and subnational disaggregated baselines; equity targets tied to organised screening programmes; comparable indicators across prevention, diagnosis, treatment, survivorship, palliative care, and mortality; and measured implementation outcomes in India and other countries.",
+    verification: "Verified from WHO's 20 October 2026 185-page global report, same-day departmental update, and accompanying advocacy brief. The report analysed 35 indicators across up to eight inequality dimensions and explicitly cautions that cancer-screening comparisons are limited by data availability and comparability.",
+    source: "https://www.who.int/publications/i/item/9789240125018",
+    secondarySource: "https://www.who.int/wallisandfutuna/news/detail-global/20-10-2026-who-report-examines-inequalities-in-noncommunicable-diseases-and-their-risk-factors"
+  },
+  {
     id: "ema-october-2026-oncology-chmp-package",
     title: "EMA October 2026 oncology decision package",
     short: "October CHMP oncology package",
@@ -2752,6 +2780,7 @@ function formatImpactClass(group) {
 }
 
 const portfolioAliasRules = [
+  { match: /who global ncd inequality|cancer-screening gaps|who cancer-screening inequality/i, aliases: ["WHO", "State of inequality", "cervical cancer screening", "screening equity", "rural women", "poorest quintile", "DHS", "STEPS", "health inequality monitoring"] },
   { match: /dostarlimab|jemperli|azur-1|nct05723562|nct04165772/i, aliases: ["Jemperli", "Dostarlimab", "AZUR-1", "NCT05723562", "NCT04165772", "dMMR", "MSI-H", "rectal cancer", "organ preservation", "non-operative management"] },
   { match: /ema october 2026 oncology|october chmp oncology|mylotarg|talvey|truqap/i, aliases: ["EMA", "CHMP", "Rasonque", "Talvey", "Talquetamab", "Tukysa", "Ibrance", "Palbociclib", "Truqap", "Capivasertib", "Mylotarg", "Gemtuzumab ozogamicin", "multiple myeloma", "pediatric AML", "withdrawal", "non-recommendation"] },
   { match: /anktiva|nogapendekin|quilt-3\.032|nct03022825|papillary-only.*nmibc/i, aliases: ["Anktiva", "Nogapendekin alfa inbakicept-pmln", "N-803", "QUILT-3.032", "NCT03022825", "BCG", "NMIBC", "papillary-only"] },
