@@ -1,0 +1,89 @@
+{
+  "id": "2026-10-22",
+  "editionLabel": "22 October 2026",
+  "preparedLabel": "October 22 Morning Edition",
+  "monthKey": "2026-10",
+  "monthLabel": "October 2026",
+  "summary": "The European Commission approved perioperative pembrolizumab plus enfortumab vedotin for adults with resectable muscle-invasive bladder cancer regardless of cisplatin eligibility, extending the chemotherapy-free curative-intent option across the EU after randomized improvements in event-free and overall survival over gemcitabine/cisplatin in cisplatin-eligible patients.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 32,
+    "followupApprovals": 8,
+    "indiaMarketed": 4,
+    "watchlistSignals": 59,
+    "verifiedRecords": 102
+  },
+  "headlines": [
+    {
+      "tag": "Latest verified approval",
+      "title": "Perioperative Pembrolizumab + Enfortumab",
+      "summary": "EU approval 21 October 2026; US approval 10 July 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+    },
+    {
+      "tag": "Peer-reviewed randomized Phase II; no clear added clinical benefit and higher toxicity",
+      "title": "ZZ-FIRST talazoparib plus enzalutamide in high-volume mHNPC",
+      "summary": "The trial tests whether PARP inhibition adds value before castration resistance in a biomarker-unselected, high-volume population. Its randomized results caution against interpreting a single-arm PSA threshold as proof of comparative benefit and expose a substantial hematologic toxicity trade-off."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "pembro-enfortumab-mibc"
+      },
+      "title": "Perioperative Pembrolizumab + Enfortumab",
+      "subtitle": "EU approval 21 October 2026; US approval 10 July 2026",
+      "date": 1792540800000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "dostarlimab-azur1-rectal-cancer"
+      },
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "subtitle": "Single-arm Phase II; FDA accelerated approval · US accelerated approval; India indication unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "who-ncd-inequality-cancer-screening-2026"
+      },
+      "title": "WHO global NCD inequality assessment and cancer-screening gaps",
+      "subtitle": "Authoritative global descriptive assessment; not an intervention trial",
+      "date": 0
+    }
+  ],
+  "sourceCount": 102,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "pembro-enfortumab-mibc"
+      },
+      "title": "Perioperative Pembrolizumab + Enfortumab",
+      "subtitle": "EU approval 21 October 2026; US approval 10 July 2026",
+      "date": 1792540800000
+    }
+  }
+}

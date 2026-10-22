@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T00:49:55.734Z",
+  "generatedAt": "2026-10-22T05:13:37.111Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -2429,17 +2429,17 @@
       "order": 22,
       "title": "Perioperative Pembrolizumab + Enfortumab",
       "subtitle": "Padcev + Keytruda · Bladder cancer · Muscle-invasive, cystectomy-eligible",
-      "organization": "Merck + Astellas Pharma",
-      "snapshot": "Phase III · High",
-      "summary": "FDA expanded perioperative pembrolizumab plus enfortumab vedotin to all cystectomy-eligible muscle-invasive bladder cancer patients, not just the cisplatin-ineligible subset, after a direct randomized improvement over gemcitabine/cisplatin in a curative-intent setting.",
+      "organization": "Merck + Pfizer + Astellas Pharma",
+      "snapshot": "Phase III; FDA and EU approved · High",
+      "summary": "The European Commission approved perioperative pembrolizumab plus enfortumab vedotin for adults with resectable muscle-invasive bladder cancer regardless of cisplatin eligibility, extending the chemotherapy-free curative-intent option across the EU after randomized improvements in event-free and overall survival over gemcitabine/cisplatin in cisplatin-eligible patients.",
       "headline": "EFS HR 0.53 · OS HR 0.65 in KEYNOTE-B15 / EV-304",
-      "statusLabel": "US approved; India perioperative label unverified",
+      "statusLabel": "US and EU approved; India perioperative label unverified",
       "badges": [
-        "Phase III",
+        "Phase III; FDA and EU approved",
         "High",
-        "US approved; India perioperative label unverified"
+        "US and EU approved; India perioperative label unverified"
       ],
-      "searchText": "perioperative pembrolizumab + enfortumab padcev + keytruda bladder cancer muscle-invasive, cystectomy-eligible merck + astellas pharma phase iii high efs hr 0.53 os hr 0.65 in keynote-b15 / ev-304 fda expanded perioperative pembrolizumab plus enfortumab vedotin to all cystectomy-eligible muscle-invasive bladder cancer patients, not just the cisplatin-ineligible subset, after a direct randomized improvement over gemcitabine/cisplatin in a curative-intent setting. pembrolizumab retains immune-mediated and infusion-related toxicity risks. enfortumab vedotin carries warnings for skin reactions, hyperglycemia, pneumonitis/interstitial lung disease, peripheral neuropathy, ocular disorders and infusion site extravasation. keytruda",
+      "searchText": "perioperative pembrolizumab + enfortumab padcev + keytruda bladder cancer muscle-invasive, cystectomy-eligible merck + pfizer + astellas pharma phase iii; fda and eu approved high efs hr 0.53 os hr 0.65 in keynote-b15 / ev-304 the european commission approved perioperative pembrolizumab plus enfortumab vedotin for adults with resectable muscle-invasive bladder cancer regardless of cisplatin eligibility, extending the chemotherapy-free curative-intent option across the eu after randomized improvements in event-free and overall survival over gemcitabine/cisplatin in cisplatin-eligible patients. pembrolizumab retains immune-mediated and infusion-related toxicity risks. enfortumab vedotin carries warnings for skin reactions, hyperglycemia, pneumonitis/interstitial lung disease, peripheral neuropathy, ocular disorders and infusion site extravasation. keytruda",
       "route": {
         "view": "treatments",
         "kind": "detail",
@@ -2448,8 +2448,16 @@
       },
       "sourceLinks": [
         {
-          "label": "FDA approval notice",
+          "label": "Merck European Commission approval release",
+          "url": "https://www.merck.com/news/european-commission-approves-keytruda-pembrolizumab-plus-padcev-enfortumab-vedotin-ejfv-as-perioperative-treatment-for-adults-with-resectable-muscle-invasive-bladder-cancer-mibc/"
+        },
+        {
+          "label": "FDA approval notice and KEYNOTE-B15 evidence summary",
           "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-enfortumab-vedotin"
+        },
+        {
+          "label": "ClinicalTrials.gov KEYNOTE-B15 / EV-304 record",
+          "url": "https://clinicaltrials.gov/study/NCT04700124"
         }
       ],
       "sections": [
@@ -2459,11 +2467,11 @@
         ],
         [
           "Manufacturer / organization",
-          "Merck + Astellas Pharma"
+          "Merck + Pfizer + Astellas Pharma"
         ],
         [
           "Event date / geography",
-          "10 July 2026 FDA approval · United States; global Project Orbis review with other agencies still ongoing",
+          "21 October 2026 European Commission approval · all 27 EU member states plus Iceland, Liechtenstein and Norway; national reimbursement and commercial-availability timing remains country specific",
           "wide"
         ],
         [
@@ -2483,12 +2491,12 @@
         ],
         [
           "Effect size detail",
-          "Median EFS was not reached versus 48.5 months; HR 0.53 (95% CI 0.41-0.70). Median OS was not reached in either arm; HR 0.65 (95% CI 0.48-0.89).",
+          "Median EFS was not reached versus 48.5 months; HR 0.53 (95% CI 0.41-0.70; p<0.0001). Median OS was not reached in either arm; HR 0.65 (95% CI 0.48-0.89; p=0.0029). Pathologic complete response was 55.8% (95% CI 50.8-60.7) versus 32.5% (95% CI 28.0-37.3).",
           "wide"
         ],
         [
           "Regulatory status",
-          "FDA approved on priority review and five weeks ahead of the goal date. The FDA page states collaborating Project Orbis agency reviews remain ongoing; no verified CDSCO, EMA or other national authorization for this perioperative use was captured in this pass.",
+          "European Commission approved on 21 October 2026 for adults with resectable MIBC regardless of cisplatin eligibility, following the September CHMP recommendation. FDA approved the perioperative regimen on 10 July 2026. No verified CDSCO authorization, India launch date, official price, reimbursement decision, or procurement pathway was identified.",
           "wide"
         ],
         [
@@ -2498,7 +2506,7 @@
         ],
         [
           "Clinical meaning",
-          "FDA expanded perioperative pembrolizumab plus enfortumab vedotin to all cystectomy-eligible muscle-invasive bladder cancer patients, not just the cisplatin-ineligible subset, after a direct randomized improvement over gemcitabine/cisplatin in a curative-intent setting.",
+          "The European Commission approved perioperative pembrolizumab plus enfortumab vedotin for adults with resectable muscle-invasive bladder cancer regardless of cisplatin eligibility, extending the chemotherapy-free curative-intent option across the EU after randomized improvements in event-free and overall survival over gemcitabine/cisplatin in cisplatin-eligible patients.",
           "wide"
         ],
         [
@@ -2513,11 +2521,11 @@
         ],
         [
           "Launch / market status",
-          "FDA approval 10 July 2026. US approved; India perioperative label unverified"
+          "EU approval 21 October 2026; US approval 10 July 2026. US and EU approved; India perioperative label unverified"
         ],
         [
           "Current limitation",
-          "The pivotal trial was open-label and enrolled cisplatin-eligible surgical candidates. Longer follow-up is still needed for cure durability, perioperative tolerability in routine practice, and regional reimbursement/adoption outside the FDA setting.",
+          "The pivotal trial was open-label and enrolled cisplatin-eligible surgical candidates. The EU label extends to adults regardless of cisplatin eligibility, supported by the broader perioperative evidence package, but KEYNOTE-B15 itself does not directly estimate benefit versus surgery alone in cisplatin-ineligible patients. Longer follow-up is still needed for cure durability and routine-practice tolerability; country-level reimbursement and commercial availability remain pending.",
           "wide"
         ]
       ]
@@ -9904,7 +9912,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 219,
+    "sourcesChecked": 221,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,

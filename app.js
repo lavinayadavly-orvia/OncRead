@@ -635,26 +635,36 @@ const treatments = [
   },
   {
     id: "pembro-enfortumab-mibc", short: "Padcev + Keytruda", name: "Perioperative Pembrolizumab + Enfortumab", cancer: "Bladder cancer",
-    setting: "Muscle-invasive, cystectomy-eligible", company: "Merck + Astellas Pharma", phase: "Phase III",
+    setting: "Muscle-invasive, cystectomy-eligible", company: "Merck + Pfizer + Astellas Pharma", phase: "Phase III; FDA and EU approved",
     impact: "High", impactGroup: "high", maturity: 99, impactScore: 92,
-    eventDate: "2026-07-10",
+    eventDate: "2026-10-21",
     headline: "EFS HR 0.53", headlineNote: "OS HR 0.65 in KEYNOTE-B15 / EV-304",
-    benefit: "FDA expanded perioperative pembrolizumab plus enfortumab vedotin to all cystectomy-eligible muscle-invasive bladder cancer patients, not just the cisplatin-ineligible subset, after a direct randomized improvement over gemcitabine/cisplatin in a curative-intent setting.",
+    benefit: "The European Commission approved perioperative pembrolizumab plus enfortumab vedotin for adults with resectable muscle-invasive bladder cancer regardless of cisplatin eligibility, extending the chemotherapy-free curative-intent option across the EU after randomized improvements in event-free and overall survival over gemcitabine/cisplatin in cisplatin-eligible patients.",
     safety: "Pembrolizumab retains immune-mediated and infusion-related toxicity risks. Enfortumab vedotin carries warnings for skin reactions, hyperglycemia, pneumonitis/interstitial lung disease, peripheral neuropathy, ocular disorders and infusion site extravasation.",
     cost: "High dual-agent perioperative immunotherapy plus ADC cost", indiaPrice: "No official US list-price update, India price, or government procurement figure for this perioperative regimen was verified in this pass.",
-    indiaStatus: "not-launched", indiaLabel: "US approved; India perioperative label unverified", launch: "FDA approval 10 July 2026",
+    indiaStatus: "not-launched", indiaLabel: "US and EU approved; India perioperative label unverified", launch: "EU approval 21 October 2026; US approval 10 July 2026",
     indiaCaveat: "No verified CDSCO approval, India launch date, or official reimbursement/procurement announcement for this muscle-invasive bladder cancer use was identified.",
-    limitations: "The pivotal trial was open-label and enrolled cisplatin-eligible surgical candidates. Longer follow-up is still needed for cure durability, perioperative tolerability in routine practice, and regional reimbursement/adoption outside the FDA setting.",
+    limitations: "The pivotal trial was open-label and enrolled cisplatin-eligible surgical candidates. The EU label extends to adults regardless of cisplatin eligibility, supported by the broader perioperative evidence package, but KEYNOTE-B15 itself does not directly estimate benefit versus surgery alone in cisplatin-ineligible patients. Longer follow-up is still needed for cure durability and routine-practice tolerability; country-level reimbursement and commercial availability remain pending.",
     detailSections: [
-      ["Event date / geography", "10 July 2026 FDA approval · United States; global Project Orbis review with other agencies still ongoing", "wide"],
+      ["Event date / geography", "21 October 2026 European Commission approval · all 27 EU member states plus Iceland, Liechtenstein and Norway; national reimbursement and commercial-availability timing remains country specific", "wide"],
       ["Population / sample", "808 previously untreated adults with muscle-invasive bladder cancer who were candidates for radical cystectomy with pelvic lymph node dissection and were eligible for cisplatin-based chemotherapy", "wide"],
       ["Comparator", "Neoadjuvant pembrolizumab plus enfortumab vedotin followed by surgery and adjuvant pembrolizumab plus enfortumab vedotin versus neoadjuvant gemcitabine and cisplatin followed by surgery", "wide"],
       ["Primary endpoint", "Event-free survival by blinded independent central review; overall survival was an additional efficacy endpoint", "wide"],
-      ["Effect size detail", "Median EFS was not reached versus 48.5 months; HR 0.53 (95% CI 0.41-0.70). Median OS was not reached in either arm; HR 0.65 (95% CI 0.48-0.89).", "wide"],
-      ["Regulatory status", "FDA approved on priority review and five weeks ahead of the goal date. The FDA page states collaborating Project Orbis agency reviews remain ongoing; no verified CDSCO, EMA or other national authorization for this perioperative use was captured in this pass.", "wide"]
+      ["Effect size detail", "Median EFS was not reached versus 48.5 months; HR 0.53 (95% CI 0.41-0.70; p<0.0001). Median OS was not reached in either arm; HR 0.65 (95% CI 0.48-0.89; p=0.0029). Pathologic complete response was 55.8% (95% CI 50.8-60.7) versus 32.5% (95% CI 28.0-37.3).", "wide"],
+      ["Regulatory status", "European Commission approved on 21 October 2026 for adults with resectable MIBC regardless of cisplatin eligibility, following the September CHMP recommendation. FDA approved the perioperative regimen on 10 July 2026. No verified CDSCO authorization, India launch date, official price, reimbursement decision, or procurement pathway was identified.", "wide"]
     ],
-    source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-enfortumab-vedotin",
-    sourceLabel: "FDA approval notice"
+    source: "https://www.merck.com/news/european-commission-approves-keytruda-pembrolizumab-plus-padcev-enfortumab-vedotin-ejfv-as-perioperative-treatment-for-adults-with-resectable-muscle-invasive-bladder-cancer-mibc/",
+    sourceLabel: "Merck European Commission approval release",
+    supportingSources: [
+      {
+        label: "FDA approval notice and KEYNOTE-B15 evidence summary",
+        url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-enfortumab-vedotin"
+      },
+      {
+        label: "ClinicalTrials.gov KEYNOTE-B15 / EV-304 record",
+        url: "https://clinicaltrials.gov/study/NCT04700124"
+      }
+    ]
   },
   {
     id: "isatuximab-sc", short: "Sarclisa Escena", name: "Subcutaneous Isatuximab", cancer: "Multiple myeloma",

@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-21
+Updated: 2026-10-22
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-10-22 review updated the existing perioperative pembrolizumab plus enfortumab vedotin MIBC dossier after the European Commission authorized the regimen for adults with resectable disease regardless of cisplatin eligibility. The official Merck regulatory release provides the final EU action, geography, efficacy figures, and reimbursement caveat; the FDA notice and NCT04700124 remain evidence and design cross-checks. No duplicate treatment record was created.
 - The 2026-10-21 review added WHO's first comprehensive global assessment of within-country NCD inequalities as an equity and cancer-screening systems record. The 185-page report, WHO departmental update, and advocacy brief support the scope, quantified cervical-screening gradients, policy relevance, and evidence limitations. Cross-country subgroup medians remain descriptive and are not represented as causal effects or India programme outcomes.
 - The 2026-10-20 review added FDA's accelerated approval of dostarlimab for previously untreated Stage II/III dMMR/MSI-H locally advanced rectal cancer as a full treatment dossier, preserving the two single-arm evidence packages, central-versus-investigator response discrepancy, incomplete follow-up, surveillance and salvage requirements, immune-mediated risks, and absence of verified India indication-specific access. A catch-up EMA watchlist record separately preserves the mixed positive, withdrawn, and non-recommended oncology outcomes published after the prior visible edition.
 - The 2026-10-16 review added three peer-reviewed watchlist records spanning perioperative immunotherapy and potential organ preservation in localized dMMR/MSI-H gastric/GEJ cancer, quality of life after selective watch-and-wait for rectal cancer, and neoadjuvant SABR before RCC vena-cava thrombectomy. All remain explicitly nonrandomized or post hoc and are not represented as comparative survival proof, validated surgery-omission pathways, or routine standards of care.
@@ -99,6 +100,17 @@ Updated: 2026-10-21
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-22 Verified Updates and Review Checks
+
+- Merck official European Commission approval release; primary source for the 21 October 2026 authorization, EU/EEA geography, regardless-of-cisplatin-eligibility label, KEYNOTE-B15 efficacy results, common adverse reactions, and country-specific reimbursement and commercial-availability caveat
+  https://www.merck.com/news/european-commission-approves-keytruda-pembrolizumab-plus-padcev-enfortumab-vedotin-ejfv-as-perioperative-treatment-for-adults-with-resectable-muscle-invasive-bladder-cancer-mibc/
+- FDA July approval notice; cross-check for the 808-patient randomized design, cisplatin-eligible population, regimen, comparator, EFS and OS estimates, safety warnings, and prior US regulatory status
+  https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-enfortumab-vedotin
+- ClinicalTrials.gov KEYNOTE-B15 / EV-304 record NCT04700124; cross-check for trial design, eligibility, interventions, endpoints, and recruitment status
+  https://clinicaltrials.gov/study/NCT04700124
+- FDA oncology approval index, EMA news and shortages-and-safety surfaces, CDSCO current dispatches, WHO/IARC news, major-journal feeds, and targeted official sponsor disclosures were rechecked. WHO's childhood-cancer congress, EMA's 21 October MSSG meeting, reviews, case reports, observational or mechanistic studies, and result-free conference announcements were considered but not promoted because they did not add a separate final oncology action, material safety restriction, implemented access outcome, or decision-changing patient result within the scheduled review window.
+- No official regimen price, CDSCO authorization, India launch date, reimbursement decision, procurement action, shortage, or India-specific access milestone was verified.
 
 ## 2026-10-21 Verified Updates and Review Checks
 

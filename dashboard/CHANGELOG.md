@@ -1,5 +1,14 @@
 # Dashboard Changelog
 
+## 2026-10-22 - European Perioperative MIBC Approval
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 22 October run across regulators, peer-reviewed journals, trial registries, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, manufacturing, shortages, access, pricing, procurement, epidemiology, public health, care delivery, workforce, policy, and data infrastructure.
+- Updated the existing `Perioperative Pembrolizumab + Enfortumab` dossier after the European Commission approved the regimen as neoadjuvant treatment followed by post-cystectomy adjuvant treatment for adults with resectable muscle-invasive bladder cancer regardless of cisplatin eligibility. This is represented as a regional regulatory expansion of the existing evidence-backed regimen, not as a duplicate treatment.
+- Preserved the randomized KEYNOTE-B15 / EV-304 evidence: event-free survival HR 0.53 (95% CI 0.41-0.70; p<0.0001), overall survival HR 0.65 (95% CI 0.48-0.89; p=0.0029), and pathologic complete response 55.8% versus 32.5%. The trial enrolled cisplatin-eligible surgical candidates, so the dossier does not claim that KEYNOTE-B15 directly estimates benefit versus surgery alone in cisplatin-ineligible patients.
+- Recorded that the authorization covers all 27 EU member states plus Iceland, Liechtenstein, and Norway, while commercial availability and reimbursement remain country specific. No official regimen price, CDSCO authorization, India launch date, reimbursement decision, procurement action, or India-specific evidence was verified.
+- Rechecked FDA oncology, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal, and official sponsor surfaces. EMA's shortages-and-safety steering-group meeting, WHO's childhood-cancer congress, same-day observational and mechanistic studies, reviews, case reports, and result-free conference announcements were considered but not promoted because they did not add a separate final oncology action or decision-changing patient outcome within the scheduled review window.
+- The existing treatment structure represents the update accurately, so no taxonomy, scoring, evidence-rating, filter, layout, or navigation change was required. The detailed Word report was not modified.
+
 ## 2026-10-21 - WHO Cancer-Screening Inequality Assessment
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 21 October run across regulators, peer-reviewed journals, trial registries, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, manufacturing, shortages, access, pricing, procurement, epidemiology, public health, care delivery, workforce, policy, and data infrastructure.
