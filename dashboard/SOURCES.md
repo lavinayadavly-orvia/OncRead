@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-22
+Updated: 2026-10-23
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-10-23 review found no newly visible development that cleared the substantive-update threshold. FDA, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal, ESMO, and official sponsor surfaces were rechecked. Lilly's same-window Virginia manufacturing groundbreaking was documented but not promoted because the investment and planned ADC/bioconjugate scope were previously announced and the ceremony did not establish operating capacity, a supply change, a product decision, or a patient-access outcome. Substantive records and evidence ratings were unchanged.
 - The 2026-10-22 review updated the existing perioperative pembrolizumab plus enfortumab vedotin MIBC dossier after the European Commission authorized the regimen for adults with resectable disease regardless of cisplatin eligibility. The official Merck regulatory release provides the final EU action, geography, efficacy figures, and reimbursement caveat; the FDA notice and NCT04700124 remain evidence and design cross-checks. No duplicate treatment record was created.
 - The 2026-10-21 review added WHO's first comprehensive global assessment of within-country NCD inequalities as an equity and cancer-screening systems record. The 185-page report, WHO departmental update, and advocacy brief support the scope, quantified cervical-screening gradients, policy relevance, and evidence limitations. Cross-country subgroup medians remain descriptive and are not represented as causal effects or India programme outcomes.
 - The 2026-10-20 review added FDA's accelerated approval of dostarlimab for previously untreated Stage II/III dMMR/MSI-H locally advanced rectal cancer as a full treatment dossier, preserving the two single-arm evidence packages, central-versus-investigator response discrepancy, incomplete follow-up, surveillance and salvage requirements, immune-mediated risks, and absence of verified India indication-specific access. A catch-up EMA watchlist record separately preserves the mixed positive, withdrawn, and non-recommended oncology outcomes published after the prior visible edition.
@@ -100,6 +101,16 @@ Updated: 2026-10-22
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-23 Verified Updates and Review Checks
+
+- Lilly official 22 October manufacturing release; primary source for the Goochland County groundbreaking, $5 billion investment, planned integrated active-ingredient and finished-medicine scope, dedicated bioconjugate and large-molecule capacity, ADC focus, 650 expected jobs, and 2028 workforce-training-centre target
+  https://investor.lilly.com/node/55146/pdf
+- Virginia Economic Development Partnership project announcement and ecosystem update; authoritative cross-check that the $5 billion investment, 650-job plan, bioconjugate and monoclonal-antibody scope, and approximately five-year completion horizon were already public before the same-window groundbreaking
+  https://www.vedp.org/press-release/eli-lilly-and-company-invests-5-billion-virginia
+  https://www.vedp.org/news/growing-biopharma-ecosystem
+- FDA oncology approval notifications, FDA current updates, EMA news and oncology regulatory surfaces, CDSCO notices, WHO and IARC publications, ClinicalTrials.gov, major-journal publication feeds, ESMO official congress surfaces, and targeted sponsor disclosures were rechecked for the scheduled review window. No new final oncology authorization, withdrawal, material safety restriction, pivotal result, implemented guideline or reimbursement decision, shortage, official India price, procurement action, or India-access milestone cleared promotion.
+- ESMO 2026 begins on 23 October. Pre-congress previews, abstract titles without a newly disclosed authoritative result package, and result-free sponsor announcements were not promoted; full evidence will be assessed when officially presented or published.
 
 ## 2026-10-22 Verified Updates and Review Checks
 

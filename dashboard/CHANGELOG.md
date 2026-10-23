@@ -1,5 +1,13 @@
 # Dashboard Changelog
 
+## 2026-10-23 - No Material Verified Oncology Update
+
+- Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 23 October run across regulators, peer-reviewed journals, trial registries, diagnostics, screening, surgery, radiotherapy, prevention, supportive and palliative care, biomarkers, manufacturing, shortages, safety, withdrawals, guidelines, reimbursement, care delivery, workforce, epidemiology, public health, trial methodology, data infrastructure, and emerging modalities.
+- No same-window regulator action, pivotal or decision-changing clinical result, material safety signal, withdrawal, guideline change, access decision, or implemented care-delivery development cleared the threshold for a substantive dashboard record.
+- Considered Lilly's 22 October groundbreaking for its $5 billion Goochland County, Virginia, manufacturing facility. The oncology-relevant investment, planned antibody-drug-conjugate and bioconjugate capacity, job count, and integrated active-ingredient and finished-medicine scope had already been officially announced; the groundbreaking did not add named-product capacity, an operating date, supply availability, price, procurement outcome, or patient-access change. The project remains a long-horizon manufacturing signal rather than a new care decision.
+- Rechecked FDA oncology, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal, ESMO, and targeted official sponsor surfaces. ESMO 2026 previews and result-free announcements were not promoted before authoritative result disclosure, and no new official India oncology authorization, price, procurement action, shortage, or launch milestone was verified.
+- Substantive records, taxonomy, scoring, evidence ratings, filters, layout, and navigation are unchanged. The dated morning edition and archive were advanced to reflect the completed review; the detailed Word report was not modified.
+
 ## 2026-10-22 - European Perioperative MIBC Approval
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 22 October run across regulators, peer-reviewed journals, trial registries, diagnostics, screening, surgery, radiotherapy, prevention, supportive care, safety, manufacturing, shortages, access, pricing, procurement, epidemiology, public health, care delivery, workforce, policy, and data infrastructure.
