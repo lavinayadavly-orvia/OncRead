@@ -1,10 +1,11 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-23
+Updated: 2026-10-24
 
 ## Method
 
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
+- The 2026-10-24 review added four ESMO 2026 day-one watchlist records: the paired negative randomized Phase III KEYNOTE-866 and ENERGIZE perioperative MIBC results, the positive non-registrational Phase III STARBOARD melanoma result, the low-pathological-response TALENT neoadjuvant T-DXd signal, and the first 24-patient DEWI dostarlimab watch-and-wait interim analysis. Official ESMO reports were cross-checked against trial registries and official sponsor or national-registry records. Later-session ESMO data and previews without same-window result disclosure were excluded.
 - The 2026-10-23 review found no newly visible development that cleared the substantive-update threshold. FDA, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal, ESMO, and official sponsor surfaces were rechecked. Lilly's same-window Virginia manufacturing groundbreaking was documented but not promoted because the investment and planned ADC/bioconjugate scope were previously announced and the ceremony did not establish operating capacity, a supply change, a product decision, or a patient-access outcome. Substantive records and evidence ratings were unchanged.
 - The 2026-10-22 review updated the existing perioperative pembrolizumab plus enfortumab vedotin MIBC dossier after the European Commission authorized the regimen for adults with resectable disease regardless of cisplatin eligibility. The official Merck regulatory release provides the final EU action, geography, efficacy figures, and reimbursement caveat; the FDA notice and NCT04700124 remain evidence and design cross-checks. No duplicate treatment record was created.
 - The 2026-10-21 review added WHO's first comprehensive global assessment of within-country NCD inequalities as an equity and cancer-screening systems record. The 185-page report, WHO departmental update, and advocacy brief support the scope, quantified cervical-screening gradients, policy relevance, and evidence limitations. Cross-country subgroup medians remain descriptive and are not represented as causal effects or India programme outcomes.
@@ -101,6 +102,32 @@ Updated: 2026-10-23
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-24 Verified Updates and Review Checks
+
+- ESMO official report for the randomized Phase III KEYNOTE-866 and ENERGIZE perioperative MIBC results; primary source for populations, comparators, EFS and pCR outcomes, confidence intervals, p values, OS context, and safety
+  https://www.esmo.org/insights-by-esmo/all-news/are-the-benefits-of-peri-operative-immunotherapy-in-resectable-bladder-cancer-being-called-into-question
+- KEYNOTE-866 and ENERGIZE trial registries; design, sponsor, population, intervention, and endpoint cross-checks
+  https://clinicaltrials.gov/study/NCT03924856
+  https://clinicaltrials.gov/study/NCT03661320
+- ESMO official STARBOARD report; primary source for the randomized Phase III PFS, response, OS-maturity, and safety result
+  https://www.esmo.org/insights-by-esmo/all-news/first-line-triplet-regimen-significantly-prolongs-progression-free-survival-in-braf-v600-mutant-melanoma
+- STARBOARD trial registry and UK Health Research Authority study summary; design, comparator, sponsor, population, and non-sequential strategy cross-checks
+  https://clinicaltrials.gov/study/NCT04657991
+  https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/the-starboard-study/
+- Pfizer official ESMO programme; cross-check that STARBOARD was designated a non-registrational Phase III study
+  https://www.pfizer.com/news/press-release/press-release-detail/pfizer-advances-todays-cancer-care-and-tomorrows-potential
+- ESMO official TALENT report; primary source for pCR, RCB0/1, radiographic response, ILD, discontinuation, and mortality reporting
+  https://www.esmo.org/insights-by-esmo/all-news/low-rates-of-pathological-complete-response-reported-with-trastuzumab-deruxtecan-in-early-breast-cancer
+- TALENT registry; population, intervention, phase, design, and identifier cross-check
+  https://clinicaltrials.gov/study/NCT04553770
+- ESMO official DEWI report; primary source for the first 24-patient interim result, response definition, surgical outcomes, follow-up, and safety
+  https://www.esmo.org/insights-by-esmo/all-news/selected-patients-with-gastro-oesophageal-adenocarcinoma-benefit-from-a-dostarlimab-watch-and-wait-strategy
+- DEWI ClinicalTrials.gov and French National Cancer Institute records; protocol, biomarker population, adaptive pathway, and enrollment cross-checks
+  https://clinicaltrials.gov/study/NCT06059495
+  https://www.cancer.fr/personnes-malades/registre-des-essais-cliniques/etude-dewi-g-123-nbsp-etude-de-phase-2-visant-a-evaluer-une-strategie-de-surveillance-et-d-attente-watch-and-wait-pour-initier-un-traitement-d
+- FDA oncology approval notifications, FDA current drug updates, EMA news and oncology regulatory surfaces, CDSCO notices and meeting records, WHO/IARC publications, ClinicalTrials.gov, major-journal feeds, and targeted official sponsor disclosures were rechecked for the review window. No same-window final authorization, withdrawal, material safety restriction, implemented reimbursement decision, shortage, official India price, procurement action, or India-access milestone cleared promotion.
+- ESMO abstracts and sponsor previews for presentations scheduled after the review cutoff were considered but not promoted. They require result disclosure in a subsequent dated review rather than anticipatory inclusion.
 
 ## 2026-10-23 Verified Updates and Review Checks
 
