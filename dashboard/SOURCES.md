@@ -1,9 +1,10 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-24
+Updated: 2026-10-25
 
 ## Method
 
+- The 2026-10-25 review upgraded the existing intismeran melanoma dossier with the detailed randomized Phase III INTerpath-001 results and added five ESMO records spanning DeLLphi-305, VOLGA, KEYNOTE-B49, FOURLIGHT-1, and the CAPItello-281 overall-survival follow-up. Primary conference, peer-reviewed, sponsor, and trial-registry sources were used to preserve both positive and negative findings, immature or descriptive analyses, safety burdens, and unresolved India access and pricing. No same-window final FDA, EMA, CDSCO, WHO/IARC, shortage, reimbursement, or India procurement milestone cleared the promotion threshold, and no information-architecture change was required.
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
 - The 2026-10-24 review added four ESMO 2026 day-one watchlist records: the paired negative randomized Phase III KEYNOTE-866 and ENERGIZE perioperative MIBC results, the positive non-registrational Phase III STARBOARD melanoma result, the low-pathological-response TALENT neoadjuvant T-DXd signal, and the first 24-patient DEWI dostarlimab watch-and-wait interim analysis. Official ESMO reports were cross-checked against trial registries and official sponsor or national-registry records. Later-session ESMO data and previews without same-window result disclosure were excluded.
 - The 2026-10-23 review found no newly visible development that cleared the substantive-update threshold. FDA, EMA, CDSCO, WHO/IARC, ClinicalTrials.gov, major-journal, ESMO, and official sponsor surfaces were rechecked. Lilly's same-window Virginia manufacturing groundbreaking was documented but not promoted because the investment and planned ADC/bioconjugate scope were previously announced and the ceremony did not establish operating capacity, a supply change, a product decision, or a patient-access outcome. Substantive records and evidence ratings were unchanged.
@@ -102,6 +103,35 @@ Updated: 2026-10-24
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-25 Verified Updates and Review Checks
+
+- Merck and Moderna detailed INTerpath-001 Phase III disclosure; primary source for the 1,137-patient randomized design, RFS and DMFS hazard ratios, 24-month landmark rates, safety, and immature OS status
+  https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/
+- ClinicalTrials.gov INTerpath-001 record; design, intervention, population, endpoint, and identifier cross-check
+  https://clinicaltrials.gov/study/NCT05933577
+- Amgen and AstraZeneca 24 October DeLLphi-305 disclosures; matched primary sponsor sources for OS, PFS, response, safety, population, monitoring, and interim-analysis context
+  https://www.amgen.com/newsroom/press-releases/2026/10/imdelltra-in-combination-with-imfinzi-reduced-risk-of-death-by-an-unprecedented-58-in-firstline-extensive-stage-small-cell-lung-cancer
+  https://www.astrazeneca.com/media-centre/press-releases/2026/imfinzi-plus-imdelltra-reduced-the-risk-of-death-by-58-pct-in-1st-line-extensive-stage-small-cell-lung-cancer-in-the-dellphi-305-phase-iii-trial.html
+- ClinicalTrials.gov DeLLphi-305 record; trial design, population, comparator, endpoints, and sponsor cross-check
+  https://clinicaltrials.gov/study/NCT06211036
+- AstraZeneca 24 October VOLGA numerical disclosure; primary source for EFS, OS, landmark estimates, safety, population, comparator, and simultaneous-publication status
+  https://www.astrazeneca.com/media-centre/press-releases/2026/perioperative-imfinzi-plus-neoadjuvant-enfortumab-vedotin-reduced-risk-of-recurrence-by-49-and-risk-of-death-by-42-in-muscle-invasive-bladder-cancer.html
+- ClinicalTrials.gov VOLGA record; design, intervention, population, endpoints, and separate-arm cross-check
+  https://clinicaltrials.gov/study/NCT04960709
+- ESMO KEYNOTE-B49 report and ClinicalTrials.gov record; primary congress source and registry cross-check for the PFS-positive, OS-negative randomized Phase III result, PD-L1 population, comparator, and safety
+  https://www.esmo.org/insights-by-esmo/all-news/is-there-an-early-role-for-immunotherapy-in-endocrine-refractory-breast-cancer
+  https://clinicaltrials.gov/study/NCT04895358
+- Annals of Oncology FOURLIGHT-1 randomized Phase II publication and ClinicalTrials.gov record; primary sources for PFS, response, safety, comparator composition, and confirmatory-development context
+  https://doi.org/10.1016/j.annonc.2026.10.1282
+  https://clinicaltrials.gov/study/NCT06105632
+- Annals of Oncology CAPItello-281 follow-up and ClinicalTrials.gov record; primary sources for the 42%-mature ad hoc descriptive OS analysis, updated rPFS, PTEN definition, population, and analysis limitations
+  https://doi.org/10.1016/j.annonc.2026.10.097
+  https://clinicaltrials.gov/study/NCT04493853
+- ESMO's 24 October congress-news surface was used for open-ended significance screening across treatment modalities, tumour sites, negative and mixed results, treatment optimization, and emerging technologies
+  https://www.esmo.org/insights-by-esmo
+- FDA oncology approval notifications, FDA current drug updates, EMA news and oncology regulatory surfaces, CDSCO notices, WHO/IARC publications, trial registries, major-journal feeds, and targeted official sponsor disclosures were rechecked. No same-window final authorization, withdrawal, material safety restriction, implemented reimbursement decision, shortage, official India price, procurement action, or India-access milestone cleared promotion.
+- The 23 October PANKU-Breast01 disclosure and other evidence made official before the current 24-hour boundary were not duplicated in this edition. Presentations scheduled for 25 October or later were not promoted from titles, previews, or embargoed claims before authoritative result disclosure.
 
 ## 2026-10-24 Verified Updates and Review Checks
 

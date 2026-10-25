@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-24T00:57:00.483Z",
-  "currentEditionId": "2026-10-24",
-  "currentEditionLabel": "24 October 2026",
+  "generatedAt": "2026-10-25T00:52:51.133Z",
+  "currentEditionId": "2026-10-25",
+  "currentEditionLabel": "25 October 2026",
   "editions": [
+    {
+      "id": "2026-10-25",
+      "editionLabel": "25 October 2026",
+      "preparedLabel": "October 25 Morning Edition",
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "summary": "In INTerpath-001, adjuvant intismeran autogene plus pembrolizumab reduced the hazard of recurrence or death by 42% and distant metastasis or death by 38% versus pembrolizumab alone after complete resection of stage IIB-IV melanoma. This is the first positive randomized Phase III dataset for an individualized mRNA neoantigen therapy, but overall survival remains immature and the product is not approved.",
+      "file": "/data/editions/2026-10-25.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 32,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 68,
+        "verifiedRecords": 111
+      }
+    },
     {
       "id": "2026-10-24",
       "editionLabel": "24 October 2026",
@@ -1419,8 +1436,29 @@
     {
       "monthKey": "2026-10",
       "monthLabel": "October 2026",
-      "leadEditionId": "2026-10-24",
+      "leadEditionId": "2026-10-25",
       "highlights": [
+        {
+          "editionId": "2026-10-25",
+          "editionLabel": "25 October 2026",
+          "tag": "Latest verified approval",
+          "title": "Personalized mRNA Neoantigen Therapy",
+          "summary": "Detailed Phase III data presented 24 October 2026; no regulatory approval or launch date announced"
+        },
+        {
+          "editionId": "2026-10-25",
+          "editionLabel": "25 October 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+        },
+        {
+          "editionId": "2026-10-25",
+          "editionLabel": "25 October 2026",
+          "tag": "Peer-reviewed randomized Phase II; no clear added clinical benefit and higher toxicity",
+          "title": "ZZ-FIRST talazoparib plus enzalutamide in high-volume mHNPC",
+          "summary": "The trial tests whether PARP inhibition adds value before castration resistance in a biomarker-unselected, high-volume population. Its randomized results caution against interpreting a single-arm PSA threshold as proof of comparative benefit and expose a substantial hematologic toxicity trade-off."
+        },
         {
           "editionId": "2026-10-24",
           "editionLabel": "24 October 2026",
@@ -1438,27 +1476,6 @@
         {
           "editionId": "2026-10-24",
           "editionLabel": "24 October 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
-        },
-        {
-          "editionId": "2026-10-24",
-          "editionLabel": "24 October 2026",
-          "tag": "Peer-reviewed randomized Phase II; no clear added clinical benefit and higher toxicity",
-          "title": "ZZ-FIRST talazoparib plus enzalutamide in high-volume mHNPC",
-          "summary": "The trial tests whether PARP inhibition adds value before castration resistance in a biomarker-unselected, high-volume population. Its randomized results caution against interpreting a single-arm PSA threshold as proof of comparative benefit and expose a substantial hematologic toxicity trade-off."
-        },
-        {
-          "editionId": "2026-10-23",
-          "editionLabel": "23 October 2026",
-          "tag": "Latest verified approval",
-          "title": "Perioperative Pembrolizumab + Enfortumab",
-          "summary": "EU approval 21 October 2026; US approval 10 July 2026"
-        },
-        {
-          "editionId": "2026-10-23",
-          "editionLabel": "23 October 2026",
           "tag": "Highest-impact treatment pool",
           "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
           "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
