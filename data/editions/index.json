@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-25T00:52:51.133Z",
-  "currentEditionId": "2026-10-25",
-  "currentEditionLabel": "25 October 2026",
+  "generatedAt": "2026-10-26T00:46:28.212Z",
+  "currentEditionId": "2026-10-26",
+  "currentEditionLabel": "26 October 2026",
   "editions": [
+    {
+      "id": "2026-10-26",
+      "editionLabel": "26 October 2026",
+      "preparedLabel": "October 26 Morning Edition",
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "summary": "This is a direct randomized comparison with the drugs currently used in the same molecular setting, avoiding the uncertainty of an indirect cross-trial comparison and supporting a potential new later-line option.",
+      "file": "/data/editions/2026-10-26.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 32,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 74,
+        "verifiedRecords": 117
+      }
+    },
     {
       "id": "2026-10-25",
       "editionLabel": "25 October 2026",
@@ -1436,8 +1453,36 @@
     {
       "monthKey": "2026-10",
       "monthLabel": "October 2026",
-      "leadEditionId": "2026-10-25",
+      "leadEditionId": "2026-10-26",
       "highlights": [
+        {
+          "editionId": "2026-10-26",
+          "editionLabel": "26 October 2026",
+          "tag": "Positive randomized Phase III with simultaneous publication; divarasib remains investigational",
+          "title": "KRASCENDO 1 divarasib versus approved KRAS G12C inhibitors",
+          "summary": "This is a direct randomized comparison with the drugs currently used in the same molecular setting, avoiding the uncertainty of an indirect cross-trial comparison and supporting a potential new later-line option."
+        },
+        {
+          "editionId": "2026-10-26",
+          "editionLabel": "26 October 2026",
+          "tag": "Latest verified approval",
+          "title": "Personalized mRNA Neoantigen Therapy",
+          "summary": "Detailed Phase III data presented 24 October 2026; no regulatory approval or launch date announced"
+        },
+        {
+          "editionId": "2026-10-26",
+          "editionLabel": "26 October 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+        },
+        {
+          "editionId": "2026-10-26",
+          "editionLabel": "26 October 2026",
+          "tag": "Negative randomized Phase III; standard mFOLFOX6 remains supported",
+          "title": "IROCAS adjuvant mFOLFIRINOX intensification in high-risk colon cancer",
+          "summary": "The result closes off a plausible intensification strategy in a common curative setting and prevents additional toxicity without proven disease-control benefit."
+        },
         {
           "editionId": "2026-10-25",
           "editionLabel": "25 October 2026",
@@ -1448,34 +1493,6 @@
         {
           "editionId": "2026-10-25",
           "editionLabel": "25 October 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
-        },
-        {
-          "editionId": "2026-10-25",
-          "editionLabel": "25 October 2026",
-          "tag": "Peer-reviewed randomized Phase II; no clear added clinical benefit and higher toxicity",
-          "title": "ZZ-FIRST talazoparib plus enzalutamide in high-volume mHNPC",
-          "summary": "The trial tests whether PARP inhibition adds value before castration resistance in a biomarker-unselected, high-volume population. Its randomized results caution against interpreting a single-arm PSA threshold as proof of comparative benefit and expose a substantial hematologic toxicity trade-off."
-        },
-        {
-          "editionId": "2026-10-24",
-          "editionLabel": "24 October 2026",
-          "tag": "Two randomized Phase III primary-endpoint misses; ESMO 2026 conference results",
-          "title": "KEYNOTE-866 and ENERGIZE perioperative MIBC trials",
-          "summary": "The result changes interpretation of perioperative checkpoint inhibition in MIBC: activity cannot be generalized across agents, trial designs, chemotherapy delivery, populations, and treatment sequences. Negative evidence can prevent unsupported substitution or extrapolation."
-        },
-        {
-          "editionId": "2026-10-24",
-          "editionLabel": "24 October 2026",
-          "tag": "Latest verified approval",
-          "title": "Perioperative Pembrolizumab + Enfortumab",
-          "summary": "EU approval 21 October 2026; US approval 10 July 2026"
-        },
-        {
-          "editionId": "2026-10-24",
-          "editionLabel": "24 October 2026",
           "tag": "Highest-impact treatment pool",
           "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
           "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."

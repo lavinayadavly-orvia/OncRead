@@ -1,9 +1,10 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-25
+Updated: 2026-10-26
 
 ## Method
 
+- The 2026-10-26 review added six ESMO records spanning KRASCENDO 1, SAFFRON, CLARITY-Gastric01, OptiTROP-Lung06, IROCAS, and LITESPARK-012. Primary sponsor disclosures, ESMO reporting, simultaneous peer-reviewed-publication notices, and trial registries were reconciled to preserve head-to-head efficacy, mixed dual-primary results, negative intensification trials, safety burden, regional regulatory distinctions, evidence limitations, and unresolved India access and pricing. PERSEE and other same-window disclosures were considered but not promoted when primary capture was incomplete or the decision change was less clear. No information-architecture change was required.
 - The 2026-10-25 review upgraded the existing intismeran melanoma dossier with the detailed randomized Phase III INTerpath-001 results and added five ESMO records spanning DeLLphi-305, VOLGA, KEYNOTE-B49, FOURLIGHT-1, and the CAPItello-281 overall-survival follow-up. Primary conference, peer-reviewed, sponsor, and trial-registry sources were used to preserve both positive and negative findings, immature or descriptive analyses, safety burdens, and unresolved India access and pricing. No same-window final FDA, EMA, CDSCO, WHO/IARC, shortage, reimbursement, or India procurement milestone cleared the promotion threshold, and no information-architecture change was required.
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
 - The 2026-10-24 review added four ESMO 2026 day-one watchlist records: the paired negative randomized Phase III KEYNOTE-866 and ENERGIZE perioperative MIBC results, the positive non-registrational Phase III STARBOARD melanoma result, the low-pathological-response TALENT neoadjuvant T-DXd signal, and the first 24-patient DEWI dostarlimab watch-and-wait interim analysis. Official ESMO reports were cross-checked against trial registries and official sponsor or national-registry records. Later-session ESMO data and previews without same-window result disclosure were excluded.
@@ -103,6 +104,33 @@ Updated: 2026-10-25
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-26 Verified Updates and Review Checks
+
+- Roche KRASCENDO 1 disclosure; primary sponsor source for the 338-patient head-to-head randomized Phase III design, PFS, OS, response, duration, safety, exposure, and investigational status
+  https://www.roche.com/investors/updates/inv-update-2026-10-25
+- ClinicalTrials.gov KRASCENDO 1 record; design, population, comparator, endpoints, geography, and identifier cross-check
+  https://clinicaltrials.gov/study/NCT06497556
+- AstraZeneca SAFFRON disclosure and official trial page; primary sources for PFS, OS, landmark rates, safety, biomarker definition, design, and regional regulatory context
+  https://www.astrazeneca.com/media-centre/press-releases/2026/tagrisso-plus-orpathys-reduced-progression-or-death-risk-by-45-and-death-risk-by-32-in-met-driven-egfrm-nsclc-after-progression-on-tagrisso.html
+  https://www.astrazenecaclinicaltrials.com/study/D5087C00001/
+- ClinicalTrials.gov SAFFRON record; population, comparator, phase, interventions, endpoints, and identifier cross-check
+  https://clinicaltrials.gov/study/NCT05261399
+- AstraZeneca CLARITY-Gastric01 disclosure; primary source for the 2L+ and 3L+ OS estimates, the missed dual-primary BICR PFS endpoint, exploratory investigator PFS, safety, and biomarker threshold
+  https://www.astrazeneca.com/media-centre/press-releases/2026/sonesitatug-vedotin-reduced-the-risk-of-death-by-42-pct-in-2nd-and-later-line-cldn182-positive-advanced-gastricgej-cancers-in-clarity-gastric01.html
+- ClinicalTrials.gov CLARITY-Gastric01 record; design, enrollment, intervention, comparator, population, assay context, and identifier cross-check
+  https://clinicaltrials.gov/study/NCT06346392
+- Kelun-Biotech OptiTROP-Lung06 ESMO disclosure and ClinicalTrials.gov record; primary sponsor and registry sources for the randomized China Phase III design, PFS, response, duration, interim OS, safety direction, and evidence limitations
+  https://en.prnasia.com/releases/apac/the-results-of-phase-iii-optitrop-lung06-study-of-sacituzumab-tirumotecan-sac-tmt-presented-as-an-esmo-oral-presentation-and-simultaneously-published-in-the-new-england-journal-of-medicine-553119.shtml
+  https://clinicaltrials.gov/study/NCT06711900
+- ESMO IROCAS report and ClinicalTrials.gov record; primary congress and registry sources for the 795-patient negative adjuvant Phase III result, DFS and immature OS estimates, safety direction, population, and comparator
+  https://www.esmo.org/insights-by-esmo/all-news/too-much-too-late-in-high-risk-stage-iii-colon-cancer
+  https://clinicaltrials.gov/study/NCT02967289
+- ESMO LITESPARK-012 report and ClinicalTrials.gov record; primary congress and registry sources for the 1,688-patient three-arm negative Phase III result, response, safety burden, discontinuation, and first-line decision boundary
+  https://www.esmo.org/insights-by-esmo/all-news/advanced-renal-cancer-data-support-the-use-of-belzutifan-in-later-lines-but-not-first-line
+  https://clinicaltrials.gov/study/NCT04736706
+- FDA oncology approval notifications, FDA current drug updates, EMA news and oncology regulatory surfaces, CDSCO notices, WHO/IARC publications, major-journal feeds, and official sponsor disclosures were rechecked. No same-window final authorization, withdrawal, material safety restriction, implemented reimbursement decision, shortage, official India price, procurement action, or India-access milestone cleared promotion.
+- PERSEE and other 25 October congress results were considered but not promoted when same-window primary numerical capture was incomplete or the decision change was less clear than the six represented records. Presentations scheduled after the review cutoff were not pulled forward.
 
 ## 2026-10-25 Verified Updates and Review Checks
 
