@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-26T00:46:28.212Z",
-  "currentEditionId": "2026-10-26",
-  "currentEditionLabel": "26 October 2026",
+  "generatedAt": "2026-10-27T00:55:52.351Z",
+  "currentEditionId": "2026-10-27",
+  "currentEditionLabel": "27 October 2026",
   "editions": [
+    {
+      "id": "2026-10-27",
+      "editionLabel": "27 October 2026",
+      "preparedLabel": "October 27 Morning Edition",
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "summary": "A chemotherapy-free first-line option could reduce treatment burden for a biomarker-defined group while improving disease control. The result also sharpens the distinction between pembrolizumab monotherapy and already authorized first-line pembrolizumab-plus-chemotherapy regimens.",
+      "file": "/data/editions/2026-10-27.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 32,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 77,
+        "verifiedRecords": 120
+      }
+    },
     {
       "id": "2026-10-26",
       "editionLabel": "26 October 2026",
@@ -1453,8 +1470,36 @@
     {
       "monthKey": "2026-10",
       "monthLabel": "October 2026",
-      "leadEditionId": "2026-10-26",
+      "leadEditionId": "2026-10-27",
       "highlights": [
+        {
+          "editionId": "2026-10-27",
+          "editionLabel": "27 October 2026",
+          "tag": "PFS-positive randomized Phase III with simultaneous publication; OS not significant at this analysis",
+          "title": "KEYNOTE-C93 first-line pembrolizumab monotherapy in dMMR endometrial cancer",
+          "summary": "A chemotherapy-free first-line option could reduce treatment burden for a biomarker-defined group while improving disease control. The result also sharpens the distinction between pembrolizumab monotherapy and already authorized first-line pembrolizumab-plus-chemotherapy regimens."
+        },
+        {
+          "editionId": "2026-10-27",
+          "editionLabel": "27 October 2026",
+          "tag": "Latest verified approval",
+          "title": "Personalized mRNA Neoantigen Therapy",
+          "summary": "Detailed Phase III data presented 24 October 2026; no regulatory approval or launch date announced"
+        },
+        {
+          "editionId": "2026-10-27",
+          "editionLabel": "27 October 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+        },
+        {
+          "editionId": "2026-10-27",
+          "editionLabel": "27 October 2026",
+          "tag": "Negative randomized Phase III; standard mFOLFOX6 remains supported",
+          "title": "IROCAS adjuvant mFOLFIRINOX intensification in high-risk colon cancer",
+          "summary": "The result closes off a plausible intensification strategy in a common curative setting and prevents additional toxicity without proven disease-control benefit."
+        },
         {
           "editionId": "2026-10-26",
           "editionLabel": "26 October 2026",
@@ -1468,34 +1513,6 @@
           "tag": "Latest verified approval",
           "title": "Personalized mRNA Neoantigen Therapy",
           "summary": "Detailed Phase III data presented 24 October 2026; no regulatory approval or launch date announced"
-        },
-        {
-          "editionId": "2026-10-26",
-          "editionLabel": "26 October 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
-        },
-        {
-          "editionId": "2026-10-26",
-          "editionLabel": "26 October 2026",
-          "tag": "Negative randomized Phase III; standard mFOLFOX6 remains supported",
-          "title": "IROCAS adjuvant mFOLFIRINOX intensification in high-risk colon cancer",
-          "summary": "The result closes off a plausible intensification strategy in a common curative setting and prevents additional toxicity without proven disease-control benefit."
-        },
-        {
-          "editionId": "2026-10-25",
-          "editionLabel": "25 October 2026",
-          "tag": "Latest verified approval",
-          "title": "Personalized mRNA Neoantigen Therapy",
-          "summary": "Detailed Phase III data presented 24 October 2026; no regulatory approval or launch date announced"
-        },
-        {
-          "editionId": "2026-10-25",
-          "editionLabel": "25 October 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
         }
       ]
     },

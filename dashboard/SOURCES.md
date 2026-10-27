@@ -1,9 +1,10 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-26
+Updated: 2026-10-27
 
 ## Method
 
+- The 2026-10-27 review added KEYNOTE-C93, TroFuse-005, and PE-PE, and upgraded the existing SANOVO record from topline to full numerical Phase III evidence. Primary sponsor disclosures, the official ESMO abstract, trial registries, and simultaneous-publication notices were reconciled to preserve positive and nonsignificant dual-primary results, interim and secondary analyses, safety burdens, China-only generalizability, pending-versus-final regulatory status, and unresolved India access and pricing. No information-architecture change was required.
 - The 2026-10-26 review added six ESMO records spanning KRASCENDO 1, SAFFRON, CLARITY-Gastric01, OptiTROP-Lung06, IROCAS, and LITESPARK-012. Primary sponsor disclosures, ESMO reporting, simultaneous peer-reviewed-publication notices, and trial registries were reconciled to preserve head-to-head efficacy, mixed dual-primary results, negative intensification trials, safety burden, regional regulatory distinctions, evidence limitations, and unresolved India access and pricing. PERSEE and other same-window disclosures were considered but not promoted when primary capture was incomplete or the decision change was less clear. No information-architecture change was required.
 - The 2026-10-25 review upgraded the existing intismeran melanoma dossier with the detailed randomized Phase III INTerpath-001 results and added five ESMO records spanning DeLLphi-305, VOLGA, KEYNOTE-B49, FOURLIGHT-1, and the CAPItello-281 overall-survival follow-up. Primary conference, peer-reviewed, sponsor, and trial-registry sources were used to preserve both positive and negative findings, immature or descriptive analyses, safety burdens, and unresolved India access and pricing. No same-window final FDA, EMA, CDSCO, WHO/IARC, shortage, reimbursement, or India procurement milestone cleared the promotion threshold, and no information-architecture change was required.
 - Treatment and follow-up entries prefer primary sources such as JCO/ASCO abstracts, NEJM, FDA, EMA, and official sponsor releases.
@@ -104,6 +105,27 @@ Updated: 2026-10-26
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-27 Verified Updates and Review Checks
+
+- Merck KEYNOTE-C93 disclosure; primary sponsor source for the 299-patient randomized Phase III design, PFS, nonsignificant OS analysis, response, duration, safety, current US label boundary, and simultaneous Lancet publication
+  https://www.merck.com/news/keytruda-pembrolizumab-as-monotherapy-reduced-the-risk-of-disease-progression-or-death-by-43-for-certain-patients-with-advanced-or-recurrent-endometrial-cancer-with-mismatch-repair-deficient/
+- ClinicalTrials.gov KEYNOTE-C93 record; trial identity, design, population, intervention, comparator, endpoints, and identifier cross-check
+  https://clinicaltrials.gov/study/NCT05173987
+- Merck TroFuse-005 disclosure; primary sponsor source for the 776-patient randomized Phase III OS, PFS, response, response duration, safety, quality-of-life direction, FDA priority-review acceptance, and 15 June 2027 target date
+  https://www.merck.com/news/sacituzumab-tirumotecan-sac-tmt-reduced-the-risk-of-death-by-32-and-the-risk-of-disease-progression-or-death-by-41-compared-to-chemotherapy-in-certain-patients-with-advanced-or-recurrent-endometrial/
+- ClinicalTrials.gov TroFuse-005 record; trial identity, design, population, intervention, comparator, endpoints, and identifier cross-check
+  https://clinicaltrials.gov/study/NCT06132958
+- HUTCHMED SANOVO ESMO disclosure; primary sponsor source for the 326-patient randomized China Phase III design, ITT and high-MET PFS, secondary OS, safety, regional authorization boundaries, and planned China supplemental application
+  https://www.investegate.co.uk/announcement/rns/hutchmed-china-limited--hcm/sanovo-phase-iii-data-at-esmo/9840991
+- ClinicalTrials.gov SANOVO record; trial identity, sponsor, China study context, phase, population, intervention, comparator, and endpoint cross-check
+  https://clinicaltrials.gov/study/NCT05009836
+- Official ESMO LBA88 abstract and ClinicalTrials.gov PE-PE record; primary conference and registry sources for the 85-patient randomized Phase II design, relapse-free survival, local-therapy composition, safety, population, endpoint, and evidence limitations
+  https://s3.eu-central-1.amazonaws.com/m-anage.com.storage.esmo/static/esmo2026_abstracts/LBA88.html.pdf
+  https://clinicaltrials.gov/study/NCT05578664
+- Independent same-day PE-PE report; used only to cross-check conference presentation details and safety context
+  https://www.urologytimes.com/view/adding-perioperative-pembrolizumab-to-mdt-improves-rfs-in-oligometastatic-rcc
+- FDA oncology approval notifications and current drug updates, EMA news and oncology regulatory surfaces, CDSCO notices, WHO/IARC publications, major-journal feeds, official sponsor disclosures, and safety, shortage, reimbursement, pricing, procurement, and India-access sources were rechecked. No other same-window final action cleared promotion. Early-phase response reports and result-free announcements were considered but not promoted.
 
 ## 2026-10-26 Verified Updates and Review Checks
 
