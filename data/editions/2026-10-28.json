@@ -1,0 +1,94 @@
+{
+  "id": "2026-10-28",
+  "editionLabel": "28 October 2026",
+  "preparedLabel": "October 28 Morning Edition",
+  "monthKey": "2026-10",
+  "monthLabel": "October 2026",
+  "summary": "A fixed-dose, off-the-shelf BCMA bispecific that improves PFS against active standard regimens after commonly used anti-CD38 and lenalidomide therapy could move BCMA-directed treatment into earlier relapse and affect sequencing, infection prevention, and treatment-capacity planning.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 33,
+    "followupApprovals": 8,
+    "indiaMarketed": 4,
+    "watchlistSignals": 78,
+    "verifiedRecords": 122
+  },
+  "headlines": [
+    {
+      "tag": "Positive Phase III topline result; effect estimate and full dataset not reported",
+      "title": "MagnetisMM-32 elranatamab after anti-CD38 therapy and lenalidomide",
+      "summary": "A fixed-dose, off-the-shelf BCMA bispecific that improves PFS against active standard regimens after commonly used anti-CD38 and lenalidomide therapy could move BCMA-directed treatment into earlier relapse and affect sequencing, infection prevention, and treatment-capacity planning."
+    },
+    {
+      "tag": "Latest verified approval",
+      "title": "Talazoparib + Enzalutamide for HRR-Mutated mAPMN/S Prostate Cancer",
+      "summary": "FDA approval 26 October 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+    },
+    {
+      "tag": "Negative randomized Phase III; standard mFOLFOX6 remains supported",
+      "title": "IROCAS adjuvant mFOLFIRINOX intensification in high-risk colon cancer",
+      "summary": "The result closes off a plausible intensification strategy in a common curative setting and prevents additional toxicity without proven disease-control benefit."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "talazoparib-enzalutamide-talapro3-mapmns"
+      },
+      "title": "Talazoparib + Enzalutamide for HRR-Mutated mAPMN/S Prostate Cancer",
+      "subtitle": "FDA approval 26 October 2026",
+      "date": 1792972800000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "dostarlimab-azur1-rectal-cancer"
+      },
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "subtitle": "Single-arm Phase II; FDA accelerated approval · US accelerated approval; India indication unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "who-ncd-inequality-cancer-screening-2026"
+      },
+      "title": "WHO global NCD inequality assessment and cancer-screening gaps",
+      "subtitle": "Authoritative global descriptive assessment; not an intervention trial",
+      "date": 0
+    }
+  ],
+  "sourceCount": 122,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "talazoparib-enzalutamide-talapro3-mapmns"
+      },
+      "title": "Talazoparib + Enzalutamide for HRR-Mutated mAPMN/S Prostate Cancer",
+      "subtitle": "FDA approval 26 October 2026",
+      "date": 1792972800000
+    }
+  }
+}
