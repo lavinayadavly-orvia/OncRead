@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-28T03:26:27.502Z",
-  "currentEditionId": "2026-10-28",
-  "currentEditionLabel": "28 October 2026",
+  "generatedAt": "2026-10-29T00:49:46.790Z",
+  "currentEditionId": "2026-10-29",
+  "currentEditionLabel": "29 October 2026",
   "editions": [
+    {
+      "id": "2026-10-29",
+      "editionLabel": "29 October 2026",
+      "preparedLabel": "October 29 Morning Edition",
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "summary": "A large survival effect from a chemotherapy-free first-line combination could change treatment selection for PD-L1-positive recurrent or metastatic HNSCC if the full efficacy, safety, and quality-of-life dataset confirms a favorable benefit-risk profile.",
+      "file": "/data/editions/2026-10-29.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 33,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 81,
+        "verifiedRecords": 125
+      }
+    },
     {
       "id": "2026-10-28",
       "editionLabel": "28 October 2026",
@@ -1487,8 +1504,36 @@
     {
       "monthKey": "2026-10",
       "monthLabel": "October 2026",
-      "leadEditionId": "2026-10-28",
+      "leadEditionId": "2026-10-29",
       "highlights": [
+        {
+          "editionId": "2026-10-29",
+          "editionLabel": "29 October 2026",
+          "tag": "OS- and ORR-positive Phase III interim result; full dataset not yet presented",
+          "title": "LiGeR-HN1 petosemtamab plus pembrolizumab in first-line PD-L1-positive HNSCC",
+          "summary": "A large survival effect from a chemotherapy-free first-line combination could change treatment selection for PD-L1-positive recurrent or metastatic HNSCC if the full efficacy, safety, and quality-of-life dataset confirms a favorable benefit-risk profile."
+        },
+        {
+          "editionId": "2026-10-29",
+          "editionLabel": "29 October 2026",
+          "tag": "Latest verified approval",
+          "title": "Talazoparib + Enzalutamide for HRR-Mutated mAPMN/S Prostate Cancer",
+          "summary": "FDA approval 26 October 2026"
+        },
+        {
+          "editionId": "2026-10-29",
+          "editionLabel": "29 October 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+        },
+        {
+          "editionId": "2026-10-29",
+          "editionLabel": "29 October 2026",
+          "tag": "Independent DMC futility recommendation; trial discontinued before numerical efficacy disclosure",
+          "title": "IMpactMF imetelstat trial discontinued for overall-survival futility",
+          "summary": "The discontinuation removes a potential disease-modifying survival strategy for a high-risk post-JAK-inhibitor population with limited options and prevents an unquantified earlier Phase II survival signal from being treated as confirmatory evidence."
+        },
         {
           "editionId": "2026-10-28",
           "editionLabel": "28 October 2026",
@@ -1502,34 +1547,6 @@
           "tag": "Latest verified approval",
           "title": "Talazoparib + Enzalutamide for HRR-Mutated mAPMN/S Prostate Cancer",
           "summary": "FDA approval 26 October 2026"
-        },
-        {
-          "editionId": "2026-10-28",
-          "editionLabel": "28 October 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
-        },
-        {
-          "editionId": "2026-10-28",
-          "editionLabel": "28 October 2026",
-          "tag": "Negative randomized Phase III; standard mFOLFOX6 remains supported",
-          "title": "IROCAS adjuvant mFOLFIRINOX intensification in high-risk colon cancer",
-          "summary": "The result closes off a plausible intensification strategy in a common curative setting and prevents additional toxicity without proven disease-control benefit."
-        },
-        {
-          "editionId": "2026-10-27",
-          "editionLabel": "27 October 2026",
-          "tag": "PFS-positive randomized Phase III with simultaneous publication; OS not significant at this analysis",
-          "title": "KEYNOTE-C93 first-line pembrolizumab monotherapy in dMMR endometrial cancer",
-          "summary": "A chemotherapy-free first-line option could reduce treatment burden for a biomarker-defined group while improving disease control. The result also sharpens the distinction between pembrolizumab monotherapy and already authorized first-line pembrolizumab-plus-chemotherapy regimens."
-        },
-        {
-          "editionId": "2026-10-27",
-          "editionLabel": "27 October 2026",
-          "tag": "Latest verified approval",
-          "title": "Personalized mRNA Neoantigen Therapy",
-          "summary": "Detailed Phase III data presented 24 October 2026; no regulatory approval or launch date announced"
         }
       ]
     },
