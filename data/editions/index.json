@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-10-29T00:49:46.790Z",
-  "currentEditionId": "2026-10-29",
-  "currentEditionLabel": "29 October 2026",
+  "generatedAt": "2026-10-30T00:52:13.897Z",
+  "currentEditionId": "2026-10-30",
+  "currentEditionLabel": "30 October 2026",
   "editions": [
+    {
+      "id": "2026-10-30",
+      "editionLabel": "30 October 2026",
+      "preparedLabel": "October 30 Morning Edition",
+      "monthKey": "2026-10",
+      "monthLabel": "October 2026",
+      "summary": "A reproducible biomarker could focus a complex autologous TIL pathway on patients most likely to respond and make cell-therapy development more feasible in lung cancer. The current association is hypothesis-generating because the subgroup was derived retrospectively from a small, single-arm dataset.",
+      "file": "/data/editions/2026-10-30.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 33,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 82,
+        "verifiedRecords": 126
+      }
+    },
     {
       "id": "2026-10-29",
       "editionLabel": "29 October 2026",
@@ -1504,8 +1521,36 @@
     {
       "monthKey": "2026-10",
       "monthLabel": "October 2026",
-      "leadEditionId": "2026-10-29",
+      "leadEditionId": "2026-10-30",
       "highlights": [
+        {
+          "editionId": "2026-10-30",
+          "editionLabel": "30 October 2026",
+          "tag": "Expanded single-arm Phase II dataset; retrospective subgroup requires prospective validation",
+          "title": "IOV-LUN-202 lifileucel and retrospective biomarker enrichment in nonsquamous NSCLC",
+          "summary": "A reproducible biomarker could focus a complex autologous TIL pathway on patients most likely to respond and make cell-therapy development more feasible in lung cancer. The current association is hypothesis-generating because the subgroup was derived retrospectively from a small, single-arm dataset."
+        },
+        {
+          "editionId": "2026-10-30",
+          "editionLabel": "30 October 2026",
+          "tag": "Latest verified approval",
+          "title": "Talazoparib + Enzalutamide for HRR-Mutated mAPMN/S Prostate Cancer",
+          "summary": "FDA approval 26 October 2026"
+        },
+        {
+          "editionId": "2026-10-30",
+          "editionLabel": "30 October 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+        },
+        {
+          "editionId": "2026-10-30",
+          "editionLabel": "30 October 2026",
+          "tag": "Independent DMC futility recommendation; trial discontinued before numerical efficacy disclosure",
+          "title": "IMpactMF imetelstat trial discontinued for overall-survival futility",
+          "summary": "The discontinuation removes a potential disease-modifying survival strategy for a high-risk post-JAK-inhibitor population with limited options and prevents an unquantified earlier Phase II survival signal from being treated as confirmatory evidence."
+        },
         {
           "editionId": "2026-10-29",
           "editionLabel": "29 October 2026",
@@ -1516,34 +1561,6 @@
         {
           "editionId": "2026-10-29",
           "editionLabel": "29 October 2026",
-          "tag": "Latest verified approval",
-          "title": "Talazoparib + Enzalutamide for HRR-Mutated mAPMN/S Prostate Cancer",
-          "summary": "FDA approval 26 October 2026"
-        },
-        {
-          "editionId": "2026-10-29",
-          "editionLabel": "29 October 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
-        },
-        {
-          "editionId": "2026-10-29",
-          "editionLabel": "29 October 2026",
-          "tag": "Independent DMC futility recommendation; trial discontinued before numerical efficacy disclosure",
-          "title": "IMpactMF imetelstat trial discontinued for overall-survival futility",
-          "summary": "The discontinuation removes a potential disease-modifying survival strategy for a high-risk post-JAK-inhibitor population with limited options and prevents an unquantified earlier Phase II survival signal from being treated as confirmatory evidence."
-        },
-        {
-          "editionId": "2026-10-28",
-          "editionLabel": "28 October 2026",
-          "tag": "Positive Phase III topline result; effect estimate and full dataset not reported",
-          "title": "MagnetisMM-32 elranatamab after anti-CD38 therapy and lenalidomide",
-          "summary": "A fixed-dose, off-the-shelf BCMA bispecific that improves PFS against active standard regimens after commonly used anti-CD38 and lenalidomide therapy could move BCMA-directed treatment into earlier relapse and affect sequencing, infection prevention, and treatment-capacity planning."
-        },
-        {
-          "editionId": "2026-10-28",
-          "editionLabel": "28 October 2026",
           "tag": "Latest verified approval",
           "title": "Talazoparib + Enzalutamide for HRR-Mutated mAPMN/S Prostate Cancer",
           "summary": "FDA approval 26 October 2026"

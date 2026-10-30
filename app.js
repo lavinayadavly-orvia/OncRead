@@ -1098,6 +1098,34 @@ asco2025Followup.forEach(item => Object.assign(item, followupDetails[item.id]));
 
 const watchlistSignals = [
   {
+    id: "iov-lun-202-lifileucel-biomarker-nsclc-2026",
+    title: "IOV-LUN-202 lifileucel and retrospective biomarker enrichment in nonsquamous NSCLC",
+    short: "IOV-LUN-202 precision-TIL Phase II signal",
+    category: "Press-release-only Phase II signal / biomarker-guided cell therapy",
+    status: "conference",
+    statusLabel: "Expanded single-arm Phase II dataset; retrospective subgroup requires prospective validation",
+    geography: "Multinational Phase II trial; sponsor disclosure from the United States",
+    date: "29 October 2026",
+    cancer: "Previously treated metastatic nonsquamous non-small cell lung cancer without EGFR, ALK, or ROS1 alterations",
+    issue: "Iovance reported an expanded 69-patient IOV-LUN-202 dataset for one-time lifileucel after platinum chemotherapy and immune-checkpoint inhibition. The overall response rate remained near the earlier estimate, while responses clustered in a retrospectively defined KRAS-wild-type, HER2-wild-type, ever-smoker subgroup that will now be tested prospectively in the POSITILITY cohort.",
+    organization: "Iovance Biotherapeutics; IOV-LUN-202 investigators",
+    population: "Sixty-nine treated adults in Cohorts 1 and 2 with metastatic nonsquamous NSCLC after progression on or after platinum chemotherapy and immune-checkpoint inhibitor therapy. The analysis excluded EGFR-, ALK-, and ROS1-driven disease and included 22 patients in the retrospectively defined biomarker-enriched subgroup.",
+    comparator: "No concurrent control. All patients received tumor harvest, nonmyeloablative cyclophosphamide-fludarabine lymphodepletion, a single autologous lifileucel infusion, and interleukin-2 support.",
+    endpoint: "Registered primary endpoint is central-review objective response rate by RECIST 1.1 for Cohorts 1 and 2. Secondary endpoints include complete response, duration of response, disease control, progression-free survival, overall survival, and adverse events.",
+    effect: "Overall ORR was 24.6% (17/69), including 15 confirmed responses and two unconfirmed partial responses awaiting confirmation. ORR was 43.3% (13/30) in KRAS-wild-type versus 11.4% (4/35) in KRAS-mutant disease. In the post hoc KRAS-wild-type, HER2-wild-type, ever-smoker subgroup, ORR was 59.1% (13/22), including both complete responses. Confidence intervals, response duration, PFS, OS, and comparative effect estimates were not reported.",
+    whyMatters: "A reproducible biomarker could focus a complex autologous TIL pathway on patients most likely to respond and make cell-therapy development more feasible in lung cancer. The current association is hypothesis-generating because the subgroup was derived retrospectively from a small, single-arm dataset.",
+    whoAffected: "Patients with previously treated metastatic nonsquamous NSCLC; thoracic oncologists; molecular laboratories; surgeons and interventional teams obtaining tumor tissue; cell-therapy centers; regulators; payers; and health systems planning manufacturing and inpatient support.",
+    decisionImpact: "Supports enrollment in the prospective POSITILITY cohort and review of the completed broader dataset, not routine biomarker-selected lifileucel use. KRAS, HER2, and smoking history should not be used outside a trial to select TIL therapy until the enrichment rule and clinical benefit are prospectively validated.",
+    evidenceStrength: "Low-to-moderate: an expanded prospective multicenter Phase II cohort with ongoing independent radiology review and a stable overall response estimate, but no randomized comparator and a small retrospective biomarker subgroup reported only by the sponsor.",
+    limitations: "Press-release-only analysis; open-label nonrandomized design; two of 17 responses were unconfirmed; the enrichment rule was developed retrospectively; subgroup confidence intervals and multiplicity controls were not reported; four patients lacked KRAS assessment; response duration, PFS, OS, quality of life, detailed safety, treatment-related mortality, manufacturing failure, and attrition were not numerically reported. The registry has no posted results, and lifileucel remains investigational in NSCLC.",
+    indiaImpact: "No Indian trial site was listed in the current registry record, and no CDSCO authorization, India filing, official launch date, India price, reimbursement decision, procurement action, local manufacturing pathway, or India-specific outcome was reported or verified for lifileucel in NSCLC.",
+    cost: "Not reported for this investigational use. The pathway requires tumor procurement, individualized manufacturing, lymphodepleting chemotherapy, cell infusion, interleukin-2, and specialized supportive care; no official India price, reimbursement decision, procurement figure, or cost-effectiveness result was reported.",
+    nextMilestone: "Prospective POSITILITY enrollment beginning in November 2026; confirmation of the two unconfirmed responses; final approximately 80-patient Cohorts 1 and 2 dataset; response-duration, survival, safety, manufacturing, and attrition results; FDA feedback on registrational design; and the planned 2027 supplemental BLA if supported.",
+    verification: "Verified from Iovance's 29 October 2026 official release and cross-checked against ClinicalTrials.gov NCT04614103. The registry confirms the prospective, open-label, nonrandomized Phase II design, central-review ORR primary endpoint, cell-therapy workflow, and absence of posted results. The release states that safety remained consistent with prior reports after reduced-dose lymphodepletion but provides no numerical safety data.",
+    source: "https://www.globenewswire.com/news-release/2026/10/29/3391108/0/en/iovance-reports-updated-iov-lun-202-results-and-adds-precision-til-strategy-for-second-line-metastatic-non-small-cell-lung-cancer-mnsclc.html",
+    secondarySource: "https://clinicaltrials.gov/study/NCT04614103"
+  },
+  {
     id: "liger-hn1-petosemtamab-pembrolizumab-hnscc-2026",
     title: "LiGeR-HN1 petosemtamab plus pembrolizumab in first-line PD-L1-positive HNSCC",
     short: "LiGeR-HN1 OS/ORR-positive Phase III topline",
@@ -3436,6 +3464,7 @@ function formatImpactClass(group) {
 }
 
 const portfolioAliasRules = [
+  { match: /iov-lun-202|lifileucel.*nsclc|nct04614103|positility/i, aliases: ["IOV-LUN-202", "NCT04614103", "Lifileucel", "LN-145", "Amtagvi", "POSITILITY", "TIL", "tumor infiltrating lymphocytes", "KRAS", "HER2", "NSCLC"] },
   { match: /liger-hn1|petosemtamab.*pembrolizumab|nct06525220/i, aliases: ["LiGeR-HN1", "NCT06525220", "Petosemtamab", "Pembrolizumab", "Keytruda", "EGFR", "LGR5", "HNSCC", "head and neck cancer"] },
   { match: /impactmf|imetelstat.*myelofibrosis|nct04576156/i, aliases: ["IMpactMF", "NCT04576156", "Imetelstat", "Rytelo", "myelofibrosis", "JAK inhibitor", "negative trial", "discontinued"] },
   { match: /dsee-crc|functional precision medicine|nct07171554/i, aliases: ["DSEE-CRC", "NCT07171554", "Oncosyne", "patient-derived tumoroid", "drug sensitivity", "functional precision medicine", "metastatic colorectal cancer"] },

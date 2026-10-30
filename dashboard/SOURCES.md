@@ -1,10 +1,12 @@
 # Dashboard Source Ledger
 
-Updated: 2026-10-29
+Updated: 2026-10-30
 
 ## Method
 
+- The 2026-10-30 review added one material watchlist record for the expanded IOV-LUN-202 lifileucel dataset in previously treated metastatic nonsquamous NSCLC and its retrospective KRAS-wild-type, HER2-wild-type, ever-smoker enrichment signal. Iovance's official disclosure was reconciled with ClinicalTrials.gov NCT04614103 to preserve the 69-patient single-arm design, two unconfirmed responses, absent subgroup confidence intervals and numerical safety data, result-free registry status, prospective POSITILITY validation requirement, investigational regulatory status, specialized cell-therapy delivery burden, and unresolved India access and pricing. No information-architecture change was required.
 - The 2026-10-29 review added three material watchlist records: the OS- and ORR-positive LiGeR-HN1 Phase III topline result for petosemtamab plus pembrolizumab in first-line PD-L1-positive recurrent or metastatic HNSCC; the independent-DMC futility recommendation and discontinuation of Phase III IMpactMF in post-JAK-inhibitor myelofibrosis; and the peer-reviewed DSEE-CRC randomized protocol for patient-derived-tumoroid-guided treatment selection. Primary sponsor releases, trial registries, and the peer-reviewed protocol were reconciled to preserve the numerical LiGeR-HN1 effect estimates, the absence of disclosed IMpactMF efficacy estimates, DSEE-CRC's result-free protocol status, unresolved India access and pricing, and the distinction between investigational evidence and authorized care. No information-architecture change was required.
+
 - The 2026-10-28 review added FDA's biomarker-selected approval of talazoparib plus enzalutamide for HRR-mutated metastatic androgen pathway modulation-naive or -sensitive prostate cancer as a full treatment dossier and added MagnetisMM-32 as a press-release-only emerging signal. FDA, Pfizer, ClinicalTrials.gov, and the TALAPRO-3 peer-reviewed publication were reconciled to preserve the approved population, companion-diagnostic requirement, rPFS benefit, immature OS, severe anemia burden, Project Orbis status, unresolved India access and pricing, and the distinction from the small biomarker-unselected ZZ-FIRST trial. MagnetisMM-32 remains on the watchlist because its PFS hazard ratio, confidence interval, control median, response data, quality of life, and mature OS were not reported. No information-architecture change was required.
 - The 2026-10-27 review added KEYNOTE-C93, TroFuse-005, and PE-PE, and upgraded the existing SANOVO record from topline to full numerical Phase III evidence. Primary sponsor disclosures, the official ESMO abstract, trial registries, and simultaneous-publication notices were reconciled to preserve positive and nonsignificant dual-primary results, interim and secondary analyses, safety burdens, China-only generalizability, pending-versus-final regulatory status, and unresolved India access and pricing. No information-architecture change was required.
 - The 2026-10-26 review added six ESMO records spanning KRASCENDO 1, SAFFRON, CLARITY-Gastric01, OptiTROP-Lung06, IROCAS, and LITESPARK-012. Primary sponsor disclosures, ESMO reporting, simultaneous peer-reviewed-publication notices, and trial registries were reconciled to preserve head-to-head efficacy, mixed dual-primary results, negative intensification trials, safety burden, regional regulatory distinctions, evidence limitations, and unresolved India access and pricing. PERSEE and other same-window disclosures were considered but not promoted when primary capture was incomplete or the decision change was less clear. No information-architecture change was required.
@@ -107,6 +109,20 @@ Updated: 2026-10-29
 - The 2026-09-25 review added FDA-approved Lyrfigtu for FGFR2-altered cholangiocarcinoma and IARC's global Group A evaluation of targeted LDCT lung-cancer screening, while preserving single-arm treatment evidence, screening harms, implementation constraints, and unverified India access.
 - The `Global portfolio` page added on 2026-06-16 reuses the same verified records already represented elsewhere in the dashboard; it does not introduce a separate unsourced content layer.
 - The backend source monitor added on 2026-06-16 scrapes metadata only from the curated authoritative source URLs already attached to each verified record; it does not auto-publish newly scraped oncology claims into the dashboard without curation.
+
+## 2026-10-30 Verified Update
+
+- Iovance official IOV-LUN-202 expanded-data and precision-TIL disclosure: https://www.globenewswire.com/news-release/2026/10/29/3391108/0/en/iovance-reports-updated-iov-lun-202-results-and-adds-precision-til-strategy-for-second-line-metastatic-non-small-cell-lung-cancer-mnsclc.html
+- ClinicalTrials.gov IOV-LUN-202 registry, NCT04614103: https://clinicaltrials.gov/study/NCT04614103
+- FDA oncology approval notifications index, rechecked with no same-window oncology authorization: https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications
+- EMA news and meeting surfaces, rechecked with no same-window final oncology action: https://www.ema.europa.eu/en/news
+- CDSCO Subject Expert Committee index, rechecked for oncology and hematology recommendations: https://cdsco.gov.in/opencms/opencms/en/Committees/SEC/
+
+## 2026-10-30 Checked But Not Promoted
+
+- PERSEE's peer-reviewed Phase III publication was considered but dated 25 October 2026 and had already been reviewed in the ESMO interval; it was not treated as a new same-window development.
+- ReSPECT-GBM enrollment completion, SIGMA country expansion, and sponsor quarterly pipeline updates were considered but did not add a decision-changing patient outcome, final regulator action, or implemented access milestone.
+- No same-window final FDA, EMA, CDSCO, WHO/IARC, material shortage, safety restriction, withdrawal, reimbursement decision, official India price, procurement action, or India-access milestone cleared promotion.
 
 ## 2026-10-27 Verified Updates and Review Checks
 
