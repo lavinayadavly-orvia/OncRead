@@ -26,6 +26,23 @@ body {
   color: var(--ink);
   font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
 }
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 1000;
+  padding: 10px 14px;
+  color: #ffffff;
+  background: #17324a;
+  border-radius: 4px;
+  transform: translateY(-160%);
+  transition: transform 150ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
 h1, h2, h3, h4, .metric strong { font-family: "Sora", "Manrope", sans-serif; }
 button, input, select { font: inherit; }
 button { cursor: pointer; }

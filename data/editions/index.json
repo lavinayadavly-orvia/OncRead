@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-11-03T00:51:57.243Z",
-  "currentEditionId": "2026-11-03",
-  "currentEditionLabel": "3 November 2026",
+  "generatedAt": "2026-11-04T01:27:25.708Z",
+  "currentEditionId": "2026-11-04",
+  "currentEditionLabel": "4 November 2026",
   "editions": [
+    {
+      "id": "2026-11-04",
+      "editionLabel": "4 November 2026",
+      "preparedLabel": "November 4 Morning Edition",
+      "monthKey": "2026-11",
+      "monthLabel": "November 2026",
+      "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC.",
+      "file": "/data/editions/2026-11-04.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 33,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 87,
+        "verifiedRecords": 131
+      }
+    },
     {
       "id": "2026-11-03",
       "editionLabel": "3 November 2026",
@@ -1538,8 +1555,36 @@
     {
       "monthKey": "2026-11",
       "monthLabel": "November 2026",
-      "leadEditionId": "2026-11-03",
+      "leadEditionId": "2026-11-04",
       "highlights": [
+        {
+          "editionId": "2026-11-04",
+          "editionLabel": "4 November 2026",
+          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
+          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
+          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
+        },
+        {
+          "editionId": "2026-11-04",
+          "editionLabel": "4 November 2026",
+          "tag": "Latest verified approval",
+          "title": "Talazoparib + Enzalutamide for HRR-Mutated mAPMN/S Prostate Cancer",
+          "summary": "FDA approval 26 October 2026"
+        },
+        {
+          "editionId": "2026-11-04",
+          "editionLabel": "4 November 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+        },
+        {
+          "editionId": "2026-11-04",
+          "editionLabel": "4 November 2026",
+          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
+          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
+          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
+        },
         {
           "editionId": "2026-11-03",
           "editionLabel": "3 November 2026",
@@ -1553,20 +1598,6 @@
           "tag": "Latest verified approval",
           "title": "Talazoparib + Enzalutamide for HRR-Mutated mAPMN/S Prostate Cancer",
           "summary": "FDA approval 26 October 2026"
-        },
-        {
-          "editionId": "2026-11-03",
-          "editionLabel": "3 November 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
-        },
-        {
-          "editionId": "2026-11-03",
-          "editionLabel": "3 November 2026",
-          "tag": "Independent DMC futility recommendation; trial discontinued before numerical efficacy disclosure",
-          "title": "IMpactMF imetelstat trial discontinued for overall-survival futility",
-          "summary": "The discontinuation removes a potential disease-modifying survival strategy for a high-risk post-JAK-inhibitor population with limited options and prevents an unquantified earlier Phase II survival signal from being treated as confirmatory evidence."
         }
       ]
     },

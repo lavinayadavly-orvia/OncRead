@@ -1,8 +1,30 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-03
+Updated: 2026-11-04
 
 ## Method
+
+- The 2026-11-04 review added four material watchlist records: the modest PFS-positive but clinically limited and ILD-concerning DYNASTY-Breast02 Phase III topline result; the completed US NDA submission for darovasertib plus crizotinib in metastatic uveal melanoma; the operational closure of the randomized Phase III OptimUM-010 neoadjuvant trial; and the small single-arm NeoLIPA pathological-response signal in resectable melanoma. Official sponsor disclosures were cross-checked against NCT06018337, the OptimUM study program and NCT05987332, the OptimUM-010 trial description, and NCT06651151/CTIS 2023-508649-42-00. The records preserve absent numerical results, immature or nonrandomized evidence, the distinction between submission and approval, operational closure versus futility, unresolved India access and pricing, and the need for full presentation or regulatory review. IARC's awareness summary and older or already represented sponsor developments were reviewed but not promoted. No information-architecture change was required.
+
+## 2026-11-04 Verified Updates and Review Checks
+
+- BioNTech third-quarter corporate update and original DYNASTY-Breast02 topline release; primary sponsor sources for the modest PFS-positive interpretation, immature OS, ILD concern, limited-benefit assessment, and unresolved development plan
+  https://www.globenewswire.com/news-release/2026/11/03/3394017/0/en/biontech-announces-third-quarter-2026-financial-results-and-corporate-update.html
+  https://www.biontech.com/int/en/home/mediaroom/news/press-releases/2026/10/BioNTech-and-DualityBio-Announce-Topline-Results-of-the-DYNASTY-Breast02-Global-Phase-3-Clinical-Trial-Evaluating-Trastuzumab-Pamirtecan-in-HR--HER2-low-Metastatic-Breast-Cancer.html
+- ClinicalTrials.gov DYNASTY-Breast02 record; trial identity, randomized design, population, comparator, endpoints, and identifier cross-check
+  https://clinicaltrials.gov/study/NCT06018337
+- IDEAYA 3 November corporate update; primary sponsor source for the completed darovasertib-plus-crizotinib NDA submission, RTOR context, referenced OptimUM-01 and OptimUM-02 evidence, and the operational OptimUM-010 closure
+  https://ir.ideayabio.com/2026-11-03-IDEAYA-Biosciences-Reports-Financial-Results-for-the-Third-Quarter-2026-and-Provides-a-Business-Update
+- Official OptimUM study pages and ClinicalTrials.gov; cross-checks for the metastatic and neoadjuvant uveal-melanoma study designs, populations, comparators, endpoints, and randomized-evidence boundary
+  https://www.optimum-trials.com/01
+  https://www.optimum-trials.com/10/
+  https://clinicaltrials.gov/study/NCT05987332
+- Lytix Biopharma NeoLIPA disclosure; primary sponsor source for the prespecified pCR-threshold result, absence of numerical efficacy and safety details, and planned randomized development
+  https://news.cision.com/lytix-biopharma-asa/r/lytix-biopharma-announces-ruxotemitide-plus-pembrolizumab-meets-primary-endpoint-in-phase-ii-neolipa%2Cc4418925
+- ClinicalTrials.gov and CTIS NeoLIPA records; trial identity, two-site Norwegian design, planned enrollment, intervention, population, endpoints, and identifier cross-check
+  https://clinicaltrials.gov/study/NCT06651151
+  https://ctis.eu/trial/2023-508649-42-00
+- IARC's 3 November Gastric Cancer Awareness Month summary was reviewed but not promoted because it restated burden and H. pylori attribution without a new clinical result or implemented policy action. FDA oncology, EMA, CDSCO, WHO/IARC, safety, shortage, reimbursement, procurement, official-pricing, and India-access surfaces were rechecked; no additional same-window final action cleared promotion.
 
 - The 2026-11-03 review updated the existing SAFFRON regulatory record after Europe and Japan accepted applications for review and added FDA's final cellular and gene therapy potency-assurance guidance as a manufacturing-quality and regulatory-policy record. HUTCHMED's official company-distributed filing release and the peer-reviewed SAFFRON report were reconciled to preserve the distinction between application review and approval, the full PFS/OS estimates, unresolved regional decisions, and unverified India access and price. FDA's final guidance, docket FDA-2023-D-4299, and regulator announcement were used to capture the lifecycle potency strategy, nonbinding status, superseded 2011 guidance, oncology manufacturing relevance, and absence of measured clinical, access, or cost outcomes. No information-architecture change was required.
 
