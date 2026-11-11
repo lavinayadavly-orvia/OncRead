@@ -1,5 +1,14 @@
 # Dashboard Changelog
 
+## 2026-11-11 - Pimicotinib FDA Approval for Symptomatic TGCT
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, peer-reviewed journals, trial registries, diagnostics, screening, surgery, radiotherapy, prevention, supportive and palliative care, biomarkers, manufacturing, shortages, safety, withdrawals, guidelines, reimbursement, care delivery, workforce, epidemiology, public health, trial methodology, data infrastructure, and emerging modalities.
+- Added `Pimicotinib for Symptomatic TGCT` after FDA approved the oral CSF1R inhibitor for adults whose surgery may worsen functional limitation or cause severe morbidity. In randomized Phase III MANEUVER, week-25 blinded-independent-review ORR was 56% (95% CI 42-68) versus 3.2% (95% CI 0.1-17) with placebo; median duration of response was not reached, with 91% of responders maintaining response for at least six months and 77% for at least 12 months.
+- Captured prespecified improvements in range of motion, pain, and PROMIS physical function. The record does not infer an overall-survival benefit or displace surgery when resection is feasible without unacceptable morbidity, and it preserves the limits of the 24-week placebo-controlled period.
+- Added labeled safety context: common reactions included pruritus, rash, facial or periorbital edema, fatigue, nausea, headache, and peripheral edema; warnings include hepatotoxicity, embryo-fetal toxicity, and increased serum creatinine without impaired renal function.
+- Project Orbis participation and an EMA observer role are not represented as approvals outside the United States. No CDSCO authorization, official India launch, price, reimbursement decision, procurement action, distribution pathway, or India-specific outcome evidence was verified.
+- Rechecked FDA oncology, EMA, CDSCO, WHO/IARC, major-journal, trial-registry, safety, shortage, reimbursement, procurement, official-pricing, and India-access surfaces. No additional same-window final oncology action cleared promotion. The existing treatment, filter, search, and detail-panel schema represents the approval without a taxonomy or layout change. The detailed Word report was not modified.
+
 ## 2026-11-04 - Mixed Phase III Evidence, Uveal-Melanoma Regulatory and Trial Changes, and NeoLIPA Signal
 
 - Reviewed worldwide oncology developments made officially visible in the 24 hours before the scheduled 4 November run across regulators, peer-reviewed journals, conference databases, trial registries, diagnostics, screening, surgery, radiotherapy, prevention, supportive and palliative care, biomarkers, manufacturing, shortages, safety, withdrawals, guidelines, reimbursement, care delivery, workforce, epidemiology, public health, trial methodology, data infrastructure, and emerging modalities.

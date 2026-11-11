@@ -1,5 +1,35 @@
 const treatments = [
   {
+    id: "pimicotinib-pimjetmi-tgct", short: "Pimjetmi", name: "Pimicotinib for Symptomatic TGCT", cancer: "Tenosynovial giant cell tumor",
+    setting: "Adults with symptomatic TGCT for whom surgery may worsen functional limitation or cause severe morbidity", company: "EMD Serono", phase: "Randomized Phase III; FDA approved",
+    impact: "High for systemic treatment of unresectable or surgery-limited disease", impactGroup: "high", maturity: 99, impactScore: 88,
+    eventDate: "2026-11-10",
+    headline: "ORR 56% vs 3.2%", headlineNote: "Week 25 by blinded independent central review; median DoR not reached",
+    benefit: "FDA approved pimicotinib for adults with symptomatic tenosynovial giant cell tumor when surgery may worsen functional limitation or cause severe morbidity. In MANEUVER, blinded independent central review found a week-25 objective response in 56% of patients receiving pimicotinib versus 3.2% with placebo, with prespecified improvements in range of motion, pain, and physical function.",
+    safety: "The most common adverse reactions occurring in more than 20% were pruritus, rash, facial or periorbital edema, fatigue, nausea, headache, and peripheral edema. The label warns about hepatotoxicity, embryo-fetal toxicity, and increased serum creatinine without an effect on renal function.",
+    cost: "Branded oral therapy with hepatic and other safety monitoring; no official indication-specific US course price was reported in the FDA notice", indiaPrice: "No official India price, reimbursement decision, procurement figure, patient-assistance terms, or cost-effectiveness result was reported or verified.",
+    indiaStatus: "not-launched", indiaLabel: "US approved; India authorization unverified", launch: "FDA approval 10 November 2026",
+    indiaCaveat: "No CDSCO authorization, official India launch date, price, reimbursement decision, procurement action, distribution pathway, or India-specific outcome evidence for pimicotinib in TGCT was verified.",
+    limitations: "TGCT is a rare, locally aggressive tumor, and the pivotal evidence used tumor response and functional outcomes rather than overall survival. Surgery remains central when it can be performed without unacceptable morbidity. The placebo-controlled portion was limited to 24 weeks; longer-term comparative durability, rare toxicity, hepatic monitoring, and real-world treatment sequencing require continued follow-up.",
+    detailSections: [
+      ["Event date / geography", "10 November 2026 FDA approval - United States. Project Orbis included Australia, Canada, Israel, Switzerland, and the United Kingdom, with the EMA participating as an observer; other regional reviews must not be treated as approvals.", "wide"],
+      ["Population / sample", "MANEUVER was an international randomized, double-blind study in adults with symptomatic TGCT for whom surgery could cause worsening functional limitation or severe morbidity.", "wide"],
+      ["Comparator", "Pimicotinib 50 mg orally once daily versus placebo, randomized 2:1 during the 24-week double-blind portion.", "wide"],
+      ["Primary endpoint", "Objective response rate at week 25 by blinded independent central review, with response duration and prespecified patient-reported and functional measures providing additional evidence.", "wide"],
+      ["Effect size detail", "ORR was 56% (95% CI 42-68) with pimicotinib versus 3.2% (95% CI 0.1-17) with placebo. Median duration of response was not reached; 91% of responders maintained response for at least six months and 77% for at least 12 months.", "wide"],
+      ["Function and symptoms", "Prespecified analyses showed statistically significant improvements in range of motion, pain, and PROMIS physical function. These outcomes are clinically relevant in a disease where tumor location can impair mobility and surgery can itself cause morbidity.", "wide"],
+      ["Safety / monitoring", "Common reactions included pruritus, rash, facial or periorbital edema, fatigue, nausea, headache, and peripheral edema. The prescribing information warns about hepatotoxicity and embryo-fetal toxicity and notes increased serum creatinine without impaired renal function.", "wide"],
+      ["Decision boundary", "The approval applies to symptomatic TGCT when surgery may worsen function or cause severe morbidity. It does not displace surgery for readily resectable disease, establish an overall-survival benefit, or establish authorization or access in India.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pimicotinib-symptomatic-tenosynovial-giant-cell-tumor",
+    sourceLabel: "FDA approval notice",
+    supportingSources: [
+      { label: "Peer-reviewed MANEUVER publication", url: "https://pubmed.ncbi.nlm.nih.gov/41796601/" },
+      { label: "ClinicalTrials.gov MANEUVER registry", url: "https://clinicaltrials.gov/study/NCT05804045" },
+      { label: "EMD Serono two-year MANEUVER update", url: "https://www.emdserono.com/us-en/company/news/press-releases/pimicotinib-two-year-data-10-26-2026.html" }
+    ]
+  },
+  {
     id: "talazoparib-enzalutamide-talapro3-mapmns", short: "Talzenna + Xtandi", name: "Talazoparib + Enzalutamide for HRR-Mutated mAPMN/S Prostate Cancer", cancer: "Prostate cancer",
     setting: "Adults with HRR gene-mutated metastatic androgen pathway modulation-naive or -sensitive prostate cancer", company: "Pfizer; enzalutamide jointly commercialized with Astellas in the US", phase: "Randomized Phase III; FDA approved",
     impact: "High for biomarker-selected first-line metastatic disease", impactGroup: "high", maturity: 99, impactScore: 91,
@@ -3604,6 +3634,7 @@ function formatImpactClass(group) {
 }
 
 const portfolioAliasRules = [
+  { match: /pimicotinib|pimjetmi|maneuver|nct05804045/i, aliases: ["Pimjetmi", "Pimicotinib", "ABSK021", "MANEUVER", "NCT05804045", "TGCT", "tenosynovial giant cell tumor"] },
   { match: /dynasty-breast02|trastuzumab pamirtecan|nct06018337/i, aliases: ["DYNASTY-Breast02", "NCT06018337", "Trastuzumab pamirtecan", "DB-1303", "HER2-low", "breast cancer", "interstitial lung disease", "ILD"] },
   { match: /darovasertib-crizotinib-mum|darovasertib.*nda|optimum-0[12]|nct05987332/i, aliases: ["Darovasertib", "IDE196", "Crizotinib", "Xalkori", "OptimUM-01", "OptimUM-02", "NCT05987332", "uveal melanoma", "RTOR", "NDA"] },
   { match: /optimum-010|neoadjuvant darovasertib.*closure/i, aliases: ["OptimUM-010", "Darovasertib", "IDE196", "uveal melanoma", "eye preservation", "trial closure", "enrollment"] },

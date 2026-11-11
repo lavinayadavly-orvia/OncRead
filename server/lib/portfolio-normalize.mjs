@@ -1,4 +1,5 @@
 const portfolioAliasRules = [
+  { match: /pimicotinib|pimjetmi|maneuver|nct05804045/i, aliases: ["Pimjetmi", "Pimicotinib", "ABSK021", "MANEUVER", "NCT05804045", "TGCT", "tenosynovial giant cell tumor"] },
   { match: /who global ncd inequality|cancer-screening gaps|who cancer-screening inequality/i, aliases: ["WHO", "State of inequality", "cervical cancer screening", "screening equity", "rural women", "poorest quintile", "DHS", "STEPS", "health inequality monitoring"] },
   { match: /dostarlimab|jemperli|azur-1|nct05723562|nct04165772/i, aliases: ["Jemperli", "Dostarlimab", "AZUR-1", "NCT05723562", "NCT04165772", "dMMR", "MSI-H", "rectal cancer", "organ preservation", "non-operative management"] },
   { match: /ema october 2026 oncology|october chmp oncology|mylotarg|talvey|truqap/i, aliases: ["EMA", "CHMP", "Rasonque", "Talvey", "Talquetamab", "Tukysa", "Ibrance", "Palbociclib", "Truqap", "Capivasertib", "Mylotarg", "Gemtuzumab ozogamicin", "multiple myeloma", "pediatric AML", "withdrawal", "non-recommendation"] },

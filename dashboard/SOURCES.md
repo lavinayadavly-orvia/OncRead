@@ -1,8 +1,22 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-04
+Updated: 2026-11-11
 
 ## Method
+
+- The 2026-11-11 review added FDA's approval of pimicotinib for adults with symptomatic tenosynovial giant cell tumor when surgery may worsen functional limitation or cause severe morbidity. The FDA notice was reconciled with the peer-reviewed MANEUVER report, NCT05804045, and the sponsor's longer-follow-up disclosure. The record preserves the randomized placebo comparison, week-25 response and functional outcomes, durability, labeled safety warnings, surgery decision boundary, regional-review-versus-approval distinction, and unverified India authorization, availability, and price. No information-architecture change was required.
+
+## 2026-11-11 Verified Update
+
+- FDA approval notice; final US regulatory action, indicated population, MANEUVER design, ORR, response durability, functional outcomes, adverse reactions, warnings, and Project Orbis context
+  https://www.fda.gov/drugs/cancer-approvals/fda-approves-pimicotinib-symptomatic-tenosynovial-giant-cell-tumor
+- Peer-reviewed MANEUVER publication indexed by PubMed; randomized Phase III methods and efficacy and safety evidence
+  https://pubmed.ncbi.nlm.nih.gov/41796601/
+- ClinicalTrials.gov MANEUVER record; trial identity, randomized design, intervention, population, endpoints, and identifier cross-check
+  https://clinicaltrials.gov/study/NCT05804045
+- EMD Serono two-year MANEUVER update; primary sponsor source for longer-term durability and follow-up context
+  https://www.emdserono.com/us-en/company/news/press-releases/pimicotinib-two-year-data-10-26-2026.html
+- FDA oncology, EMA, CDSCO, WHO/IARC, trial-registry, major-journal, safety, shortage, reimbursement, procurement, official-pricing, and India-access surfaces were rechecked. No additional same-window final action cleared the materiality threshold.
 
 - The 2026-11-04 review added four material watchlist records: the modest PFS-positive but clinically limited and ILD-concerning DYNASTY-Breast02 Phase III topline result; the completed US NDA submission for darovasertib plus crizotinib in metastatic uveal melanoma; the operational closure of the randomized Phase III OptimUM-010 neoadjuvant trial; and the small single-arm NeoLIPA pathological-response signal in resectable melanoma. Official sponsor disclosures were cross-checked against NCT06018337, the OptimUM study program and NCT05987332, the OptimUM-010 trial description, and NCT06651151/CTIS 2023-508649-42-00. The records preserve absent numerical results, immature or nonrandomized evidence, the distinction between submission and approval, operational closure versus futility, unresolved India access and pricing, and the need for full presentation or regulatory review. IARC's awareness summary and older or already represented sponsor developments were reviewed but not promoted. No information-architecture change was required.
 
