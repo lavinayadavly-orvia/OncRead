@@ -98,6 +98,16 @@ nav { display: grid; gap: 7px; }
   color: #d5e0e7; font-size: 12px;
 }
 .sidebar-note p { margin: 4px 0 0; color: #8da4b5; }
+
+.brand-edition-date {
+  margin: 10px 0 0;
+  color: #0e746f;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.035em;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
 .status-dot { width: 8px; height: 8px; margin-top: 4px; border-radius: 50%; background: #71c3b7; box-shadow: 0 0 0 5px rgba(113,195,183,.12); }
 .report-link {
   margin: 8px 10px 0; color: #9fd0c8; font-size: 12px; font-weight: 750; text-decoration: none;

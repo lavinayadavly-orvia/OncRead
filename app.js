@@ -4614,6 +4614,10 @@ function renderInsights() {
   if (sidebarPreparedDate && hasCurrentBriefing) {
     sidebarPreparedDate.textContent = currentEdition.preparedLabel || "Prepared date loading";
   }
+  const brandEditionDate = $("#brand-edition-date");
+  if (brandEditionDate && hasCurrentBriefing) {
+    brandEditionDate.textContent = `${currentEdition.editionLabel || "Current"} edition`;
+  }
   if (hasCurrentBriefing) {
     $("#briefing-pulse-summary").textContent = "Review the lead development, regulatory decision points, and evidence limitations shaping oncology care.";
     $("#briefing-tag-row").innerHTML = [
