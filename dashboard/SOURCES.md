@@ -1,8 +1,27 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-11
+Updated: 2026-11-12
 
 ## Method
+
+- The 2026-11-12 review added two peer-reviewed records made visible on 11 November: the prespecified PORTEC-4a toxicity, HRQoL, and sexual-health analysis supporting molecular-guided adjuvant de-escalation in high-intermediate-risk endometrial cancer, and the retrospective TROP2 normalized-membrane-ratio computational-pathology signal for datopotamab deruxtecan in NSCLC. The publications were cross-checked against trial registries, the earlier PORTEC-4a efficacy report, and prior IASLC and sponsor biomarker disclosures. The records preserve randomized versus retrospective inference, recurrence and toxicity trade-offs, assay-development status, prospective-validation needs, and unresolved India testing, access, pricing, and implementation. No information-architecture change was required.
+
+## 2026-11-12 Verified Updates and Review Checks
+
+- Peer-reviewed PORTEC-4a toxicity, HRQoL, and sexual-health report; primary source for the randomized population, molecular-guided treatment allocation, questionnaire-evaluable population, follow-up, adverse events, HRQoL, sexual-health outcomes, and limitations
+  https://www.nature.com/articles/s41416-026-03642-4
+- ClinicalTrials.gov and ISRCTN PORTEC-4a records; trial identity, population, intervention algorithm, comparator, primary and secondary endpoints, and registry-status cross-check
+  https://clinicaltrials.gov/study/NCT03469674
+  https://www.isrctn.com/ISRCTN11659025
+- Peer-reviewed Nature Medicine TROP2 NMR report; primary source for computational-pathology development, TROPION-PanTumor01 discovery, retrospective TROPION-Lung01 confirmation, treatment-by-biomarker interactions, safety by biomarker status, mechanistic experiments, and limitations
+  https://www.nature.com/articles/s41591-026-04716-9
+- ClinicalTrials.gov TROPION-Lung01 and TROPION-PanTumor01 records; randomized comparator, population, endpoints, sample framework, and trial-identity cross-check
+  https://clinicaltrials.gov/study/NCT04656652
+  https://clinicaltrials.gov/study/NCT03401385
+- IASLC and Daiichi Sankyo prior biomarker disclosures; corroborated that the NMR signal was previously conference-only, the QCS method, exploratory status, intended nonsquamous non-AGA population, and prospective-validation requirement
+  https://www.iaslc.org/iaslc-news/press-release/normalized-membrane-ratio-trop2-quantitative-continuous-scoring-predictive
+  https://daiichisankyo.us/en/press-releases/-/article/novel-computational-pathology-based-trop2-biomarker-for-datopotamab-deruxtecan-was-predictive-of-clinical-outcomes-in-patients-with-non-small-cell-lun
+- FDA oncology, EMA, CDSCO, WHO/IARC, trial-registry, major-journal, safety, shortage, reimbursement, procurement, official-pricing, and India-access surfaces were rechecked. IARC awareness tiles, an investigational cardio-oncology wearable update, result-free conference previews, later commentary on already represented evidence, and preclinical or discovery-stage studies were reviewed but not promoted. No additional same-window final action cleared the materiality threshold.
 
 - The 2026-11-11 review added FDA's approval of pimicotinib for adults with symptomatic tenosynovial giant cell tumor when surgery may worsen functional limitation or cause severe morbidity. The FDA notice was reconciled with the peer-reviewed MANEUVER report, NCT05804045, and the sponsor's longer-follow-up disclosure. The record preserves the randomized placebo comparison, week-25 response and functional outcomes, durability, labeled safety warnings, surgery decision boundary, regional-review-versus-approval distinction, and unverified India authorization, availability, and price. No information-architecture change was required.
 
