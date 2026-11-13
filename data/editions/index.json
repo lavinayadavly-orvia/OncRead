@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-11-12T02:57:38.919Z",
-  "currentEditionId": "2026-11-12",
-  "currentEditionLabel": "12 November 2026",
+  "generatedAt": "2026-11-13T02:59:48.645Z",
+  "currentEditionId": "2026-11-13",
+  "currentEditionLabel": "13 November 2026",
   "editions": [
+    {
+      "id": "2026-11-13",
+      "editionLabel": "13 November 2026",
+      "preparedLabel": "November 13 Morning Edition",
+      "monthKey": "2026-11",
+      "monthLabel": "November 2026",
+      "summary": "This is randomized evidence of both disease-control and survival improvement in a post-chemoimmunotherapy setting with limited options. The absolute gains are clinically relevant but must be weighed against substantial hematologic toxicity and the China-only evidence base.",
+      "file": "/data/editions/2026-11-13.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 34,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 92,
+        "verifiedRecords": 137
+      }
+    },
     {
       "id": "2026-11-12",
       "editionLabel": "12 November 2026",
@@ -1589,8 +1606,36 @@
     {
       "monthKey": "2026-11",
       "monthLabel": "November 2026",
-      "leadEditionId": "2026-11-12",
+      "leadEditionId": "2026-11-13",
       "highlights": [
+        {
+          "editionId": "2026-11-13",
+          "editionLabel": "13 November 2026",
+          "tag": "Peer-reviewed randomized Phase III PFS and OS benefit; investigational outside China and high-grade hematologic toxicity",
+          "title": "PANKU-Esophagus01 izalontamab brengitecan after first-line chemoimmunotherapy",
+          "summary": "This is randomized evidence of both disease-control and survival improvement in a post-chemoimmunotherapy setting with limited options. The absolute gains are clinically relevant but must be weighed against substantial hematologic toxicity and the China-only evidence base."
+        },
+        {
+          "editionId": "2026-11-13",
+          "editionLabel": "13 November 2026",
+          "tag": "Latest verified approval",
+          "title": "Pimicotinib for Symptomatic TGCT",
+          "summary": "FDA approval 10 November 2026"
+        },
+        {
+          "editionId": "2026-11-13",
+          "editionLabel": "13 November 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+        },
+        {
+          "editionId": "2026-11-13",
+          "editionLabel": "13 November 2026",
+          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
+          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
+          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
+        },
         {
           "editionId": "2026-11-12",
           "editionLabel": "12 November 2026",
@@ -1604,34 +1649,6 @@
           "tag": "Latest verified approval",
           "title": "Pimicotinib for Symptomatic TGCT",
           "summary": "FDA approval 10 November 2026"
-        },
-        {
-          "editionId": "2026-11-12",
-          "editionLabel": "12 November 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
-        },
-        {
-          "editionId": "2026-11-12",
-          "editionLabel": "12 November 2026",
-          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
-          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
-          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
-        },
-        {
-          "editionId": "2026-11-11",
-          "editionLabel": "11 November 2026",
-          "tag": "Latest verified approval",
-          "title": "Pimicotinib for Symptomatic TGCT",
-          "summary": "FDA approval 10 November 2026"
-        },
-        {
-          "editionId": "2026-11-11",
-          "editionLabel": "11 November 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
         }
       ]
     },

@@ -1,8 +1,26 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-12
+Updated: 2026-11-13
 
 ## Method
+
+- The 2026-11-13 review added three peer-reviewed records made visible on 12 November: randomized Phase III PANKU-Esophagus01 evidence for izalontamab brengitecan in post-chemoimmunotherapy ESCC, randomized Phase II CAMORAL evidence for perioperative camrelizumab plus chemotherapy in resectable locally advanced HNSCC, and randomized supportive-care evidence for early oral nutritional supplementation during nasopharyngeal chemoradiotherapy. Publications were cross-checked against trial registries. Records preserve randomized design, population and geography, absolute and relative effects, toxicity and treatment burden, exploratory outcomes, regulatory status, cost limits, and unresolved India authorization, access, pricing, and implementation.
+
+## 2026-11-13 Verified Updates and Review Checks
+
+- Peer-reviewed JAMA PANKU-Esophagus01 report; primary source for randomized Phase III design, 497-patient population, comparator, dual PFS and OS endpoints, effect sizes, response, safety, geography, and limitations
+  https://jamanetwork.com/journals/jama/fullarticle/2856710
+- ClinicalTrials.gov NCT06304974; trial identity, population, intervention, comparator, endpoints, sponsor, and registry-status cross-check
+  https://clinicaltrials.gov/study/NCT06304974
+- Peer-reviewed JAMA Oncology CAMORAL report; primary source for randomized Phase II design, perioperative treatment sequence, 125-patient population, EFS and pathologic-response outcomes, safety, surgery context, and limitations
+  https://jamanetwork.com/journals/jamaoncology/fullarticle/2856378
+- Chinese Clinical Trial Registry ChiCTR2000037980; trial identity and protocol cross-check
+  https://www.chictr.org.cn/showproj.html?proj=60472
+- Peer-reviewed JAMA Oncology early-ONS report; primary source for randomized supportive-care design, weight-loss endpoint, mucositis, quality-of-life and interruption findings, short-horizon cost utility, funding, and limitations
+  https://jamanetwork.com/journals/jamaoncology/fullarticle/2856379
+- ClinicalTrials.gov NCT04823468; trial identity, population, intervention, outcomes, and registry-status cross-check
+  https://clinicaltrials.gov/study/NCT04823468
+- FDA oncology, EMA, CDSCO, WHO/IARC, major-journal, trial-registry, safety, shortage, reimbursement, procurement, official-pricing, and India-access surfaces were rechecked. The FDA ovarian-maintenance workshop, CHMP meeting agenda, IDEA follow-up, exploratory mutational-signature and observational surgical-timing analyses, preclinical studies, and routine corporate updates were reviewed but not promoted. No additional same-window final action cleared the materiality threshold.
 
 - The 2026-11-12 review added two peer-reviewed records made visible on 11 November: the prespecified PORTEC-4a toxicity, HRQoL, and sexual-health analysis supporting molecular-guided adjuvant de-escalation in high-intermediate-risk endometrial cancer, and the retrospective TROP2 normalized-membrane-ratio computational-pathology signal for datopotamab deruxtecan in NSCLC. The publications were cross-checked against trial registries, the earlier PORTEC-4a efficacy report, and prior IASLC and sponsor biomarker disclosures. The records preserve randomized versus retrospective inference, recurrence and toxicity trade-offs, assay-development status, prospective-validation needs, and unresolved India testing, access, pricing, and implementation. No information-architecture change was required.
 

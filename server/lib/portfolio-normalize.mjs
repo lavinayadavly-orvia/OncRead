@@ -1,5 +1,8 @@
 const portfolioAliasRules = [
   { match: /pimicotinib|pimjetmi|maneuver|nct05804045/i, aliases: ["Pimjetmi", "Pimicotinib", "ABSK021", "MANEUVER", "NCT05804045", "TGCT", "tenosynovial giant cell tumor"] },
+  { match: /panku-esophagus01|izalontamab brengitecan|nct06304974/i, aliases: ["PANKU-Esophagus01", "NCT06304974", "Izalontamab brengitecan", "iza-bren", "EGFR-HER3", "bispecific ADC", "esophageal squamous cell carcinoma", "ESCC"] },
+  { match: /camoral|perioperative camrelizumab.*hnscc|chictr2000037980/i, aliases: ["CAMORAL", "ChiCTR2000037980", "Camrelizumab", "perioperative chemoimmunotherapy", "HNSCC", "head and neck cancer", "oral cavity cancer", "pathologic complete response"] },
+  { match: /early oral nutritional supplementation|early ons|nct04823468/i, aliases: ["NCT04823468", "ONS", "oral nutritional supplementation", "nasopharyngeal carcinoma", "NPC", "chemoradiotherapy", "nutrition", "mucositis", "supportive care"] },
   { match: /who global ncd inequality|cancer-screening gaps|who cancer-screening inequality/i, aliases: ["WHO", "State of inequality", "cervical cancer screening", "screening equity", "rural women", "poorest quintile", "DHS", "STEPS", "health inequality monitoring"] },
   { match: /dostarlimab|jemperli|azur-1|nct05723562|nct04165772/i, aliases: ["Jemperli", "Dostarlimab", "AZUR-1", "NCT05723562", "NCT04165772", "dMMR", "MSI-H", "rectal cancer", "organ preservation", "non-operative management"] },
   { match: /ema october 2026 oncology|october chmp oncology|mylotarg|talvey|truqap/i, aliases: ["EMA", "CHMP", "Rasonque", "Talvey", "Talquetamab", "Tukysa", "Ibrance", "Palbociclib", "Truqap", "Capivasertib", "Mylotarg", "Gemtuzumab ozogamicin", "multiple myeloma", "pediatric AML", "withdrawal", "non-recommendation"] },
