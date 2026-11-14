@@ -1,8 +1,20 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-13
+Updated: 2026-11-14
 
 ## Method
+
+- The 2026-11-14 review updated the existing PANOVA-3/Optune Pax dossier with a peer-reviewed prespecified secondary analysis of quality of life, pain, and opioid use rather than creating a duplicate treatment record. The report was reconciled with the randomized parent trial, its primary publication, and NCT03377491. The record preserves stable average global health in both groups, deterioration-free survival effects, the post hoc opioid analysis, open-label and attrition limitations, device burden and skin toxicity, regulatory status, and unresolved India authorization, access, and pricing.
+
+## 2026-11-14 Verified Update and Review Checks
+
+- Peer-reviewed JAMA Network Open PANOVA-3 secondary analysis; primary source for the prespecified quality-of-life population, global-health and pain deterioration-free survival, post hoc opioid analysis, questionnaire results, and limitations
+  https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856639
+- Peer-reviewed PANOVA-3 primary publication; randomized design, population, overall-survival result, safety, and parent-trial context
+  https://ascopubs.org/doi/10.1200/JCO-25-00746
+- ClinicalTrials.gov NCT03377491; trial identity, population, intervention, comparator, endpoints, sponsor, and registry-status cross-check
+  https://clinicaltrials.gov/study/NCT03377491
+- FDA oncology, EMA, CDSCO, WHO/IARC, major-journal, trial-registry, safety, shortage, reimbursement, procurement, official-pricing, and India-access surfaces were rechecked. Later coverage of already represented INTerpath-001 evidence, review articles, preclinical studies, small observational analyses, and routine corporate updates were reviewed but not promoted. No additional same-window final action cleared the materiality threshold.
 
 - The 2026-11-13 review added three peer-reviewed records made visible on 12 November: randomized Phase III PANKU-Esophagus01 evidence for izalontamab brengitecan in post-chemoimmunotherapy ESCC, randomized Phase II CAMORAL evidence for perioperative camrelizumab plus chemotherapy in resectable locally advanced HNSCC, and randomized supportive-care evidence for early oral nutritional supplementation during nasopharyngeal chemoradiotherapy. Publications were cross-checked against trial registries. Records preserve randomized design, population and geography, absolute and relative effects, toxicity and treatment burden, exploratory outcomes, regulatory status, cost limits, and unresolved India authorization, access, pricing, and implementation.
 

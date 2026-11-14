@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T02:59:48.594Z",
+  "generatedAt": "2026-11-14T00:44:15.737Z",
   "snapshotType": "static-site",
   "entries": [
     {
@@ -486,15 +486,15 @@
       "subtitle": "Optune Pax · Pancreatic cancer · Adult unresectable locally advanced pancreatic adenocarcinoma with gemcitabine and nab-paclitaxel",
       "organization": "Novocure",
       "snapshot": "Randomized Phase III; Japan MHLW approved · High in locally advanced disease",
-      "summary": "Japan's Ministry of Health, Labour and Welfare approved the wearable Optune Pax Tumor Treating Fields device with first-line gemcitabine and nab-paclitaxel for adults with unresectable locally advanced pancreatic cancer. PANOVA-3 provides randomized evidence of a modest overall-survival improvement over chemotherapy alone.",
-      "headline": "OS 16.2 vs 14.2 months · HR 0.82 (95% CI 0.68-0.99); Japan approval",
+      "summary": "Japan's Ministry of Health, Labour and Welfare approved the wearable Optune Pax Tumor Treating Fields device with first-line gemcitabine and nab-paclitaxel for adults with unresectable locally advanced pancreatic cancer. PANOVA-3 provides randomized evidence of a modest overall-survival improvement over chemotherapy alone. A peer-reviewed prespecified secondary analysis found stable global health status in both groups and longer deterioration-free survival for global health status and pain with Optune Pax.",
+      "headline": "OS 16.2 vs 14.2 months · PANOVA-3; pain deterioration HR 0.70 in prespecified secondary analysis",
       "statusLabel": "Japan and US approved; India unverified",
       "badges": [
         "Randomized Phase III; Japan MHLW approved",
         "High in locally advanced disease",
         "Japan and US approved; India unverified"
       ],
-      "searchText": "optune pax for locally advanced pancreatic cancer optune pax pancreatic cancer adult unresectable locally advanced pancreatic adenocarcinoma with gemcitabine and nab-paclitaxel novocure randomized phase iii; japan mhlw approved high in locally advanced disease os 16.2 vs 14.2 months hr 0.82 (95% ci 0.68-0.99); japan approval japan's ministry of health, labour and welfare approved the wearable optune pax tumor treating fields device with first-line gemcitabine and nab-paclitaxel for adults with unresectable locally advanced pancreatic cancer. panova-3 provides randomized evidence of a modest overall-survival improvement over chemotherapy alone. the sponsor reported no added systemic toxicity or new safety signal and comparable serious-adverse-event rates between arms. device-related skin events occurred in 76.3% of optune pax recipients; 7.7% had a grade 3 or higher device-related skin event. optune pax panova-3 tumor treating fields ttfields nct03377491 pancreatic cancer japan mhlw",
+      "searchText": "optune pax for locally advanced pancreatic cancer optune pax pancreatic cancer adult unresectable locally advanced pancreatic adenocarcinoma with gemcitabine and nab-paclitaxel novocure randomized phase iii; japan mhlw approved high in locally advanced disease os 16.2 vs 14.2 months panova-3; pain deterioration hr 0.70 in prespecified secondary analysis japan's ministry of health, labour and welfare approved the wearable optune pax tumor treating fields device with first-line gemcitabine and nab-paclitaxel for adults with unresectable locally advanced pancreatic cancer. panova-3 provides randomized evidence of a modest overall-survival improvement over chemotherapy alone. a peer-reviewed prespecified secondary analysis found stable global health status in both groups and longer deterioration-free survival for global health status and pain with optune pax. the sponsor reported no added systemic toxicity or new safety signal and comparable serious-adverse-event rates between arms. device-related skin events occurred in 76.3% of optune pax recipients; 7.7% had a grade 3 or higher device-related skin event. optune pax panova-3 tumor treating fields ttfields nct03377491 pancreatic cancer japan mhlw",
       "route": {
         "view": "treatments",
         "kind": "detail",
@@ -509,6 +509,10 @@
         {
           "label": "Peer-reviewed PANOVA-3 publication",
           "url": "https://ascopubs.org/doi/10.1200/JCO-25-00746"
+        },
+        {
+          "label": "PANOVA-3 quality-of-life secondary analysis",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856639"
         },
         {
           "label": "ClinicalTrials.gov PANOVA-3 registry",
@@ -554,6 +558,21 @@
           "wide"
         ],
         [
+          "Patient-reported outcomes",
+          "Among 562 participants with baseline quality-of-life data, global health status remained stable in both groups. Global-health deterioration-free survival was 7.1 versus 5.7 months, HR 0.77 (95% CI 0.61-0.97), p=0.02.",
+          "wide"
+        ],
+        [
+          "Pain and opioid use",
+          "Pain deterioration-free survival was 10.1 versus 7.4 months, HR 0.70 (95% CI 0.54-0.89), p=0.003; pancreatic-pain deterioration-free survival was 14.7 versus 10.2 months, HR 0.69 (95% CI 0.52-0.90), p=0.006. Time to opioid use was 9.3 versus 6.7 months, HR 0.72 (95% CI 0.55-0.93), p=0.01, in a post hoc modified-intention-to-treat analysis.",
+          "wide"
+        ],
+        [
+          "Interpretation boundary",
+          "The prespecified secondary analysis supports delayed deterioration rather than an improvement in average global health status. Many functional and symptom domains were similar, the open-label trial used no sham device, questionnaire completion declined with follow-up, and the opioid analysis was post hoc.",
+          "wide"
+        ],
+        [
           "Regulatory status",
           "Approved in Japan for adults with unresectable locally advanced pancreatic cancer with gemcitabine and nab-paclitaxel. The device was approved in the United States in February 2026 and received a CE Mark in June 2026. No CDSCO authorization or India launch was verified.",
           "wide"
@@ -565,12 +584,12 @@
         ],
         [
           "Measured effect",
-          "OS 16.2 vs 14.2 months. HR 0.82 (95% CI 0.68-0.99); Japan approval",
+          "OS 16.2 vs 14.2 months. PANOVA-3; pain deterioration HR 0.70 in prespecified secondary analysis",
           "wide"
         ],
         [
           "Clinical meaning",
-          "Japan's Ministry of Health, Labour and Welfare approved the wearable Optune Pax Tumor Treating Fields device with first-line gemcitabine and nab-paclitaxel for adults with unresectable locally advanced pancreatic cancer. PANOVA-3 provides randomized evidence of a modest overall-survival improvement over chemotherapy alone.",
+          "Japan's Ministry of Health, Labour and Welfare approved the wearable Optune Pax Tumor Treating Fields device with first-line gemcitabine and nab-paclitaxel for adults with unresectable locally advanced pancreatic cancer. PANOVA-3 provides randomized evidence of a modest overall-survival improvement over chemotherapy alone. A peer-reviewed prespecified secondary analysis found stable global health status in both groups and longer deterioration-free survival for global health status and pain with Optune Pax.",
           "wide"
         ],
         [
@@ -589,7 +608,7 @@
         ],
         [
           "Current limitation",
-          "The absolute median overall-survival difference was 2.0 months and the upper confidence limit for the hazard ratio was 0.99. Treatment requires sustained use of a wearable array system and produced frequent skin toxicity. Blinding was not feasible, subsequent-treatment and adherence effects require consideration, and Japan adoption will depend on reimbursement, device support, patient preference, and treatment burden.",
+          "The absolute median overall-survival difference was 2.0 months and the upper confidence limit for the hazard ratio was 0.99. Treatment requires sustained use of a wearable array system and produced frequent skin toxicity. The quality-of-life analysis was open label without a sham device, subjective outcomes may be affected by treatment awareness, questionnaire response declined over time, the opioid analysis was post hoc, and many functional and symptom scales were similar between groups. Subsequent-treatment and adherence effects require consideration, and Japan adoption will depend on reimbursement, device support, patient preference, and treatment burden.",
           "wide"
         ]
       ]
@@ -13324,7 +13343,7 @@
     }
   ],
   "sourceSummary": {
-    "sourcesChecked": 294,
+    "sourcesChecked": 295,
     "healthySources": null,
     "failedSources": null,
     "checkedAt": null,

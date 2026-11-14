@@ -120,20 +120,23 @@ const treatments = [
     id: "optune-pax-japan-pancreatic", short: "Optune Pax", name: "Optune Pax for Locally Advanced Pancreatic Cancer", cancer: "Pancreatic cancer",
     setting: "Adult unresectable locally advanced pancreatic adenocarcinoma with gemcitabine and nab-paclitaxel", company: "Novocure", phase: "Randomized Phase III; Japan MHLW approved",
     impact: "High in locally advanced disease", impactGroup: "high", maturity: 99, impactScore: 88,
-    eventDate: "2026-10-01",
-    headline: "OS 16.2 vs 14.2 months", headlineNote: "HR 0.82 (95% CI 0.68-0.99); Japan approval",
-    benefit: "Japan's Ministry of Health, Labour and Welfare approved the wearable Optune Pax Tumor Treating Fields device with first-line gemcitabine and nab-paclitaxel for adults with unresectable locally advanced pancreatic cancer. PANOVA-3 provides randomized evidence of a modest overall-survival improvement over chemotherapy alone.",
+    eventDate: "2026-11-13",
+    headline: "OS 16.2 vs 14.2 months", headlineNote: "PANOVA-3; pain deterioration HR 0.70 in prespecified secondary analysis",
+    benefit: "Japan's Ministry of Health, Labour and Welfare approved the wearable Optune Pax Tumor Treating Fields device with first-line gemcitabine and nab-paclitaxel for adults with unresectable locally advanced pancreatic cancer. PANOVA-3 provides randomized evidence of a modest overall-survival improvement over chemotherapy alone. A peer-reviewed prespecified secondary analysis found stable global health status in both groups and longer deterioration-free survival for global health status and pain with Optune Pax.",
     safety: "The sponsor reported no added systemic toxicity or new safety signal and comparable serious-adverse-event rates between arms. Device-related skin events occurred in 76.3% of Optune Pax recipients; 7.7% had a Grade 3 or higher device-related skin event.",
     cost: "Wearable device plus gemcitabine and nab-paclitaxel; no official Japan reimbursement price or total treatment cost was verified", indiaPrice: "No official India device price, chemotherapy bundle price, reimbursement decision, procurement figure, or cost-effectiveness result was reported or verified.",
     indiaStatus: "not-launched", indiaLabel: "Japan and US approved; India unverified", launch: "Japan MHLW approval announced 1 October 2026",
     indiaCaveat: "No CDSCO medical-device authorization for this pancreatic-cancer indication, India launch date, distributor, official price, reimbursement decision, procurement action, installation or training pathway, or patient-support program was verified.",
-    limitations: "The absolute median overall-survival difference was 2.0 months and the upper confidence limit for the hazard ratio was 0.99. Treatment requires sustained use of a wearable array system and produced frequent skin toxicity. Blinding was not feasible, subsequent-treatment and adherence effects require consideration, and Japan adoption will depend on reimbursement, device support, patient preference, and treatment burden.",
+    limitations: "The absolute median overall-survival difference was 2.0 months and the upper confidence limit for the hazard ratio was 0.99. Treatment requires sustained use of a wearable array system and produced frequent skin toxicity. The quality-of-life analysis was open label without a sham device, subjective outcomes may be affected by treatment awareness, questionnaire response declined over time, the opioid analysis was post hoc, and many functional and symptom scales were similar between groups. Subsequent-treatment and adherence effects require consideration, and Japan adoption will depend on reimbursement, device support, patient preference, and treatment burden.",
     detailSections: [
       ["Event date / geography", "1 October 2026 approval announced by Novocure for Japan's Ministry of Health, Labour and Welfare.", "wide"],
       ["Population / sample", "PANOVA-3 randomized 571 adults with unresectable locally advanced pancreatic adenocarcinoma: 285 to Optune Pax plus gemcitabine and nab-paclitaxel and 286 to chemotherapy alone.", "wide"],
       ["Comparator", "Wearable Tumor Treating Fields therapy concomitant with gemcitabine and nab-paclitaxel versus gemcitabine and nab-paclitaxel alone.", "wide"],
       ["Primary endpoint", "Overall survival in the intention-to-treat population.", "wide"],
       ["Effect size detail", "Median OS was 16.2 months (95% CI 15.0-18.0) versus 14.2 months (95% CI 12.8-15.4), HR 0.82 (95% CI 0.68-0.99), p=0.039. Device-related skin events occurred in 76.3%, including Grade 3 or higher events in 7.7%.", "wide"],
+      ["Patient-reported outcomes", "Among 562 participants with baseline quality-of-life data, global health status remained stable in both groups. Global-health deterioration-free survival was 7.1 versus 5.7 months, HR 0.77 (95% CI 0.61-0.97), p=0.02.", "wide"],
+      ["Pain and opioid use", "Pain deterioration-free survival was 10.1 versus 7.4 months, HR 0.70 (95% CI 0.54-0.89), p=0.003; pancreatic-pain deterioration-free survival was 14.7 versus 10.2 months, HR 0.69 (95% CI 0.52-0.90), p=0.006. Time to opioid use was 9.3 versus 6.7 months, HR 0.72 (95% CI 0.55-0.93), p=0.01, in a post hoc modified-intention-to-treat analysis.", "wide"],
+      ["Interpretation boundary", "The prespecified secondary analysis supports delayed deterioration rather than an improvement in average global health status. Many functional and symptom domains were similar, the open-label trial used no sham device, questionnaire completion declined with follow-up, and the opioid analysis was post hoc.", "wide"],
       ["Regulatory status", "Approved in Japan for adults with unresectable locally advanced pancreatic cancer with gemcitabine and nab-paclitaxel. The device was approved in the United States in February 2026 and received a CE Mark in June 2026. No CDSCO authorization or India launch was verified.", "wide"],
       ["Delivery and implementation", "Portable alternating-electric-field device used through wearable arrays together with systemic chemotherapy; real-world adoption requires array fitting, skin management, adherence support, device supply, reimbursement, and patient acceptance.", "wide"]
     ],
@@ -141,6 +144,7 @@ const treatments = [
     sourceLabel: "Novocure Japan approval release",
     supportingSources: [
       { label: "Peer-reviewed PANOVA-3 publication", url: "https://ascopubs.org/doi/10.1200/JCO-25-00746" },
+      { label: "PANOVA-3 quality-of-life secondary analysis", url: "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856639" },
       { label: "ClinicalTrials.gov PANOVA-3 registry", url: "https://clinicaltrials.gov/study/NCT03377491" },
       { label: "US FDA approval release", url: "https://investor.novocure.com/news-releases/news-release-details/us-fda-approves-novocures-optune-paxr-treatment-locally-advanced" }
     ]

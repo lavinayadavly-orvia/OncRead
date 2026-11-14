@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-11-13T02:59:48.645Z",
-  "currentEditionId": "2026-11-13",
-  "currentEditionLabel": "13 November 2026",
+  "generatedAt": "2026-11-14T00:44:15.816Z",
+  "currentEditionId": "2026-11-14",
+  "currentEditionLabel": "14 November 2026",
   "editions": [
+    {
+      "id": "2026-11-14",
+      "editionLabel": "14 November 2026",
+      "preparedLabel": "November 14 Morning Edition",
+      "monthKey": "2026-11",
+      "monthLabel": "November 2026",
+      "summary": "Japan's Ministry of Health, Labour and Welfare approved the wearable Optune Pax Tumor Treating Fields device with first-line gemcitabine and nab-paclitaxel for adults with unresectable locally advanced pancreatic cancer. PANOVA-3 provides randomized evidence of a modest overall-survival improvement over chemotherapy alone. A peer-reviewed prespecified secondary analysis found stable global health status in both groups and longer deterioration-free survival for global health status and pain with Optune Pax.",
+      "file": "/data/editions/2026-11-14.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 34,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 92,
+        "verifiedRecords": 137
+      }
+    },
     {
       "id": "2026-11-13",
       "editionLabel": "13 November 2026",
@@ -1606,8 +1623,29 @@
     {
       "monthKey": "2026-11",
       "monthLabel": "November 2026",
-      "leadEditionId": "2026-11-13",
+      "leadEditionId": "2026-11-14",
       "highlights": [
+        {
+          "editionId": "2026-11-14",
+          "editionLabel": "14 November 2026",
+          "tag": "Latest verified approval",
+          "title": "Optune Pax for Locally Advanced Pancreatic Cancer",
+          "summary": "Japan MHLW approval announced 1 October 2026"
+        },
+        {
+          "editionId": "2026-11-14",
+          "editionLabel": "14 November 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+        },
+        {
+          "editionId": "2026-11-14",
+          "editionLabel": "14 November 2026",
+          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
+          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
+          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
+        },
         {
           "editionId": "2026-11-13",
           "editionLabel": "13 November 2026",
@@ -1628,27 +1666,6 @@
           "tag": "Highest-impact treatment pool",
           "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
           "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
-        },
-        {
-          "editionId": "2026-11-13",
-          "editionLabel": "13 November 2026",
-          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
-          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
-          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
-        },
-        {
-          "editionId": "2026-11-12",
-          "editionLabel": "12 November 2026",
-          "tag": "Randomized Phase III secondary outcomes support molecular-guided de-escalation with preserved quality of life",
-          "title": "PORTEC-4a molecular-guided adjuvant treatment toxicity and quality of life",
-          "summary": "The analysis adds patient-centered evidence to a molecularly guided strategy that can spare nearly half of patients from adjuvant radiation while escalating pelvic treatment for unfavorable biology. It clarifies that de-escalation did not trade lower treatment burden for worse overall quality of life during the reported follow-up."
-        },
-        {
-          "editionId": "2026-11-12",
-          "editionLabel": "12 November 2026",
-          "tag": "Latest verified approval",
-          "title": "Pimicotinib for Symptomatic TGCT",
-          "summary": "FDA approval 10 November 2026"
         }
       ]
     },

@@ -1,0 +1,89 @@
+{
+  "id": "2026-11-14",
+  "editionLabel": "14 November 2026",
+  "preparedLabel": "November 14 Morning Edition",
+  "monthKey": "2026-11",
+  "monthLabel": "November 2026",
+  "summary": "Japan's Ministry of Health, Labour and Welfare approved the wearable Optune Pax Tumor Treating Fields device with first-line gemcitabine and nab-paclitaxel for adults with unresectable locally advanced pancreatic cancer. PANOVA-3 provides randomized evidence of a modest overall-survival improvement over chemotherapy alone. A peer-reviewed prespecified secondary analysis found stable global health status in both groups and longer deterioration-free survival for global health status and pain with Optune Pax.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 34,
+    "followupApprovals": 8,
+    "indiaMarketed": 4,
+    "watchlistSignals": 92,
+    "verifiedRecords": 137
+  },
+  "headlines": [
+    {
+      "tag": "Latest verified approval",
+      "title": "Optune Pax for Locally Advanced Pancreatic Cancer",
+      "summary": "Japan MHLW approval announced 1 October 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+    },
+    {
+      "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
+      "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
+      "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "optune-pax-japan-pancreatic"
+      },
+      "title": "Optune Pax for Locally Advanced Pancreatic Cancer",
+      "subtitle": "Japan MHLW approval announced 1 October 2026",
+      "date": 1794528000000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "dostarlimab-azur1-rectal-cancer"
+      },
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "subtitle": "Single-arm Phase II; FDA accelerated approval · US accelerated approval; India indication unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "who-ncd-inequality-cancer-screening-2026"
+      },
+      "title": "WHO global NCD inequality assessment and cancer-screening gaps",
+      "subtitle": "Authoritative global descriptive assessment; not an intervention trial",
+      "date": 0
+    }
+  ],
+  "sourceCount": 137,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "optune-pax-japan-pancreatic"
+      },
+      "title": "Optune Pax for Locally Advanced Pancreatic Cancer",
+      "subtitle": "Japan MHLW approval announced 1 October 2026",
+      "date": 1794528000000
+    }
+  }
+}
