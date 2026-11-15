@@ -1,8 +1,25 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-14
+Updated: 2026-11-15
 
 ## Method
+
+- The 2026-11-15 review upgraded the existing VOLGA record to an FDA-approved perioperative treatment and added a combined regulatory record for two EMA CHMP-positive NSCLC opinions. FDA and EMA primary notices were cross-checked against the sponsor approval release, individual EMA opinion pages, and the VOLGA registry. The records distinguish final US approval from pending European Commission decisions and preserve population, schedule, randomized effects, toxicity, surgical and biomarker context, evidence limits, cost gaps, and unresolved India authorization and access.
+
+## 2026-11-15 Verified Updates and Review Checks
+
+- FDA approval notice for perioperative durvalumab plus neoadjuvant enfortumab vedotin in MIBC; final US action, indicated population, VOLGA design, EFS and OS effects, common adverse reactions, dose and schedule, and Project Orbis context
+  https://www.fda.gov/drugs/cancer-approvals/fda-approves-durvalumab-enfortumab-vedotin-ejfv-muscle-invasive-bladder-cancer
+- AstraZeneca approval release; matched indication, trial effects, regimen sequence, safety context, simultaneous publication, and sponsor cross-check
+  https://www.astrazeneca.com/media-centre/press-releases/2026/imfinzi-ev-approve-in-us-in-bladder-cancer.html
+- ClinicalTrials.gov VOLGA record; trial identity, randomized design, intervention, comparator, population, endpoints, and identifier cross-check
+  https://clinicaltrials.gov/study/NCT04960709
+- EMA November CHMP meeting highlights; primary source for the positive Aumseqa and Zybrivo recommendations and the pending European Commission decision boundary
+  https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-9-12-november-2026
+- EMA Aumseqa and Zybrivo opinion pages; recommended indications, mechanisms, supporting benefit descriptions, common adverse effects, applicants, and opinion dates
+  https://www.ema.europa.eu/en/medicines/human/EPAR/aumseqa
+  https://www.ema.europa.eu/en/medicines/human/EPAR/zybrivo
+- FDA oncology, EMA, CDSCO, WHO/IARC, major-journal, trial-registry, safety, shortage, reimbursement, procurement, official-pricing, and India-access surfaces were rechecked. No additional same-window final action cleared the materiality threshold.
 
 - The 2026-11-14 review updated the existing PANOVA-3/Optune Pax dossier with a peer-reviewed prespecified secondary analysis of quality of life, pain, and opioid use rather than creating a duplicate treatment record. The report was reconciled with the randomized parent trial, its primary publication, and NCT03377491. The record preserves stable average global health in both groups, deterioration-free survival effects, the post hoc opioid analysis, open-label and attrition limitations, device burden and skin toxicity, regulatory status, and unresolved India authorization, access, and pricing.
 
