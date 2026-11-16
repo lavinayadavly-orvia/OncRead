@@ -1,8 +1,23 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-15
+Updated: 2026-11-16
 
 ## Method
+
+- The 2026-11-16 review found no new verified development that cleared the materiality threshold. Substantive dashboard records were left unchanged. The visible morning edition and archive were advanced to document the completed review, with explicit coverage of regulatory, journal, registry, safety, access, pricing, procurement, workforce, public-health, and care-delivery surfaces.
+
+## 2026-11-16 Review Checks - No Material Verified Update
+
+- FDA oncology approval notifications; no new same-window oncology approval after the already represented 13 November VOLGA action
+  https://www.fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications
+- EMA medicines and CHMP surfaces; no new same-window final oncology marketing authorisation, withdrawal, or material safety restriction identified
+  https://www.ema.europa.eu/en/medicines
+  https://www.ema.europa.eu/en/committees/committee-medicinal-products-human-use-chmp
+- CDSCO notices and committee recommendations; no new verified oncology authorization, official India price, procurement action, reimbursement decision, or India-access milestone identified
+  https://cdsco.gov.in/opencms/opencms/en/Notifications/
+- WHO Africa cervical-cancer surgical mentorship feature from Sierra Leone; reviewed as a care-delivery and workforce item but not promoted because it reported no new policy, comparative outcome, quantified capacity result, procurement action, or independently evaluable scale-up milestone
+  https://www.afro.who.int/countries/sierra-leone/news/doctors-journey-towards-leading-cervical-cancer-care-sierra-leone
+- WHO/IARC, major-journal, trial-registry, safety, shortage, reimbursement, official-pricing, procurement, and India-access surfaces were rechecked. Review articles, educational coverage, preclinical studies, small observational analyses, result-free corporate updates, and already represented evidence did not clear the promotion threshold.
 
 - The 2026-11-15 review upgraded the existing VOLGA record to an FDA-approved perioperative treatment and added a combined regulatory record for two EMA CHMP-positive NSCLC opinions. FDA and EMA primary notices were cross-checked against the sponsor approval release, individual EMA opinion pages, and the VOLGA registry. The records distinguish final US approval from pending European Commission decisions and preserve population, schedule, randomized effects, toxicity, surgical and biomarker context, evidence limits, cost gaps, and unresolved India authorization and access.
 
