@@ -1,8 +1,25 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-16
+Updated: 2026-11-17
 
 ## Method
+
+- The 2026-11-17 review added FDA's approval of giredestrant plus everolimus in ESR1-mutated advanced breast cancer and the sponsor-reported randomized Phase III PIVOT-006 recurrence-free-survival signal in a distinct post-resection NMIBC population. The approval was cross-checked against Roche and NCT05306340; the investigational PIVOT-006 signal was cross-checked against NCT06111235 and remains explicitly press-release-only. Records preserve population, comparator, endpoints, relative and absolute effects where available, safety, diagnostic and surgical context, regulatory status, cost gaps, India access, and evidence limitations.
+
+## 2026-11-17 Verified Updates and Review Checks
+
+- FDA giredestrant plus everolimus approval notice; final US action, indicated population, companion diagnostic, evERA design, PFS and ORR effects, immature OS, common adverse reactions, warnings, dose, and Project Orbis context
+  https://www.fda.gov/drugs/cancer-approvals/fda-approves-giredestrant-combination-everolimus-er-positive-her2-negative-esr1-mutated-locally
+- Roche approval release; matched indication, oral SERD and mTOR-inhibitor rationale, trial context, sponsor cross-check, and pending separate adjuvant decision
+  https://www.roche.com/media/releases/med-cor-2026-11-16b
+- ClinicalTrials.gov NCT05306340; evERA trial identity, randomized design, population, intervention, comparator, endpoints, and sponsor cross-check
+  https://clinicaltrials.gov/study/NCT05306340
+- CG Oncology PIVOT-006 official topline release and investor presentation; primary sources for the randomized Phase III RFS result, follow-up, reported safety, population, comparator, planned presentation, filing timeline, and preliminary-data limitations
+  https://cgoncology.gcs-web.com/news-releases/news-release-details/pivot-006-phase-3-registrational-trial-demonstrates
+  https://cgoncology.gcs-web.com/static-files/16380a7a-42d9-40fc-a2a5-03e0b5235ed3
+- ClinicalTrials.gov NCT06111235; PIVOT-006 identity, randomized open-label design, post-resection surveillance comparator, population, endpoints, and sponsor cross-check
+  https://clinicaltrials.gov/study/NCT06111235
+- FDA oncology, EMA, CDSCO, WHO/IARC, major-journal, trial-registry, safety, shortage, reimbursement, procurement, official-pricing, and India-access surfaces were rechecked. Routine financial updates, result-free development plans, very small early-phase reports, preclinical studies, reviews, and already represented evidence did not clear the promotion threshold.
 
 - The 2026-11-16 review found no new verified development that cleared the materiality threshold. Substantive dashboard records were left unchanged. The visible morning edition and archive were advanced to document the completed review, with explicit coverage of regulatory, journal, registry, safety, access, pricing, procurement, workforce, public-health, and care-delivery surfaces.
 

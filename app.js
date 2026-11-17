@@ -661,6 +661,34 @@ const treatments = [
     ]
   },
   {
+    id: "giredestrant-everolimus-esr1-breast", short: "Wilserdly + Everolimus", name: "Giredestrant + Everolimus for ESR1-Mutated Advanced Breast Cancer", cancer: "Breast cancer",
+    setting: "ER-positive, HER2-negative, ESR1-mutated locally advanced or metastatic disease after recurrence during or after adjuvant endocrine therapy, or progression on at least one metastatic endocrine regimen", company: "Genentech / Roche", phase: "Randomized Phase III; FDA approved",
+    impact: "High in ESR1-mutated endocrine-resistant disease", impactGroup: "high", maturity: 99, impactScore: 89,
+    eventDate: "2026-11-16",
+    headline: "PFS 10.0 vs 5.5 months", headlineNote: "HR 0.38 (95% CI 0.27-0.54); OS immature",
+    benefit: "FDA approved the all-oral combination of giredestrant, marketed as Wilserdly, plus everolimus for adults with ER-positive, HER2-negative, ESR1-mutated locally advanced or metastatic breast cancer after qualifying endocrine recurrence or progression. FDA also authorized FoundationOne Liquid CDx as the companion diagnostic for specified ESR1 ligand-binding-domain mutations.",
+    safety: "Common adverse reactions included stomatitis, rash, fatigue, diarrhea, musculoskeletal pain, pneumonitis, and nausea. Label warnings include bradycardia and embryo-fetal toxicity; everolimus-specific monitoring and toxicity management remain necessary.",
+    cost: "Two branded oral therapies plus ctDNA companion testing; no official total US course price was reported or verified", indiaPrice: "No official India combination price, companion-test price, reimbursement decision, procurement figure, patient-assistance terms, or India cost-effectiveness result was reported or verified.",
+    indiaStatus: "not-launched", indiaLabel: "US approved combination; India indication unverified", launch: "FDA approval 16 November 2026",
+    indiaCaveat: "No CDSCO authorization for giredestrant or this combination indication, India launch date, distributor, validated local companion-diagnostic pathway, official price, reimbursement decision, procurement action, or patient-support program was verified.",
+    limitations: "The approval applies only to tumors with specified ESR1 mutations detected by an FDA-authorized test and does not establish benefit in ESR1-wild-type disease. The trial was open label, overall survival was immature, and safety and cost reflect combined long-term endocrine and mTOR inhibition. Comparative sequencing against other ESR1-directed options and generalizability beyond the enrolled post-endocrine population remain unresolved.",
+    detailSections: [
+      ["Event date / geography", "16 November 2026 FDA approval - United States. The action was completed four weeks before the FDA goal date under Project Orbis with Health Canada and Israel participating in concurrent review.", "wide"],
+      ["Population / sample", "evERA Breast Cancer randomized 373 adults with ER-positive, HER2-negative locally advanced or metastatic breast cancer; the FDA efficacy population comprised 207 participants with centrally detected ESR1 mutations.", "wide"],
+      ["Comparator", "Giredestrant 30 mg orally once daily plus everolimus 10 mg once daily versus physician-choice exemestane, fulvestrant, or tamoxifen plus everolimus. Pre- or perimenopausal women and eligible men also received a GnRH agonist.", "wide"],
+      ["Primary endpoint", "Investigator-assessed progression-free survival by RECIST 1.1; overall survival and objective response were additional efficacy endpoints.", "wide"],
+      ["Effect size detail", "In the ESR1-mutated population, median PFS was 10.0 months (95% CI 8.1-12.9) versus 5.5 months (95% CI 3.8-5.6), HR 0.38 (95% CI 0.27-0.54), p<0.0001. ORR was 27% (95% CI 18-37) versus 14% (95% CI 8-22). OS was immature.", "wide"],
+      ["Regulatory and diagnostic status", "FDA approved giredestrant plus everolimus and authorized FoundationOne Liquid CDx to identify specified ESR1 mutations. No EMA or CDSCO authorization for this exact combination indication, official India launch, price, reimbursement, or procurement action was verified.", "wide"],
+      ["Dose and monitoring", "Giredestrant 30 mg orally once daily with or without food until progression or unacceptable toxicity, together with everolimus. Monitoring must cover stomatitis, pneumonitis, cytopenias, hepatic and metabolic abnormalities, infection, bradycardia, reproductive risk, and other label-specified toxicities.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/cancer-approvals/fda-approves-giredestrant-combination-everolimus-er-positive-her2-negative-esr1-mutated-locally",
+    sourceLabel: "FDA approval notice",
+    supportingSources: [
+      { label: "Roche approval release", url: "https://www.roche.com/media/releases/med-cor-2026-11-16b" },
+      { label: "ClinicalTrials.gov evERA Breast Cancer registry", url: "https://clinicaltrials.gov/study/NCT05306340" }
+    ]
+  },
+  {
     id: "cretostimogene", short: "Cretostimogene", name: "Cretostimogene in BCG-Unresponsive NMIBC", cancer: "Bladder cancer",
     setting: "High-risk non-muscle invasive with CIS, with or without Ta/T1", company: "CG Oncology", phase: "Phase III",
     impact: "High in bladder-sparing gap", impactGroup: "high", maturity: 88, impactScore: 82,
@@ -1131,6 +1159,34 @@ const followupDetails = {
 asco2025Followup.forEach(item => Object.assign(item, followupDetails[item.id]));
 
 const watchlistSignals = [
+  {
+    id: "pivot-006-cretostimogene-intermediate-risk-nmibc-2026",
+    title: "PIVOT-006 adjuvant cretostimogene after complete NMIBC resection",
+    short: "PIVOT-006 Phase III topline RFS benefit",
+    category: "Positive Phase III topline / intravesical oncolytic immunotherapy / recurrence prevention",
+    status: "conference",
+    statusLabel: "Press-release-only Phase III topline; investigational and full presentation pending",
+    geography: "United States and Canada; approximately 90 sites",
+    date: "16 November 2026",
+    cancer: "Intermediate-risk and solitary high-grade Ta 3 cm or smaller non-muscle-invasive bladder cancer after complete tumor resection",
+    issue: "CG Oncology reported positive topline results from randomized Phase III PIVOT-006 comparing adjuvant intravesical cretostimogene grenadenorepvec with surveillance after complete transurethral resection. The product remains investigational and the full dataset is scheduled for presentation on 2 December 2026.",
+    organization: "CG Oncology; PIVOT-006 investigators",
+    population: "367 patients across approximately 90 US and Canadian sites with recurrent low-grade Ta within 12 months, solitary low-grade Ta larger than 3 cm, multifocal low-grade Ta, solitary high-grade Ta 3 cm or smaller, or low-grade T1 disease.",
+    comparator: "Complete transurethral tumor resection followed by intravesical cretostimogene versus complete resection followed by surveillance.",
+    endpoint: "Recurrence-free survival was the primary endpoint. The sponsor's presentation notes that death was not counted as an RFS event and describes protocol-specific censoring rules.",
+    effect: "At 17 months median follow-up, cretostimogene reduced the reported recurrence hazard by 68% versus surveillance, HR 0.32 (95% CI 0.23-0.45), p<0.0001. Median RFS, landmark recurrence-free rates, subgroup effects, and absolute recurrence counts were not reported in the release.",
+    whyMatters: "A safe adjuvant treatment that materially delays recurrence after resection could reduce repeat procedures and disease burden in a broad NMIBC population that currently lacks an FDA-approved adjuvant option for this exact setting.",
+    whoAffected: "Patients with intermediate-risk or selected high-grade Ta NMIBC; urologists; urologic oncologists; cystoscopy and intravesical-treatment services; regulators; payers; and bladder-cancer trial networks.",
+    decisionImpact: "Supports regulatory review and detailed scientific scrutiny, but does not justify routine treatment before full presentation, peer review, and authorization. The result should not be conflated with the separate single-arm BOND-003 BCG-unresponsive CIS evidence.",
+    evidenceStrength: "Potentially high because PIVOT-006 is a 367-patient randomized Phase III trial with a large reported RFS effect, but current certainty is limited by sponsor-only topline disclosure, absent absolute recurrence data and medians, incomplete subgroup and safety detail, and no peer-reviewed report.",
+    limitations: "Press-release-only preliminary analysis; open-label design; surveillance control; death excluded from the RFS definition; protocol-specific censoring; no median RFS, landmark rates, event counts, multiplicity plan, detailed high-grade subgroup, progression, cystectomy, quality-of-life, resource-use, or mature long-term safety data; and regulator review remains pending.",
+    indiaImpact: "No CDSCO authorization, India trial site, filing, official launch date, distributor, India subgroup, validated intravesical-delivery pathway, price, reimbursement decision, procurement action, or patient-support program was reported or verified.",
+    cost: "Investigational. No official price in any currency, India price, reimbursement decision, procurement figure, administration cost, or cost-effectiveness result was reported or verified.",
+    nextMilestone: "Late-breaking Society of Urologic Oncology presentation on 2 December 2026; full efficacy and safety dataset; planned BLA submission in Q2 2027; peer review; regulator assessment; and any official CDSCO or India access action.",
+    verification: "Verified from CG Oncology's 16 November 2026 official topline release and investor presentation and cross-checked against PIVOT-006 registry identifier NCT06111235. No FDA approval has been granted for cretostimogene.",
+    source: "https://cgoncology.gcs-web.com/news-releases/news-release-details/pivot-006-phase-3-registrational-trial-demonstrates",
+    secondarySource: "https://clinicaltrials.gov/study/NCT06111235"
+  },
   {
     id: "panku-esophagus01-izalontamab-brengitecan-2026",
     title: "PANKU-Esophagus01 izalontamab brengitecan after first-line chemoimmunotherapy",
@@ -3885,6 +3941,8 @@ const portfolioAliasRules = [
   { match: /cemiplimab/i, aliases: ["Libtayo"] },
   { match: /isatuximab|sarclisa/i, aliases: ["Sarclisa", "Sarclisa Escena"] },
   { match: /cretostimogene|cg0070/i, aliases: ["CG0070"] },
+  { match: /giredestrant|wilserdly|evera breast|nct05306340/i, aliases: ["Wilserdly", "evERA Breast Cancer", "NCT05306340", "ESR1", "FoundationOne Liquid CDx"] },
+  { match: /pivot-006|nct06111235/i, aliases: ["PIVOT-006", "NCT06111235", "intermediate-risk NMIBC", "surveillance"] },
   { match: /selpercatinib|retevmo|retsevmo/i, aliases: ["Retevmo", "Retsevmo"] },
   { match: /tregzi|orca-t/i, aliases: ["Tregzi", "Orca-T"] },
   { match: /palbociclib/i, aliases: ["Ibrance"] },
