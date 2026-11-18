@@ -1,8 +1,24 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-17
+Updated: 2026-11-18
 
 ## Method
+
+- The 2026-11-18 review added FDA accelerated approval of neladalkib after specified prior ALK therapy and a separate WHO public-health implementation record for the global cervical-screening coverage gap and national programme expansions. The approval was cross-checked against GSK and NCT05384626; the screening update was cross-checked against the peer-reviewed WHO-led estimate record. Records preserve population, comparator or noncomparative design, endpoints, effect sizes, safety, regulatory and programme status, cost gaps, India access, and evidence limitations without inferring survival benefit from response data or cancer-outcome improvement from programme rollout.
+
+## 2026-11-18 Verified Updates and Review Checks
+
+- FDA neladalkib accelerated-approval notice; final US action, labeled prior-treatment cohorts, ALKOVE-1 design, ORR and response-durability effects, warnings, dose, and expedited-program context
+  https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-neladalkib-previously-treated-locally-advanced-or-metastatic-alk
+- GSK approval release; matched indication, sponsor cross-check, cohort-specific efficacy, pooled serious and fatal adverse reactions, hepatic and renal monitoring, common adverse reactions, and drug-interaction information
+  https://us.gsk.com/en-us/media/press-releases/nelkarmi-neladalkib-approved-in-the-us-for-previously-treated-advanced-alk-positive-non-small-cell-lung-cancer/
+- ClinicalTrials.gov NCT05384626; ALKOVE-1 identity, Phase I/II multicohort design, population, endpoints, sponsor, and ongoing confirmatory-development context
+  https://clinicaltrials.gov/study/NCT05384626
+- WHO 17 November cervical-cancer elimination update; authoritative source for the screening gap, public HPV DNA rollout across 26 of Brazil's 27 federal units, New Zealand's planned free screening, and other national screening, equipment, workforce, and implementation actions
+  https://www.who.int/news/item/17-11-2026-countries-expand-cervical-cancer-screening-and-treatment--bringing-elimination-closer
+- Peer-reviewed Lancet Global Health estimate record; 2022 coverage across 194 WHO member states and eight associated settings, any-method and HPV-test coverage estimates, income-group inequalities, methods, and limitations
+  https://pubmed.ncbi.nlm.nih.gov/42874626/
+- FDA oncology, EMA, CDSCO, WHO/IARC, major-journal, trial-registry, safety, shortage, reimbursement, procurement, official-pricing, and India-access surfaces were rechecked. Campaign material without a substantive action, routine financial updates, result-free development plans, preclinical studies, reviews, and already represented evidence did not clear the promotion threshold. No additional same-window final action was verified.
 
 - The 2026-11-17 review added FDA's approval of giredestrant plus everolimus in ESR1-mutated advanced breast cancer and the sponsor-reported randomized Phase III PIVOT-006 recurrence-free-survival signal in a distinct post-resection NMIBC population. The approval was cross-checked against Roche and NCT05306340; the investigational PIVOT-006 signal was cross-checked against NCT06111235 and remains explicitly press-release-only. Records preserve population, comparator, endpoints, relative and absolute effects where available, safety, diagnostic and surgical context, regulatory status, cost gaps, India access, and evidence limitations.
 

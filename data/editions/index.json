@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-11-17T00:52:50.289Z",
-  "currentEditionId": "2026-11-17",
-  "currentEditionLabel": "17 November 2026",
+  "generatedAt": "2026-11-18T03:54:36.040Z",
+  "currentEditionId": "2026-11-18",
+  "currentEditionLabel": "18 November 2026",
   "editions": [
+    {
+      "id": "2026-11-18",
+      "editionLabel": "18 November 2026",
+      "preparedLabel": "November 18 Morning Edition",
+      "monthKey": "2026-11",
+      "monthLabel": "November 2026",
+      "summary": "FDA granted accelerated approval to neladalkib, marketed as Nelkarmi, for adults with locally advanced or metastatic ALK-positive non-small cell lung cancer after either alectinib as the only prior ALK inhibitor or at least two prior ALK inhibitors plus platinum-based chemotherapy. The action adds a biomarker-defined option after resistance to established ALK therapy.",
+      "file": "/data/editions/2026-11-18.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 36,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 95,
+        "verifiedRecords": 142
+      }
+    },
     {
       "id": "2026-11-17",
       "editionLabel": "17 November 2026",
@@ -1674,8 +1691,29 @@
     {
       "monthKey": "2026-11",
       "monthLabel": "November 2026",
-      "leadEditionId": "2026-11-17",
+      "leadEditionId": "2026-11-18",
       "highlights": [
+        {
+          "editionId": "2026-11-18",
+          "editionLabel": "18 November 2026",
+          "tag": "Latest verified approval",
+          "title": "Neladalkib After Prior ALK Therapy",
+          "summary": "FDA accelerated approval 17 November 2026"
+        },
+        {
+          "editionId": "2026-11-18",
+          "editionLabel": "18 November 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+        },
+        {
+          "editionId": "2026-11-18",
+          "editionLabel": "18 November 2026",
+          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
+          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
+          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
+        },
         {
           "editionId": "2026-11-17",
           "editionLabel": "17 November 2026",
@@ -1696,27 +1734,6 @@
           "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
           "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
           "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
-        },
-        {
-          "editionId": "2026-11-16",
-          "editionLabel": "16 November 2026",
-          "tag": "CHMP positive opinions; not yet EU marketing authorisations",
-          "title": "EMA CHMP positive opinions for Aumseqa and Zybrivo in NSCLC",
-          "summary": "If authorized by the European Commission, the opinions would add another EGFR inhibitor and a first-line PD-1 plus chemotherapy option to the EU NSCLC treatment landscape, affecting biomarker testing, selection, procurement, and sequencing."
-        },
-        {
-          "editionId": "2026-11-16",
-          "editionLabel": "16 November 2026",
-          "tag": "Latest verified approval",
-          "title": "Optune Pax for Locally Advanced Pancreatic Cancer",
-          "summary": "Japan MHLW approval announced 1 October 2026"
-        },
-        {
-          "editionId": "2026-11-16",
-          "editionLabel": "16 November 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
         }
       ]
     },
