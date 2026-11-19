@@ -1,8 +1,26 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-18
+Updated: 2026-11-19
 
 ## Method
+
+- The 2026-11-19 review added peer-reviewed comparative observational evidence for surgery versus SBRT in stage IA NSCLC, IARC's public INTERVENER screening-implementation tool, and IARC/WHO pandemic-era cancer mortality surveillance across 54 countries. Primary publications were cross-checked against an accompanying editorial or official IARC launch summaries. Records preserve design, population, comparator or nonclinical framework, endpoints, effect sizes, limitations, cost gaps, and India relevance without converting adjusted association, pilot usability, or ecological mortality deviation into causal clinical claims.
+
+## 2026-11-19 Verified Updates and Review Checks
+
+- JAMA Surgery stage IA NSCLC cohort; SEER-Medicare population, sublobar-resection versus SBRT comparison, negative-control framework, proximal causal inference, hazard-difference estimates, and residual-confounding limits
+  https://jamanetwork.com/journals/jamasurgery/article-abstract/2856946
+- JAMA Surgery editorial; independent interpretation of selection bias, the limited randomized evidence base, and treatment-counseling boundary
+  https://jamanetwork.com/journals/jamasurgery/article-abstract/2856952
+- IARC INTERVENER launch notice; public availability, intended users, barrier-prioritization workflow, evidence-linked intervention matching, and language-expansion plan
+  https://www.iarc.who.int/news-events/intervener-a-new-tool-from-iarc-to-improve-cancer-screening/
+- Peer-reviewed INTERVENER development and pilot study; 81-barrier framework, more than 60 matched interventions, 41-country exposure, 18-respondent usability results, evidence classification, and implementation limits
+  https://doi.org/10.1186/s12913-024-12171-w
+- IARC 54-country cancer-mortality summary; official interpretation of observed-versus-expected trends by cancer, age, country, region, and health-system resilience
+  https://www.iarc.who.int/news-events/global-impact-of-the-covid19-pandemic-on-cancer-mortality-an-analysis-of-54-countries/
+- Peer-reviewed International Journal of Cancer abstract; WHO Mortality Database methods, more than 2.3 million annual deaths, cancer-specific rate-ratio ranges, regional variation, and ecological limitations
+  https://pubmed.ncbi.nlm.nih.gov/42984378/
+- FDA oncology, EMA, CDSCO, WHO/IARC, major-journal, trial-registry, safety, shortage, reimbursement, procurement, official-pricing, and India-access surfaces were rechecked. Early Phase I sponsor releases, result-free development updates, reviews, opinion pieces without new evidence, preclinical studies, and already represented actions did not clear the promotion threshold. No same-window final FDA, EMA, or CDSCO oncology authorization was verified.
 
 - The 2026-11-18 review added FDA accelerated approval of neladalkib after specified prior ALK therapy and a separate WHO public-health implementation record for the global cervical-screening coverage gap and national programme expansions. The approval was cross-checked against GSK and NCT05384626; the screening update was cross-checked against the peer-reviewed WHO-led estimate record. Records preserve population, comparator or noncomparative design, endpoints, effect sizes, safety, regulatory and programme status, cost gaps, India access, and evidence limitations without inferring survival benefit from response data or cancer-outcome improvement from programme rollout.
 
