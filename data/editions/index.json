@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-11-19T00:48:23.678Z",
-  "currentEditionId": "2026-11-19",
-  "currentEditionLabel": "19 November 2026",
+  "generatedAt": "2026-11-20T01:45:47.487Z",
+  "currentEditionId": "2026-11-20",
+  "currentEditionLabel": "20 November 2026",
   "editions": [
+    {
+      "id": "2026-11-20",
+      "editionLabel": "20 November 2026",
+      "preparedLabel": "November 20 Morning Edition",
+      "monthKey": "2026-11",
+      "monthLabel": "November 2026",
+      "summary": "CT and other ionizing modalities are indispensable in pediatric trauma, congenital disease, neurologic emergencies, and serious illness. A large real-world dose-response estimate gives clinicians, radiologists, health systems, and families a clearer basis for minimizing avoidable exposure while preserving timely diagnosis.",
+      "file": "/data/editions/2026-11-20.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 36,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 99,
+        "verifiedRecords": 146
+      }
+    },
     {
       "id": "2026-11-19",
       "editionLabel": "19 November 2026",
@@ -1708,8 +1725,36 @@
     {
       "monthKey": "2026-11",
       "monthLabel": "November 2026",
-      "leadEditionId": "2026-11-19",
+      "leadEditionId": "2026-11-20",
       "highlights": [
+        {
+          "editionId": "2026-11-20",
+          "editionLabel": "20 November 2026",
+          "tag": "Peer-reviewed retrospective cohort; dose-response association, not randomized causation",
+          "title": "Pediatric medical-imaging radiation and later brain-tumor risk",
+          "summary": "CT and other ionizing modalities are indispensable in pediatric trauma, congenital disease, neurologic emergencies, and serious illness. A large real-world dose-response estimate gives clinicians, radiologists, health systems, and families a clearer basis for minimizing avoidable exposure while preserving timely diagnosis."
+        },
+        {
+          "editionId": "2026-11-20",
+          "editionLabel": "20 November 2026",
+          "tag": "Latest verified approval",
+          "title": "Neladalkib After Prior ALK Therapy",
+          "summary": "FDA accelerated approval 17 November 2026"
+        },
+        {
+          "editionId": "2026-11-20",
+          "editionLabel": "20 November 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+        },
+        {
+          "editionId": "2026-11-20",
+          "editionLabel": "20 November 2026",
+          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
+          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
+          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
+        },
         {
           "editionId": "2026-11-19",
           "editionLabel": "19 November 2026",
@@ -1723,34 +1768,6 @@
           "tag": "Latest verified approval",
           "title": "Neladalkib After Prior ALK Therapy",
           "summary": "FDA accelerated approval 17 November 2026"
-        },
-        {
-          "editionId": "2026-11-19",
-          "editionLabel": "19 November 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
-        },
-        {
-          "editionId": "2026-11-19",
-          "editionLabel": "19 November 2026",
-          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
-          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
-          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
-        },
-        {
-          "editionId": "2026-11-18",
-          "editionLabel": "18 November 2026",
-          "tag": "Latest verified approval",
-          "title": "Neladalkib After Prior ALK Therapy",
-          "summary": "FDA accelerated approval 17 November 2026"
-        },
-        {
-          "editionId": "2026-11-18",
-          "editionLabel": "18 November 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
         }
       ]
     },

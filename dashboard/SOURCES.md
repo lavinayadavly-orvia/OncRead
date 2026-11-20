@@ -1,8 +1,18 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-19
+Updated: 2026-11-20
 
 ## Method
+
+- The 2026-11-20 review added a peer-reviewed pediatric medical-imaging radiation-safety cohort covering 3.7 million children in the United States and Ontario. The article was cross-checked against its accompanying editorial. The record preserves organ-dose categories, relative and absolute risk estimates, imaging-benefit context, residual confounding, cost gaps, and India relevance without converting an observational association into randomized causal proof or advising avoidance of clinically necessary imaging.
+
+## 2026-11-20 Verified Updates and Review Checks
+
+- JAMA pediatric medical-imaging cohort; 3,704,860-child population, 45,671,641 person-years, reconstructed cumulative brain dose, two-year lag, dose-category hazard ratios, excess relative risk, absolute excess-risk estimate, and observational limits
+  https://jamanetwork.com/journals/jama/article-abstract/2857040
+- JAMA editorial; independent clinical interpretation of pediatric radiosensitivity, confounding by indication, reverse causation, justification, dose optimization, and the need to preserve timely indicated imaging
+  https://jamanetwork.com/journals/jama/article-abstract/2857046
+- FDA oncology, EMA, CDSCO, WHO/IARC, major-journal, trial-registry, safety, shortage, reimbursement, procurement, official-pricing, and India-access surfaces were rechecked. EMA orphan-designation postings, educational workshops, early-phase reports, reviews, preclinical studies, result-free development updates, and already represented actions did not clear the promotion threshold. No same-window final FDA, EMA, or CDSCO oncology authorization, withdrawal, material safety restriction, official India price, procurement action, or India-access milestone was verified.
 
 - The 2026-11-19 review added peer-reviewed comparative observational evidence for surgery versus SBRT in stage IA NSCLC, IARC's public INTERVENER screening-implementation tool, and IARC/WHO pandemic-era cancer mortality surveillance across 54 countries. Primary publications were cross-checked against an accompanying editorial or official IARC launch summaries. Records preserve design, population, comparator or nonclinical framework, endpoints, effect sizes, limitations, cost gaps, and India relevance without converting adjusted association, pilot usability, or ecological mortality deviation into causal clinical claims.
 
