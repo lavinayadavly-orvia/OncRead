@@ -1,8 +1,18 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-20
+Updated: 2026-11-21
 
 ## Method
+
+- The 2026-11-21 review added the sponsor-reported positive Phase III TroFuse-015 overall-survival topline in third-line-or-later advanced gastroesophageal adenocarcinoma. The official release was cross-checked against ClinicalTrials.gov NCT06356311. The record preserves the positive primary OS claim, failed central-review PFS endpoint, non-formally-tested ORR signal, missing numerical efficacy and safety data, investigational status, cost gaps, and unverified India access without inferring regulatory approval or clinical superiority beyond the disclosed endpoint.
+
+## 2026-11-21 Verified Updates and Review Checks
+
+- Merck TroFuse-015 official topline release; sponsor-reported final-analysis OS success, PFS failure, nominal ORR direction, no-new-safety-signal statement, 473-patient population, dosing, comparator options, and pending presentation and regulatory-submission status
+  https://www.merck.com/news/merck-announces-trofuse-015-trial-evaluating-sacituzumab-tirumotecan-sac-tmt-met-primary-endpoint-of-overall-survival-os-in-third-line-or-later-locally-advanced-unresectable-or-metastatic-gastroes/
+- ClinicalTrials.gov NCT06356311; randomized Phase III design, actual enrollment, eligibility, intervention and physician-choice comparator schedules, endpoints, active-not-recruiting status, global locations, no listed India site, and no posted results at review time
+  https://clinicaltrials.gov/study/NCT06356311
+- FDA oncology, EMA, CDSCO, WHO/IARC, major-journal, trial-registry, safety, shortage, reimbursement, procurement, official-pricing, and India-access surfaces were rechecked. ENA 2026 Phase I updates, preclinical studies, routine development plans, reviews, and already represented evidence did not clear the promotion threshold. No same-window final FDA, EMA, or CDSCO oncology authorization, withdrawal, material safety restriction, official India price, procurement action, or India-access milestone was verified.
 
 - The 2026-11-20 review added a peer-reviewed pediatric medical-imaging radiation-safety cohort covering 3.7 million children in the United States and Ontario. The article was cross-checked against its accompanying editorial. The record preserves organ-dose categories, relative and absolute risk estimates, imaging-benefit context, residual confounding, cost gaps, and India relevance without converting an observational association into randomized causal proof or advising avoidance of clinically necessary imaging.
 
