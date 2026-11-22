@@ -1,8 +1,21 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-21
+Updated: 2026-11-22
 
 ## Method
+
+- The 2026-11-22 review found no new verified development that cleared the dashboard's materiality threshold. Substantive records were left unchanged. The visible morning edition and archive were advanced to document the completed regulatory, journal, registry, safety, access, pricing, procurement, public-health, care-delivery, and emerging-modality review.
+
+## 2026-11-22 Review Checks - No Material Verified Update
+
+- FDA oncology approval notifications; no same-window oncology approval, withdrawal, or material label restriction after the already represented 16 November giredestrant action
+  https://www.fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications
+- EMA medicines and latest-update surfaces; no new same-window final oncology marketing authorisation, withdrawal, or material safety restriction identified
+  https://www.ema.europa.eu/en/medicines
+  https://www.ema.europa.eu/en/news-events/whats-new
+- CDSCO notices and committee recommendations; no new verified oncology authorization, official India price, procurement action, reimbursement decision, or India-access milestone identified
+  https://cdsco.gov.in/opencms/opencms/en/Notifications/
+- WHO/IARC, major-journal, conference, trial-registry, safety, shortage, reimbursement, official-pricing, procurement, and India-access surfaces were rechecked. Weekend coverage repeating the already represented TroFuse-015 topline, registry synchronizations without new results, weekly news roundups, early-phase ENA 2026 reports, preclinical studies, reviews, educational material, and result-free development updates did not clear the promotion threshold.
 
 - The 2026-11-21 review added the sponsor-reported positive Phase III TroFuse-015 overall-survival topline in third-line-or-later advanced gastroesophageal adenocarcinoma. The official release was cross-checked against ClinicalTrials.gov NCT06356311. The record preserves the positive primary OS claim, failed central-review PFS endpoint, non-formally-tested ORR signal, missing numerical efficacy and safety data, investigational status, cost gaps, and unverified India access without inferring regulatory approval or clinical superiority beyond the disclosed endpoint.
 
