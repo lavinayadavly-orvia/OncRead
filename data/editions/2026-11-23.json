@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-23",
+  "editionLabel": "23 November 2026",
+  "preparedLabel": "November 23 Morning Edition",
+  "monthKey": "2026-11",
+  "monthLabel": "November 2026",
+  "summary": "Later-line metastatic gastroesophageal adenocarcinoma has limited effective options and short survival. A global randomized overall-survival benefit could establish the first TROP2-directed ADC pathway in this setting, but the discordant PFS result and absent numerical dataset require careful review before clinical adoption.",
+  "provenance": "Generated from the current working tree.",
+  "metrics": {
+    "insights": 4,
+    "treatments": 36,
+    "followupApprovals": 8,
+    "indiaMarketed": 4,
+    "watchlistSignals": 100,
+    "verifiedRecords": 147
+  },
+  "headlines": [
+    {
+      "tag": "Sponsor-reported Phase III topline; OS positive, PFS negative, full data pending",
+      "title": "TroFuse-015 sacituzumab tirumotecan in previously treated gastroesophageal cancer",
+      "summary": "Later-line metastatic gastroesophageal adenocarcinoma has limited effective options and short survival. A global randomized overall-survival benefit could establish the first TROP2-directed ADC pathway in this setting, but the discordant PFS result and absent numerical dataset require careful review before clinical adoption."
+    },
+    {
+      "tag": "Latest verified approval",
+      "title": "Neladalkib After Prior ALK Therapy",
+      "summary": "FDA accelerated approval 17 November 2026"
+    },
+    {
+      "tag": "Highest-impact treatment pool",
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+    },
+    {
+      "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
+      "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
+      "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
+    }
+  ],
+  "spotlight": [
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "neladalkib-alk-nsclc"
+      },
+      "title": "Neladalkib After Prior ALK Therapy",
+      "subtitle": "FDA accelerated approval 17 November 2026",
+      "date": 1794873600000
+    },
+    {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "dostarlimab-azur1-rectal-cancer"
+      },
+      "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+      "subtitle": "Single-arm Phase II; FDA accelerated approval · US accelerated approval; India indication unverified",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "followup",
+        "kind": "followup",
+        "targetId": "matterhorn"
+      },
+      "title": "Durvalumab + FLOT",
+      "subtitle": "FDA approval · 25 Nov 2025",
+      "date": 0
+    },
+    {
+      "route": {
+        "view": "watchlist",
+        "kind": "watchlist",
+        "targetId": "iarc-intervener-screening-tool-launch-2026"
+      },
+      "title": "IARC INTERVENER tool links cancer-screening barriers to evidence-based actions",
+      "subtitle": "Public IARC tool launch; pilot usability evidence, no population outcome evaluation",
+      "date": 0
+    }
+  ],
+  "sourceCount": 147,
+  "routeSummary": {
+    "approval": {
+      "route": {
+        "view": "treatments",
+        "kind": "detail",
+        "targetId": "neladalkib-alk-nsclc"
+      },
+      "title": "Neladalkib After Prior ALK Therapy",
+      "subtitle": "FDA accelerated approval 17 November 2026",
+      "date": 1794873600000
+    }
+  }
+}

@@ -1,5 +1,12 @@
 # Dashboard Changelog
 
+## 2026-11-23 - No Material Verified Update
+
+- Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, peer-reviewed journals, conference databases, trial registries, diagnostics, screening, surgery, radiotherapy, prevention, supportive and palliative care, biomarkers, manufacturing, shortages, safety, withdrawals, guidelines, reimbursement, care delivery, workforce, epidemiology, public health, trial methodology, data infrastructure, and emerging modalities.
+- No new verified development met the dashboard's materiality threshold. FDA's oncology approval surface remained headed by the already represented 16 November giredestrant action, and no same-window final EMA or CDSCO oncology authorization, withdrawal, material safety restriction, official India price, procurement action, reimbursement decision, or India-access milestone was identified.
+- Older trial-in-progress abstracts newly crawled on 22 November, repeat coverage of the already represented TroFuse-015 topline, registry pages without new results, early-phase ENA 2026 reports, preclinical studies, reviews, and educational material were reviewed and did not warrant separate dashboard records.
+- Substantive records, taxonomy, scoring, evidence-rating logic, filters, visualizations, detail panels, layout, and navigation are unchanged. The source ledger and dated morning edition/archive were advanced to 23 November 2026. The detailed Word report was not modified.
+
 ## 2026-11-22 - No Material Verified Update
 
 - Reviewed worldwide oncology developments made officially visible in the preceding 24 hours across regulators, peer-reviewed journals, conference databases, trial registries, diagnostics, screening, surgery, radiotherapy, prevention, supportive and palliative care, biomarkers, manufacturing, shortages, safety, withdrawals, guidelines, reimbursement, care delivery, workforce, epidemiology, public health, trial methodology, data infrastructure, and emerging modalities.
