@@ -689,6 +689,34 @@ const treatments = [
     ]
   },
   {
+    id: "giredestrant-adjuvant-early-breast", short: "Wilserdly", name: "Adjuvant Giredestrant for ER-Positive Early Breast Cancer", cancer: "Breast cancer",
+    setting: "ER-positive, HER2-negative Stage I-III early breast cancer at intermediate to high recurrence risk", company: "Genentech / Roche", phase: "Randomized Phase III; FDA approved",
+    impact: "High in long-term adjuvant endocrine care", impactGroup: "high", maturity: 99, impactScore: 92,
+    eventDate: "2026-11-23",
+    headline: "3-year IDFS 92.4% vs 89.6%", headlineNote: "HR 0.70 (95% CI 0.57-0.87); OS immature",
+    benefit: "FDA approved giredestrant, marketed as Wilserdly, as single-agent adjuvant endocrine therapy for adults with ER-positive, HER2-negative Stage I-III early breast cancer at intermediate to high risk of recurrence. The five-year oral regimen is the first SERD approved in this curative-intent setting and provides a statistically significant invasive disease-free-survival improvement over established endocrine monotherapy.",
+    safety: "FDA warnings and precautions include bradycardia and embryo-fetal toxicity. Common adverse reactions and laboratory abnormalities included musculoskeletal pain, hot flash, fatigue, headache, nausea, bradycardia, cytopenias, liver-enzyme and metabolic abnormalities, and electrolyte or renal-laboratory changes; Roche reported discontinuation for adverse events in 5.3% versus 8.2% with standard endocrine therapy.",
+    cost: "Five-year branded oral therapy; no official US list price or total course cost was reported or verified", indiaPrice: "No official India price, INR course estimate, reimbursement decision, procurement figure, patient-assistance terms, or India cost-effectiveness result was reported or verified.",
+    indiaStatus: "not-launched", indiaLabel: "US approved; India authorization unverified", launch: "FDA approval 23 November 2026",
+    indiaCaveat: "No CDSCO authorization for this adjuvant indication, India launch date, distributor, official price, reimbursement decision, procurement action, or patient-support programme was reported or verified. Roche stated that additional regulatory filings are underway outside the United States but did not announce an India filing or launch date.",
+    limitations: "Overall survival was immature at the interim IDFS analysis, and the absolute 36-month IDFS difference was 2.8 percentage points. The trial was open label, follow-up remains short relative to the prolonged recurrence horizon of ER-positive breast cancer, and the approval applies only to the defined intermediate-to-high-risk Stage I-III population. Long-term adherence, late toxicity, quality of life, cost, sequencing with adjuvant CDK4/6 inhibition, and mature survival remain important uncertainties.",
+    detailSections: [
+      ["Event date / geography", "23 November 2026 FDA approval - United States. The application received priority review. Roche described Wilserdly as the first new adjuvant endocrine therapy for this setting in more than 20 years; that historical characterization is sponsor-reported.", "wide"],
+      ["Population / sample", "lidERA Breast Cancer randomized 4,170 adults with histologically confirmed ER-positive, HER2-negative Stage I-III early breast cancer at intermediate to high risk of recurrence; 2,084 received giredestrant and 2,086 received standard endocrine therapy.", "wide"],
+      ["Comparator", "Giredestrant 30 mg orally once daily versus physician-choice tamoxifen, anastrozole, letrozole, or exemestane, planned for five years or until recurrence or unacceptable toxicity. Protocol-specified ovarian suppression was used where applicable.", "wide"],
+      ["Primary endpoint", "Invasive disease-free survival, defined from randomization to ipsilateral invasive breast-tumor recurrence, locoregional invasive recurrence, distant recurrence, contralateral invasive breast cancer, or death from any cause. Overall survival was an additional efficacy endpoint.", "wide"],
+      ["Effect size detail", "At the prespecified interim analysis, 36-month IDFS was 92.4% (95% CI 91.2-93.7) with giredestrant versus 89.6% (95% CI 88.1-91.0) with standard endocrine therapy, HR 0.70 (95% CI 0.57-0.87), two-sided p=0.0014. Overall-survival data were immature and no mature survival benefit has been established.", "wide"],
+      ["Safety and monitoring", "Label precautions cover bradycardia and embryo-fetal toxicity. Common clinical and laboratory events included musculoskeletal pain, hot flash, fatigue, headache, nausea, bradycardia, cytopenias, liver-enzyme abnormalities, and metabolic, electrolyte, or renal-laboratory changes. Roche reported adverse-event discontinuation of 5.3% versus 8.2%; longer-term safety over the planned five-year course remains under follow-up.", "wide"],
+      ["Dose and regulatory status", "Giredestrant 30 mg orally once daily with or without food for five years or until recurrence or unacceptable toxicity. FDA approval is final for the specified US population; no EMA or CDSCO authorization, official India launch, price, reimbursement, or procurement action for this adjuvant indication was verified.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/cancer-approvals/fda-approves-giredestrant-adjuvant-treatment-er-positive-her2-negative-stage-i-ii-and-iii-breast",
+    sourceLabel: "FDA approval notice",
+    supportingSources: [
+      { label: "Roche approval release", url: "https://www.roche.com/investors/updates/inv-update-2026-11-23" },
+      { label: "ClinicalTrials.gov lidERA registry", url: "https://clinicaltrials.gov/study/NCT04961996" }
+    ]
+  },
+  {
     id: "giredestrant-everolimus-esr1-breast", short: "Wilserdly + Everolimus", name: "Giredestrant + Everolimus for ESR1-Mutated Advanced Breast Cancer", cancer: "Breast cancer",
     setting: "ER-positive, HER2-negative, ESR1-mutated locally advanced or metastatic disease after recurrence during or after adjuvant endocrine therapy, or progression on at least one metastatic endocrine regimen", company: "Genentech / Roche", phase: "Randomized Phase III; FDA approved",
     impact: "High in ESR1-mutated endocrine-resistant disease", impactGroup: "high", maturity: 99, impactScore: 89,
@@ -1187,6 +1215,35 @@ const followupDetails = {
 asco2025Followup.forEach(item => Object.assign(item, followupDetails[item.id]));
 
 const watchlistSignals = [
+  {
+    id: "prism-1-quemliclustat-pdac-discontinued-2026",
+    title: "PRISM-1 quemliclustat Phase III discontinued after negative interim analysis",
+    short: "PRISM-1 Phase III discontinuation",
+    category: "Negative Phase III / trial discontinuation / pancreatic cancer",
+    status: "conference",
+    statusLabel: "Sponsor-reported prespecified interim analysis; OS boundary not reached and trial discontinued",
+    geography: "Global randomized multicenter trial; country-level outcomes and India participation were not reported in the discontinuation release",
+    date: "23 November 2026",
+    cancer: "Treatment-naive metastatic pancreatic ductal adenocarcinoma",
+    issue: "Arcus discontinued the randomized Phase III PRISM-1 study after the independent data monitoring committee reviewed a prespecified event-driven interim analysis and found that the efficacy boundary for overall survival was not reached. Primary and secondary efficacy outcomes were described as similar between treatment groups, removing this investigational CD73-inhibitor regimen from planned first-line development on the available evidence.",
+    organization: "Arcus Biosciences; PRISM-1 investigators and independent data monitoring committee",
+    population: "Approximately 650 adults with previously untreated metastatic pancreatic ductal adenocarcinoma were reported as enrolled by Arcus. The latest verified ClinicalTrials.gov snapshot listed estimated enrollment of 610; the discrepancy reflects different source snapshots and is not resolved in the public interim disclosure.",
+    comparator: "Quemliclustat, an investigational oral small-molecule CD73 inhibitor, plus gemcitabine and nab-paclitaxel versus placebo plus the same chemotherapy, randomized 2:1 in a double-blind design.",
+    endpoint: "Overall survival was the primary endpoint. Secondary endpoints included progression-free survival, objective response rate, duration of response, disease control rate, and safety.",
+    effect: "The prespecified interim overall-survival efficacy boundary was not reached. Arcus stated that the primary and secondary endpoints showed similar efficacy between groups but did not report hazard ratios, confidence intervals, medians, event counts, response rates, duration-of-response estimates, disease-control rates, multiplicity details, or subgroup results.",
+    safety: "Arcus reported no differences in adverse events or toxicity between arms. Numerical rates of grade 3 or higher events, serious or fatal events, treatment discontinuation, dose modification, or individual toxicities were not reported.",
+    whyMatters: "Metastatic pancreatic ductal adenocarcinoma remains highly lethal and needs effective first-line additions to chemotherapy. A negative global Phase III interim analysis prevents an unsupported treatment change, redirects patients and research resources, and tests the clinical value of CD73 inhibition in this setting.",
+    whoAffected: "Patients enrolled in PRISM-1 and their care teams; adults with untreated metastatic pancreatic cancer; gastrointestinal oncologists; trial sites; regulators; research sponsors; and investigators developing adenosine-pathway therapies.",
+    decisionImpact: "Supports discontinuing PRISM-1 and determining protocol-specific next steps for participants. It does not establish that all CD73 inhibition is ineffective, quantify possible benefit or harm, or guide use outside a trial; quemliclustat remains unapproved and should not be used as a first-line standard based on this result.",
+    evidenceStrength: "High for the operational conclusion because a global randomized double-blind Phase III trial underwent an independent prespecified interim review and was stopped. Clinical interpretability is currently moderate because the evidence is sponsor-reported only and no numerical efficacy, safety, subgroup, quality-of-life, or subsequent-treatment dataset has been released.",
+    limitations: "Press-release-only interim disclosure; registry status had not yet been updated at the verified snapshot; public sources differ on approximately 650 enrolled versus 610 estimated; no numerical endpoints, confidence intervals, subgroup findings, patient-reported outcomes, subsequent therapy, treatment exposure, or peer-reviewed report; discontinuation timing and participant-level next steps remain investigator-specific.",
+    indiaImpact: "No CDSCO authorization, India filing, India subgroup result, official price, reimbursement decision, procurement action, patient-support programme, or anticipated India launch was reported or verified. As the investigational Phase III study is being discontinued, no India commercial launch should be inferred.",
+    cost: "Not applicable for an unapproved investigational regimen. No official commercial price, original-currency regimen cost, INR conversion, reimbursement decision, procurement figure, or cost-effectiveness estimate was reported or verified.",
+    nextMilestone: "Registry status update; full numerical OS, PFS, response, disease-control, safety, quality-of-life, and subgroup disclosure; peer-reviewed publication; and clarification of participant follow-up and any remaining quemliclustat development plans.",
+    verification: "Verified from Arcus Biosciences' 23 November 2026 official discontinuation release and cross-checked against ClinicalTrials.gov NCT06608927, which confirms the randomized, placebo-controlled, double-blind Phase III design, treatment-naive metastatic PDAC population, interventions, primary OS endpoint, and secondary endpoints. The registry snapshot predated the discontinuation and had no posted results.",
+    source: "https://investors.arcusbio.com/investors-and-media/press-releases/press-release-details/2026/Arcus-Provides-Update-on-Phase-3-PRISM-1-Study-of-Quemliclustat-in-Metastatic-Pancreatic-Cancer/default.aspx",
+    secondarySource: "https://clinicaltrials.gov/study/NCT06608927"
+  },
   {
     id: "trofuse-015-sac-tmt-gastroesophageal-phase3-2026",
     title: "TroFuse-015 sacituzumab tirumotecan in previously treated gastroesophageal cancer",
@@ -4140,13 +4197,14 @@ const portfolioAliasRules = [
   { match: /cemiplimab/i, aliases: ["Libtayo"] },
   { match: /isatuximab|sarclisa/i, aliases: ["Sarclisa", "Sarclisa Escena"] },
   { match: /cretostimogene|cg0070/i, aliases: ["CG0070"] },
-  { match: /giredestrant|wilserdly|evera breast|nct05306340/i, aliases: ["Wilserdly", "evERA Breast Cancer", "NCT05306340", "ESR1", "FoundationOne Liquid CDx"] },
+  { match: /giredestrant|wilserdly|evera breast|lidera breast|nct05306340|nct04961996/i, aliases: ["Wilserdly", "evERA Breast Cancer", "lidERA Breast Cancer", "NCT05306340", "NCT04961996", "ESR1", "oral SERD", "FoundationOne Liquid CDx"] },
   { match: /pivot-006|nct06111235/i, aliases: ["PIVOT-006", "NCT06111235", "intermediate-risk NMIBC", "surveillance"] },
   { match: /stage ia nsclc surgery|surgery versus sbrt|proximal causal inference|jamasurg.2026.5510/i, aliases: ["SBRT", "sublobar resection", "SEER-Medicare", "proximal causal inference", "stage IA NSCLC"] },
   { match: /intervener|s12913-024-12171-w/i, aliases: ["IARC INTERVENER", "CanScreen5", "screening barriers", "implementation science", "evidence-based interventions"] },
   { match: /covid cancer mortality 54 countries|ijc.70816|42984378/i, aliases: ["IARC", "WHO Mortality Database", "pandemic disruption", "observed versus expected mortality", "PMID 42984378"] },
   { match: /pediatric medical-imaging radiation|medical imaging and pediatric|jama.2026.20441|2857040/i, aliases: ["pediatric CT", "radiation protection", "brain tumor risk", "100 mGy", "JAMA 2026"] },
   { match: /trofuse-015|nct06356311|sac-tmt gastroesophageal/i, aliases: ["TroFuse-015", "NCT06356311", "sacituzumab tirumotecan", "MK-2870", "SKB264", "gastroesophageal adenocarcinoma"] },
+  { match: /prism-1|nct06608927|quemliclustat/i, aliases: ["PRISM-1", "NCT06608927", "quemliclustat", "CD73 inhibitor", "metastatic pancreatic cancer", "negative Phase III"] },
   { match: /who cervical-screening coverage|hpv-test coverage|three in five women|104044|42874626/i, aliases: ["cervical screening", "HPV testing", "WHO 2022 estimates", "Lancet Global Health", "PMID 42874626", "Brazil", "New Zealand"] },
   { match: /selpercatinib|retevmo|retsevmo/i, aliases: ["Retevmo", "Retsevmo"] },
   { match: /tregzi|orca-t/i, aliases: ["Tregzi", "Orca-T"] },

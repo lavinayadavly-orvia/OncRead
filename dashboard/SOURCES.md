@@ -1,8 +1,24 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-23
+Updated: 2026-11-24
 
 ## Method
+
+- The 2026-11-24 review added FDA approval of adjuvant single-agent giredestrant for intermediate-to-high-risk ER-positive, HER2-negative Stage I-III early breast cancer and the negative Phase III PRISM-1 interim result and discontinuation in first-line metastatic pancreatic ductal adenocarcinoma. Both developments were cross-checked against official company disclosures and ClinicalTrials.gov records. The records preserve immature or undisclosed outcomes, safety limits, cost gaps, and unverified India access without inferring survival benefit, class-wide futility, or launches outside the United States.
+
+## 2026-11-24 Verified Updates and Review Checks
+
+- FDA adjuvant giredestrant approval notice; final US action, lidERA population and randomized design, 36-month IDFS rates and hazard ratio, immature OS, common adverse reactions and laboratory abnormalities, warnings, dose, and five-year treatment duration
+  https://www.fda.gov/drugs/cancer-approvals/fda-approves-giredestrant-adjuvant-treatment-er-positive-her2-negative-stage-i-ii-and-iii-breast
+- Roche approval release; sponsor cross-check, first-in-setting context, IDFS result, adverse-event discontinuation rates, development context, and statement that filings outside the United States remain underway without an announced India milestone
+  https://www.roche.com/investors/updates/inv-update-2026-11-23
+- ClinicalTrials.gov NCT04961996; lidERA identity, actual enrollment of 4,170, global randomized open-label Phase III design, interventions, endpoints, and continued long-term follow-up
+  https://clinicaltrials.gov/study/NCT04961996
+- Arcus PRISM-1 discontinuation release; independent prespecified interim review, failure to reach the OS efficacy boundary, similar reported primary and secondary efficacy, no reported toxicity difference, 2:1 randomized double-blind design, and investigational status
+  https://investors.arcusbio.com/investors-and-media/press-releases/press-release-details/2026/Arcus-Provides-Update-on-Phase-3-PRISM-1-Study-of-Quemliclustat-in-Metastatic-Pancreatic-Cancer/default.aspx
+- ClinicalTrials.gov NCT06608927; PRISM-1 identity, Phase III design, treatment-naive metastatic PDAC population, interventions, endpoints, estimated enrollment snapshot, and registry status before the sponsor's discontinuation announcement
+  https://clinicaltrials.gov/study/NCT06608927
+- EMA, CDSCO, WHO/IARC, major-journal, conference, trial-registry, safety, shortage, reimbursement, official-pricing, procurement, and India-access surfaces were rechecked. No additional same-window final EMA or CDSCO oncology authorization, withdrawal, material safety restriction, official India price, procurement action, reimbursement decision, or India-access milestone cleared promotion.
 
 - The 2026-11-23 review found no new verified development that cleared the dashboard's materiality threshold. Substantive records were left unchanged. The visible morning edition and archive were advanced to document the completed regulatory, journal, registry, safety, access, pricing, procurement, public-health, care-delivery, and emerging-modality review.
 
