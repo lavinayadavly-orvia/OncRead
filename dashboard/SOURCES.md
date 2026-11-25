@@ -1,8 +1,22 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-24
+Updated: 2026-11-25
 
 ## Method
+
+- The 2026-11-25 review added FDA approval and US launch of bezuclastinib plus sunitinib after prior imatinib in advanced GIST. The final FDA action was cross-checked against Cogent Biosciences, ClinicalTrials.gov NCT05208047, and the ASCO/JCO PEAK primary-results abstract. The record preserves immature overall survival, crossover and eligibility limits, boxed hepatotoxicity, cost gaps, and unverified India access without inferring authorization outside the United States.
+
+## 2026-11-25 Verified Updates and Review Checks
+
+- FDA bezuclastinib plus sunitinib approval notice; final US action, PEAK randomized population and active comparator, PFS and ORR effects with confidence intervals, immature OS, boxed hepatotoxicity warning, common adverse reactions, dose, and expedited-review context
+  https://www.fda.gov/drugs/cancer-approvals/fda-approves-bezuclastinib-combination-sunitinib-advanced-gastrointestinal-stromal-tumors
+- Cogent Biosciences approval and launch release; US prescription availability, matched efficacy results, numerical hepatic laboratory abnormalities, monitoring, interactions, embryo-fetal risk, and US Cogent Connect support programme
+  https://www.globenewswire.com/news-release/2026/11/24/3409390/0/en/cogent-biosciences-announces-fda-approval-and-launch-of-ekitna-bezuclastinib-for-the-treatment-of-patients-with-gastrointestinal-stromal-tumors-gist-who-have-received-prior-treatme.html
+- ClinicalTrials.gov NCT05208047; PEAK identity, randomized open-label international Phase III design, imatinib-treated population, crossover, intervention schedules, endpoints, molecular exclusions, substudies, and registry status
+  https://clinicaltrials.gov/study/NCT05208047
+- ASCO/JCO PEAK primary-results abstract; independent scientific-congress cross-check of sample size, PFS, ORR, mutation distribution, and liver-toxicity management
+  https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.11500
+- EMA, CDSCO, WHO/IARC, major-journal, conference, trial-registry, safety, shortage, reimbursement, official-pricing, procurement, and India-access surfaces were rechecked. IARC ECSA programme abstracts, an EMA PRAC agenda, early-phase findings, routine company updates, reviews, and already represented evidence did not clear separate promotion. No additional same-window final EMA or CDSCO oncology authorization, withdrawal, material safety restriction, official India price, procurement action, reimbursement decision, or India-access milestone was verified.
 
 - The 2026-11-24 review added FDA approval of adjuvant single-agent giredestrant for intermediate-to-high-risk ER-positive, HER2-negative Stage I-III early breast cancer and the negative Phase III PRISM-1 interim result and discontinuation in first-line metastatic pancreatic ductal adenocarcinoma. Both developments were cross-checked against official company disclosures and ClinicalTrials.gov records. The records preserve immature or undisclosed outcomes, safety limits, cost gaps, and unverified India access without inferring survival benefit, class-wide futility, or launches outside the United States.
 

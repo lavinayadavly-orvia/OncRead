@@ -689,6 +689,35 @@ const treatments = [
     ]
   },
   {
+    id: "bezuclastinib-sunitinib-gist", short: "Ekitna + Sunitinib", name: "Bezuclastinib + Sunitinib After Imatinib-Treated Advanced GIST", cancer: "Gastrointestinal stromal tumor",
+    setting: "Locally advanced unresectable or metastatic GIST after prior imatinib treatment", company: "Cogent Biosciences", phase: "Randomized Phase III; FDA approved",
+    impact: "High in second-line advanced GIST", impactGroup: "high", maturity: 99, impactScore: 91,
+    eventDate: "2026-11-24",
+    headline: "PFS 16.5 vs 9.2 months", headlineNote: "HR 0.50 (95% CI 0.39-0.65); OS immature",
+    benefit: "FDA approved bezuclastinib, marketed as Ekitna, in combination with sunitinib for adults with advanced gastrointestinal stromal tumors after prior imatinib. In PEAK, the combination halved the hazard of progression or death versus active-control sunitinib and increased objective response, establishing a new FDA-authorized second-line combination while overall survival remains immature.",
+    safety: "The label carries a boxed warning for hepatotoxicity and a warning for embryo-fetal toxicity. Common adverse reactions and laboratory abnormalities included diarrhea, liver-transaminase elevation, hypertension, dysgeusia, nausea, hair-color change, fatigue, gastrointestinal symptoms, reduced appetite, stomatitis, rash, pyrexia, and cytopenias; liver testing is required before and during treatment.",
+    cost: "Two-drug branded oral regimen; no official US list price or total treatment cost was reported or verified", indiaPrice: "No official India price, INR regimen estimate, reimbursement decision, procurement figure, patient-assistance terms, or India cost-effectiveness result was reported or verified.",
+    indiaStatus: "not-launched", indiaLabel: "US approved and launched; India authorization unverified", launch: "FDA approval and US launch 24 November 2026",
+    indiaCaveat: "No CDSCO authorization, India filing, launch date, distributor, official price, reimbursement decision, procurement action, or India patient-support programme for bezuclastinib was reported or verified. Cogent Connect is a US patient-support programme and should not be interpreted as India access.",
+    limitations: "PEAK was open label, allowed crossover from sunitinib after centrally confirmed progression, and had immature overall-survival data, limiting survival interpretation. The pivotal population had imatinib-resistant or intolerant advanced GIST and excluded known PDGFRA-driven or succinate-dehydrogenase-deficient disease, so the result should not be generalized across all GIST biology. Long-term combination toxicity, adherence, cost, sequencing after progression, and outcomes outside trial eligibility remain unresolved.",
+    detailSections: [
+      ["Event date / geography", "24 November 2026 FDA approval and announced prescription availability - United States. FDA used Real-Time Oncology Review and the Assessment Aid; the application received priority review, breakthrough therapy designation for the combination, and orphan drug designation for bezuclastinib.", "wide"],
+      ["Population / sample", "PEAK randomized 413 adults with histologically confirmed locally advanced unresectable or metastatic GIST after progression on or intolerance to imatinib. The trial registry excludes known PDGFRA driver mutations and known succinate-dehydrogenase deficiency from the pivotal previously treated population.", "wide"],
+      ["Comparator", "Bezuclastinib 600 mg orally once daily plus sunitinib 37.5 mg once daily versus sunitinib 37.5 mg once daily alone, continued until progression or unacceptable toxicity. Patients assigned to sunitinib could cross over to the combination after blinded-independent-central-review-confirmed progression.", "wide"],
+      ["Primary endpoint", "Progression-free survival by blinded independent central review using modified RECIST 1.1. Objective response rate and overall survival were additional efficacy endpoints.", "wide"],
+      ["Effect size detail", "Median PFS was 16.5 months (95% CI 13.8-19.2) with bezuclastinib plus sunitinib versus 9.2 months (95% CI 7.2-11.0) with sunitinib, HR 0.50 (95% CI 0.39-0.65), two-sided p<0.0001. ORR was 46% (95% CI 39-53) versus 26% (95% CI 20-32), p<0.0001. Overall survival was immature.", "wide"],
+      ["Safety and monitoring", "The boxed warning addresses hepatotoxicity. Cogent reported ALT or AST elevation in 43% with the combination, including 8% grade 3, and bilirubin elevation in 13%, including 0.5% grade 3; most first transaminase elevations occurred in the first four months. Baseline and ongoing AST, ALT, and bilirubin monitoring and label-directed interruption, dose reduction, or discontinuation are required.", "wide"],
+      ["Dose, interactions, and regulatory status", "Bezuclastinib 600 mg once daily with sunitinib 37.5 mg once daily. The label advises avoiding UGT1A1 inhibitors and inducers and notes reduced hormonal-contraceptive concentrations. FDA approval is final for the specified US population; no EMA or CDSCO authorization, official India launch, price, reimbursement, or procurement action was verified.", "wide"]
+    ],
+    source: "https://www.fda.gov/drugs/cancer-approvals/fda-approves-bezuclastinib-combination-sunitinib-advanced-gastrointestinal-stromal-tumors",
+    sourceLabel: "FDA approval notice",
+    supportingSources: [
+      { label: "Cogent Biosciences approval and launch release", url: "https://www.globenewswire.com/news-release/2026/11/24/3409390/0/en/cogent-biosciences-announces-fda-approval-and-launch-of-ekitna-bezuclastinib-for-the-treatment-of-patients-with-gastrointestinal-stromal-tumors-gist-who-have-received-prior-treatme.html" },
+      { label: "ClinicalTrials.gov PEAK registry", url: "https://clinicaltrials.gov/study/NCT05208047" },
+      { label: "ASCO/JCO PEAK primary-results abstract", url: "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.11500" }
+    ]
+  },
+  {
     id: "giredestrant-adjuvant-early-breast", short: "Wilserdly", name: "Adjuvant Giredestrant for ER-Positive Early Breast Cancer", cancer: "Breast cancer",
     setting: "ER-positive, HER2-negative Stage I-III early breast cancer at intermediate to high recurrence risk", company: "Genentech / Roche", phase: "Randomized Phase III; FDA approved",
     impact: "High in long-term adjuvant endocrine care", impactGroup: "high", maturity: 99, impactScore: 92,
@@ -4198,6 +4227,7 @@ const portfolioAliasRules = [
   { match: /isatuximab|sarclisa/i, aliases: ["Sarclisa", "Sarclisa Escena"] },
   { match: /cretostimogene|cg0070/i, aliases: ["CG0070"] },
   { match: /giredestrant|wilserdly|evera breast|lidera breast|nct05306340|nct04961996/i, aliases: ["Wilserdly", "evERA Breast Cancer", "lidERA Breast Cancer", "NCT05306340", "NCT04961996", "ESR1", "oral SERD", "FoundationOne Liquid CDx"] },
+  { match: /bezuclastinib|ekitna|peak gist|nct05208047/i, aliases: ["Ekitna", "bezuclastinib", "PEAK", "NCT05208047", "CGT9486", "sunitinib", "advanced GIST"] },
   { match: /pivot-006|nct06111235/i, aliases: ["PIVOT-006", "NCT06111235", "intermediate-risk NMIBC", "surveillance"] },
   { match: /stage ia nsclc surgery|surgery versus sbrt|proximal causal inference|jamasurg.2026.5510/i, aliases: ["SBRT", "sublobar resection", "SEER-Medicare", "proximal causal inference", "stage IA NSCLC"] },
   { match: /intervener|s12913-024-12171-w/i, aliases: ["IARC INTERVENER", "CanScreen5", "screening barriers", "implementation science", "evidence-based interventions"] },

@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-11-24T00:44:36.028Z",
-  "currentEditionId": "2026-11-24",
-  "currentEditionLabel": "24 November 2026",
+  "generatedAt": "2026-11-25T01:17:09.684Z",
+  "currentEditionId": "2026-11-25",
+  "currentEditionLabel": "25 November 2026",
   "editions": [
+    {
+      "id": "2026-11-25",
+      "editionLabel": "25 November 2026",
+      "preparedLabel": "November 25 Morning Edition",
+      "monthKey": "2026-11",
+      "monthLabel": "November 2026",
+      "summary": "FDA approved bezuclastinib, marketed as Ekitna, in combination with sunitinib for adults with advanced gastrointestinal stromal tumors after prior imatinib. In PEAK, the combination halved the hazard of progression or death versus active-control sunitinib and increased objective response, establishing a new FDA-authorized second-line combination while overall survival remains immature.",
+      "file": "/data/editions/2026-11-25.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 38,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 101,
+        "verifiedRecords": 150
+      }
+    },
     {
       "id": "2026-11-24",
       "editionLabel": "24 November 2026",
@@ -1793,8 +1810,29 @@
     {
       "monthKey": "2026-11",
       "monthLabel": "November 2026",
-      "leadEditionId": "2026-11-24",
+      "leadEditionId": "2026-11-25",
       "highlights": [
+        {
+          "editionId": "2026-11-25",
+          "editionLabel": "25 November 2026",
+          "tag": "Latest verified approval",
+          "title": "Bezuclastinib + Sunitinib After Imatinib-Treated Advanced GIST",
+          "summary": "FDA approval and US launch 24 November 2026"
+        },
+        {
+          "editionId": "2026-11-25",
+          "editionLabel": "25 November 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+        },
+        {
+          "editionId": "2026-11-25",
+          "editionLabel": "25 November 2026",
+          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
+          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
+          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
+        },
         {
           "editionId": "2026-11-24",
           "editionLabel": "24 November 2026",
@@ -1815,27 +1853,6 @@
           "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
           "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
           "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
-        },
-        {
-          "editionId": "2026-11-23",
-          "editionLabel": "23 November 2026",
-          "tag": "Sponsor-reported Phase III topline; OS positive, PFS negative, full data pending",
-          "title": "TroFuse-015 sacituzumab tirumotecan in previously treated gastroesophageal cancer",
-          "summary": "Later-line metastatic gastroesophageal adenocarcinoma has limited effective options and short survival. A global randomized overall-survival benefit could establish the first TROP2-directed ADC pathway in this setting, but the discordant PFS result and absent numerical dataset require careful review before clinical adoption."
-        },
-        {
-          "editionId": "2026-11-23",
-          "editionLabel": "23 November 2026",
-          "tag": "Latest verified approval",
-          "title": "Neladalkib After Prior ALK Therapy",
-          "summary": "FDA accelerated approval 17 November 2026"
-        },
-        {
-          "editionId": "2026-11-23",
-          "editionLabel": "23 November 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
         }
       ]
     },
