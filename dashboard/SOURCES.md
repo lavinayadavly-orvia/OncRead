@@ -1,8 +1,27 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-25
+Updated: 2026-11-26
 
 ## Method
+
+## 2026-11-26 Verified Updates and Review Checks
+
+- Chlorophyllin rectal cancer Phase II: https://jamanetwork.com/journals/jamaoncology/article-abstract/2857374
+  https://jamanetwork.com/journals/jamaoncology/fullarticle/2857370
+- EXENT monitoring clearance: https://www.businesswire.com/news/home/20261124848896/en/
+  https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250159.pdf
+- STHLM3 risk-stratified screening: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2857137
+  https://www.isrctn.com/ISRCTN84445406
+- PanNET surveillance after year 5: https://jamanetwork.com/journals/jamaoncology/article-abstract/2857371
+  https://pubmed.ncbi.nlm.nih.gov/41405980/
+- Head and neck prehabilitation: neutral trial: https://jamanetwork.com/journals/jamaotolaryngology/article-abstract/2856818
+  https://clinicaltrials.gov/study/NCT06079697
+- Mexico oncology supply certification: https://nsearchives.nseindia.in/corporate/BETA_25112026130954_press_release_cofepris.pdf
+- Timing and exclusions: The review window was 25 November 06:15 to 26 November 06:15 IST. The BLENREP India launch filing preceded the window; CG Oncology's SUO preview contained no new readout. The already covered PEAK approval, the EMA PRAC agenda and IARC meeting abstracts were not promoted.
+  https://nsearchives.nseindia.com/corporate/GLAXO1924_24112026114705_Press_release.pdf
+  https://cgoncology.com/news-media/
+  https://www.ema.europa.eu/en/documents/agenda/agenda-prac-meeting-23-26-november-2026_en.pdf
+  https://events.iarc.who.int/event/149/program
 
 - The 2026-11-25 review added FDA approval and US launch of bezuclastinib plus sunitinib after prior imatinib in advanced GIST. The final FDA action was cross-checked against Cogent Biosciences, ClinicalTrials.gov NCT05208047, and the ASCO/JCO PEAK primary-results abstract. The record preserves immature overall survival, crossover and eligibility limits, boxed hepatotoxicity, cost gaps, and unverified India access without inferring authorization outside the United States.
 

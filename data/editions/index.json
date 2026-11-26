@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-11-25T01:17:09.684Z",
-  "currentEditionId": "2026-11-25",
-  "currentEditionLabel": "25 November 2026",
+  "generatedAt": "2026-11-26T00:51:53.613Z",
+  "currentEditionId": "2026-11-26",
+  "currentEditionLabel": "26 November 2026",
   "editions": [
+    {
+      "id": "2026-11-26",
+      "editionLabel": "26 November 2026",
+      "preparedLabel": "November 26 Morning Edition",
+      "monthKey": "2026-11",
+      "monthLabel": "November 2026",
+      "summary": "Acute toxicity can disrupt intensive rectal cancer treatment.",
+      "file": "/data/editions/2026-11-26.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 38,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 107,
+        "verifiedRecords": 156
+      }
+    },
     {
       "id": "2026-11-25",
       "editionLabel": "25 November 2026",
@@ -1810,8 +1827,36 @@
     {
       "monthKey": "2026-11",
       "monthLabel": "November 2026",
-      "leadEditionId": "2026-11-25",
+      "leadEditionId": "2026-11-26",
       "highlights": [
+        {
+          "editionId": "2026-11-26",
+          "editionLabel": "26 November 2026",
+          "tag": "Peer-reviewed randomized Phase II; investigational",
+          "title": "Chlorophyllin and acute toxicity during rectal cancer treatment",
+          "summary": "Acute toxicity can disrupt intensive rectal cancer treatment."
+        },
+        {
+          "editionId": "2026-11-26",
+          "editionLabel": "26 November 2026",
+          "tag": "Latest verified approval",
+          "title": "Bezuclastinib + Sunitinib After Imatinib-Treated Advanced GIST",
+          "summary": "FDA approval and US launch 24 November 2026"
+        },
+        {
+          "editionId": "2026-11-26",
+          "editionLabel": "26 November 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+        },
+        {
+          "editionId": "2026-11-26",
+          "editionLabel": "26 November 2026",
+          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
+          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
+          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
+        },
         {
           "editionId": "2026-11-25",
           "editionLabel": "25 November 2026",
@@ -1825,34 +1870,6 @@
           "tag": "Highest-impact treatment pool",
           "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
           "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
-        },
-        {
-          "editionId": "2026-11-25",
-          "editionLabel": "25 November 2026",
-          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
-          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
-          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
-        },
-        {
-          "editionId": "2026-11-24",
-          "editionLabel": "24 November 2026",
-          "tag": "Latest verified approval",
-          "title": "Adjuvant Giredestrant for ER-Positive Early Breast Cancer",
-          "summary": "FDA approval 23 November 2026"
-        },
-        {
-          "editionId": "2026-11-24",
-          "editionLabel": "24 November 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
-        },
-        {
-          "editionId": "2026-11-24",
-          "editionLabel": "24 November 2026",
-          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
-          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
-          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
         }
       ]
     },
