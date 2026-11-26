@@ -4,7 +4,7 @@
 
 - Added the Indian randomized Phase II chlorophyllin study in rectal cancer and the neutral randomized short prehabilitation study before head and neck free flap surgery. Neither establishes a change in routine care.
 - Added Swedish prostate screening risk-stratification follow-up and US PanNET late-recurrence surveillance evidence. Both are observational analyses, not tests of changing screening or surveillance schedules.
-- Added Thermo Fisher's announcement of expanded EXENT monitoring clearance, separate from the prior FDA diagnostic record, and Beta Drugs' exchange-reported Mexico certification, without inferring product-level authorization or availability.
+- Added Beta Drugs' exchange-reported Mexico certification, without inferring product-level authorization or availability. Later coverage of EXENT monitoring repeated a manufacturer announcement outside the review window and was not promoted.
 - The review window was 25 November 06:15 to 26 November 06:15 IST. The BLENREP India launch filing preceded the window; CG Oncology's SUO preview contained no new readout. The already covered PEAK approval, the EMA PRAC agenda and IARC meeting abstracts were not promoted.
 - Existing watchlist categories and details represent the clinical and operational distinctions without a data-model, scoring, navigation or layout change. The detailed Word report was not modified.
 

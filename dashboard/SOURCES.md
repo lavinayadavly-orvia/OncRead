@@ -8,8 +8,6 @@ Updated: 2026-11-26
 
 - Chlorophyllin rectal cancer Phase II: https://jamanetwork.com/journals/jamaoncology/article-abstract/2857374
   https://jamanetwork.com/journals/jamaoncology/fullarticle/2857370
-- EXENT monitoring clearance: https://www.businesswire.com/news/home/20261124848896/en/
-  https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250159.pdf
 - STHLM3 risk-stratified screening: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2857137
   https://www.isrctn.com/ISRCTN84445406
 - PanNET surveillance after year 5: https://jamanetwork.com/journals/jamaoncology/article-abstract/2857371
@@ -18,6 +16,7 @@ Updated: 2026-11-26
   https://clinicaltrials.gov/study/NCT06079697
 - Mexico oncology supply certification: https://nsearchives.nseindia.in/corporate/BETA_25112026130954_press_release_cofepris.pdf
 - Timing and exclusions: The review window was 25 November 06:15 to 26 November 06:15 IST. The BLENREP India launch filing preceded the window; CG Oncology's SUO preview contained no new readout. The already covered PEAK approval, the EMA PRAC agenda and IARC meeting abstracts were not promoted.
+  Thermo Fisher's EXENT announcement was issued at 18:30 IST on 24 November; in-window coverage repeated it without a new FDA document. https://www.businesswire.com/news/home/20261124848896/en/
   https://nsearchives.nseindia.com/corporate/GLAXO1924_24112026114705_Press_release.pdf
   https://cgoncology.com/news-media/
   https://www.ema.europa.eu/en/documents/agenda/agenda-prac-meeting-23-26-november-2026_en.pdf

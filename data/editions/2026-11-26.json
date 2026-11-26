@@ -11,8 +11,8 @@
     "treatments": 38,
     "followupApprovals": 8,
     "indiaMarketed": 4,
-    "watchlistSignals": 107,
-    "verifiedRecords": 156
+    "watchlistSignals": 106,
+    "verifiedRecords": 155
   },
   "headlines": [
     {
@@ -78,7 +78,7 @@
       "date": 0
     }
   ],
-  "sourceCount": 156,
+  "sourceCount": 155,
   "routeSummary": {
     "approval": {
       "route": {
