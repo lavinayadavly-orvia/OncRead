@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-11-26T00:52:35.566Z",
-  "currentEditionId": "2026-11-26",
-  "currentEditionLabel": "26 November 2026",
+  "generatedAt": "2026-11-27T00:45:22.826Z",
+  "currentEditionId": "2026-11-27",
+  "currentEditionLabel": "27 November 2026",
   "editions": [
+    {
+      "id": "2026-11-27",
+      "editionLabel": "27 November 2026",
+      "preparedLabel": "November 27 Morning Edition",
+      "monthKey": "2026-11",
+      "monthLabel": "November 2026",
+      "summary": "The review could affect future access to proton radiotherapy in Chengdu, but the report does not establish a clinical benefit.",
+      "file": "/data/editions/2026-11-27.json",
+      "metrics": {
+        "insights": 4,
+        "treatments": 38,
+        "followupApprovals": 8,
+        "indiaMarketed": 4,
+        "watchlistSignals": 107,
+        "verifiedRecords": 156
+      }
+    },
     {
       "id": "2026-11-26",
       "editionLabel": "26 November 2026",
@@ -1827,8 +1844,36 @@
     {
       "monthKey": "2026-11",
       "monthLabel": "November 2026",
-      "leadEditionId": "2026-11-26",
+      "leadEditionId": "2026-11-27",
       "highlights": [
+        {
+          "editionId": "2026-11-27",
+          "editionLabel": "27 November 2026",
+          "tag": "Company-reported review acceptance; not a device approval",
+          "title": "IBA reports China review acceptance for Chengdu proton therapy filing",
+          "summary": "The review could affect future access to proton radiotherapy in Chengdu, but the report does not establish a clinical benefit."
+        },
+        {
+          "editionId": "2026-11-27",
+          "editionLabel": "27 November 2026",
+          "tag": "Latest verified approval",
+          "title": "Bezuclastinib + Sunitinib After Imatinib-Treated Advanced GIST",
+          "summary": "FDA approval and US launch 24 November 2026"
+        },
+        {
+          "editionId": "2026-11-27",
+          "editionLabel": "27 November 2026",
+          "tag": "Highest-impact treatment pool",
+          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
+          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
+        },
+        {
+          "editionId": "2026-11-27",
+          "editionLabel": "27 November 2026",
+          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
+          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
+          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
+        },
         {
           "editionId": "2026-11-26",
           "editionLabel": "26 November 2026",
@@ -1842,34 +1887,6 @@
           "tag": "Latest verified approval",
           "title": "Bezuclastinib + Sunitinib After Imatinib-Treated Advanced GIST",
           "summary": "FDA approval and US launch 24 November 2026"
-        },
-        {
-          "editionId": "2026-11-26",
-          "editionLabel": "26 November 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
-        },
-        {
-          "editionId": "2026-11-26",
-          "editionLabel": "26 November 2026",
-          "tag": "PFS-positive Phase III topline; modest benefit, immature OS, and severe ILD concern",
-          "title": "DYNASTY-Breast02 trastuzumab pamirtecan in HR-positive, HER2-low metastatic breast cancer",
-          "summary": "A statistically positive pivotal trial does not automatically establish a clinically useful option. The sponsor's limited-benefit assessment and severe ILD signal may alter filing, development, and benefit-risk decisions for this ADC."
-        },
-        {
-          "editionId": "2026-11-25",
-          "editionLabel": "25 November 2026",
-          "tag": "Latest verified approval",
-          "title": "Bezuclastinib + Sunitinib After Imatinib-Treated Advanced GIST",
-          "summary": "FDA approval and US launch 24 November 2026"
-        },
-        {
-          "editionId": "2026-11-25",
-          "editionLabel": "25 November 2026",
-          "tag": "Highest-impact treatment pool",
-          "title": "Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer",
-          "summary": "FDA granted accelerated approval to dostarlimab for adults with previously untreated Stage II/III dMMR or MSI-H locally advanced rectal cancer. Patients with a clinical complete response can enter intensive non-operative surveillance, creating an approved immunotherapy-first organ-preservation pathway while confirmatory clinical benefit remains required."
         }
       ]
     },

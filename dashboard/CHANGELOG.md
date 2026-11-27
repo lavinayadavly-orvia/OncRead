@@ -1,5 +1,13 @@
 # Dashboard Changelog
 
+## 2026-11-27 - China Lung Cancer and Proton Therapy Review Milestones
+
+- Reviewed official disclosures from 26 November 06:15 to 27 November 06:15 IST, including clinical evidence, safety notices, screening, research infrastructure and access.
+- Updated the existing SANOVO record for HUTCHMED's reported first-line China filing acceptance. Preserved the Phase III conference results, immature secondary survival, and distinction from the post-EGFR-TKI indication.
+- Added IBA's reported Chengdu proton therapy registration acceptance to the regulatory watchlist; the available disclosure does not establish device approval, comparative clinical benefit or local availability.
+- Logged omissions: earlier-dated Bayer licensing and FLASH first-treatment news, IARC coverage of the August tissue protocol, the result-free BEXERA dosing announcement, and safety and screening materials without a new oncology-specific decision.
+- Existing watchlist and detail panels capture both milestones without changes to the data model, evidence ratings, navigation or layout. The Word report was unchanged.
+
 ## 2026-11-26 - Supportive Care, Screening, Surveillance and Supply
 
 - Added the Indian randomized Phase II chlorophyllin study in rectal cancer and the neutral randomized short prehabilitation study before head and neck free flap surgery. Neither establishes a change in routine care.

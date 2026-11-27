@@ -1,8 +1,24 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-26
+Updated: 2026-11-27
 
 ## Method
+
+## 2026-11-27 Verified Updates and Review Checks
+
+- HUTCHMED exchange announcement: 26 November China first-line SANOVO filing acceptance, not approval. https://www.lse.co.uk/rns/HCM/nda-acceptance-in-china-for-orpathys-osimertinib-eyunnne7a20duhs.html
+- SANOVO Phase III design and earlier science: https://clinicaltrials.gov/study/NCT05009836
+  https://www.investegate.co.uk/announcement/rns/hutchmed-china-limited--hcm/sanovo-phase-iii-data-at-esmo/9840991
+- IBA corporate update: Chengdu proton therapy registration review acceptance; no independently confirmed approval or trial effect estimates. https://www.globenewswire.com/news-release/2026/11/26/3410661/0/en/third-quarter-2026-update-strong-order-intake-and-resilient-backlog-underpin-fy2026-guidance.html
+- FDA, EMA, CDSCO, MHRA, WHO/IARC, journal, conference and registry searches plus access, pricing and procurement checks identified no additional in-window change for promotion. EMA pharmacovigilance revision was finalized before the window; the dated implementation does not constitute a new oncology safety action. MHRA roundup and UK screening meeting agenda did not establish a new cancer-specific decision.
+  https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-good-pharmacovigilance-practices-gvp-module-ix-signal-management-rev-2_en.pdf
+  https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-november-2026
+  https://www.gov.uk/government/publications/uk-nsc-meeting-november-2026
+- IARC tissue workflow highlighted an August protocol; first conformal FLASH treatment was announced in October. BEXERA first dosing supplied no outcome; Bayer-Hansoh licensing was already announced 25 November at 15:00 CET, outside this window.
+  https://www.iarc.who.int/news-events/centralized-processing-of-frozen-tumor-tissues-for-global-cancer-genomics/
+  https://www.iba-worldwide.com/first-patient-treated-c-flash-01-conformalflashr-clinical-trial
+  https://faron.com/releases-and-announcements/faron-announces-first-patient-dosed-in-phase-2b-bexera-trial-of-bexmarilimab-in-treatment-naive-hr-mds/
+  https://www.bayer.com/media/en-us/bayer-strengthens-next-generation-oncology-pipeline-through-global-licensing-agreement-with-hansoh-pharma
 
 ## 2026-11-26 Verified Updates and Review Checks
 
