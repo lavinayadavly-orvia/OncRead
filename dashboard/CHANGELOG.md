@@ -1,5 +1,13 @@
 # Dashboard Changelog
 
+## 2026-11-28 - UK Myeloma Approval, Brazil Biosimilar Supply and Slovenia Screening
+
+- Added the UK MHRA authorization for linvoseltamab after three or more prior therapies, with single-arm response evidence and unresolved reimbursement and India access.
+- Added Biocon's Brazil disclosure about Hertuzo and its local supply pathway. ANVISA approved the biosimilar on 23 November, not on the date of the 27 November company disclosure. Procurement, launch availability and price remain unverified.
+- Added the Slovenian ICSIS project closeout across cervical, prostate and lung screening, without assuming new national rollout, outcomes or policy transfer to India.
+- Checked regulator, journal, conference, registry, safety and access surfaces. Excluded recirculated VOLGA and FDA decisions, the earlier Jhpiego RFP, routine research grants, and the previously disclosed TARGET-D 301 design without results.
+- Existing watchlist and systems views accommodate the updates without changing evidence definitions, filters, navigation or layout. The Word report was unchanged.
+
 ## 2026-11-27 - China Lung Cancer and Proton Therapy Review Milestones
 
 - Reviewed official disclosures from 26 November 06:15 to 27 November 06:15 IST, including clinical evidence, safety notices, screening, research infrastructure and access.

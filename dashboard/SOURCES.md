@@ -1,8 +1,26 @@
 # Dashboard Source Ledger
 
-Updated: 2026-11-27
+Updated: 2026-11-28
 
 ## Method
+
+## 2026-11-28 Verified Updates and Review Checks
+
+- UK MHRA approval: https://www.gov.uk/government/news/mhra-approves-linvoseltamab-to-treat-adults-with-multiple-myeloma
+  https://pubmed.ncbi.nlm.nih.gov/41387038/
+  https://www.ema.europa.eu/en/documents/product-information/lynozyfic-epar-product-information_en.pdf
+  https://www.nice.org.uk/guidance/indevelopment?ps=9999
+- Brazil Hertuzo: 27 November Biocon disclosure, with earlier approval and partnership dates verified from ANVISA and Bahiafarma. https://www.biocon.com/biocon-announces-approval-for-biosimilar-pertuzumab-in-brazil-through-local-partner-bionovis/
+  https://www.gov.br/anvisa/en/updates/anvisa-approves-new-drug-for-breast-cancer-treatment
+  https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-registro-de-medicamento-para-cancer-de-mama
+  https://www.ba.gov.br/bahiafarma/noticias/2026-10/2434/bahiafarma-tem-publicado-primeiro-acordo-de-transferencia-de-tecnologia-para
+- Slovenia ICSIS screening: https://www.iarc.who.int/news-events/iarc-researchers-highlight-progress-in-screening-initiatives-in-slovenia/
+  https://www.onko-i.si/raziskovanje/projekti-in-projektne-novice/mednarodni-projekti
+- Review window: 27 November 06:15 to 28 November 06:15 IST. The English ANVISA update reiterated the 23 November VOLGA authorization; no new availability milestone was identified. FDA roundup, EMA materials, research grants and the previously circulated Jhpiego screening RFP did not establish a new comparable decision. The TARGET-D 301 design had already been disclosed and no efficacy results were reported; the current registry entry was not independently retrievable during review.
+  https://www.fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications
+  https://www.ema.europa.eu/en/documents/agenda/agenda-prac-meeting-23-26-november-2026_en.pdf
+  https://devnetjobsindia.org/jobdescription.aspx?job_id=308575
+  https://investor.verastem.com/static-files/efb41a38-64e7-4561-b280-0defaea513b8
 
 ## 2026-11-27 Verified Updates and Review Checks
 
